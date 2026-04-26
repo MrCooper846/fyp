@@ -18,7 +18,21 @@ __pycache__/
 .cache/
 cache/
 logs/
-debug_logs/
+debug_logs/*
+!debug_logs/
+!debug_logs/README.md
+!debug_logs/legacy_it_generated/
+!debug_logs/legacy_it_generated/*.json
+!debug_logs/legacy_it_heuristic/
+!debug_logs/legacy_it_heuristic/*.json
+!debug_logs/legacy_it_real/
+!debug_logs/legacy_it_real/*.json
+!debug_logs/nafsa_it_hybrid_v2/
+!debug_logs/nafsa_it_hybrid_v2/*.json
+!debug_logs/nafsa_FR_failure_subset/
+!debug_logs/nafsa_FR_failure_subset/*.json
+!debug_logs/nafsa_GB_extraction_patch2/
+!debug_logs/nafsa_GB_extraction_patch2/*.json
 downloads/
 coverage_runs/
 coverage_smoke/
@@ -32,6 +46,13 @@ benchmark_contacts/
 *.json
 !package.json
 !manual_trace_extension/manifest.json
+!debug_logs/README.md
+!debug_logs/legacy_it_generated/*.json
+!debug_logs/legacy_it_heuristic/*.json
+!debug_logs/legacy_it_real/*.json
+!debug_logs/nafsa_it_hybrid_v2/*.json
+!debug_logs/nafsa_FR_failure_subset/*.json
+!debug_logs/nafsa_GB_extraction_patch2/*.json
 data/*.csv
 data/*.json
 

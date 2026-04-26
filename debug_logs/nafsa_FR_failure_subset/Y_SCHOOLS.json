@@ -1,0 +1,2871 @@
+{
+  "target": {
+    "name": "Y SCHOOLS",
+    "url": "https://www.yschools.fr",
+    "source_url": "https://www.yschools.fr",
+    "org_type": "university",
+    "country": "FR",
+    "source": "openalex",
+    "profile": "nafsa"
+  },
+  "outcome": {
+    "hard_success": false,
+    "soft_success": false,
+    "failed": false,
+    "failure_reason": null,
+    "pages_fetched": 19,
+    "llm_calls": 1,
+    "ranked_contacts": 0,
+    "qualified_contacts": 0
+  },
+  "discovery_trace": [
+    {
+      "url": "https://yschools.fr",
+      "source_type": "form",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "homepage_form",
+      "anchor_text": "directory search",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 10.45,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://www.yschools.fr/le-groupe/gouvernance",
+      "source_type": "search",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "first_hop_search_link",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr/le-groupe/gouvernance",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 4.95,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://yschools.fr/contact/",
+      "source_type": "search",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "first_hop_search_link",
+      "anchor_text": "",
+      "parent_url": "https://yschools.fr/contact/",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 4.2,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://yschools.fr/actualites/forum-alternance-de-y-schools-le-mardi-14-avril-2026/",
+      "source_type": "search",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "homepage_search_link",
+      "anchor_text": "Forum Alternance de Y SCHOOLS le mardi 14 avril 2026 Vous êtes à la recherche d’un ou de plusieurs alternant(s) ? Nous vous invitons à venir à la rencontre de..",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 0.55,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://yschools.fr/actualites/table-ronde-bien-etre-resilience-et-innovation-sociale-quand-la-recherche-eclaire-laction/",
+      "source_type": "search",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "homepage_search_link",
+      "anchor_text": "Table ronde : bien-être, résilience et innovation sociale, quand la recherche éclaire l’action ! Le 17 novembre 2025, Y SCHOOLS accueillera une table ronde cons",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 0.55,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://www.yschools.fr",
+      "source_type": "search",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "homepage_search_link",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 0.55,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_top_heuristic:profile_slug"
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/directory",
+      "source_type": "heuristic",
+      "source_strategy": "heuristic_slugs",
+      "source_stage": "generic_slug_template",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/fr/personnels",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_high_yield_seed"
+    },
+    {
+      "url": "https://www.yschools.fr/personnels",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.45,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_high_yield_seed"
+    },
+    {
+      "url": "https://www.yschools.fr/personnel",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 8.25,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_top_heuristic:profile_slug"
+    },
+    {
+      "url": "https://www.yschools.fr/en/internationale/personnels",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 17.25,
+      "selected_for_planning": true,
+      "selection_reason": "Contains staff details specifically for international partnerships, ideal for finding relevant contacts."
+    },
+    {
+      "url": "https://www.yschools.fr/fr/internationale/personnels",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 17.25,
+      "selected_for_planning": true,
+      "selection_reason": "French version of the staff directory focusing on international relations, important for outreach."
+    },
+    {
+      "url": "https://www.yschools.fr/internationale/personnels",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 16.45,
+      "selected_for_planning": true,
+      "selection_reason": "General staff directory with international focus, may contain relevant contacts."
+    },
+    {
+      "url": "https://www.yschools.fr/en/internationale/personnel",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 15.05,
+      "selected_for_planning": true,
+      "selection_reason": "Another staff page for international affairs, helpful for targeting outreach."
+    },
+    {
+      "url": "https://www.yschools.fr/fr/internationale/personnel",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 15.05,
+      "selected_for_planning": true,
+      "selection_reason": "French version of the personnel page for international roles, relevant for contacts."
+    },
+    {
+      "url": "https://www.yschools.fr/internationale/personnel",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 14.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/mobility",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 12.85,
+      "selected_for_planning": true,
+      "selection_reason": "Mobility directory, crucial for connections related to exchange programs and study abroad."
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/mobility",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 12.85,
+      "selected_for_planning": true,
+      "selection_reason": "French mobility directory for outreach related to student exchange programs."
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/mobility",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 12.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/exchange",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "Directory specifically for exchange programs, essential for international partnerships."
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/study-abroad",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "Study abroad directory, vital for outreach and relevant contacts."
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/studyabroad",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/exchange",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "French exchange directory, good for finding partners in international exchanges."
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/study-abroad",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "French version of the study abroad directory, beneficial for localized outreach."
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/studyabroad",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/exchange",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.45,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/study-abroad",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.45,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/studyabroad",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "anchor_text": "",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.45,
+      "selected_for_planning": false
+    }
+  ],
+  "discovery_strategy_trace": {
+    "heuristic_only": [
+      {
+        "url": "https://www.yschools.fr/about/leadership/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.yschools.fr/about/leadership/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.yschools.fr/about/leadership/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.yschools.fr/about/leadership/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.yschools.fr/administration/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.yschools.fr/administration/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.yschools.fr/administration/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.yschools.fr/administration/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://global.yschools.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://global.yschools.fr/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://international.yschools.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      }
+    ],
+    "generated_slug_only": [
+      {
+        "url": "https://yschools.fr",
+        "source_type": "form",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_form",
+        "anchor_text": "directory search",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/le-groupe/gouvernance",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr/le-groupe/gouvernance",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 4.95
+      },
+      {
+        "url": "https://yschools.fr/contact/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "",
+        "parent_url": "https://yschools.fr/contact/",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 4.2
+      },
+      {
+        "url": "https://yschools.fr/actualites/forum-alternance-de-y-schools-le-mardi-14-avril-2026/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Forum Alternance de Y SCHOOLS le mardi 14 avril 2026 Vous êtes à la recherche d’un ou de plusieurs alternant(s) ? Nous vous invitons à venir à la rencontre de..",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://yschools.fr/actualites/table-ronde-bien-etre-resilience-et-innovation-sociale-quand-la-recherche-eclaire-laction/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Table ronde : bien-être, résilience et innovation sociale, quand la recherche éclaire l’action ! Le 17 novembre 2025, Y SCHOOLS accueillera une table ronde cons",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://www.yschools.fr",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://www.yschools.fr/fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.yschools.fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.yschools.fr/fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/personnel",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.yschools.fr/en/internationale/personnels",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 17.25
+      },
+      {
+        "url": "https://www.yschools.fr/fr/internationale/personnels",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 17.25
+      },
+      {
+        "url": "https://www.yschools.fr/internationale/personnels",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 16.45
+      },
+      {
+        "url": "https://global.yschools.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://global.yschools.fr/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://international.yschools.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      }
+    ],
+    "real_link_only": [
+      {
+        "url": "https://yschools.fr",
+        "source_type": "form",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_form",
+        "anchor_text": "directory search",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/le-groupe/gouvernance",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr/le-groupe/gouvernance",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 4.95
+      },
+      {
+        "url": "https://yschools.fr/contact/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "",
+        "parent_url": "https://yschools.fr/contact/",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 4.2
+      },
+      {
+        "url": "https://yschools.fr/actualites/forum-alternance-de-y-schools-le-mardi-14-avril-2026/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Forum Alternance de Y SCHOOLS le mardi 14 avril 2026 Vous êtes à la recherche d’un ou de plusieurs alternant(s) ? Nous vous invitons à venir à la rencontre de..",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://yschools.fr/actualites/table-ronde-bien-etre-resilience-et-innovation-sociale-quand-la-recherche-eclaire-laction/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Table ronde : bien-être, résilience et innovation sociale, quand la recherche éclaire l’action ! Le 17 novembre 2025, Y SCHOOLS accueillera une table ronde cons",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://www.yschools.fr",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://global.yschools.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://global.yschools.fr/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://international.yschools.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      }
+    ],
+    "hybrid": [
+      {
+        "url": "https://yschools.fr",
+        "source_type": "form",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_form",
+        "anchor_text": "directory search",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/le-groupe/gouvernance",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr/le-groupe/gouvernance",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 4.95
+      },
+      {
+        "url": "https://yschools.fr/contact/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "",
+        "parent_url": "https://yschools.fr/contact/",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 4.2
+      },
+      {
+        "url": "https://yschools.fr/actualites/forum-alternance-de-y-schools-le-mardi-14-avril-2026/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Forum Alternance de Y SCHOOLS le mardi 14 avril 2026 Vous êtes à la recherche d’un ou de plusieurs alternant(s) ? Nous vous invitons à venir à la rencontre de..",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://yschools.fr/actualites/table-ronde-bien-etre-resilience-et-innovation-sociale-quand-la-recherche-eclaire-laction/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Table ronde : bien-être, résilience et innovation sociale, quand la recherche éclaire l’action ! Le 17 novembre 2025, Y SCHOOLS accueillera une table ronde cons",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://www.yschools.fr",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "https://www.yschools.fr/fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.yschools.fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.yschools.fr/directory",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85
+      },
+      {
+        "url": "https://www.yschools.fr/fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/personnel",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.yschools.fr/en/internationale/personnels",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 17.25
+      },
+      {
+        "url": "https://www.yschools.fr/fr/internationale/personnels",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 17.25
+      },
+      {
+        "url": "https://www.yschools.fr/internationale/personnels",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 16.45
+      },
+      {
+        "url": "https://www.yschools.fr/en/internationale/personnel",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 15.05
+      },
+      {
+        "url": "https://www.yschools.fr/fr/internationale/personnel",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 15.05
+      },
+      {
+        "url": "https://www.yschools.fr/internationale/personnel",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25
+      },
+      {
+        "url": "https://www.yschools.fr/en/annuaire/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.85
+      },
+      {
+        "url": "https://www.yschools.fr/fr/annuaire/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.85
+      },
+      {
+        "url": "https://www.yschools.fr/annuaire/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.yschools.fr/en/annuaire/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/en/annuaire/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/en/annuaire/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/fr/annuaire/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/fr/annuaire/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/fr/annuaire/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.yschools.fr/annuaire/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/annuaire/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.yschools.fr/annuaire/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "anchor_text": "",
+        "parent_url": "https://www.yschools.fr",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      }
+    ]
+  },
+  "homepage_rescue_trace": [
+    {
+      "url": "https://www.yschools.fr",
+      "reason": "original",
+      "fetched": "true"
+    }
+  ],
+  "dead_urls": [
+    "https://www.yschools.fr/annuaire/exchange",
+    "https://www.yschools.fr/annuaire/mobility",
+    "https://www.yschools.fr/annuaire/study-abroad",
+    "https://www.yschools.fr/directory",
+    "https://www.yschools.fr/en/annuaire/exchange",
+    "https://www.yschools.fr/en/annuaire/mobility",
+    "https://www.yschools.fr/en/annuaire/study-abroad",
+    "https://www.yschools.fr/en/annuaire/studyabroad",
+    "https://www.yschools.fr/en/internationale/personnel",
+    "https://www.yschools.fr/en/internationale/personnels",
+    "https://www.yschools.fr/fr/annuaire",
+    "https://www.yschools.fr/fr/annuaire/exchange",
+    "https://www.yschools.fr/fr/annuaire/mobility",
+    "https://www.yschools.fr/fr/annuaire/study-abroad",
+    "https://www.yschools.fr/fr/internationale/personnel",
+    "https://www.yschools.fr/fr/internationale/personnels",
+    "https://www.yschools.fr/fr/personnels",
+    "https://www.yschools.fr/internationale/personnels",
+    "https://www.yschools.fr/personnel"
+  ],
+  "mode_history": [
+    {
+      "mode": "office_discovery",
+      "reason": "initial_state",
+      "goal": "find direct outreach contacts"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/en/internationale/personnels"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/internationale/personnels"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/internationale/personnels"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/en/annuaire/mobility"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/annuaire/mobility"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/en/annuaire/exchange"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/en/annuaire/study-abroad"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/annuaire/exchange"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/annuaire/study-abroad"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/en/internationale/personnel"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/internationale/personnel"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/personnels"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/fr/annuaire"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/personnel"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/annuaire/mobility"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/en/annuaire/studyabroad"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/annuaire/exchange"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/annuaire/study-abroad"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.yschools.fr/directory"
+    },
+    {
+      "mode": "stop",
+      "reason": "no_actions_remaining",
+      "goal": "no_high_value_actions_remaining"
+    }
+  ],
+  "action_history": [
+    {
+      "action": "rank_candidates",
+      "reason": "Prioritize pages containing staff directories and specific mobility/exchange information for effective outreach targeting.",
+      "details": {
+        "count": 15,
+        "phase": "scout"
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Contains staff details specifically for international partnerships, ideal for finding relevant contacts.",
+      "details": {
+        "url": "https://www.yschools.fr/en/internationale/personnels",
+        "page_type": "staff directory",
+        "expected_yield": 15.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "French version of the staff directory focusing on international relations, important for outreach.",
+      "details": {
+        "url": "https://www.yschools.fr/fr/internationale/personnels",
+        "page_type": "staff directory",
+        "expected_yield": 15.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "General staff directory with international focus, may contain relevant contacts.",
+      "details": {
+        "url": "https://www.yschools.fr/internationale/personnels",
+        "page_type": "staff directory",
+        "expected_yield": 14.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Mobility directory, crucial for connections related to exchange programs and study abroad.",
+      "details": {
+        "url": "https://www.yschools.fr/en/annuaire/mobility",
+        "page_type": "mobility directory",
+        "expected_yield": 12.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "French mobility directory for outreach related to student exchange programs.",
+      "details": {
+        "url": "https://www.yschools.fr/fr/annuaire/mobility",
+        "page_type": "mobility directory",
+        "expected_yield": 12.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Directory specifically for exchange programs, essential for international partnerships.",
+      "details": {
+        "url": "https://www.yschools.fr/en/annuaire/exchange",
+        "page_type": "exchange directory",
+        "expected_yield": 11.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Study abroad directory, vital for outreach and relevant contacts.",
+      "details": {
+        "url": "https://www.yschools.fr/en/annuaire/study-abroad",
+        "page_type": "study abroad directory",
+        "expected_yield": 11.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "French exchange directory, good for finding partners in international exchanges.",
+      "details": {
+        "url": "https://www.yschools.fr/fr/annuaire/exchange",
+        "page_type": "exchange directory",
+        "expected_yield": 11.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "French version of the study abroad directory, beneficial for localized outreach.",
+      "details": {
+        "url": "https://www.yschools.fr/fr/annuaire/study-abroad",
+        "page_type": "study abroad directory",
+        "expected_yield": 11.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Another staff page for international affairs, helpful for targeting outreach.",
+      "details": {
+        "url": "https://www.yschools.fr/en/internationale/personnel",
+        "page_type": "staff directory",
+        "expected_yield": 10.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "French version of the personnel page for international roles, relevant for contacts.",
+      "details": {
+        "url": "https://www.yschools.fr/fr/internationale/personnel",
+        "page_type": "staff directory",
+        "expected_yield": 10.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_high_yield_seed",
+      "details": {
+        "url": "https://www.yschools.fr/fr/personnels",
+        "page_type": "profile_slug",
+        "expected_yield": 11.25
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "details": {
+        "url": "https://www.yschools.fr/fr/annuaire",
+        "page_type": "profile_slug",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "details": {
+        "url": "https://www.yschools.fr/personnel",
+        "page_type": "profile_slug",
+        "expected_yield": 8.25
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "gap_fill",
+      "details": {
+        "count": 7
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "https://www.yschools.fr/annuaire/mobility",
+        "page_type": "family_template",
+        "expected_yield": 12.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "https://www.yschools.fr/en/annuaire/studyabroad",
+        "page_type": "family_template",
+        "expected_yield": 11.25
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "https://www.yschools.fr/annuaire/exchange",
+        "page_type": "family_template",
+        "expected_yield": 10.45
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "https://www.yschools.fr/annuaire/study-abroad",
+        "page_type": "family_template",
+        "expected_yield": 10.45
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:heuristic_slugs",
+      "details": {
+        "url": "https://www.yschools.fr/directory",
+        "page_type": "heuristic",
+        "expected_yield": 9.85
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "gap_fill",
+      "details": {
+        "count": 0
+      }
+    },
+    {
+      "action": "stop_with_reason",
+      "reason": "no_high_value_actions_remaining",
+      "details": {}
+    }
+  ],
+  "planner_history": [
+    {
+      "phase": "scout",
+      "strategy": "Prioritize pages containing staff directories and specific mobility/exchange information for effective outreach targeting.",
+      "expected_roles": [
+        "Head of International Partnerships",
+        "Director of Global Engagement",
+        "International Relations Lead",
+        "Mobility / Exchange Coordinator"
+      ],
+      "stop_hint": "End of ranking.",
+      "ranked_pages": [
+        {
+          "url": "https://www.yschools.fr/fr/personnels",
+          "reason": "deterministic_high_yield_seed",
+          "expected_yield": 11.25,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "https://www.yschools.fr/personnels",
+          "reason": "deterministic_high_yield_seed",
+          "expected_yield": 10.45,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "https://www.yschools.fr/fr/annuaire",
+          "reason": "deterministic_top_heuristic:profile_slug",
+          "expected_yield": 9.05,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "https://www.yschools.fr/personnel",
+          "reason": "deterministic_top_heuristic:profile_slug",
+          "expected_yield": 8.25,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "https://www.yschools.fr/en/internationale/personnels",
+          "reason": "Contains staff details specifically for international partnerships, ideal for finding relevant contacts.",
+          "expected_yield": 15.0,
+          "page_type": "staff directory"
+        },
+        {
+          "url": "https://www.yschools.fr/fr/internationale/personnels",
+          "reason": "French version of the staff directory focusing on international relations, important for outreach.",
+          "expected_yield": 15.0,
+          "page_type": "staff directory"
+        },
+        {
+          "url": "https://www.yschools.fr/internationale/personnels",
+          "reason": "General staff directory with international focus, may contain relevant contacts.",
+          "expected_yield": 14.0,
+          "page_type": "staff directory"
+        },
+        {
+          "url": "https://www.yschools.fr/en/annuaire/mobility",
+          "reason": "Mobility directory, crucial for connections related to exchange programs and study abroad.",
+          "expected_yield": 12.0,
+          "page_type": "mobility directory"
+        },
+        {
+          "url": "https://www.yschools.fr/fr/annuaire/mobility",
+          "reason": "French mobility directory for outreach related to student exchange programs.",
+          "expected_yield": 12.0,
+          "page_type": "mobility directory"
+        },
+        {
+          "url": "https://www.yschools.fr/en/annuaire/exchange",
+          "reason": "Directory specifically for exchange programs, essential for international partnerships.",
+          "expected_yield": 11.0,
+          "page_type": "exchange directory"
+        },
+        {
+          "url": "https://www.yschools.fr/fr/annuaire/exchange",
+          "reason": "French exchange directory, good for finding partners in international exchanges.",
+          "expected_yield": 11.0,
+          "page_type": "exchange directory"
+        },
+        {
+          "url": "https://www.yschools.fr/en/annuaire/study-abroad",
+          "reason": "Study abroad directory, vital for outreach and relevant contacts.",
+          "expected_yield": 11.0,
+          "page_type": "study abroad directory"
+        },
+        {
+          "url": "https://www.yschools.fr/fr/annuaire/study-abroad",
+          "reason": "French version of the study abroad directory, beneficial for localized outreach.",
+          "expected_yield": 11.0,
+          "page_type": "study abroad directory"
+        },
+        {
+          "url": "https://www.yschools.fr/en/internationale/personnel",
+          "reason": "Another staff page for international affairs, helpful for targeting outreach.",
+          "expected_yield": 10.0,
+          "page_type": "staff directory"
+        },
+        {
+          "url": "https://www.yschools.fr/fr/internationale/personnel",
+          "reason": "French version of the personnel page for international roles, relevant for contacts.",
+          "expected_yield": 10.0,
+          "page_type": "staff directory"
+        }
+      ]
+    },
+    {
+      "phase": "gap_fill",
+      "strategy": "deterministic_unvisited_candidates",
+      "ranked_pages": [
+        "https://www.yschools.fr/annuaire/mobility",
+        "https://www.yschools.fr/en/annuaire/studyabroad",
+        "https://www.yschools.fr/fr/annuaire/studyabroad",
+        "https://www.yschools.fr/annuaire/exchange",
+        "https://www.yschools.fr/annuaire/study-abroad",
+        "https://www.yschools.fr/annuaire/studyabroad",
+        "https://www.yschools.fr/directory"
+      ]
+    },
+    {
+      "phase": "gap_fill",
+      "strategy": "deterministic_unvisited_candidates",
+      "ranked_pages": []
+    }
+  ],
+  "evidence_log": [
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/en/internationale/personnels",
+      "reason": "Contains staff details specifically for international partnerships, ideal for finding relevant contacts.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 15.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/internationale/personnels",
+      "reason": "French version of the staff directory focusing on international relations, important for outreach.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 15.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/internationale/personnels",
+      "reason": "General staff directory with international focus, may contain relevant contacts.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 14.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/en/annuaire/mobility",
+      "reason": "Mobility directory, crucial for connections related to exchange programs and study abroad.",
+      "page_type": "mobility directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 12.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/annuaire/mobility",
+      "reason": "French mobility directory for outreach related to student exchange programs.",
+      "page_type": "mobility directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 12.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/en/annuaire/exchange",
+      "reason": "Directory specifically for exchange programs, essential for international partnerships.",
+      "page_type": "exchange directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/en/annuaire/study-abroad",
+      "reason": "Study abroad directory, vital for outreach and relevant contacts.",
+      "page_type": "study abroad directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/annuaire/exchange",
+      "reason": "French exchange directory, good for finding partners in international exchanges.",
+      "page_type": "exchange directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/annuaire/study-abroad",
+      "reason": "French version of the study abroad directory, beneficial for localized outreach.",
+      "page_type": "study abroad directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/en/internationale/personnel",
+      "reason": "Another staff page for international affairs, helpful for targeting outreach.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/internationale/personnel",
+      "reason": "French version of the personnel page for international roles, relevant for contacts.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/personnels",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/fr/annuaire",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/personnel",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 8.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/annuaire/mobility",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 12.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/en/annuaire/studyabroad",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/annuaire/exchange",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.45,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/annuaire/study-abroad",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.45,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.yschools.fr/directory",
+      "reason": "gap_fill:heuristic_slugs",
+      "page_type": "heuristic",
+      "source_strategy": "heuristic_slugs",
+      "source_stage": "generic_slug_template",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 9.85,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    }
+  ],
+  "extraction_trace": [
+    {
+      "url": "https://www.yschools.fr/en/internationale/personnels",
+      "reason": "Contains staff details specifically for international partnerships, ideal for finding relevant contacts.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 15.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/internationale/personnels",
+      "reason": "French version of the staff directory focusing on international relations, important for outreach.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 15.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/internationale/personnels",
+      "reason": "General staff directory with international focus, may contain relevant contacts.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 14.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/mobility",
+      "reason": "Mobility directory, crucial for connections related to exchange programs and study abroad.",
+      "page_type": "mobility directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 12.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/mobility",
+      "reason": "French mobility directory for outreach related to student exchange programs.",
+      "page_type": "mobility directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 12.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/exchange",
+      "reason": "Directory specifically for exchange programs, essential for international partnerships.",
+      "page_type": "exchange directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/study-abroad",
+      "reason": "Study abroad directory, vital for outreach and relevant contacts.",
+      "page_type": "study abroad directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/exchange",
+      "reason": "French exchange directory, good for finding partners in international exchanges.",
+      "page_type": "exchange directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/study-abroad",
+      "reason": "French version of the study abroad directory, beneficial for localized outreach.",
+      "page_type": "study abroad directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/en/internationale/personnel",
+      "reason": "Another staff page for international affairs, helpful for targeting outreach.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/internationale/personnel",
+      "reason": "French version of the personnel page for international roles, relevant for contacts.",
+      "page_type": "staff directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/personnels",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "family_signature": "www.yschools.fr:personnels",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": "www.yschools.fr:annuaire",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/personnel",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 8.25,
+      "family_signature": "www.yschools.fr:personnel",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/mobility",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 12.05,
+      "family_signature": "www.yschools.fr:mobility",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/studyabroad",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_language_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "family_signature": "www.yschools.fr:studyabroad",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/exchange",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.45,
+      "family_signature": "www.yschools.fr:exchange",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/study-abroad",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_branch",
+      "parent_url": "https://www.yschools.fr",
+      "shell_context_key": "family_templates|family_template_branch|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 10.45,
+      "family_signature": "www.yschools.fr:study-abroad",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "https://www.yschools.fr/directory",
+      "reason": "gap_fill:heuristic_slugs",
+      "page_type": "heuristic",
+      "source_strategy": "heuristic_slugs",
+      "source_stage": "generic_slug_template",
+      "parent_url": "",
+      "shell_context_key": "heuristic_slugs|generic_slug_template|https://www.yschools.fr",
+      "page_family": "directory",
+      "expected_yield": 9.85,
+      "family_signature": "www.yschools.fr:directory",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    }
+  ],
+  "pruned_candidates": [
+    {
+      "url": "https://www.yschools.fr/fr/personnels",
+      "page_type": "profile_slug",
+      "expected_yield": 11.25,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:personnels",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/personnels",
+      "page_type": "profile_slug",
+      "expected_yield": 10.45,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.yschools.fr:personnels"
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire",
+      "page_type": "profile_slug",
+      "expected_yield": 9.05,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:annuaire",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/personnel",
+      "page_type": "profile_slug",
+      "expected_yield": 8.25,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:personnel",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire",
+      "page_type": "profile_slug",
+      "expected_yield": 8.25,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.yschools.fr:annuaire"
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/internationale/personnel",
+      "page_type": "family_template",
+      "expected_yield": 14.25,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.yschools.fr:personnel"
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/mobility",
+      "page_type": "family_template",
+      "expected_yield": 12.05,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:mobility",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/en/annuaire/studyabroad",
+      "page_type": "family_template",
+      "expected_yield": 11.25,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:studyabroad",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/fr/annuaire/studyabroad",
+      "page_type": "family_template",
+      "expected_yield": 11.25,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.yschools.fr:studyabroad"
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/studyabroad",
+      "page_type": "family_template",
+      "expected_yield": 10.45,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.yschools.fr:studyabroad"
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/exchange",
+      "page_type": "family_template",
+      "expected_yield": 10.45,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:exchange",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/annuaire/study-abroad",
+      "page_type": "family_template",
+      "expected_yield": 10.45,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:study-abroad",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "https://www.yschools.fr/directory",
+      "page_type": "heuristic",
+      "expected_yield": 9.85,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.yschools.fr:directory",
+        "text_length": 0
+      }
+    }
+  ],
+  "person_candidates": [],
+  "role_holder_candidates": [],
+  "enrichment_trace": [],
+  "search_attempts": [],
+  "pattern_inference_trace": [],
+  "missing_email_candidates": [],
+  "rejected_contacts": [],
+  "deduped_contacts": [],
+  "dead_candidate_signatures": [
+    "www.yschools.fr:annuaire",
+    "www.yschools.fr:directory",
+    "www.yschools.fr:exchange",
+    "www.yschools.fr:mobility",
+    "www.yschools.fr:personnel",
+    "www.yschools.fr:personnels",
+    "www.yschools.fr:study-abroad",
+    "www.yschools.fr:studyabroad"
+  ],
+  "dead_shell_contexts": [],
+  "repeated_zero_evidence_signatures": {},
+  "stop_reason": "no_high_value_actions_remaining",
+  "ranked_contacts": [],
+  "final_contacts_with_provenance": []
+}

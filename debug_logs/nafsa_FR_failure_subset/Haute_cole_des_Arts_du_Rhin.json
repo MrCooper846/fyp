@@ -1,0 +1,2646 @@
+{
+  "target": {
+    "name": "Haute École des Arts du Rhin",
+    "url": "http://www.hear.fr",
+    "source_url": "http://www.hear.fr/",
+    "org_type": "university",
+    "country": "FR",
+    "source": "openalex",
+    "profile": "nafsa"
+  },
+  "outcome": {
+    "hard_success": false,
+    "soft_success": false,
+    "failed": false,
+    "failure_reason": null,
+    "pages_fetched": 18,
+    "llm_calls": 1,
+    "ranked_contacts": 0,
+    "qualified_contacts": 0
+  },
+  "discovery_trace": [
+    {
+      "url": "https://www.hear.fr/",
+      "source_type": "form",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "homepage_form",
+      "anchor_text": "directory search",
+      "parent_url": "http://www.hear.fr",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 10.45,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "https://www.hear.fr/la-hear/recherche/",
+      "source_type": "search",
+      "source_strategy": "structured_endpoints",
+      "source_stage": "homepage_search_link",
+      "anchor_text": "Recherche",
+      "parent_url": "http://www.hear.fr",
+      "page_family": "directory",
+      "candidate_bucket": "search_interface",
+      "heuristic_score": 0.55,
+      "selected_for_planning": false,
+      "deferred_for_later": true,
+      "deferred_reason": "search_interface_requires_target"
+    },
+    {
+      "url": "http://www.hear.fr/fr/annuaire",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "Comprehensive directory that may house various staff contacts related to global engagement."
+    },
+    {
+      "url": "http://www.hear.fr/annuaire",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 8.25,
+      "selected_for_planning": true,
+      "selection_reason": "Alternative directory page for accessing staff contacts."
+    },
+    {
+      "url": "http://www.hear.fr/directory",
+      "source_type": "heuristic",
+      "source_strategy": "heuristic_slugs",
+      "source_stage": "generic_slug_template",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/fr/personnels",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_high_yield_seed"
+    },
+    {
+      "url": "http://www.hear.fr/personnels",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.45,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_top_heuristic:profile_slug"
+    },
+    {
+      "url": "http://www.hear.fr/personnel",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/global-partnerships-team",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.3,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_top_heuristic:profile_slug"
+    },
+    {
+      "url": "http://www.hear.fr/international/team",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "staff",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.3,
+      "selected_for_planning": true,
+      "selection_reason": "Team page dedicated to international initiatives, relevant for outreach."
+    },
+    {
+      "url": "http://www.hear.fr/en/directory",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.65,
+      "selected_for_planning": true,
+      "selection_reason": "Directory with potential contacts, including for higher education partnerships."
+    },
+    {
+      "url": "http://www.hear.fr/en/people",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.65,
+      "selected_for_planning": true,
+      "selection_reason": "English version of staff page, potentially for global engagements and partnerships."
+    },
+    {
+      "url": "http://www.hear.fr/fr/directory",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.65,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/fr/people",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.65,
+      "selected_for_planning": true,
+      "selection_reason": "French staff listing, signaling outreach-focused contacts."
+    },
+    {
+      "url": "http://www.hear.fr/people",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/en/annuaire",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/en/faculty",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "English faculty directory, potentially inclusive of relevant outreach contacts."
+    },
+    {
+      "url": "http://www.hear.fr/en/staff",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/fr/faculty",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "Faculty page which may include relevant staff for international relations roles."
+    },
+    {
+      "url": "http://www.hear.fr/fr/staff",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 9.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/faculty",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/staff",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/en/person",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 6.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/fr/person",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 6.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/person",
+      "source_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "candidate_bucket": "content",
+      "heuristic_score": 6.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "http://www.hear.fr/fr/cooperation-internationale",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "candidate_bucket": "content",
+      "heuristic_score": 10.7,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_high_yield_seed"
+    }
+  ],
+  "discovery_strategy_trace": {
+    "heuristic_only": [
+      {
+        "url": "http://www.hear.fr/about/leadership/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "http://www.hear.fr/about/leadership/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "http://www.hear.fr/about/leadership/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "http://www.hear.fr/about/leadership/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "http://www.hear.fr/administration/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "http://www.hear.fr/administration/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "http://www.hear.fr/administration/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "http://www.hear.fr/administration/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "http://global.hear.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "http://global.hear.fr/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "http://international.hear.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      }
+    ],
+    "generated_slug_only": [
+      {
+        "url": "https://www.hear.fr/",
+        "source_type": "form",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_form",
+        "anchor_text": "directory search",
+        "parent_url": "http://www.hear.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.hear.fr/la-hear/recherche/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Recherche",
+        "parent_url": "http://www.hear.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "http://www.hear.fr/fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "http://www.hear.fr/fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "http://www.hear.fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "http://www.hear.fr/personnel",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "http://www.hear.fr/global-partnerships-team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "http://www.hear.fr/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "http://www.hear.fr/en/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.65
+      },
+      {
+        "url": "http://global.hear.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "http://global.hear.fr/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "http://international.hear.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      }
+    ],
+    "real_link_only": [
+      {
+        "url": "https://www.hear.fr/",
+        "source_type": "form",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_form",
+        "anchor_text": "directory search",
+        "parent_url": "http://www.hear.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.hear.fr/la-hear/recherche/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Recherche",
+        "parent_url": "http://www.hear.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "http://global.hear.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "http://global.hear.fr/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "http://international.hear.fr",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1
+      }
+    ],
+    "hybrid": [
+      {
+        "url": "https://www.hear.fr/",
+        "source_type": "form",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_form",
+        "anchor_text": "directory search",
+        "parent_url": "http://www.hear.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "https://www.hear.fr/la-hear/recherche/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "anchor_text": "Recherche",
+        "parent_url": "http://www.hear.fr",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55
+      },
+      {
+        "url": "http://www.hear.fr/fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/annuaire",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "http://www.hear.fr/directory",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85
+      },
+      {
+        "url": "http://www.hear.fr/fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "http://www.hear.fr/personnels",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45
+      },
+      {
+        "url": "http://www.hear.fr/personnel",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "http://www.hear.fr/global-partnerships-team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "http://www.hear.fr/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "http://www.hear.fr/en/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.65
+      },
+      {
+        "url": "http://www.hear.fr/en/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.65
+      },
+      {
+        "url": "http://www.hear.fr/fr/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.65
+      },
+      {
+        "url": "http://www.hear.fr/fr/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.65
+      },
+      {
+        "url": "http://www.hear.fr/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85
+      },
+      {
+        "url": "http://www.hear.fr/en/annuaire",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/en/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/en/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/fr/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/fr/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "http://www.hear.fr/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "http://www.hear.fr/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "http://www.hear.fr/en/person",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "http://www.hear.fr/fr/person",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "http://www.hear.fr/person",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_direct",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05
+      },
+      {
+        "url": "http://www.hear.fr/fr/cooperation-internationale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.7
+      }
+    ]
+  },
+  "homepage_rescue_trace": [
+    {
+      "url": "http://www.hear.fr/",
+      "reason": "original",
+      "fetched": "true"
+    }
+  ],
+  "dead_urls": [
+    "http://www.hear.fr/annuaire",
+    "http://www.hear.fr/en/annuaire",
+    "http://www.hear.fr/en/directory",
+    "http://www.hear.fr/en/faculty",
+    "http://www.hear.fr/en/people",
+    "http://www.hear.fr/en/person",
+    "http://www.hear.fr/en/staff",
+    "http://www.hear.fr/faculty",
+    "http://www.hear.fr/fr/annuaire",
+    "http://www.hear.fr/fr/cooperation-internationale",
+    "http://www.hear.fr/fr/directory",
+    "http://www.hear.fr/fr/faculty",
+    "http://www.hear.fr/fr/people",
+    "http://www.hear.fr/fr/personnels",
+    "http://www.hear.fr/global-partnerships-team",
+    "http://www.hear.fr/international/team",
+    "http://www.hear.fr/people",
+    "http://www.hear.fr/personnel"
+  ],
+  "mode_history": [
+    {
+      "mode": "office_discovery",
+      "reason": "initial_state",
+      "goal": "find direct outreach contacts"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/en/people"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/en/directory"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/fr/people"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/en/faculty"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/fr/faculty"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/fr/cooperation-internationale"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/global-partnerships-team"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/fr/personnels"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/fr/annuaire"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/annuaire"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/international/team"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/fr/directory"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/people"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/en/annuaire"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/en/staff"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/faculty"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/personnel"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect http://www.hear.fr/en/person"
+    },
+    {
+      "mode": "stop",
+      "reason": "no_actions_remaining",
+      "goal": "no_high_value_actions_remaining"
+    }
+  ],
+  "action_history": [
+    {
+      "action": "rescue_homepage",
+      "reason": "discovery_entrypoint_recovered",
+      "details": {
+        "from": "http://www.hear.fr/",
+        "to": "http://www.hear.fr",
+        "method": "original"
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "Select pages that are specific to staff, teams, or programs related to international cooperation and partnerships.",
+      "details": {
+        "count": 12,
+        "phase": "scout"
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "English version of staff page, potentially for global engagements and partnerships.",
+      "details": {
+        "url": "http://www.hear.fr/en/people",
+        "page_type": "staff_directory",
+        "expected_yield": 4.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Directory with potential contacts, including for higher education partnerships.",
+      "details": {
+        "url": "http://www.hear.fr/en/directory",
+        "page_type": "directory",
+        "expected_yield": 3.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "French staff listing, signaling outreach-focused contacts.",
+      "details": {
+        "url": "http://www.hear.fr/fr/people",
+        "page_type": "staff_directory",
+        "expected_yield": 3.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "English faculty directory, potentially inclusive of relevant outreach contacts.",
+      "details": {
+        "url": "http://www.hear.fr/en/faculty",
+        "page_type": "faculty_page",
+        "expected_yield": 2.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Faculty page which may include relevant staff for international relations roles.",
+      "details": {
+        "url": "http://www.hear.fr/fr/faculty",
+        "page_type": "faculty_page",
+        "expected_yield": 2.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_high_yield_seed",
+      "details": {
+        "url": "http://www.hear.fr/fr/cooperation-internationale",
+        "page_type": "profile_slug",
+        "expected_yield": 10.7
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "details": {
+        "url": "http://www.hear.fr/global-partnerships-team",
+        "page_type": "profile_slug",
+        "expected_yield": 9.3
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_high_yield_seed",
+      "details": {
+        "url": "http://www.hear.fr/fr/personnels",
+        "page_type": "profile_slug",
+        "expected_yield": 11.25
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Comprehensive directory that may house various staff contacts related to global engagement.",
+      "details": {
+        "url": "http://www.hear.fr/fr/annuaire",
+        "page_type": "directory",
+        "expected_yield": 4.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Alternative directory page for accessing staff contacts.",
+      "details": {
+        "url": "http://www.hear.fr/annuaire",
+        "page_type": "directory",
+        "expected_yield": 2.0
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "Team page dedicated to international initiatives, relevant for outreach.",
+      "details": {
+        "url": "http://www.hear.fr/international/team",
+        "page_type": "team_page",
+        "expected_yield": 3.0
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "gap_fill",
+      "details": {
+        "count": 8
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "http://www.hear.fr/fr/directory",
+        "page_type": "family_template",
+        "expected_yield": 10.65
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "http://www.hear.fr/people",
+        "page_type": "family_template",
+        "expected_yield": 9.85
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "http://www.hear.fr/en/annuaire",
+        "page_type": "family_template",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "http://www.hear.fr/en/staff",
+        "page_type": "family_template",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "http://www.hear.fr/faculty",
+        "page_type": "family_template",
+        "expected_yield": 8.25
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:profile_slugs",
+      "details": {
+        "url": "http://www.hear.fr/personnel",
+        "page_type": "profile_slug",
+        "expected_yield": 8.25
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "gap_fill",
+      "details": {
+        "count": 3
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "gap_fill:family_templates",
+      "details": {
+        "url": "http://www.hear.fr/en/person",
+        "page_type": "family_template",
+        "expected_yield": 6.85
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "gap_fill",
+      "details": {
+        "count": 0
+      }
+    },
+    {
+      "action": "stop_with_reason",
+      "reason": "no_high_value_actions_remaining",
+      "details": {}
+    }
+  ],
+  "planner_history": [
+    {
+      "phase": "scout",
+      "strategy": "Select pages that are specific to staff, teams, or programs related to international cooperation and partnerships.",
+      "expected_roles": [
+        "Head of International Partnerships",
+        "Director of Global Engagement",
+        "International Relations Lead",
+        "Mobility / Exchange Coordinator"
+      ],
+      "stop_hint": "End of candidate pages.",
+      "ranked_pages": [
+        {
+          "url": "http://www.hear.fr/fr/personnels",
+          "reason": "deterministic_high_yield_seed",
+          "expected_yield": 11.25,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "http://www.hear.fr/fr/cooperation-internationale",
+          "reason": "deterministic_high_yield_seed",
+          "expected_yield": 10.7,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "http://www.hear.fr/personnels",
+          "reason": "deterministic_top_heuristic:profile_slug",
+          "expected_yield": 10.45,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "http://www.hear.fr/global-partnerships-team",
+          "reason": "deterministic_top_heuristic:profile_slug",
+          "expected_yield": 9.3,
+          "page_type": "profile_slug"
+        },
+        {
+          "url": "http://www.hear.fr/fr/annuaire",
+          "reason": "Comprehensive directory that may house various staff contacts related to global engagement.",
+          "expected_yield": 4.0,
+          "page_type": "directory"
+        },
+        {
+          "url": "http://www.hear.fr/en/people",
+          "reason": "English version of staff page, potentially for global engagements and partnerships.",
+          "expected_yield": 4.0,
+          "page_type": "staff_directory"
+        },
+        {
+          "url": "http://www.hear.fr/international/team",
+          "reason": "Team page dedicated to international initiatives, relevant for outreach.",
+          "expected_yield": 3.0,
+          "page_type": "team_page"
+        },
+        {
+          "url": "http://www.hear.fr/en/directory",
+          "reason": "Directory with potential contacts, including for higher education partnerships.",
+          "expected_yield": 3.0,
+          "page_type": "directory"
+        },
+        {
+          "url": "http://www.hear.fr/fr/people",
+          "reason": "French staff listing, signaling outreach-focused contacts.",
+          "expected_yield": 3.0,
+          "page_type": "staff_directory"
+        },
+        {
+          "url": "http://www.hear.fr/annuaire",
+          "reason": "Alternative directory page for accessing staff contacts.",
+          "expected_yield": 2.0,
+          "page_type": "directory"
+        },
+        {
+          "url": "http://www.hear.fr/fr/faculty",
+          "reason": "Faculty page which may include relevant staff for international relations roles.",
+          "expected_yield": 2.0,
+          "page_type": "faculty_page"
+        },
+        {
+          "url": "http://www.hear.fr/en/faculty",
+          "reason": "English faculty directory, potentially inclusive of relevant outreach contacts.",
+          "expected_yield": 2.0,
+          "page_type": "faculty_page"
+        }
+      ]
+    },
+    {
+      "phase": "gap_fill",
+      "strategy": "deterministic_unvisited_candidates",
+      "ranked_pages": [
+        "http://www.hear.fr/personnel",
+        "http://www.hear.fr/fr/directory",
+        "http://www.hear.fr/directory",
+        "http://www.hear.fr/people",
+        "http://www.hear.fr/en/annuaire",
+        "http://www.hear.fr/en/staff",
+        "http://www.hear.fr/fr/staff",
+        "http://www.hear.fr/faculty"
+      ]
+    },
+    {
+      "phase": "gap_fill",
+      "strategy": "deterministic_unvisited_candidates",
+      "ranked_pages": [
+        "http://www.hear.fr/en/person",
+        "http://www.hear.fr/fr/person",
+        "http://www.hear.fr/person"
+      ]
+    },
+    {
+      "phase": "gap_fill",
+      "strategy": "deterministic_unvisited_candidates",
+      "ranked_pages": []
+    }
+  ],
+  "evidence_log": [
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/en/people",
+      "reason": "English version of staff page, potentially for global engagements and partnerships.",
+      "page_type": "staff_directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 4.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/en/directory",
+      "reason": "Directory with potential contacts, including for higher education partnerships.",
+      "page_type": "directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 3.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/fr/people",
+      "reason": "French staff listing, signaling outreach-focused contacts.",
+      "page_type": "staff_directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 3.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/en/faculty",
+      "reason": "English faculty directory, potentially inclusive of relevant outreach contacts.",
+      "page_type": "faculty_page",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 2.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/fr/faculty",
+      "reason": "Faculty page which may include relevant staff for international relations roles.",
+      "page_type": "faculty_page",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 2.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/fr/cooperation-internationale",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "international",
+      "expected_yield": 10.7,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/global-partnerships-team",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "international",
+      "expected_yield": 9.3,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/fr/personnels",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/fr/annuaire",
+      "reason": "Comprehensive directory that may house various staff contacts related to global engagement.",
+      "page_type": "directory",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 4.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/annuaire",
+      "reason": "Alternative directory page for accessing staff contacts.",
+      "page_type": "directory",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 2.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/international/team",
+      "reason": "Team page dedicated to international initiatives, relevant for outreach.",
+      "page_type": "team_page",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "staff",
+      "expected_yield": 3.0,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/fr/directory",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 10.65,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/people",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 9.85,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/en/annuaire",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/en/staff",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/faculty",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 8.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/personnel",
+      "reason": "gap_fill:profile_slugs",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 8.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "http://www.hear.fr/en/person",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "page_family": "directory",
+      "expected_yield": 6.85,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    }
+  ],
+  "extraction_trace": [
+    {
+      "url": "http://www.hear.fr/en/people",
+      "reason": "English version of staff page, potentially for global engagements and partnerships.",
+      "page_type": "staff_directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 4.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/en/directory",
+      "reason": "Directory with potential contacts, including for higher education partnerships.",
+      "page_type": "directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 3.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/fr/people",
+      "reason": "French staff listing, signaling outreach-focused contacts.",
+      "page_type": "staff_directory",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 3.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/en/faculty",
+      "reason": "English faculty directory, potentially inclusive of relevant outreach contacts.",
+      "page_type": "faculty_page",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 2.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/fr/faculty",
+      "reason": "Faculty page which may include relevant staff for international relations roles.",
+      "page_type": "faculty_page",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 2.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/fr/cooperation-internationale",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "international",
+      "expected_yield": 10.7,
+      "family_signature": "www.hear.fr:cooperation-internationale",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/global-partnerships-team",
+      "reason": "deterministic_top_heuristic:profile_slug",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "international",
+      "expected_yield": 9.3,
+      "family_signature": "www.hear.fr:global-partnerships-team",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/fr/personnels",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "family_signature": "www.hear.fr:personnels",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/fr/annuaire",
+      "reason": "Comprehensive directory that may house various staff contacts related to global engagement.",
+      "page_type": "directory",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 4.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/annuaire",
+      "reason": "Alternative directory page for accessing staff contacts.",
+      "page_type": "directory",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 2.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/international/team",
+      "reason": "Team page dedicated to international initiatives, relevant for outreach.",
+      "page_type": "team_page",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "staff",
+      "expected_yield": 3.0,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/fr/directory",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 10.65,
+      "family_signature": "www.hear.fr:directory",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/people",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 9.85,
+      "family_signature": "www.hear.fr:people",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/en/annuaire",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": "www.hear.fr:annuaire",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/en/staff",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": "www.hear.fr:staff",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/faculty",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 8.25,
+      "family_signature": "www.hear.fr:faculty",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/personnel",
+      "reason": "gap_fill:profile_slugs",
+      "page_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "parent_url": "",
+      "shell_context_key": "profile_slugs|profile_or_localised_slug|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 8.25,
+      "family_signature": "www.hear.fr:personnel",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    },
+    {
+      "url": "http://www.hear.fr/en/person",
+      "reason": "gap_fill:family_templates",
+      "page_type": "family_template",
+      "source_strategy": "family_templates",
+      "source_stage": "family_template_language_direct",
+      "parent_url": "",
+      "shell_context_key": "family_templates|family_template_language_direct|http://www.hear.fr",
+      "page_family": "directory",
+      "expected_yield": 6.85,
+      "family_signature": "www.hear.fr:person",
+      "raw_contacts_found": 0,
+      "text_length": 0,
+      "acquisition_modes": [],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 0,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": null
+    }
+  ],
+  "pruned_candidates": [
+    {
+      "url": "http://www.hear.fr/fr/cooperation-internationale",
+      "page_type": "profile_slug",
+      "expected_yield": 10.7,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:cooperation-internationale",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/global-partnerships-team",
+      "page_type": "profile_slug",
+      "expected_yield": 9.3,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:global-partnerships-team",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/fr/personnels",
+      "page_type": "profile_slug",
+      "expected_yield": 11.25,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:personnels",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/personnels",
+      "page_type": "profile_slug",
+      "expected_yield": 10.45,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.hear.fr:personnels"
+      }
+    },
+    {
+      "url": "http://www.hear.fr/fr/directory",
+      "page_type": "family_template",
+      "expected_yield": 10.65,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:directory",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/directory",
+      "page_type": "heuristic",
+      "expected_yield": 9.85,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.hear.fr:directory"
+      }
+    },
+    {
+      "url": "http://www.hear.fr/people",
+      "page_type": "family_template",
+      "expected_yield": 9.85,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:people",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/en/annuaire",
+      "page_type": "family_template",
+      "expected_yield": 9.05,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:annuaire",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/en/staff",
+      "page_type": "family_template",
+      "expected_yield": 9.05,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:staff",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/fr/staff",
+      "page_type": "family_template",
+      "expected_yield": 9.05,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.hear.fr:staff"
+      }
+    },
+    {
+      "url": "http://www.hear.fr/faculty",
+      "page_type": "family_template",
+      "expected_yield": 8.25,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:faculty",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/personnel",
+      "page_type": "profile_slug",
+      "expected_yield": 8.25,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:personnel",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/staff",
+      "page_type": "family_template",
+      "expected_yield": 8.25,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.hear.fr:staff"
+      }
+    },
+    {
+      "url": "http://www.hear.fr/en/person",
+      "page_type": "family_template",
+      "expected_yield": 6.85,
+      "reason": "zero_text_heuristic_family",
+      "details": {
+        "family_signature": "www.hear.fr:person",
+        "text_length": 0
+      }
+    },
+    {
+      "url": "http://www.hear.fr/fr/person",
+      "page_type": "family_template",
+      "expected_yield": 6.85,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.hear.fr:person"
+      }
+    },
+    {
+      "url": "http://www.hear.fr/person",
+      "page_type": "family_template",
+      "expected_yield": 6.05,
+      "reason": "dead_candidate_family",
+      "details": {
+        "family_signature": "www.hear.fr:person"
+      }
+    }
+  ],
+  "person_candidates": [],
+  "role_holder_candidates": [],
+  "enrichment_trace": [],
+  "search_attempts": [],
+  "pattern_inference_trace": [],
+  "missing_email_candidates": [],
+  "rejected_contacts": [],
+  "deduped_contacts": [],
+  "dead_candidate_signatures": [
+    "www.hear.fr:annuaire",
+    "www.hear.fr:cooperation-internationale",
+    "www.hear.fr:directory",
+    "www.hear.fr:faculty",
+    "www.hear.fr:global-partnerships-team",
+    "www.hear.fr:people",
+    "www.hear.fr:person",
+    "www.hear.fr:personnel",
+    "www.hear.fr:personnels",
+    "www.hear.fr:staff"
+  ],
+  "dead_shell_contexts": [],
+  "repeated_zero_evidence_signatures": {},
+  "stop_reason": "no_high_value_actions_remaining",
+  "ranked_contacts": [],
+  "final_contacts_with_provenance": []
+}
