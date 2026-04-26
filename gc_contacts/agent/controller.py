@@ -1632,11 +1632,9 @@ async def verify_and_rank(state: AgentState, profile: Any, budgets: AgentBudgets
     return evaluate_outcome(state, budgets)
 
 
-async def write_agent_debug_trace(state: AgentState) -> None:
-    """Persist per-target agent trace to debug JSON when enabled."""
-    await write_debug_json(
-        state.target.name,
-        {
+def agent_state_to_debug_payload(state: AgentState) -> dict[str, Any]:
+    """Convert a completed agent state into the canonical trace payload."""
+    return {
             "target": {
                 "name": state.target.name,
                 "url": state.homepage_url,
@@ -1696,8 +1694,12 @@ async def write_agent_debug_trace(state: AgentState) -> None:
                 for contact in state.ranked_contacts
             ],
             "final_contacts_with_provenance": state.final_contacts_with_provenance,
-        },
-    )
+        }
+
+
+async def write_agent_debug_trace(state: AgentState) -> None:
+    """Persist per-target agent trace to debug JSON when enabled."""
+    await write_debug_json(state.target.name, agent_state_to_debug_payload(state))
 
 
 async def run_nafsa_agent(

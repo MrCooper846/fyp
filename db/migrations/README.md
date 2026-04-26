@@ -28,8 +28,23 @@ That means you can load old runs into:
 
 without changing the schema shape. The `run_mode_enum` includes `backfill` for exactly that reason.
 
+## Live Dual-Write
+
+The NAFSA pipeline can write to Postgres in parallel with the existing CSV, JSON,
+and debug trace outputs. Enable it by setting both environment variables before a
+run:
+
+```powershell
+$env:DATABASE_URL="<your-postgres-dsn>"
+$env:POSTGRES_DUAL_WRITE="1"
+```
+
+Postgres write failures are logged and do not stop the crawl, so database
+contents can be validated against the existing artifacts before making the
+database the primary output.
+
 ## Notes
 
 - This folder is the migration-friendly version of the schema in `docs/postgres_schema.sql`.
-- These files do not include seed data or backfill logic yet.
+- Historical seed/debug traces are imported with `scripts/backfill_postgres_from_debug.py`.
 - In practice, run them through a migration tool or execute them in order inside transactions.

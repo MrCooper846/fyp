@@ -8,7 +8,7 @@ import asyncio
 import logging
 import re
 import unicodedata
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from tqdm.asyncio import tqdm
 
@@ -121,7 +121,7 @@ class NafsaPipeline:
         target: Target,
         budgets: AgentBudgets,
         use_classifier: bool = False,
-    ) -> List[Dict]:
+    ) -> Tuple[List[Dict], object]:
         state = await run_nafsa_agent(target, self.profile, budgets=budgets)
         if config.DEBUG_ENABLED:
             await write_agent_debug_trace(state)
@@ -138,7 +138,7 @@ class NafsaPipeline:
                 except Exception:
                     pass
 
-        return rows
+        return rows, state
 
     async def run(
         self,
@@ -152,6 +152,7 @@ class NafsaPipeline:
         target_names: Optional[List[str]] = None,
     ) -> List[Dict]:
         from gc_contacts.exporters.crm_exporter import CRMExporter
+        from gc_contacts.exporters.postgres_exporter import PostgresLiveExporter
 
         async with pipeline_runtime(
             ignore_robots=ignore_robots,
@@ -171,8 +172,18 @@ class NafsaPipeline:
             budgets = AgentBudgets()
             sem = asyncio.Semaphore(self.concurrency)
             results: List[Dict] = []
+            postgres_cli_args = {
+                "country": country,
+                "limit": limit,
+                "output_path": output_path,
+                "ignore_robots": ignore_robots,
+                "use_classifier": use_classifier,
+                "debug": debug,
+                "debug_dir": debug_dir,
+                "target_names": target_names,
+            }
 
-            async def _guarded_run(target: Target) -> List[Dict]:
+            async def _guarded_run(target: Target) -> Tuple[List[Dict], object | None]:
                 async with sem:
                     try:
                         return await self._crawl_one_target(
@@ -182,14 +193,24 @@ class NafsaPipeline:
                         )
                     except Exception as exc:
                         LOG.warning("target crawl failed for %s: %s", target.name, repr(exc))
-                        return []
+                        return [], None
 
             tasks = [_guarded_run(target) for target in targets]
 
-            for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), unit="org", desc="organisations"):
-                rows = await task
-                if rows:
-                    results.extend(rows)
+            with PostgresLiveExporter(
+                country=country,
+                discovery_mode=getattr(self.profile, "discovery_mode", None),
+                cli_args=postgres_cli_args,
+            ) as postgres:
+                if postgres.enabled:
+                    print("  -> Postgres dual-write enabled")
+
+                for task in tqdm(asyncio.as_completed(tasks), total=len(tasks), unit="org", desc="organisations"):
+                    rows, state = await task
+                    if state is not None and postgres.enabled:
+                        await asyncio.to_thread(postgres.ingest_state, state)
+                    if rows:
+                        results.extend(rows)
 
             exporter = CRMExporter()
             exporter.export(results, output_path)

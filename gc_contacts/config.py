@@ -42,6 +42,11 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise RuntimeError("❌ OPENAI_API_KEY not found in .env")
 
+# Optional Postgres dual-write. CSV/debug exports remain enabled even when this
+# is configured, so database rollout can be verified safely.
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+POSTGRES_DUAL_WRITE = os.getenv("POSTGRES_DUAL_WRITE", "0").strip().lower() in {"1", "true", "yes", "on"}
+
 # ───────── API & MODEL CONFIG ─────────
 OPENALEX_API = "https://api.openalex.org/institutions"
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
