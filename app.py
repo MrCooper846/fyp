@@ -1,13 +1,23 @@
 from flask import Flask, render_template, request, send_from_directory, redirect, url_for, abort, jsonify
 import json, os, sys, asyncio, subprocess
 from datetime import datetime
+from decimal import Decimal
 from pathlib import Path
+from uuid import UUID
 
 # Try to import the refactored crawler module
 try:
     from gc_contacts.main import run_all as crawler_run_all  # async coroutine
 except Exception:
     crawler_run_all = None
+
+try:
+    from dotenv import load_dotenv
+except Exception:
+    load_dotenv = None
+
+if load_dotenv:
+    load_dotenv(Path(__file__).resolve().parent / ".env")
 
 app = Flask(__name__)
 
@@ -23,6 +33,44 @@ TRACE_SOURCES = {
     "workspace": WORKSPACE_DEBUG_ROOT,
     "downloads": DEBUG_ROOT,
 }
+
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+
+def _db_available() -> bool:
+    return bool(DATABASE_URL)
+
+def _db_connect():
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL is not configured.")
+    try:
+        import psycopg
+        from psycopg.rows import dict_row
+    except Exception as exc:
+        raise RuntimeError("psycopg is not installed. Install requirements.txt first.") from exc
+    return psycopg.connect(DATABASE_URL, row_factory=dict_row)
+
+def _db_query(sql: str, params: tuple = ()) -> list[dict]:
+    with _db_connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(sql, params)
+            return [dict(row) for row in cur.fetchall()]
+
+def _db_one(sql: str, params: tuple = ()) -> dict | None:
+    rows = _db_query(sql, params)
+    return rows[0] if rows else None
+
+def _jsonify_db_row(row: dict) -> dict:
+    converted = {}
+    for key, value in row.items():
+        if isinstance(value, datetime):
+            converted[key] = value.isoformat()
+        elif isinstance(value, Decimal):
+            converted[key] = float(value)
+        elif isinstance(value, UUID):
+            converted[key] = str(value)
+        else:
+            converted[key] = value
+    return converted
 
 def safe_country(code: str) -> str:
     code = (code or "").strip().upper()
@@ -142,6 +190,323 @@ def index():
 @app.route('/traces')
 def traces_page():
     return render_template('trace_viewer.html')
+
+@app.route('/db')
+def db_dashboard():
+    return render_template('db_dashboard.html', db_available=_db_available())
+
+@app.route('/api/db/overview')
+def db_overview():
+    if not _db_available():
+        return jsonify({"available": False, "error": "DATABASE_URL is not configured."}), 503
+    try:
+        summary = _db_one(
+            """
+            select
+                (select count(*) from runs) as runs,
+                (select count(*) from run_targets) as run_targets,
+                (select count(*) from institutions) as institutions,
+                (select count(*) from contacts) as contacts,
+                (select count(*) from contact_observations) as contact_observations,
+                (select count(*) from page_observations) as page_observations
+            """
+        )
+        runs = _db_query(
+            """
+            select
+                id::text,
+                run_mode::text,
+                source_type,
+                country_code,
+                discovery_mode,
+                status::text,
+                started_at,
+                finished_at,
+                code_version,
+                notes,
+                (
+                    select count(*)
+                    from run_targets rt
+                    where rt.run_id = runs.id
+                ) as targets,
+                (
+                    select count(*)
+                    from contact_observations co
+                    where co.run_id = runs.id
+                ) as contacts,
+                (
+                    select count(*)
+                    from page_observations po
+                    where po.run_id = runs.id
+                ) as pages
+            from runs
+            order by started_at desc, id desc
+            limit 40
+            """
+        )
+        coverage = _db_query(
+            """
+            select coverage_status, count(*) as count
+            from institution_current_state
+            group by coverage_status
+            order by count desc
+            """
+        )
+        return jsonify(
+            {
+                "available": True,
+                "summary": _jsonify_db_row(summary or {}),
+                "runs": [_jsonify_db_row(row) for row in runs],
+                "coverage": [_jsonify_db_row(row) for row in coverage],
+            }
+        )
+    except Exception as exc:
+        return jsonify({"available": False, "error": str(exc)}), 500
+
+@app.route('/api/db/contacts')
+def db_contacts():
+    if not _db_available():
+        return jsonify({"contacts": [], "error": "DATABASE_URL is not configured."}), 503
+    q = f"%{(request.args.get('q') or '').strip()}%"
+    country = (request.args.get("country") or "").strip().upper()
+    confidence = (request.args.get("confidence") or "").strip().lower()
+    params: list = [q, q, q]
+    where = [
+        "(i.canonical_name ilike %s or ccs.current_name ilike %s or ccs.current_email ilike %s)"
+    ]
+    if country:
+        where.append("i.country_code = %s")
+        params.append(country)
+    if confidence in {"high", "medium", "low"}:
+        where.append("ccs.current_confidence = %s")
+        params.append(confidence)
+    rows = _db_query(
+        f"""
+        select
+            ccs.contact_id::text,
+            i.canonical_name as institution,
+            i.country_code,
+            ccs.current_name,
+            ccs.current_title,
+            ccs.current_email,
+            ccs.current_confidence::text,
+            ccs.current_priority::text,
+            ccs.times_seen,
+            ccs.last_seen_at,
+            co.email_source,
+            co.evidence_type,
+            co.recovery_reason,
+            co.source_url,
+            co.evidence_url
+        from contact_current_state ccs
+        join institutions i on i.id = ccs.institution_id
+        left join contact_observations co on co.id = ccs.latest_observation_id
+        where {' and '.join(where)}
+        order by
+            case ccs.current_confidence when 'high' then 1 when 'medium' then 2 else 3 end,
+            ccs.last_seen_at desc nulls last,
+            i.canonical_name asc
+        limit 250
+        """,
+        tuple(params),
+    )
+    return jsonify({"contacts": [_jsonify_db_row(row) for row in rows]})
+
+@app.route('/api/db/institutions')
+def db_institutions():
+    if not _db_available():
+        return jsonify({"institutions": [], "error": "DATABASE_URL is not configured."}), 503
+    q = f"%{(request.args.get('q') or '').strip()}%"
+    country = (request.args.get("country") or "").strip().upper()
+    status = (request.args.get("status") or "").strip()
+    params: list = [q]
+    where = ["i.canonical_name ilike %s"]
+    if country:
+        where.append("i.country_code = %s")
+        params.append(country)
+    if status:
+        where.append("ics.coverage_status = %s")
+        params.append(status)
+    rows = _db_query(
+        f"""
+        select
+            i.id::text as institution_id,
+            i.canonical_name,
+            i.country_code,
+            i.institution_type,
+            ics.current_homepage_url,
+            ics.primary_domain,
+            ics.contact_count_current,
+            ics.named_contact_count_current,
+            ics.high_confidence_contact_count_current,
+            ics.coverage_status,
+            ics.last_any_contact_at,
+            ics.last_success_at
+        from institutions i
+        left join institution_current_state ics on ics.institution_id = i.id
+        where {' and '.join(where)}
+        order by i.country_code, ics.contact_count_current desc nulls last, i.canonical_name
+        limit 250
+        """,
+        tuple(params),
+    )
+    return jsonify({"institutions": [_jsonify_db_row(row) for row in rows]})
+
+@app.route('/api/db/run/<run_id>')
+def db_run_detail(run_id):
+    if not _db_available():
+        return jsonify({"error": "DATABASE_URL is not configured."}), 503
+    run = _db_one(
+        """
+        select id::text, run_mode::text, source_type, country_code, discovery_mode,
+               status::text, started_at, finished_at, cli_args, config_snapshot, code_version, notes
+        from runs
+        where id = %s
+        """,
+        (run_id,),
+    )
+    if not run:
+        abort(404, description="Run not found")
+    targets = _db_query(
+        """
+        select
+            rt.id::text as run_target_id,
+            i.canonical_name as institution,
+            i.country_code,
+            rt.status::text,
+            rt.homepage_url_used,
+            rt.stop_reason,
+            rt.hard_success,
+            rt.soft_success,
+            rt.failed,
+            rt.pages_fetched,
+            rt.llm_calls,
+            rt.ranked_contacts_count,
+            rt.qualified_contacts_count
+        from run_targets rt
+        join institutions i on i.id = rt.institution_id
+        where rt.run_id = %s
+        order by rt.finished_at desc nulls last, i.canonical_name
+        """,
+        (run_id,),
+    )
+    return jsonify({"run": _jsonify_db_row(run), "targets": [_jsonify_db_row(row) for row in targets]})
+
+@app.route('/api/db/target/<run_target_id>')
+def db_target_detail(run_target_id):
+    if not _db_available():
+        return jsonify({"error": "DATABASE_URL is not configured."}), 503
+    target = _db_one(
+        """
+        select
+            rt.id::text as run_target_id,
+            rt.run_id::text,
+            i.canonical_name as institution,
+            i.country_code,
+            rt.status::text,
+            rt.homepage_url_used,
+            rt.source_homepage_url,
+            rt.stop_reason,
+            rt.hard_success,
+            rt.soft_success,
+            rt.failed,
+            rt.failure_reason,
+            rt.pages_fetched,
+            rt.llm_calls,
+            rt.ranked_contacts_count,
+            rt.qualified_contacts_count,
+            rt.debug_trace_path
+        from run_targets rt
+        join institutions i on i.id = rt.institution_id
+        where rt.id = %s
+        """,
+        (run_target_id,),
+    )
+    if not target:
+        abort(404, description="Run target not found")
+    pages = _db_query(
+        """
+        select
+            po.id::text as page_observation_id,
+            p.normalized_url,
+            po.parent_url,
+            po.http_status,
+            po.title,
+            po.source_strategy,
+            po.source_stage,
+            po.page_family,
+            po.candidate_bucket,
+            po.heuristic_score,
+            po.selected_for_planning,
+            po.is_useful,
+            po.raw_evidence_count,
+            po.clean_candidate_count,
+            po.named_contact_count,
+            po.office_contact_count,
+            po.missing_email_count,
+            po.junk_candidate_count,
+            po.observed_at
+        from page_observations po
+        join pages p on p.id = po.page_id
+        where po.run_target_id = %s
+        order by po.observed_at asc, po.id asc
+        limit 400
+        """,
+        (run_target_id,),
+    )
+    contacts = _db_query(
+        """
+        select
+            co.id::text as contact_observation_id,
+            co.observed_name,
+            co.observed_title,
+            co.observed_email,
+            co.contact_kind_observed::text,
+            co.confidence::text,
+            co.score,
+            co.priority::text,
+            co.candidate_status,
+            co.email_source,
+            co.evidence_type,
+            co.recovery_reason,
+            co.classifier_reason,
+            co.source_url,
+            co.evidence_url,
+            co.observed_at
+        from contact_observations co
+        where co.run_target_id = %s
+        order by
+            case co.confidence when 'high' then 1 when 'medium' then 2 else 3 end,
+            co.score desc nulls last,
+            co.observed_at desc
+        """,
+        (run_target_id,),
+    )
+    evidence = _db_query(
+        """
+        select
+            ce.contact_observation_id::text,
+            ce.evidence_kind,
+            ce.snippet,
+            ce.page_url,
+            ce.evidence_payload,
+            ce.created_at
+        from contact_evidence ce
+        join contact_observations co on co.id = ce.contact_observation_id
+        where co.run_target_id = %s
+        order by ce.created_at asc
+        limit 300
+        """,
+        (run_target_id,),
+    )
+    return jsonify(
+        {
+            "target": _jsonify_db_row(target),
+            "pages": [_jsonify_db_row(row) for row in pages],
+            "contacts": [_jsonify_db_row(row) for row in contacts],
+            "evidence": [_jsonify_db_row(row) for row in evidence],
+        }
+    )
 
 @app.route('/api/traces/sources')
 def trace_sources():

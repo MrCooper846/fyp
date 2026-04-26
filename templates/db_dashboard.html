@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lead Database Dashboard</title>
+  <style>
+    :root {
+      --bg: #eef3ee;
+      --paper: #fffef8;
+      --ink: #162017;
+      --muted: #667266;
+      --line: #d6ddcf;
+      --green: #2f7d4f;
+      --gold: #ba7b18;
+      --red: #b33a2f;
+      --blue: #2e5f8a;
+      --shadow: 0 18px 45px rgba(22, 32, 23, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Aptos", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(47, 125, 79, 0.16), transparent 25%),
+        radial-gradient(circle at 85% 18%, rgba(186, 123, 24, 0.14), transparent 22%),
+        linear-gradient(180deg, #f8f4e8 0%, var(--bg) 62%, #e5eddf 100%);
+    }
+
+    a { color: inherit; }
+
+    .shell {
+      max-width: 1700px;
+      margin: 0 auto;
+      padding: 26px;
+    }
+
+    .hero {
+      border: 1px solid rgba(22, 32, 23, 0.08);
+      border-radius: 30px;
+      background: rgba(255, 254, 248, 0.92);
+      box-shadow: var(--shadow);
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 4rem);
+      letter-spacing: -0.055em;
+      line-height: 0.95;
+    }
+
+    .hero p {
+      margin: 12px 0 0;
+      max-width: 900px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .nav {
+      margin-top: 18px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .nav a, button {
+      border: 1px solid rgba(22, 32, 23, 0.1);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--ink);
+      padding: 10px 14px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .panel {
+      background: rgba(255, 254, 248, 0.94);
+      border: 1px solid rgba(22, 32, 23, 0.08);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-inner { padding: 20px; }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .kpi {
+      border-radius: 18px;
+      padding: 16px;
+      background: linear-gradient(180deg, #fff, #f5f0e5);
+      border: 1px solid rgba(22, 32, 23, 0.08);
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 800;
+    }
+
+    .value {
+      margin-top: 6px;
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: -0.04em;
+    }
+
+    .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .tab {
+      border-radius: 999px;
+      padding: 9px 13px;
+      background: rgba(22, 32, 23, 0.05);
+      border: 1px solid transparent;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .tab.active {
+      background: rgba(47, 125, 79, 0.12);
+      border-color: rgba(47, 125, 79, 0.35);
+      color: #155b33;
+    }
+
+    .filters {
+      display: grid;
+      grid-template-columns: 1fr 120px 140px auto;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    input, select {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      padding: 11px 12px;
+      background: white;
+      color: var(--ink);
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+      max-height: 68vh;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .item {
+      border: 1px solid rgba(22, 32, 23, 0.08);
+      background: white;
+      border-radius: 16px;
+      padding: 14px;
+      cursor: pointer;
+      transition: 0.16s ease;
+    }
+
+    .item:hover, .item.active {
+      transform: translateY(-1px);
+      border-color: rgba(47, 125, 79, 0.35);
+      box-shadow: 0 10px 20px rgba(47, 125, 79, 0.12);
+    }
+
+    .item-title {
+      font-weight: 900;
+      margin-bottom: 6px;
+      word-break: break-word;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+      word-break: break-word;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .pill {
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: rgba(22, 32, 23, 0.06);
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .pill.high, .pill.covered { background: rgba(47, 125, 79, 0.14); color: var(--green); }
+    .pill.medium, .pill.attempted { background: rgba(186, 123, 24, 0.15); color: var(--gold); }
+    .pill.low, .pill.failed { background: rgba(179, 58, 47, 0.13); color: var(--red); }
+
+    .detail {
+      display: grid;
+      gap: 16px;
+    }
+
+    .empty {
+      padding: 40px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 12px 1fr;
+      gap: 12px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      background: var(--blue);
+      margin-top: 6px;
+    }
+
+    .step-card {
+      border: 1px solid rgba(22, 32, 23, 0.08);
+      border-radius: 16px;
+      background: white;
+      padding: 12px;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    .table th, .table td {
+      border-bottom: 1px solid rgba(22, 32, 23, 0.08);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .table th {
+      color: var(--muted);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .error {
+      background: rgba(179, 58, 47, 0.12);
+      border: 1px solid rgba(179, 58, 47, 0.25);
+      border-radius: 18px;
+      padding: 16px;
+      color: #74221c;
+    }
+
+    @media (max-width: 1100px) {
+      .grid { grid-template-columns: 1fr; }
+      .filters { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .shell { padding: 14px; }
+      .kpis { grid-template-columns: 1fr; }
+      .filters { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <h1>Lead Intelligence Database</h1>
+      <p>Browse seeded and live crawler data from Postgres: runs, coverage, contacts, evidence, and the page paths the agent followed.</p>
+      <div class="nav">
+        <a href="/">Crawler</a>
+        <a href="/traces">File Trace Viewer</a>
+        <button id="refreshBtn">Refresh DB</button>
+      </div>
+    </section>
+
+    {% if not db_available %}
+      <div class="error">DATABASE_URL is not configured for this Flask process. Load .env or export DATABASE_URL before starting the app.</div>
+    {% endif %}
+
+    <div class="grid">
+      <aside class="panel">
+        <div class="panel-inner">
+          <div class="section-title">
+            <h2>Database Pulse</h2>
+          </div>
+          <div class="kpis" id="kpis"></div>
+          <div style="height: 18px"></div>
+          <div class="section-title">
+            <h2>Runs</h2>
+            <span class="label" id="runCount"></span>
+          </div>
+          <div class="list" id="runsList"></div>
+        </div>
+      </aside>
+
+      <main class="detail">
+        <section class="panel">
+          <div class="panel-inner">
+            <div class="tabs">
+              <button class="tab active" data-tab="contacts">Contacts</button>
+              <button class="tab" data-tab="institutions">Institutions</button>
+              <button class="tab" data-tab="run">Run Detail</button>
+            </div>
+
+            <div id="contactsTab">
+              <div class="filters">
+                <input id="contactSearch" placeholder="Search contact, email, institution">
+                <input id="contactCountry" placeholder="Country">
+                <select id="contactConfidence">
+                  <option value="">Any confidence</option>
+                  <option value="high">High</option>
+                  <option value="medium">Medium</option>
+                  <option value="low">Low</option>
+                </select>
+                <button id="contactSearchBtn">Search</button>
+              </div>
+              <div class="list" id="contactsList"></div>
+            </div>
+
+            <div id="institutionsTab" style="display:none">
+              <div class="filters">
+                <input id="institutionSearch" placeholder="Search institution">
+                <input id="institutionCountry" placeholder="Country">
+                <select id="institutionStatus">
+                  <option value="">Any status</option>
+                  <option value="covered">Covered</option>
+                  <option value="attempted">Attempted</option>
+                  <option value="explored_no_contacts">Explored no contacts</option>
+                  <option value="unseen">Unseen</option>
+                </select>
+                <button id="institutionSearchBtn">Search</button>
+              </div>
+              <div class="list" id="institutionsList"></div>
+            </div>
+
+            <div id="runTab" style="display:none">
+              <div id="runDetail" class="empty">Select a run on the left to inspect targets and traces.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-inner" id="targetDetail">
+            <div class="empty">Select a run target to see page path, contacts, and evidence.</div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      activeTab: "contacts",
+      selectedRunId: null,
+      selectedTargetId: null,
+    };
+
+    const $ = (id) => document.getElementById(id);
+
+    function esc(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function fmtDate(value) {
+      if (!value) return "";
+      try { return new Date(value).toLocaleString(); } catch { return value; }
+    }
+
+    async function getJson(url) {
+      const res = await fetch(url);
+      const body = await res.json();
+      if (!res.ok) throw new Error(body.error || body.description || res.statusText);
+      return body;
+    }
+
+    function kpi(label, value) {
+      return `<div class="kpi"><div class="label">${esc(label)}</div><div class="value">${esc(value ?? 0)}</div></div>`;
+    }
+
+    async function loadOverview() {
+      try {
+        const data = await getJson("/api/db/overview");
+        const summary = data.summary || {};
+        $("kpis").innerHTML = [
+          kpi("Runs", summary.runs),
+          kpi("Targets", summary.run_targets),
+          kpi("Contacts", summary.contacts),
+          kpi("Pages", summary.page_observations),
+        ].join("");
+        $("runCount").textContent = `${data.runs.length} shown`;
+        $("runsList").innerHTML = data.runs.map(run => `
+          <div class="item ${state.selectedRunId === run.id ? "active" : ""}" onclick="selectRun('${esc(run.id)}')">
+            <div class="item-title">${esc(run.country_code || "??")} · ${esc(run.source_type)}</div>
+            <div class="meta">${esc(run.run_mode)} · ${esc(run.status)} · ${fmtDate(run.started_at)}</div>
+            <div class="pill-row">
+              <span class="pill">${esc(run.targets)} targets</span>
+              <span class="pill high">${esc(run.contacts)} contacts</span>
+              <span class="pill">${esc(run.pages)} pages</span>
+            </div>
+          </div>
+        `).join("") || `<div class="empty">No runs yet.</div>`;
+      } catch (err) {
+        $("kpis").innerHTML = `<div class="error">${esc(err.message)}</div>`;
+      }
+    }
+
+    async function loadContacts() {
+      const params = new URLSearchParams({
+        q: $("contactSearch").value,
+        country: $("contactCountry").value,
+        confidence: $("contactConfidence").value,
+      });
+      const data = await getJson(`/api/db/contacts?${params}`);
+      $("contactsList").innerHTML = data.contacts.map(contact => `
+        <div class="item">
+          <div class="item-title">${esc(contact.current_email || "(no email)")}</div>
+          <div class="meta">
+            ${esc(contact.current_name || "Unnamed")} ${contact.current_title ? "· " + esc(contact.current_title) : ""}<br>
+            ${esc(contact.institution)} · ${esc(contact.country_code)}
+          </div>
+          <div class="pill-row">
+            <span class="pill ${esc(contact.current_confidence)}">${esc(contact.current_confidence || "unknown")}</span>
+            <span class="pill">${esc(contact.email_source || "source?")}</span>
+            <span class="pill">${esc(contact.evidence_type || "evidence?")}</span>
+            <span class="pill">${esc(contact.times_seen)} seen</span>
+          </div>
+          <div class="meta" style="margin-top:8px">
+            ${contact.source_url ? `<a href="${esc(contact.source_url)}" target="_blank">source</a>` : ""}
+            ${contact.evidence_url ? ` · <a href="${esc(contact.evidence_url)}" target="_blank">evidence</a>` : ""}
+          </div>
+        </div>
+      `).join("") || `<div class="empty">No contacts match that search.</div>`;
+    }
+
+    async function loadInstitutions() {
+      const params = new URLSearchParams({
+        q: $("institutionSearch").value,
+        country: $("institutionCountry").value,
+        status: $("institutionStatus").value,
+      });
+      const data = await getJson(`/api/db/institutions?${params}`);
+      $("institutionsList").innerHTML = data.institutions.map(inst => `
+        <div class="item">
+          <div class="item-title">${esc(inst.canonical_name)}</div>
+          <div class="meta">${esc(inst.country_code)} · ${esc(inst.primary_domain || inst.current_homepage_url || "no domain")}</div>
+          <div class="pill-row">
+            <span class="pill ${esc(inst.coverage_status)}">${esc(inst.coverage_status || "unknown")}</span>
+            <span class="pill high">${esc(inst.contact_count_current)} contacts</span>
+            <span class="pill">${esc(inst.high_confidence_contact_count_current)} high</span>
+          </div>
+        </div>
+      `).join("") || `<div class="empty">No institutions match that search.</div>`;
+    }
+
+    async function selectRun(runId) {
+      state.selectedRunId = runId;
+      state.activeTab = "run";
+      setActiveTab("run");
+      await loadOverview();
+      const data = await getJson(`/api/db/run/${runId}`);
+      $("runDetail").innerHTML = `
+        <div class="section-title">
+          <h2>${esc(data.run.country_code || "Run")} · ${esc(data.run.source_type)}</h2>
+          <span class="pill">${esc(data.run.status)}</span>
+        </div>
+        <div class="meta">Started ${fmtDate(data.run.started_at)} · ${esc(data.targets.length)} targets</div>
+        <div class="list" style="max-height:52vh; margin-top:14px">
+          ${data.targets.map(target => `
+            <div class="item ${state.selectedTargetId === target.run_target_id ? "active" : ""}" onclick="selectTarget('${esc(target.run_target_id)}')">
+              <div class="item-title">${esc(target.institution)}</div>
+              <div class="meta">${esc(target.status)} · ${esc(target.homepage_url_used || "")}</div>
+              <div class="pill-row">
+                <span class="pill">${esc(target.pages_fetched)} pages</span>
+                <span class="pill high">${esc(target.ranked_contacts_count)} ranked</span>
+                <span class="pill">${esc(target.stop_reason || "no stop reason")}</span>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    async function selectTarget(targetId) {
+      state.selectedTargetId = targetId;
+      const data = await getJson(`/api/db/target/${targetId}`);
+      const usefulPages = data.pages.filter(p => p.is_useful || p.clean_candidate_count || p.missing_email_count || p.raw_evidence_count);
+      $("targetDetail").innerHTML = `
+        <div class="section-title">
+          <h2>${esc(data.target.institution)}</h2>
+          <span class="pill ${data.target.failed ? "failed" : "covered"}">${esc(data.target.status)}</span>
+        </div>
+        <div class="meta">
+          ${esc(data.target.country_code)} · ${esc(data.target.homepage_url_used || "")}<br>
+          Stop: ${esc(data.target.stop_reason || data.target.failure_reason || "none recorded")}
+        </div>
+
+        <h3>Recovered Contacts</h3>
+        ${renderContactsTable(data.contacts)}
+
+        <h3>Useful Page Path</h3>
+        <div class="timeline">
+          ${(usefulPages.length ? usefulPages : data.pages.slice(0, 40)).map(page => `
+            <div class="step">
+              <div class="dot"></div>
+              <div class="step-card">
+                <div class="item-title"><a href="${esc(page.normalized_url)}" target="_blank">${esc(page.title || page.normalized_url)}</a></div>
+                <div class="meta">${esc(page.source_strategy || "?")} · ${esc(page.source_stage || "?")} · ${esc(page.page_family || "?")} · status ${esc(page.http_status || "")}</div>
+                <div class="pill-row">
+                  <span class="pill">${esc(page.clean_candidate_count)} clean</span>
+                  <span class="pill">${esc(page.missing_email_count)} missing email</span>
+                  <span class="pill">${esc(page.raw_evidence_count)} raw evidence</span>
+                  ${page.is_useful ? `<span class="pill high">useful</span>` : ""}
+                  ${page.selected_for_planning ? `<span class="pill medium">planned</span>` : ""}
+                </div>
+              </div>
+            </div>
+          `).join("") || `<div class="empty">No page observations for this target.</div>`}
+        </div>
+
+        <h3>Evidence</h3>
+        <div class="list" style="max-height:36vh">
+          ${data.evidence.map(ev => `
+            <div class="item">
+              <div class="item-title">${esc(ev.evidence_kind)}</div>
+              <div class="meta">${esc(ev.snippet || "")}</div>
+              ${ev.page_url ? `<div class="meta"><a href="${esc(ev.page_url)}" target="_blank">${esc(ev.page_url)}</a></div>` : ""}
+            </div>
+          `).join("") || `<div class="empty">No evidence rows for this target.</div>`}
+        </div>
+      `;
+    }
+
+    function renderContactsTable(contacts) {
+      if (!contacts.length) return `<div class="empty">No contacts recorded for this target.</div>`;
+      return `
+        <table class="table">
+          <thead><tr><th>Email</th><th>Name</th><th>Confidence</th><th>Source</th><th>Reason</th></tr></thead>
+          <tbody>
+            ${contacts.map(c => `
+              <tr>
+                <td>${esc(c.observed_email)}</td>
+                <td>${esc(c.observed_name || "")}<br><span class="meta">${esc(c.observed_title || "")}</span></td>
+                <td><span class="pill ${esc(c.confidence)}">${esc(c.confidence || "")}</span></td>
+                <td>${esc(c.email_source || "")}<br><span class="meta">${esc(c.evidence_type || "")}</span></td>
+                <td>${esc(c.classifier_reason || c.recovery_reason || "")}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>`;
+    }
+
+    function setActiveTab(tab) {
+      state.activeTab = tab;
+      document.querySelectorAll(".tab").forEach(btn => btn.classList.toggle("active", btn.dataset.tab === tab));
+      $("contactsTab").style.display = tab === "contacts" ? "" : "none";
+      $("institutionsTab").style.display = tab === "institutions" ? "" : "none";
+      $("runTab").style.display = tab === "run" ? "" : "none";
+    }
+
+    document.querySelectorAll(".tab").forEach(btn => btn.addEventListener("click", () => setActiveTab(btn.dataset.tab)));
+    $("refreshBtn").addEventListener("click", () => { loadOverview(); loadContacts(); loadInstitutions(); });
+    $("contactSearchBtn").addEventListener("click", loadContacts);
+    $("institutionSearchBtn").addEventListener("click", loadInstitutions);
+    ["contactSearch", "contactCountry"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") loadContacts(); }));
+    ["institutionSearch", "institutionCountry"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") loadInstitutions(); }));
+    $("contactConfidence").addEventListener("change", loadContacts);
+    $("institutionStatus").addEventListener("change", loadInstitutions);
+
+    loadOverview();
+    loadContacts();
+    loadInstitutions();
+  </script>
+</body>
+</html>
