@@ -1,0 +1,53 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+.venv-wsl/
+.python_deps/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Crawler/runtime caches
+.cache/
+cache/
+logs/
+debug_logs/
+downloads/
+coverage_runs/
+coverage_smoke/
+coverage_smoke_filtered/
+benchmark_runs/
+benchmark_runs_smoke/
+benchmark_contacts/
+
+# Generated crawler outputs
+*.csv
+*.json
+!package.json
+!manual_trace_extension/manifest.json
+data/*.csv
+data/*.json
+
+# Local email validation cache
+*.sqlite
+*.sqlite3
+*.db
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Misc temporary files
+start_process_test.txt
+quickcheck.py

@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trace Viewer</title>
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --paper: #fffdf8;
+      --ink: #13212f;
+      --muted: #5f6d79;
+      --line: #d8cfbf;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --accent-3: #b91c1c;
+      --shadow: 0 18px 40px rgba(19, 33, 47, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.10), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(217, 119, 6, 0.12), transparent 24%),
+        linear-gradient(180deg, #efe7d7 0%, var(--bg) 100%);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; }
+
+    .shell {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(248,243,233,0.96));
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 920px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .hero-actions {
+      margin-top: 18px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .hero-actions a {
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(19, 33, 47, 0.05);
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      font-size: 0.95rem;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .panel {
+      background: rgba(255, 253, 248, 0.96);
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-inner {
+      padding: 20px;
+    }
+
+    .panel-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .controls {
+      display: grid;
+      gap: 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: white;
+      font-size: 0.95rem;
+      color: var(--ink);
+    }
+
+    .file-list {
+      margin-top: 18px;
+      display: grid;
+      gap: 10px;
+      max-height: 60vh;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .file-item {
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      border-radius: 16px;
+      background: white;
+      padding: 14px;
+      cursor: pointer;
+      transition: 0.18s ease;
+    }
+
+    .file-item:hover,
+    .file-item.active {
+      transform: translateY(-1px);
+      border-color: rgba(15, 118, 110, 0.35);
+      box-shadow: 0 10px 18px rgba(15, 118, 110, 0.12);
+    }
+
+    .file-name {
+      font-weight: 700;
+      margin-bottom: 6px;
+      word-break: break-word;
+    }
+
+    .file-meta {
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.4;
+    }
+
+    .viewer {
+      display: grid;
+      gap: 18px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 14px;
+    }
+
+    .stat {
+      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(247,243,236,0.98));
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .stat .label {
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 8px;
+    }
+
+    .stat .value {
+      font-size: 1.9rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .trace-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .trace-name {
+      font-size: clamp(1.4rem, 2vw, 2.3rem);
+      line-height: 1.1;
+      margin: 0 0 8px;
+    }
+
+    .trace-sub {
+      color: var(--muted);
+      line-height: 1.5;
+      word-break: break-word;
+    }
+
+    .badge-row, .chip-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .badge, .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(15, 118, 110, 0.10);
+      color: var(--accent);
+      font-size: 0.84rem;
+      border: 1px solid rgba(15, 118, 110, 0.12);
+    }
+
+    .chip.warn {
+      background: rgba(217, 119, 6, 0.10);
+      color: var(--accent-2);
+      border-color: rgba(217, 119, 6, 0.14);
+    }
+
+    .chip.danger {
+      background: rgba(185, 28, 28, 0.10);
+      color: var(--accent-3);
+      border-color: rgba(185, 28, 28, 0.14);
+    }
+
+    .section-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+    }
+
+    .section {
+      padding: 20px;
+    }
+
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 22px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(15,118,110,0.35), rgba(217,119,6,0.35));
+    }
+
+    .event {
+      position: relative;
+      padding: 14px 14px 14px 16px;
+      background: white;
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      border-radius: 16px;
+    }
+
+    .event::before {
+      content: "";
+      position: absolute;
+      left: -21px;
+      top: 18px;
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.14);
+    }
+
+    .event-title {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .event-meta, .small {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    .cards {
+      display: grid;
+      gap: 12px;
+    }
+
+    .mini-card {
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      background: white;
+    }
+
+    .mini-card h3 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(19, 33, 47, 0.08);
+      vertical-align: top;
+      word-break: break-word;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 700;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      border-radius: 16px;
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      background: white;
+    }
+
+    .stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .empty {
+      color: var(--muted);
+      background: rgba(255,255,255,0.75);
+      border: 1px dashed var(--line);
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    details {
+      border: 1px solid rgba(19, 33, 47, 0.08);
+      border-radius: 16px;
+      background: white;
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 14px 16px;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    pre {
+      margin: 0;
+      padding: 0 16px 16px;
+      overflow: auto;
+      font-size: 0.82rem;
+      line-height: 1.5;
+      color: #17324a;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+
+    @media (max-width: 1100px) {
+      .layout, .section-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .file-list {
+        max-height: 34vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <h1>Trace Viewer</h1>
+      <p>
+        Browse legacy and NAFSA debug traces, follow the crawl path step by step, and inspect what was discovered, rejected,
+        recovered, or never pursued. This is wired to your actual `debug_logs` output, so it should be useful for debugging
+        overnight runs straight away.
+      </p>
+      <div class="hero-actions">
+        <a href="/">Run crawler</a>
+        <a href="/traces">Refresh viewer</a>
+      </div>
+    </section>
+
+    <div class="layout">
+      <aside class="panel">
+        <div class="panel-inner">
+          <div class="panel-title">Trace Browser</div>
+          <div class="controls">
+            <div>
+              <label for="sourceSelect">Trace source</label>
+              <select id="sourceSelect"></select>
+            </div>
+            <div>
+              <label for="directorySelect">Folder</label>
+              <select id="directorySelect"></select>
+            </div>
+            <div>
+              <label for="searchInput">Search trace name</label>
+              <input id="searchInput" type="text" placeholder="Italy, Bologna, nafsa..." />
+            </div>
+          </div>
+          <div id="fileList" class="file-list"></div>
+        </div>
+      </aside>
+
+      <main class="viewer">
+        <section class="panel section">
+          <div class="trace-head">
+            <div>
+              <h2 id="traceName" class="trace-name">Choose a trace</h2>
+              <div id="traceSub" class="trace-sub">Load a JSON trace from the left-hand browser to see the crawl story.</div>
+              <div id="traceBadges" class="badge-row"></div>
+            </div>
+          </div>
+          <div id="summaryGrid" class="summary-grid"></div>
+        </section>
+
+        <div class="section-grid">
+          <section class="panel section">
+            <h2>Timeline</h2>
+            <div id="timeline" class="timeline"></div>
+          </section>
+
+          <section class="panel section stack">
+            <div>
+              <h2>Contacts and Candidates</h2>
+              <div class="split">
+                <div>
+                  <div class="panel-title">Final Contacts</div>
+                  <div id="finalContacts" class="cards"></div>
+                </div>
+                <div>
+                  <div class="panel-title">Missing Email Candidates</div>
+                  <div id="missingCandidates" class="cards"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="split">
+              <div>
+                <div class="panel-title">Rejected Contacts</div>
+                <div id="rejectedContacts" class="cards"></div>
+              </div>
+              <div>
+                <div class="panel-title">Deduped Contacts</div>
+                <div id="dedupedContacts" class="cards"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel section">
+          <h2>Discovery and Page Coverage</h2>
+          <div class="split">
+            <div>
+              <div class="panel-title">Discovery Candidates</div>
+              <div id="discoveryTable" class="table-wrap"></div>
+            </div>
+            <div>
+              <div class="panel-title">Visited Pages</div>
+              <div id="pagesTable" class="table-wrap"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel section">
+          <h2>Agent Search and Recovery</h2>
+          <div class="split">
+            <div>
+              <div class="panel-title">Action History</div>
+              <div id="actionCards" class="cards"></div>
+            </div>
+            <div>
+              <div class="panel-title">Enrichment and Pattern Recovery</div>
+              <div id="enrichmentCards" class="cards"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel section">
+          <h2>Raw Trace</h2>
+          <details>
+            <summary>Show JSON</summary>
+            <pre id="rawJson"></pre>
+          </details>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      sources: [],
+      files: [],
+      filteredFiles: [],
+      source: "workspace",
+      directory: "",
+      selectedPath: "",
+      trace: null,
+    };
+
+    const sourceSelect = document.getElementById("sourceSelect");
+    const directorySelect = document.getElementById("directorySelect");
+    const searchInput = document.getElementById("searchInput");
+    const fileList = document.getElementById("fileList");
+
+    const escapeHtml = (value) => String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
+    function fmt(value) {
+      if (value === null || value === undefined || value === "") return "—";
+      if (typeof value === "number") return Number.isInteger(value) ? value.toString() : value.toFixed(1);
+      return String(value);
+    }
+
+    function badge(label, className = "") {
+      return `<span class="chip ${className}">${escapeHtml(label)}</span>`;
+    }
+
+    function inferKind(trace) {
+      return trace && trace.target ? "nafsa" : "legacy";
+    }
+
+    function normalise(trace) {
+      const kind = inferKind(trace);
+      const targetName = trace?.target?.name || trace?.university || "Unknown trace";
+      const homeUrl = trace?.target?.url || trace?.home_url || "";
+      const discovery = trace?.discovery_trace || trace?.candidates_ranked || [];
+      const pages = trace?.extraction_trace || trace?.probed_pages || [];
+      const actions = trace?.action_history || [];
+      const modes = trace?.mode_history || [];
+      const finalContacts = trace?.final_contacts_with_provenance || trace?.ranked_contacts || [];
+      const missing = trace?.missing_email_candidates || [];
+      const rejected = trace?.rejected_contacts || [];
+      const deduped = trace?.deduped_contacts || [];
+      const searches = trace?.search_attempts || [];
+      const enrich = trace?.enrichment_trace || [];
+      const patterns = trace?.pattern_inference_trace || [];
+      const outcome = trace?.outcome || {};
+
+      return {
+        kind,
+        targetName,
+        homeUrl,
+        discovery,
+        pages,
+        actions,
+        modes,
+        finalContacts,
+        missing,
+        rejected,
+        deduped,
+        searches,
+        enrich,
+        patterns,
+        outcome,
+      };
+    }
+
+    function renderSummary(model) {
+      const rankedCount = model.outcome.ranked_contacts ?? model.finalContacts.length;
+      const pagesFetched = model.outcome.pages_fetched ?? model.pages.length;
+      const selectedCount = model.discovery.filter(item => item.selected_for_planning || item.selected_for_probe).length;
+      const cards = [
+        ["Trace Type", model.kind.toUpperCase()],
+        ["Discovery Candidates", model.discovery.length],
+        ["Selected Candidates", selectedCount],
+        ["Pages Visited", pagesFetched],
+        ["Final Contacts", model.finalContacts.length],
+        ["Ranked Contacts", rankedCount],
+        ["Missing Email", model.missing.length],
+        ["Rejected", model.rejected.length],
+      ];
+      document.getElementById("summaryGrid").innerHTML = cards.map(([label, value]) => `
+        <div class="stat">
+          <div class="label">${escapeHtml(label)}</div>
+          <div class="value">${escapeHtml(fmt(value))}</div>
+        </div>
+      `).join("");
+    }
+
+    function cardList(items, mapper, emptyMessage) {
+      if (!items.length) return `<div class="empty">${escapeHtml(emptyMessage)}</div>`;
+      return items.map(mapper).join("");
+    }
+
+    function renderContacts(model) {
+      document.getElementById("finalContacts").innerHTML = cardList(
+        model.finalContacts,
+        (contact) => `
+          <div class="mini-card">
+            <h3>${escapeHtml(contact.name || contact.email || "Unnamed contact")}</h3>
+            <div class="small">${escapeHtml(contact.role || contact.title || "No role")}</div>
+            <div class="chip-row">
+              ${badge(contact.email || "No email")}
+              ${badge(`${contact.email_source || "direct"} / ${contact.confidence || "high"}`)}
+              ${(contact.priority || contact.classifier_reason) ? badge(contact.priority || contact.classifier_reason, "warn") : ""}
+            </div>
+            ${(contact.page_url || contact.evidence_url) ? `<div class="small" style="margin-top:8px;">${escapeHtml(contact.page_url || contact.evidence_url)}</div>` : ""}
+          </div>
+        `,
+        "No final contacts in this trace."
+      );
+
+      const candidateMapper = (candidate) => `
+        <div class="mini-card">
+          <h3>${escapeHtml(candidate.name || "Unnamed candidate")}</h3>
+          <div class="small">${escapeHtml(candidate.role || candidate.title || candidate.reason || "No role")}</div>
+          <div class="chip-row">
+            ${candidate.page_url ? badge(candidate.page_url) : ""}
+            ${candidate.candidate_status ? badge(candidate.candidate_status, "warn") : ""}
+          </div>
+        </div>
+      `;
+
+      document.getElementById("missingCandidates").innerHTML = cardList(model.missing, candidateMapper, "No missing-email candidates were recorded.");
+      document.getElementById("rejectedContacts").innerHTML = cardList(
+        model.rejected,
+        (contact) => `
+          <div class="mini-card">
+            <h3>${escapeHtml(contact.name || contact.email || "Rejected candidate")}</h3>
+            <div class="small">${escapeHtml(contact.role || contact.title || "No role")}</div>
+            <div class="chip-row">
+              ${contact.email ? badge(contact.email) : ""}
+              ${contact.reason ? badge(contact.reason, "danger") : ""}
+            </div>
+          </div>
+        `,
+        "No rejected contacts were preserved for this trace."
+      );
+      document.getElementById("dedupedContacts").innerHTML = cardList(model.deduped, candidateMapper, "No duplicates were dropped in this trace.");
+    }
+
+    function renderTimeline(model) {
+      const events = [];
+
+      model.modes.forEach((item, index) => {
+        events.push({
+          title: `Mode: ${item.mode || "unknown"}`,
+          meta: `${item.reason || "transition"}${item.goal ? ` · ${item.goal}` : ""}`,
+          order: index * 2,
+        });
+      });
+
+      model.actions.forEach((item, index) => {
+        const details = item.details || {};
+        const location = details.url || details.query || details.domain || details.pattern || "";
+        events.push({
+          title: `Action: ${item.action || "unknown"}`,
+          meta: `${item.reason || "no reason"}${location ? ` · ${location}` : ""}`,
+          order: index * 2 + 1,
+        });
+      });
+
+      if (!events.length) {
+        model.pages.forEach((item, index) => {
+          const page = item.details || item;
+          events.push({
+            title: `Visited page ${index + 1}`,
+            meta: `${page.url || "unknown"} · raw ${fmt(page.raw_contacts)} · kept ${fmt(Array.isArray(page.kept_contacts) ? page.kept_contacts.length : page.kept_contacts)}`,
+            order: index,
+          });
+        });
+      }
+
+      events.sort((a, b) => a.order - b.order);
+      document.getElementById("timeline").innerHTML = events.length
+        ? events.map(event => `
+            <div class="event">
+              <div class="event-title">${escapeHtml(event.title)}</div>
+              <div class="event-meta">${escapeHtml(event.meta)}</div>
+            </div>
+          `).join("")
+        : `<div class="empty">No step-by-step timeline is available in this trace yet.</div>`;
+    }
+
+    function renderTables(model) {
+      const discoveryRows = model.discovery.map((item) => `
+        <tr>
+          <td>${escapeHtml(item.url || "")}</td>
+          <td>${escapeHtml(item.source_type || item.source || "")}</td>
+          <td>${escapeHtml(fmt(item.heuristic_score ?? item.score))}</td>
+          <td>${escapeHtml(item.selection_reason || (item.selected_for_planning || item.selected_for_probe ? "selected" : "not selected"))}</td>
+        </tr>
+      `).join("");
+
+      document.getElementById("discoveryTable").innerHTML = model.discovery.length ? `
+        <table>
+          <thead>
+            <tr><th>URL</th><th>Source</th><th>Score</th><th>Status</th></tr>
+          </thead>
+          <tbody>${discoveryRows}</tbody>
+        </table>
+      ` : `<div class="empty">No discovery candidates were recorded.</div>`;
+
+      const pageRows = model.pages.map((item) => {
+        const page = item.details || item;
+        const kept = Array.isArray(page.kept_contacts) ? page.kept_contacts.length : (page.kept_contacts || 0);
+        const rejected = Array.isArray(page.rejected_contacts) ? page.rejected_contacts.length : 0;
+        const missing = Array.isArray(page.missing_email_candidates) ? page.missing_email_candidates.length : 0;
+        const raw = page.raw_contacts_found ?? page.raw_contacts ?? 0;
+        return `
+          <tr>
+            <td>${escapeHtml(page.url || item.url || "")}</td>
+            <td>${escapeHtml(fmt(raw))}</td>
+            <td>${escapeHtml(fmt(kept))}</td>
+            <td>${escapeHtml(fmt(rejected))}</td>
+            <td>${escapeHtml(fmt(missing))}</td>
+          </tr>
+        `;
+      }).join("");
+
+      document.getElementById("pagesTable").innerHTML = model.pages.length ? `
+        <table>
+          <thead>
+            <tr><th>URL</th><th>Raw</th><th>Kept</th><th>Rejected</th><th>Missing Email</th></tr>
+          </thead>
+          <tbody>${pageRows}</tbody>
+        </table>
+      ` : `<div class="empty">No page-level extraction records were found.</div>`;
+    }
+
+    function renderSearchPanels(model) {
+      document.getElementById("actionCards").innerHTML = cardList(
+        model.actions,
+        (item) => `
+          <div class="mini-card">
+            <h3>${escapeHtml(item.action || "Action")}</h3>
+            <div class="small">${escapeHtml(item.reason || "No reason logged.")}</div>
+            <div class="chip-row">
+              ${(item.details && item.details.url) ? badge(item.details.url) : ""}
+              ${(item.details && item.details.query) ? badge(item.details.query, "warn") : ""}
+            </div>
+          </div>
+        `,
+        "No explicit action history was stored."
+      );
+
+      const combined = [
+        ...model.searches.map(item => ({type: "search", item})),
+        ...model.enrich.map(item => ({type: "enrichment", item})),
+        ...model.patterns.map(item => ({type: "pattern", item})),
+      ];
+
+      document.getElementById("enrichmentCards").innerHTML = cardList(
+        combined,
+        ({type, item}) => `
+          <div class="mini-card">
+            <h3>${escapeHtml(type)}</h3>
+            <div class="small">${escapeHtml(item.reason || item.query || item.pattern || item.name || "No details logged.")}</div>
+            <div class="chip-row">
+              ${item.url ? badge(item.url) : ""}
+              ${item.evidence_url ? badge(item.evidence_url, "warn") : ""}
+              ${item.email ? badge(item.email) : ""}
+            </div>
+          </div>
+        `,
+        "No site search, web search, or pattern recovery activity was recorded."
+      );
+    }
+
+    function renderTrace(trace, fullPath) {
+      state.trace = trace;
+      const model = normalise(trace);
+
+      document.getElementById("traceName").textContent = model.targetName;
+      document.getElementById("traceSub").textContent = [model.homeUrl, fullPath].filter(Boolean).join(" · ");
+
+      const statusBits = [
+        badge(model.kind.toUpperCase()),
+        model.outcome.hard_success ? badge("hard success") : "",
+        model.outcome.soft_success ? badge("soft success", "warn") : "",
+        model.outcome.failed ? badge(`failed: ${model.outcome.failure_reason || "unknown"}`, "danger") : "",
+        trace.stop_reason ? badge(`stop: ${trace.stop_reason}`, "warn") : "",
+      ].filter(Boolean).join("");
+      document.getElementById("traceBadges").innerHTML = statusBits;
+
+      renderSummary(model);
+      renderTimeline(model);
+      renderContacts(model);
+      renderTables(model);
+      renderSearchPanels(model);
+      document.getElementById("rawJson").textContent = JSON.stringify(trace, null, 2);
+    }
+
+    function renderFileList() {
+      const search = searchInput.value.trim().toLowerCase();
+      state.filteredFiles = state.files.filter((file) => {
+        const directoryMatch = !state.directory || file.directory === state.directory;
+        const searchMatch = !search || file.name.toLowerCase().includes(search) || file.path.toLowerCase().includes(search);
+        return directoryMatch && searchMatch;
+      });
+
+      fileList.innerHTML = state.filteredFiles.length ? state.filteredFiles.map((file) => `
+        <div class="file-item ${file.path === state.selectedPath ? "active" : ""}" data-path="${escapeHtml(file.path)}">
+          <div class="file-name">${escapeHtml(file.name)}</div>
+          <div class="file-meta">${escapeHtml(file.directory || "root")}<br>${escapeHtml(file.modified_at)}</div>
+        </div>
+      `).join("") : `<div class="empty">No trace files match this filter.</div>`;
+
+      Array.from(document.querySelectorAll(".file-item")).forEach((el) => {
+        el.addEventListener("click", () => loadTrace(el.dataset.path));
+      });
+    }
+
+    async function loadSource(source) {
+      state.source = source;
+      const response = await fetch(`/api/traces/list?source=${encodeURIComponent(source)}`);
+      const payload = await response.json();
+      state.files = payload.files || [];
+      const dirs = payload.directories || [];
+      directorySelect.innerHTML = [`<option value="">All folders</option>`]
+        .concat(dirs.map((dir) => `<option value="${escapeHtml(dir)}">${escapeHtml(dir || "root")}</option>`))
+        .join("");
+      state.directory = "";
+      renderFileList();
+      if (state.files.length) {
+        loadTrace(state.files[0].path);
+      }
+    }
+
+    async function loadTrace(path) {
+      state.selectedPath = path;
+      renderFileList();
+      const response = await fetch(`/api/traces/load?source=${encodeURIComponent(state.source)}&path=${encodeURIComponent(path)}`);
+      const payload = await response.json();
+      renderTrace(payload.trace, payload.full_path);
+    }
+
+    async function init() {
+      const sourceResp = await fetch("/api/traces/sources");
+      const sourcePayload = await sourceResp.json();
+      state.sources = sourcePayload.sources || [];
+      sourceSelect.innerHTML = state.sources.map((source) => `
+        <option value="${escapeHtml(source.id)}">${escapeHtml(source.label)} (${source.trace_count})</option>
+      `).join("");
+      sourceSelect.value = sourcePayload.default_source || "workspace";
+      await loadSource(sourceSelect.value);
+    }
+
+    sourceSelect.addEventListener("change", () => loadSource(sourceSelect.value));
+    directorySelect.addEventListener("change", () => {
+      state.directory = directorySelect.value;
+      renderFileList();
+    });
+    searchInput.addEventListener("input", renderFileList);
+
+    init().catch((error) => {
+      document.getElementById("traceName").textContent = "Trace viewer failed to load";
+      document.getElementById("traceSub").textContent = error.message || String(error);
+    });
+  </script>
+</body>
+</html>
