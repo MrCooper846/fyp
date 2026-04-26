@@ -36,7 +36,11 @@ require_command() {
 
 sudo_cmd() {
   if [[ "${EUID}" -eq 0 ]]; then
-    "$@"
+    if [[ "${1:-}" == "-u" ]]; then
+      sudo "$@"
+    else
+      "$@"
+    fi
   else
     sudo "$@"
   fi
