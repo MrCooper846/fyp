@@ -167,6 +167,27 @@
       margin-bottom: 14px;
     }
 
+    .job-form {
+      display: grid;
+      grid-template-columns: 120px 120px 150px 130px 1fr;
+      gap: 10px;
+      align-items: end;
+      margin-bottom: 14px;
+    }
+
+    .checkbox-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 0.86rem;
+    }
+
+    .checkbox-line input {
+      width: auto;
+    }
+
     input, select {
       width: 100%;
       border-radius: 14px;
@@ -300,12 +321,14 @@
     @media (max-width: 1100px) {
       .grid { grid-template-columns: 1fr; }
       .filters { grid-template-columns: 1fr 1fr; }
+      .job-form { grid-template-columns: 1fr 1fr; }
     }
 
     @media (max-width: 640px) {
       .shell { padding: 14px; }
       .kpis { grid-template-columns: 1fr; }
       .filters { grid-template-columns: 1fr; }
+      .job-form { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -345,9 +368,45 @@
         <section class="panel">
           <div class="panel-inner">
             <div class="tabs">
+              <button class="tab" data-tab="jobs">Run Jobs</button>
               <button class="tab active" data-tab="contacts">Contacts</button>
               <button class="tab" data-tab="institutions">Institutions</button>
               <button class="tab" data-tab="run">Run Detail</button>
+            </div>
+
+            <div id="jobsTab" style="display:none">
+              <div class="job-form">
+                <div>
+                  <label>Country</label>
+                  <input id="jobCountry" placeholder="IT" maxlength="3">
+                </div>
+                <div>
+                  <label>Limit</label>
+                  <input id="jobLimit" placeholder="10" type="number" min="1">
+                </div>
+                <div>
+                  <label>Discovery</label>
+                  <select id="jobDiscovery">
+                    <option value="hybrid">Hybrid</option>
+                    <option value="real_link_only">Real links</option>
+                    <option value="heuristic_only">Heuristic</option>
+                    <option value="generated_slug_only">Generated slugs</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Concurrency</label>
+                  <input id="jobConcurrency" value="6" type="number" min="1" max="20">
+                </div>
+                <div>
+                  <button id="startJobBtn">Start NAFSA Run</button>
+                </div>
+              </div>
+              <div class="pill-row" style="margin-bottom:14px">
+                <label class="checkbox-line"><input id="jobIgnoreRobots" type="checkbox" checked> Ignore robots</label>
+                <label class="checkbox-line"><input id="jobClassify" type="checkbox"> LLM classify contacts</label>
+              </div>
+              <div id="jobMessage" class="meta" style="margin-bottom:12px"></div>
+              <div class="list" id="jobsList"></div>
             </div>
 
             <div id="contactsTab">
@@ -401,6 +460,8 @@
       activeTab: "contacts",
       selectedRunId: null,
       selectedTargetId: null,
+      selectedJobId: null,
+      polling: null,
     };
 
     const $ = (id) => document.getElementById(id);
@@ -454,6 +515,103 @@
       } catch (err) {
         $("kpis").innerHTML = `<div class="error">${esc(err.message)}</div>`;
       }
+    }
+
+    async function loadJobs() {
+      const data = await getJson("/api/jobs");
+      $("jobsList").innerHTML = data.jobs.map(job => renderJobItem(job)).join("") || `<div class="empty">No web-started jobs in this process yet.</div>`;
+      const active = data.jobs.some(job => ["queued", "running"].includes(job.status));
+      if (active && !state.polling) startPolling();
+      if (!active && state.polling) stopPolling();
+    }
+
+    function renderJobItem(job) {
+      const live = job.live_run || {};
+      return `
+        <div class="item ${state.selectedJobId === job.id ? "active" : ""}" onclick="selectJob('${esc(job.id)}')">
+          <div class="item-title">${esc(job.country)} · ${esc(job.status)}</div>
+          <div class="meta">
+            ${esc(job.discovery_mode)} · limit ${esc(job.limit || "all")} · ${fmtDate(job.started_at || job.created_at)}<br>
+            ${esc(job.outfile || "")}
+          </div>
+          <div class="pill-row">
+            <span class="pill ${job.status === "completed" ? "high" : job.status === "failed" ? "low" : "medium"}">${esc(job.status)}</span>
+            <span class="pill">${esc(job.pid || "no pid")}</span>
+            ${live.id ? `<span class="pill high">${esc(live.contacts)} db contacts</span><span class="pill">${esc(live.pages)} pages</span>` : ""}
+          </div>
+        </div>
+      `;
+    }
+
+    async function startJob() {
+      const payload = {
+        country: $("jobCountry").value,
+        limit: $("jobLimit").value,
+        discovery_mode: $("jobDiscovery").value,
+        concurrency: $("jobConcurrency").value,
+        ignore_robots: $("jobIgnoreRobots").checked,
+        classify: $("jobClassify").checked,
+      };
+      $("jobMessage").textContent = "Starting job...";
+      try {
+        const res = await fetch("/api/jobs/start", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(payload),
+        });
+        const body = await res.json();
+        if (!res.ok) throw new Error(body.error || res.statusText);
+        state.selectedJobId = body.job.id;
+        $("jobMessage").textContent = `Started job ${body.job.id}`;
+        setActiveTab("jobs");
+        startPolling();
+        await loadJobs();
+      } catch (err) {
+        $("jobMessage").innerHTML = `<span class="error">${esc(err.message)}</span>`;
+      }
+    }
+
+    async function selectJob(jobId) {
+      state.selectedJobId = jobId;
+      const data = await getJson(`/api/jobs/${jobId}`);
+      const job = data.job;
+      $("targetDetail").innerHTML = `
+        <div class="section-title">
+          <h2>${esc(job.country)} Job</h2>
+          <span class="pill ${job.status === "completed" ? "high" : job.status === "failed" ? "low" : "medium"}">${esc(job.status)}</span>
+        </div>
+        <div class="meta">
+          PID ${esc(job.pid || "")} · return ${esc(job.returncode ?? "")}<br>
+          ${esc(job.command || "")}
+        </div>
+        ${job.live_run ? `
+          <div class="pill-row">
+            <span class="pill high">${esc(job.live_run.contacts)} DB contacts</span>
+            <span class="pill">${esc(job.live_run.targets)} targets</span>
+            <span class="pill">${esc(job.live_run.pages)} pages</span>
+            <button onclick="selectRun('${esc(job.live_run.id)}')">Open DB run</button>
+          </div>
+        ` : `<div class="meta" style="margin-top:10px">Waiting for Postgres run row...</div>`}
+        <h3>Live Log Tail</h3>
+        <pre style="white-space:pre-wrap; background:#13212f; color:#f8f4e8; border-radius:16px; padding:14px; max-height:48vh; overflow:auto">${esc(job.log_tail || "No log output yet.")}</pre>
+      `;
+      await loadJobs();
+    }
+
+    function startPolling() {
+      if (state.polling) return;
+      state.polling = setInterval(async () => {
+        await Promise.allSettled([loadOverview(), loadContacts(), loadJobs()]);
+        if (state.selectedJobId) {
+          await selectJob(state.selectedJobId).catch(() => {});
+        }
+      }, 4000);
+    }
+
+    function stopPolling() {
+      if (!state.polling) return;
+      clearInterval(state.polling);
+      state.polling = null;
     }
 
     async function loadContacts() {
@@ -607,10 +765,12 @@
       $("contactsTab").style.display = tab === "contacts" ? "" : "none";
       $("institutionsTab").style.display = tab === "institutions" ? "" : "none";
       $("runTab").style.display = tab === "run" ? "" : "none";
+      $("jobsTab").style.display = tab === "jobs" ? "" : "none";
     }
 
     document.querySelectorAll(".tab").forEach(btn => btn.addEventListener("click", () => setActiveTab(btn.dataset.tab)));
     $("refreshBtn").addEventListener("click", () => { loadOverview(); loadContacts(); loadInstitutions(); });
+    $("startJobBtn").addEventListener("click", startJob);
     $("contactSearchBtn").addEventListener("click", loadContacts);
     $("institutionSearchBtn").addEventListener("click", loadInstitutions);
     ["contactSearch", "contactCountry"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") loadContacts(); }));
@@ -621,6 +781,7 @@
     loadOverview();
     loadContacts();
     loadInstitutions();
+    loadJobs();
   </script>
 </body>
 </html>

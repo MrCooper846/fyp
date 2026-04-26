@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, send_from_directory, redirect, url_for, abort, jsonify
-import json, os, sys, asyncio, subprocess
+import json, os, sys, asyncio, subprocess, threading
 from datetime import datetime
 from decimal import Decimal
 from pathlib import Path
 from uuid import UUID
+from uuid import uuid4
 
 # Try to import the refactored crawler module
 try:
@@ -35,6 +36,10 @@ TRACE_SOURCES = {
 }
 
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+JOB_LOCK = threading.Lock()
+JOBS: dict[str, dict] = {}
+JOB_LOG_ROOT = BASE_DIR / "logs" / "web_jobs"
+JOB_LOG_ROOT.mkdir(parents=True, exist_ok=True)
 
 def _db_available() -> bool:
     return bool(DATABASE_URL)
@@ -71,6 +76,127 @@ def _jsonify_db_row(row: dict) -> dict:
         else:
             converted[key] = value
     return converted
+
+def _parse_bool(value, default: bool = False) -> bool:
+    if value is None:
+        return default
+    if isinstance(value, bool):
+        return value
+    return str(value).strip().lower() in {"1", "true", "yes", "on"}
+
+def _job_snapshot(job: dict) -> dict:
+    snapshot = dict(job)
+    for key in ("created_at", "started_at", "finished_at"):
+        if isinstance(snapshot.get(key), datetime):
+            snapshot[key] = snapshot[key].isoformat()
+    return snapshot
+
+def _latest_live_run_for_job(job: dict) -> dict | None:
+    if not _db_available():
+        return None
+    started_at = job.get("started_at")
+    country = job.get("country")
+    try:
+        return _db_one(
+            """
+            select
+                id::text,
+                status::text,
+                started_at,
+                finished_at,
+                (
+                    select count(*) from run_targets rt where rt.run_id = runs.id
+                ) as targets,
+                (
+                    select count(*) from contact_observations co where co.run_id = runs.id
+                ) as contacts,
+                (
+                    select count(*) from page_observations po where po.run_id = runs.id
+                ) as pages
+            from runs
+            where source_type = 'nafsa_live_pipeline'
+              and country_code = %s
+              and started_at >= %s
+            order by started_at desc, id desc
+            limit 1
+            """,
+            (country, started_at),
+        )
+    except Exception:
+        return None
+
+def _tail_file(path: Path, max_chars: int = 12000) -> str:
+    if not path.exists():
+        return ""
+    data = path.read_bytes()
+    return data[-max_chars:].decode("utf-8", errors="replace")
+
+def _run_web_job(job_id: str) -> None:
+    with JOB_LOCK:
+        job = JOBS[job_id]
+        job["status"] = "running"
+        job["started_at"] = datetime.utcnow()
+        log_path = Path(job["log_path"])
+
+    env = os.environ.copy()
+    if DATABASE_URL:
+        env["DATABASE_URL"] = DATABASE_URL
+        env["POSTGRES_DUAL_WRITE"] = "1"
+    env.setdefault("PYTHONUNBUFFERED", "1")
+
+    cmd = [
+        sys.executable,
+        str(BASE_DIR / "gc_contacts_cli.py"),
+        "nafsa",
+        job["country"],
+        "--output",
+        job["outfile"],
+        "--debug",
+        "--debug-dir",
+        job["debug_dir"],
+        "--discovery-mode",
+        job["discovery_mode"],
+        "--concurrency",
+        str(job["concurrency"]),
+    ]
+    if job.get("limit"):
+        cmd.extend(["--limit", str(job["limit"])])
+    if job.get("ignore_robots"):
+        cmd.append("--ignore-robots")
+    if job.get("classify"):
+        cmd.append("--classify")
+
+    with JOB_LOCK:
+        JOBS[job_id]["command"] = " ".join(cmd)
+
+    try:
+        with log_path.open("w", encoding="utf-8", errors="replace") as log:
+            log.write(f"Starting job {job_id} at {datetime.utcnow().isoformat()}Z\n")
+            log.write(f"Command: {' '.join(cmd)}\n\n")
+            log.flush()
+            proc = subprocess.Popen(
+                cmd,
+                cwd=BASE_DIR,
+                env=env,
+                stdout=log,
+                stderr=subprocess.STDOUT,
+                text=True,
+            )
+            with JOB_LOCK:
+                JOBS[job_id]["pid"] = proc.pid
+            returncode = proc.wait()
+
+        with JOB_LOCK:
+            job = JOBS[job_id]
+            job["returncode"] = returncode
+            job["status"] = "completed" if returncode == 0 else "failed"
+            job["finished_at"] = datetime.utcnow()
+    except Exception as exc:
+        with JOB_LOCK:
+            job = JOBS[job_id]
+            job["status"] = "failed"
+            job["error"] = str(exc)
+            job["finished_at"] = datetime.utcnow()
 
 def safe_country(code: str) -> str:
     code = (code or "").strip().upper()
@@ -262,6 +388,79 @@ def db_overview():
         )
     except Exception as exc:
         return jsonify({"available": False, "error": str(exc)}), 500
+
+@app.route('/api/jobs/start', methods=['POST'])
+def start_job():
+    payload = request.get_json(silent=True) or request.form
+    country = safe_country(payload.get("country", ""))
+    if not country:
+        return jsonify({"error": "Country code is required."}), 400
+
+    limit_raw = str(payload.get("limit", "") or "").strip()
+    limit = int(limit_raw) if limit_raw.isdigit() else None
+    concurrency_raw = str(payload.get("concurrency", "6") or "6").strip()
+    concurrency = max(1, min(20, int(concurrency_raw) if concurrency_raw.isdigit() else 6))
+    discovery_mode = str(payload.get("discovery_mode", "hybrid") or "hybrid")
+    if discovery_mode not in {"heuristic_only", "generated_slug_only", "real_link_only", "hybrid"}:
+        discovery_mode = "hybrid"
+
+    stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    job_id = uuid4().hex
+    outfile = OUTPUT_DIR / f"{country}_nafsa_{stamp}.csv"
+    debug_dir = DEBUG_ROOT / f"{country}_nafsa_{stamp}"
+    debug_dir.mkdir(parents=True, exist_ok=True)
+    log_path = JOB_LOG_ROOT / f"{job_id}.log"
+
+    job = {
+        "id": job_id,
+        "status": "queued",
+        "country": country,
+        "limit": limit,
+        "concurrency": concurrency,
+        "discovery_mode": discovery_mode,
+        "ignore_robots": _parse_bool(payload.get("ignore_robots"), True),
+        "classify": _parse_bool(payload.get("classify"), False),
+        "outfile": str(outfile),
+        "debug_dir": str(debug_dir),
+        "log_path": str(log_path),
+        "created_at": datetime.utcnow(),
+        "started_at": None,
+        "finished_at": None,
+        "pid": None,
+        "returncode": None,
+        "error": "",
+    }
+    with JOB_LOCK:
+        JOBS[job_id] = job
+
+    thread = threading.Thread(target=_run_web_job, args=(job_id,), daemon=True)
+    thread.start()
+    return jsonify({"job": _job_snapshot(job)})
+
+@app.route('/api/jobs')
+def list_jobs():
+    with JOB_LOCK:
+        raw_jobs = list(JOBS.values())
+        jobs = [_job_snapshot(job) for job in raw_jobs]
+    for snapshot, raw_job in zip(jobs, raw_jobs):
+        live_run = _latest_live_run_for_job(raw_job)
+        if live_run:
+            snapshot["live_run"] = _jsonify_db_row(live_run)
+    jobs.sort(key=lambda item: item.get("created_at") or "", reverse=True)
+    return jsonify({"jobs": jobs})
+
+@app.route('/api/jobs/<job_id>')
+def job_detail(job_id):
+    with JOB_LOCK:
+        job = JOBS.get(job_id)
+        if not job:
+            abort(404, description="Job not found")
+        snapshot = _job_snapshot(job)
+    live_run = _latest_live_run_for_job(job)
+    if live_run:
+        snapshot["live_run"] = _jsonify_db_row(live_run)
+    snapshot["log_tail"] = _tail_file(Path(job["log_path"]))
+    return jsonify({"job": snapshot})
 
 @app.route('/api/db/contacts')
 def db_contacts():
