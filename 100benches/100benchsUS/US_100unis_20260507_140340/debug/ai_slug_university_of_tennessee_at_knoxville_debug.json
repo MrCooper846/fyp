@@ -1,0 +1,1410 @@
+{
+  "method": "ai_slug",
+  "university": "University of Tennessee at Knoxville",
+  "homepage_url": "https://www.utk.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 173,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 24,
+    "contacts_kept": 6,
+    "time_seconds": 31.107059955596924,
+    "tokens_in": 10676,
+    "tokens_out": 6200,
+    "cost_dollars": 0.0212856,
+    "best_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+    "source_breakdown": {
+      "mailto_explicit": 2,
+      "visible_regex": 4,
+      "html_attribute": 0,
+      "embedded_json": 2,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 22
+    }
+  },
+  "contacts": [
+    {
+      "name": "Matthew Scoggins",
+      "email": "matthew.scoggins@utk.edu",
+      "role": "Chief of Staff",
+      "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Susan England",
+      "email": "susan.england@utk.edu",
+      "role": "chancellor",
+      "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+      "score": 14,
+      "reason": "ok"
+    },
+    {
+      "name": "McCauley Parks",
+      "email": "mccauley.parks@utk.edu",
+      "role": "Strategic Engagement Manager",
+      "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+      "score": 10,
+      "reason": "ok"
+    },
+    {
+      "name": "William Fox",
+      "email": "william.fox@utk.edu",
+      "role": "chancellor",
+      "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+      "score": 14,
+      "reason": "ok"
+    },
+    {
+      "name": "Ashley Blamey",
+      "email": "ashley.blamey@utk.edu",
+      "role": "Title IX Coordinator",
+      "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Donde Tall",
+      "email": "donde-tall@3x.png",
+      "role": "chancellor",
+      "page_url": "https://chancellor.utk.edu",
+      "score": 11,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 163,
+      "generated_slug_only": 173,
+      "real_link_only": 104,
+      "hybrid": 233
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 39,
+      "cms": 29,
+      "structured_endpoints": 5,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://www.utk.edu/facultyandstaff",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://global.utk.edu",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Global Engagement",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://global.utk.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Home Home",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints",
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://international.utk.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "ISSS ISSS",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 16.05,
+        "anchor_text": "Staff Directory",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://chancellor.utk.edu",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "governance",
+        "heuristic_score": 7.15,
+        "anchor_text": "Leadership",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://global.utk.edu/scholarships-for-study-and-research-abroad/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Scholarships",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://www.utk.edu/admissions",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions & Aid Overview Admissions & Aid Overview",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://www.utk.edu/admissions/tuition-aid",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Tuition, Cost & Aid Tuition, Cost & Aid",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://www.utk.edu/apply",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Apply",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://www.utk.edu/about",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About Overview About Overview",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://www.utk.edu/about/knoxville",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Knoxville Knoxville",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://facultycentral.utk.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Central",
+        "parent_url": "https://www.utk.edu/facultyandstaff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://provost.utk.edu/faculty-success/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Success",
+        "parent_url": "https://www.utk.edu/facultyandstaff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://chancellor.utk.edu/university-leadership/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 9.35,
+        "anchor_text": "Leadership team",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://chancellor.utk.edu/leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 8.35,
+        "anchor_text": "Leadership",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://chancellor.utk.edu/leadership/chancellors-leadership-academy/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 8.35,
+        "anchor_text": "Chancellor’s Leadership Academy",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://chancellor.utk.edu/leadership/leading-with-courage/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 8.35,
+        "anchor_text": "Leading with Courage",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://chancellor.utk.edu/tag/on-leadership-video-series/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 7.15,
+        "anchor_text": "On Leadership",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://chancellor.utk.edu/about-the-chancellor/advisory-board/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Advisory Board",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://global.utk.edu/about-ut-globlal/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 8.3,
+        "anchor_text": "About Overview About Overview",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://global.utk.edu/about-ut-globlal/mission/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 8.3,
+        "anchor_text": "Mission Mission",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://global.utk.edu/coil/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "COIL COIL",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://global.utk.edu/global-resources-at-ut/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Resources Resources",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://global.utk.edu/global-units/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Units Overview Units Overview",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://global.utk.edu/global-units/global-risk/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global Risk Global Risk",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://global.utk.edu/global-units/global-risk/travel/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Travel Travel",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://global.utk.edu/global-units/grip/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "GRIP GRIP",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://ihouse.utk.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "International House International House",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://global.utk.edu/about-ut-globlal/leadership/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "governance",
+        "heuristic_score": 9.95,
+        "anchor_text": "Leadership Leadership",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://global.utk.edu/cdn-cgi/l/email-protection",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "[email protected]",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://global.utk.edu/about/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 10.5,
+        "anchor_text": "About Global Engagement",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://admissions.utk.edu/undergraduate-application/international-students/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Apply as an international student",
+        "parent_url": "https://www.utk.edu/admissions",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://global.utk.edu/global-engagement-news/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Global Engagement News and Updates",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://global.utk.edu/global-units/grip/partnerships/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Explore Partnerships",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://global.utk.edu/academy-for-global-scholars/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Academy for Global Scholars",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://global.utk.edu/first-22-cohort-set-to-graduate/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "First 2+2 Cohort Set to Graduate",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://global.utk.edu/fulbright-scholars/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Fulbright Scholar Resources",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://global.utk.edu/global-project-grows-beyond-classroom/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global project grows beyond classroom",
+        "parent_url": "https://global.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://chancellor.utk.edu/2026/01/12/on-leadership-plowman-interviews-keith-gray/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 6.7,
+        "anchor_text": "On Leadership: Plowman Interviews Keith Gray on Being a Problem Solver",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://chancellor.utk.edu/2026/03/10/on-leadership-plowman-interviews-rick-barnes-on-inspiring-effort/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 6.7,
+        "anchor_text": "On Leadership: Plowman Interviews Rick Barnes on Inspiring Effort",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://chancellor.utk.edu/2026/04/28/on-leadership-plowman-interviews-stuart-mcwhorter-on-fostering-trust/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 6.7,
+        "anchor_text": "On Leadership: Plowman Interviews Stuart McWhorter on Fostering Trust",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://chancellor.utk.edu/category/from-the-chancellor/thought-leadership/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 4.95,
+        "anchor_text": "In her own words",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://www.utk.edu/apply/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Apply",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://chancellor.utk.edu/about-the-chancellor/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.95,
+        "anchor_text": "About the Chancellor",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://chancellor.utk.edu/about-the-chancellor/cabinet/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.95,
+        "anchor_text": "Chancellor’s Cabinet",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://chancellor.utk.edu/about-the-chancellor/history/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.95,
+        "anchor_text": "History",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://chancellor.utk.edu/about-the-chancellor/investiture/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.95,
+        "anchor_text": "Investiture",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://chancellor.utk.edu/?cat=7,12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "News and Messages",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://chancellor.utk.edu/flagship/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "Flagship Address",
+        "parent_url": "https://chancellor.utk.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.utk.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.utk.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.utk.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.utk.edu/en/facultyandstaff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.utk.edu/facultyandstaff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.utk.edu/en/facultyandstaff/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.utk.edu/en/facultyandstaff/partnerships",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.utk.edu/en/facultyandstaff/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "https://www.utk.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://international.utk.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://contact.utk.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+      "best_url_kept": 5,
+      "source_breakdown": {
+        "mailto_explicit": 2,
+        "visible_regex": 4,
+        "html_attribute": 0,
+        "embedded_json": 2,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 22
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://www.utk.edu/facultyandstaff",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 108092,
+        "visible_text_length": 2918,
+        "embedded_text_length": 1178,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "b20a0890f0191de754565ea90fc2b43008e19a15",
+        "content_signatures": [
+          "b20a0890f0191de754565ea90fc2b43008e19a15"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.utk.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Donde Plowman",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.utk.edu/facultyandstaff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Donde Plowman",
+            "raw_role": "Chancellor",
+            "clean_name": "Donde Plowman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://global.utk.edu",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 125384,
+        "visible_text_length": 4509,
+        "embedded_text_length": 2046,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "231d741b6d957fbd6d4df7df13d6c11f8831793c",
+        "content_signatures": [
+          "231d741b6d957fbd6d4df7df13d6c11f8831793c"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.utk.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 9.3,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "global@utk.edu",
+            "role": "global engagement",
+            "page_url": "https://global.utk.edu/",
+            "score": 0,
+            "reason": "no personal name"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://global.utk.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 125384,
+        "visible_text_length": 4509,
+        "embedded_text_length": 2046,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "231d741b6d957fbd6d4df7df13d6c11f8831793c",
+        "content_signatures": [
+          "231d741b6d957fbd6d4df7df13d6c11f8831793c"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_header|https://global.utk.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_header",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 7.1,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "globalengagement@utk.edu",
+            "role": "global engagement",
+            "page_url": "https://global.utk.edu/",
+            "score": 0,
+            "reason": "no personal name"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://international.utk.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 3,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 1,
+        "page_length": 105752,
+        "visible_text_length": 3820,
+        "embedded_text_length": 100,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "e262f21999ad11387fe00b5dcb176b9171515f8b",
+        "content_signatures": [
+          "e262f21999ad11387fe00b5dcb176b9171515f8b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_header|https://global.utk.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_header",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 7.1,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "international@utk.edu",
+            "role": "international student office",
+            "page_url": "https://international.utk.edu/",
+            "score": 0,
+            "reason": "generic inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Schedule Advising",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://international.utk.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Schedule Advising",
+            "raw_role": "international student office",
+            "clean_name": "Schedule Advising",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "1620 Melrose Avenue\nKnoxville, TN 37996-3531\nContacts and Areas of Responsibility\nSchedule Advising\nPhone:\n865-974-3177",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+        "fetch_succeeded": true,
+        "pages_fetched": 3,
+        "raw_contacts": 10,
+        "kept_contacts": 5,
+        "rejected_contacts": 2,
+        "missing_email_candidates": 0,
+        "page_length": 243359,
+        "visible_text_length": 4138,
+        "embedded_text_length": 1428,
+        "embedded_document_count": 3,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "0602e720f77b1e64d6df7af1874c30916fc928b6",
+        "content_signatures": [
+          "0602e720f77b1e64d6df7af1874c30916fc928b6",
+          "087b3559773267e0134f47918c1f0aa85fd06bdb",
+          "4c77a3c004b2960466652b4b3c775b4b95eed72a"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://chancellor.utk.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 16.05,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Matthew Scoggins",
+            "email": "matthew.scoggins@utk.edu",
+            "role": "Chief of Staff",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 5,
+            "reason": "ok"
+          },
+          {
+            "name": "Susan England",
+            "email": "susan.england@utk.edu",
+            "role": "chancellor",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 14,
+            "reason": "ok"
+          },
+          {
+            "name": "McCauley Parks",
+            "email": "mccauley.parks@utk.edu",
+            "role": "Strategic Engagement Manager",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 10,
+            "reason": "ok"
+          },
+          {
+            "name": "William Fox",
+            "email": "william.fox@utk.edu",
+            "role": "chancellor",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 14,
+            "reason": "ok"
+          },
+          {
+            "name": "Ashley Blamey",
+            "email": "ashley.blamey@utk.edu",
+            "role": "Title IX Coordinator",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 5,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "Lisa Yamagata-Lynch",
+            "email": "lisa.yamagata-lynch@utk.edu",
+            "role": "Ombudsperson",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Matt Harris",
+            "email": "matt.harris@utk.edu",
+            "role": "Faculty Athletic Representative",
+            "page_url": "https://chancellor.utk.edu/about-the-chancellor/staff-directory/",
+            "score": 2,
+            "reason": "low score"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://chancellor.utk.edu",
+        "fetch_succeeded": true,
+        "pages_fetched": 3,
+        "raw_contacts": 5,
+        "kept_contacts": 1,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 290041,
+        "visible_text_length": 4891,
+        "embedded_text_length": 1116,
+        "embedded_document_count": 3,
+        "acquisition_modes": [
+          "embedded_app_state_overlay",
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": true,
+        "content_signature": "a51185d5311d587dd9d23d85977b3bc8fb743c0c",
+        "content_signatures": [
+          "a51185d5311d587dd9d23d85977b3bc8fb743c0c",
+          "087b3559773267e0134f47918c1f0aa85fd06bdb",
+          "4c77a3c004b2960466652b4b3c775b4b95eed72a"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.utk.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "governance",
+        "candidate_heuristic_score": 7.15,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 3,
+          "html_attribute": 0,
+          "embedded_json": 2,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Donde Tall",
+            "email": "donde-tall@3x.png",
+            "role": "chancellor",
+            "page_url": "https://chancellor.utk.edu",
+            "score": 11,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Donde Plowman",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://chancellor.utk.edu",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Donde Plowman",
+            "raw_role": "Chancellor",
+            "clean_name": "Donde Plowman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "invalid_email_shape",
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      }
+    ]
+  }
+}

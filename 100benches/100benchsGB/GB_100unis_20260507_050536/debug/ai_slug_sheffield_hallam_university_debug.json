@@ -1,0 +1,1376 @@
+{
+  "method": "ai_slug",
+  "university": "Sheffield Hallam University",
+  "homepage_url": "https://www.shu.ac.uk",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 149,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 54,
+    "contacts_kept": 2,
+    "time_seconds": 40.57412385940552,
+    "tokens_in": 37876,
+    "tokens_out": 18800,
+    "cost_dollars": 0.0678456,
+    "best_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+    "source_breakdown": {
+      "mailto_explicit": 5,
+      "visible_regex": 10,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 54
+    }
+  },
+  "contacts": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@shu.ac.uk",
+      "role": "recruitment",
+      "page_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+      "score": 11,
+      "reason": "ok"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@shu.ac.uk",
+      "role": "vice-chancellor",
+      "page_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+      "score": 20,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 132,
+      "generated_slug_only": 149,
+      "real_link_only": 77,
+      "hybrid": 208
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 0,
+      "cms": 0,
+      "structured_endpoints": 16,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 11.65,
+        "anchor_text": "Find staff Looking for someone? Search our staff profiles here",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.shu.ac.uk/research/people",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "People",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "Staff search",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://www.shu.ac.uk/research/people/leadership-team",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "staff",
+        "heuristic_score": 12.7,
+        "anchor_text": "Leadership team",
+        "parent_url": "https://www.shu.ac.uk/research/people",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://www.shu.ac.uk/about-us/our-people/our-chancellor",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "Our Chancellor",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://www.shu.ac.uk/about-us/our-people/inspirational-teachers",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 7.25,
+        "anchor_text": "Inspirational teaching",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://www.shu.ac.uk/research/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Contact us",
+        "parent_url": "https://www.shu.ac.uk/research/people",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://www.shu.ac.uk/about-us/our-people/university-executive-board",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 8.35,
+        "anchor_text": "University Executive Board",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://www.shu.ac.uk/research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://www.shu.ac.uk/research/degrees",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research degrees",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://www.shu.ac.uk/research/excellence",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Excellence and integrity",
+        "parent_url": "https://www.shu.ac.uk/research/people",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://www.shu.ac.uk/research/in-action",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research in action",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://www.shu.ac.uk/research/outputs-and-data",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Outputs and data",
+        "parent_url": "https://www.shu.ac.uk/research/people",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://www.shu.ac.uk/research/specialisms",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research areas",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://www.shu.ac.uk/visit-us/open-days",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Undergraduate open day Come see us at our next undergraduate open day on Saturday 4 July. From campus tours to opportunities to chat with staff and students, se",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://www.shu.ac.uk/myhallam/support-at-hallam/international-experience",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Support for international students Advice and information from our dedicated support team",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://www.shu.ac.uk/study-here/international/find-your-overseas-team",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "staff",
+        "heuristic_score": 9.3,
+        "anchor_text": "Overseas team Find contact details for your overseas team",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://www.shu.ac.uk/study-here/international",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "International students",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://www.shu.ac.uk/about-us/governance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Governance",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://www.shu.ac.uk/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Contact us",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://www.shu.ac.uk/study-here/international/global-partnerships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 11.5,
+        "anchor_text": "Global partnerships Learn more about the different ways we work with global partners",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://www.shu.ac.uk/study-here/accommodation/support-and-information/international-students",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Accommodation Find affordable and modern accommodation in the heart of the city",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://www.shu.ac.uk/study-here/apply/international-foundation",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "International Foundation Programmes Prepare for your course and meet academic and English criteria",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://www.shu.ac.uk/study-here/international/after-your-course",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "After your course Support to help you find a job or continue your studies in the UK",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://www.shu.ac.uk/study-here/international/english-language-support",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "English language support How to improve your language skills before, during and after your studies",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://www.shu.ac.uk/study-here/international/entry-requirements",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Entry requirements Learn about entry requirements for qualifications in your country",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://www.shu.ac.uk/study-here/international/healthcare",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Healthcare How to access healthcare while you study in the UK",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://www.shu.ac.uk/study-here/international/prearrival-and-visas",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Pre-arrival and visas Advice and information to help you plan your journey to Sheffield",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://www.shu.ac.uk/study-here/international/register",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Sign up for updates Get updates on courses, scholarships and support available for international students",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://www.shu.ac.uk/study-here/international/students-with-families",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Bringing family to Sheffield Advice about bringing your family to the UK while studying",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://www.shu.ac.uk/study-here/international/tuition-fees",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Tuition fees Learn how much it costs to study as an international student",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://www.shu.ac.uk/welcome/prepare/international-arrivals",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Arrival and orientation Information about making your way to the University, and the support available upon arrival",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://www.shu.ac.uk/study-here/apply/exchanges",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Study exchanges Learn how to study at Sheffield Hallam on exchange",
+        "parent_url": "https://www.shu.ac.uk/study-here/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://www.shu.ac.uk/study-here/apply",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "How to apply",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://www.shu.ac.uk/about-this-website/accessibility",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Accessibility",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://www.shu.ac.uk/about-this-website/freedom-of-information",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Freedom of information",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://www.shu.ac.uk/about-this-website/how-we-use-cookies",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "How we use cookies",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://www.shu.ac.uk/about-this-website/legal-information",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Legal information",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://www.shu.ac.uk/about-this-website/legal-information/modern-slavery-statement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Modern slavery statement",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://www.shu.ac.uk/about-this-website/privacy-policy",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Privacy and GDPR",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://www.shu.ac.uk/about-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About us",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://www.shu.ac.uk/about-us/academic-departments",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "University structure",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://www.shu.ac.uk/about-us/our-role-in-the-region",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Our role in the region How we support our local community and the South Yorkshire region",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://www.shu.ac.uk/about-us/our-values",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Our values",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://www.shu.ac.uk/about-us/strategy",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Strategy",
+        "parent_url": "https://www.shu.ac.uk/about-us/our-people",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://www.shu.ac.uk/about-us/who-we-are",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Who we are",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://online.shu.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Online masters",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://reportandsupport.shu.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Harassment and sexual misconduct information",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://www.shu.ac.uk/alumni",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://www.shu.ac.uk/brand-guidelines",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Brand guidelines",
+        "parent_url": "https://www.shu.ac.uk",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.shu.ac.uk/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.shu.ac.uk/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.shu.ac.uk/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.shu.ac.uk/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "staff",
+        "heuristic_score": 9.3,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.shu.ac.uk/en/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.shu.ac.uk/en/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.shu.ac.uk/en/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.shu.ac.uk/en/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.shu.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.shu.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+      "best_url_kept": 2,
+      "source_breakdown": {
+        "mailto_explicit": 5,
+        "visible_regex": 10,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 54
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://www.shu.ac.uk/about-us/our-people",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 9,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 779988,
+        "visible_text_length": 25630,
+        "embedded_text_length": 210,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "9591db7a97a444f71c8925ff6fe0a4c374010a6f",
+        "content_signatures": [
+          "9591db7a97a444f71c8925ff6fe0a4c374010a6f",
+          "00902b072002bc97567f21f0990470dc84f49704",
+          "611809ee7e53ff528b91ecd2adb7e5b561128aaa",
+          "2b0a604aa323d8b325027868edcc9830fe7c3a74",
+          "126c00bec000f1c077f9ff4060a718a6975af2e2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_body|https://www.shu.ac.uk",
+        "mailto_count": 4,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 11.65,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 9
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "enrolments@online.shu.ac.uk",
+            "role": "International",
+            "page_url": "https://online.shu.ac.uk/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.shu.ac.uk/research/people",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 8,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 738203,
+        "visible_text_length": 22216,
+        "embedded_text_length": 210,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "2aace5194666eaaab0754de0339345dcba3aa5fe",
+        "content_signatures": [
+          "2aace5194666eaaab0754de0339345dcba3aa5fe",
+          "611809ee7e53ff528b91ecd2adb7e5b561128aaa",
+          "2b0a604aa323d8b325027868edcc9830fe7c3a74",
+          "2de218daaf20dd90b8d57394c2f46423beb1d735",
+          "1b6ecae5bad6000ce657d6aa8c21461ceef934de"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.shu.ac.uk",
+        "mailto_count": 4,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 8
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 2,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 4152,
+        "visible_text_length": 126,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "302bc05d935706366a5e8ef5c3f4ac630d1f72f2",
+        "content_signatures": [
+          "302bc05d935706366a5e8ef5c3f4ac630d1f72f2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.shu.ac.uk",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [
+          {
+            "name": "John Doe",
+            "email": "john.doe@shu.ac.uk",
+            "role": "recruitment",
+            "page_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+            "score": 11,
+            "reason": "ok"
+          },
+          {
+            "name": "Jane Smith",
+            "email": "jane.smith@shu.ac.uk",
+            "role": "vice-chancellor",
+            "page_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+            "score": 20,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "studyabroad@shu.ac.uk",
+            "role": "Study Abroad Office",
+            "page_url": "https://www.shu.ac.uk/about-us/our-people/staff-profiles",
+            "score": 0,
+            "reason": "no personal name"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.shu.ac.uk/research/people/leadership-team",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 16,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 4,
+        "page_length": 741565,
+        "visible_text_length": 22088,
+        "embedded_text_length": 210,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "a21b1d9d6940179ac995200308019c66d1db3c72",
+        "content_signatures": [
+          "a21b1d9d6940179ac995200308019c66d1db3c72",
+          "611809ee7e53ff528b91ecd2adb7e5b561128aaa",
+          "2b0a604aa323d8b325027868edcc9830fe7c3a74",
+          "2de218daaf20dd90b8d57394c2f46423beb1d735",
+          "2aace5194666eaaab0754de0339345dcba3aa5fe",
+          "1b6ecae5bad6000ce657d6aa8c21461ceef934de"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.shu.ac.uk/research/people",
+        "mailto_count": 4,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "staff",
+        "candidate_heuristic_score": 12.7,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 16
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Dr Anita Gurney",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.shu.ac.uk/research/people/leadership-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Anita Gurney",
+            "raw_role": "Director of Research Services",
+            "clean_name": "Dr Anita Gurney",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Alex Prince",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.shu.ac.uk/research/people/leadership-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alex Prince",
+            "raw_role": "Director of Innovation Services",
+            "clean_name": "Alex Prince",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Gaynor Miller",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.shu.ac.uk/research/people/leadership-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Gaynor Miller",
+            "raw_role": "Director of Researcher and Innovator Development Academy",
+            "clean_name": "Dr Gaynor Miller",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Keith Hurst",
+            "role": "College of Social Sciences and Arts",
+            "email": "",
+            "page_url": "https://www.shu.ac.uk/research/people/leadership-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Keith Hurst",
+            "raw_role": "College of Social Sciences and Arts",
+            "clean_name": "Dr Keith Hurst",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.shu.ac.uk/about-us/our-people/our-chancellor",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 8,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 783470,
+        "visible_text_length": 25580,
+        "embedded_text_length": 210,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "1cf136470d8bc9b5f369844515fd8673f26ac94c",
+        "content_signatures": [
+          "1cf136470d8bc9b5f369844515fd8673f26ac94c",
+          "00902b072002bc97567f21f0990470dc84f49704",
+          "611809ee7e53ff528b91ecd2adb7e5b561128aaa",
+          "2b0a604aa323d8b325027868edcc9830fe7c3a74",
+          "9591db7a97a444f71c8925ff6fe0a4c374010a6f",
+          "126c00bec000f1c077f9ff4060a718a6975af2e2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.shu.ac.uk/about-us/our-people",
+        "mailto_count": 4,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.45,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 8
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Uriah Rennie",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.shu.ac.uk/about-us/our-people/our-chancellor",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Uriah Rennie",
+            "raw_role": "University Chancellor",
+            "clean_name": "Uriah Rennie",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.shu.ac.uk/about-us/our-people/inspirational-teachers",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 9,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 789310,
+        "visible_text_length": 28056,
+        "embedded_text_length": 210,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "00902b072002bc97567f21f0990470dc84f49704",
+        "content_signatures": [
+          "00902b072002bc97567f21f0990470dc84f49704",
+          "611809ee7e53ff528b91ecd2adb7e5b561128aaa",
+          "2b0a604aa323d8b325027868edcc9830fe7c3a74",
+          "9591db7a97a444f71c8925ff6fe0a4c374010a6f",
+          "126c00bec000f1c077f9ff4060a718a6975af2e2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.shu.ac.uk/about-us/our-people",
+        "mailto_count": 4,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 7.25,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 9
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

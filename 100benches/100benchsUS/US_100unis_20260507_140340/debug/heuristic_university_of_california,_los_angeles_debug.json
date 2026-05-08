@@ -1,0 +1,1493 @@
+{
+  "method": "heuristic",
+  "university": "University of California, Los Angeles",
+  "homepage_url": "https://www.ucla.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 190,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 25,
+    "contacts_kept": 7,
+    "time_seconds": 11.815547943115234,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+    "source_breakdown": {
+      "mailto_explicit": 23,
+      "visible_regex": 24,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 0
+    }
+  },
+  "contacts": [
+    {
+      "name": "Michael S Levine",
+      "email": "mlevine@conet.ucla.edu",
+      "role": "vice chancellor",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 18,
+      "reason": "ok"
+    },
+    {
+      "name": "Bonnie MacDougall",
+      "email": "bmacdougall@conet.ucla.edu",
+      "role": "vice chancellor",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 18,
+      "reason": "ok"
+    },
+    {
+      "name": "Carole Goldberg",
+      "email": "goldberg@law.ucla.edu",
+      "role": "vice chancellor",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 18,
+      "reason": "ok"
+    },
+    {
+      "name": "Kathleen Komar",
+      "email": "komar@ucla.edu",
+      "role": "vice chancellor",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 20,
+      "reason": "ok"
+    },
+    {
+      "name": "Kerri Johnson",
+      "email": "kjohnson@conet.ucla.edu",
+      "role": "vice chancellor",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 18,
+      "reason": "ok"
+    },
+    {
+      "name": "Sydney Truong",
+      "email": "struong@conet.ucla.edu",
+      "role": "vice chancellor",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 18,
+      "reason": "ok"
+    },
+    {
+      "name": "Michael Simidjian",
+      "email": "msimidjian@conet.ucla.edu",
+      "role": "rector",
+      "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "score": 11,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "heuristic_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 190,
+      "generated_slug_only": 214,
+      "real_link_only": 143,
+      "hybrid": 273
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 20,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://www.ucla.edu/admission/international-applicants",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "International Applicants",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.ucla.edu/about/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Leadership",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 14.25,
+        "anchor_text": "Academic Affairs and Personnel Office",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://directory.ucla.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Directory",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "http://www.directory.ucla.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "UCLA Campus Directory",
+        "parent_url": "https://campusservices.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://apo.ucla.edu/associate-vice-chancellor-faculty-development",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Associate Vice Chancellor for Faculty Development",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://apo.ucla.edu/faculty-leadership-development-program",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Leadership Development Program",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://apo.ucla.edu/contact-information/special-liaison-for-faculty-development-rosina-becerra",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Special Liaison for Faculty Development",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://newsroom.ucla.edu/dept/faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.95,
+        "anchor_text": "Faculty + staff",
+        "parent_url": "https://newsroom.ucla.edu/releases/mens-water-polo-wins-ncaa-championship-uclas-125th-in-instant-classic",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://apo.ucla.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://apo.ucla.edu/faculty-career-development/regents-professor-and-lecturers-program",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Regents' Professor and Regents' Lecturer Programs",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://apo.ucla.edu/faculty-resources-new-faculty/benefits",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Benefits",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://apo.ucla.edu/faculty-resources/career-development",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Career Development",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://apo.ucla.edu/faculty-resources/new-faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Development",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://apo.ucla.edu/faculty-resources/retirement-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Retirement Resources",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://www.chr.ucla.edu/training-and-development",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff Development & Training",
+        "parent_url": "https://campusservices.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://newsroom.ucla.edu/ucla-experts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.75,
+        "anchor_text": "Media guide to faculty experts",
+        "parent_url": "https://newsroom.ucla.edu/releases/mens-water-polo-wins-ncaa-championship-uclas-125th-in-instant-classic",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://www.directory.ucla.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Directory",
+        "parent_url": "https://newsroom.ucla.edu/releases/mens-water-polo-wins-ncaa-championship-uclas-125th-in-instant-classic",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://campusservices.ucla.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "office",
+        "heuristic_score": 7.7,
+        "anchor_text": "Staff",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://campusservices.ucla.edu/purchasing-finance-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.7,
+        "anchor_text": "Purchasing & Finance",
+        "parent_url": "https://campusservices.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://directory.ucla.edu/about.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "About the UCLA Directory",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://directory.ucla.edu/?searchtype=advanced;querytype=person",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "People Search",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://directory.ucla.edu/update.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Update Directory Listing",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://apo.ucla.edu/apo.ucla.edu/faculty-retirement-planning-workshops-2025",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "2025 Vice Chancellor Michael Levine Memo on Faculty Retirement Planning – Path Forward Workshops",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://oem.ucla.edu/ucla-community",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Emergency Preparedness for Staff & Faculty",
+        "parent_url": "https://campusservices.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://transportation.ucla.edu/campus-parking/faculty-and-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty and Staff Parking Permits",
+        "parent_url": "https://campusservices.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://www.chr.ucla.edu/hr-administration/personnel-transactions",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "HR Administration Personnel Transactions",
+        "parent_url": "https://campusservices.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://directory.ucla.edu/?searchtype=advanced",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Advanced Search",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://directory.ucla.edu/?searchtype=advanced;querytype=department",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Department Search",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://directory.ucla.edu/?searchtype=basic",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Basic Search",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://directory.ucla.edu/dialing.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Dialing Instructions",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://directory.ucla.edu/faq.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Frequently Asked Questions",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://directory.ucla.edu/notary.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Public Notaries",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://directory.ucla.edu/tips.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Search Tips",
+        "parent_url": "https://directory.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://apo.ucla.edu/UC-Early-Career-Faculty-Research-Excellence-Awards",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "UC Early Career Faculty Research Excellence Awards",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://apo.ucla.edu/academic-personnel-policy-issuance-apm-210-review-and-appraisal-committees",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Academic Personnel Policy Issuance: APM - 210, Review and Appraisal Committees",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://apo.ucla.edu/academic-personnel-reviews-and-achievement-relative-opportunity-aro-principles",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Academic Personnel Reviews and Achievement Relative to Opportunity (ARO) Principles",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://apo.ucla.edu/apo.ucla.edu/2025-26-memo-confidentiality-personnel-process",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "2025-26 Memo on Confidentiality in Personnel Process",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://apo.ucla.edu/faculty-retirement-liaison-transition-announcement",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Retirement Liaison Transition Announcement",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://apo.ucla.edu/fall-2023-course-evaluations-optional-personnel-actions",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Fall 2023 Course Evaluations Optional for Personnel Actions",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://apo.ucla.edu/obligation-confidentiality-personnel-process",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Obligation of Confidentiality in the Personnel Process",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://apo.ucla.edu/winter-spring-2024-course-evaluations-optional-personnel-actions",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Winter–Spring 2024 Course Evaluations Optional for Personnel Actions",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://recruit.apo.ucla.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "people UC Academic Recruit",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://www.apo.ucla.edu/Guidance-New-Modifications-to-Academic-Personnel-Evaluation-Procedures",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Guidance on New Modifications to Academic Personnel Evaluation Procedures",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://www.apo.ucla.edu/news/recognition-faculty-service-promoting-equity-and-career-advancement",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.75,
+        "anchor_text": "Recognition of Faculty Service in Promoting Equity and Career Advancement",
+        "parent_url": "https://apo.ucla.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://newsroom.ucla.edu/releases/mens-water-polo-wins-ncaa-championship-uclas-125th-in-instant-classic",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "staff",
+        "heuristic_score": 4.0,
+        "anchor_text": "Men’s water polo team wins NCAA championship, UCLA’s 125th, in instant classic",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://newsroom.ucla.edu/releases/ucla-gymnastics-team-going-to-2025-ncaa-finals",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "staff",
+        "heuristic_score": 4.0,
+        "anchor_text": "Vaulting ahead: UCLA gymnastics team is going to the NCAA finals (April 2025)",
+        "parent_url": "https://newsroom.ucla.edu/releases/mens-water-polo-wins-ncaa-championship-uclas-125th-in-instant-classic",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://www.global.ucla.edu/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.7,
+        "anchor_text": "Global Engagement",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://research.ucla.edu/entrepreneurship",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Investments & Partnerships",
+        "parent_url": "https://www.ucla.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://www.global.ucla.edu/stories/alumniabroad",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Alumni Abroad",
+        "parent_url": "https://www.global.ucla.edu/home",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.ucla.edu/about/leadership/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.ucla.edu/about/leadership/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.ucla.edu/about/leadership/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.ucla.edu/about/leadership/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.ucla.edu/administration/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.ucla.edu/administration/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.ucla.edu/administration/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.ucla.edu/administration/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.ucla.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.ucla.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+      "best_url_kept": 7,
+      "source_breakdown": {
+        "mailto_explicit": 23,
+        "visible_regex": 24,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://www.ucla.edu/admission/international-applicants",
+        "fetch_succeeded": true,
+        "pages_fetched": 4,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 301582,
+        "visible_text_length": 23896,
+        "embedded_text_length": 746,
+        "embedded_document_count": 3,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "aa981cc96046faaf897bc0de398ce978601d776b",
+        "content_signatures": [
+          "aa981cc96046faaf897bc0de398ce978601d776b",
+          "e8e6ed6903f2b9bc9ac355875bb898ca22cfe0a1",
+          "4338c1f8917d8a73b371a3f4139f8e6ccf1ed681",
+          "fc93348a22f485bb7e2004cbd8a9160a019f4daa"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ucla.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 7.1,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.ucla.edu/about/leadership",
+        "fetch_succeeded": true,
+        "pages_fetched": 4,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 326941,
+        "visible_text_length": 23792,
+        "embedded_text_length": 1539,
+        "embedded_document_count": 18,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "612ae660e508b57a265d13342202039823fbb526",
+        "content_signatures": [
+          "612ae660e508b57a265d13342202039823fbb526",
+          "e8e6ed6903f2b9bc9ac355875bb898ca22cfe0a1",
+          "4338c1f8917d8a73b371a3f4139f8e6ccf1ed681",
+          "fc93348a22f485bb7e2004cbd8a9160a019f4daa"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ucla.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "governance",
+        "candidate_heuristic_score": 6.15,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 22,
+        "kept_contacts": 7,
+        "rejected_contacts": 13,
+        "missing_email_candidates": 4,
+        "page_length": 30122,
+        "visible_text_length": 3722,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "3b3b19d5e1dfb7b11a7b48d166e7eb46f8f0bc57",
+        "content_signatures": [
+          "3b3b19d5e1dfb7b11a7b48d166e7eb46f8f0bc57"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://apo.ucla.edu/",
+        "mailto_count": 22,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 14.25,
+        "source_breakdown": {
+          "mailto_explicit": 22,
+          "visible_regex": 21,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Michael S Levine",
+            "email": "mlevine@conet.ucla.edu",
+            "role": "vice chancellor",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 18,
+            "reason": "ok"
+          },
+          {
+            "name": "Bonnie MacDougall",
+            "email": "bmacdougall@conet.ucla.edu",
+            "role": "vice chancellor",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 18,
+            "reason": "ok"
+          },
+          {
+            "name": "Carole Goldberg",
+            "email": "goldberg@law.ucla.edu",
+            "role": "vice chancellor",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 18,
+            "reason": "ok"
+          },
+          {
+            "name": "Kathleen Komar",
+            "email": "komar@ucla.edu",
+            "role": "vice chancellor",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 20,
+            "reason": "ok"
+          },
+          {
+            "name": "Kerri Johnson",
+            "email": "kjohnson@conet.ucla.edu",
+            "role": "vice chancellor",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 18,
+            "reason": "ok"
+          },
+          {
+            "name": "Sydney Truong",
+            "email": "struong@conet.ucla.edu",
+            "role": "vice chancellor",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 18,
+            "reason": "ok"
+          },
+          {
+            "name": "Michael Simidjian",
+            "email": "msimidjian@conet.ucla.edu",
+            "role": "rector",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 11,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "Rosina M Becerra",
+            "email": "rbecerra@ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 3,
+            "reason": "low score"
+          },
+          {
+            "name": "John Abbott",
+            "email": "jabbott@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Deyna Barnard",
+            "email": "dbarnard@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Nathalie Haller",
+            "email": "nhaller@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Julie Huning",
+            "email": "jhuning@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Rong Jiang",
+            "email": "rjiang@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Yadira Marquez",
+            "email": "ymarquez@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Heather Small",
+            "email": "hsmall@it.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Mary Tam",
+            "email": "mtam@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Kevin Urban",
+            "email": "keurban@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "eamador@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dernandez@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "truong@conet.ucla.edu",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Robert Goldstein",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Robert Goldstein",
+            "raw_role": "vice chancellor",
+            "clean_name": "Robert Goldstein",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Robert Goldstein\nSpecial Assistant to the Vice Chancellor\ngoldstei@law.ucla.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sydney Truong",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Sydney Truong",
+            "raw_role": "vice chancellor",
+            "clean_name": "Sydney Truong",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Sydney Truong\nAssistant to Associate Vice Chancellor, Faculty Development\ns\ntruong@conet.ucla.edu\n(310)20\n6-5770",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eliana Romero",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "email": "",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Eliana Romero",
+            "raw_role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "clean_name": "Eliana Romero",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Eliana Romero\neamador@conet.ucla.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dana Ruelas",
+            "role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "email": "",
+            "page_url": "https://apo.ucla.edu/contact-information/academic-personnel-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Dana Ruelas",
+            "raw_role": "Academic Affairs and Personnel Office Academic Affairs and Personnel Skip to Main Content Academic Affairs and Personnel Main navigation Policies & Procedures APM The UCLA Call App",
+            "clean_name": "Dana Ruelas",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Dana Ruelas\ndernandez@conet.ucla.edu\n(310) 20\n6-9683",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://directory.ucla.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 9368,
+        "visible_text_length": 1304,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "b83fa106d87571350bb0cf3b6a45b648a4961a62",
+        "content_signatures": [
+          "b83fa106d87571350bb0cf3b6a45b648a4961a62"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ucla.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 12.05,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.directory.ucla.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 9367,
+        "visible_text_length": 1303,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "c39113386588879c2c7f81781ee5486110fe9b0b",
+        "content_signatures": [
+          "c39113386588879c2c7f81781ee5486110fe9b0b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://campusservices.ucla.edu/",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://apo.ucla.edu/associate-vice-chancellor-faculty-development",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 26969,
+        "visible_text_length": 3901,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "6da3c363d067e5b97228f00331c502e9fef812a9",
+        "content_signatures": [
+          "6da3c363d067e5b97228f00331c502e9fef812a9"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://apo.ucla.edu/",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

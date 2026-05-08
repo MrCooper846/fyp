@@ -1,0 +1,2291 @@
+{
+  "method": "ai_slug",
+  "university": "Georgia Institute of Technology",
+  "homepage_url": "https://www.gatech.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 162,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 102,
+    "contacts_kept": 10,
+    "time_seconds": 101.47262644767761,
+    "tokens_in": 59442,
+    "tokens_out": 20600,
+    "cost_dollars": 0.08510519999999999,
+    "best_url": "https://faculty.gatech.edu/about-us/team-directory",
+    "source_breakdown": {
+      "mailto_explicit": 41,
+      "visible_regex": 23,
+      "html_attribute": 0,
+      "embedded_json": 2,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 82
+    }
+  },
+  "contacts": [
+    {
+      "name": "Michelle Rinehart",
+      "email": "michelle.rinehart@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    },
+    {
+      "name": "Dawn Baunach",
+      "email": "dawn.baunach@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    },
+    {
+      "name": "Diley Hernández",
+      "email": "diley.hernandez@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    },
+    {
+      "name": "Maribeth Gandy Coleman",
+      "email": "maribeth.gandy@imtc.gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 15,
+      "reason": "ok"
+    },
+    {
+      "name": "Mary Thomas",
+      "email": "mary.thomas@provost.gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 15,
+      "reason": "ok"
+    },
+    {
+      "name": "David Bamburowski",
+      "email": "david.bamburowski@provost.gatech.edu",
+      "role": "rector",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 11,
+      "reason": "ok"
+    },
+    {
+      "name": "Brandon Cosby",
+      "email": "brandon.cosby@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    },
+    {
+      "name": "Kay May",
+      "email": "karen.may@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    },
+    {
+      "name": "Jordan Howell",
+      "email": "jordan.howell@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    },
+    {
+      "name": "Kyla Ross",
+      "email": "kyla.ross@gatech.edu",
+      "role": "provost",
+      "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "score": 17,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 134,
+      "generated_slug_only": 162,
+      "real_link_only": 90,
+      "hybrid": 221
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 2,
+      "cms": 0,
+      "structured_endpoints": 21,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://directory.gatech.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 16.45,
+        "anchor_text": "Student, Staff & Faculty Directory",
+        "parent_url": "https://www.gatech.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://faculty.gatech.edu/events/research-faculty-office-hours-virtual",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.95,
+        "anchor_text": "Research Faculty Virtual Office Hours",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://faculty.gatech.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Affairs",
+        "parent_url": "https://www.gatech.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://staffcouncil.gatech.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff Council",
+        "parent_url": "https://www.gatech.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Learn More about Welcome Wreck",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://faculty.gatech.edu/about-us/team-directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 13.85,
+        "anchor_text": "Team Directory",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://facultygovernance.gatech.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Governance",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://staffcouncil.gatech.edu/employee-engagement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Employee Engagement",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://faculty.gatech.edu/about-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "About Us",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://staffcouncil.gatech.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "About",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://careers.gatech.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Hiring",
+        "parent_url": "https://www.gatech.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://faculty.gatech.edu/advance-professors",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "ADVANCE Professors",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://faculty.gatech.edu/collaborative-academic-careers-higher-education-coache-survey-2024",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "COACHE Survey",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://faculty.gatech.edu/current-faculty/academic-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Resource",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://faculty.gatech.edu/emeritus",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Emeritus Faculty",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://faculty.gatech.edu/faculty-affairs-calendars",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Affairs Calendars",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://faculty.gatech.edu/faculty-affairs-reps/banner-access",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Banner Instructor of Record Designation",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://faculty.gatech.edu/faculty-affairs-reps/internal-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Resources and Forms for Faculty Affairs and Hiring Managers",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://faculty.gatech.edu/faculty-affairs-reps/offer-letter-templates",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Offer Letter Templates",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://faculty.gatech.edu/faculty-development-coaching-and-consultations",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Coaching and Consultations",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://faculty.gatech.edu/faculty-features",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Features",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://faculty.gatech.edu/faculty-hiring-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Hiring and Relocation Resources",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://faculty.gatech.edu/faculty-news-spotlight",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Our Faculty in the News",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://faculty.gatech.edu/faculty-professional-development",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Professional Development",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://faculty.gatech.edu/faculty-professional-development/upcoming-programming",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Upcoming Programming",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://faculty.gatech.edu/faculty-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Resource Hub",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://faculty.gatech.edu/faculty-resources/new-faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "New Faculty",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://faculty.gatech.edu/faculty-resources/regents-titles",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Regents' Titles",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Success Coaching",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://faculty.gatech.edu/handling-grievances",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Conflict Resolution & Advocacy",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://faculty.gatech.edu/professional-development-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Professional Development Resources",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://faculty.gatech.edu/promotion-and-tenure",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Promotion and Tenure",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://faculty.gatech.edu/prospective-faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Prospective Faculty Hub",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://faculty.gatech.edu/resources-faculty-affairs-administrators",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Administrators Resource Hub",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://faculty.gatech.edu/time-away",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Time Away",
+        "parent_url": "https://faculty.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://hr.gatech.edu/managers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "People Leaders",
+        "parent_url": "https://careers.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://staffcouncil.gatech.edu/campus-physical-environment",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Campus Physical Environment",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://staffcouncil.gatech.edu/committees",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Committees",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://staffcouncil.gatech.edu/communication",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Communication",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://staffcouncil.gatech.edu/compensation-and-benefits",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Compensation and Benefits",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://staffcouncil.gatech.edu/council-initiatives",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Current High Impact Initiatives",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://staffcouncil.gatech.edu/council-members",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Council Members",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://staffcouncil.gatech.edu/election-timeline",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Election Timeline",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://staffcouncil.gatech.edu/elections",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Elections",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://staffcouncil.gatech.edu/elections-guide",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Election Guide",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://staffcouncil.gatech.edu/employee-health-and-well-being",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Employee Health and Well Being",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://staffcouncil.gatech.edu/mental-health-resource-guide",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Mental Health Resource Guide",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://staffcouncil.gatech.edu/mission-goals",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Mission & Goals",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://staffcouncil.gatech.edu/staff-council",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Home",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://staffcouncil.gatech.edu/staff-council-meetings-events",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Meetings & Events",
+        "parent_url": "https://staffcouncil.gatech.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.gatech.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.gatech.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.gatech.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.gatech.edu/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "staff",
+        "heuristic_score": 9.3,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.gatech.edu/en/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.gatech.edu/en/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.gatech.edu/en/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.gatech.edu/en/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.gatech.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.gatech.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://faculty.gatech.edu/about-us/team-directory",
+      "best_url_kept": 10,
+      "source_breakdown": {
+        "mailto_explicit": 41,
+        "visible_regex": 23,
+        "html_attribute": 0,
+        "embedded_json": 2,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 82
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://directory.gatech.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 4,
+        "raw_contacts": 12,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 266394,
+        "visible_text_length": 20777,
+        "embedded_text_length": 284,
+        "embedded_document_count": 4,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "56158ef0f59d13d00e56f55afce3fc1dc8ad841f",
+        "content_signatures": [
+          "56158ef0f59d13d00e56f55afce3fc1dc8ad841f",
+          "c2b86afc6fd82f69f176b0b6044b4d157fdc52df",
+          "a83f23a4d6255d3016736c541f78d6eb43bbf2e7",
+          "0dde6adaef2b70f14ec5283b85389ad9b0d410b1"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.gatech.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 16.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 2,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://faculty.gatech.edu/events/research-faculty-office-hours-virtual",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 11,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 4,
+        "page_length": 347525,
+        "visible_text_length": 39140,
+        "embedded_text_length": 670,
+        "embedded_document_count": 5,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "751bb4871235f33f9bf91fa130a1289f9305bcbc",
+        "content_signatures": [
+          "751bb4871235f33f9bf91fa130a1289f9305bcbc",
+          "3aaa3f5e5bfee3c678e90fe7c89a074bc3a00ddc",
+          "3b9fcfd3df48d62e615b864dbc0f60766812bd96",
+          "d97d62e1c27e304ea47ee59613218100dd2da7d0",
+          "e8b917e58e5242e82529403036949c254bbf5253",
+          "83d0d82af91262999b20979babe0fe6611c1ed6b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://faculty.gatech.edu/",
+        "mailto_count": 5,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.95,
+        "source_breakdown": {
+          "mailto_explicit": 5,
+          "visible_regex": 5,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "facultyaffairs@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/events/research-faculty-office-hours-virtual",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Dr Maribeth Gandy Coleman",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/events/research-faculty-office-hours-virtual",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr. Maribeth Gandy Coleman",
+            "raw_role": "Assistant Vice Provost for Research Faculty",
+            "clean_name": "Dr Maribeth Gandy Coleman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Pope-Ruark",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rebecca Pope-Ruark",
+            "raw_role": "Director of the Office of Faculty Professional Development",
+            "clean_name": "Rebecca Pope-Ruark",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kyla Ross",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kyla Ross",
+            "raw_role": "Assistant Vice Provost for Advocacy and Conflict Resolution",
+            "clean_name": "Kyla Ross",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dawn Baunach",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dawn Baunach",
+            "raw_role": "Associate Vice Provost for Faculty",
+            "clean_name": "Dawn Baunach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://faculty.gatech.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 12,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 3,
+        "page_length": 452845,
+        "visible_text_length": 49610,
+        "embedded_text_length": 804,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "0b3a4c6417a3e09a79cc802e8316e04ce0e3c62b",
+        "content_signatures": [
+          "0b3a4c6417a3e09a79cc802e8316e04ce0e3c62b",
+          "3aaa3f5e5bfee3c678e90fe7c89a074bc3a00ddc",
+          "3b9fcfd3df48d62e615b864dbc0f60766812bd96",
+          "d97d62e1c27e304ea47ee59613218100dd2da7d0",
+          "e8b917e58e5242e82529403036949c254bbf5253"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.gatech.edu",
+        "mailto_count": 6,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 6,
+          "visible_regex": 6,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 12
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Rebecca Pope-Ruark",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rebecca Pope-Ruark",
+            "raw_role": "Director of the Office of Faculty Professional Development",
+            "clean_name": "Rebecca Pope-Ruark",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kyla Ross",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kyla Ross",
+            "raw_role": "Assistant Vice Provost for Advocacy and Conflict Resolution",
+            "clean_name": "Kyla Ross",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dawn Baunach",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dawn Baunach",
+            "raw_role": "Associate Vice Provost for Faculty",
+            "clean_name": "Dawn Baunach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://staffcouncil.gatech.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 11,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 5,
+        "page_length": 349396,
+        "visible_text_length": 34163,
+        "embedded_text_length": 834,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "ee3b2db8783a8f1695bcdd1f561c9c822b2b4a54",
+        "content_signatures": [
+          "ee3b2db8783a8f1695bcdd1f561c9c822b2b4a54",
+          "e84903d3d477f4d2c85deb00b7b9d9b93d6754c4",
+          "c1bd782a381d32dd182ca9ac96bdee66d07d9e2e",
+          "c1f935db797c756d35689226a6e25bccdbd71888",
+          "62b7244767e60e90a558d1fb9ae419eca1b96767",
+          "a5cd8f210ff9b1246d0553af9d3b5cda2f37bb34"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.gatech.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "Cedric Trice",
+            "email": "cedric.trice@coe.gatech.edu",
+            "role": "Academic Program Manager - Transfer Specialist",
+            "page_url": "https://staffcouncil.gatech.edu/employee-health-and-well-being",
+            "score": 1,
+            "reason": "low score"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Skye Duckett",
+            "role": "president",
+            "email": "",
+            "page_url": "https://staffcouncil.gatech.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Skye Duckett",
+            "raw_role": "Vice President & Chief Human Resources Officer",
+            "clean_name": "Skye Duckett",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chad Bryant",
+            "role": "Undergraduate Admission",
+            "email": "",
+            "page_url": "https://staffcouncil.gatech.edu/staff-shoutouts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chad Bryant",
+            "raw_role": "Undergraduate Admission",
+            "clean_name": "Chad Bryant",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mark Gravitt",
+            "role": "Registrar's Office",
+            "email": "",
+            "page_url": "https://staffcouncil.gatech.edu/staff-shoutouts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mark Gravitt",
+            "raw_role": "Registrar's Office",
+            "clean_name": "Mark Gravitt",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Sybrina Atwaters",
+            "role": "Office of Student Achievement",
+            "email": "",
+            "page_url": "https://staffcouncil.gatech.edu/staff-shoutouts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr. Sybrina Atwaters",
+            "raw_role": "Office of Student Achievement",
+            "clean_name": "Dr Sybrina Atwaters",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "S Lynette Williams",
+            "role": "Office of Undergraduate Education and Student Success",
+            "email": "",
+            "page_url": "https://staffcouncil.gatech.edu/staff-shoutouts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "S. Lynette Williams",
+            "raw_role": "Office of Undergraduate Education and Student Success",
+            "clean_name": "S Lynette Williams",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 24,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 17,
+        "page_length": 355613,
+        "visible_text_length": 42704,
+        "embedded_text_length": 670,
+        "embedded_document_count": 5,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "0c6d542c10c47418250a4cea6f4ed6c1ed5fd17a",
+        "content_signatures": [
+          "0c6d542c10c47418250a4cea6f4ed6c1ed5fd17a",
+          "3aaa3f5e5bfee3c678e90fe7c89a074bc3a00ddc",
+          "3b9fcfd3df48d62e615b864dbc0f60766812bd96",
+          "d97d62e1c27e304ea47ee59613218100dd2da7d0",
+          "e8b917e58e5242e82529403036949c254bbf5253",
+          "83d0d82af91262999b20979babe0fe6611c1ed6b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://faculty.gatech.edu/",
+        "mailto_count": 6,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 6,
+          "visible_regex": 6,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 23
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Dr Zerrin Ondin-Fraser",
+            "role": ". Dr. Ondin-Fraser is available to provide additional information, address inquiries, and assist with the ambassador onboarding process.",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Dr Zerrin Ondin-Fraser",
+            "raw_role": ". Dr. Ondin-Fraser is available to provide additional information, address inquiries, and assist with the ambassador onboarding process.",
+            "clean_name": "Dr Zerrin Ondin-Fraser",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Reach out to\nDr. Zerrin Ondin-Fraser\nat\nzondin6@gatech.edu\n. Dr. Ondin-Fraser is available to provide additional information, address inquiries, and assist with the ambassador onboarding process.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carrie Bruce",
+            "role": "Founding Member of Welcome Wreck",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carrie Bruce",
+            "raw_role": "Founding Member of Welcome Wreck",
+            "clean_name": "Carrie Bruce",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Alex Duncan",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alex Duncan",
+            "raw_role": "Senior Research Associate, Senior Director of OMSCS",
+            "clean_name": "Alex Duncan",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Österholm",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anna Österholm",
+            "raw_role": "Principal Research Scientist, Director of Organic Materials Characterization Lab",
+            "clean_name": "Anna Österholm",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Christine Conwell",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Christine Conwell",
+            "raw_role": "Principal Research Scientist, Director of Planning and Operations",
+            "clean_name": "Christine Conwell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Elena Garcia",
+            "role": "",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Elena Garcia",
+            "raw_role": "Senior Research Engineer",
+            "clean_name": "Elena Garcia",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hsiang Jui Ray Wang",
+            "role": "",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hsiang Jui (Ray) Wang",
+            "raw_role": "Principal Research Scientist",
+            "clean_name": "Hsiang Jui Ray Wang",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeonghyun Jonna Lee",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeonghyun (Jonna) Lee",
+            "raw_role": "Senior Research Scientist, Director of Research in Education Innovation",
+            "clean_name": "Jeonghyun Jonna Lee",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Young",
+            "role": "",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Young",
+            "raw_role": "Principal Research Scientist",
+            "clean_name": "Jeff Young",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maribeth Coleman",
+            "role": "Regents’ Researcher, Institute for People and Technology",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maribeth Coleman",
+            "raw_role": "Regents’ Researcher, Institute for People and Technology",
+            "clean_name": "Maribeth Coleman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Noah Posner",
+            "role": "Senior Research Scientist, Institute for People and Technology, School of Industrial Design",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Noah Posner",
+            "raw_role": "Senior Research Scientist, Institute for People and Technology, School of Industrial Design",
+            "clean_name": "Noah Posner",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Salimah LaForce",
+            "role": "Senior Research Scientist, Center for Advanced Communications Policy",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Salimah LaForce",
+            "raw_role": "Senior Research Scientist, Center for Advanced Communications Policy",
+            "clean_name": "Salimah LaForce",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Yusuf Yaras",
+            "role": "Senior Research Engineer, Woodruff School of Mechanical Engineering",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Yusuf Yaras",
+            "raw_role": "Senior Research Engineer, Woodruff School of Mechanical Engineering",
+            "clean_name": "Yusuf Yaras",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ramachandra Siva Sivakumar",
+            "role": "Senior Research Engineer, Center for Urban Resilience and Analytics",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ramachandra (Siva) Sivakumar",
+            "raw_role": "Senior Research Engineer, Center for Urban Resilience and Analytics",
+            "clean_name": "Ramachandra Siva Sivakumar",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Pope-Ruark",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rebecca Pope-Ruark",
+            "raw_role": "Director of the Office of Faculty Professional Development",
+            "clean_name": "Rebecca Pope-Ruark",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kyla Ross",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kyla Ross",
+            "raw_role": "Assistant Vice Provost for Advocacy and Conflict Resolution",
+            "clean_name": "Kyla Ross",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dawn Baunach",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dawn Baunach",
+            "raw_role": "Associate Vice Provost for Faculty",
+            "clean_name": "Dawn Baunach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://faculty.gatech.edu/about-us/team-directory",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 32,
+        "kept_contacts": 10,
+        "rejected_contacts": 7,
+        "missing_email_candidates": 9,
+        "page_length": 347700,
+        "visible_text_length": 39354,
+        "embedded_text_length": 670,
+        "embedded_document_count": 5,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "690da5b35452373101241bacfde0041e68d74c7e",
+        "content_signatures": [
+          "690da5b35452373101241bacfde0041e68d74c7e",
+          "3aaa3f5e5bfee3c678e90fe7c89a074bc3a00ddc",
+          "3b9fcfd3df48d62e615b864dbc0f60766812bd96",
+          "d97d62e1c27e304ea47ee59613218100dd2da7d0",
+          "e8b917e58e5242e82529403036949c254bbf5253",
+          "83d0d82af91262999b20979babe0fe6611c1ed6b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://faculty.gatech.edu/",
+        "mailto_count": 22,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 13.85,
+        "source_breakdown": {
+          "mailto_explicit": 22,
+          "visible_regex": 5,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 15
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Michelle Rinehart",
+            "email": "michelle.rinehart@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          },
+          {
+            "name": "Dawn Baunach",
+            "email": "dawn.baunach@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          },
+          {
+            "name": "Diley Hernández",
+            "email": "diley.hernandez@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          },
+          {
+            "name": "Maribeth Gandy Coleman",
+            "email": "maribeth.gandy@imtc.gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 15,
+            "reason": "ok"
+          },
+          {
+            "name": "Mary Thomas",
+            "email": "mary.thomas@provost.gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 15,
+            "reason": "ok"
+          },
+          {
+            "name": "David Bamburowski",
+            "email": "david.bamburowski@provost.gatech.edu",
+            "role": "rector",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 11,
+            "reason": "ok"
+          },
+          {
+            "name": "Brandon Cosby",
+            "email": "brandon.cosby@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          },
+          {
+            "name": "Kay May",
+            "email": "karen.may@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          },
+          {
+            "name": "Jordan Howell",
+            "email": "jordan.howell@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          },
+          {
+            "name": "Kyla Ross",
+            "email": "kyla.ross@gatech.edu",
+            "role": "provost",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 17,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "Jocelyn Lopez Escamilla",
+            "email": "jocelyn.lopez@gatech.edu",
+            "role": ", Program Manager",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Lisa Christopher",
+            "email": "lisa.christopher@gatech.edu",
+            "role": ", Senior Faculty Affairs Manager",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Brittany Smith",
+            "email": "brittany.smith@gatech.edu",
+            "role": ", Faculty Affairs Manager",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Chaunene Jett",
+            "email": "chaunene.jett@gatech.edu",
+            "role": ", Faculty Affairs Coordinator",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Nicole Malinowski",
+            "email": "n.malinowski@gatech.edu",
+            "role": ", Faculty Affairs Coordinator",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Kemiah Hairston",
+            "email": "khairston7@gatech.edu",
+            "role": ", Faculty Affairs Associate",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "rpoperuark3@gatech.edu",
+            "role": "rector",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Rebecca Pope-Ruark",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Rebecca Pope-Ruark",
+            "raw_role": "rector",
+            "clean_name": "Rebecca Pope-Ruark",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Rebecca Pope-Ruark\n, Director of the Office of Faculty Professional Development",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michelle Rinehart",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michelle Rinehart",
+            "raw_role": "Vice Provost for Faculty",
+            "clean_name": "Michelle Rinehart",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dawn Baunach",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dawn Baunach",
+            "raw_role": "Associate Vice Provost for Faculty",
+            "clean_name": "Dawn Baunach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Diley Hernández",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Diley Hernández",
+            "raw_role": "Associate Vice Provost for Strategic Initiatives",
+            "clean_name": "Diley Hernández",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maribeth Gandy Coleman",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maribeth Gandy Coleman",
+            "raw_role": "Assistant Vice Provost for Research Faculty",
+            "clean_name": "Maribeth Gandy Coleman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Pope-Ruark",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/about-us/team-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rebecca Pope-Ruark",
+            "raw_role": "Director of the Office of Faculty Professional Development",
+            "clean_name": "Rebecca Pope-Ruark",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Pope-Ruark",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rebecca Pope-Ruark",
+            "raw_role": "Director of the Office of Faculty Professional Development",
+            "clean_name": "Rebecca Pope-Ruark",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kyla Ross",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kyla Ross",
+            "raw_role": "Assistant Vice Provost for Advocacy and Conflict Resolution",
+            "clean_name": "Kyla Ross",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dawn Baunach",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://faculty.gatech.edu/faculty-success-coaching-program",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dawn Baunach",
+            "raw_role": "Associate Vice Provost for Faculty",
+            "clean_name": "Dawn Baunach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      }
+    ]
+  }
+}

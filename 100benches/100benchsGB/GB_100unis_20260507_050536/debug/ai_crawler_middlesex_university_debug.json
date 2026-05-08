@@ -1,0 +1,3913 @@
+{
+  "method": "ai_crawler",
+  "university": "Middlesex University",
+  "homepage_url": "https://www.mdx.ac.uk",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 4,
+    "candidates_probed": 4,
+    "contacts_extracted": 17,
+    "contacts_kept": 0,
+    "time_seconds": 31.497673273086548,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.mdx.ac.uk/about-us/our-people/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 4,
+      "pages_fetched": 4,
+      "successful_fetches": 4,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Our people",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "2",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "3",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "4",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=5",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "5",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=92",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "92",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/research/kef/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Knowledge exchange framework",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/courses/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Search courses search",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/mdx-voices/?keywords=&type=research&topic=&=",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "MDX Voices",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/research/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/research/ref/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research excellence framework",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/research/research-centres-and-groups/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research Centres and Groups",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/research/why-choose-middlesex-for-research/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Middlesex for Research",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/dr-david-adams/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr David Adams",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mr-jas-ahmad/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mr Jas Ahmad",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mr-john-abbott/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mr John Abbott",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mr-seun-ade-onojobi/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mr Seun Ade-Onojobi",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mrs-jo-abdul-rahim/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mrs Jo Abdul-Rahim",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mrs-manjida-ahamed/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mrs Manjida Ahamed",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/honorary-graduates/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Honorary Graduates arrow_right_alt",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/professional-services/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Professional Services",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "This page provides an overview of the university's international engagement activities, likely containing relevant information about global partnerships and international relations."
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/course-fees-and-costs-for-international-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International student finance",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/entry-requirements-for-international-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Entry requirements",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/entry-requirements-for-international-students/english-language-requirements-for-international-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "English language requirements",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/international-student-life/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International student life",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/student-visas/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Student visa information",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/support-in-your-countries-and-regions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Support in your country",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Business and partnerships",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/academic-partnerships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academic partnerships",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/cpd-and-skills-for-your-organisation/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "CPD and skills",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/degree-apprenticeships-business/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Degree apprenticeships",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/succeed-with-middlesex/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Succeed with Middlesex",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/supporting-our-region/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Supporting our region",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/business-partnerships/working-with-our-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Working with our students",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/strategy-and-leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership and strategy",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/course-fees-and-costs-for-international-students/course-payment-methods-for-international-students/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "How to pay arrow_right_alt",
+        "parent_url": "https://www.mdx.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/course-fees-and-costs-for-international-students/scholarship-information-for-international-students/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Scholarships and bursaries arrow_right_alt",
+        "parent_url": "https://www.mdx.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/international-students---arrival-and-enrolment-/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Arrival and enrolment",
+        "parent_url": "https://www.mdx.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/study-with-us/international/support-in-your-country",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Support in your country arrow_forward_ios",
+        "parent_url": "https://www.mdx.ac.uk/international/course-fees-and-costs-for-international-students/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/study/study-abroad-and-exchanges/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Study abroad",
+        "parent_url": "https://www.mdx.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/strategy-and-leadership/vice-chancellor-and-executive/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Vice Chancellor and Executive arrow_right_alt",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/strategy-and-leadership/chancellor/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Chancellor arrow_right_alt",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/strategy-and-leadership/board-of-governors/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Board of Governors arrow_right_alt",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/international/how-to-apply-as-a-international-student/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "How to apply",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About us",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/dubai-campus/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Dubai campus",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/get-in-touch/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Get in touch",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/london-campus/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "London campus",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/mauritius-campus/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Mauritius campus",
+        "parent_url": "https://www.mdx.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.mdx.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.mdx.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.mdx.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.mdx.ac.uk/about-us/our-people/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mrs Jo Abdul-Rahim"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.mdx.ac.uk/about-us/our-people/?page=2"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Anju Ajodah"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Dr Camille Alexis-Garsee"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Dr Mahdi Aiash"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Ms Bushra Ahmad"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Ms Sabrina Akbar"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Anju Ajodah"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Dr Camille Alexis-Garsee"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Dr Mahdi Aiash"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Ms Bushra Ahmad"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Ms Sabrina Akbar"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Anju Ajodah"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Dr Camille Alexis-Garsee"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Dr Mahdi Aiash"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Ms Bushra Ahmad"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Ms Sabrina Akbar"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Anju Ajodah"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Dr Camille Alexis-Garsee"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Dr Mahdi Aiash"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Ms Bushra Ahmad"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Ms Sabrina Akbar"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.mdx.ac.uk/about-us/our-people/?page=3"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Dr Almaas Ali"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Dr Kamran Ali"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Dr Almaas Ali"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Dr Kamran Ali"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Dr Almaas Ali"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Dr Kamran Ali"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Dr Almaas Ali"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Dr Kamran Ali"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.mdx.ac.uk/about-us/our-people/?page=4"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages with relevant staff or team contact information related to international relations and partnerships.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.mdx.ac.uk/about-us/our-people/",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mrs Jo Abdul-Rahim"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+          "page_type": "nav",
+          "expected_yield": 7.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Anju Ajodah"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Dr Camille Alexis-Garsee"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Dr Mahdi Aiash"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Ms Bushra Ahmad"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Ms Sabrina Akbar"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Anju Ajodah"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Dr Camille Alexis-Garsee"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Dr Mahdi Aiash"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Ms Bushra Ahmad"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Ms Sabrina Akbar"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Anju Ajodah"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Dr Camille Alexis-Garsee"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Dr Mahdi Aiash"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Ms Bushra Ahmad"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Ms Sabrina Akbar"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Anju Ajodah"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Dr Camille Alexis-Garsee"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Dr Mahdi Aiash"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Ms Bushra Ahmad"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Ms Sabrina Akbar"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+          "page_type": "nav",
+          "expected_yield": 7.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Dr Almaas Ali"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Dr Kamran Ali"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Dr Almaas Ali"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Dr Kamran Ali"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Dr Almaas Ali"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Dr Kamran Ali"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Dr Almaas Ali"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Dr Kamran Ali"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+          "page_type": "nav",
+          "expected_yield": 7.25
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages with relevant staff or team contact information related to international relations and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Focus on pages dedicated to team members and international engagement to maximize outreach efficiency.",
+        "ranked_pages": [
+          {
+            "url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 7.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 7.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 7.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.mdx.ac.uk/international/",
+            "reason": "This page provides an overview of the university's international engagement activities, likely containing relevant information about global partnerships and international relations.",
+            "expected_yield": 7.5,
+            "page_type": "international relations"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.mdx.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.mdx.ac.uk",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 5969,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5969,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice Chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Jo Abdul-Rahim",
+            "role": "Head of Department, Accounting, Finance and Economics",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Jo Abdul-Rahim",
+            "raw_role": "Head of Department, Accounting, Finance and Economics",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice Chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Jo Abdul-Rahim",
+            "role": "Head of Department, Accounting, Finance and Economics",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Jo Abdul-Rahim",
+            "raw_role": "Head of Department, Accounting, Finance and Economics",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Jo Abdul-Rahim",
+            "role": "Head of Department, Accounting, Finance and Economics",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Jo Abdul-Rahim",
+            "raw_role": "Head of Department, Accounting, Finance and Economics",
+            "clean_name": "Mrs Jo Abdul-Rahim",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Mrs Jo Abdul-Rahim",
+            "role": "Head of Department, Accounting, Finance and Economics",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Jo Abdul-Rahim",
+            "raw_role": "Head of Department, Accounting, Finance and Economics",
+            "clean_name": "Mrs Jo Abdul-Rahim",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Mrs Jo Abdul-Rahim",
+            "role": "Head of Department, Accounting, Finance and Economics",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mrs Jo Abdul-Rahim",
+            "raw_role": "Head of Department, Accounting, Finance and Economics",
+            "clean_name": "Mrs Jo Abdul-Rahim",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.85,
+            "email_confidence": 0.7,
+            "evidence_strength": 0.75,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": {
+              "email": "j.abdul-rahim@mdx.ac.uk",
+              "evidence_url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mrs-jo-abdul-rahim/",
+              "evidence_type": "related_page",
+              "score": 6,
+              "confidence": "medium",
+              "recovery_reason": "direct email evidence on related page"
+            },
+            "evidence_items": [
+              {
+                "email": "j.abdul-rahim@mdx.ac.uk",
+                "evidence_url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mrs-jo-abdul-rahim/",
+                "evidence_type": "related_page",
+                "score": 6,
+                "confidence": "medium",
+                "recovery_reason": "direct email evidence on related page"
+              }
+            ],
+            "expected_yield": 9.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "74535b114af37cf514b1b62343a5c7904387a77d"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "expected_yield": 7.25,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 6059,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 6059,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Ms Sabrina Akbar",
+            "role": "Senior Lecturer in International Management and Innovation",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sabrina Akbar",
+            "raw_role": "Senior Lecturer in International Management and Innovation",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ms Bushra Ahmad",
+            "role": "Senior Lecturer in Business and Management",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Bushra Ahmad",
+            "raw_role": "Senior Lecturer in Business and Management",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Mahdi Aiash",
+            "role": "AP in Computer Science and Cyber Security",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Mahdi Aiash",
+            "raw_role": "AP in Computer Science and Cyber Security",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anju Ajodah",
+            "role": "MRU- Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anju Ajodah",
+            "raw_role": "MRU- Lecturer in Psychology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Camille Alexis-Garsee",
+            "role": "Associate Professor of Health Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Camille Alexis-Garsee",
+            "raw_role": "Associate Professor of Health Psychology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Ms Sabrina Akbar",
+            "role": "Senior Lecturer in International Management and Innovation",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sabrina Akbar",
+            "raw_role": "Senior Lecturer in International Management and Innovation",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ms Bushra Ahmad",
+            "role": "Senior Lecturer in Business and Management",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Bushra Ahmad",
+            "raw_role": "Senior Lecturer in Business and Management",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Mahdi Aiash",
+            "role": "AP in Computer Science and Cyber Security",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Mahdi Aiash",
+            "raw_role": "AP in Computer Science and Cyber Security",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anju Ajodah",
+            "role": "MRU- Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anju Ajodah",
+            "raw_role": "MRU- Lecturer in Psychology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Camille Alexis-Garsee",
+            "role": "Associate Professor of Health Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Camille Alexis-Garsee",
+            "raw_role": "Associate Professor of Health Psychology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Ms Sabrina Akbar",
+            "role": "Senior Lecturer in International Management and Innovation",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sabrina Akbar",
+            "raw_role": "Senior Lecturer in International Management and Innovation",
+            "clean_name": "Ms Sabrina Akbar",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ms Bushra Ahmad",
+            "role": "Senior Lecturer in Business and Management",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Bushra Ahmad",
+            "raw_role": "Senior Lecturer in Business and Management",
+            "clean_name": "Ms Bushra Ahmad",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Mahdi Aiash",
+            "role": "AP in Computer Science and Cyber Security",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Mahdi Aiash",
+            "raw_role": "AP in Computer Science and Cyber Security",
+            "clean_name": "Dr Mahdi Aiash",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anju Ajodah",
+            "role": "MRU- Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anju Ajodah",
+            "raw_role": "MRU- Lecturer in Psychology",
+            "clean_name": "Anju Ajodah",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Camille Alexis-Garsee",
+            "role": "Associate Professor of Health Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Camille Alexis-Garsee",
+            "raw_role": "Associate Professor of Health Psychology",
+            "clean_name": "Dr Camille Alexis-Garsee",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Ms Sabrina Akbar",
+            "role": "Senior Lecturer in International Management and Innovation",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sabrina Akbar",
+            "raw_role": "Senior Lecturer in International Management and Innovation",
+            "clean_name": "Ms Sabrina Akbar",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Ms Bushra Ahmad",
+            "role": "Senior Lecturer in Business and Management",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Bushra Ahmad",
+            "raw_role": "Senior Lecturer in Business and Management",
+            "clean_name": "Ms Bushra Ahmad",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Dr Mahdi Aiash",
+            "role": "AP in Computer Science and Cyber Security",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Mahdi Aiash",
+            "raw_role": "AP in Computer Science and Cyber Security",
+            "clean_name": "Dr Mahdi Aiash",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Anju Ajodah",
+            "role": "MRU- Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anju Ajodah",
+            "raw_role": "MRU- Lecturer in Psychology",
+            "clean_name": "Anju Ajodah",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Dr Camille Alexis-Garsee",
+            "role": "Associate Professor of Health Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Camille Alexis-Garsee",
+            "raw_role": "Associate Professor of Health Psychology",
+            "clean_name": "Dr Camille Alexis-Garsee",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 5,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Ms Sabrina Akbar",
+            "role": "Senior Lecturer in International Management and Innovation",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Ms Sabrina Akbar",
+            "raw_role": "Senior Lecturer in International Management and Innovation",
+            "clean_name": "Ms Sabrina Akbar",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Ms Bushra Ahmad",
+            "role": "Senior Lecturer in Business and Management",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Ms Bushra Ahmad",
+            "raw_role": "Senior Lecturer in Business and Management",
+            "clean_name": "Ms Bushra Ahmad",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Dr Mahdi Aiash",
+            "role": "AP in Computer Science and Cyber Security",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Mahdi Aiash",
+            "raw_role": "AP in Computer Science and Cyber Security",
+            "clean_name": "Dr Mahdi Aiash",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Anju Ajodah",
+            "role": "MRU- Lecturer in Psychology",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Anju Ajodah",
+            "raw_role": "MRU- Lecturer in Psychology",
+            "clean_name": "Anju Ajodah",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Dr Camille Alexis-Garsee",
+            "role": "Associate Professor of Health Psychology",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Camille Alexis-Garsee",
+            "raw_role": "Associate Professor of Health Psychology",
+            "clean_name": "Dr Camille Alexis-Garsee",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "74535b114af37cf514b1b62343a5c7904387a77d",
+        "duplicate_of": "https://www.mdx.ac.uk/about-us/our-people/"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "expected_yield": 7.25,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 5974,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5974,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Dr Kamran Ali",
+            "role": "Senior Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Kamran Ali",
+            "raw_role": "Senior Lecturer in Computer Science",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Almaas Ali",
+            "role": "Associate Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Almaas Ali",
+            "raw_role": "Associate Lecturer in Computer Science",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Prof Lucille Allain",
+            "role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Prof Lucille Allain",
+            "raw_role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Dr Kamran Ali",
+            "role": "Senior Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Kamran Ali",
+            "raw_role": "Senior Lecturer in Computer Science",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Almaas Ali",
+            "role": "Associate Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Almaas Ali",
+            "raw_role": "Associate Lecturer in Computer Science",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Prof Lucille Allain",
+            "role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Prof Lucille Allain",
+            "raw_role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Dr Kamran Ali",
+            "role": "Senior Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Kamran Ali",
+            "raw_role": "Senior Lecturer in Computer Science",
+            "clean_name": "Dr Kamran Ali",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Almaas Ali",
+            "role": "Associate Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Almaas Ali",
+            "raw_role": "Associate Lecturer in Computer Science",
+            "clean_name": "Dr Almaas Ali",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Prof Lucille Allain",
+            "raw_role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Dr Kamran Ali",
+            "role": "Senior Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Kamran Ali",
+            "raw_role": "Senior Lecturer in Computer Science",
+            "clean_name": "Dr Kamran Ali",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Dr Almaas Ali",
+            "role": "Associate Lecturer in Computer Science",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Almaas Ali",
+            "raw_role": "Associate Lecturer in Computer Science",
+            "clean_name": "Dr Almaas Ali",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Prof Lucille Allain",
+            "raw_role": "Professor of Social Work (Practice)/HoD-MH & SW",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Dr Kamran Ali",
+            "role": "Senior Lecturer in Computer Science",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Kamran Ali",
+            "raw_role": "Senior Lecturer in Computer Science",
+            "clean_name": "Dr Kamran Ali",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Dr Almaas Ali",
+            "role": "Associate Lecturer in Computer Science",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Almaas Ali",
+            "raw_role": "Associate Lecturer in Computer Science",
+            "clean_name": "Dr Almaas Ali",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "74535b114af37cf514b1b62343a5c7904387a77d",
+        "duplicate_of": "https://www.mdx.ac.uk/about-us/our-people/"
+      },
+      {
+        "url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.mdx.ac.uk/about-us/our-people/",
+        "page_family": "directory",
+        "expected_yield": 7.25,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 6072,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 6072,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Dr Duncan Allardyce",
+            "role": "Senior Lecturer in Chemistry/Biochemistry",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Duncan Allardyce",
+            "raw_role": "Senior Lecturer in Chemistry/Biochemistry",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Chamari Almeda",
+            "role": "Lecturer - Nursing Education Fellow (Adult)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Chamari Almeda",
+            "raw_role": "Lecturer - Nursing Education Fellow (Adult)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Miss Tracy Almond",
+            "role": "SL in Social Work Practice (Think Ahead Programme)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Miss Tracy Almond",
+            "raw_role": "SL in Social Work Practice (Think Ahead Programme)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ms Sadiyah Amodine",
+            "role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sadiyah Amodine",
+            "raw_role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Katie Anderson",
+            "role": "Senior Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Katie Anderson",
+            "raw_role": "Senior Lecturer in Psychology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Dee Anderson",
+            "role": "Senior Lecturer in Child Health Nursing",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Dee Anderson",
+            "raw_role": "Senior Lecturer in Child Health Nursing",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Dr Duncan Allardyce",
+            "role": "Senior Lecturer in Chemistry/Biochemistry",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Duncan Allardyce",
+            "raw_role": "Senior Lecturer in Chemistry/Biochemistry",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Chamari Almeda",
+            "role": "Lecturer - Nursing Education Fellow (Adult)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Chamari Almeda",
+            "raw_role": "Lecturer - Nursing Education Fellow (Adult)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Miss Tracy Almond",
+            "role": "SL in Social Work Practice (Think Ahead Programme)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Miss Tracy Almond",
+            "raw_role": "SL in Social Work Practice (Think Ahead Programme)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ms Sadiyah Amodine",
+            "role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sadiyah Amodine",
+            "raw_role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Katie Anderson",
+            "role": "Senior Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Katie Anderson",
+            "raw_role": "Senior Lecturer in Psychology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Dee Anderson",
+            "role": "Senior Lecturer in Child Health Nursing",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Dee Anderson",
+            "raw_role": "Senior Lecturer in Child Health Nursing",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Dr Duncan Allardyce",
+            "role": "Senior Lecturer in Chemistry/Biochemistry",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Duncan Allardyce",
+            "raw_role": "Senior Lecturer in Chemistry/Biochemistry",
+            "clean_name": "Dr Duncan Allardyce",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Chamari Almeda",
+            "role": "Lecturer - Nursing Education Fellow (Adult)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Chamari Almeda",
+            "raw_role": "Lecturer - Nursing Education Fellow (Adult)",
+            "clean_name": "Mrs Chamari Almeda",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Miss Tracy Almond",
+            "role": "SL in Social Work Practice (Think Ahead Programme)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Miss Tracy Almond",
+            "raw_role": "SL in Social Work Practice (Think Ahead Programme)",
+            "clean_name": "Miss Tracy Almond",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ms Sadiyah Amodine",
+            "role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sadiyah Amodine",
+            "raw_role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "clean_name": "Ms Sadiyah Amodine",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Katie Anderson",
+            "role": "Senior Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Katie Anderson",
+            "raw_role": "Senior Lecturer in Psychology",
+            "clean_name": "Dr Katie Anderson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Dee Anderson",
+            "role": "Senior Lecturer in Child Health Nursing",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Dee Anderson",
+            "raw_role": "Senior Lecturer in Child Health Nursing",
+            "clean_name": "Mrs Dee Anderson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Dr Duncan Allardyce",
+            "role": "Senior Lecturer in Chemistry/Biochemistry",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Duncan Allardyce",
+            "raw_role": "Senior Lecturer in Chemistry/Biochemistry",
+            "clean_name": "Dr Duncan Allardyce",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Mrs Chamari Almeda",
+            "role": "Lecturer - Nursing Education Fellow (Adult)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Chamari Almeda",
+            "raw_role": "Lecturer - Nursing Education Fellow (Adult)",
+            "clean_name": "Mrs Chamari Almeda",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Miss Tracy Almond",
+            "role": "SL in Social Work Practice (Think Ahead Programme)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Miss Tracy Almond",
+            "raw_role": "SL in Social Work Practice (Think Ahead Programme)",
+            "clean_name": "Miss Tracy Almond",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Ms Sadiyah Amodine",
+            "role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ms Sadiyah Amodine",
+            "raw_role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "clean_name": "Ms Sadiyah Amodine",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Dr Katie Anderson",
+            "role": "Senior Lecturer in Psychology",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Katie Anderson",
+            "raw_role": "Senior Lecturer in Psychology",
+            "clean_name": "Dr Katie Anderson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Mrs Dee Anderson",
+            "role": "Senior Lecturer in Child Health Nursing",
+            "email": "",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Dee Anderson",
+            "raw_role": "Senior Lecturer in Child Health Nursing",
+            "clean_name": "Mrs Dee Anderson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 6
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 6,
+        "clean_candidate_count": 6,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 6,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Dr Duncan Allardyce",
+            "role": "Senior Lecturer in Chemistry/Biochemistry",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Duncan Allardyce",
+            "raw_role": "Senior Lecturer in Chemistry/Biochemistry",
+            "clean_name": "Dr Duncan Allardyce",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Mrs Chamari Almeda",
+            "role": "Lecturer - Nursing Education Fellow (Adult)",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mrs Chamari Almeda",
+            "raw_role": "Lecturer - Nursing Education Fellow (Adult)",
+            "clean_name": "Mrs Chamari Almeda",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Miss Tracy Almond",
+            "role": "SL in Social Work Practice (Think Ahead Programme)",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Miss Tracy Almond",
+            "raw_role": "SL in Social Work Practice (Think Ahead Programme)",
+            "clean_name": "Miss Tracy Almond",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Ms Sadiyah Amodine",
+            "role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Ms Sadiyah Amodine",
+            "raw_role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+            "clean_name": "Ms Sadiyah Amodine",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Dr Katie Anderson",
+            "role": "Senior Lecturer in Psychology",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Katie Anderson",
+            "raw_role": "Senior Lecturer in Psychology",
+            "clean_name": "Dr Katie Anderson",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          },
+          {
+            "name": "Mrs Dee Anderson",
+            "role": "Senior Lecturer in Child Health Nursing",
+            "country": "GB",
+            "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+            "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mrs Dee Anderson",
+            "raw_role": "Senior Lecturer in Child Health Nursing",
+            "clean_name": "Mrs Dee Anderson",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "74535b114af37cf514b1b62343a5c7904387a77d",
+        "duplicate_of": "https://www.mdx.ac.uk/about-us/our-people/"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Mrs Jo Abdul-Rahim",
+        "role": "Head of Department, Accounting, Finance and Economics",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mrs Jo Abdul-Rahim",
+        "raw_role": "Head of Department, Accounting, Finance and Economics",
+        "clean_name": "Mrs Jo Abdul-Rahim",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.85,
+        "email_confidence": 0.7,
+        "evidence_strength": 0.75,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": {
+          "email": "j.abdul-rahim@mdx.ac.uk",
+          "evidence_url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mrs-jo-abdul-rahim/",
+          "evidence_type": "related_page",
+          "score": 6,
+          "confidence": "medium",
+          "recovery_reason": "direct email evidence on related page"
+        },
+        "evidence_items": [
+          {
+            "email": "j.abdul-rahim@mdx.ac.uk",
+            "evidence_url": "https://www.mdx.ac.uk/about-us/our-people/staff-directory/mrs-jo-abdul-rahim/",
+            "evidence_type": "related_page",
+            "score": 6,
+            "confidence": "medium",
+            "recovery_reason": "direct email evidence on related page"
+          }
+        ],
+        "expected_yield": 9.45
+      },
+      {
+        "name": "Ms Sabrina Akbar",
+        "role": "Senior Lecturer in International Management and Innovation",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Ms Sabrina Akbar",
+        "raw_role": "Senior Lecturer in International Management and Innovation",
+        "clean_name": "Ms Sabrina Akbar",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Ms Bushra Ahmad",
+        "role": "Senior Lecturer in Business and Management",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Ms Bushra Ahmad",
+        "raw_role": "Senior Lecturer in Business and Management",
+        "clean_name": "Ms Bushra Ahmad",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Dr Mahdi Aiash",
+        "role": "AP in Computer Science and Cyber Security",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Mahdi Aiash",
+        "raw_role": "AP in Computer Science and Cyber Security",
+        "clean_name": "Dr Mahdi Aiash",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Anju Ajodah",
+        "role": "MRU- Lecturer in Psychology",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Anju Ajodah",
+        "raw_role": "MRU- Lecturer in Psychology",
+        "clean_name": "Anju Ajodah",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Dr Camille Alexis-Garsee",
+        "role": "Associate Professor of Health Psychology",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=2",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Camille Alexis-Garsee",
+        "raw_role": "Associate Professor of Health Psychology",
+        "clean_name": "Dr Camille Alexis-Garsee",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Dr Kamran Ali",
+        "role": "Senior Lecturer in Computer Science",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Kamran Ali",
+        "raw_role": "Senior Lecturer in Computer Science",
+        "clean_name": "Dr Kamran Ali",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Dr Almaas Ali",
+        "role": "Associate Lecturer in Computer Science",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=3",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Almaas Ali",
+        "raw_role": "Associate Lecturer in Computer Science",
+        "clean_name": "Dr Almaas Ali",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Dr Duncan Allardyce",
+        "role": "Senior Lecturer in Chemistry/Biochemistry",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Duncan Allardyce",
+        "raw_role": "Senior Lecturer in Chemistry/Biochemistry",
+        "clean_name": "Dr Duncan Allardyce",
+        "status": "pending",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 4,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 0,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Mrs Chamari Almeda",
+        "role": "Lecturer - Nursing Education Fellow (Adult)",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mrs Chamari Almeda",
+        "raw_role": "Lecturer - Nursing Education Fellow (Adult)",
+        "clean_name": "Mrs Chamari Almeda",
+        "status": "pending",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 4,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 0,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Miss Tracy Almond",
+        "role": "SL in Social Work Practice (Think Ahead Programme)",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Miss Tracy Almond",
+        "raw_role": "SL in Social Work Practice (Think Ahead Programme)",
+        "clean_name": "Miss Tracy Almond",
+        "status": "pending",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 4,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 0,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Ms Sadiyah Amodine",
+        "role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Ms Sadiyah Amodine",
+        "raw_role": "Associate Lecturer - Practice Learning Fellow (CYP)",
+        "clean_name": "Ms Sadiyah Amodine",
+        "status": "pending",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 4,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 0,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Dr Katie Anderson",
+        "role": "Senior Lecturer in Psychology",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Katie Anderson",
+        "raw_role": "Senior Lecturer in Psychology",
+        "clean_name": "Dr Katie Anderson",
+        "status": "pending",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 4,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 0,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      },
+      {
+        "name": "Mrs Dee Anderson",
+        "role": "Senior Lecturer in Child Health Nursing",
+        "country": "GB",
+        "page_url": "https://www.mdx.ac.uk/about-us/our-people/?page=4",
+        "page_context": "Our people | Middlesex University Skip to main content close Main menu Study add remove Study Undergraduate Postgraduate Postgraduate with placement Degree apprenticeships Short courses and CPD Browse subjects Search courses search Get in touch Student life add remove Student life Accommodation Life on campus Living costs at university Student Support Life in London Sport and fitness MDX Voices International add remove International How to apply Entry requirements English language requirements",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mrs Dee Anderson",
+        "raw_role": "Senior Lecturer in Child Health Nursing",
+        "clean_name": "Mrs Dee Anderson",
+        "status": "pending",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 4,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 0,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.25
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

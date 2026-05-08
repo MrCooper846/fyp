@@ -1,0 +1,3376 @@
+{
+  "method": "ai_crawler",
+  "university": "Dartmouth College",
+  "homepage_url": "https://home.dartmouth.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 4,
+    "candidates_probed": 3,
+    "contacts_extracted": 15,
+    "contacts_kept": 0,
+    "time_seconds": 26.015053749084473,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://home.dartmouth.edu/directory",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 4,
+      "pages_fetched": 4,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.library.dartmouth.edu/research-create/publishing/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Scholarly Communication, Copyright, and Publishing",
+        "parent_url": "https://home.dartmouth.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://policies.dartmouth.edu/policies?office=All&secondary=All&division=All&tags=1651",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Staff Policies and Procedures",
+        "parent_url": "https://home.dartmouth.edu/staff",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Directory",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://home.dartmouth.edu/faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://home.dartmouth.edu/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Staff",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics/research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research, Scholarship & Creativity",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://searchjobs.dartmouth.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Careers",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://fas.dartmouth.edu/people/faculty-arts-and-sciences-administration",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Administrative Areas",
+        "parent_url": "https://home.dartmouth.edu/staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://fas.dartmouth.edu/people/john-michael-carey",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Interim Dean of the Faculty of Arts and Science",
+        "parent_url": "https://home.dartmouth.edu/about/leadership",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://dartdm.dartmouth.edu/dartDM/dartDM",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Your Directory Profile",
+        "parent_url": "https://home.dartmouth.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/news-media/faculty-experts",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dartmouth faculty directories",
+        "parent_url": "https://home.dartmouth.edu/contact",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://faculty-directory.dartmouth.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Arts and Sciences Faculty",
+        "parent_url": "https://home.dartmouth.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://faculty.dartmouth.edu/artsandsciences/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty of Arts and Sciences",
+        "parent_url": "https://home.dartmouth.edu/about/leadership",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.dartmouth.edu/copyright/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Copyright © 2025 Trustees of Dartmouth College",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/administrative-offices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Administrative Offices",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.dartmouth.edu/reg/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Office of the Registrar",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.dartmouth.edu/security/office-of-emergency-management/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Emergency Preparedness",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://eoatix.dartmouth.edu/support-services/sexual-respect-and-title-ix",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sexual Respect & Title IX",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engineering.dartmouth.edu/community/leadership",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dean of Thayer School of Engineering",
+        "parent_url": "https://home.dartmouth.edu/about/leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.tuck.dartmouth.edu/about/tuck-leadership",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dean of the Tuck School of Business",
+        "parent_url": "https://home.dartmouth.edu/about/leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/news-media/leadership-photos",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Download High-resolution Photos",
+        "parent_url": "https://home.dartmouth.edu/about/leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.dartmouth.edu/~trustees/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Trustees of Dartmouth College",
+        "parent_url": "https://www.dartmouth.edu/copyright/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/admissions/student-experience",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "The Student Experience",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/campus-map",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campus Map",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/dartmouth-milestones",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Dartmouth Milestones",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/follow-us-social-media",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Follow Us on Social Media",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/life-upper-valley",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Life in the Upper Valley",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://alumni.dartmouth.edu/make-gift?utm_source=dartmouth_main&utm_medium=homepage",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Giving",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://darthub.dartmouth.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Banner via DartHub",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engineering.dartmouth.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Thayer School of Engineering",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://geiselmed.dartmouth.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Geisel School of Medicine",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://graduate.dartmouth.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Guarini School of Graduate & Advanced Studies",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/a-z-site-index",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "A-Z Index",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academics",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics/centers-institutes",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Centers & Institutes",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics/courses-calendars",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Courses and Calendars",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics/departments-programs",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Departments & Programs",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics/undergraduate-arts-sciences",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "School of Arts & Sciences",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/academics/undergraduate-arts-sciences/majors-and-minors",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Majors and Minors",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/alumni",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/campus-life",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campus Life",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/campus-life/athletics-recreation",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Athletics & Recreation",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/campus-life/diversity-inclusion",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Diversity & Inclusion",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/campus-life/residential-life",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Residential Life",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://home.dartmouth.edu/degrees",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Degree Finder",
+        "parent_url": "https://home.dartmouth.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.dartmouth.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.dartmouth.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.dartmouth.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://home.dartmouth.edu/directory"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://home.dartmouth.edu/faculty"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://home.dartmouth.edu/staff"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://home.dartmouth.edu/about/leadership"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Anne Hudak"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Douglas Van Citters"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover F Jon Kull"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John M Carey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jomysha Delgado Stephen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Matthew J Slaughter"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Nina Pavcnik"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Santiago Schnell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sian Leah Beilock"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Steven D Leach"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Anne Hudak"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Douglas Van Citters"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover F Jon Kull"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John M Carey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jomysha Delgado Stephen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Matthew J Slaughter"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Nina Pavcnik"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Santiago Schnell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Sian Leah Beilock"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Steven D Leach"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Anne Hudak"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Douglas Van Citters"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover F Jon Kull"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover John M Carey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Jomysha Delgado Stephen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Matthew J Slaughter"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Nina Pavcnik"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Santiago Schnell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Sian Leah Beilock"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that contain direct contact information for offices or teams that handle international relations and partnerships.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://home.dartmouth.edu/directory",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://home.dartmouth.edu/faculty",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://home.dartmouth.edu/staff",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://home.dartmouth.edu/about/leadership",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Anne Hudak"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Douglas Van Citters"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "F Jon Kull"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John M Carey"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jomysha Delgado Stephen"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Matthew J Slaughter"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Nina Pavcnik"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Santiago Schnell"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sian Leah Beilock"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Steven D Leach"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Anne Hudak"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Douglas Van Citters"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "F Jon Kull"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John M Carey"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jomysha Delgado Stephen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Matthew J Slaughter"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Nina Pavcnik"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Santiago Schnell"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Sian Leah Beilock"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Steven D Leach"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Anne Hudak"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Douglas Van Citters"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "F Jon Kull"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "John M Carey"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Jomysha Delgado Stephen"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Matthew J Slaughter"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Nina Pavcnik"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Santiago Schnell"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Sian Leah Beilock"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that contain direct contact information for offices or teams that handle international relations and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Stop ranking after 2 pages.",
+        "ranked_pages": [
+          {
+            "url": "https://home.dartmouth.edu/directory",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://home.dartmouth.edu/staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://home.dartmouth.edu/faculty",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://home.dartmouth.edu/about/leadership",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.15,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://home.dartmouth.edu/directory",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://home.dartmouth.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://home.dartmouth.edu",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://home.dartmouth.edu/faculty",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://home.dartmouth.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://home.dartmouth.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 5888,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5618,
+        "embedded_text_length": 268,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of the Vice Provost for Research",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Vice Provost for Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Geisel Faculty Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Geisel Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of the Vice Provost for Research",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Vice Provost for Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Geisel Faculty Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Geisel Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Vice Provost for Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Geisel Faculty Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Geisel Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Vice Provost for Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Geisel Faculty Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Geisel Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "c3ede8f3da43334cd6156d4156bede9ebeec20a5"
+      },
+      {
+        "url": "https://home.dartmouth.edu/staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://home.dartmouth.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://home.dartmouth.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 3701,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3701,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Admissions",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Admissions",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "37a042de25a22d5a1c3a32b40d70a0d31bdba3c5"
+      },
+      {
+        "url": "https://home.dartmouth.edu/about/leadership",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://home.dartmouth.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://home.dartmouth.edu",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 10,
+        "text_length": 9031,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 9031,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Sian Leah Beilock",
+            "role": "President",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sian Leah Beilock",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Santiago Schnell",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Santiago Schnell",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jomysha Delgado Stephen",
+            "role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jomysha Delgado Stephen",
+            "raw_role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nina Pavcnik",
+            "role": "Interim Dean of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nina Pavcnik",
+            "raw_role": "Interim Dean of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anne Hudak",
+            "role": "Interim Dean of Undergraduate Student Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anne Hudak",
+            "raw_role": "Interim Dean of Undergraduate Student Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John M. Carey",
+            "role": "Interim Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John M. Carey",
+            "raw_role": "Interim Dean of the Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Douglas Van Citters",
+            "role": "Interim Dean and Professor of Engineering",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Douglas Van Citters",
+            "raw_role": "Interim Dean and Professor of Engineering",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Steven D. Leach",
+            "role": "Interim Dean of the Geisel School of Medicine",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Steven D. Leach",
+            "raw_role": "Interim Dean of the Geisel School of Medicine",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "F. Jon Kull",
+            "role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "F. Jon Kull",
+            "raw_role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Matthew J. Slaughter",
+            "role": "Dean of the Tuck School of Business",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew J. Slaughter",
+            "raw_role": "Dean of the Tuck School of Business",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Sian Leah Beilock",
+            "role": "President",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sian Leah Beilock",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Santiago Schnell",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Santiago Schnell",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jomysha Delgado Stephen",
+            "role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jomysha Delgado Stephen",
+            "raw_role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nina Pavcnik",
+            "role": "Interim Dean of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nina Pavcnik",
+            "raw_role": "Interim Dean of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anne Hudak",
+            "role": "Interim Dean of Undergraduate Student Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anne Hudak",
+            "raw_role": "Interim Dean of Undergraduate Student Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John M. Carey",
+            "role": "Interim Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John M. Carey",
+            "raw_role": "Interim Dean of the Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Douglas Van Citters",
+            "role": "Interim Dean and Professor of Engineering",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Douglas Van Citters",
+            "raw_role": "Interim Dean and Professor of Engineering",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Steven D. Leach",
+            "role": "Interim Dean of the Geisel School of Medicine",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Steven D. Leach",
+            "raw_role": "Interim Dean of the Geisel School of Medicine",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "F. Jon Kull",
+            "role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "F. Jon Kull",
+            "raw_role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Matthew J. Slaughter",
+            "role": "Dean of the Tuck School of Business",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew J. Slaughter",
+            "raw_role": "Dean of the Tuck School of Business",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Sian Leah Beilock",
+            "role": "president",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sian Leah Beilock",
+            "raw_role": "President",
+            "clean_name": "Sian Leah Beilock",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Santiago Schnell",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Santiago Schnell",
+            "raw_role": "Provost",
+            "clean_name": "Santiago Schnell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jomysha Delgado Stephen",
+            "role": "president",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jomysha Delgado Stephen",
+            "raw_role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "clean_name": "Jomysha Delgado Stephen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nina Pavcnik",
+            "role": "Interim Dean of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nina Pavcnik",
+            "raw_role": "Interim Dean of Arts and Sciences",
+            "clean_name": "Nina Pavcnik",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anne Hudak",
+            "role": "Interim Dean of Undergraduate Student Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anne Hudak",
+            "raw_role": "Interim Dean of Undergraduate Student Affairs",
+            "clean_name": "Anne Hudak",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John M Carey",
+            "role": "Interim Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John M. Carey",
+            "raw_role": "Interim Dean of the Faculty of Arts and Sciences",
+            "clean_name": "John M Carey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Douglas Van Citters",
+            "role": "Interim Dean and Professor of Engineering",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Douglas Van Citters",
+            "raw_role": "Interim Dean and Professor of Engineering",
+            "clean_name": "Douglas Van Citters",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Steven D Leach",
+            "role": "Interim Dean of the Geisel School of Medicine",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Steven D. Leach",
+            "raw_role": "Interim Dean of the Geisel School of Medicine",
+            "clean_name": "Steven D Leach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "F Jon Kull",
+            "role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "F. Jon Kull",
+            "raw_role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "clean_name": "F Jon Kull",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Matthew J Slaughter",
+            "role": "Dean of the Tuck School of Business",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew J. Slaughter",
+            "raw_role": "Dean of the Tuck School of Business",
+            "clean_name": "Matthew J Slaughter",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Sian Leah Beilock",
+            "role": "president",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sian Leah Beilock",
+            "raw_role": "President",
+            "clean_name": "Sian Leah Beilock",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Santiago Schnell",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Santiago Schnell",
+            "raw_role": "Provost",
+            "clean_name": "Santiago Schnell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Jomysha Delgado Stephen",
+            "role": "president",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jomysha Delgado Stephen",
+            "raw_role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "clean_name": "Jomysha Delgado Stephen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nina Pavcnik",
+            "role": "Interim Dean of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nina Pavcnik",
+            "raw_role": "Interim Dean of Arts and Sciences",
+            "clean_name": "Nina Pavcnik",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Anne Hudak",
+            "role": "Interim Dean of Undergraduate Student Affairs",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anne Hudak",
+            "raw_role": "Interim Dean of Undergraduate Student Affairs",
+            "clean_name": "Anne Hudak",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "John M Carey",
+            "role": "Interim Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "John M. Carey",
+            "raw_role": "Interim Dean of the Faculty of Arts and Sciences",
+            "clean_name": "John M Carey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Douglas Van Citters",
+            "role": "Interim Dean and Professor of Engineering",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Douglas Van Citters",
+            "raw_role": "Interim Dean and Professor of Engineering",
+            "clean_name": "Douglas Van Citters",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Steven D Leach",
+            "role": "Interim Dean of the Geisel School of Medicine",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Steven D. Leach",
+            "raw_role": "Interim Dean of the Geisel School of Medicine",
+            "clean_name": "Steven D Leach",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "F Jon Kull",
+            "role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "F. Jon Kull",
+            "raw_role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "clean_name": "F Jon Kull",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Matthew J Slaughter",
+            "role": "Dean of the Tuck School of Business",
+            "email": "",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew J. Slaughter",
+            "raw_role": "Dean of the Tuck School of Business",
+            "clean_name": "Matthew J Slaughter",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 10,
+        "clean_candidate_count": 10,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 10,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Sian Leah Beilock",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sian Leah Beilock",
+            "raw_role": "President",
+            "clean_name": "Sian Leah Beilock",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Santiago Schnell",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Santiago Schnell",
+            "raw_role": "Provost",
+            "clean_name": "Santiago Schnell",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Jomysha Delgado Stephen",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jomysha Delgado Stephen",
+            "raw_role": "Executive Vice President for Strategy and Special Counsel to the President",
+            "clean_name": "Jomysha Delgado Stephen",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Nina Pavcnik",
+            "role": "Interim Dean of Arts and Sciences",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Nina Pavcnik",
+            "raw_role": "Interim Dean of Arts and Sciences",
+            "clean_name": "Nina Pavcnik",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Anne Hudak",
+            "role": "Interim Dean of Undergraduate Student Affairs",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Anne Hudak",
+            "raw_role": "Interim Dean of Undergraduate Student Affairs",
+            "clean_name": "Anne Hudak",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "John M Carey",
+            "role": "Interim Dean of the Faculty of Arts and Sciences",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "John M. Carey",
+            "raw_role": "Interim Dean of the Faculty of Arts and Sciences",
+            "clean_name": "John M Carey",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Douglas Van Citters",
+            "role": "Interim Dean and Professor of Engineering",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Douglas Van Citters",
+            "raw_role": "Interim Dean and Professor of Engineering",
+            "clean_name": "Douglas Van Citters",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Steven D Leach",
+            "role": "Interim Dean of the Geisel School of Medicine",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Steven D. Leach",
+            "raw_role": "Interim Dean of the Geisel School of Medicine",
+            "clean_name": "Steven D Leach",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "F Jon Kull",
+            "role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "F. Jon Kull",
+            "raw_role": "Dean of the Guarini School of Graduate & Advanced Studies",
+            "clean_name": "F Jon Kull",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Matthew J Slaughter",
+            "role": "Dean of the Tuck School of Business",
+            "country": "US",
+            "page_url": "https://home.dartmouth.edu/about/leadership",
+            "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Matthew J. Slaughter",
+            "raw_role": "Dean of the Tuck School of Business",
+            "clean_name": "Matthew J Slaughter",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "1c092196bb7ac204717d97aa1f7022c9aa436554"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Sian Leah Beilock",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sian Leah Beilock",
+        "raw_role": "President",
+        "clean_name": "Sian Leah Beilock",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Santiago Schnell",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Santiago Schnell",
+        "raw_role": "Provost",
+        "clean_name": "Santiago Schnell",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Jomysha Delgado Stephen",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jomysha Delgado Stephen",
+        "raw_role": "Executive Vice President for Strategy and Special Counsel to the President",
+        "clean_name": "Jomysha Delgado Stephen",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Nina Pavcnik",
+        "role": "Interim Dean of Arts and Sciences",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Nina Pavcnik",
+        "raw_role": "Interim Dean of Arts and Sciences",
+        "clean_name": "Nina Pavcnik",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Anne Hudak",
+        "role": "Interim Dean of Undergraduate Student Affairs",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Anne Hudak",
+        "raw_role": "Interim Dean of Undergraduate Student Affairs",
+        "clean_name": "Anne Hudak",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "John M Carey",
+        "role": "Interim Dean of the Faculty of Arts and Sciences",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "John M. Carey",
+        "raw_role": "Interim Dean of the Faculty of Arts and Sciences",
+        "clean_name": "John M Carey",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Douglas Van Citters",
+        "role": "Interim Dean and Professor of Engineering",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Douglas Van Citters",
+        "raw_role": "Interim Dean and Professor of Engineering",
+        "clean_name": "Douglas Van Citters",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Steven D Leach",
+        "role": "Interim Dean of the Geisel School of Medicine",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Steven D. Leach",
+        "raw_role": "Interim Dean of the Geisel School of Medicine",
+        "clean_name": "Steven D Leach",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "F Jon Kull",
+        "role": "Dean of the Guarini School of Graduate & Advanced Studies",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "F. Jon Kull",
+        "raw_role": "Dean of the Guarini School of Graduate & Advanced Studies",
+        "clean_name": "F Jon Kull",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Matthew J Slaughter",
+        "role": "Dean of the Tuck School of Business",
+        "country": "US",
+        "page_url": "https://home.dartmouth.edu/about/leadership",
+        "page_context": "Leadership | Dartmouth Skip to main content Home Menu Main Back to previous section Back to previous section Admissions Open submenu Image (Photo by Sophia Scull ’25) Be Extraordinary Here Apply Now Outcomes Financial Aid The Student Experience Degree Finder Academics Open submenu Undergraduate Open submenu School of Arts & Sciences Departments & Programs Majors and Minors Courses and Calendars Graduate Schools Open submenu Geisel School of Medicine Guarini School of Graduate & Advanced Studies",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Matthew J. Slaughter",
+        "raw_role": "Dean of the Tuck School of Business",
+        "clean_name": "Matthew J Slaughter",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

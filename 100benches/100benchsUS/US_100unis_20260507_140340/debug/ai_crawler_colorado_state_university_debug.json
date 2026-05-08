@@ -1,0 +1,3076 @@
+{
+  "method": "ai_crawler",
+  "university": "Colorado State University",
+  "homepage_url": "http://www.colostate.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 56,
+    "candidates_ranked": 56,
+    "probe_attempts": 3,
+    "candidates_probed": 3,
+    "contacts_extracted": 12,
+    "contacts_kept": 0,
+    "time_seconds": 69.93846154212952,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://international.colostate.edu/staff",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 3,
+      "pages_fetched": 3,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://sustainability.colostate.edu/research/global-challenges-research-teams/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global Challenges Research Teams",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "directory.colostate.edu",
+        "parent_url": "http://www.colostate.edu/contact/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu/alternate.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Alternate Access to this Search is Available",
+        "parent_url": "https://directory.colostate.edu//",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "International Programs",
+        "parent_url": "http://www.colostate.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://sustainability.colostate.edu/research/global-soil-biodiversity-initiative/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global Soil Biodiversity Initiative",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/staff-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff Resources",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://international.colostate.edu/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://sustainability.colostate.edu/about-us/leadership-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership & Staff",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://sustainability.colostate.edu/about-us/affiliate-faculty/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Affiliate Faculty",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Online Directory",
+        "parent_url": "https://directory.colostate.edu//",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu//",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Directory",
+        "parent_url": "http://www.colostate.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Resources for Faculty",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Meet our Team",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/resources-for-faculty/internationalizing-curriculum/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Internationalizing Curriculum",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu/myPronouns.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Log In and Set Yours.",
+        "parent_url": "https://directory.colostate.edu//",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu/privacy-concerns.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Read more about public information",
+        "parent_url": "https://directory.colostate.edu//",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.colostate.edu/reverse-phone.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Reverse Phone",
+        "parent_url": "https://directory.colostate.edu//",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement-reports/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global Engagement Reports",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global Engagement",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/funding-opportunities-grants/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Funding Opportunities & Grants",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/international-partnerships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Partnerships",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/employment-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Employment Opportunities",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/educationabroad",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Education Abroad",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/educationabroad/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Education Abroad",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/fulbright/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Fulbright",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/international-development-studies/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Development Studies",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/global-engagement/peace-corps/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Peace Corps",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/iec/international-admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Admissions",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Us",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/mission/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our Mission",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/iec/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Enrollment Center",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/isss/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Students & Scholars",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/place",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Programs for Learning Academic & Community English",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/place/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Programs for Learning Academic and Community English (PLACE)",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://sustainability.colostate.edu/centers/global-biodiversity-center/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global Biodiversity Center",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/news-updates/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "News & Updates",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://sustainability.colostate.edu/training/sustainability-leadership-fellows/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Diana Wall Sustainability Leadership Fellows",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://sustainability.colostate.edu/training/sustainability-leadership-fellows/dwslf-for-masters-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "DWSLF for Master’s Students",
+        "parent_url": "https://sustainability.colostate.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/consider-giving/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Give",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://sustainability.colostate.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "School of Global Environmental Sustainability",
+        "parent_url": "http://www.colostate.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.international.colostate.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "International Programs",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.colostate.edu/contact-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact Us",
+        "parent_url": "https://admissions.colostate.edu/contactus/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.colostate.edu/contact-us/find-your-counselor/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Find Your Counselor",
+        "parent_url": "https://admissions.colostate.edu/contactus/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.colostate.edu/contact-us/subscribe/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Get Info",
+        "parent_url": "http://www.colostate.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.colostate.edu/contactus/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Contact Admissions",
+        "parent_url": "http://www.colostate.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://calendar.colostate.edu/international-programs/?trumbaEmbed=view%3devent%26eventid%3d198220046",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ghana Community Engagement Project Info Session",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.colostate.edu/symposium",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Symposium Thank you for attending the 7th Annual International Symposium! Recordings now available.",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/educationabroad/how-to-get-a-passport/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Get a Passport",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.colostate.edu/international-student-updates-immigration-visa-travel-information/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Immigration, Visa & Travel Updates",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.colostate.edu/a-z/search-csu-a-z-web-directory/",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.colostate.edu/search/",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "Search CSU",
+        "parent_url": "https://international.colostate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false,
+        "deferred_for_later": true,
+        "deferred_reason": "search_interface_requires_target"
+      },
+      {
+        "url": "https://www.colostate.edu/contact/",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.colostate.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.colostate.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.colostate.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://international.colostate.edu/global-engagement/resources-for-faculty/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://international.colostate.edu/about-us/staff-resources/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://international.colostate.edu/staff"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Aimee Jones"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Chad Hoseth"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Diana Galliano"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Greg Wymer"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kathleen Fairfax"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mary Swing"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Nathan Duggins"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Stene Verhulst"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Stephanie Beers"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Aimee Jones"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Chad Hoseth"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Diana Galliano"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Greg Wymer"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kathleen Fairfax"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mary Swing"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Nathan Duggins"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Stene Verhulst"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Stephanie Beers"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Aimee Jones"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Chad Hoseth"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Diana Galliano"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Greg Wymer"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Kathleen Fairfax"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mary Swing"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Nathan Duggins"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Stene Verhulst"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Stephanie Beers"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Aimee Jones"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Chad Hoseth"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Diana Galliano"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://www.colostate.edu/",
+          "to": "http://www.colostate.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that provide direct access to staff details and relevant initiatives for international engagement.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+          "page_type": "nav",
+          "expected_yield": 13.7
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://international.colostate.edu/about-us/staff-resources/",
+          "page_type": "nav",
+          "expected_yield": 13.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://international.colostate.edu/staff",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Aimee Jones"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Chad Hoseth"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Diana Galliano"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Greg Wymer"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kathleen Fairfax"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mary Swing"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Nathan Duggins"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Stene Verhulst"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Stephanie Beers"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Aimee Jones"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Chad Hoseth"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Diana Galliano"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Greg Wymer"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kathleen Fairfax"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mary Swing"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Nathan Duggins"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Stene Verhulst"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Stephanie Beers"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Aimee Jones"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Chad Hoseth"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Diana Galliano"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Greg Wymer"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Kathleen Fairfax"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mary Swing"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Nathan Duggins"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Stene Verhulst"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Stephanie Beers"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Aimee Jones"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Chad Hoseth"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Diana Galliano"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that provide direct access to staff details and relevant initiatives for international engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Included the top relevant pages for outreach contacts only.",
+        "ranked_pages": [
+          {
+            "url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://international.colostate.edu/about-us/staff-resources/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://international.colostate.edu/about-us/staff/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 12.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://international.colostate.edu/staff",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://international.colostate.edu/international-partnerships/",
+            "reason": "Dedicated page for international partnerships, likely contains relevant contacts and resources for engagement.",
+            "expected_yield": 12.0,
+            "page_type": "partnerships page"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://international.colostate.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://international.colostate.edu/",
+        "page_family": "international",
+        "expected_yield": 13.7,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 4840,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2589,
+        "embedded_text_length": 2249,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Programs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Programs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "International Programs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "International Programs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://international.colostate.edu/global-engagement/resources-for-faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "ad8c72602ede2b540153bc149ad9bc68d096ef06"
+      },
+      {
+        "url": "https://international.colostate.edu/about-us/staff-resources/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://international.colostate.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://international.colostate.edu/",
+        "page_family": "directory",
+        "expected_yield": 13.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 23,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 23,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d09e164f4fb7ab312d55edd4b7f885b98dbdb1df"
+      },
+      {
+        "url": "https://international.colostate.edu/staff",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://international.colostate.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://international.colostate.edu/",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 10,
+        "text_length": 8974,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 6941,
+        "embedded_text_length": 2031,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "Kathleen Fairfax",
+            "role": "Vice Provost, International Affairs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathleen Fairfax",
+            "raw_role": "Vice Provost, International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chad Hoseth",
+            "role": "Assistant Vice Provost, International Affairs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chad Hoseth",
+            "raw_role": "Assistant Vice Provost, International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Diana Galliano",
+            "role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Diana Galliano",
+            "raw_role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Aimee Jones",
+            "role": "Director, Education Abroad",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aimee Jones",
+            "raw_role": "Director, Education Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Greg Wymer",
+            "role": "Director, International Student and Scholar Services",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Greg Wymer",
+            "raw_role": "Director, International Student and Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stene Verhulst",
+            "role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stene Verhulst",
+            "raw_role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stephanie Beers",
+            "role": "Associate Director, International Admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephanie Beers",
+            "raw_role": "Associate Director, International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nathan Duggins",
+            "role": "Assistant Director, International Recruitment",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nathan Duggins",
+            "raw_role": "Assistant Director, International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Danielle Keller",
+            "role": "Assistant Director, International Admissions",
+            "email": "danielle.keller@colostate.edu",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Keller",
+            "raw_role": "Assistant Director, International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Swing",
+            "role": "Manager, International Graduate Admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Swing",
+            "raw_role": "Manager, International Graduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Kathleen Fairfax",
+            "role": "Vice Provost, International Affairs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathleen Fairfax",
+            "raw_role": "Vice Provost, International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chad Hoseth",
+            "role": "Assistant Vice Provost, International Affairs",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chad Hoseth",
+            "raw_role": "Assistant Vice Provost, International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Diana Galliano",
+            "role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Diana Galliano",
+            "raw_role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Aimee Jones",
+            "role": "Director, Education Abroad",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aimee Jones",
+            "raw_role": "Director, Education Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Greg Wymer",
+            "role": "Director, International Student and Scholar Services",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Greg Wymer",
+            "raw_role": "Director, International Student and Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stene Verhulst",
+            "role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stene Verhulst",
+            "raw_role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stephanie Beers",
+            "role": "Associate Director, International Admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephanie Beers",
+            "raw_role": "Associate Director, International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nathan Duggins",
+            "role": "Assistant Director, International Recruitment",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nathan Duggins",
+            "raw_role": "Assistant Director, International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Danielle Keller",
+            "role": "Assistant Director, International Admissions",
+            "email": "danielle.keller@colostate.edu",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Keller",
+            "raw_role": "Assistant Director, International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Swing",
+            "role": "Manager, International Graduate Admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Swing",
+            "raw_role": "Manager, International Graduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Kathleen Fairfax",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathleen Fairfax",
+            "raw_role": "Vice Provost, International Affairs",
+            "clean_name": "Kathleen Fairfax",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chad Hoseth",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chad Hoseth",
+            "raw_role": "Assistant Vice Provost, International Affairs",
+            "clean_name": "Chad Hoseth",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Diana Galliano",
+            "role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Diana Galliano",
+            "raw_role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "clean_name": "Diana Galliano",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Aimee Jones",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aimee Jones",
+            "raw_role": "Director, Education Abroad",
+            "clean_name": "Aimee Jones",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Greg Wymer",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Greg Wymer",
+            "raw_role": "Director, International Student and Scholar Services",
+            "clean_name": "Greg Wymer",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stene Verhulst",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stene Verhulst",
+            "raw_role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "clean_name": "Stene Verhulst",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stephanie Beers",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephanie Beers",
+            "raw_role": "Associate Director, International Admissions",
+            "clean_name": "Stephanie Beers",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nathan Duggins",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nathan Duggins",
+            "raw_role": "Assistant Director, International Recruitment",
+            "clean_name": "Nathan Duggins",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Danielle Keller",
+            "role": "international admissions",
+            "email": "danielle.keller@colostate.edu",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Keller",
+            "raw_role": "Assistant Director, International Admissions",
+            "clean_name": "Danielle Keller",
+            "email_normalized": "danielle.keller@colostate.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Swing",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Swing",
+            "raw_role": "Manager, International Graduate Admissions",
+            "clean_name": "Mary Swing",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Kathleen Fairfax",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathleen Fairfax",
+            "raw_role": "Vice Provost, International Affairs",
+            "clean_name": "Kathleen Fairfax",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Chad Hoseth",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chad Hoseth",
+            "raw_role": "Assistant Vice Provost, International Affairs",
+            "clean_name": "Chad Hoseth",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Diana Galliano",
+            "role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Diana Galliano",
+            "raw_role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "clean_name": "Diana Galliano",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Aimee Jones",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aimee Jones",
+            "raw_role": "Director, Education Abroad",
+            "clean_name": "Aimee Jones",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Greg Wymer",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Greg Wymer",
+            "raw_role": "Director, International Student and Scholar Services",
+            "clean_name": "Greg Wymer",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Stene Verhulst",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stene Verhulst",
+            "raw_role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "clean_name": "Stene Verhulst",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Stephanie Beers",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephanie Beers",
+            "raw_role": "Associate Director, International Admissions",
+            "clean_name": "Stephanie Beers",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nathan Duggins",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nathan Duggins",
+            "raw_role": "Assistant Director, International Recruitment",
+            "clean_name": "Nathan Duggins",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Danielle Keller",
+            "role": "international admissions",
+            "email": "danielle.keller@colostate.edu",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Keller",
+            "raw_role": "Assistant Director, International Admissions",
+            "clean_name": "Danielle Keller",
+            "email_normalized": "danielle.keller@colostate.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Mary Swing",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Swing",
+            "raw_role": "Manager, International Graduate Admissions",
+            "clean_name": "Mary Swing",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 10,
+        "clean_candidate_count": 10,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 9,
+        "junk_candidate_count": 0,
+        "kept_contacts": [
+          {
+            "name": "Danielle Keller",
+            "role": "international admissions",
+            "email": "danielle.keller@colostate.edu",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "score": 12,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Keller",
+            "raw_role": "Assistant Director, International Admissions",
+            "clean_name": "Danielle Keller",
+            "email_normalized": "danielle.keller@colostate.edu"
+          }
+        ],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Kathleen Fairfax",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kathleen Fairfax",
+            "raw_role": "Vice Provost, International Affairs",
+            "clean_name": "Kathleen Fairfax",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Chad Hoseth",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Chad Hoseth",
+            "raw_role": "Assistant Vice Provost, International Affairs",
+            "clean_name": "Chad Hoseth",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Diana Galliano",
+            "role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Diana Galliano",
+            "raw_role": "Executive Assistant to the VPIA/Human Resources Specialist",
+            "clean_name": "Diana Galliano",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Aimee Jones",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Aimee Jones",
+            "raw_role": "Director, Education Abroad",
+            "clean_name": "Aimee Jones",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Greg Wymer",
+            "role": "international student office",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Greg Wymer",
+            "raw_role": "Director, International Student and Scholar Services",
+            "clean_name": "Greg Wymer",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Stene Verhulst",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Stene Verhulst",
+            "raw_role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+            "clean_name": "Stene Verhulst",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Stephanie Beers",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Stephanie Beers",
+            "raw_role": "Associate Director, International Admissions",
+            "clean_name": "Stephanie Beers",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Nathan Duggins",
+            "role": "recruitment",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Nathan Duggins",
+            "raw_role": "Assistant Director, International Recruitment",
+            "clean_name": "Nathan Duggins",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Mary Swing",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://international.colostate.edu/about-us/staff/",
+            "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mary Swing",
+            "raw_role": "Manager, International Graduate Admissions",
+            "clean_name": "Mary Swing",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "ccd7f51292bd39e320307ab37d6515023b953115"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Kathleen Fairfax",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kathleen Fairfax",
+        "raw_role": "Vice Provost, International Affairs",
+        "clean_name": "Kathleen Fairfax",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Chad Hoseth",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Chad Hoseth",
+        "raw_role": "Assistant Vice Provost, International Affairs",
+        "clean_name": "Chad Hoseth",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Diana Galliano",
+        "role": "Executive Assistant to the VPIA/Human Resources Specialist",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Diana Galliano",
+        "raw_role": "Executive Assistant to the VPIA/Human Resources Specialist",
+        "clean_name": "Diana Galliano",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Aimee Jones",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Aimee Jones",
+        "raw_role": "Director, Education Abroad",
+        "clean_name": "Aimee Jones",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Greg Wymer",
+        "role": "international student office",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Greg Wymer",
+        "raw_role": "Director, International Student and Scholar Services",
+        "clean_name": "Greg Wymer",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Stene Verhulst",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Stene Verhulst",
+        "raw_role": "Assistant Vice Provost for International Enrollment and Educational Innovation",
+        "clean_name": "Stene Verhulst",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Stephanie Beers",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Stephanie Beers",
+        "raw_role": "Associate Director, International Admissions",
+        "clean_name": "Stephanie Beers",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Nathan Duggins",
+        "role": "recruitment",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Nathan Duggins",
+        "raw_role": "Assistant Director, International Recruitment",
+        "clean_name": "Nathan Duggins",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Mary Swing",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://international.colostate.edu/about-us/staff/",
+        "page_context": "Meet Our Team - International Programs Skip to content Office of International Programs Education Abroad International Student & Scholar Services International Enrollment Center Programs for Learning Academic & Community English Search for: Search International Activities Peace Corps International Partnerships Todos Santos Semester at Sea On-Campus Initiatives International Admissions International Development Studies On-Campus Programs & Events Programs for Learning Academic and Community",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mary Swing",
+        "raw_role": "Manager, International Graduate Admissions",
+        "clean_name": "Mary Swing",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

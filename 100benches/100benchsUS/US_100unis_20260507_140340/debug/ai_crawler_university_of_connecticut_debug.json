@@ -1,0 +1,3324 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Connecticut",
+  "homepage_url": "http://uconn.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 2,
+    "candidates_probed": 2,
+    "contacts_extracted": 17,
+    "contacts_kept": 0,
+    "time_seconds": 69.97675609588623,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://global.uconn.edu/international-support/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 2,
+      "pages_fetched": 2,
+      "successful_fetches": 2,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://facultystaff.uconn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "http://uconn.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://global.uconn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Global",
+        "parent_url": "http://uconn.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/about-us/administration/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Administration",
+        "parent_url": "http://uconn.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/our-people-2/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our People",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://handbook.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Faculty and Staff Handbook",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://facultystaff.uconn.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Home",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact",
+        "parent_url": "http://uconn.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://blogs.uconn.edu/social/directory/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Social Media Directory",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultystaff.uconn.edu/wp-admin/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Webmaster Login",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ovpr.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office of the Vice President for Research",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions",
+        "parent_url": "http://uconn.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/admissions/prospective-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Prospective Students",
+        "parent_url": "http://uconn.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/admissions/tuition-and-costs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Tuition and Costs",
+        "parent_url": "http://uconn.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/admissions/visit-campus/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit Campus",
+        "parent_url": "http://uconn.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/academics/enrichment-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Enrichment Opportunities",
+        "parent_url": "http://uconn.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/about-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About Us",
+        "parent_url": "http://uconn.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://uconn.edu/about-us/facts/campuses/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campuses",
+        "parent_url": "http://uconn.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/2026/04/07/2026-uconn-health-board-of-directors-faculty-recognition-awardee-is-dr-david-shafer/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "2026 UConn Health Board of Directors Faculty Recognition Awardee is Dr. David Shafer",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.uconn.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "UConn Directory",
+        "parent_url": "https://uconn.edu/contact/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://consulting.uconn.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Consulting",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://events.uconn.edu/information-technology-services/event/1632385-tech-event-for-faculty-file-storage-and-data",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Tech Event for Faculty: File Storage and Data Security",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/international-support/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Support for UConn’s International Community",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://global.uconn.edu/international-travel-information/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Travel Information",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/united-nations-engagement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "United Nations Engagement",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/about-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Us",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Home",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/annual-report/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Annual Report",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/communications/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Communications",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/events/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Event Calendar",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/news/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "News & Feature Stories",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/newsletters/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Newsletters",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://boardoftrustees.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Board of Trustees",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/2026/04/07/multiple-uconn-graduate-programs-earn-rankings-among-nations-best/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Multiple UConn Graduate Programs Earn Rankings Among Nation’s Best",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/2026/04/07/three-neag-school-graduate-programs-ranked-among-the-top-25-in-the-nation/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Three Neag School Graduate Programs Ranked Among the Top 25 in the Nation",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://partnerships.global.uconn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Global Partnerships and Outreach",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/wp-admin/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Webmaster Login",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.global.uconn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Center for International Students and Scholars",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://experiential.global.uconn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Experiential Global Learning",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://training.global.uconn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Global Training and Development Institute",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/contact-information/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact Us",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/mindfulness-spirituality-planetary-health/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mindfulness, Spirituality, and Planetary Health",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/thinking-globally/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn more",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uconn.edu/uconn-technion-clean-energy-initiative/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "UConn-Technion Clean Energy Initiative",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://bwgermany.uconn.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "BW- CT Exchange",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://philosophy.global.uconn.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Philosophy and Global Affairs",
+        "parent_url": "https://global.uconn.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.registrar.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office of the Registrar",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://equity.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office of Institutional Equity",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://onecard.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "One Card Office",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://travel.uconn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Travel Office",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://communications.uconn.edu/university-design-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "University Design Services",
+        "parent_url": "https://facultystaff.uconn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.uconn.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.uconn.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.uconn.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://global.uconn.edu/international-support/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://global.uconn.edu/our-people-2/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Arthur House Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Daniel Weiner Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Gregory Kivenzor Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Hadi Bozorgmanesh Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jeffrey Fisher Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Ngozi Taffe Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Rae Alexander"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Roy Kamphausen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Scott Brown Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Zaid Eyadat Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Arthur House Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Daniel Weiner Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Gregory Kivenzor Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Hadi Bozorgmanesh Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jeffrey Fisher Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Ngozi Taffe Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Rae Alexander"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Roy Kamphausen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Scott Brown Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Zaid Eyadat Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Arthur House Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Daniel Weiner Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Gregory Kivenzor Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Hadi Bozorgmanesh Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Jeffrey Fisher Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Ngozi Taffe Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Rae Alexander"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Roy Kamphausen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Scott Brown Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Zaid Eyadat Ph.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Arthur House Ph.D"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://uconn.edu/",
+          "to": "http://uconn.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Focus on team and office pages that provide staff contact information relevant to international engagement.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://global.uconn.edu/international-support/",
+          "page_type": "nav",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://global.uconn.edu/our-people-2/",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Arthur House Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Daniel Weiner Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Gregory Kivenzor Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Hadi Bozorgmanesh Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jeffrey Fisher Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Ngozi Taffe Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Rae Alexander"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Roy Kamphausen"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Scott Brown Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Zaid Eyadat Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Arthur House Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Daniel Weiner Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Gregory Kivenzor Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Hadi Bozorgmanesh Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jeffrey Fisher Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Ngozi Taffe Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Rae Alexander"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Roy Kamphausen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Scott Brown Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Zaid Eyadat Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Arthur House Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Daniel Weiner Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Gregory Kivenzor Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Hadi Bozorgmanesh Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Jeffrey Fisher Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Ngozi Taffe Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Rae Alexander"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Roy Kamphausen"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Scott Brown Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Zaid Eyadat Ph.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Arthur House Ph.D"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Focus on team and office pages that provide staff contact information relevant to international engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Ranked pages based on heuristic scores and relevance.",
+        "ranked_pages": [
+          {
+            "url": "https://global.uconn.edu/our-people-2/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://facultystaff.uconn.edu/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://handbook.uconn.edu/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://global.uconn.edu/international-support/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.3,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://global.uconn.edu/international-support/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://global.uconn.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://global.uconn.edu/",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 18722,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 17998,
+        "embedded_text_length": 723,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut\nGlobal Affairs\nRowe Center for Undergraduate Education",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Support for UConn's International Community | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with the site. Purpose of Cookies: Session Management : Keeping you logged in Remembering items in a shopping cart Saving language or theme preferences Personalization : Tailoring content or ads based on your previous activity Tracking & Analytics : Monitoring browsing behavior for analytics or marketing purposes Types of Cookies: Session Cookies : Temporary; deleted when you close your browser Used for things like keeping you logged in during a single session Persistent Cookies : Stored on your device until they expire or are manually deleted Used for remembering login credentials, settings, etc. First-Party Cookies : Set by the website you're visiting directly Third-Party Cookies : Set by other domains (usually advertisers) embedded in the website Commonly used for tracking across multiple sites Authentication cookies are a special type of web cookie used to identify and verify a user after they log in to a website or web application. What They Do: Once you log in to a site, the server creates an authentication cookie and sends it to your browser. This cookie: Proves to the website that you're logged in Prevents you from having to log in again on every page you visit Can persist across sessions if you select \"Remember me\" What's Inside an Authentication Cookie? Typically, it contains: A unique session ID (not your actual password) Optional metadata (e.g., expiration time, security flags) Analytics cookies are cookies used to collect data about how visitors interact with a website . Their primary purpose is to help website owners understand and improve user experience by analyzing things like: How users navigate the site Which pages are most/least visited How long users stay on each page What device, browser, or location the user is from What They Track: Some examples of data analytics cookies may collect: Page views and time spent on pages Click paths (how users move from page to page) Bounce rate (users who leave without interacting) User demographics (location, language, device) Referring websites (how users arrived at the site) Here’s how you can disable cookies in common browsers: 1. Google Chrome Open Chrome and click the three vertical dots in the top-right corner. Go to Settings > Privacy and security > Cookies and other site data . Choose your preferred option: Block all cookies (not recommended, can break most websites). Block third-party cookies (can block ads and tracking cookies). 2. Mozilla Firefox Open Firefox and click the three horizontal lines in the top-right corner. Go to Settings > Privacy & Security . Under the Enhanced Tracking Protection section, choose Strict to block most cookies or Custom to manually choose which cookies to block. 3. Safari Open Safari and click Safari in the top-left corner of the screen. Go to Preferences > Privacy . Check Block all cookies to stop all cookies, or select options to block third-party cookies. 4. Microsoft Edge Open Edge and click the three horizontal dots in the top-right corner. Go to Settings > Privacy, search, and services > Cookies and site permissions . Select your cookie settings from there, including blocking all cookies or blocking third-party cookies. 5. On Mobile (iOS/Android) For Safari on iOS: Go to Settings > Safari > Privacy & Security > Block All Cookies . For Chrome on Android: Open the app, tap the three dots, go to Settings > Privacy and security > Cookies . Be Aware: Disabling cookies can make your online experience more difficult. Some websites may not load properly, or you may be logged out frequently. Also, certain features may not work as expected. UConn University of Connecticut Search University of Connecticut Search UConn A to Z Index UConn A to Z Index Office of the President Global Affairs Search this Site Search in https://global.uconn.edu/> Search Toggle navigation Menu Global Affairs Skip to content Home About About Us Our People Contact Us News & Events Annual Report News & Feature Stories Event Calendar Newsletters Communications International Support International Travel Information Support for UConn’s International Community United Nations Engagement Search this Site Search in https://global.uconn.edu/> Search Support for UConn’s International Community The University recognizes that this may be a time of uncertainty for the UConn community. Recent changes in immigration enforcement and policy have raised understandable concerns. We value our global community, and we are here to support you. Included on this site is information, guidance, and resources necessary to understand federal immigration updates and university policies and guidance related to these changes. We encourage you to review the resources available on this website, including links to relevant University departments, as they may contain detailed information and guidance applicable to your circumstances. External Organizations with Comprehensive Information on Immigration, Higher Education and Updates on Executive Actions NAFSA NAFSA Association of International Educators is a leading organization committed to international education and exchange, and a trusted resource for universities and educational institutions. NAFSA maintains the following webpage with regular updates on executive and regulatory actions related to immigration. Executive and Regulatory Actions Under the Second Trump Administration | NAFSA The Presidents’ Alliance on Higher Education and Immigration President's Alliance on Immigration and Higher Education An alliance of American college and university leaders dedicated to increasing public understanding of how immigration policies and practices impact our students, campuses, and communities. Directory of Resources to Support International Students, Scholars and Staff American Council on Education American Council on Education (ACE) It leads advocacy efforts that shape public policy, builds a diverse institutional leadership pipeline, and forms partnerships to meet the complex needs of today’s learners. Special Topics Visa and Travel Policy January 8, 2025: Countries subject to visa bonds for B1/B2 visa applicants and Temporary Final Rule on Visa Bond Pilot Program. December 19, 2025: Congress.gov publishes a summary overview of the expanded Travel Ban. December 19, 2025: Department of State Visa News provides further clarification on the impacts of the June 2025 and January 2026 travel and entry restrictions on visa issuance: Suspension of Visa Issuance to Foreign Nationals to Protect the Security of the United States December 16, 2025: the Trump administration updated the proclamation Restricting and Limiting the Entry of Foreign Nationals to Protect the Security of the United States , adding more countries. June 9, 2025: Suspension of Visa Issuance to Foreign National Subject to Travel Ban June 4, 2025: The Trump administration published a Proclamation Restricting Travel for Foreign Nationals from 19 Countries . Read more about the proclamation . A Department of State Press Briefing addressed the reported pause on student visa appointments and suggests that any disruptions will be brief. DOS recommends students continue to complete their visa applications and check the appointment system for available appointments. NAFSA Resource: Government Scrutiny of Digital Footprint and Social Media USCIS Hold and Review of Asylum Applications and Benefits from Travel Ban Countries Link to December 2, 2025 USCIS Policy Memorandum: Policy Memorandum Entry Restriction and New Fee for H-1B Visa Holders 9/19/2025 Presidential Proclamation: Restriction on Entry of Certain Nonimmigrant Workers USCIS Guidance on H-1B Proclamation Green and Speigel Resource: The $100,000 H-1B Fee Proclamation - Some Questions Answered, Quite a Few Remain Government Shutdown AILA Resource 10/1/2025: What Happens During a Government Shutdown (PDF) or What Happens During a Government Shutdown (.docx) Proposed Rule to End D/S Admission for F/J Visa Holders On August 28, the administration published a proposed rule replace admission for Duration of Status with a date-specific admission period for F, J and I visa holders. Read the Proposed Rule NAFSA Summary Page on the Proposed Rule NAFSA Duration of Status Explainer Understanding the Non-Citizen Registration and Registration Document Requirements NAFSA Resource: “ Requirement to Carry Immigration Registration Document and Report Change of Address ”. Note: International students and scholars on F/J visa should refer to this registration document requirement announcement . Presidents’ Alliance on Higher Education and Immigration: USCIS Registration Requirement for Non-Citizens: What Colleges and Universities Need to Know What to do if Government or Law Enforcement Comes to Campus Q&A on Recent Issues for more information about law enforcement on campus. Resources Legal Resources and Services American Immigration Lawyers Association (AILA): Find an Immigration Lawyer or call 203-946-4811 CTLawHelp : Free legal information for low-income CT residents. Start Here: Legal Help Finder United Coalition for Immigrant Services : Free and low-cost immigration legal services to children, families, and older adults in Santa Clara and San Mateo Counties. National Immigration Legal Services Directory : Search for free or low-cost immigration legal services by state, county, or detention facility. Dept. of Justice Recognition and Accreditation Program : List of Recognized Organizations and Accredited Representatives Roster by State and City. Connecticut Institute for Refugees and Immigrants (CIRI) : Provides affordable legal assistance to immigrants and their families. American Civil Liberties Union (ACLU) : A nonprofit organization dedicated to defending and preserving individual rights and liberties guaranteed by the U.S. Constitution and laws. Resources for Understanding Immigration Enforcement and Your Rights State of Connecticut Family Preparedness Plan : A comprehensive guide to preparing your family for immigration enforcement Informed Immigrant : Information about the new immigration registration requirements, DACA renewals, knowing your rights and more. Immigration Legal Resource Center (ilrc) : A step-by-step family preparedness plan. For examples of how to exercise your rights under the U.S. Constitution, regardless of your immigration status, Free Red Cards . National Immigration Law Center : information on knowing your rights if arrested or detained by immigration Community Partners with Resources for Immigrants Build One Community (B1C; The Center for Immigrant Opportunity) : Provides free services that educate, employ, empower, and engage immigrants and the broader community. CT Students for a Dream (C4D) : the only undocumented youth-led statewide organization in CT that fights and builds power for the rights and dignity of immigrants and communities of color. Connecticut Immigrant & Refugee Coalition (CIRC) : A coalition of businesses and organizations who advocate together for the rights of immigrants and refugees in Connecticut. Catholic Charities Archdiocese of Hartford : Serves people of all faiths in Hartford, Litchfield, and New Haven. Junta : Providing culturally responsive social services to Greater New Haven’s Hispanic community. Mental Health & Wellness Support and Resources Students Student Health and Wellness - ShaW : Storrs and Regional Campuses Dean of Students Office Graduate School Office of Student Care and Concern Graduate School at UConn Health Student Behavioral Health Service | Student Affairs and Activities (UConn Health) Faculty and Staff The Lexington Group : EAP provider for the Storrs and Regional Campuses Employee Assistance Program - EAP : EAP provider for UConn Health Graduate Assistants The Lexington Group : EAP provider for the Storrs and Regional Campuses Student Health and Wellness - ShaW : Storrs and Regional Campuses Student Behavioral Health Service | Student Affairs and Activities (UConn Health) Residents Graduate Medical Education Travel Resources CISS Travel Abroad : Information for UConn international students on how to request a travel signature, apply for visa and international travel FAQ UConn Travel Policies : Summarizes policies for University affiliated travel U.S. Department of State Travel Resources : Information for U.S. travelers abroad and international travelers coming to the U.S. Global Visa Wait Times : Wait times for U.S. visa appointments at embassies/consulates worldwide. U.S. Visa Reciprocity Tables : Confirms U.S. visa issuance validity period by country, visa category. U.S. Travel Docs : Detailed information on U.S. visa process for international travelers. National Immigration Law Center Travel Safety Resource Travel and Digital Hygiene : This flyer is designed to help individuals prepare to travel through U.S. ports of entry. DHS Traveler Redress Inquiry Program : DHS TRIP is a single point of contact for individuals who have had difficulties during travel screenings at transportation hubs such as airports or U.S. borders. Applications to redress or remedy this issue can be done through this program. Trusted Traveler Programs : These programs allow members to use expedited lanes at U.S. airports and when crossing international borders. University Resources There are many offices on campus involved with navigating university policies and procedures as they intersect with immigration changes and providing direct resources or support to students, staff, and faculty. These include: Center for International Students and Scholars Dean of Students Human Resources Institute for Student Success International Office (UConn Health) Office of Diversity and Inclusion Office of the Vice President for Research The Graduate School Financial Resources for UConn Students Emergency Funding: Short-term loans, emergency assistance for graduate students, and essential resources are available to support UConn students facing unexpected financial hardship or basic needs insecurity. Visit The Graduate School website for more information. Students First Fund: Offers emergency aid to UConn students facing unexpected financial hardship that threatens their ability to stay enrolled. Visit the Dean of Students website via this link for more information and to apply. AAUP Legal Defense Fund: Provides up to $2,500 to support UConn faculty and students needing legal assistance with visa or residency challenges, with payments typically made directly to legal providers. Visit the American Association of University Professors (AAUP) UConn Chapter website for more information. Who to Contact International Students & Visiting Scholars ISSS Federal Imigration Updates Undocumented Students Undocumented Student Resources UConn Faculty & Staff International Employees UConn Health Students, Faculty and Staff International Office - Human Resources University-Wide Notifications UConn Provides Guidance on Potential On-Campus Interactions with Immigration Agents (February 12, 2026) Q&A on Recent Issues (April 28, 2025) Updates on Issues Related to Actions Taken by the Federal Government in Recent Weeks (April 28, 2025) Community Update: International Students and Colleagues (April 22, 2025) Supporting Our International Students and Scholars (April 10, 2025) Information and Resources for the UConn Community (April 10, 2025) Message on Recent Executive Orders and Federal Actions (January 28, 2025) Faculty/Staff Communications Update from the U.S. Department of State on Immigrant Visa Processing (January 29, 2026) Important Update: Visa Appointment Delays (December 19, 2025) Update Presidential Proclamation on H-1B Fees and Restrictions of Entry from Abroad (September 24, 2025) Important Update: U.S. Travel Ban Effective June 9, 2025 (June 6, 2025) Support and Resources in Response to Potential Immigration Policy Changes (March 26, 2025) Update for International Employees and Travel Advisory (March 21, 2025) International Student and Scholar Communications Winter Break Hours, Updates and International Travel Reminders (December 23, 2025) Updated Presidential Proclamation Restricting Travel (December 17, 2025) Proposed Rule to Eliminate Duration of Status for F and J Visa Holders (August 30, 2025) Important Travel Restrictions Impacting International Community (June 5, 2025) Message for Chinese Students Re: Visa Processing and Revocations (June 3, 2025) Important Message Regarding Visa Processing (May 28, 2025) Update on Student Visa Revocations and SEVIS Terminations (April 17, 2025) New Registration Requirements and Document Carry Requirements (April 17, 2025) Update on Recent Immigration Actions (April 12, 2025) Spring Break Travel Guidance (March 21, 2025) Verifying your Status as an International Student or Scholar (February 24, 2025) Spring/Summer 2025 International Travel Guidance (February 17, 2025) Contact Phone: 860-486-3152 E-mail: global@uconn.edu Address: University of Connecticut Global Affairs Rowe Center for Undergraduate Education 368 Fairfield Way, Unit 4182 Storrs, CT 06269-4182 Facebook Instagram LinkedIn Pinterest YouTube EXPLORE UCONN GLOBAL Center for International Students and Scholars Experiential Global Learning Gladstein Family Human Rights Institute Global Partnerships and Outreach Global Training and Development Institute International Studies Association UConn American English Language Institute Support UConn Global © University of Connecticut Disclaimers, Privacy & Copyright Accessibility Webmaster Login\n@graph > @id: https://global.uconn.edu/#schema-publishing-organization @graph > url: https://global.uconn.edu @graph > name: Global Affairs @graph > @id: https://global.uconn.edu/#schema-website @graph > potentialaction > target: https://global.uconn.edu/search/{search_term_string}/ @graph > @id: https://global.uconn.edu/international-support?page&pagename=international-support/#breadcrumb @graph > itemlistelement > name: Home @graph > itemlistelement > item: https://global.uconn.edu @graph > itemlistelement > name: Support for UConn&#8217;s International Community @graph > @id: https://global.uconn.edu/author/sbn13002/#schema-author @graph > name: Sita Nyame @graph > url: https://global.uconn.edu/author/sbn13002/",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment & Support",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment & Support",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut\nGlobal Affairs\nRowe Center for Undergraduate Education",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "global@uconn.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "global@uconn.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/international-support/",
+            "score": 0,
+            "reason": "no personal name",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "global@uconn.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "b6030aa0b3a4a4d53dcba8b93b8661bd99349976"
+      },
+      {
+        "url": "https://global.uconn.edu/our-people-2/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://global.uconn.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://global.uconn.edu/",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 13,
+        "text_length": 7852,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 7181,
+        "embedded_text_length": 669,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut\nGlobal Affairs\nRowe Center for Undergraduate Education",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with the site. Purpose of Cookies: Session Management : Keeping you logged in Remembering items in a shopping cart Saving language or theme preferences Personalization : Tailoring content or ads based on your previous activity Tracking & Analytics : Monitoring browsing behavior for analytics or marketing purposes Types of Cookies: Session Cookies : Temporary; deleted when you close your browser Used for things like keeping you logged in during a single session Persistent Cookies : Stored on your device until they expire or are manually deleted Used for remembering login credentials, settings, etc. First-Party Cookies : Set by the website you're visiting directly Third-Party Cookies : Set by other domains (usually advertisers) embedded in the website Commonly used for tracking across multiple sites Authentication cookies are a special type of web cookie used to identify and verify a user after they log in to a website or web application. What They Do: Once you log in to a site, the server creates an authentication cookie and sends it to your browser. This cookie: Proves to the website that you're logged in Prevents you from having to log in again on every page you visit Can persist across sessions if you select \"Remember me\" What's Inside an Authentication Cookie? Typically, it contains: A unique session ID (not your actual password) Optional metadata (e.g., expiration time, security flags) Analytics cookies are cookies used to collect data about how visitors interact with a website . Their primary purpose is to help website owners understand and improve user experience by analyzing things like: How users navigate the site Which pages are most/least visited How long users stay on each page What device, browser, or location the user is from What They Track: Some examples of data analytics cookies may collect: Page views and time spent on pages Click paths (how users move from page to page) Bounce rate (users who leave without interacting) User demographics (location, language, device) Referring websites (how users arrived at the site) Here’s how you can disable cookies in common browsers: 1. Google Chrome Open Chrome and click the three vertical dots in the top-right corner. Go to Settings > Privacy and security > Cookies and other site data . Choose your preferred option: Block all cookies (not recommended, can break most websites). Block third-party cookies (can block ads and tracking cookies). 2. Mozilla Firefox Open Firefox and click the three horizontal lines in the top-right corner. Go to Settings > Privacy & Security . Under the Enhanced Tracking Protection section, choose Strict to block most cookies or Custom to manually choose which cookies to block. 3. Safari Open Safari and click Safari in the top-left corner of the screen. Go to Preferences > Privacy . Check Block all cookies to stop all cookies, or select options to block third-party cookies. 4. Microsoft Edge Open Edge and click the three horizontal dots in the top-right corner. Go to Settings > Privacy, search, and services > Cookies and site permissions . Select your cookie settings from there, including blocking all cookies or blocking third-party cookies. 5. On Mobile (iOS/Android) For Safari on iOS: Go to Settings > Safari > Privacy & Security > Block All Cookies . For Chrome on Android: Open the app, tap the three dots, go to Settings > Privacy and security > Cookies . Be Aware: Disabling cookies can make your online experience more difficult. Some websites may not load properly, or you may be logged out frequently. Also, certain features may not work as expected. UConn University of Connecticut Search University of Connecticut Search UConn A to Z Index UConn A to Z Index Office of the President Global Affairs Search this Site Search in https://global.uconn.edu/> Search Toggle navigation Menu Global Affairs Skip to content Home About About Us Our People Contact Us News & Events Annual Report News & Feature Stories Event Calendar Newsletters Communications International Support International Travel Information Support for UConn’s International Community United Nations Engagement Search this Site Search in https://global.uconn.edu/> Search Administration The Office of Global Affairs brings together multiple departments dedicated to advancing UConn’s global mission through collaborative programs and initiatives. Use the navigation below to explore each team and their unique contributions. To see how these units work together within the broader structure, click the button below to view the organizational chart. Administration Experiential Global Learning Center for International Students & Scholars Global Partnership & Outreach Global Training & Development Institute The Gladstein Family Human Rights Institute Dodd Human Rights Impact International Studies Association Organizational chart Senior Leadership Daniel Weiner, Ph.D. Vice President for Global Affairs Ngozi Taffe, Ph.D. Associate Vice President for Global Affairs Rae Alexander Assistant Vice President for Global Affairs Administrative Support Stacy Webb Assistant to the Vice President for Global Affairs Sara Mahmoud Global Operations Coordinator Financial Management Susan Rosman Director of Financial Management Jessie Akberzai Financial Assistant II Leigh St. Onge Financial Assistant II Communications and Marketing Lily Guberman Communications and Multimedia Strategist Kriti Khera Student Data Analyst Chloe Gordon Student Marketing Assistant Ibrahim Koraishy Student Video Curator Julian Hart Student Web Developer Advisors Hadi Bozorgmanesh, Ph.D. Senior Advisor for Global Entrepreneurship Scott Brown, Ph.D. Senior Advisor for Global Education Zaid Eyadat, Ph.D. Senior Advisor for the MENA Human Rights Program Jeffrey Fisher, Ph.D. Senior Advisor for Global Health Programs Arthur House, Ph.D. Senior Advisor for Global Geopolitics Roy Kamphausen Senior Advisor for East Asia Gregory Kivenzor, Ph.D. Senior Advisor for Central and Eastern Europe Yuhang Rong, Ph.D. Associate Vice President for Global Affairs, Emeritus Contact Phone: 860-486-3152 E-mail: global@uconn.edu Address: University of Connecticut Global Affairs Rowe Center for Undergraduate Education 368 Fairfield Way, Unit 4182 Storrs, CT 06269-4182 Facebook Instagram LinkedIn Pinterest YouTube EXPLORE UCONN GLOBAL Center for International Students and Scholars Experiential Global Learning Gladstein Family Human Rights Institute Global Partnerships and Outreach Global Training and Development Institute International Studies Association UConn American English Language Institute Support UConn Global © University of Connecticut Disclaimers, Privacy & Copyright Accessibility Webmaster Login\n@graph > @id: https://global.uconn.edu/#schema-publishing-organization @graph > url: https://global.uconn.edu @graph > name: Global Affairs @graph > @id: https://global.uconn.edu/#schema-website @graph > potentialaction > target: https://global.uconn.edu/search/{search_term_string}/ @graph > @id: https://global.uconn.edu/our-people-2?page&pagename=our-people-2/#breadcrumb @graph > itemlistelement > name: Home @graph > itemlistelement > item: https://global.uconn.edu @graph > itemlistelement > name: Administration @graph > @id: https://global.uconn.edu/author/zaa13003/#schema-author @graph > name: Zahra Ali @graph > url: https://global.uconn.edu/author/zaa13003/",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Daniel Weiner, Ph.D.",
+            "role": "Vice President for Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Daniel Weiner, Ph.D.",
+            "raw_role": "Vice President for Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ngozi Taffe, Ph.D.",
+            "role": "Associate Vice President for Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ngozi Taffe, Ph.D.",
+            "raw_role": "Associate Vice President for Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rae Alexander",
+            "role": "Assistant Vice President for Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rae Alexander",
+            "raw_role": "Assistant Vice President for Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hadi Bozorgmanesh, Ph.D.",
+            "role": "Senior Advisor for Global Entrepreneurship",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hadi Bozorgmanesh, Ph.D.",
+            "raw_role": "Senior Advisor for Global Entrepreneurship",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Scott Brown, Ph.D.",
+            "role": "Senior Advisor for Global Education",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Scott Brown, Ph.D.",
+            "raw_role": "Senior Advisor for Global Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeffrey Fisher, Ph.D.",
+            "role": "Senior Advisor for Global Health Programs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeffrey Fisher, Ph.D.",
+            "raw_role": "Senior Advisor for Global Health Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Arthur House, Ph.D.",
+            "role": "Senior Advisor for Global Geopolitics",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Arthur House, Ph.D.",
+            "raw_role": "Senior Advisor for Global Geopolitics",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Roy Kamphausen",
+            "role": "Senior Advisor for East Asia",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Roy Kamphausen",
+            "raw_role": "Senior Advisor for East Asia",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Gregory Kivenzor, Ph.D.",
+            "role": "Senior Advisor for Central and Eastern Europe",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gregory Kivenzor, Ph.D.",
+            "raw_role": "Senior Advisor for Central and Eastern Europe",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zaid Eyadat, Ph.D.",
+            "role": "Senior Advisor for the MENA Human Rights Program",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zaid Eyadat, Ph.D.",
+            "raw_role": "Senior Advisor for the MENA Human Rights Program",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Affairs Office",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Affairs Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut\nGlobal Affairs\nRowe Center for Undergraduate Education",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Daniel Weiner, Ph.D.",
+            "role": "Vice President for Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Daniel Weiner, Ph.D.",
+            "raw_role": "Vice President for Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ngozi Taffe, Ph.D.",
+            "role": "Associate Vice President for Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ngozi Taffe, Ph.D.",
+            "raw_role": "Associate Vice President for Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rae Alexander",
+            "role": "Assistant Vice President for Global Affairs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rae Alexander",
+            "raw_role": "Assistant Vice President for Global Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hadi Bozorgmanesh, Ph.D.",
+            "role": "Senior Advisor for Global Entrepreneurship",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hadi Bozorgmanesh, Ph.D.",
+            "raw_role": "Senior Advisor for Global Entrepreneurship",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Scott Brown, Ph.D.",
+            "role": "Senior Advisor for Global Education",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Scott Brown, Ph.D.",
+            "raw_role": "Senior Advisor for Global Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeffrey Fisher, Ph.D.",
+            "role": "Senior Advisor for Global Health Programs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeffrey Fisher, Ph.D.",
+            "raw_role": "Senior Advisor for Global Health Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Arthur House, Ph.D.",
+            "role": "Senior Advisor for Global Geopolitics",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Arthur House, Ph.D.",
+            "raw_role": "Senior Advisor for Global Geopolitics",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Roy Kamphausen",
+            "role": "Senior Advisor for East Asia",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Roy Kamphausen",
+            "raw_role": "Senior Advisor for East Asia",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Gregory Kivenzor, Ph.D.",
+            "role": "Senior Advisor for Central and Eastern Europe",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gregory Kivenzor, Ph.D.",
+            "raw_role": "Senior Advisor for Central and Eastern Europe",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zaid Eyadat, Ph.D.",
+            "role": "Senior Advisor for the MENA Human Rights Program",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zaid Eyadat, Ph.D.",
+            "raw_role": "Senior Advisor for the MENA Human Rights Program",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "global@uconn.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Daniel Weiner Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Daniel Weiner, Ph.D.",
+            "raw_role": "Vice President for Global Affairs",
+            "clean_name": "Daniel Weiner Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ngozi Taffe Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ngozi Taffe, Ph.D.",
+            "raw_role": "Associate Vice President for Global Affairs",
+            "clean_name": "Ngozi Taffe Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rae Alexander",
+            "role": "president",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rae Alexander",
+            "raw_role": "Assistant Vice President for Global Affairs",
+            "clean_name": "Rae Alexander",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hadi Bozorgmanesh Ph.D",
+            "role": "Senior Advisor for Global Entrepreneurship",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hadi Bozorgmanesh, Ph.D.",
+            "raw_role": "Senior Advisor for Global Entrepreneurship",
+            "clean_name": "Hadi Bozorgmanesh Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Scott Brown Ph.D",
+            "role": "Senior Advisor for Global Education",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Scott Brown, Ph.D.",
+            "raw_role": "Senior Advisor for Global Education",
+            "clean_name": "Scott Brown Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeffrey Fisher Ph.D",
+            "role": "Senior Advisor for Global Health Programs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeffrey Fisher, Ph.D.",
+            "raw_role": "Senior Advisor for Global Health Programs",
+            "clean_name": "Jeffrey Fisher Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Arthur House Ph.D",
+            "role": "Senior Advisor for Global Geopolitics",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Arthur House, Ph.D.",
+            "raw_role": "Senior Advisor for Global Geopolitics",
+            "clean_name": "Arthur House Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Roy Kamphausen",
+            "role": "Senior Advisor for East Asia",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Roy Kamphausen",
+            "raw_role": "Senior Advisor for East Asia",
+            "clean_name": "Roy Kamphausen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Gregory Kivenzor Ph.D",
+            "role": "Senior Advisor for Central and Eastern Europe",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gregory Kivenzor, Ph.D.",
+            "raw_role": "Senior Advisor for Central and Eastern Europe",
+            "clean_name": "Gregory Kivenzor Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zaid Eyadat Ph.D",
+            "role": "Senior Advisor for the MENA Human Rights Program",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zaid Eyadat, Ph.D.",
+            "raw_role": "Senior Advisor for the MENA Human Rights Program",
+            "clean_name": "Zaid Eyadat Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "global@uconn.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Phone:\n860-486-3152\nE-mail:\nglobal@uconn.edu\nAddress:\nUniversity of Connecticut",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Daniel Weiner Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Daniel Weiner, Ph.D.",
+            "raw_role": "Vice President for Global Affairs",
+            "clean_name": "Daniel Weiner Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Ngozi Taffe Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ngozi Taffe, Ph.D.",
+            "raw_role": "Associate Vice President for Global Affairs",
+            "clean_name": "Ngozi Taffe Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Rae Alexander",
+            "role": "president",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rae Alexander",
+            "raw_role": "Assistant Vice President for Global Affairs",
+            "clean_name": "Rae Alexander",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Hadi Bozorgmanesh Ph.D",
+            "role": "Senior Advisor for Global Entrepreneurship",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hadi Bozorgmanesh, Ph.D.",
+            "raw_role": "Senior Advisor for Global Entrepreneurship",
+            "clean_name": "Hadi Bozorgmanesh Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Scott Brown Ph.D",
+            "role": "Senior Advisor for Global Education",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Scott Brown, Ph.D.",
+            "raw_role": "Senior Advisor for Global Education",
+            "clean_name": "Scott Brown Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Jeffrey Fisher Ph.D",
+            "role": "Senior Advisor for Global Health Programs",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeffrey Fisher, Ph.D.",
+            "raw_role": "Senior Advisor for Global Health Programs",
+            "clean_name": "Jeffrey Fisher Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Arthur House Ph.D",
+            "role": "Senior Advisor for Global Geopolitics",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Arthur House, Ph.D.",
+            "raw_role": "Senior Advisor for Global Geopolitics",
+            "clean_name": "Arthur House Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Roy Kamphausen",
+            "role": "Senior Advisor for East Asia",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Roy Kamphausen",
+            "raw_role": "Senior Advisor for East Asia",
+            "clean_name": "Roy Kamphausen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Gregory Kivenzor Ph.D",
+            "role": "Senior Advisor for Central and Eastern Europe",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gregory Kivenzor, Ph.D.",
+            "raw_role": "Senior Advisor for Central and Eastern Europe",
+            "clean_name": "Gregory Kivenzor Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Zaid Eyadat Ph.D",
+            "role": "Senior Advisor for the MENA Human Rights Program",
+            "email": "",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zaid Eyadat, Ph.D.",
+            "raw_role": "Senior Advisor for the MENA Human Rights Program",
+            "clean_name": "Zaid Eyadat Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 11,
+        "clean_candidate_count": 11,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 10,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Global Affairs",
+            "email": "global@uconn.edu",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "score": 0,
+            "reason": "no personal name",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Global Affairs",
+            "clean_name": "",
+            "email_normalized": "global@uconn.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Daniel Weiner Ph.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Daniel Weiner, Ph.D.",
+            "raw_role": "Vice President for Global Affairs",
+            "clean_name": "Daniel Weiner Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Ngozi Taffe Ph.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Ngozi Taffe, Ph.D.",
+            "raw_role": "Associate Vice President for Global Affairs",
+            "clean_name": "Ngozi Taffe Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Rae Alexander",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Rae Alexander",
+            "raw_role": "Assistant Vice President for Global Affairs",
+            "clean_name": "Rae Alexander",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Hadi Bozorgmanesh Ph.D",
+            "role": "Senior Advisor for Global Entrepreneurship",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Hadi Bozorgmanesh, Ph.D.",
+            "raw_role": "Senior Advisor for Global Entrepreneurship",
+            "clean_name": "Hadi Bozorgmanesh Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Scott Brown Ph.D",
+            "role": "Senior Advisor for Global Education",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Scott Brown, Ph.D.",
+            "raw_role": "Senior Advisor for Global Education",
+            "clean_name": "Scott Brown Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Jeffrey Fisher Ph.D",
+            "role": "Senior Advisor for Global Health Programs",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jeffrey Fisher, Ph.D.",
+            "raw_role": "Senior Advisor for Global Health Programs",
+            "clean_name": "Jeffrey Fisher Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Arthur House Ph.D",
+            "role": "Senior Advisor for Global Geopolitics",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Arthur House, Ph.D.",
+            "raw_role": "Senior Advisor for Global Geopolitics",
+            "clean_name": "Arthur House Ph.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Roy Kamphausen",
+            "role": "Senior Advisor for East Asia",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Roy Kamphausen",
+            "raw_role": "Senior Advisor for East Asia",
+            "clean_name": "Roy Kamphausen",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Gregory Kivenzor Ph.D",
+            "role": "Senior Advisor for Central and Eastern Europe",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Gregory Kivenzor, Ph.D.",
+            "raw_role": "Senior Advisor for Central and Eastern Europe",
+            "clean_name": "Gregory Kivenzor Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          },
+          {
+            "name": "Zaid Eyadat Ph.D",
+            "role": "Senior Advisor for the MENA Human Rights Program",
+            "country": "US",
+            "page_url": "https://global.uconn.edu/our-people-2/",
+            "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Zaid Eyadat, Ph.D.",
+            "raw_role": "Senior Advisor for the MENA Human Rights Program",
+            "clean_name": "Zaid Eyadat Ph.D",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 12.05
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "881f4a2f1b752a9d67df4271bc1f8139931f5849"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Daniel Weiner Ph.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Daniel Weiner, Ph.D.",
+        "raw_role": "Vice President for Global Affairs",
+        "clean_name": "Daniel Weiner Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Ngozi Taffe Ph.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Ngozi Taffe, Ph.D.",
+        "raw_role": "Associate Vice President for Global Affairs",
+        "clean_name": "Ngozi Taffe Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Rae Alexander",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Rae Alexander",
+        "raw_role": "Assistant Vice President for Global Affairs",
+        "clean_name": "Rae Alexander",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Hadi Bozorgmanesh Ph.D",
+        "role": "Senior Advisor for Global Entrepreneurship",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Hadi Bozorgmanesh, Ph.D.",
+        "raw_role": "Senior Advisor for Global Entrepreneurship",
+        "clean_name": "Hadi Bozorgmanesh Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Scott Brown Ph.D",
+        "role": "Senior Advisor for Global Education",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Scott Brown, Ph.D.",
+        "raw_role": "Senior Advisor for Global Education",
+        "clean_name": "Scott Brown Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Jeffrey Fisher Ph.D",
+        "role": "Senior Advisor for Global Health Programs",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jeffrey Fisher, Ph.D.",
+        "raw_role": "Senior Advisor for Global Health Programs",
+        "clean_name": "Jeffrey Fisher Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Arthur House Ph.D",
+        "role": "Senior Advisor for Global Geopolitics",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Arthur House, Ph.D.",
+        "raw_role": "Senior Advisor for Global Geopolitics",
+        "clean_name": "Arthur House Ph.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Roy Kamphausen",
+        "role": "Senior Advisor for East Asia",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Roy Kamphausen",
+        "raw_role": "Senior Advisor for East Asia",
+        "clean_name": "Roy Kamphausen",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Gregory Kivenzor Ph.D",
+        "role": "Senior Advisor for Central and Eastern Europe",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Gregory Kivenzor, Ph.D.",
+        "raw_role": "Senior Advisor for Central and Eastern Europe",
+        "clean_name": "Gregory Kivenzor Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      },
+      {
+        "name": "Zaid Eyadat Ph.D",
+        "role": "Senior Advisor for the MENA Human Rights Program",
+        "country": "US",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "page_context": "Administration | Global Affairs | Office of the President | University of Connecticut Skip to Navigation Skip to UConn Search Skip to Content UConn Cookie Information What are Cookies? Authentication Cookies Analytics Cookies Opt Out Web cookies (also called HTTP cookies , browser cookies , or simply cookies ) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Zaid Eyadat, Ph.D.",
+        "raw_role": "Senior Advisor for the MENA Human Rights Program",
+        "clean_name": "Zaid Eyadat Ph.D",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 12.05
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "Global Affairs",
+        "email": "global@uconn.edu",
+        "page_url": "https://global.uconn.edu/international-support/",
+        "score": 0,
+        "reason": "no personal name",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "Global Affairs",
+        "clean_name": "",
+        "email_normalized": "global@uconn.edu"
+      },
+      {
+        "name": "",
+        "role": "Global Affairs",
+        "email": "global@uconn.edu",
+        "page_url": "https://global.uconn.edu/our-people-2/",
+        "score": 0,
+        "reason": "no personal name",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "Global Affairs",
+        "clean_name": "",
+        "email_normalized": "global@uconn.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

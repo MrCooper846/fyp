@@ -1,0 +1,4158 @@
+{
+  "method": "ai_crawler",
+  "university": "Vanderbilt University",
+  "homepage_url": "http://www.vanderbilt.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 7,
+    "candidates_probed": 7,
+    "contacts_extracted": 22,
+    "contacts_kept": 0,
+    "time_seconds": 66.76666951179504,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 7,
+      "pages_fetched": 7,
+      "successful_fetches": 7,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.vanderbilt.edu/provost/jobs/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Open Faculty Positions",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/about/university-leadership/leadership-profile/?person=2160-padma-raghavan",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Chancellor’s Executive Director for Science and Technology Strategy",
+        "parent_url": "https://www.vanderbilt.edu/about/university-leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/about/university-leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "University Leadership",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "This page provides information about the university's leadership, which may include key contacts relevant to global engagement and international partnerships."
+      },
+      {
+        "url": "https://hr.vanderbilt.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "People Experience",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.vanderbilt.edu/benefits/faculty/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Benefits for New Faculty",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/faculty-affairs/policies-procedures/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Policies and Procedures",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Faculty Gateway",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/about/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/areas/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "People and Areas",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/about/university-leadership/deans-of-the-schools-and-colleges/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Deans of the Schools and Colleges",
+        "parent_url": "https://www.vanderbilt.edu/about/university-leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/admissions/financial-aid/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Financial Aid",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/admissions/graduate-professional-school-admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Graduate & Professional School Admissions",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://vanderbilt.edu/pcb",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "People, Culture and Belonging",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.vanderbilt.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Human Resources: People Experience",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/pcb/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "People, Culture and Belonging",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.vanderbilt.edu/policies/remote-hybrid-toolkit-staff/work-life-harmony",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Work & Life",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/connect/about-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ask Our Team",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/global/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global Engagement",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://business.vanderbilt.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Owen Graduate School of Management",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/areas/provost-and-vice-chancellor-for-academic-affairs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Biography",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/finance-faqs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Finance FAQs",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/new-hire-onboarding-kit/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "New Hire On-Boarding Kit",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Resources",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://edit.dev.vanderbilt.edu/top-levels/wp-login.php?redirect_to=https%3A%2F%2Fdev.vanderbilt.edu%2Ftop-levels%2Fabout%2Funiversity-leadership%2F",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "©",
+        "parent_url": "https://www.vanderbilt.edu/about/university-leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/wp-login.php?redirect_to=https%3A%2F%2Fwww.vanderbilt.edu%2Fprovost%2Fjobs%2F",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "©",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact a Student",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://hr.vanderbilt.edu/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Costs and Finances",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/dsa/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office of Data and Strategic Analytics",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/about-the-provost-office/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.vanderbilt.edu/employee-immigration-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Employee Immigration Services",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office of the Provost",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/boardoftrust/members/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Board of Trust",
+        "parent_url": "https://www.vanderbilt.edu/about/university-leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.vanderbilt.edu/pcb/performance-management/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Project Orion (Performance Management)",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Undergraduate Admissions",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Undergraduate Admissions",
+        "parent_url": "http://www.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/academics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academics",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/academics/blair-school-of-music/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Blair School of Music",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/academics/college-of-arts-and-science/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "College of Arts and Science",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/academics/peabody-college/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Peabody College",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/academics/school-of-engineering/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "School of Engineering",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/affordability/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Affordability",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/apply/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Apply",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/apply/first-year-process/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Application Process: First-year",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/apply/testing-policies/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Testing Policies",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/apply/transfer-process/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Application Process: Transfer",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/community/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Community",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/connect/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Connect",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.vanderbilt.edu/insidedores/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Inside 'Dores Student Blog",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.vanderbilt.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.vanderbilt.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.vanderbilt.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://admissions.vanderbilt.edu/connect/contact-a-student/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.vanderbilt.edu/global/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://hr.vanderbilt.edu/benefits/faculty/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Long-Term Disability"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Long-Term Disability"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Long-Term Disability"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Long-Term Disability"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.vanderbilt.edu/provost/faculty-gateway/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.vanderbilt.edu/about/university-leadership/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.vanderbilt.edu/about/contact/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.vanderbilt.edu/provost/areas/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover C André Christie-Mizell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover C Cybele Raver"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Doug Christiansen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Duane Watson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Everette Fortner"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kurt Shepherd"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Megan Sargent"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tiffiny Tung"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tracey George"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover C André Christie-Mizell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover C Cybele Raver"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Doug Christiansen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Duane Watson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Everette Fortner"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kurt Shepherd"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Megan Sargent"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Tiffiny Tung"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Tracey George"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover C André Christie-Mizell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover C Cybele Raver"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Doug Christiansen"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://www.vanderbilt.edu/",
+          "to": "http://www.vanderbilt.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages directly related to international engagement and university leadership for contact details.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+          "page_type": "nav",
+          "expected_yield": 6.4
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.vanderbilt.edu/global/",
+          "page_type": "nav",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://hr.vanderbilt.edu/benefits/faculty/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Long-Term Disability"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Long-Term Disability"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Long-Term Disability"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Long-Term Disability"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page provides information about the university's leadership, which may include key contacts relevant to global engagement and international partnerships.",
+        "details": {
+          "url": "https://www.vanderbilt.edu/about/university-leadership/",
+          "page_type": "Leadership",
+          "expected_yield": 6.0
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.vanderbilt.edu/about/contact/",
+          "page_type": "nav",
+          "expected_yield": 5.4
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.vanderbilt.edu/provost/areas/",
+          "page_type": "nav",
+          "expected_yield": 7.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "C André Christie-Mizell"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "C Cybele Raver"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Doug Christiansen"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Duane Watson"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Everette Fortner"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kurt Shepherd"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Megan Sargent"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tiffiny Tung"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tracey George"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "C André Christie-Mizell"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "C Cybele Raver"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Doug Christiansen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Duane Watson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Everette Fortner"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kurt Shepherd"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Megan Sargent"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Tiffiny Tung"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Tracey George"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "C André Christie-Mizell"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "C Cybele Raver"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Doug Christiansen"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages directly related to international engagement and university leadership for contact details.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Limit ranked pages to those most relevant to outreach roles.",
+        "ranked_pages": [
+          {
+            "url": "https://www.vanderbilt.edu/global/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.3,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 6.4,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "reason": "This page provides information about the university's leadership, which may include key contacts relevant to global engagement and international partnerships.",
+            "expected_yield": 6.0,
+            "page_type": "Leadership"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.vanderbilt.edu/faculty-affairs/policies-procedures/",
+          "https://hr.vanderbilt.edu",
+          "https://www.vanderbilt.edu/provost/areas/",
+          "https://www.vanderbilt.edu/provost/jobs/",
+          "https://www.vanderbilt.edu/about/contact/",
+          "https://hr.vanderbilt.edu/contact/"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://admissions.vanderbilt.edu",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://admissions.vanderbilt.edu",
+        "page_family": "contact",
+        "expected_yield": 6.4,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 3399,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3221,
+        "embedded_text_length": 176,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Undergraduate Admissions",
+            "email": "",
+            "page_url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Undergraduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Undergraduate Admissions",
+            "email": "",
+            "page_url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Undergraduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Undergraduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.vanderbilt.edu/connect/contact-a-student/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Undergraduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "570c1732e08b1302ee7e6bb3209810767eb5af24"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/global/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2951,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2859,
+        "embedded_text_length": 90,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Student & Scholar Services",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student & Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Student & Scholar Services",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student & Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student & Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student & Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/global/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "63cef23b67998fe47b2a9a7a8e184eb98731dc0e"
+      },
+      {
+        "url": "https://hr.vanderbilt.edu/benefits/faculty/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://hr.vanderbilt.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://hr.vanderbilt.edu/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 12031,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 11965,
+        "embedded_text_length": 68,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Long-Term Disability",
+            "role": "",
+            "email": "zoe.garden@vanderbilt.edu",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Long-Term Disability",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of People Experience",
+            "email": "",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of People Experience",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Long-Term Disability",
+            "role": "",
+            "email": "zoe.garden@vanderbilt.edu",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Long-Term Disability",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of People Experience",
+            "email": "",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of People Experience",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Long-Term Disability",
+            "role": "",
+            "email": "zoe.garden@vanderbilt.edu",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Long-Term Disability",
+            "raw_role": "",
+            "clean_name": "Long-Term Disability",
+            "email_normalized": "zoe.garden@vanderbilt.edu",
+            "cleanup_flags": [
+              "mailto_only"
+            ],
+            "context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of People Experience",
+            "email": "",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of People Experience",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "zoe.garden@vanderbilt.edu",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "mailto",
+            "raw_name": "Long-Term Disability",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "zoe.garden@vanderbilt.edu",
+            "cleanup_flags": [
+              "mailto_only"
+            ],
+            "context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Long-Term Disability",
+            "role": "",
+            "email": "",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Long-Term Disability",
+            "raw_role": "",
+            "clean_name": "Long-Term Disability",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "mailto_only"
+            ],
+            "context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Office of People Experience",
+            "email": "",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of People Experience",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Long-Term Disability",
+            "role": "",
+            "country": "US",
+            "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+            "page_context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "mailto_only"
+            ],
+            "raw_name": "Long-Term Disability",
+            "raw_role": "",
+            "clean_name": "Long-Term Disability",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "2cdca4df1d11abf1dd25aee097b01aadc5bdce3f"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 6272,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 6208,
+        "embedded_text_length": 62,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/faculty-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "03a8174e5a78225bfd6269a819a8dff95254a442"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/about/university-leadership/",
+        "reason": "This page provides information about the university's leadership, which may include key contacts relevant to global engagement and international partnerships.",
+        "page_type": "Leadership",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "http://www.vanderbilt.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.vanderbilt.edu",
+        "page_family": "governance",
+        "expected_yield": 6.0,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2405,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2172,
+        "embedded_text_length": 231,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Executive Director for Science and Technology Strategy",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Executive Director for Science and Technology Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Executive Director for Science and Technology Strategy",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Executive Director for Science and Technology Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Executive Director for Science and Technology Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/university-leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Executive Director for Science and Technology Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "8656a44fe1cfd24fbc2f0c7f4516967d9018b5fb"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/about/contact/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "http://www.vanderbilt.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.vanderbilt.edu",
+        "page_family": "contact",
+        "expected_yield": 5.4,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 2889,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2741,
+        "embedded_text_length": 146,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "University Leadership",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "University Leadership",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Admissions Office",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "University Leadership",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "University Leadership",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Admissions Office",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "University Leadership",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "University Leadership",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "University Leadership",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "University Leadership",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/about/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "33cd0de190544ec656b3913bf78482cf8e184415"
+      },
+      {
+        "url": "https://www.vanderbilt.edu/provost/areas/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.vanderbilt.edu/provost/jobs/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.vanderbilt.edu/provost/jobs/",
+        "page_family": "governance",
+        "expected_yield": 7.15,
+        "family_signature": null,
+        "raw_contacts_found": 10,
+        "text_length": 3743,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3679,
+        "embedded_text_length": 62,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "C. Cybele Raver",
+            "role": "Provost and Vice Chancellor for Academic Affairs",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. Cybele Raver",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "G.L. Black",
+            "role": "Vice Provost for Student Affairs and Dean of Students",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "G.L. Black",
+            "raw_role": "Vice Provost for Student Affairs and Dean of Students",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Doug Christiansen",
+            "role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Doug Christiansen",
+            "raw_role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "C. André Christie-Mizell",
+            "role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. André Christie-Mizell",
+            "raw_role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Everette Fortner",
+            "role": "Vice Provost for Career Advancement and Engagement",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Everette Fortner",
+            "raw_role": "Vice Provost for Career Advancement and Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tracey George",
+            "role": "Deputy Provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tracey George",
+            "raw_role": "Deputy Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kurt Shepherd",
+            "role": "Assistant Vice Chancellor of Finance",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kurt Shepherd",
+            "raw_role": "Assistant Vice Chancellor of Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Megan Sargent",
+            "role": "Associate Vice Chancellor and Chief of Staff",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Megan Sargent",
+            "raw_role": "Associate Vice Chancellor and Chief of Staff",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tiffiny Tung",
+            "role": "Vice Provost for Undergraduate Education",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tiffiny Tung",
+            "raw_role": "Vice Provost for Undergraduate Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Duane Watson",
+            "role": "Vice Provost for Faculty Affairs",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Duane Watson",
+            "raw_role": "Vice Provost for Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "C. Cybele Raver",
+            "role": "Provost and Vice Chancellor for Academic Affairs",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. Cybele Raver",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "G.L. Black",
+            "role": "Vice Provost for Student Affairs and Dean of Students",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "G.L. Black",
+            "raw_role": "Vice Provost for Student Affairs and Dean of Students",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Doug Christiansen",
+            "role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Doug Christiansen",
+            "raw_role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "C. André Christie-Mizell",
+            "role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. André Christie-Mizell",
+            "raw_role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Everette Fortner",
+            "role": "Vice Provost for Career Advancement and Engagement",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Everette Fortner",
+            "raw_role": "Vice Provost for Career Advancement and Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tracey George",
+            "role": "Deputy Provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tracey George",
+            "raw_role": "Deputy Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kurt Shepherd",
+            "role": "Assistant Vice Chancellor of Finance",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kurt Shepherd",
+            "raw_role": "Assistant Vice Chancellor of Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Megan Sargent",
+            "role": "Associate Vice Chancellor and Chief of Staff",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Megan Sargent",
+            "raw_role": "Associate Vice Chancellor and Chief of Staff",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tiffiny Tung",
+            "role": "Vice Provost for Undergraduate Education",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tiffiny Tung",
+            "raw_role": "Vice Provost for Undergraduate Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Duane Watson",
+            "role": "Vice Provost for Faculty Affairs",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Duane Watson",
+            "raw_role": "Vice Provost for Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "C Cybele Raver",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. Cybele Raver",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "C Cybele Raver",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "G.L Black",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "G.L. Black",
+            "raw_role": "Vice Provost for Student Affairs and Dean of Students",
+            "clean_name": "G.L Black",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Doug Christiansen",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Doug Christiansen",
+            "raw_role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "clean_name": "Doug Christiansen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "C André Christie-Mizell",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. André Christie-Mizell",
+            "raw_role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "clean_name": "C André Christie-Mizell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Everette Fortner",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Everette Fortner",
+            "raw_role": "Vice Provost for Career Advancement and Engagement",
+            "clean_name": "Everette Fortner",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tracey George",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tracey George",
+            "raw_role": "Deputy Provost",
+            "clean_name": "Tracey George",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kurt Shepherd",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kurt Shepherd",
+            "raw_role": "Assistant Vice Chancellor of Finance",
+            "clean_name": "Kurt Shepherd",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Megan Sargent",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Megan Sargent",
+            "raw_role": "Associate Vice Chancellor and Chief of Staff",
+            "clean_name": "Megan Sargent",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tiffiny Tung",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tiffiny Tung",
+            "raw_role": "Vice Provost for Undergraduate Education",
+            "clean_name": "Tiffiny Tung",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Duane Watson",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Duane Watson",
+            "raw_role": "Vice Provost for Faculty Affairs",
+            "clean_name": "Duane Watson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "C Cybele Raver",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. Cybele Raver",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "C Cybele Raver",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "G.L Black",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "G.L. Black",
+            "raw_role": "Vice Provost for Student Affairs and Dean of Students",
+            "clean_name": "G.L Black",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Doug Christiansen",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Doug Christiansen",
+            "raw_role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "clean_name": "Doug Christiansen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "C André Christie-Mizell",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "C. André Christie-Mizell",
+            "raw_role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "clean_name": "C André Christie-Mizell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Everette Fortner",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Everette Fortner",
+            "raw_role": "Vice Provost for Career Advancement and Engagement",
+            "clean_name": "Everette Fortner",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Tracey George",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tracey George",
+            "raw_role": "Deputy Provost",
+            "clean_name": "Tracey George",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Kurt Shepherd",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kurt Shepherd",
+            "raw_role": "Assistant Vice Chancellor of Finance",
+            "clean_name": "Kurt Shepherd",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Megan Sargent",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Megan Sargent",
+            "raw_role": "Associate Vice Chancellor and Chief of Staff",
+            "clean_name": "Megan Sargent",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Tiffiny Tung",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tiffiny Tung",
+            "raw_role": "Vice Provost for Undergraduate Education",
+            "clean_name": "Tiffiny Tung",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Duane Watson",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Duane Watson",
+            "raw_role": "Vice Provost for Faculty Affairs",
+            "clean_name": "Duane Watson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 10,
+        "clean_candidate_count": 10,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 9,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "C Cybele Raver",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "C. Cybele Raver",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "C Cybele Raver",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Doug Christiansen",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Doug Christiansen",
+            "raw_role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+            "clean_name": "Doug Christiansen",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "C André Christie-Mizell",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "C. André Christie-Mizell",
+            "raw_role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+            "clean_name": "C André Christie-Mizell",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Everette Fortner",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Everette Fortner",
+            "raw_role": "Vice Provost for Career Advancement and Engagement",
+            "clean_name": "Everette Fortner",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Tracey George",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tracey George",
+            "raw_role": "Deputy Provost",
+            "clean_name": "Tracey George",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Kurt Shepherd",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kurt Shepherd",
+            "raw_role": "Assistant Vice Chancellor of Finance",
+            "clean_name": "Kurt Shepherd",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Megan Sargent",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Megan Sargent",
+            "raw_role": "Associate Vice Chancellor and Chief of Staff",
+            "clean_name": "Megan Sargent",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Tiffiny Tung",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tiffiny Tung",
+            "raw_role": "Vice Provost for Undergraduate Education",
+            "clean_name": "Tiffiny Tung",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          },
+          {
+            "name": "Duane Watson",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.vanderbilt.edu/provost/areas/",
+            "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Duane Watson",
+            "raw_role": "Vice Provost for Faculty Affairs",
+            "clean_name": "Duane Watson",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "9b73a36a2f7a9857a71cbb26b18522a611fc96fa"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Long-Term Disability",
+        "role": "",
+        "country": "US",
+        "page_url": "https://hr.vanderbilt.edu/benefits/faculty/",
+        "page_context": "Fully-benefits eligible employees are able to enroll in long-term disability which provides income replacement of up to 60% of your annual base pay (with limits) if you are unable to work for up to six months or longer. After a one-year waiting period, fully benefits-eligible employees will be automatically enrolled",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "mailto_only"
+        ],
+        "raw_name": "Long-Term Disability",
+        "raw_role": "",
+        "clean_name": "Long-Term Disability",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "C Cybele Raver",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "C. Cybele Raver",
+        "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+        "clean_name": "C Cybele Raver",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Doug Christiansen",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Doug Christiansen",
+        "raw_role": "Vice Provost for University Enrollment Affairs & Dean of Admissions and Financial Aid",
+        "clean_name": "Doug Christiansen",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "C André Christie-Mizell",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "C. André Christie-Mizell",
+        "raw_role": "Vice Provost for Graduate Education and Dean of the Graduate School",
+        "clean_name": "C André Christie-Mizell",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Everette Fortner",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Everette Fortner",
+        "raw_role": "Vice Provost for Career Advancement and Engagement",
+        "clean_name": "Everette Fortner",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Tracey George",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tracey George",
+        "raw_role": "Deputy Provost",
+        "clean_name": "Tracey George",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Kurt Shepherd",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kurt Shepherd",
+        "raw_role": "Assistant Vice Chancellor of Finance",
+        "clean_name": "Kurt Shepherd",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Megan Sargent",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Megan Sargent",
+        "raw_role": "Associate Vice Chancellor and Chief of Staff",
+        "clean_name": "Megan Sargent",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Tiffiny Tung",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tiffiny Tung",
+        "raw_role": "Vice Provost for Undergraduate Education",
+        "clean_name": "Tiffiny Tung",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Duane Watson",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.vanderbilt.edu/provost/areas/",
+        "page_context": "People and Areas of Responsibility | Office of the Provost | Vanderbilt University > Vanderbilt University Vanderbilt University Menu Office of the Provost Biography About People and Areas Resources Faculty Gateway Dean of Students Schools/Colleges Close Menu Vanderbilt University Office of the Provost All Vanderbilt Biography About People and Areas Resources New Hire On-Boarding Kit Policies and Procedures Finance FAQs Global Engagement Office of Data and Strategic Analytics The Hub",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Duane Watson",
+        "raw_role": "Vice Provost for Faculty Affairs",
+        "clean_name": "Duane Watson",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,1240 @@
+{
+  "method": "ai_slug",
+  "university": "University of Verona",
+  "homepage_url": "https://www.univr.it",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 240,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 13,
+    "contacts_kept": 0,
+    "time_seconds": 31.615545988082886,
+    "tokens_in": 7518,
+    "tokens_out": 3800,
+    "cost_dollars": 0.013630799999999998,
+    "best_url": "",
+    "source_breakdown": {
+      "mailto_explicit": 0,
+      "visible_regex": 2,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 11
+    }
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 198,
+      "generated_slug_only": 240,
+      "real_link_only": 139,
+      "hybrid": 299
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 53,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 9,
+      "subdomains": 18
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://www.univr.it/en/contacts",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "contact",
+        "heuristic_score": 13.4,
+        "anchor_text": "Contacts and people",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.univr.it/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "contact",
+        "heuristic_score": 8.8,
+        "anchor_text": "Vai alla pagina di ricerca delle persone",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://www.univr.it/it/contatti",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "contact",
+        "heuristic_score": 9.6,
+        "anchor_text": "Cerca persone",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://www.univr.it/en/international",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.9,
+        "anchor_text": "International International activities",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://www.univr.it/en/gia-password-management",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "governance",
+        "heuristic_score": 3.55,
+        "anchor_text": "GIA password management",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://www.univr.it/it/organizzazione",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "governance",
+        "heuristic_score": 5.75,
+        "anchor_text": "Organizzazione",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://www.univr.it/en/research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.55,
+        "anchor_text": "Research Projects, results and research opportunities",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://www.univr.it/search",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Cerca nel sito web",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://www.univr.it/en/research-centres",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Research Centres",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://www.univr.it/ricerca-avanzata",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Advanced search",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://www.univr.it/it/i-nostri-servizi/identita-alias-per-il-personale-docente-e-ta-in-fase-di-transizione-di-genere",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.85,
+        "anchor_text": "Info for employees",
+        "parent_url": "https://www.univr.it/en/our-services",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://www.univr.it/it/international",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 12.3,
+        "anchor_text": "International Attività internazionali, studenti stranieri e Cooperazione",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://www.univr.it/en/c/portal/update_language?p_l_id=41179&redirect=%2Fen%2Finternational&languageId=it_IT",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 4.1,
+        "anchor_text": "IT",
+        "parent_url": "https://www.univr.it/en/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://www.univr.it/en/our-services/opportunities-abroad-for-students-and-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "office",
+        "heuristic_score": 10.7,
+        "anchor_text": "",
+        "parent_url": "https://www.univr.it/en/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://www.univr.it/it/amministrazione-trasparente1",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "governance",
+        "heuristic_score": 7.95,
+        "anchor_text": "Amministrazione trasparente",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://www.univr.it/en/our-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "office",
+        "heuristic_score": 2.3,
+        "anchor_text": "Services Profile-Specific Navigation",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://www.univr.it/it/i-nostri-servizi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 2.3,
+        "anchor_text": "Servizi Navigazione distinta per profili",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://www.dima.univr.it/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Management",
+        "parent_url": "https://www.univr.it/en/research",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://www.univr.it/en/third-mission",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.55,
+        "anchor_text": "Third mission Companies, community and public engagement",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://www.univr.it/it/terza-missione",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 3.55,
+        "anchor_text": "Terza missione Aziende, territorio, public engagement",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://www.univr.it/en/degree-programmes",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Degree Programmes Bachelor’s and Master’s degrees",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://www.univr.it/en/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "HOME",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://www.univr.it/en/phds",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "PhDs Doctoral programmes",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://www.univr.it/en/postgraduate-study",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Postgraduate Professional Master's Programmes and other courses",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://www.univr.it/it/corsi-di-studio",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Corsi di studio Lauree, lauree magistrali e a ciclo unico",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://www.univr.it/it/dottorati",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Dottorati Corsi di dottorato",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://www.univr.it/it/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "HOME",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://www.univr.it/it/post-laurea",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Post Lauream Master, Scuole di specializzazione e altri corsi",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://www.univr.it/it/ricerca",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Ricerca Progetti e prodotti della ricerca, competenze e spin off",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://www.univr.it/en/c/portal/update_language?p_l_id=41344&redirect=%2Fen%2Fcontacts&languageId=it_IT",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "contact",
+        "heuristic_score": 3.4,
+        "anchor_text": "IT",
+        "parent_url": "https://www.univr.it/en/contacts",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://www.univr.it/en/c/portal/update_language?p_l_id=41344&redirect=%2Fen%2Fweb%2Fguest%2Fcontacts&languageId=it_IT",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "contact",
+        "heuristic_score": 3.4,
+        "anchor_text": "IT",
+        "parent_url": "https://www.univr.it/contatti",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://www.univr.it/en/c/portal/update_language?p_l_id=41262&redirect=%2Fen%2Four-services&languageId=it_IT",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "office",
+        "heuristic_score": 2.3,
+        "anchor_text": "IT",
+        "parent_url": "https://www.univr.it/en/our-services",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://www.univr.it/it/c/portal/update_language?languageId=en_US&redirect=%2Fen%2Fweb%2Fguest%2Four-services%2F-%2Fservizi%2Fgia-gestione-identita-di-ateneo%2Frecover-user-id-and-reset-or-change-password&p_l_id=41272",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "office",
+        "heuristic_score": 2.3,
+        "anchor_text": "EN",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://www.univr.it/en/c/portal/update_language?p_l_id=41450&redirect=%2Fen%2Fresearch&languageId=it_IT",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "IT",
+        "parent_url": "https://www.univr.it/en/research",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://www.univr.it/en/departments-schools",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Departments and Schools",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://www.univr.it/en/libraries",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Libraries",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://www.univr.it/en/organisation",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Organisation",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://www.univr.it/en/phd-schools",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "PhD Schools",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://www.univr.it/en/university",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "University",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://www.univr.it/it/ateneo",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Ateneo",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://www.univr.it/it/biblioteche",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Biblioteche",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://www.univr.it/it/centri-di-ateneo",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Centri di Ateneo",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://www.univr.it/it/dipartimenti-e-facolta",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Dipartimenti e Facoltà",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://www.univr.it/it/e-mail?utm-source=hp&top-dx",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Webmail",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://www.univr.it/it/myunivr?utm-source=hp&top-dx",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "My Univr",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://www.univr.it/it/scuola-dottorato",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "generic",
+        "heuristic_score": 1.35,
+        "anchor_text": "Scuola di dottorato",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://www.univr.it/en/univeronanews",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "office",
+        "heuristic_score": 6.7,
+        "anchor_text": "Ufficio stampa",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://www.univr.it/en/urp-e-riferimenti-per-il-pubblico",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "office",
+        "heuristic_score": 6.7,
+        "anchor_text": "URP - Ufficio Relazioni con il pubblico",
+        "parent_url": "https://www.univr.it/en/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://www.univr.it/it/univeronanews",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "office",
+        "heuristic_score": 6.7,
+        "anchor_text": "Ufficio stampa",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://www.univr.it/it/urp-e-riferimenti-per-il-pubblico",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "office",
+        "heuristic_score": 6.7,
+        "anchor_text": "URP - Ufficio Relazioni con il pubblico",
+        "parent_url": "https://www.univr.it/en/gia-password-management",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.univr.it/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.univr.it/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.univr.it/it/personale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.univr.it/it/rubrica",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.univr.it/docenti",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.univr.it/personale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.univr.it/rubrica",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.univr.it/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://erasmus.univr.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://erasmus.univr.it/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "",
+      "best_url_kept": 0,
+      "source_breakdown": {
+        "mailto_explicit": 0,
+        "visible_regex": 2,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 11
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {
+        "457e85ca3dc3687d7da433ef362919dd976a3ded": {
+          "urls": [
+            "https://www.univr.it/en/international"
+          ],
+          "shell_contexts": [
+            "real_link_multihop|homepage_nav|https://www.univr.it/en/"
+          ],
+          "count": 1
+        }
+      },
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://www.univr.it/en/contacts",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 3,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 130156,
+        "visible_text_length": 2065,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "689d8e2b8c22c2f4ef93cfbfaed1c60d1ceb47fc",
+        "content_signatures": [
+          "689d8e2b8c22c2f4ef93cfbfaed1c60d1ceb47fc"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.univr.it/en/",
+        "mailto_count": 1,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "contact",
+        "candidate_heuristic_score": 13.4,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.univr.it/contatti",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 131526,
+        "visible_text_length": 2233,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "0a762d5133e20ec73aafa5a0da10a3df9a1ee5d9",
+        "content_signatures": [
+          "0a762d5133e20ec73aafa5a0da10a3df9a1ee5d9"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.univr.it/en/",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "contact",
+        "candidate_heuristic_score": 8.8,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.univr.it/it/contatti",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 130253,
+        "visible_text_length": 2156,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "2dda62e24ef06876104123547e4d02621d29ef53",
+        "content_signatures": [
+          "2dda62e24ef06876104123547e4d02621d29ef53"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_footer|https://www.univr.it/en/gia-password-management",
+        "mailto_count": 1,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_footer",
+        "candidate_page_family": "contact",
+        "candidate_heuristic_score": 9.6,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.univr.it/en/international",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 190653,
+        "visible_text_length": 5753,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": true,
+        "content_signature": "457e85ca3dc3687d7da433ef362919dd976a3ded",
+        "content_signatures": [
+          "457e85ca3dc3687d7da433ef362919dd976a3ded"
+        ],
+        "zero_evidence_shell": true,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.univr.it/en/",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 7.9,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Studi di Verona",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.univr.it/en/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Università degli Studi di Verona",
+            "raw_role": "",
+            "clean_name": "Studi di Verona",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.univr.it/en/gia-password-management",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 2,
+        "missing_email_candidates": 0,
+        "page_length": 159982,
+        "visible_text_length": 9566,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "5a730904225f17228aa0a10403a70fecd7fc43d7",
+        "content_signatures": [
+          "5a730904225f17228aa0a10403a70fecd7fc43d7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.univr.it/en/",
+        "mailto_count": 1,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "governance",
+        "candidate_heuristic_score": 3.55,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "Nome Cognome",
+            "email": "nome.cognome@studenti.univr.it",
+            "role": "",
+            "page_url": "https://www.univr.it/en/gia-password-management",
+            "score": -2,
+            "reason": "low score"
+          },
+          {
+            "name": "Nome Cognome",
+            "email": "nome.cognome@univr.it",
+            "role": "",
+            "page_url": "https://www.univr.it/en/gia-password-management",
+            "score": 0,
+            "reason": "low score"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.univr.it/it/organizzazione",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 144144,
+        "visible_text_length": 3089,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "c59ae52cd9a0cff9aa9d03d7c4244c6b8ccabf7b",
+        "content_signatures": [
+          "c59ae52cd9a0cff9aa9d03d7c4244c6b8ccabf7b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_header|https://www.univr.it/en/gia-password-management",
+        "mailto_count": 1,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_header",
+        "candidate_page_family": "governance",
+        "candidate_heuristic_score": 5.75,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,3279 @@
+{
+  "method": "ai_crawler",
+  "university": "Oregon State University",
+  "homepage_url": "https://oregonstate.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 8,
+    "candidates_probed": 7,
+    "contacts_extracted": 14,
+    "contacts_kept": 0,
+    "time_seconds": 31.517712354660034,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 8,
+      "pages_fetched": 8,
+      "successful_fetches": 7,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://oregonstate.edu/faculty",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Faculty and Staff Resources",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/slcs/researching-support-community-well-being",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Anitra Higgins Building healthy communities Higgins is studying the impacts of culturally specific healthcare, and how it can benefit people with autoimmune dis",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://directory.oregonstate.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Directory",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://directory.oregonstate.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Directory",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/osuresearch",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/search",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Open Search Page",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://search.oregonstate.edu",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Search",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/directory",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "CLA Faculty and Staff Directory",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 16.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/directory/cla-emeritus-directory",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Emeritus Directory",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://health.oregonstate.edu/faculty-staff-fitness ",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Staff Fitness",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/cla-faculty-and-staff-resources",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty & Staff Resources",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://extension.oregonstate.edu/people/jeff-sherman-duncan",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr. Jeff Sherman-Duncan",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://extension.oregonstate.edu/people/kristopher-elliott",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr. Kristopher Elliott,",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://extension.oregonstate.edu/people/marina-denny",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr. Marina Denny",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ecampus.oregonstate.edu/faculty/manual/textbook.htm ",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Textbook Requisitions",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.oregonstate.edu/faculty-union-bargaining ",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Union",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Partnerships",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "OSU Leadership Collective",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "http://leadership.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "https://oregonstate.edu/about",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "I-Yun Lee Making sports accessible for all Sports bring people together, but can also create inequities. Lee is working to remove the barriers many athletes fac",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Extension and Engagement",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/carnegie",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Carnegie Community Engagement Classification",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/cas",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Log In",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/conference",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "OSU Engagement Conference",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/engagement-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Engagement Resources",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/engagement/osu-engagement-council",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "OSU Engagement Council",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/initiatives",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Programs",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/osu-public-engagement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Engagement",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/programs/osu-engagement-awards-excellence",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "OSU Engagement Awards of Excellence",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://ecampus.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Online Students",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://hr.oregonstate.edu/employment-opportunities-osu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Jobs",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://accessosu.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "ACCESS OSU",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Diversity",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://extension.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Extension",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Human Resources",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "College of Liberal Arts",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/slcs",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "School of Language, Culture, and Society",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://my.oregonstate.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "MyOregonState",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://opencampus.oregonstate.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Open Campus",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://opencampus.oregonstate.edu/juntos",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Juntos",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://opencampus.oregonstate.edu/nbts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "New Beginnings for Tribal Students",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academics",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/current",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Current Students",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/future",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Future Students",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/land-acknowledgment",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Land Acknowledgment",
+        "parent_url": "https://oregonstate.edu/about",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oregonstate.edu/podcasts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Podcasts",
+        "parent_url": "https://oregonstate.edu/about",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://prax.oregonstate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Arts",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://publicsafety.oregonstate.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Campus Safety",
+        "parent_url": "https://oregonstate.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.oregonstate.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.oregonstate.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.oregonstate.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://engagement.oregonstate.edu/partnership-programs-initiatives"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Emily Henry"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Gina Galaviz-Yap"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jeff Sherman-Duncan"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Emily Henry"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Gina Galaviz-Yap"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jeff Sherman-Duncan"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Emily Henry"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Gina Galaviz-Yap"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Jeff Sherman-Duncan"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Emily Henry"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Gina Galaviz-Yap"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Jeff Sherman-Duncan"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://directory.oregonstate.edu"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://engagement.oregonstate.edu/osu_leadership_collective"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Amanda Bielenberg-Hayes"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Amanda Bielenberg-Hayes"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Amanda Bielenberg-Hayes"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Amanda Bielenberg-Hayes"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://leadership.oregonstate.edu/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://directory.oregonstate.edu/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://oregonstate.edu/faculty"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Data Systems"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Data Systems"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Data Systems"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Data Systems"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://health.oregonstate.edu/faculty-staff-fitness "
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://liberalarts.oregonstate.edu/directory"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Susan Bernardin"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Susan Bernardin"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Susan Bernardin"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Susan Bernardin"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that likely contain relevant outreach contacts related to international relations and partnerships.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+          "page_type": "nav",
+          "expected_yield": 7.7
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Emily Henry"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Gina Galaviz-Yap"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jeff Sherman-Duncan"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Emily Henry"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Gina Galaviz-Yap"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jeff Sherman-Duncan"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Emily Henry"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Gina Galaviz-Yap"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Jeff Sherman-Duncan"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Emily Henry"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Gina Galaviz-Yap"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Jeff Sherman-Duncan"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "http://directory.oregonstate.edu",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+          "page_type": "nav",
+          "expected_yield": 7.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Amanda Bielenberg-Hayes"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Amanda Bielenberg-Hayes"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Amanda Bielenberg-Hayes"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Amanda Bielenberg-Hayes"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "http://leadership.oregonstate.edu/",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "http://directory.oregonstate.edu/",
+          "page_type": "footer",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://oregonstate.edu/faculty",
+          "page_type": "footer",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Data Systems"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Data Systems"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Data Systems"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Data Systems"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://health.oregonstate.edu/faculty-staff-fitness ",
+          "page_type": "body",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://liberalarts.oregonstate.edu/directory",
+          "page_type": "body",
+          "expected_yield": 16.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Susan Bernardin"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Susan Bernardin"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Susan Bernardin"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Susan Bernardin"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that likely contain relevant outreach contacts related to international relations and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Selected based on heuristic scores and relevance to target roles.",
+        "ranked_pages": [
+          {
+            "url": "http://directory.oregonstate.edu",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 7.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 7.15,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://leadership.oregonstate.edu/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.15,
+            "page_type": "nav"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "http://directory.oregonstate.edu/",
+          "https://oregonstate.edu/faculty",
+          "https://liberalarts.oregonstate.edu/directory",
+          "https://liberalarts.oregonstate.edu/directory/cla-emeritus-directory",
+          "https://health.oregonstate.edu/faculty-staff-fitness ",
+          "https://liberalarts.oregonstate.edu/cla-faculty-and-staff-resources"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://engagement.oregonstate.edu/",
+        "page_family": "international",
+        "expected_yield": 7.7,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 2203,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2203,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Gina Galaviz-Yap",
+            "role": "director",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gina Galaviz-Yap",
+            "raw_role": "director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emily Henry",
+            "role": "director",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emily Henry",
+            "raw_role": "director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Sherman-Duncan",
+            "role": "associate vice provost for partnerships",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Sherman-Duncan",
+            "raw_role": "associate vice provost for partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Gina Galaviz-Yap",
+            "role": "director",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gina Galaviz-Yap",
+            "raw_role": "director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emily Henry",
+            "role": "director",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emily Henry",
+            "raw_role": "director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Sherman-Duncan",
+            "role": "associate vice provost for partnerships",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Sherman-Duncan",
+            "raw_role": "associate vice provost for partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Gina Galaviz-Yap",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gina Galaviz-Yap",
+            "raw_role": "director",
+            "clean_name": "Gina Galaviz-Yap",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emily Henry",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emily Henry",
+            "raw_role": "director",
+            "clean_name": "Emily Henry",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Sherman-Duncan",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Sherman-Duncan",
+            "raw_role": "associate vice provost for partnerships",
+            "clean_name": "Jeff Sherman-Duncan",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Gina Galaviz-Yap",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gina Galaviz-Yap",
+            "raw_role": "director",
+            "clean_name": "Gina Galaviz-Yap",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Emily Henry",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emily Henry",
+            "raw_role": "director",
+            "clean_name": "Emily Henry",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Jeff Sherman-Duncan",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Sherman-Duncan",
+            "raw_role": "associate vice provost for partnerships",
+            "clean_name": "Jeff Sherman-Duncan",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 3,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Gina Galaviz-Yap",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "page_context": "Partnership Programs and Initiatives | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Gina Galaviz-Yap",
+            "raw_role": "director",
+            "clean_name": "Gina Galaviz-Yap",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.7
+          },
+          {
+            "name": "Emily Henry",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "page_context": "Partnership Programs and Initiatives | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Emily Henry",
+            "raw_role": "director",
+            "clean_name": "Emily Henry",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.7
+          },
+          {
+            "name": "Jeff Sherman-Duncan",
+            "role": "international partnerships",
+            "country": "US",
+            "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+            "page_context": "Partnership Programs and Initiatives | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jeff Sherman-Duncan",
+            "raw_role": "associate vice provost for partnerships",
+            "clean_name": "Jeff Sherman-Duncan",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.7
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "99e61bf038048ab44f43f8df97e87c3d2e529087"
+      },
+      {
+        "url": "http://directory.oregonstate.edu",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://oregonstate.edu/faculty",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 23,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 23,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d09e164f4fb7ab312d55edd4b7f885b98dbdb1df"
+      },
+      {
+        "url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://engagement.oregonstate.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://engagement.oregonstate.edu/",
+        "page_family": "governance",
+        "expected_yield": 7.15,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 5979,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 5979,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Amanda Bielenberg-Hayes",
+            "role": "Program Contact",
+            "email": "bielenberg@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Amanda Bielenberg-Hayes",
+            "raw_role": "Program Contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Symons",
+            "role": "Program Contact",
+            "email": "rebecca.symons@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Rebecca Symons",
+            "raw_role": "Program Contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Amanda Bielenberg-Hayes",
+            "role": "Program Contact",
+            "email": "bielenberg@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Amanda Bielenberg-Hayes",
+            "raw_role": "Program Contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Symons",
+            "role": "Program Contact",
+            "email": "rebecca.symons@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Rebecca Symons",
+            "raw_role": "Program Contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Amanda Bielenberg-Hayes",
+            "role": "Program Contact",
+            "email": "bielenberg@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Amanda Bielenberg-Hayes",
+            "raw_role": "Program Contact",
+            "clean_name": "Amanda Bielenberg-Hayes",
+            "email_normalized": "bielenberg@oregonstate.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rebecca Symons",
+            "role": "Program Contact",
+            "email": "rebecca.symons@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Rebecca Symons",
+            "raw_role": "Program Contact",
+            "clean_name": "Rebecca Symons",
+            "email_normalized": "rebecca.symons@oregonstate.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Program Contact",
+            "email": "bielenberg@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "named_contact",
+            "raw_name": "Amanda Bielenberg-Hayes",
+            "raw_role": "Program Contact",
+            "clean_name": "",
+            "email_normalized": "bielenberg@oregonstate.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Amanda Bielenberg-Hayes",
+            "role": "Program Contact",
+            "email": "",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Amanda Bielenberg-Hayes",
+            "raw_role": "Program Contact",
+            "clean_name": "Amanda Bielenberg-Hayes",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Rebecca Symons",
+            "role": "Program Contact",
+            "email": "rebecca.symons@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Rebecca Symons",
+            "raw_role": "Program Contact",
+            "clean_name": "Rebecca Symons",
+            "email_normalized": "rebecca.symons@oregonstate.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "Rebecca Symons",
+            "role": "Program Contact",
+            "email": "rebecca.symons@oregonstate.edu",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "score": 3,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Rebecca Symons",
+            "raw_role": "Program Contact",
+            "clean_name": "Rebecca Symons",
+            "email_normalized": "rebecca.symons@oregonstate.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Amanda Bielenberg-Hayes",
+            "role": "Program Contact",
+            "country": "US",
+            "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+            "page_context": "OSU Leadership Collective | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective OSU",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "Amanda Bielenberg-Hayes",
+            "raw_role": "Program Contact",
+            "clean_name": "Amanda Bielenberg-Hayes",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "0f6a02a569a72989b4df9f0bf6789b522b1c6d47"
+      },
+      {
+        "url": "http://leadership.oregonstate.edu/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://oregonstate.edu/about",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://oregonstate.edu/about",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 2202,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2067,
+        "embedded_text_length": 139,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Provost",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Partnerships Office",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Provost",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Partnerships Office",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "http://leadership.oregonstate.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "f6b9342adf41e2d72158142ef1950aa3c21bb3e3"
+      },
+      {
+        "url": "http://directory.oregonstate.edu/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://oregonstate.edu",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://oregonstate.edu",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 23,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 23,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d09e164f4fb7ab312d55edd4b7f885b98dbdb1df",
+        "duplicate_of": "http://directory.oregonstate.edu"
+      },
+      {
+        "url": "https://oregonstate.edu/faculty",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://oregonstate.edu",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://oregonstate.edu",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 5057,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4953,
+        "embedded_text_length": 112,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Data Systems",
+            "role": "",
+            "email": "stewarba@oregonstate.edu",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Data Systems",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the Registrar",
+            "email": "",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Registrar",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Data Systems",
+            "role": "",
+            "email": "stewarba@oregonstate.edu",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Data Systems",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the Registrar",
+            "email": "",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Registrar",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Data Systems",
+            "role": "",
+            "email": "stewarba@oregonstate.edu",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Data Systems",
+            "raw_role": "",
+            "clean_name": "Data Systems",
+            "email_normalized": "stewarba@oregonstate.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the Registrar",
+            "email": "",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Registrar",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "stewarba@oregonstate.edu",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "mailto",
+            "raw_name": "Data Systems",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "stewarba@oregonstate.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Data Systems",
+            "role": "",
+            "email": "",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Data Systems",
+            "raw_role": "",
+            "clean_name": "Data Systems",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Office of the Registrar",
+            "email": "",
+            "page_url": "https://oregonstate.edu/faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Registrar",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Data Systems",
+            "role": "",
+            "country": "US",
+            "page_url": "https://oregonstate.edu/faculty",
+            "page_context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "raw_name": "Data Systems",
+            "raw_role": "",
+            "clean_name": "Data Systems",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 10.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "9c63becb17e44220edb8e95fab2d3fe2c6d4a891"
+      },
+      {
+        "url": "https://health.oregonstate.edu/faculty-staff-fitness ",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://oregonstate.edu/faculty",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://oregonstate.edu/faculty",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://liberalarts.oregonstate.edu/directory",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://liberalarts.oregonstate.edu/slcs/dei-world-sports",
+        "page_family": "directory",
+        "expected_yield": 16.45,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 5592,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5220,
+        "embedded_text_length": 376,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Susan Bernardin",
+            "role": "Director, School of Language, Culture, and Society",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Susan Bernardin",
+            "raw_role": "Director, School of Language, Culture, and Society",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Dean's Office",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Dean's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Susan Bernardin",
+            "role": "Director, School of Language, Culture, and Society",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Susan Bernardin",
+            "raw_role": "Director, School of Language, Culture, and Society",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Dean's Office",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Dean's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Susan Bernardin",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Susan Bernardin",
+            "raw_role": "Director, School of Language, Culture, and Society",
+            "clean_name": "Susan Bernardin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Dean's Office",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Dean's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Susan Bernardin",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Susan Bernardin",
+            "raw_role": "Director, School of Language, Culture, and Society",
+            "clean_name": "Susan Bernardin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Dean's Office",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Dean's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Susan Bernardin",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://liberalarts.oregonstate.edu/directory",
+            "page_context": "CLA Faculty and Staff Directory | College of Liberal Arts | Oregon State University Skip to main content College of Liberal Arts Search Search Open Search Page About Dean's Office CLA Faculty and Staff Directory Emeritus Directory Faculty & Staff Resources PRAx Research Support Marketing & Communications Events Featured Stories CLA News CLA Awards Future Students Undergraduate Students Transfer Students Graduate Students Current Students Academic Advising Career Services Internships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Susan Bernardin",
+            "raw_role": "Director, School of Language, Culture, and Society",
+            "clean_name": "Susan Bernardin",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 16.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "6665a4603a6c48a4fc878d97bf5d4c1a9634d427"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Gina Galaviz-Yap",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+        "page_context": "Partnership Programs and Initiatives | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Gina Galaviz-Yap",
+        "raw_role": "director",
+        "clean_name": "Gina Galaviz-Yap",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.7
+      },
+      {
+        "name": "Emily Henry",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+        "page_context": "Partnership Programs and Initiatives | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Emily Henry",
+        "raw_role": "director",
+        "clean_name": "Emily Henry",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.7
+      },
+      {
+        "name": "Jeff Sherman-Duncan",
+        "role": "international partnerships",
+        "country": "US",
+        "page_url": "https://engagement.oregonstate.edu/partnership-programs-initiatives",
+        "page_context": "Partnership Programs and Initiatives | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jeff Sherman-Duncan",
+        "raw_role": "associate vice provost for partnerships",
+        "clean_name": "Jeff Sherman-Duncan",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.7
+      },
+      {
+        "name": "Amanda Bielenberg-Hayes",
+        "role": "Program Contact",
+        "country": "US",
+        "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+        "page_context": "OSU Leadership Collective | Extension and Engagement Skip to main content Extension and Engagement Keywords Search Main navigation About Extension Engagement About OSU Engagement Engagement Resources OSU Engagement Conference OSU Engagement Awards of Excellence OSU Engagement Council Carnegie Community Engagement Classification Professional and Continuing Education (PACE) ACCESS OSU Partnerships Juntos New Beginnings for Tribal Students Open Campus Programs OSU Leadership Collective OSU",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "Amanda Bielenberg-Hayes",
+        "raw_role": "Program Contact",
+        "clean_name": "Amanda Bielenberg-Hayes",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.15
+      },
+      {
+        "name": "Data Systems",
+        "role": "",
+        "country": "US",
+        "page_url": "https://oregonstate.edu/faculty",
+        "page_context": "Administrative Data Systems\nRequest access to Banner, Appworx, or other databases",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "raw_name": "Data Systems",
+        "raw_role": "",
+        "clean_name": "Data Systems",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 10.45
+      },
+      {
+        "name": "Susan Bernardin",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://liberalarts.oregonstate.edu/directory",
+        "page_context": "CLA Faculty and Staff Directory | College of Liberal Arts | Oregon State University Skip to main content College of Liberal Arts Search Search Open Search Page About Dean's Office CLA Faculty and Staff Directory Emeritus Directory Faculty & Staff Resources PRAx Research Support Marketing & Communications Events Featured Stories CLA News CLA Awards Future Students Undergraduate Students Transfer Students Graduate Students Current Students Academic Advising Career Services Internships",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Susan Bernardin",
+        "raw_role": "Director, School of Language, Culture, and Society",
+        "clean_name": "Susan Bernardin",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 16.45
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "Rebecca Symons",
+        "role": "Program Contact",
+        "email": "rebecca.symons@oregonstate.edu",
+        "page_url": "https://engagement.oregonstate.edu/osu_leadership_collective",
+        "score": 3,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [],
+        "evidence_type": "named_contact",
+        "raw_name": "Rebecca Symons",
+        "raw_role": "Program Contact",
+        "clean_name": "Rebecca Symons",
+        "email_normalized": "rebecca.symons@oregonstate.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,3215 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Colorado Denver",
+  "homepage_url": "https://ucdenver.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 5,
+    "candidates_probed": 5,
+    "contacts_extracted": 15,
+    "contacts_kept": 0,
+    "time_seconds": 32.660560607910156,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 5,
+      "pages_fetched": 5,
+      "successful_fetches": 5,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-researchers",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "For Researchers",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Faculty/Staff",
+        "parent_url": "https://ucdenver.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:body"
+      },
+      {
+        "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current Faculty & Staff Resources",
+        "parent_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Faculty/Staff",
+        "parent_url": "https://ucdenver.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current Faculty & Staff Resources",
+        "parent_url": "https://www.ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Campus Directory",
+        "parent_url": "https://ucdenver.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/human-resources/current-faculty-and-staff/current-faculty-staff-resources",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Faculty & Staff Resources",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 16.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/about/cu-anschutz-map",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Campus Map",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/campus-updates",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "News for Faculty and Staff",
+        "parent_url": "https://ucdenver.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ucdenver.edu/AZIndex",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Department A-Z Directory",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ucdenver.edu/campus-updates",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "News for Faculty and Staff",
+        "parent_url": "https://www.ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/community/aplacetoconnect",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "A Place To",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/mental-health-resources",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Mental Health Resources",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Alea Benson-Littlejohn",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": true,
+        "selection_reason": "Contains contact information for a staff member in international admissions, relevant for international partnerships and global engagement."
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/carly-cutspec",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Carly Cutspec",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": true,
+        "selection_reason": "Contains contact information for a staff member in international admissions, relevant for international relations and engagement."
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/clancy-erickson",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Clancy Erickson",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/erin-kelly",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Erin Kelly",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/haeryoung--fiona--ryu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Haeryoung \"Fiona\" Ryu",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/mary-margaret-moore",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Mary Margaret Moore",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/meghan-cole",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Meghan Cole",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/accessibility",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Accessibility",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/university-accreditation",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Accreditation",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "For Faculty",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "For Staff",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Get Help",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/billing-and-rates",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Billing and Rates",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/campus-email-lists",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Campus Email Lists",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/password-reset-process",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Password Reset Process and Account Management",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/tech-troubleshooting",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Technology Tips",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/technology-training",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Technology Training",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/it-security",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT Security",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/remote-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Remote Resources",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/remote-resources/remote-work-overview",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Remote Work Overview",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/remote-resources/tools-and-software",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Remote Tools and Software",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/remote-resources/working-remotely",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Remote, Hybrid, and On-Campus Working",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Tools & Services",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/all-tools-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "All Tools & Services",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-it-professionals",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "For IT Professionals",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-students",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "For Students",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/tools-and-services-comparison-guides",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Tools and Services Comparison Guides",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/billing-and-rates/disconnecting-billable-oit-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Disconnecting Billable OIT Services",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/tech-troubleshooting/different-types-of-user-accounts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Different Types of User Accounts",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/tech-troubleshooting/public-o365-group-or-team",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Public Microsoft 365 Group or Team",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/tech-troubleshooting/standard-computer-specifications",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Standard Computers and Procurement Process",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/tech-troubleshooting/wireless-and-connectivity",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Wireless and Connectivity",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/get-help/technology-training/academic-technology-trainings",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academic Trainings & Events",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/remote-resources/working-remotely/cu-anschutz-shared-computer-security-guidelines",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Shared Computer Security Guidelines",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/tools-and-services-comparison-guides/tools-comparison-guide--ai-tools",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Tools Comparison Guide: AI Tools",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/news-initiatives",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "News & Initiatives",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/news-initiatives/article",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Article Summaries",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.ucdenver.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.ucdenver.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.ucdenver.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://ucdenver.edu/offices/human-resources/current-faculty-staff"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Alea Benson-Littlejohn"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Carly Cutspec"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Clancy Erickson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Erin Kelley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Haeryoung Fiona Ryu"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mary Margaret Moore"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Meghan Cole"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Alea Benson-Littlejohn"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Carly Cutspec"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Clancy Erickson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Erin Kelley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Haeryoung Fiona Ryu"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mary Margaret Moore"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Meghan Cole"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Alea Benson-Littlejohn"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Carly Cutspec"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Clancy Erickson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Erin Kelley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Haeryoung Fiona Ryu"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mary Margaret Moore"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Meghan Cole"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Alea Benson-Littlejohn"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Carly Cutspec"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Clancy Erickson"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Erin Kelley"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Haeryoung Fiona Ryu"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Mary Margaret Moore"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Meghan Cole"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages with direct staff contacts related to international partnerships and engagement.",
+        "details": {
+          "count": 6,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+          "page_type": "nav",
+          "expected_yield": 12.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:body",
+        "details": {
+          "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+          "page_type": "body",
+          "expected_yield": 12.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+          "page_type": "nav",
+          "expected_yield": 13.7
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+          "page_type": "nav",
+          "expected_yield": 13.7
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "Contains contact information for a staff member in international admissions, relevant for international partnerships and global engagement.",
+        "details": {
+          "url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+          "page_type": "staff contact",
+          "expected_yield": 1.0
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Alea Benson-Littlejohn"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Carly Cutspec"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Clancy Erickson"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Erin Kelley"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Haeryoung Fiona Ryu"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mary Margaret Moore"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Meghan Cole"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Alea Benson-Littlejohn"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Carly Cutspec"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Clancy Erickson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Erin Kelley"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Haeryoung Fiona Ryu"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mary Margaret Moore"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Meghan Cole"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Alea Benson-Littlejohn"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Carly Cutspec"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Clancy Erickson"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Erin Kelley"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Haeryoung Fiona Ryu"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mary Margaret Moore"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Meghan Cole"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Alea Benson-Littlejohn"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Carly Cutspec"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Clancy Erickson"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Erin Kelley"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Haeryoung Fiona Ryu"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Mary Margaret Moore"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Meghan Cole"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages with direct staff contacts related to international partnerships and engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Ranked pages selected based on contact relevancy.",
+        "ranked_pages": [
+          {
+            "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "reason": "deterministic_top_heuristic:body",
+            "expected_yield": 12.65,
+            "page_type": "body"
+          },
+          {
+            "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 12.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "reason": "Contains contact information for a staff member in international admissions, relevant for international partnerships and global engagement.",
+            "expected_yield": 1.0,
+            "page_type": "staff contact"
+          },
+          {
+            "url": "https://ucdenver.edu/international-admissions/contact-us/staff/carly-cutspec",
+            "reason": "Contains contact information for a staff member in international admissions, relevant for international relations and engagement.",
+            "expected_yield": 1.0,
+            "page_type": "staff contact"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "page_family": "directory",
+        "expected_yield": 12.65,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3943,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3959,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Current Faculty and Staff Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Current Faculty and Staff Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Current Faculty and Staff Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Current Faculty and Staff Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Current Faculty and Staff Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Current Faculty and Staff Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Current Faculty and Staff Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff/current-faculty-and-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Current Faculty and Staff Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "83ec3d8e333b0e048b924b896c9632ae766e428e"
+      },
+      {
+        "url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+        "reason": "deterministic_top_heuristic:body",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "parent_url": "https://ucdenver.edu",
+        "shell_context_key": "real_link_multihop|homepage_body|https://ucdenver.edu",
+        "page_family": "directory",
+        "expected_yield": 12.65,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 4759,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 4775,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Ombuds Office",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Ombuds Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Faculty Affairs",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "University Communications",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Communications",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Ombuds Office",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Ombuds Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Faculty Affairs",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "University Communications",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Communications",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Ombuds Office",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Ombuds Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Faculty Affairs",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "University Communications",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Communications",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Ombuds Office",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Ombuds Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Office of Faculty Affairs",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "University Communications",
+            "email": "",
+            "page_url": "https://ucdenver.edu/offices/human-resources/current-faculty-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Communications",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "1535fcb43a08d57525c033286d0906c00f2975e4"
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "expected_yield": 13.7,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 6987,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 7003,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e0f540c63a45882c2c81b361472484aa1a185948"
+      },
+      {
+        "url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.ucdenver.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.ucdenver.edu/",
+        "page_family": "office",
+        "expected_yield": 13.7,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 6987,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 7003,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Office of Information Technology",
+            "email": "",
+            "page_url": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Information Technology",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e0f540c63a45882c2c81b361472484aa1a185948",
+        "duplicate_of": "https://directory.ucdenver.edu/offices/office-of-information-technology/tools-services/for-faculty"
+      },
+      {
+        "url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "reason": "Contains contact information for a staff member in international admissions, relevant for international partnerships and global engagement.",
+        "page_type": "staff contact",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://ucdenver.edu/admissions/international-admissions",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ucdenver.edu/admissions/international-admissions",
+        "page_family": "contact",
+        "expected_yield": 1.0,
+        "family_signature": null,
+        "raw_contacts_found": 7,
+        "text_length": 3743,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3759,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Alea Benson-Littlejohn",
+            "role": "International Admissions",
+            "email": "[email protected]",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Alea Benson-Littlejohn",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Margaret Moore",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Margaret Moore",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carly Cutspec",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carly Cutspec",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Haeryoung \"Fiona\" Ryu",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Haeryoung \"Fiona\" Ryu",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Clancy Erickson",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Clancy Erickson",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Meghan Cole",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Meghan Cole",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Erin Kelley",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Erin Kelley",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Alea Benson-Littlejohn",
+            "role": "International Admissions",
+            "email": "[email protected]",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Alea Benson-Littlejohn",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Margaret Moore",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Margaret Moore",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carly Cutspec",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carly Cutspec",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Haeryoung \"Fiona\" Ryu",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Haeryoung \"Fiona\" Ryu",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Clancy Erickson",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Clancy Erickson",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Meghan Cole",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Meghan Cole",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Erin Kelley",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Erin Kelley",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Alea Benson-Littlejohn",
+            "role": "international admissions",
+            "email": "[email protected]",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Alea Benson-Littlejohn",
+            "raw_role": "International Admissions",
+            "clean_name": "Alea Benson-Littlejohn",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "invalid_email_shape",
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Margaret Moore",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Margaret Moore",
+            "raw_role": "International Admissions",
+            "clean_name": "Mary Margaret Moore",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carly Cutspec",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carly Cutspec",
+            "raw_role": "International Admissions",
+            "clean_name": "Carly Cutspec",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Haeryoung Fiona Ryu",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Haeryoung \"Fiona\" Ryu",
+            "raw_role": "International Admissions",
+            "clean_name": "Haeryoung Fiona Ryu",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Clancy Erickson",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Clancy Erickson",
+            "raw_role": "International Admissions",
+            "clean_name": "Clancy Erickson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Meghan Cole",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Meghan Cole",
+            "raw_role": "International Admissions",
+            "clean_name": "Meghan Cole",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Erin Kelley",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Erin Kelley",
+            "raw_role": "International Admissions",
+            "clean_name": "Erin Kelley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Alea Benson-Littlejohn",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Alea Benson-Littlejohn",
+            "raw_role": "International Admissions",
+            "clean_name": "Alea Benson-Littlejohn",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "invalid_email_shape",
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Mary Margaret Moore",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mary Margaret Moore",
+            "raw_role": "International Admissions",
+            "clean_name": "Mary Margaret Moore",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Carly Cutspec",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carly Cutspec",
+            "raw_role": "International Admissions",
+            "clean_name": "Carly Cutspec",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Haeryoung Fiona Ryu",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Haeryoung \"Fiona\" Ryu",
+            "raw_role": "International Admissions",
+            "clean_name": "Haeryoung Fiona Ryu",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Clancy Erickson",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Clancy Erickson",
+            "raw_role": "International Admissions",
+            "clean_name": "Clancy Erickson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Meghan Cole",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Meghan Cole",
+            "raw_role": "International Admissions",
+            "clean_name": "Meghan Cole",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Erin Kelley",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Erin Kelley",
+            "raw_role": "International Admissions",
+            "clean_name": "Erin Kelley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 7
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 7,
+        "clean_candidate_count": 7,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 7,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Alea Benson-Littlejohn",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "invalid_email_shape",
+              "llm_named_without_email"
+            ],
+            "raw_name": "Alea Benson-Littlejohn",
+            "raw_role": "International Admissions",
+            "clean_name": "Alea Benson-Littlejohn",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          },
+          {
+            "name": "Mary Margaret Moore",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mary Margaret Moore",
+            "raw_role": "International Admissions",
+            "clean_name": "Mary Margaret Moore",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          },
+          {
+            "name": "Carly Cutspec",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Carly Cutspec",
+            "raw_role": "International Admissions",
+            "clean_name": "Carly Cutspec",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          },
+          {
+            "name": "Haeryoung Fiona Ryu",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Haeryoung \"Fiona\" Ryu",
+            "raw_role": "International Admissions",
+            "clean_name": "Haeryoung Fiona Ryu",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          },
+          {
+            "name": "Clancy Erickson",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Clancy Erickson",
+            "raw_role": "International Admissions",
+            "clean_name": "Clancy Erickson",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          },
+          {
+            "name": "Meghan Cole",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Meghan Cole",
+            "raw_role": "International Admissions",
+            "clean_name": "Meghan Cole",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          },
+          {
+            "name": "Erin Kelley",
+            "role": "international admissions",
+            "country": "US",
+            "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+            "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Erin Kelley",
+            "raw_role": "International Admissions",
+            "clean_name": "Erin Kelley",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 1.0
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "8d8befb54a20df82de0bc855f74a000ee8bd7899"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Alea Benson-Littlejohn",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "invalid_email_shape",
+          "llm_named_without_email"
+        ],
+        "raw_name": "Alea Benson-Littlejohn",
+        "raw_role": "International Admissions",
+        "clean_name": "Alea Benson-Littlejohn",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      },
+      {
+        "name": "Mary Margaret Moore",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mary Margaret Moore",
+        "raw_role": "International Admissions",
+        "clean_name": "Mary Margaret Moore",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      },
+      {
+        "name": "Carly Cutspec",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Carly Cutspec",
+        "raw_role": "International Admissions",
+        "clean_name": "Carly Cutspec",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      },
+      {
+        "name": "Haeryoung Fiona Ryu",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Haeryoung \"Fiona\" Ryu",
+        "raw_role": "International Admissions",
+        "clean_name": "Haeryoung Fiona Ryu",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      },
+      {
+        "name": "Clancy Erickson",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Clancy Erickson",
+        "raw_role": "International Admissions",
+        "clean_name": "Clancy Erickson",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      },
+      {
+        "name": "Meghan Cole",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Meghan Cole",
+        "raw_role": "International Admissions",
+        "clean_name": "Meghan Cole",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      },
+      {
+        "name": "Erin Kelley",
+        "role": "international admissions",
+        "country": "US",
+        "page_url": "https://ucdenver.edu/international-admissions/contact-us/staff/alea-benson-littlejohn",
+        "page_context": "Alea Benson-Littlejohn | International Admissions | University of Colorado Denver | Anschutz Medical Campus Skip to content Request Information Apply Now Application Status Quick Links Search CU Denver All University Sites Submit Tools & Resources Campus Directory A-Z Index Human Resources University Policies Auraria Library Strauss Health Sciences Library Schools & Colleges CU Denver College of Architecture and Planning College of Arts & Media Business School School of Education & Human",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Erin Kelley",
+        "raw_role": "International Admissions",
+        "clean_name": "Erin Kelley",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 1.0
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

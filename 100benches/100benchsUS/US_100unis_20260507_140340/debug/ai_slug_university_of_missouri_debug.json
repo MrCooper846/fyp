@@ -1,0 +1,2360 @@
+{
+  "method": "ai_slug",
+  "university": "University of Missouri",
+  "homepage_url": "http://missouri.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 196,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 124,
+    "contacts_kept": 3,
+    "time_seconds": 85.2231593132019,
+    "tokens_in": 56450,
+    "tokens_out": 21800,
+    "cost_dollars": 0.08618999999999999,
+    "best_url": "https://gradschool.missouri.edu/about/staff-directory",
+    "source_breakdown": {
+      "mailto_explicit": 41,
+      "visible_regex": 11,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 101
+    }
+  },
+  "contacts": [
+    {
+      "name": "Raquel Arouca",
+      "email": "aroucar@missouri.edu",
+      "role": "recruitment",
+      "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+      "score": 10,
+      "reason": "ok"
+    },
+    {
+      "name": "Eliana Jeanetta",
+      "email": "jeanettae@missouri.edu",
+      "role": "admissions",
+      "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+      "score": 11,
+      "reason": "ok"
+    },
+    {
+      "name": "Karen Gruen",
+      "email": "gruenk@missouri.edu",
+      "role": "If you qualify for an insurance subsidy and have questions, contact coordinator",
+      "page_url": "https://gradschool.missouri.edu/admissions/admitted-students/",
+      "score": 5,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 181,
+      "generated_slug_only": 196,
+      "real_link_only": 126,
+      "hybrid": 255
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 50,
+      "cms": 0,
+      "structured_endpoints": 4,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "http://missouri.edu/directory",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Directory",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://gradschool.missouri.edu/about/staff-directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 13.85,
+        "anchor_text": "Staff Directory",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "http://missouri.edu/faculty-and-staff",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty and Staff",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://gradschool.missouri.edu/faculty-staff/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty & Staff Resources",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "http://missouri.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "http://missouri.edu/directory/change",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Find out how to change/remove it",
+        "parent_url": "http://missouri.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://facultycouncil.missouri.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Information about Faculty Council",
+        "parent_url": "http://missouri.edu/faculty-and-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://staffcouncil.missouri.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Information about Staff Advisory Council",
+        "parent_url": "http://missouri.edu/faculty-and-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://financialaid.missouri.edu/cost-of-attendance/net-price-calculator/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Get a personalized cost estimate arrow_forward_20dp icon",
+        "parent_url": "http://missouri.edu/admissions",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://admissions.missouri.edu/academics/study-abroad/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.7,
+        "anchor_text": "Study Abroad",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://admissions.missouri.edu/contact/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "contact",
+        "heuristic_score": 6.4,
+        "anchor_text": "Contact",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://admissions.missouri.edu/contact/reps/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 6.4,
+        "anchor_text": "Find Your Rep",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://admissions.missouri.edu/contact/request-information/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 6.4,
+        "anchor_text": "Request Information",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://mupolice.missouri.edu/about/units/about-units-emergency-management/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 3.95,
+        "anchor_text": "Emergency Management",
+        "parent_url": "http://missouri.edu/faculty-and-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://admissions.missouri.edu/apply/international/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 7.1,
+        "anchor_text": "International Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "http://missouri.edu/admissions/cost-and-aid",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Cost and Aid",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://admissions.missouri.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Undergraduate Admissions",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://admissions.missouri.edu/academics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Academics Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://admissions.missouri.edu/academics/hands-on-learning/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Hands-On Learning",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://admissions.missouri.edu/academics/honors-college/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Honors College",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://admissions.missouri.edu/apply/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Apply to Mizzou arrow_forward_20dp icon",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://admissions.missouri.edu/apply/admitted-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admitted Students",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://admissions.missouri.edu/apply/after-you-apply/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "After You Apply",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://admissions.missouri.edu/apply/apply-now/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Apply Now",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://admissions.missouri.edu/apply/dates-deadlines/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Dates & Deadlines",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://admissions.missouri.edu/apply/freshmen/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Freshman Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://admissions.missouri.edu/apply/freshmen/test-optional/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Test Optional Admission",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://admissions.missouri.edu/apply/military/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "U.S. Military & Veteran Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://admissions.missouri.edu/apply/other-applicants/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Other Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://admissions.missouri.edu/apply/transfer/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Transfer Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://admissions.missouri.edu/costs-aid/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Costs & Aid Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://admissions.missouri.edu/costs-aid/costs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Costs",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://admissions.missouri.edu/costs-aid/financial-aid/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Financial Aid",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://admissions.missouri.edu/costs-aid/scholarships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Scholarships",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://admissions.missouri.edu/families/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Parents & Families",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://admissions.missouri.edu/visit/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Visit Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://admissions.missouri.edu/visit/directions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Directions",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://admissions.missouri.edu/visit/online-tour/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Online Tour",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://gradschool.missouri.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Graduate Admissions",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://gradschool.missouri.edu/admissions/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Graduate students arrow_forward_20dp icon",
+        "parent_url": "http://missouri.edu/admissions",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://gradschool.missouri.edu/admissions/admitted-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admitted Students",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://gradschool.missouri.edu/admissions/apply/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "How to Apply",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://gradschool.missouri.edu/admissions/prepare-for-graduate-school/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "How to Prepare for Graduate School",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://admissions.missouri.edu/student-life/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 2.7,
+        "anchor_text": "Student Life Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://admissions.missouri.edu/student-life/campus-activities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 2.7,
+        "anchor_text": "Campus Activities",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://admissions.missouri.edu/student-life/campus-activities/transfer-student-involvement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 2.7,
+        "anchor_text": "Transfer Student Involvement",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://admissions.missouri.edu/student-life/columbia/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 2.7,
+        "anchor_text": "About Columbia",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://admissions.missouri.edu/student-life/housing-dining/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 2.7,
+        "anchor_text": "Housing & Dining",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://admissions.missouri.edu/student-life/student-stories/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 2.7,
+        "anchor_text": "Student Stories",
+        "parent_url": "https://admissions.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://gradschool.missouri.edu/academics/interdisciplinary-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "Interdisciplinary Opportunities",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "http://missouri.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "http://missouri.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "http://missouri.edu/en/directory/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "http://missouri.edu/en/directory/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "http://missouri.edu/en/directory/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "http://missouri.edu/en/directory/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "http://missouri.edu/en/faculty-and-staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "http://missouri.edu/directory/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "http://missouri.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "http://global.missouri.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "http://global.missouri.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://gradschool.missouri.edu/about/staff-directory",
+      "best_url_kept": 3,
+      "source_breakdown": {
+        "mailto_explicit": 41,
+        "visible_regex": 11,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 101
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "http://missouri.edu/directory",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 15,
+        "kept_contacts": 0,
+        "rejected_contacts": 2,
+        "missing_email_candidates": 2,
+        "page_length": 642019,
+        "visible_text_length": 34441,
+        "embedded_text_length": 2290,
+        "embedded_document_count": 8,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "4c85fb076027c967114b3948dc67231911ec704a",
+        "content_signatures": [
+          "4c85fb076027c967114b3948dc67231911ec704a",
+          "e0256e8d6103a90195b2f20db4c11545418dd0c3",
+          "b8a99b2acb46c50233f9f057e6a376b6a6def121",
+          "b0bba5fff3aa6dae624acd86f98fa745eff7429c",
+          "950192fcdc350cb6b0ddff57adc3c65b2995e8d9",
+          "e420f9f64113b8a6a677e9a233eb16a0e877a0f7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_header|http://missouri.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_header",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 12.05,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 14
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "mudosdeanofstudents@missouri.edu",
+            "role": "",
+            "page_url": "https://families.missouri.edu",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "websupport@health.missouri.edu",
+            "role": "",
+            "page_url": "https://www.muhealth.org/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Aris Holman",
+            "role": "International Business Admin (Marketing), International Studies",
+            "email": "",
+            "page_url": "http://missouri.edu/about/columbia",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aris Holman",
+            "raw_role": "International Business Admin (Marketing), International Studies",
+            "clean_name": "Aris Holman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mu Health Care Communications",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.muhealth.org/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Mu Health Care Communications",
+            "raw_role": "",
+            "clean_name": "Mu Health Care Communications",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "MU is an\nequal opportunity employer\n.\nCopyright © 2025 —\nThe Curators of the University of Missouri\n. All rights reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://gradschool.missouri.edu/about/staff-directory",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 44,
+        "kept_contacts": 3,
+        "rejected_contacts": 7,
+        "missing_email_candidates": 24,
+        "page_length": 657655,
+        "visible_text_length": 32051,
+        "embedded_text_length": 2079,
+        "embedded_document_count": 12,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "1cd8ce31dc58ace3f43c59a5f3b71b1596901c39",
+        "content_signatures": [
+          "1cd8ce31dc58ace3f43c59a5f3b71b1596901c39",
+          "fbdfc3d9ea88f1fff3fdf5a652dacfff65861110",
+          "25873d94aee12ca673eb952577b0b0facfa9e5b7",
+          "4845ef529c9c365650870bc57239b523ebc00357",
+          "6c19630368574bec4b3ca503b3d7da953f726863",
+          "04c2f9503c4721a91cd774660c60ef52cdc72ed5"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://gradschool.missouri.edu/",
+        "mailto_count": 27,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 13.85,
+        "source_breakdown": {
+          "mailto_explicit": 27,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 26
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Raquel Arouca",
+            "email": "aroucar@missouri.edu",
+            "role": "recruitment",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 10,
+            "reason": "ok"
+          },
+          {
+            "name": "Eliana Jeanetta",
+            "email": "jeanettae@missouri.edu",
+            "role": "admissions",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 11,
+            "reason": "ok"
+          },
+          {
+            "name": "Karen Gruen",
+            "email": "gruenk@missouri.edu",
+            "role": "If you qualify for an insurance subsidy and have questions, contact coordinator",
+            "page_url": "https://gradschool.missouri.edu/admissions/admitted-students/",
+            "score": 5,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "Heather Hoffman",
+            "email": "hoffmanh@umsystem.edu",
+            "role": "Assistant Dean, Professional Development and Leadership",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Spencer Black",
+            "email": "skblack@missouri.edu",
+            "role": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 1,
+            "reason": "low score"
+          },
+          {
+            "name": "Anna Comfort",
+            "email": "comforta@missouri.edu",
+            "role": "Communications Coordinator",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "gradadmin@missouri.edu",
+            "role": "Assistant Dean, Graduate Enrollment Management",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ndnbf@missouri.edu",
+            "role": "admissions",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mcleodh@missouri.edu",
+            "role": "admissions",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "scottstep@missouri.edu",
+            "role": "admissions",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Jeni Hart",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Jeni Hart",
+            "raw_role": "Dean of the Graduate School and Vice Provost for Graduate Studies",
+            "clean_name": "Jeni Hart",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Graduate Curriculum | Graduate School Leadership\nemail\nmugraddean\n@missouri.edu\nphone\n573-884-1402",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Terrence Grus",
+            "role": "Assistant Dean, Graduate Enrollment Management",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Terrence Grus",
+            "raw_role": "Assistant Dean, Graduate Enrollment Management",
+            "clean_name": "Terrence Grus",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Admissions | Graduate School Leadership\nemail\ngradadmin\n@missouri.edu\nphone\n573-882-6311",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Academic Advising Thesis",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Academic Advising Thesis",
+            "raw_role": "",
+            "clean_name": "Academic Advising Thesis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Academic Advising, Thesis and Dissertation Submission\nemail\nadkinsjr\n@missouri.edu\nphone\n573-882-2232",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Academic Advising Thesis",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Academic Advising Thesis",
+            "raw_role": "",
+            "clean_name": "Academic Advising Thesis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Academic Advising, Thesis and Dissertation Submission\nemail\nbottss\n@missouri.edu\nphone\n573-882-3885",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Academic Advising Thesis",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Academic Advising Thesis",
+            "raw_role": "",
+            "clean_name": "Academic Advising Thesis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Academic Advising, Thesis and Dissertation Submission\nemail\ncolemandi\n@missouri.edu\nphone\n573-884-6446",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nick Dorethy",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Nick Dorethy",
+            "raw_role": "Admissions Advisor, C-D & S-Z",
+            "clean_name": "Nick Dorethy",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Admissions\nemail\nndnbf\n@missouri.edu\nphone\n573-884-2312",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Academic Advising Thesis",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Academic Advising Thesis",
+            "raw_role": "",
+            "clean_name": "Academic Advising Thesis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Academic Advising, Thesis and Dissertation Submission\nemail\nbkallenbach\n@missouri.edu\nphone\n573-882-9580",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Graduate Fellowships",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Graduate Fellowships",
+            "raw_role": "",
+            "clean_name": "Graduate Fellowships",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Graduate Fellowships\nemail\nkristine.mallinson\n@missouri.edu\nphone\n(573)882-2816",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Postdoctoral Education",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Postdoctoral Education",
+            "raw_role": "Director of Postdoctoral Education",
+            "clean_name": "Postdoctoral Education",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Postdoctoral Education\nemail\nvsmrf\n@missouri.edu\nphone\n(573)882-9577",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Outcomes Assessment",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Outcomes Assessment",
+            "raw_role": "",
+            "clean_name": "Outcomes Assessment",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Outcomes & Assessment\nemail\ndana.schmidt\n@missouri.edu\nphone\n(573)882-5204",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Academic Advising Thesis",
+            "role": "",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Academic Advising Thesis",
+            "raw_role": "",
+            "clean_name": "Academic Advising Thesis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Academic Advising, Thesis and Dissertation Submission\nemail\nsiebenalera\n@missouri.edu\nphone\n573-884-8006",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Enid Schatz",
+            "role": "Associate Dean of the Graduate School",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/about/staff-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Enid Schatz",
+            "raw_role": "Associate Dean of the Graduate School",
+            "clean_name": "Enid Schatz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Valli Sarveswaran PhD",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Valli Sarveswaran PhD",
+            "raw_role": "rector",
+            "clean_name": "Valli Sarveswaran PhD",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Valli Sarveswaran, PhD\nDirector of Postdoctoral Education\n204 Hill Hall\nv.sarveswaran@missouri.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lissa Behm-Morawitz",
+            "role": "Chair, Communication",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lissa Behm-Morawitz",
+            "raw_role": "Chair, Communication",
+            "clean_name": "Lissa Behm-Morawitz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jordan Booker",
+            "role": "Associate Professor, Psychological Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jordan Booker",
+            "raw_role": "Associate Professor, Psychological Sciences",
+            "clean_name": "Jordan Booker",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Prasad Calyam",
+            "role": "Associate Professor, Department of Electrical Engineering and Computer Science",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Prasad Calyam",
+            "raw_role": "Associate Professor, Department of Electrical Engineering and Computer Science",
+            "clean_name": "Prasad Calyam",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sarah Jacquet",
+            "role": "Assistant Professor, Geological Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah Jacquet",
+            "raw_role": "Assistant Professor, Geological Sciences",
+            "clean_name": "Sarah Jacquet",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Elizabeth King",
+            "role": "Associate Professor, Biological Science",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Elizabeth King",
+            "raw_role": "Associate Professor, Biological Science",
+            "clean_name": "Elizabeth King",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David D Kline",
+            "role": "Professor, Pathobiology & Integrative Biomedical Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David D. Kline",
+            "raw_role": "Professor, Pathobiology & Integrative Biomedical Sciences",
+            "clean_name": "David D Kline",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kaleea Lewis",
+            "role": "Assistant Professor, Public Health",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kaleea Lewis",
+            "raw_role": "Assistant Professor, Public Health",
+            "clean_name": "Kaleea Lewis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Mendoza",
+            "role": "Associate Professor, Division of Plant Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Mendoza",
+            "raw_role": "Associate Professor, Division of Plant Sciences",
+            "clean_name": "David Mendoza",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anand Soorneedi",
+            "role": "president",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anand Soorneedi",
+            "raw_role": "President, MU Postdoctoral Association",
+            "clean_name": "Anand Soorneedi",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Enid Schatz",
+            "role": "Associate Dean, The Graduate School",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Enid Schatz",
+            "raw_role": "Associate Dean, The Graduate School",
+            "clean_name": "Enid Schatz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Karen Gruen",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/admissions/admitted-students/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karen Gruen",
+            "raw_role": "Coordinator of International Students",
+            "clean_name": "Karen Gruen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "http://missouri.edu/faculty-and-staff",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 15,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 2,
+        "page_length": 665198,
+        "visible_text_length": 36317,
+        "embedded_text_length": 2663,
+        "embedded_document_count": 8,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "150cd50556755e8a5ccb24ec4f5628ac285d3955",
+        "content_signatures": [
+          "150cd50556755e8a5ccb24ec4f5628ac285d3955",
+          "e0256e8d6103a90195b2f20db4c11545418dd0c3",
+          "b8a99b2acb46c50233f9f057e6a376b6a6def121",
+          "b0bba5fff3aa6dae624acd86f98fa745eff7429c",
+          "950192fcdc350cb6b0ddff57adc3c65b2995e8d9",
+          "e420f9f64113b8a6a677e9a233eb16a0e877a0f7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_header|http://missouri.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_header",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 14
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Aris Holman",
+            "role": "International Business Admin (Marketing), International Studies",
+            "email": "",
+            "page_url": "http://missouri.edu/about/columbia",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aris Holman",
+            "raw_role": "International Business Admin (Marketing), International Studies",
+            "clean_name": "Aris Holman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mu Health Care Communications",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.muhealth.org/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Mu Health Care Communications",
+            "raw_role": "",
+            "clean_name": "Mu Health Care Communications",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "MU is an\nequal opportunity employer\n.\nCopyright © 2025 —\nThe Curators of the University of Missouri\n. All rights reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://gradschool.missouri.edu/faculty-staff/",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 21,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 13,
+        "page_length": 645376,
+        "visible_text_length": 36889,
+        "embedded_text_length": 3207,
+        "embedded_document_count": 12,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "10e1b6acdd053ca472e0c610215b7d8a292ecf0b",
+        "content_signatures": [
+          "10e1b6acdd053ca472e0c610215b7d8a292ecf0b",
+          "86b44a6a1679be50b2921f1edd9e7bc88303bf13",
+          "fbdfc3d9ea88f1fff3fdf5a652dacfff65861110",
+          "25873d94aee12ca673eb952577b0b0facfa9e5b7",
+          "b9f64a85b2707512b80d867edec9555fa60ab501",
+          "4845ef529c9c365650870bc57239b523ebc00357"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_header|https://gradschool.missouri.edu/",
+        "mailto_count": 5,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_header",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 5,
+          "visible_regex": 4,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 20
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "rheaa@missouri.edu",
+            "role": "admissions",
+            "page_url": "https://gradschool.missouri.edu/faculty-staff/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Dgs Resources SharePoint Site",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/faculty-staff/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Dgs Resources SharePoint Site",
+            "raw_role": "admissions",
+            "clean_name": "Dgs Resources SharePoint Site",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "You will find admissions letter language and an assistantship offer letter template in the FAQs section of our DGS Resources SharePoint site. Email Amy Rhea (\nrheaa@missouri.edu\n) to join the DGS Resources SharePoint Site.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Valli Sarveswaran PhD",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Valli Sarveswaran PhD",
+            "raw_role": "rector",
+            "clean_name": "Valli Sarveswaran PhD",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Valli Sarveswaran, PhD\nDirector of Postdoctoral Education\n204 Hill Hall\nv.sarveswaran@missouri.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lissa Behm-Morawitz",
+            "role": "Chair, Communication",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lissa Behm-Morawitz",
+            "raw_role": "Chair, Communication",
+            "clean_name": "Lissa Behm-Morawitz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jordan Booker",
+            "role": "Associate Professor, Psychological Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jordan Booker",
+            "raw_role": "Associate Professor, Psychological Sciences",
+            "clean_name": "Jordan Booker",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Prasad Calyam",
+            "role": "Associate Professor, Department of Electrical Engineering and Computer Science",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Prasad Calyam",
+            "raw_role": "Associate Professor, Department of Electrical Engineering and Computer Science",
+            "clean_name": "Prasad Calyam",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sarah Jacquet",
+            "role": "Assistant Professor, Geological Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah Jacquet",
+            "raw_role": "Assistant Professor, Geological Sciences",
+            "clean_name": "Sarah Jacquet",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Elizabeth King",
+            "role": "Associate Professor, Biological Science",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Elizabeth King",
+            "raw_role": "Associate Professor, Biological Science",
+            "clean_name": "Elizabeth King",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David D Kline",
+            "role": "Professor, Pathobiology & Integrative Biomedical Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David D. Kline",
+            "raw_role": "Professor, Pathobiology & Integrative Biomedical Sciences",
+            "clean_name": "David D Kline",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kaleea Lewis",
+            "role": "Assistant Professor, Public Health",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kaleea Lewis",
+            "raw_role": "Assistant Professor, Public Health",
+            "clean_name": "Kaleea Lewis",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Mendoza",
+            "role": "Associate Professor, Division of Plant Sciences",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Mendoza",
+            "raw_role": "Associate Professor, Division of Plant Sciences",
+            "clean_name": "David Mendoza",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anand Soorneedi",
+            "role": "president",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anand Soorneedi",
+            "raw_role": "President, MU Postdoctoral Association",
+            "clean_name": "Anand Soorneedi",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Enid Schatz",
+            "role": "Associate Dean, The Graduate School",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/postdoctoral-education/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Enid Schatz",
+            "raw_role": "Associate Dean, The Graduate School",
+            "clean_name": "Enid Schatz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Karen Gruen",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://gradschool.missouri.edu/admissions/admitted-students/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karen Gruen",
+            "raw_role": "Coordinator of International Students",
+            "clean_name": "Karen Gruen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "http://missouri.edu/admissions",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 15,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 2,
+        "page_length": 670996,
+        "visible_text_length": 37594,
+        "embedded_text_length": 2697,
+        "embedded_document_count": 8,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "3202ec18db4cb27e68d3c732f4c4ad7eb3708ae8",
+        "content_signatures": [
+          "3202ec18db4cb27e68d3c732f4c4ad7eb3708ae8",
+          "e0256e8d6103a90195b2f20db4c11545418dd0c3",
+          "b8a99b2acb46c50233f9f057e6a376b6a6def121",
+          "b0bba5fff3aa6dae624acd86f98fa745eff7429c",
+          "950192fcdc350cb6b0ddff57adc3c65b2995e8d9",
+          "e420f9f64113b8a6a677e9a233eb16a0e877a0f7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://missouri.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "admissions",
+        "candidate_heuristic_score": 3.3,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 14
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Aris Holman",
+            "role": "International Business Admin (Marketing), International Studies",
+            "email": "",
+            "page_url": "http://missouri.edu/about/columbia",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aris Holman",
+            "raw_role": "International Business Admin (Marketing), International Studies",
+            "clean_name": "Aris Holman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mu Health Care Communications",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.muhealth.org/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Mu Health Care Communications",
+            "raw_role": "",
+            "clean_name": "Mu Health Care Communications",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "MU is an\nequal opportunity employer\n.\nCopyright © 2025 —\nThe Curators of the University of Missouri\n. All rights reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "http://missouri.edu/directory/change",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 14,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 2,
+        "page_length": 643501,
+        "visible_text_length": 35208,
+        "embedded_text_length": 2663,
+        "embedded_document_count": 8,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "3396f2d5a7af6fd4ade9c335a66c14598e3b7db4",
+        "content_signatures": [
+          "3396f2d5a7af6fd4ade9c335a66c14598e3b7db4",
+          "e0256e8d6103a90195b2f20db4c11545418dd0c3",
+          "b8a99b2acb46c50233f9f057e6a376b6a6def121",
+          "b0bba5fff3aa6dae624acd86f98fa745eff7429c",
+          "950192fcdc350cb6b0ddff57adc3c65b2995e8d9",
+          "e420f9f64113b8a6a677e9a233eb16a0e877a0f7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|http://missouri.edu/directory",
+        "mailto_count": 3,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 3,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 13
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Aris Holman",
+            "role": "International Business Admin (Marketing), International Studies",
+            "email": "",
+            "page_url": "http://missouri.edu/about/columbia",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Aris Holman",
+            "raw_role": "International Business Admin (Marketing), International Studies",
+            "clean_name": "Aris Holman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mu Health Care Communications",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.muhealth.org/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Mu Health Care Communications",
+            "raw_role": "",
+            "clean_name": "Mu Health Care Communications",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "MU is an\nequal opportunity employer\n.\nCopyright © 2025 —\nThe Curators of the University of Missouri\n. All rights reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      }
+    ]
+  }
+}

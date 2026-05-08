@@ -1,0 +1,3302 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Delaware",
+  "homepage_url": "https://www.udel.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 5,
+    "candidates_probed": 4,
+    "contacts_extracted": 19,
+    "contacts_kept": 0,
+    "time_seconds": 38.84835958480835,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "http://www1.udel.edu/peoplesearch/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 5,
+      "pages_fetched": 5,
+      "successful_fetches": 4,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "http://www1.udel.edu/peoplesearch/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "People Directory",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www1.udel.edu/peoplesearch/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "People Directory",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://udapps.nss.udel.edu/directory/search",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "People Directory",
+        "parent_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=dannagal.young",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dannagal Young",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=david.redlawsk",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "David Redlawsk",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=erin.cassese",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Erin Cassese",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=james.butkiewicz",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Jim Butkiewicz",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=jennifer.horney",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Jennifer Horney",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=jeremy.crenshaw",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Jeremy Crenshaw",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=jeremy.firestone",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Jeremy Firestone",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=kent.messer",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Kent Messer",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=sheng.lu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Sheng Lu",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=tom.kaminski",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Thomas Kaminski",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/expert?username=willett.kempton",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Willett Kempton",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Employee Resources",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Experts",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty Affairs",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Human Resources",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/careers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Careers",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/media-experts/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Media Experts",
+        "parent_url": "https://www.udel.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/employee-relations/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Employee and Labor Relations (ELR)",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/careers/student-employment/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Student Employment Office",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://commons.udel.edu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Commons",
+        "parent_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://facultyhandbook.udel.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Handbook",
+        "parent_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.facsen.udel.edu/FS/FS_Welcome.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Senate",
+        "parent_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.udel.edu/faculty-staff/human-resources/employee-relations/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Collective Bargaining Agreement",
+        "parent_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultysenate.udel.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Senate",
+        "parent_url": "https://www.udel.edu/faculty-staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/bahira-trask/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Bahira Trask",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/feng-jiao/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Feng Jiao",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/jaehee-jung/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Jaehee Jung",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/julia-bayuk/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Julia Bayuk",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/leland-ware/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Leland Ware",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/marsha-dickson/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Marsha Dickson",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/tiffany-barber/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Tiffany Barber",
+        "parent_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/achieve/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "UD ACHIEVE Program",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/advance/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "UD ADVANCE Institute",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/awards/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Awards",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/policies/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Policies and Guidelines",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/promotion-and-tenure/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Promotion and Tenure",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/resources/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Resources",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/udari-research-and-scholarship/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "UDARI Research and Scholarship",
+        "parent_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/Benefits",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Resources",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/benefits.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Benefits",
+        "parent_url": "https://www.udel.edu/faculty-staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/current-employees/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Current Employees\n\t\t\t\n\t\t\t\t>",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/current-retirees/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Current Retirees\n\t\t\t\n\t\t\t\t>",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/forms/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Forms",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/learn-and-grow/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn and Grow",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/learn-and-grow/wellbeing.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mental Health Resources",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/human-resources/managers-partners/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Managers/Business Partners\n\t\t\t\n\t\t\t\t>",
+        "parent_url": "https://www.udel.edu/faculty-staff/human-resources/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.udel.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.udel.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.udel.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www1.udel.edu/peoplesearch/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.udel.edu/faculty-staff/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Laura Carlson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Laura Carlson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Laura Carlson"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Laura Carlson"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.udel.edu/faculty-staff/employee-resources/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.udel.edu/faculty-staff/experts/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover David Redlawsk"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Wendy Smith"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Yushan Yan"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover David Redlawsk"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Wendy Smith"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Yushan Yan"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover David Redlawsk"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Wendy Smith"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Yushan Yan"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for David Redlawsk"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Wendy Smith"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Yushan Yan"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.udel.edu/faculty-staff/faculty-affairs/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Faculty Development"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Martha Buell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Skylar Washington"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Faculty Development"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Martha Buell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Skylar Washington"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Faculty Development"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Martha Buell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Skylar Washington"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Faculty Development"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Martha Buell"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that provide access to staff directories and information about faculty involved in global engagement, international relations, and partnerships.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "http://www1.udel.edu/peoplesearch/",
+          "page_type": "nav",
+          "expected_yield": 14.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.udel.edu/faculty-staff/",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Laura Carlson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Laura Carlson"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Laura Carlson"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Laura Carlson"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.udel.edu/faculty-staff/employee-resources/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.udel.edu/faculty-staff/experts/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "David Redlawsk"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Wendy Smith"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Yushan Yan"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "David Redlawsk"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Wendy Smith"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Yushan Yan"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "David Redlawsk"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Wendy Smith"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Yushan Yan"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "David Redlawsk"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Wendy Smith"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Yushan Yan"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Faculty Development"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Martha Buell"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Skylar Washington"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Faculty Development"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Martha Buell"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Skylar Washington"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Faculty Development"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Martha Buell"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Skylar Washington"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Faculty Development"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Martha Buell"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that provide access to staff directories and information about faculty involved in global engagement, international relations, and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "No further pages to include.",
+        "ranked_pages": [
+          {
+            "url": "http://www1.udel.edu/peoplesearch/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 14.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.udel.edu/faculty-staff/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.udel.edu/faculty-staff/experts/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.udel.edu/faculty-staff/faculty-affairs/",
+          "https://www.udel.edu/faculty-staff/human-resources/",
+          "https://www.udel.edu/faculty-staff/human-resources/careers/",
+          "https://www.udel.edu/faculty-staff/media-experts/",
+          "https://www1.udel.edu/peoplesearch/",
+          "https://udapps.nss.udel.edu/directory/search"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "http://www1.udel.edu/peoplesearch/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.udel.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.udel.edu",
+        "page_family": "directory",
+        "expected_yield": 14.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.udel.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.udel.edu",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3730,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3730,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Laura Carlson",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Laura Carlson",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Global Engagement",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Laura Carlson",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Laura Carlson",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Global Engagement",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Laura Carlson",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Laura Carlson",
+            "raw_role": "President",
+            "clean_name": "Laura Carlson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Laura Carlson",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Laura Carlson",
+            "raw_role": "President",
+            "clean_name": "Laura Carlson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Laura Carlson",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/",
+            "page_context": "Faculty & Staff | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Laura Carlson",
+            "raw_role": "President",
+            "clean_name": "Laura Carlson",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 10.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "587aaf7f351824ed51617b56072b32f26a86403c"
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/employee-resources/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.udel.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.udel.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3478,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3478,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Provost's Office",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Provost's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Provost's Office",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Provost's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Provost's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/employee-resources/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Provost's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e12fc857fb207d13fe00900c8f8a18060c9a4051"
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/experts/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.udel.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.udel.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 4503,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4519,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "mediarelations@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "For any other media related questions, please contact:\nmediarelations@udel.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "mediarelations@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com UD Home Faculty & Staff Experts Experts 400+ Academic Experts UD experts excel at in-depth analysis and commentary University of Delaware experts are renowned for their expertise, research and diverse opinions. These valued members of the UD community offer insights into breaking news and developing events and are available for media interviews. Visit our Expert Center for direct access to 100 of top UD faculty experts who can comment on a variety of topics. Visit Our Expert Center > To contact additional expert faculty, use the search bar below. Highly Cited Researchers These influencers have had significant impact on their peers and chosen fields, having published multiple papers ranking in the top 1% by citations over the past decade. They are “1 in 1,000” among researchers, according to Clarivate, the global analytics company that selected the researchers for its list. David Redlawsk Politics Political psychologist who studies voter behavior and emotion. Research focuses on how voters process political information to make their decisions. Has worked behind the scenes on campaigns. More about the expert Wendy Smith Business administration Studies how organizations and their leaders simultaneously explore new possibilities while exploiting existing competencies, and how social enterprises attend to both social missions and financial goals. More about the expert Yushan Yan Renewable energy Develops renewable energy technologies, including more efficient and cost-effective fuel cells to power zero-emissions cars. Has created materials used in coatings for the space station and aircraft. More about the expert More Research Experts > Browse By Trending Issues Experts | University of Delaware Diversity Tiffany Barber Leland Ware Bahira Trask Experts | University of Delaware Energy Jeremy Firestone Willett Kempton Feng Jiao Experts | University of Delaware Economics Jim Butkiewicz Sheng Lu Kent Messer Experts | University of Delaware Healthcare Jennifer Horney Thomas Kaminski Jeremy Crenshaw Experts | University of Delaware Politics Erin Cassese David Redlawsk Dannagal Young Experts | University of Delaware Retail Julia Bayuk Marsha Dickson Jaehee Jung Journalists, interested in interviewing our experts? For any other media related questions, please contact: mediarelations@udel.edu TOP Undergraduate Major Finder Graduate Program Finder Plan Your Visit UD Home EXPLORE About Us Athletics UDaily Virtual Tour Employment ACADEMICS Undergraduate Admissions Graduate Admissions Colleges Library Research SERVICES Accessibility Notice People Directory My UD Campus Safety A to Z Index CONNECT Contact Us University of Delaware Newark, DE 19716 USA ©2026 University of Delaware Comments Legal Notices Accessibility",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Redlawsk",
+            "role": "Politics",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Redlawsk",
+            "raw_role": "Politics",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Wendy Smith",
+            "role": "Business Administration",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Wendy Smith",
+            "raw_role": "Business Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Yushan Yan",
+            "role": "Renewable Energy",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Yushan Yan",
+            "raw_role": "Renewable Energy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Relations",
+            "email": "mediarelations@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "mediarelations@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com UD Home Faculty & Staff Experts Experts 400+ Academic Experts UD experts excel at in-depth analysis and commentary University of Delaware experts are renowned for their expertise, research and diverse opinions. These valued members of the UD community offer insights into breaking news and developing events and are available for media interviews. Visit our Expert Center for direct access to 100 of top UD faculty experts who can comment on a variety of topics. Visit Our Expert Center > To contact additional expert faculty, use the search bar below. Highly Cited Researchers These influencers have had significant impact on their peers and chosen fields, having published multiple papers ranking in the top 1% by citations over the past decade. They are “1 in 1,000” among researchers, according to Clarivate, the global analytics company that selected the researchers for its list. David Redlawsk Politics Political psychologist who studies voter behavior and emotion. Research focuses on how voters process political information to make their decisions. Has worked behind the scenes on campaigns. More about the expert Wendy Smith Business administration Studies how organizations and their leaders simultaneously explore new possibilities while exploiting existing competencies, and how social enterprises attend to both social missions and financial goals. More about the expert Yushan Yan Renewable energy Develops renewable energy technologies, including more efficient and cost-effective fuel cells to power zero-emissions cars. Has created materials used in coatings for the space station and aircraft. More about the expert More Research Experts > Browse By Trending Issues Experts | University of Delaware Diversity Tiffany Barber Leland Ware Bahira Trask Experts | University of Delaware Energy Jeremy Firestone Willett Kempton Feng Jiao Experts | University of Delaware Economics Jim Butkiewicz Sheng Lu Kent Messer Experts | University of Delaware Healthcare Jennifer Horney Thomas Kaminski Jeremy Crenshaw Experts | University of Delaware Politics Erin Cassese David Redlawsk Dannagal Young Experts | University of Delaware Retail Julia Bayuk Marsha Dickson Jaehee Jung Journalists, interested in interviewing our experts? For any other media related questions, please contact: mediarelations@udel.edu TOP Undergraduate Major Finder Graduate Program Finder Plan Your Visit UD Home EXPLORE About Us Athletics UDaily Virtual Tour Employment ACADEMICS Undergraduate Admissions Graduate Admissions Colleges Library Research SERVICES Accessibility Notice People Directory My UD Campus Safety A to Z Index CONNECT Contact Us University of Delaware Newark, DE 19716 USA ©2026 University of Delaware Comments Legal Notices Accessibility",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Redlawsk",
+            "role": "Politics",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Redlawsk",
+            "raw_role": "Politics",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Wendy Smith",
+            "role": "Business Administration",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Wendy Smith",
+            "raw_role": "Business Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Yushan Yan",
+            "role": "Renewable Energy",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Yushan Yan",
+            "raw_role": "Renewable Energy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "mediarelations@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "mediarelations@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Redlawsk",
+            "role": "Politics",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Redlawsk",
+            "raw_role": "Politics",
+            "clean_name": "David Redlawsk",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Wendy Smith",
+            "role": "Business Administration",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Wendy Smith",
+            "raw_role": "Business Administration",
+            "clean_name": "Wendy Smith",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Yushan Yan",
+            "role": "Renewable Energy",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Yushan Yan",
+            "raw_role": "Renewable Energy",
+            "clean_name": "Yushan Yan",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "mediarelations@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "mediarelations@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "David Redlawsk",
+            "role": "Politics",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Redlawsk",
+            "raw_role": "Politics",
+            "clean_name": "David Redlawsk",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Wendy Smith",
+            "role": "Business Administration",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Wendy Smith",
+            "raw_role": "Business Administration",
+            "clean_name": "Wendy Smith",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Yushan Yan",
+            "role": "Renewable Energy",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Yushan Yan",
+            "raw_role": "Renewable Energy",
+            "clean_name": "Yushan Yan",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 3,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "David Redlawsk",
+            "role": "Politics",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "page_context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "David Redlawsk",
+            "raw_role": "Politics",
+            "clean_name": "David Redlawsk",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          },
+          {
+            "name": "Wendy Smith",
+            "role": "Business Administration",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "page_context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Wendy Smith",
+            "raw_role": "Business Administration",
+            "clean_name": "Wendy Smith",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          },
+          {
+            "name": "Yushan Yan",
+            "role": "Renewable Energy",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/experts/",
+            "page_context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Yushan Yan",
+            "raw_role": "Renewable Energy",
+            "clean_name": "Yushan Yan",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "1ffaf61c27596eef0bbfa3939db2fd715cb05029"
+      },
+      {
+        "url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.udel.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.udel.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 9,
+        "text_length": 4218,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4218,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Martha Buell",
+            "role": "provost",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Faculty Development",
+            "role": "provost",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Skylar Washington",
+            "role": "provost",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Faculty Affairs | Office of the Provost | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com UD Home Faculty & Staff Faculty Affairs Faculty Affairs Faculty Affairs UD ACHIEVE Program UD ADVANCE Institute UDARI Research and Scholarship Policies and Guidelines Promotion and Tenure Workshops Resources New Faculty Orientation Faculty Mentoring Awards Alison Award Fulbright Scholars Named Professors Presidential Academic Leadership Program Important: Click on the PLUS (+) icon in the above left navigation to view additional pages on the Faculty Affairs site. Upcoming Events Faculty Affairs Staff Martha Buell VP Faculty Affairs vpfaculty@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 The Vice Provost for Faculty Affairs supports and oversees all phases of faculty life at the University. To promote the highest academic standards and excellence, the Vice Provost advises the Provost on faculty recruitment and promotion and tenure; assists the colleges in recruitment and mentoring; oversees the promotion and tenure process; and serves as the liaison to the Faculty Senate, the UD chapter of the American Association of University Professors, and the University of Delaware Association of Retired Faculty. Dana E. Veron AP Faculty Development dveron@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 The Associate Provost for Faculty Development is responsible for facilitating the ongoing development of programs, processes, resources and policies to improve institutional climate, enhance faculty success and develop leaders as they navigate their careers at UD. The Associate Provost is the Faculty Fulbright campus liaison and coordinates faculty development partners across UD. Skylar Washington Administrative Specialist skywash@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 Skylar Washington, an administrative specialist in the Office of the Provost, supports Faculty Affairs. Faculty Affairs UD ACHIEVE Program UD ADVANCE Institute UDARI Research and Scholarship Policies and Guidelines Promotion and Tenure Resources Awards TOP Undergraduate Major Finder Graduate Program Finder Plan Your Visit UD Home EXPLORE About Us Athletics UDaily Virtual Tour Employment ACADEMICS Undergraduate Admissions Graduate Admissions Colleges Library Research SERVICES Accessibility Notice People Directory My UD Campus Safety A to Z Index CONNECT Contact Us University of Delaware Newark, DE 19716 USA ©2026 University of Delaware Comments Legal Notices Accessibility",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Faculty Affairs | Office of the Provost | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com UD Home Faculty & Staff Faculty Affairs Faculty Affairs Faculty Affairs UD ACHIEVE Program UD ADVANCE Institute UDARI Research and Scholarship Policies and Guidelines Promotion and Tenure Workshops Resources New Faculty Orientation Faculty Mentoring Awards Alison Award Fulbright Scholars Named Professors Presidential Academic Leadership Program Important: Click on the PLUS (+) icon in the above left navigation to view additional pages on the Faculty Affairs site. Upcoming Events Faculty Affairs Staff Martha Buell VP Faculty Affairs vpfaculty@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 The Vice Provost for Faculty Affairs supports and oversees all phases of faculty life at the University. To promote the highest academic standards and excellence, the Vice Provost advises the Provost on faculty recruitment and promotion and tenure; assists the colleges in recruitment and mentoring; oversees the promotion and tenure process; and serves as the liaison to the Faculty Senate, the UD chapter of the American Association of University Professors, and the University of Delaware Association of Retired Faculty. Dana E. Veron AP Faculty Development dveron@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 The Associate Provost for Faculty Development is responsible for facilitating the ongoing development of programs, processes, resources and policies to improve institutional climate, enhance faculty success and develop leaders as they navigate their careers at UD. The Associate Provost is the Faculty Fulbright campus liaison and coordinates faculty development partners across UD. Skylar Washington Administrative Specialist skywash@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 Skylar Washington, an administrative specialist in the Office of the Provost, supports Faculty Affairs. Faculty Affairs UD ACHIEVE Program UD ADVANCE Institute UDARI Research and Scholarship Policies and Guidelines Promotion and Tenure Resources Awards TOP Undergraduate Major Finder Graduate Program Finder Plan Your Visit UD Home EXPLORE About Us Athletics UDaily Virtual Tour Employment ACADEMICS Undergraduate Admissions Graduate Admissions Colleges Library Research SERVICES Accessibility Notice People Directory My UD Campus Safety A to Z Index CONNECT Contact Us University of Delaware Newark, DE 19716 USA ©2026 University of Delaware Comments Legal Notices Accessibility",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Faculty Affairs | Office of the Provost | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate Admissions Professional & Continuing Studies Online Programs Current Students Involvement Housing Wellbeing Support & Advocacy Orientations Career Center News About Student Life Faculty & Staff Human Resources Experts Employee Resources Faculty Affairs Media Experts Alumni & Friends Connect Give Resources About Academics Colleges Library Programs UD Global Registrar Online Research & Innovation Research at UD Horn Entrepreneurship STAR Campus Innovation Gateway Research Experts Athletics BlueHens.com UD Home Faculty & Staff Faculty Affairs Faculty Affairs Faculty Affairs UD ACHIEVE Program UD ADVANCE Institute UDARI Research and Scholarship Policies and Guidelines Promotion and Tenure Workshops Resources New Faculty Orientation Faculty Mentoring Awards Alison Award Fulbright Scholars Named Professors Presidential Academic Leadership Program Important: Click on the PLUS (+) icon in the above left navigation to view additional pages on the Faculty Affairs site. Upcoming Events Faculty Affairs Staff Martha Buell VP Faculty Affairs vpfaculty@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 The Vice Provost for Faculty Affairs supports and oversees all phases of faculty life at the University. To promote the highest academic standards and excellence, the Vice Provost advises the Provost on faculty recruitment and promotion and tenure; assists the colleges in recruitment and mentoring; oversees the promotion and tenure process; and serves as the liaison to the Faculty Senate, the UD chapter of the American Association of University Professors, and the University of Delaware Association of Retired Faculty. Dana E. Veron AP Faculty Development dveron@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 The Associate Provost for Faculty Development is responsible for facilitating the ongoing development of programs, processes, resources and policies to improve institutional climate, enhance faculty success and develop leaders as they navigate their careers at UD. The Associate Provost is the Faculty Fulbright campus liaison and coordinates faculty development partners across UD. Skylar Washington Administrative Specialist skywash@udel.edu Office of the Provost 116 Hullihen Hall Newark, DE 19716 Skylar Washington, an administrative specialist in the Office of the Provost, supports Faculty Affairs. Faculty Affairs UD ACHIEVE Program UD ADVANCE Institute UDARI Research and Scholarship Policies and Guidelines Promotion and Tenure Resources Awards TOP Undergraduate Major Finder Graduate Program Finder Plan Your Visit UD Home EXPLORE About Us Athletics UDaily Virtual Tour Employment ACADEMICS Undergraduate Admissions Graduate Admissions Colleges Library Research SERVICES Accessibility Notice People Directory My UD Campus Safety A to Z Index CONNECT Contact Us University of Delaware Newark, DE 19716 USA ©2026 University of Delaware Comments Legal Notices Accessibility",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Martha Buell",
+            "role": "Vice Provost for Faculty Affairs",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Martha Buell",
+            "raw_role": "Vice Provost for Faculty Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dana E. Veron",
+            "role": "Associate Provost for Faculty Development",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Dana E. Veron",
+            "raw_role": "Associate Provost for Faculty Development",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Skylar Washington",
+            "role": "Administrative Specialist",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Skylar Washington",
+            "raw_role": "Administrative Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Martha Buell",
+            "role": "provost",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Faculty Development",
+            "role": "provost",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Skylar Washington",
+            "role": "provost",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Martha Buell",
+            "role": "provost",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "Martha Buell",
+            "email_normalized": "vpfaculty@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Faculty Development",
+            "role": "provost",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "Faculty Development",
+            "email_normalized": "dveron@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Skylar Washington",
+            "role": "provost",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "Skylar Washington",
+            "email_normalized": "skywash@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "vpfaculty@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Martha Buell",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "Martha Buell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "dveron@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Faculty Development",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "Faculty Development",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "skywash@udel.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Skylar Washington",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "Skylar Washington",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 3,
+          "visible_regex": 3,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 3,
+        "person_without_email_count": 3,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "vpfaculty@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "vpfaculty@udel.edu"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "dveron@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "dveron@udel.edu"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "skywash@udel.edu",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "",
+            "email_normalized": "skywash@udel.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Martha Buell",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "page_context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Martha Buell",
+            "raw_role": "provost",
+            "clean_name": "Martha Buell",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          },
+          {
+            "name": "Faculty Development",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "page_context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Faculty Development",
+            "raw_role": "provost",
+            "clean_name": "Faculty Development",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          },
+          {
+            "name": "Skylar Washington",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+            "page_context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Skylar Washington",
+            "raw_role": "provost",
+            "clean_name": "Skylar Washington",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "51b49ebb67168fc3dc1d4972a6770ebbb0717f55"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Laura Carlson",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/",
+        "page_context": "Faculty & Staff | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Laura Carlson",
+        "raw_role": "President",
+        "clean_name": "Laura Carlson",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 10.45
+      },
+      {
+        "name": "David Redlawsk",
+        "role": "Politics",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "David Redlawsk",
+        "raw_role": "Politics",
+        "clean_name": "David Redlawsk",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Wendy Smith",
+        "role": "Business Administration",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Wendy Smith",
+        "raw_role": "Business Administration",
+        "clean_name": "Wendy Smith",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Yushan Yan",
+        "role": "Renewable Energy",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/experts/",
+        "page_context": "Experts | University of Delaware Skip to site content Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD Close Quick Links MyUD Maps People Directory Email Careers Library A-Z Index News Events Safety at UD About UD Key Leadership Mission Experience UD UD and the State of Delaware History Facts & Figures UD Community Values Campus Culture and Engagement Office of General Counsel Prospective Students Undergraduate Admissions Success After UD Graduate",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Yushan Yan",
+        "raw_role": "Renewable Energy",
+        "clean_name": "Yushan Yan",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Martha Buell",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_context": "Martha Buell\nVP Faculty Affairs\nvpfaculty@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Martha Buell",
+        "raw_role": "provost",
+        "clean_name": "Martha Buell",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Faculty Development",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_context": "Dana E. Veron\nAP Faculty Development\ndveron@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Faculty Development",
+        "raw_role": "provost",
+        "clean_name": "Faculty Development",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Skylar Washington",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "page_context": "Skylar Washington\nAdministrative Specialist\nskywash@udel.edu\nOffice of the Provost\n116 Hullihen Hall\nNewark, DE 19716",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Skylar Washington",
+        "raw_role": "provost",
+        "clean_name": "Skylar Washington",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "provost",
+        "email": "vpfaculty@udel.edu",
+        "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Martha Buell",
+        "raw_role": "provost",
+        "clean_name": "",
+        "email_normalized": "vpfaculty@udel.edu"
+      },
+      {
+        "name": "",
+        "role": "provost",
+        "email": "dveron@udel.edu",
+        "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Faculty Development",
+        "raw_role": "provost",
+        "clean_name": "",
+        "email_normalized": "dveron@udel.edu"
+      },
+      {
+        "name": "",
+        "role": "provost",
+        "email": "skywash@udel.edu",
+        "page_url": "https://www.udel.edu/faculty-staff/faculty-affairs/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Skylar Washington",
+        "raw_role": "provost",
+        "clean_name": "",
+        "email_normalized": "skywash@udel.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,2657 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Wisconsin–Madison",
+  "homepage_url": "http://www.wisc.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 1,
+    "candidates_probed": 1,
+    "contacts_extracted": 9,
+    "contacts_kept": 0,
+    "time_seconds": 21.940818071365356,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://international.wisc.edu/casi/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 1,
+      "pages_fetched": 1,
+      "successful_fetches": 1,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "http://www.wisc.edu/directories/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Directory search",
+        "parent_url": "http://www.wisc.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://kb.wisc.edu/helpdesk/page.php?id=4418",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "help documents related to making directory corrections",
+        "parent_url": "http://www.wisc.edu/directories/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/media-directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Media Directory",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://ifss.wisc.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Faculty and Staff Services",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://international.wisc.edu/people/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "People",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://ifss.wisc.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "International Faculty and Staff Services",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://working.wisc.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Faculty and staff",
+        "parent_url": "http://www.wisc.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/casi/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Committee on Academic Staff Issues",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://iss.wisc.edu/faculty-staff/hiring-international-student/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Hiring International Students More",
+        "parent_url": "https://internationalresources.wisc.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://acstaff.wisc.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Academic staff",
+        "parent_url": "http://www.wisc.edu/governance/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://iris.wisc.edu/connect/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Become Affiliated Area Studies Faculty More",
+        "parent_url": "https://internationalresources.wisc.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ous.wisc.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "University staff",
+        "parent_url": "http://www.wisc.edu/governance/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.secfac.wisc.edu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty",
+        "parent_url": "http://www.wisc.edu/governance/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.wisc.edu/professional-development/linkedin-learning/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "connect their previous LinkedIn account to their personal LinkedIn profile",
+        "parent_url": "https://working.wisc.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/international-agreements/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International  Strategy & Partnerships",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/student-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student Opportunities",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/about-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About the International Division",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Expand Collapse",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://explore.wisc.edu/international-sub-new",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Subscribe",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Home",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/alumni/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/category/peace-corps/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Peace Corps",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/celebrating-the-spring-2025-wisconsin-international-scholar-graduates/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Previous post: Celebrating the Spring 2025 Wisconsin International Scholar Graduates",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/division-units/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Division Units Expand Collapse",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/equity-diversity-collective/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Equity & Diversity Collective",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/international-quick-facts-and-rankings/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Quick Facts and Rankings",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/make-a-gift/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Make a Gift",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/rise-initiative/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "RISE Initiative",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "#1 Most Peace Corps volunteers",
+        "parent_url": "http://www.wisc.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/visits-and-delegations/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Visits and Delegations",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/wellness-committee/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Wellness Committee",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/where-tech-meets-logistics-the-supply-chain-career-of-pojen-suhendra/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Next post: Where Tech Meets Logistics: The Supply Chain Career of Pojen Suhendra",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://internationaltravel.wisc.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Safety and Security",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/events/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Events",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/news-events/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "News",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://iris.wisc.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Institute for Regional & International Studies",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.studyabroad.wisc.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Academic Programs",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/board-of-visitors/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Board of Visitors",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.wisc.edu/governance/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Governance",
+        "parent_url": "http://www.wisc.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://internationalresources.wisc.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "International",
+        "parent_url": "http://www.wisc.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/tag/peace-corps/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Peace Corps",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/tag/rankings/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "rankings",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/category/news/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "News",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://iss.wisc.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://internationalresources.wisc.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://grad.wisc.edu/international-students/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Graduate Admissions More",
+        "parent_url": "https://internationalresources.wisc.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/study-abroad-photo-contest-winners-2025/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Study Abroad Photo Contest Winners 2025",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/office-of-the-dean/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office of the Dean",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.wisc.edu/pay/international-payroll-and-taxes/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Payroll & Taxes More",
+        "parent_url": "https://internationalresources.wisc.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/2024/06/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "June 2024",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.wisc.edu/2024/07/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "July 2024",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.wisc.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.wisc.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.wisc.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://international.wisc.edu/casi/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Amani DeHolton"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Irina Punguil Bravo"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Irina Punguil Bravo"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Judy Humphrey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kacha Fischer"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Ryan Goble"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Ryan Goble"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Uw Madison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Amani DeHolton"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Irina Punguil Bravo"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Irina Punguil Bravo"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Judy Humphrey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kacha Fischer"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Ryan Goble"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Ryan Goble"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Uw Madison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Amani DeHolton"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Irina Punguil Bravo"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Irina Punguil Bravo"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Judy Humphrey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Kacha Fischer"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Ryan Goble"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Ryan Goble"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Uw Madison"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Amani DeHolton"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Irina Punguil Bravo"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Irina Punguil Bravo"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Judy Humphrey"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Kacha Fischer"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Ryan Goble"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Ryan Goble"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Uw Madison"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://www.wisc.edu/",
+          "to": "http://www.wisc.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize staff and office pages that may list contact details for individuals involved in relevant international roles.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://international.wisc.edu/casi/",
+          "page_type": "nav",
+          "expected_yield": 11.5
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Amani DeHolton"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Judy Humphrey"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kacha Fischer"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Uw Madison"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Amani DeHolton"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Judy Humphrey"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kacha Fischer"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Uw Madison"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Amani DeHolton"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Judy Humphrey"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Kacha Fischer"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Uw Madison"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Amani DeHolton"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Irina Punguil Bravo"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Judy Humphrey"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Kacha Fischer"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Ryan Goble"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Uw Madison"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize staff and office pages that may list contact details for individuals involved in relevant international roles.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "End of ranked pages for university international outreach.",
+        "ranked_pages": [
+          {
+            "url": "https://international.wisc.edu/media-directory/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 14.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://international.wisc.edu/people/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://ifss.wisc.edu",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 12.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://international.wisc.edu/casi/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 11.5,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://international.wisc.edu/casi/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://international.wisc.edu/uw-madison-named-no-1-university-for-peace-corps-volunteers-in-2025/",
+        "page_family": "international",
+        "expected_yield": 11.5,
+        "family_signature": null,
+        "raw_contacts_found": 9,
+        "text_length": 14041,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 14042,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Ryan Goble",
+            "role": "",
+            "email": "jay.stokes@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Ryan Goble",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "",
+            "email": "ipunguilbrav@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Uw Madison",
+            "role": "",
+            "email": "sbarcus@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Uw Madison",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "email": "sbarcus@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student Opportunities Alumni Campus Services Expand Collapse International Safety and Security International Agreements Visits and Delegations WiDGE RISE Initiative About Expand Collapse About the International Division People International Quick Facts and Rankings Board of Visitors Committee on Academic Staff Issues News Events Subscribe Media Directory WiDGE Make a Gift Home Committee on Academic Staff Issues Committee on Academic Staff Issues Mission: The International Division Committee on Academic Staff Issues (CASI) shall advise the vice provost and dean and represent the Academic Staff of the division in the development and review of all policies and procedures concerning the division’s academic staff. Vision: The Committee on Academic Staff Issues (CASI) strives to foster a work environment that enables the Academic Staff of the Division to thrive. Questions about CASI can be directed to co-chairs Ryan Goble and Irina Punguil Bravo . NEWS from CASI Since 2018, International Division Staff Excellence Awards have recognized exceptional accomplishments and efforts of International Division staff members in their work in support of the mission of the International Division. This year, three awards were given across three categories—early career, middle career, and later career. Category 1–Early Career The winner of this year’s award was described as the epitome of a team player, the first person to collaborate on a project, and a “wonderful connector between people.” Their “efficient, impactful, and intentional” work helps foster a sense of belonging and reaches beyond the international student population. And as one nominator mentioned, “she makes coming to work more fun.” Congratulations to Kacha Fischer , the International Engagement Coordinator for International Student Services! Category 2—Middle Career This year’s winner is described as “a paragon of reliability and integrity,” “one in a million,” “exceptional and calm in crisis situations,” and one of the “first faces” of the International Division. They “prize inclusivity” and their “presence actively contributes to a collegial working environment.” They mentor aspiring international education professionals and show a willingness to take time to guide and lead others. As one of the nominators put it, they are an “essential participant in shaping the future of UW Study Abroad.” Congratulations to Amani DeHolton , the Intern Abroad Advisor and Program Manager in IAP! Category 3—Later Career This year’s winner is described as the glue that holds IAP together, irreplaceable, genuinely invested, and always ready to come to assistance. They are “unfailingly professional, but at the same time a great communicator,” and their empathy is “unmatched.” They handle everything with “aplomb,” and are always teaching, learning, and finding a way for things to work. They are constantly pushing us to better financially serve students, and they continue to create a lasting impact of access to study abroad programs. Congratulations to Judy Humphrey , the Financial Manager in IAP! Learn more Become a CASI member Dear Colleagues, The International Division’s Committee on Academic Staff Issues (CASI) is seeking new members! ID CASI advises the dean and represents the academic staff of the division in the development and review of all policies and procedures concerning the division’s academic staff. ID CASI is currently made up of ~10 members who meet monthly to discuss new and ongoing projects and concerns related to academic staff at UW–Madison. ID CASI: Advocates for staff on ID academic staff issues Acts as a voice and representative of ID academic staff in campus-level academic staff governance Organizes the application and selection process of annual ID staff excellence awards Takes on projects (current projects include developing recommendations for improving ID’s PMDP and onboarding processes) Keeps ID staff informed of professional development opportunities Issues a monthly newsletter Please reach out to CASI co-chairs Irina Punguil Bravo and Ryan Goble for more information! View CASI meeting minutes, agendas, and reports. Onboarding toolkit Submit an issue or comment to CASI Staff Excellence Awards Learn more about the award categories, eligibility, nominations, and required documents. PREVIOUS WINNERS 2025 Kacha Fischer, Cat. 1 Amani DeHolton, Cat. 2 Judy Humphrey, Cat. 3 2024 Carmen Pitz, Cat. 1 Virginia Martin, Cat. 2 2023 Karen Sage, Cat. 1 Anne Naparstek, Cat. 2 2022 Paige Hendricks, Cat. 1 Mary Jo Wilson, Cat. 2 2021 Bri Raymer, Cat. 1 David Fields, Cat. 1 Felecia Lucht, Cat. 1 Alberto Vargas, Cat. 2 Michelle Kern Hall, Cat. 2 2020 Elise Ahn, Cat. 1 Erin Polnaszek Boyd, Cat. 2 2019 Bola Olaniyan, Cat. 1 Kelly Iacobazzi, Cat. 1 Andy Quackenbush, Cat. 2 2018 Carly Stingl, Cat. 1 Susan Lochner Atkinson, Cat. 2 CASI Bylaws Responsibilites Membership & Selection Terms of Service Meetings & Voting Updates to bylaws Responsibilities of the CASI include but are not limited to: Representing International Division academic staff in the development and review of all Division policies and procedures concerning academic staff Promoting a positive climate and appreciation for diversity among International Division academic staff Advising the vice provost and dean on program decisions likely to affect promotional opportunities or lead to nonrenewal or layoff of International Division academic staff Recommending opportunities for participation of International Division academic staff in governance Recommending opportunities for recognition of International Division academic staff contributions to the excellence of the division and university Recommending mentoring and professional development programs for International Division academic staff Representing the International Division academic staff in communications to the Academic Staff Assembly (ASA) and its Standing Committees, the Academic Staff Executive Committee (ASEC), the Academic Staff Public Representation Organization (ASPRO), other campus committees, and the Secretary of the Academic Staff Serving as a forum for discussion of the concerns of International Division academic staff The CASI shall consist of a minimum of five members, who shall be academic staff holding at least a 50 percent appointment within the International Division. One representative designated by the vice provost and dean shall serve as an ex officio member One university staff representative designated by the vice provost and dean may serve as an ex officio member Members shall be selected through a process that is open and fosters representation of academic staff within all units of the International Division. During the spring semester of each year, the Office of Dean shall: Send a notice to all members of International Division’s academic staff, encouraging those who have an interest in academic staff governance to self-nominate for a CASI position. Actively recruit additional nominees in units/areas that are under-represented among the pool of nominees. Issue formal letters of appointment from the vice provost and dean. Mid-term appointments of new members are allowable on a case by case basis. Requests can be submitted for consideration by CASI and will come to a vote at the next scheduled CASI meeting. Requests should include the name of the individual and the reason for requesting membership mid-term. Approved new members will receive a formal letter of appointment from the Dean. Chairs shall be selected through the following process: The CASI shall annually select one member to serve as chair, whose term shall run concurrent with the fiscal year, July 1-June 30. The chair shall be a member with at least one year of service on the CASI. After the spring election and prior to the start of the new fiscal year, the designee of the vice provost and dean shall invite the CASI members to submit nominations for chair. Individuals may self-nominate or be nominated by others. If nominated by someone else, the member must agree to the nomination in order to become a candidate. If more than one candidate is nominated, the representative of the vice provost and dean shall conduct a poll of the members by email to select the chair. There shall be no limits on the number of terms an individual may serve. Appointments to the CASI shall be for terms of two years. Terms are on a fiscal year basis beginning on July 1 and ending on June 30. There shall be no limits on the number of terms an individual may serve. Terms shall be staggered; half of the first slate of candidates selected under this process shall be appointed to one-year terms. The CASI shall meet at least six times during the course of the year, at least twice each semester, and may meet during the summer. The chair, in consultation with members, shall schedule meeting times and locations, and prepare and distribute agendas in advance, and shall preside over meetings. A quorum is considered to be a simple majority of the voting members; a quorum must be present for a vote to be taken during the course of a meeting. Under extraordinary circumstances, votes may be taken by email outside of a regular meeting; the participation of a simple majority of the committee members is required for such votes to be valid. In advance of each meeting, the chair shall designate a recorder, who shall take notes on the discussion and actions during the meeting. Within a week after the meeting, the recorder shall submit draft notes to the chair. Within a week after receiving the notes, the chair shall create a report on the meeting to be shared with all members of the committee and posted online as a record. The CASI shall seek to meet with the vice provost and dean at least once per semester. The CASI shall seek to meet jointly with the International Division’s Committee on Equity and Diversity Committee at least once per semester to discuss topics of mutual interest. The chair shall serve as the CASI’s liaison to the secretary of the Academic Staff and the Academic Staff Executive Committee. Bylaws adopted February 10, 2015 Bylaw updates Amended July 1, 2015: Updated to reflect change of the International Division’s name Amended May 10, 2016: to change eligibility for chair. Amended April 18, 2017: Changed min members from 6 to 5 Added University Staff ex-officio member Removed clause: Present the complete slate of nominees to the academic staff within the International Division for a period of review and feedback Amended clause: The CASI shall seek to meet jointly with the International Division’s Committee on Classified Staff Issues and Equity and Diversity Committee at least once per semester to discuss topics of mutual interest. Amended February 18, 2021: Update to membership and selection section to address considerations for mid-term appointments. Professional Development UW events International Education Career/Advising Marketing and Communications Operations Grants Diversity Forum Internship Symposium Careers Conference Distance Teaching & Learning Conference Leadership and Management Development Conference Conference for the Office Professionals UW Showcase Nelson Earth Day Conference Asia Pacific Association for International Education (APAIE) Canadian Bureau for International Education (CBIE) European Association for International Education (EAIE) International Education Association of Australia (IEAA) NAFSA National Conference NAFSA Region V Annual Conference Forum on Education Abroad Conference Global Internship Conference (GIC) Global Inclusion Conference NACE National Academic Advising Association (NACADA)-National National Academic Advising Association (NACADA)-Regional CASE V PRSA ICON PRSA Counselors to Higher Education Summit Content Marketing World AMA Symposium for the Marketing of Higher Education SXSW NABUCO Global Operations Forum WAIE (Wisconsin Association for International Education) Professional Development Grant UW-Madison Academic Staff Professional Development Grants CASI Members Irina Punguil Bravo (co-chair), International Faculty and Staff Services Ryan Goble (co-chair), Language Program Office Nikki Davis, ex officio Molly Donnellan, Institute for Regional and International Studies, International Studies Major Kimberly Harn, International Internship Program Mary McCoy, Institute for Regional and International Studies Melody Niwot, Wisconsin International Scholars Program Joanna Poinsatte, International Academic Programs Pasha Prem, Office of the Dean Jay Stokes, King-Morgridge Scholars Program Camryn Vaughn, International Strategy and Partnerships Maria Vishnevsky, International Strategy and Partnerships Mike Watters, International Academic Programs Site footer content University logo that links to main university website Part of the Universities of Wisconsin Division Units Office of the Dean Institute for Regional and International Studies International Academic Programs International Faculty and Staff Services International Safety and Security International Strategy & Partnerships International Student Services Language Program Office Quick Links International Division Internal Resources KnowledgeBase Contact Us 268 BASCOM HALL 500 LINCOLN DR, MADISON WI 53706-1314 Phone: 608.262.2851 facebook x twitter instagram Website feedback, questions or accessibility issues: sbarcus@wisc.edu | Learn more about accessibility at UW–Madison . This site was built using the UW Theme Classic | Privacy Notice | © 2026 Board of Regents of the University of Wisconsin System.",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kacha Fischer",
+            "role": "International Engagement Coordinator for International Student Services",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kacha Fischer",
+            "raw_role": "International Engagement Coordinator for International Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amani DeHolton",
+            "role": "Intern Abroad Advisor and Program Manager",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amani DeHolton",
+            "raw_role": "Intern Abroad Advisor and Program Manager",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Judy Humphrey",
+            "role": "Financial Manager in IAP",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Judy Humphrey",
+            "raw_role": "Financial Manager in IAP",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "Committee co-chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ryan Goble",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ryan Goble",
+            "raw_role": "Committee co-chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Ryan Goble",
+            "role": "",
+            "email": "jay.stokes@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Ryan Goble",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "",
+            "email": "ipunguilbrav@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Uw Madison",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "email": "sbarcus@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Uw Madison",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kacha Fischer",
+            "role": "International Engagement Coordinator for International Student Services",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kacha Fischer",
+            "raw_role": "International Engagement Coordinator for International Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amani DeHolton",
+            "role": "Intern Abroad Advisor and Program Manager",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amani DeHolton",
+            "raw_role": "Intern Abroad Advisor and Program Manager",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Judy Humphrey",
+            "role": "Financial Manager in IAP",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Judy Humphrey",
+            "raw_role": "Financial Manager in IAP",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "Committee co-chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ryan Goble",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ryan Goble",
+            "raw_role": "Committee co-chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Ryan Goble",
+            "role": "",
+            "email": "jay.stokes@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Ryan Goble",
+            "raw_role": "",
+            "clean_name": "Ryan Goble",
+            "email_normalized": "jay.stokes@wisc.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "",
+            "email": "ipunguilbrav@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "",
+            "clean_name": "Irina Punguil Bravo",
+            "email_normalized": "ipunguilbrav@wisc.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Uw Madison",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "email": "sbarcus@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Uw Madison",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "Uw Madison",
+            "email_normalized": "sbarcus@wisc.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kacha Fischer",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kacha Fischer",
+            "raw_role": "International Engagement Coordinator for International Student Services",
+            "clean_name": "Kacha Fischer",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amani DeHolton",
+            "role": "Intern Abroad Advisor and Program Manager",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amani DeHolton",
+            "raw_role": "Intern Abroad Advisor and Program Manager",
+            "clean_name": "Amani DeHolton",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Judy Humphrey",
+            "role": "Financial Manager in IAP",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Judy Humphrey",
+            "raw_role": "Financial Manager in IAP",
+            "clean_name": "Judy Humphrey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "Committee co-chair",
+            "clean_name": "Irina Punguil Bravo",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ryan Goble",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ryan Goble",
+            "raw_role": "Committee co-chair",
+            "clean_name": "Ryan Goble",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "jay.stokes@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "mailto",
+            "raw_name": "Ryan Goble",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "jay.stokes@wisc.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Ryan Goble",
+            "role": "",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Ryan Goble",
+            "raw_role": "",
+            "clean_name": "Ryan Goble",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "",
+            "email": "ipunguilbrav@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "mailto",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "ipunguilbrav@wisc.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "",
+            "clean_name": "Irina Punguil Bravo",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "email": "sbarcus@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Uw Madison",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "",
+            "email_normalized": "sbarcus@wisc.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Uw Madison",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Uw Madison",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "Uw Madison",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Kacha Fischer",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kacha Fischer",
+            "raw_role": "International Engagement Coordinator for International Student Services",
+            "clean_name": "Kacha Fischer",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Amani DeHolton",
+            "role": "Intern Abroad Advisor and Program Manager",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amani DeHolton",
+            "raw_role": "Intern Abroad Advisor and Program Manager",
+            "clean_name": "Amani DeHolton",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Judy Humphrey",
+            "role": "Financial Manager in IAP",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Judy Humphrey",
+            "raw_role": "Financial Manager in IAP",
+            "clean_name": "Judy Humphrey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "Committee co-chair",
+            "clean_name": "Irina Punguil Bravo",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Ryan Goble",
+            "role": "Committee co-chair",
+            "email": "",
+            "page_url": "https://international.wisc.edu/casi/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ryan Goble",
+            "raw_role": "Committee co-chair",
+            "clean_name": "Ryan Goble",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 3,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 8,
+        "clean_candidate_count": 8,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 8,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "email": "sbarcus@wisc.edu",
+            "page_url": "https://international.wisc.edu/casi/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Uw Madison",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "",
+            "email_normalized": "sbarcus@wisc.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Ryan Goble",
+            "role": "",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "raw_name": "Ryan Goble",
+            "raw_role": "",
+            "clean_name": "Ryan Goble",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "",
+            "clean_name": "Irina Punguil Bravo",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Uw Madison",
+            "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Uw Madison",
+            "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+            "clean_name": "Uw Madison",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Kacha Fischer",
+            "role": "international student office",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kacha Fischer",
+            "raw_role": "International Engagement Coordinator for International Student Services",
+            "clean_name": "Kacha Fischer",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Amani DeHolton",
+            "role": "Intern Abroad Advisor and Program Manager",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Amani DeHolton",
+            "raw_role": "Intern Abroad Advisor and Program Manager",
+            "clean_name": "Amani DeHolton",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Judy Humphrey",
+            "role": "Financial Manager in IAP",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Judy Humphrey",
+            "raw_role": "Financial Manager in IAP",
+            "clean_name": "Judy Humphrey",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Irina Punguil Bravo",
+            "role": "Committee co-chair",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Irina Punguil Bravo",
+            "raw_role": "Committee co-chair",
+            "clean_name": "Irina Punguil Bravo",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Ryan Goble",
+            "role": "Committee co-chair",
+            "country": "US",
+            "page_url": "https://international.wisc.edu/casi/",
+            "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Ryan Goble",
+            "raw_role": "Committee co-chair",
+            "clean_name": "Ryan Goble",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "57150f3bfa319c208f8c3d6d38d281f248d59004"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Ryan Goble",
+        "role": "",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "raw_name": "Ryan Goble",
+        "raw_role": "",
+        "clean_name": "Ryan Goble",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Irina Punguil Bravo",
+        "role": "",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Questions about CASI can be directed to co-chairs\nRyan Goble\nand\nIrina Punguil Bravo\n.",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "raw_name": "Irina Punguil Bravo",
+        "raw_role": "",
+        "clean_name": "Irina Punguil Bravo",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Uw Madison",
+        "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Website feedback, questions or accessibility issues:\nsbarcus@wisc.edu\n| Learn more about\naccessibility at UW–Madison\n.",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Uw Madison",
+        "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+        "clean_name": "Uw Madison",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Kacha Fischer",
+        "role": "international student office",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kacha Fischer",
+        "raw_role": "International Engagement Coordinator for International Student Services",
+        "clean_name": "Kacha Fischer",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Amani DeHolton",
+        "role": "Intern Abroad Advisor and Program Manager",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Amani DeHolton",
+        "raw_role": "Intern Abroad Advisor and Program Manager",
+        "clean_name": "Amani DeHolton",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Judy Humphrey",
+        "role": "Financial Manager in IAP",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Judy Humphrey",
+        "raw_role": "Financial Manager in IAP",
+        "clean_name": "Judy Humphrey",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Irina Punguil Bravo",
+        "role": "Committee co-chair",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Irina Punguil Bravo",
+        "raw_role": "Committee co-chair",
+        "clean_name": "Irina Punguil Bravo",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Ryan Goble",
+        "role": "Committee co-chair",
+        "country": "US",
+        "page_url": "https://international.wisc.edu/casi/",
+        "page_context": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisconsin–Madison Search Menu open menu close Division Units Expand Collapse Office of the Dean Institute for Regional & International Studies International Academic Programs International Faculty and Staff Services International Strategy & Partnerships International Student Services Language Program Office Student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Ryan Goble",
+        "raw_role": "Committee co-chair",
+        "clean_name": "Ryan Goble",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+        "email": "sbarcus@wisc.edu",
+        "page_url": "https://international.wisc.edu/casi/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Uw Madison",
+        "raw_role": "Committee on Academic Staff Issues – International Division – UW–Madison Skip to main content U niversity of W isconsin –Madison UW Crest International Division University of Wisco",
+        "clean_name": "",
+        "email_normalized": "sbarcus@wisc.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

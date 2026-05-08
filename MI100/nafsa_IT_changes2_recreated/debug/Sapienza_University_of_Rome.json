@@ -1,0 +1,4453 @@
+{
+  "target": {
+    "name": "Sapienza University of Rome",
+    "url": "https://www.uniroma1.it",
+    "org_type": "university",
+    "country": "IT",
+    "source": "openalex",
+    "profile": "nafsa"
+  },
+  "outcome": {
+    "hard_success": true,
+    "soft_success": false,
+    "failed": false,
+    "failure_reason": null,
+    "pages_fetched": 10,
+    "llm_calls": 1,
+    "ranked_contacts": 4,
+    "qualified_contacts": 4
+  },
+  "discovery_trace": [
+    {
+      "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "directory",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_high_yield_seed"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "Docenti",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "directory",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_top_heuristic:nav"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "Personale",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "directory",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_top_heuristic:nav"
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+      "page_family": "directory",
+      "heuristic_score": 6.85,
+      "selected_for_planning": true,
+      "selection_reason": "deterministic_high_yield_seed"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "IT",
+      "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+      "page_family": "directory",
+      "heuristic_score": 6.85,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:nav"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/strutture",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Strutture",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "heuristic_score": 6.85,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:body"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "IT",
+      "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+      "page_family": "staff",
+      "heuristic_score": 6.3,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:nav"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Uffici per il personale",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "heuristic_score": 11.25,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:body"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Studenti con disabilità e DSA: linee guida per i docenti",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "heuristic_score": 8.45,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:body"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_body",
+      "anchor_text": "Infrastrutture di ricerca e laboratori",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "directory",
+      "heuristic_score": 6.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/infrastrutture-di-ricerca-pnrr",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "nodi",
+      "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "page_family": "directory",
+      "heuristic_score": 6.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/settore-infrastrutture-di-ricerca-di-ateneo",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Settore Infrastrutture di ricerca di Ateneo",
+      "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "page_family": "directory",
+      "heuristic_score": 6.85,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://trasparenza.uniroma1.it/page/5/details/18491/bando-di-concorso-100ragazzesteam-aa-2025-26-.html",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Vai alla pagina, del sito Amministrazione Trasparente Sapienza, dove è pubblicato il bando",
+      "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+      "page_family": "staff",
+      "heuristic_score": 7.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/team-qualita",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Team Qualità",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "staff",
+      "heuristic_score": 6.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "heuristic_score": 9.05,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:body"
+    },
+    {
+      "url": "https://servizipersonale.web.uniroma1.it",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "directory",
+      "heuristic_score": 6.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "Contatti",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "contact",
+      "heuristic_score": 5.6,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:nav"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/international",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Internazionale",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "international",
+      "heuristic_score": 10.1,
+      "selected_for_planning": true,
+      "selection_reason": "heuristic_fallback:body"
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina-strutturale/academics",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina/100ragazzestem-call-has-been-published",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina/sapienza-research-infrastructure",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina/structures",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/node/24972",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "Corsi",
+      "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/node/24975",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "Ateneo",
+      "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/node/262621",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "anchor_text": "Ricerca",
+      "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/laureati",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "Laureati",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "Studenti",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 0.75,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/user",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/ufficio-management-dei-progetti-di-ateneo",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Ufficio Management dei progetti di Ateneo",
+      "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "page_family": "office",
+      "heuristic_score": 6.7,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/accordi-internazionali",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_body",
+      "anchor_text": "Accordi internazionali",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 3.55,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/incontri-internazionali-alla-sapienza",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_body",
+      "anchor_text": "Incontri internazionali",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 3.55,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+      "source_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "anchor_text": "EN",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/content/isee-il-diritto-allo-studio-universitario-scadenze-e-multe-caso-di-ritardo",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_body",
+      "anchor_text": "Corsi singoli",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/documento/regolamento-sapienza-research-infrastructure",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Regolamento Sapienza Research Infrastructure",
+      "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/didattica",
+      "source_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "anchor_text": "Didattica",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "generic",
+      "heuristic_score": 1.35,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/personale",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "heuristic_score": 9.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/it/rubrica",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "heuristic_score": 9.05,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/docenti",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/personale",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/rubrica",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "directory",
+      "heuristic_score": 8.25,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/global-partnerships-team",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/international/team",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "staff",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/international/partnerships",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 11.5,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/global-engagement",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/global-opportunities",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/global-partnerships",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/international-cooperation",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/international-partnerships",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/international-relations",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/internationalisation",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/internationalization",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 9.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/about/global",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 8.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/about/international",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 8.3,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/cooperazione-internazionale",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 7.7,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/internazionalizzazione",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 7.7,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/mobilita-internazionale",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 7.7,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/partnerships",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 7.7,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/relazioni-internazionali",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 7.7,
+      "selected_for_planning": false
+    },
+    {
+      "url": "https://www.uniroma1.it/erasmus",
+      "source_type": "profile_slug",
+      "source_strategy": "profile_slugs",
+      "source_stage": "profile_or_localised_slug",
+      "anchor_text": "",
+      "parent_url": "",
+      "page_family": "international",
+      "heuristic_score": 7.1,
+      "selected_for_planning": false
+    }
+  ],
+  "discovery_strategy_trace": {
+    "heuristic_only": [
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Docenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Personale",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/strutture",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Strutture",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Uffici per il personale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Studenti con disabilità e DSA: linee guida per i docenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 8.45
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Infrastrutture di ricerca e laboratori",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastrutture-di-ricerca-pnrr",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "nodi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-infrastrutture-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Settore Infrastrutture di ricerca di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://trasparenza.uniroma1.it/page/5/details/18491/bando-di-concorso-100ragazzesteam-aa-2025-26-.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Vai alla pagina, del sito Amministrazione Trasparente Sapienza, dove è pubblicato il bando",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 7.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/team-qualita",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Team Qualità",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://servizipersonale.web.uniroma1.it",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 6.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "contact",
+        "heuristic_score": 5.6
+      },
+      {
+        "url": "https://www.uniroma1.it/it/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Internazionale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "international",
+        "heuristic_score": 10.1
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/100ragazzestem-call-has-been-published",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/sapienza-research-infrastructure",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/structures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24972",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Corsi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24975",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/262621",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ricerca",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/laureati",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Laureati",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Studenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 0.75
+      },
+      {
+        "url": "https://www.uniroma1.it/it",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/user",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/ufficio-management-dei-progetti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ufficio Management dei progetti di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "office",
+        "heuristic_score": 6.7
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/accordi-internazionali",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Accordi internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/incontri-internazionali-alla-sapienza",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Incontri internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/content/isee-il-diritto-allo-studio-universitario-scadenze-e-multe-caso-di-ritardo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi singoli",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/regolamento-sapienza-research-infrastructure",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Regolamento Sapienza Research Infrastructure",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/didattica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Didattica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/ricerca-scientifica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ricerca scientifica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/andare-allestero",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Andare all'estero",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/borse-di-studio",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Borse di studio",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/centri",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Centri",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/collaborazioni-scientifiche",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Collaborazioni scientifiche",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-alta-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di alta formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-specializzazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di specializzazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dipartimenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dipartimenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dottorati-di-ricerca",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di dottorato",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/elenco-summer-winter-school",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Summer and winter school",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/facolta",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Facoltà",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/finanziamenti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Finanziamenti di Ateneo",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/about/leadership/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.uniroma1.it/about/leadership/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.uniroma1.it/about/leadership/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.uniroma1.it/about/leadership/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 13.25
+      },
+      {
+        "url": "https://www.uniroma1.it/administration/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.uniroma1.it/administration/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.uniroma1.it/administration/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://www.uniroma1.it/administration/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 12.05
+      },
+      {
+        "url": "https://erasmus.uniroma1.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://erasmus.uniroma1.it/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      }
+    ],
+    "generated_slug_only": [
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Docenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Personale",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/strutture",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Strutture",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Uffici per il personale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Studenti con disabilità e DSA: linee guida per i docenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 8.45
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Infrastrutture di ricerca e laboratori",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastrutture-di-ricerca-pnrr",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "nodi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-infrastrutture-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Settore Infrastrutture di ricerca di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://trasparenza.uniroma1.it/page/5/details/18491/bando-di-concorso-100ragazzesteam-aa-2025-26-.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Vai alla pagina, del sito Amministrazione Trasparente Sapienza, dove è pubblicato il bando",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 7.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/team-qualita",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Team Qualità",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://servizipersonale.web.uniroma1.it",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 6.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "contact",
+        "heuristic_score": 5.6
+      },
+      {
+        "url": "https://www.uniroma1.it/it/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Internazionale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "international",
+        "heuristic_score": 10.1
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/100ragazzestem-call-has-been-published",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/sapienza-research-infrastructure",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/structures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24972",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Corsi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24975",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/262621",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ricerca",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/laureati",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Laureati",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Studenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 0.75
+      },
+      {
+        "url": "https://www.uniroma1.it/it",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/user",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/ufficio-management-dei-progetti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ufficio Management dei progetti di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "office",
+        "heuristic_score": 6.7
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/accordi-internazionali",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Accordi internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/incontri-internazionali-alla-sapienza",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Incontri internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/content/isee-il-diritto-allo-studio-universitario-scadenze-e-multe-caso-di-ritardo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi singoli",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/regolamento-sapienza-research-infrastructure",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Regolamento Sapienza Research Infrastructure",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/didattica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Didattica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/ricerca-scientifica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ricerca scientifica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/andare-allestero",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Andare all'estero",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/borse-di-studio",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Borse di studio",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/centri",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Centri",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/collaborazioni-scientifiche",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Collaborazioni scientifiche",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-alta-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di alta formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-specializzazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di specializzazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dipartimenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dipartimenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dottorati-di-ricerca",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di dottorato",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/elenco-summer-winter-school",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Summer and winter school",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/facolta",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Facoltà",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/finanziamenti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Finanziamenti di Ateneo",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/personale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/rubrica",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/docenti",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.uniroma1.it/personale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.uniroma1.it/rubrica",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.uniroma1.it/global-partnerships-team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "staff",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international/partnerships",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 11.5
+      },
+      {
+        "url": "https://erasmus.uniroma1.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://erasmus.uniroma1.it/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      }
+    ],
+    "real_link_only": [
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Docenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Personale",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/strutture",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Strutture",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Uffici per il personale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Studenti con disabilità e DSA: linee guida per i docenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 8.45
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Infrastrutture di ricerca e laboratori",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastrutture-di-ricerca-pnrr",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "nodi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-infrastrutture-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Settore Infrastrutture di ricerca di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://trasparenza.uniroma1.it/page/5/details/18491/bando-di-concorso-100ragazzesteam-aa-2025-26-.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Vai alla pagina, del sito Amministrazione Trasparente Sapienza, dove è pubblicato il bando",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 7.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/team-qualita",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Team Qualità",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://servizipersonale.web.uniroma1.it",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 6.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "contact",
+        "heuristic_score": 5.6
+      },
+      {
+        "url": "https://www.uniroma1.it/it/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Internazionale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "international",
+        "heuristic_score": 10.1
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/100ragazzestem-call-has-been-published",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/sapienza-research-infrastructure",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/structures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24972",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Corsi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24975",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/262621",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ricerca",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/laureati",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Laureati",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Studenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 0.75
+      },
+      {
+        "url": "https://www.uniroma1.it/it",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/user",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/ufficio-management-dei-progetti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ufficio Management dei progetti di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "office",
+        "heuristic_score": 6.7
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/accordi-internazionali",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Accordi internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/incontri-internazionali-alla-sapienza",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Incontri internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/content/isee-il-diritto-allo-studio-universitario-scadenze-e-multe-caso-di-ritardo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi singoli",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/regolamento-sapienza-research-infrastructure",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Regolamento Sapienza Research Infrastructure",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/didattica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Didattica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/ricerca-scientifica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ricerca scientifica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/andare-allestero",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Andare all'estero",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/borse-di-studio",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Borse di studio",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/centri",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Centri",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/collaborazioni-scientifiche",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Collaborazioni scientifiche",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-alta-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di alta formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-specializzazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di specializzazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dipartimenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dipartimenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dottorati-di-ricerca",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di dottorato",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/elenco-summer-winter-school",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Summer and winter school",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/facolta",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Facoltà",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/finanziamenti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Finanziamenti di Ateneo",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://erasmus.uniroma1.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://erasmus.uniroma1.it/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      },
+      {
+        "url": "https://global.uniroma1.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      }
+    ],
+    "hybrid": [
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Docenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Personale",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/strutture",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Strutture",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Uffici per il personale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 11.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Studenti con disabilità e DSA: linee guida per i docenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 8.45
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Infrastrutture di ricerca e laboratori",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastrutture-di-ricerca-pnrr",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "nodi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-infrastrutture-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Settore Infrastrutture di ricerca di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "heuristic_score": 6.85
+      },
+      {
+        "url": "https://trasparenza.uniroma1.it/page/5/details/18491/bando-di-concorso-100ragazzesteam-aa-2025-26-.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Vai alla pagina, del sito Amministrazione Trasparente Sapienza, dove è pubblicato il bando",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "heuristic_score": 7.25
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/team-qualita",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Team Qualità",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "staff",
+        "heuristic_score": 6.3
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://servizipersonale.web.uniroma1.it",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "heuristic_score": 6.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "contact",
+        "heuristic_score": 5.6
+      },
+      {
+        "url": "https://www.uniroma1.it/it/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Internazionale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "international",
+        "heuristic_score": 10.1
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/100ragazzestem-call-has-been-published",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/sapienza-research-infrastructure",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/structures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24972",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Corsi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24975",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/262621",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ricerca",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/laureati",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Laureati",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Studenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 0.75
+      },
+      {
+        "url": "https://www.uniroma1.it/it",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/user",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/ufficio-management-dei-progetti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ufficio Management dei progetti di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "office",
+        "heuristic_score": 6.7
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/accordi-internazionali",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Accordi internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/incontri-internazionali-alla-sapienza",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Incontri internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 3.55
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/content/isee-il-diritto-allo-studio-universitario-scadenze-e-multe-caso-di-ritardo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi singoli",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/regolamento-sapienza-research-infrastructure",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Regolamento Sapienza Research Infrastructure",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/didattica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Didattica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "heuristic_score": 1.35
+      },
+      {
+        "url": "https://www.uniroma1.it/it/personale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/it/rubrica",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 9.05
+      },
+      {
+        "url": "https://www.uniroma1.it/docenti",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.uniroma1.it/personale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.uniroma1.it/rubrica",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "heuristic_score": 8.25
+      },
+      {
+        "url": "https://www.uniroma1.it/global-partnerships-team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "staff",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international/partnerships",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 11.5
+      },
+      {
+        "url": "https://www.uniroma1.it/global-engagement",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/global-opportunities",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/global-partnerships",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international-cooperation",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international-partnerships",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/international-relations",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/internationalisation",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/internationalization",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 9.3
+      },
+      {
+        "url": "https://www.uniroma1.it/about/global",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 8.3
+      },
+      {
+        "url": "https://www.uniroma1.it/about/international",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 8.3
+      },
+      {
+        "url": "https://www.uniroma1.it/cooperazione-internazionale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.7
+      },
+      {
+        "url": "https://www.uniroma1.it/internazionalizzazione",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.7
+      },
+      {
+        "url": "https://www.uniroma1.it/mobilita-internazionale",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.7
+      },
+      {
+        "url": "https://www.uniroma1.it/partnerships",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.7
+      },
+      {
+        "url": "https://www.uniroma1.it/relazioni-internazionali",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.7
+      },
+      {
+        "url": "https://www.uniroma1.it/erasmus",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "heuristic_score": 7.1
+      }
+    ]
+  },
+  "mode_history": [
+    {
+      "mode": "office_discovery",
+      "reason": "initial_state",
+      "goal": "find direct outreach contacts"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/pagina-strutturale/contatti"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/en/pagina-strutturale/staff"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/pagina-strutturale/docenti"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/pagina/uffici-il-personale"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/pagina/strutture"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/pagina-strutturale/personale"
+    },
+    {
+      "mode": "office_discovery",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/it/international"
+    },
+    {
+      "mode": "staff_page_hunt",
+      "reason": "visiting_candidate_page",
+      "goal": "inspect https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit"
+    },
+    {
+      "mode": "stop",
+      "reason": "run_complete",
+      "goal": "high_confidence_coverage_reached"
+    }
+  ],
+  "action_history": [
+    {
+      "action": "rank_candidates",
+      "reason": "heuristic_fallback",
+      "details": {
+        "count": 12,
+        "phase": "scout"
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "heuristic_fallback:nav",
+      "details": {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+        "page_type": "nav",
+        "expected_yield": 5.6
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_high_yield_seed",
+      "details": {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "page_type": "nav",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_top_heuristic:nav",
+      "details": {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_type": "nav",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "heuristic_fallback:body",
+      "details": {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "page_type": "body",
+        "expected_yield": 11.25
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "heuristic_fallback:body",
+      "details": {
+        "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+        "page_type": "body",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "heuristic_fallback:body",
+      "details": {
+        "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+        "page_type": "body",
+        "expected_yield": 8.45
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "heuristic_fallback:body",
+      "details": {
+        "url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_type": "body",
+        "expected_yield": 6.85
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_top_heuristic:nav",
+      "details": {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_type": "nav",
+        "expected_yield": 9.05
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "heuristic_fallback:body",
+      "details": {
+        "url": "https://www.uniroma1.it/it/international",
+        "page_type": "body",
+        "expected_yield": 10.1
+      }
+    },
+    {
+      "action": "visit_page",
+      "reason": "deterministic_high_yield_seed",
+      "details": {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "page_type": "nav",
+        "expected_yield": 6.85
+      }
+    }
+  ],
+  "planner_history": [
+    {
+      "phase": "scout",
+      "strategy": "heuristic_fallback",
+      "expected_roles": [
+        "Head of International Partnerships",
+        "Director of Global Engagement",
+        "International Relations Lead",
+        "Mobility / Exchange Coordinator"
+      ],
+      "stop_hint": "Stop early if enough strong contacts are found.",
+      "ranked_pages": [
+        {
+          "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+          "reason": "deterministic_high_yield_seed",
+          "expected_yield": 9.05,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "reason": "deterministic_high_yield_seed",
+          "expected_yield": 6.85,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+          "reason": "deterministic_top_heuristic:nav",
+          "expected_yield": 9.05,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+          "reason": "deterministic_top_heuristic:nav",
+          "expected_yield": 9.05,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+          "reason": "heuristic_fallback:nav",
+          "expected_yield": 6.85,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina/strutture",
+          "reason": "heuristic_fallback:body",
+          "expected_yield": 6.85,
+          "page_type": "body"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+          "reason": "heuristic_fallback:nav",
+          "expected_yield": 6.3,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+          "reason": "heuristic_fallback:nav",
+          "expected_yield": 5.6,
+          "page_type": "nav"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+          "reason": "heuristic_fallback:body",
+          "expected_yield": 11.25,
+          "page_type": "body"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/international",
+          "reason": "heuristic_fallback:body",
+          "expected_yield": 10.1,
+          "page_type": "body"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+          "reason": "heuristic_fallback:body",
+          "expected_yield": 9.05,
+          "page_type": "body"
+        },
+        {
+          "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+          "reason": "heuristic_fallback:body",
+          "expected_yield": 8.45,
+          "page_type": "body"
+        }
+      ]
+    }
+  ],
+  "evidence_log": [
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+      "reason": "heuristic_fallback:nav",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "contact",
+      "expected_yield": 5.6,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "reason": "deterministic_top_heuristic:nav",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 8.45,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/pagina/strutture",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 6.85,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "reason": "deterministic_top_heuristic:nav",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "parent_url": "https://www.uniroma1.it",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/it/international",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "international",
+      "expected_yield": 10.1,
+      "raw_contacts_found": 0,
+      "kept_contacts_found": 0,
+      "rejected_contacts": 0
+    },
+    {
+      "phase": "execute",
+      "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+      "page_family": "directory",
+      "expected_yield": 6.85,
+      "raw_contacts_found": 4,
+      "kept_contacts_found": 4,
+      "rejected_contacts": 0
+    }
+  ],
+  "extraction_trace": [
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+      "reason": "heuristic_fallback:nav",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "parent_url": "https://www.uniroma1.it",
+      "shell_context_key": "real_link_multihop|homepage_nav|https://www.uniroma1.it",
+      "page_family": "contact",
+      "expected_yield": 5.6,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 1528,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 1528,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "20db3fc4b6f64da1c170e5e4ac3bdd53ee12323e"
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "shell_context_key": "real_link_multihop|first_hop_nav|https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 904,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 904,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "5ae4d140c8683497ad07d76ed529f4964cfbdb1c"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "reason": "deterministic_top_heuristic:nav",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "parent_url": "https://www.uniroma1.it",
+      "shell_context_key": "real_link_multihop|homepage_nav|https://www.uniroma1.it",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 2374,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 2374,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "fbb68196287f66d7bba700ddf9c131516ee7b584"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 11.25,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 2514,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 2514,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "d9bb5ca81c977c4e33bec1a7c180e641a82615b7"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 2096,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 2096,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "be3a36581e0bd0955259f56ce3700d80de9d0914"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 8.45,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 1629,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 1635,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "81890b367335733ad122c03d2a0687d0ec2a1037"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina/strutture",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/docenti",
+      "page_family": "directory",
+      "expected_yield": 6.85,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 1992,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 1992,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "287356fb63271bc0078a06488c4ec18d899f6807"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "reason": "deterministic_top_heuristic:nav",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "homepage_nav",
+      "parent_url": "https://www.uniroma1.it",
+      "shell_context_key": "real_link_multihop|homepage_nav|https://www.uniroma1.it",
+      "page_family": "directory",
+      "expected_yield": 9.05,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 1292,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 1292,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "54f73931a95e1b4f8677ea7a2eaeb5637f521a0a"
+    },
+    {
+      "url": "https://www.uniroma1.it/it/international",
+      "reason": "heuristic_fallback:body",
+      "page_type": "body",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_body",
+      "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/personale",
+      "page_family": "international",
+      "expected_yield": 10.1,
+      "family_signature": null,
+      "raw_contacts_found": 0,
+      "text_length": 2520,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 2520,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [],
+      "assembled_candidates": [],
+      "cleaned_candidates": [],
+      "typed_candidates": [],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 0,
+      "clean_candidate_count": 0,
+      "named_contact_count": 0,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "3112d9fd759d8e6b5dbf3827512571d312f85cad"
+    },
+    {
+      "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "reason": "deterministic_high_yield_seed",
+      "page_type": "nav",
+      "source_strategy": "real_link_multihop",
+      "source_stage": "first_hop_nav",
+      "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+      "shell_context_key": "real_link_multihop|first_hop_nav|https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+      "page_family": "directory",
+      "expected_yield": 6.85,
+      "family_signature": null,
+      "raw_contacts_found": 4,
+      "text_length": 4058,
+      "acquisition_modes": [
+        "static_html"
+      ],
+      "shell_like": false,
+      "weak_llm_shell_inference": false,
+      "visible_text_length": 4058,
+      "embedded_text_length": 0,
+      "embedded_document_count": 0,
+      "raw_evidence": [
+        {
+          "name": "Paola Rolli",
+          "role": "Head of Unit",
+          "email": "paola.rolli@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Paola Rolli",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Salvatore Portoghese",
+          "role": "Head of Unit",
+          "email": "salvatore.portoghese@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Salvatore Portoghese",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Marco Ruggeri",
+          "role": "Head of Unit",
+          "email": "marco.ruggeri@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Marco Ruggeri",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Viola Talucci",
+          "role": "Head of Unit",
+          "email": "viola.talucci@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Viola Talucci",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        }
+      ],
+      "assembled_candidates": [
+        {
+          "name": "Paola Rolli",
+          "role": "Head of Unit",
+          "email": "paola.rolli@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Paola Rolli",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Salvatore Portoghese",
+          "role": "Head of Unit",
+          "email": "salvatore.portoghese@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Salvatore Portoghese",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Marco Ruggeri",
+          "role": "Head of Unit",
+          "email": "marco.ruggeri@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Marco Ruggeri",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Viola Talucci",
+          "role": "Head of Unit",
+          "email": "viola.talucci@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Viola Talucci",
+          "raw_role": "Head of Unit",
+          "clean_name": "",
+          "email_normalized": "",
+          "cleanup_flags": [],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        }
+      ],
+      "cleaned_candidates": [
+        {
+          "name": "Paola Rolli",
+          "role": "Head of Unit",
+          "email": "paola.rolli@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Paola Rolli",
+          "raw_role": "Head of Unit",
+          "clean_name": "Paola Rolli",
+          "email_normalized": "paola.rolli@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Salvatore Portoghese",
+          "role": "Head of Unit",
+          "email": "salvatore.portoghese@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Salvatore Portoghese",
+          "raw_role": "Head of Unit",
+          "clean_name": "Salvatore Portoghese",
+          "email_normalized": "salvatore.portoghese@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Marco Ruggeri",
+          "role": "Head of Unit",
+          "email": "marco.ruggeri@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Marco Ruggeri",
+          "raw_role": "Head of Unit",
+          "clean_name": "Marco Ruggeri",
+          "email_normalized": "marco.ruggeri@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        },
+        {
+          "name": "Viola Talucci",
+          "role": "Head of Unit",
+          "email": "viola.talucci@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "",
+          "evidence_type": "mailto",
+          "raw_name": "Viola Talucci",
+          "raw_role": "Head of Unit",
+          "clean_name": "Viola Talucci",
+          "email_normalized": "viola.talucci@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": false,
+          "missing_email_candidate": false
+        }
+      ],
+      "typed_candidates": [
+        {
+          "name": "Paola Rolli",
+          "role": "Head of Unit",
+          "email": "paola.rolli@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "named_contact",
+          "evidence_type": "mailto",
+          "raw_name": "Paola Rolli",
+          "raw_role": "Head of Unit",
+          "clean_name": "Paola Rolli",
+          "email_normalized": "paola.rolli@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": true,
+          "missing_email_candidate": false,
+          "country": "IT"
+        },
+        {
+          "name": "Salvatore Portoghese",
+          "role": "Head of Unit",
+          "email": "salvatore.portoghese@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "named_contact",
+          "evidence_type": "mailto",
+          "raw_name": "Salvatore Portoghese",
+          "raw_role": "Head of Unit",
+          "clean_name": "Salvatore Portoghese",
+          "email_normalized": "salvatore.portoghese@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": true,
+          "missing_email_candidate": false,
+          "country": "IT"
+        },
+        {
+          "name": "Marco Ruggeri",
+          "role": "Head of Unit",
+          "email": "marco.ruggeri@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "named_contact",
+          "evidence_type": "mailto",
+          "raw_name": "Marco Ruggeri",
+          "raw_role": "Head of Unit",
+          "clean_name": "Marco Ruggeri",
+          "email_normalized": "marco.ruggeri@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": true,
+          "missing_email_candidate": false,
+          "country": "IT"
+        },
+        {
+          "name": "Viola Talucci",
+          "role": "Head of Unit",
+          "email": "viola.talucci@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "candidate_type": "named_contact",
+          "evidence_type": "mailto",
+          "raw_name": "Viola Talucci",
+          "raw_role": "Head of Unit",
+          "clean_name": "Viola Talucci",
+          "email_normalized": "viola.talucci@uniroma1.it",
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "context": "Legal Affairs Area Criminal and Disciplinary Affairs Office Academic and technical-administrative staff disciplinary unit Head of Unit Paola Rolli CV T. (+39) 06 4991 0284 Fax (+39) 06 4991 0781",
+          "source": "mailto_explicit",
+          "reached_filtering": true,
+          "missing_email_candidate": false,
+          "country": "IT"
+        }
+      ],
+      "raw_evidence_count_by_strategy": {
+        "mailto_explicit": 4,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "assembled_candidate_count": 4,
+      "clean_candidate_count": 4,
+      "named_contact_count": 4,
+      "office_contact_count": 0,
+      "person_without_email_count": 0,
+      "junk_candidate_count": 0,
+      "kept_contacts": [
+        {
+          "name": "Paola Rolli",
+          "role": "Head of Unit",
+          "email": "paola.rolli@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "score": 7,
+          "reason": "ok",
+          "threshold": 4,
+          "domain_match": true,
+          "is_generic": false,
+          "candidate_type": "named_contact",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "evidence_type": "mailto",
+          "raw_name": "Paola Rolli",
+          "raw_role": "Head of Unit",
+          "clean_name": "Paola Rolli",
+          "email_normalized": "paola.rolli@uniroma1.it"
+        },
+        {
+          "name": "Salvatore Portoghese",
+          "role": "Head of Unit",
+          "email": "salvatore.portoghese@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "score": 7,
+          "reason": "ok",
+          "threshold": 4,
+          "domain_match": true,
+          "is_generic": false,
+          "candidate_type": "named_contact",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "evidence_type": "mailto",
+          "raw_name": "Salvatore Portoghese",
+          "raw_role": "Head of Unit",
+          "clean_name": "Salvatore Portoghese",
+          "email_normalized": "salvatore.portoghese@uniroma1.it"
+        },
+        {
+          "name": "Marco Ruggeri",
+          "role": "Head of Unit",
+          "email": "marco.ruggeri@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "score": 7,
+          "reason": "ok",
+          "threshold": 4,
+          "domain_match": true,
+          "is_generic": false,
+          "candidate_type": "named_contact",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "evidence_type": "mailto",
+          "raw_name": "Marco Ruggeri",
+          "raw_role": "Head of Unit",
+          "clean_name": "Marco Ruggeri",
+          "email_normalized": "marco.ruggeri@uniroma1.it"
+        },
+        {
+          "name": "Viola Talucci",
+          "role": "Head of Unit",
+          "email": "viola.talucci@uniroma1.it",
+          "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "score": 7,
+          "reason": "ok",
+          "threshold": 4,
+          "domain_match": true,
+          "is_generic": false,
+          "candidate_type": "named_contact",
+          "source_strategies": [
+            "mailto_explicit"
+          ],
+          "cleanup_flags": [
+            "mailto_only"
+          ],
+          "evidence_type": "mailto",
+          "raw_name": "Viola Talucci",
+          "raw_role": "Head of Unit",
+          "clean_name": "Viola Talucci",
+          "email_normalized": "viola.talucci@uniroma1.it"
+        }
+      ],
+      "rejected_contacts": [],
+      "missing_email_candidates": [],
+      "role_holder_candidates": [],
+      "content_signature": "3b4ccd6bd2970c8ad8b6c6f23d04a7b914f74c6b"
+    }
+  ],
+  "pruned_candidates": [],
+  "person_candidates": [],
+  "role_holder_candidates": [],
+  "enrichment_trace": [],
+  "search_attempts": [],
+  "pattern_inference_trace": [],
+  "missing_email_candidates": [],
+  "rejected_contacts": [],
+  "deduped_contacts": [],
+  "dead_candidate_signatures": [],
+  "dead_shell_contexts": [],
+  "repeated_zero_evidence_signatures": {},
+  "stop_reason": "high_confidence_coverage_reached",
+  "ranked_contacts": [
+    {
+      "email": "paola.rolli@uniroma1.it",
+      "name": "Paola Rolli",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    },
+    {
+      "email": "salvatore.portoghese@uniroma1.it",
+      "name": "Salvatore Portoghese",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    },
+    {
+      "email": "marco.ruggeri@uniroma1.it",
+      "name": "Marco Ruggeri",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    },
+    {
+      "email": "viola.talucci@uniroma1.it",
+      "name": "Viola Talucci",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    }
+  ],
+  "final_contacts_with_provenance": [
+    {
+      "email": "paola.rolli@uniroma1.it",
+      "name": "Paola Rolli",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    },
+    {
+      "email": "salvatore.portoghese@uniroma1.it",
+      "name": "Salvatore Portoghese",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    },
+    {
+      "email": "marco.ruggeri@uniroma1.it",
+      "name": "Marco Ruggeri",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    },
+    {
+      "email": "viola.talucci@uniroma1.it",
+      "name": "Viola Talucci",
+      "title": "Head of Unit",
+      "priority": "high",
+      "reason": "ok",
+      "source_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "confidence": "high",
+      "email_source": "direct",
+      "evidence_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "evidence_type": "mailto",
+      "recovery_reason": "direct email observed on page",
+      "candidate_status": "direct_contact"
+    }
+  ]
+}

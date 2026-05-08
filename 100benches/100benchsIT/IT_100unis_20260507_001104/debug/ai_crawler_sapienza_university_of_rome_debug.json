@@ -1,0 +1,2710 @@
+{
+  "method": "ai_crawler",
+  "university": "Sapienza University of Rome",
+  "homepage_url": "https://www.uniroma1.it",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 14,
+    "contacts_kept": 4,
+    "time_seconds": 27.425806283950806,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+    "source_breakdown": {}
+  },
+  "contacts": [
+    {
+      "name": "Paola Rolli",
+      "email": "paola.rolli@uniroma1.it",
+      "role": "Head of Unit",
+      "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "score": 0,
+      "reason": "ok"
+    },
+    {
+      "name": "Salvatore Portoghese",
+      "email": "salvatore.portoghese@uniroma1.it",
+      "role": "Head of Unit",
+      "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "score": 0,
+      "reason": "ok"
+    },
+    {
+      "name": "Marco Ruggeri",
+      "email": "marco.ruggeri@uniroma1.it",
+      "role": "Head of Unit",
+      "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "score": 0,
+      "reason": "ok"
+    },
+    {
+      "name": "Viola Talucci",
+      "email": "viola.talucci@uniroma1.it",
+      "role": "Head of Unit",
+      "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+      "score": 0,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": true,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "high_confidence_coverage_reached",
+      "probe_attempts": 6,
+      "pages_fetched": 6,
+      "successful_fetches": 6,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Docenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Personale",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Infrastrutture di ricerca e laboratori",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/strutture",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Strutture",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/sapienza-research-infrastructure",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Uffici per il personale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.25,
+        "selected_for_planning": true,
+        "selection_reason": "Office page that likely contains relevant staff details, important for outreach."
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/studenti-con-disabilita-e-dsa-linee-guida-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Studenti con disabilità e DSA: linee guida per i docenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/infrastrutture-di-ricerca-pnrr",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "nodi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/settore-infrastrutture-di-ricerca-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Settore Infrastrutture di ricerca di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://trasparenza.uniroma1.it/page/5/details/18491/bando-di-concorso-100ragazzesteam-aa-2025-26-.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Vai alla pagina, del sito Amministrazione Trasparente Sapienza, dove è pubblicato il bando",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/team-qualita",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Team Qualità",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/documento/regolamento-sapienza-research-infrastructure",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Regolamento Sapienza Research Infrastructure",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/domanda-di-laurea-line-procedure-i-docenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://servizipersonale.web.uniroma1.it",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Internazionale",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.1,
+        "selected_for_planning": true,
+        "selection_reason": "Page dedicated to international partnerships, likely containing contacts related to global engagement and international relations."
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/100ragazzestem-call-has-been-published",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/structures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24972",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Corsi",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/24975",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/strutture",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/node/262621",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Ricerca",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/laureati",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Laureati",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Studenti",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/user",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/ufficio-management-dei-progetti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ufficio Management dei progetti di Ateneo",
+        "parent_url": "https://www.uniroma1.it/it/pagina/infrastruttura-di-ricerca-di-ateneo",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/accordi-internazionali",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Accordi internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/incontri-internazionali-alla-sapienza",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Incontri internazionali",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "EN",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/content/isee-il-diritto-allo-studio-universitario-scadenze-e-multe-caso-di-ritardo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi singoli",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/didattica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Didattica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/home",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "IT",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/ricerca-scientifica",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Ricerca scientifica",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/andare-allestero",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Andare all'estero",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/borse-di-studio",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Borse di studio",
+        "parent_url": "https://www.uniroma1.it/it/pagina/100-ragazze-steam-pubblicato-il-bando-2025-2026",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/centri",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Centri",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/collaborazioni-scientifiche",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Collaborazioni scientifiche",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-alta-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di alta formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-formazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di formazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/corsi-di-specializzazione",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di specializzazione",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dipartimenti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dipartimenti",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/dottorati-di-ricerca",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Corsi di dottorato",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/elenco-summer-winter-school",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Summer and winter school",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/facolta",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Facoltà",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/finanziamenti-di-ateneo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Finanziamenti di Ateneo",
+        "parent_url": "https://www.uniroma1.it",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://erasmus.uniroma1.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://erasmus.uniroma1.it/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uniroma1.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uniroma1.it/en/pagina-strutturale/staff"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uniroma1.it/it/pagina-strutturale/docenti"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sandro Mancini"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Sandro Mancini"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Sandro Mancini"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Sandro Mancini"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uniroma1.it/it/pagina/uffici-il-personale"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uniroma1.it/it/pagina-strutturale/personale"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uniroma1.it/it/international"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Paola Rolli"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Paola Rolli"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Paola Rolli"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Paola Rolli"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "high_confidence_coverage_reached"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages with direct relevance to international relations and engagement contacts in a university context.",
+        "details": {
+          "count": 6,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+          "page_type": "nav",
+          "expected_yield": 9.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+          "page_type": "nav",
+          "expected_yield": 9.05
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sandro Mancini"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Sandro Mancini"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Sandro Mancini"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Sandro Mancini"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "Office page that likely contains relevant staff details, important for outreach.",
+        "details": {
+          "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+          "page_type": "office",
+          "expected_yield": 7.0
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+          "page_type": "nav",
+          "expected_yield": 9.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "Page dedicated to international partnerships, likely containing contacts related to global engagement and international relations.",
+        "details": {
+          "url": "https://www.uniroma1.it/it/international",
+          "page_type": "office",
+          "expected_yield": 8.0
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+          "page_type": "nav",
+          "expected_yield": 6.85
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Paola Rolli"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Paola Rolli"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Paola Rolli"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Paola Rolli"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages with direct relevance to international relations and engagement contacts in a university context.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only two pages ranked as per instructions.",
+        "ranked_pages": [
+          {
+            "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 6.85,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.uniroma1.it/it/international",
+            "reason": "Page dedicated to international partnerships, likely containing contacts related to global engagement and international relations.",
+            "expected_yield": 8.0,
+            "page_type": "office"
+          },
+          {
+            "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+            "reason": "Office page that likely contains relevant staff details, important for outreach.",
+            "expected_yield": 7.0,
+            "page_type": "office"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "directory",
+        "expected_yield": 9.05,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 904,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 904,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Relations Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad and International Mobility",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad and International Mobility",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Relations Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad and International Mobility",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad and International Mobility",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international relations",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad and International Mobility",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international relations",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina-strutturale/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad and International Mobility",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "5ae4d140c8683497ad07d76ed529f4964cfbdb1c"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.uniroma1.it",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.uniroma1.it",
+        "page_family": "directory",
+        "expected_yield": 9.05,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2374,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2374,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sandro Mancini",
+            "role": "International Team",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandro Mancini",
+            "raw_role": "International Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sandro Mancini",
+            "role": "International Team",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandro Mancini",
+            "raw_role": "International Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sandro Mancini",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandro Mancini",
+            "raw_role": "International Team",
+            "clean_name": "Sandro Mancini",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "Sandro Mancini",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandro Mancini",
+            "raw_role": "International Team",
+            "clean_name": "Sandro Mancini",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "IT"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Sandro Mancini",
+            "role": "international office",
+            "country": "IT",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+            "page_context": "Docenti | Sapienza Università di Roma Salta al contenuto principale Toggle navigation Studenti Laureati Docenti Personale Contatti IT EN Home Docenti Docenti Posta elettronica Infostud Docenti Corsi di laurea 2025-2026 Cerca docente Procedure di laurea: indicazioni per i docenti Abilitazione scientifica nazionale 2023-2025 Rilevazione Opinioni Studenti (OPIS) Strutture Facoltà Dipartimenti Centri Sistema bibliotecario Sapienza Polo museale Sapienza Cultura Policlinici universitari Poli",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sandro Mancini",
+            "raw_role": "International Team",
+            "clean_name": "Sandro Mancini",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.05
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "fbb68196287f66d7bba700ddf9c131516ee7b584"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+        "reason": "Office page that likely contains relevant staff details, important for outreach.",
+        "page_type": "office",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_family": "directory",
+        "expected_yield": 7.0,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2514,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2514,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina/uffici-il-personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d9bb5ca81c977c4e33bec1a7c180e641a82615b7"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.uniroma1.it",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.uniroma1.it",
+        "page_family": "directory",
+        "expected_yield": 9.05,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 1292,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1292,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Recruitment Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Recruitment Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "54f73931a95e1b4f8677ea7a2eaeb5637f521a0a"
+      },
+      {
+        "url": "https://www.uniroma1.it/it/international",
+        "reason": "Page dedicated to international partnerships, likely containing contacts related to global engagement and international relations.",
+        "page_type": "office",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.uniroma1.it/it/pagina-strutturale/personale",
+        "page_family": "international",
+        "expected_yield": 8.0,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2520,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2520,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions Office",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/it/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "IT"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "3112d9fd759d8e6b5dbf3827512571d312f85cad"
+      },
+      {
+        "url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.uniroma1.it/it/pagina/settore-disciplinare-docenti-e-personale-tecnico-amministrativo",
+        "page_family": "directory",
+        "expected_yield": 6.85,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 4058,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4058,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "paola.rolli@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Salvatore Portoghese",
+            "role": "Head of Unit",
+            "email": "salvatore.portoghese@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Salvatore Portoghese",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marco Ruggeri",
+            "role": "Head of Unit",
+            "email": "marco.ruggeri@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Marco Ruggeri",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Viola Talucci",
+            "role": "Head of Unit",
+            "email": "viola.talucci@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Viola Talucci",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "paola.rolli@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Salvatore Portoghese",
+            "role": "Head of Unit",
+            "email": "salvatore.portoghese@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Salvatore Portoghese",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marco Ruggeri",
+            "role": "Head of Unit",
+            "email": "marco.ruggeri@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Marco Ruggeri",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Viola Talucci",
+            "role": "Head of Unit",
+            "email": "viola.talucci@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Viola Talucci",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV\nT.\n(+39) 06 4991 0284",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "paola.rolli@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "Paola Rolli",
+            "email_normalized": "paola.rolli@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Salvatore Portoghese",
+            "role": "Head of Unit",
+            "email": "salvatore.portoghese@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Salvatore Portoghese",
+            "raw_role": "Head of Unit",
+            "clean_name": "Salvatore Portoghese",
+            "email_normalized": "salvatore.portoghese@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marco Ruggeri",
+            "role": "Head of Unit",
+            "email": "marco.ruggeri@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Marco Ruggeri",
+            "raw_role": "Head of Unit",
+            "clean_name": "Marco Ruggeri",
+            "email_normalized": "marco.ruggeri@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Viola Talucci",
+            "role": "Head of Unit",
+            "email": "viola.talucci@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Viola Talucci",
+            "raw_role": "Head of Unit",
+            "clean_name": "Viola Talucci",
+            "email_normalized": "viola.talucci@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "Paola Rolli",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "paola.rolli@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "Paola Rolli",
+            "email_normalized": "paola.rolli@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "Salvatore Portoghese",
+            "role": "Head of Unit",
+            "email": "salvatore.portoghese@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Salvatore Portoghese",
+            "raw_role": "Head of Unit",
+            "clean_name": "Salvatore Portoghese",
+            "email_normalized": "salvatore.portoghese@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "Marco Ruggeri",
+            "role": "Head of Unit",
+            "email": "marco.ruggeri@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Marco Ruggeri",
+            "raw_role": "Head of Unit",
+            "clean_name": "Marco Ruggeri",
+            "email_normalized": "marco.ruggeri@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "Viola Talucci",
+            "role": "Head of Unit",
+            "email": "viola.talucci@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Viola Talucci",
+            "raw_role": "Head of Unit",
+            "clean_name": "Viola Talucci",
+            "email_normalized": "viola.talucci@uniroma1.it",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Legal Affairs Area\nCriminal and Disciplinary Affairs Office\nAcademic and technical-administrative staff disciplinary unit\nHead of Unit\nPaola Rolli\nCV",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "IT"
+          },
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "Paola Rolli",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "IT"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 4,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 4,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 0,
+        "kept_contacts": [
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "email": "paola.rolli@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "score": 7,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "Paola Rolli",
+            "email_normalized": "paola.rolli@uniroma1.it"
+          },
+          {
+            "name": "Salvatore Portoghese",
+            "role": "Head of Unit",
+            "email": "salvatore.portoghese@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "score": 7,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Salvatore Portoghese",
+            "raw_role": "Head of Unit",
+            "clean_name": "Salvatore Portoghese",
+            "email_normalized": "salvatore.portoghese@uniroma1.it"
+          },
+          {
+            "name": "Marco Ruggeri",
+            "role": "Head of Unit",
+            "email": "marco.ruggeri@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "score": 7,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Marco Ruggeri",
+            "raw_role": "Head of Unit",
+            "clean_name": "Marco Ruggeri",
+            "email_normalized": "marco.ruggeri@uniroma1.it"
+          },
+          {
+            "name": "Viola Talucci",
+            "role": "Head of Unit",
+            "email": "viola.talucci@uniroma1.it",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "score": 7,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Viola Talucci",
+            "raw_role": "Head of Unit",
+            "clean_name": "Viola Talucci",
+            "email_normalized": "viola.talucci@uniroma1.it"
+          }
+        ],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Paola Rolli",
+            "role": "Head of Unit",
+            "country": "IT",
+            "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+            "page_context": "Academic and technical-administrative staff disciplinary unit | Sapienza Università di Roma Skip to main content Toggle navigation Students Graduates Academics Staff Contacts EN IT Home Academic and technical-administrative staff disciplinary unit Academic and technical-administrative staff disciplinary unit In Italian Cura in particolare le attività relative a: gestione del Collegio di Disciplina (nomine, sostituzioni, decadenze, monitoraggio) e supporto tecnico amministrativo e consulenziale",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Paola Rolli",
+            "raw_role": "Head of Unit",
+            "clean_name": "Paola Rolli",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.85
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "3b4ccd6bd2970c8ad8b6c6f23d04a7b914f74c6b"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Sandro Mancini",
+        "role": "international office",
+        "country": "IT",
+        "page_url": "https://www.uniroma1.it/it/pagina-strutturale/docenti",
+        "page_context": "Docenti | Sapienza Università di Roma Salta al contenuto principale Toggle navigation Studenti Laureati Docenti Personale Contatti IT EN Home Docenti Docenti Posta elettronica Infostud Docenti Corsi di laurea 2025-2026 Cerca docente Procedure di laurea: indicazioni per i docenti Abilitazione scientifica nazionale 2023-2025 Rilevazione Opinioni Studenti (OPIS) Strutture Facoltà Dipartimenti Centri Sistema bibliotecario Sapienza Polo museale Sapienza Cultura Policlinici universitari Poli",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sandro Mancini",
+        "raw_role": "International Team",
+        "clean_name": "Sandro Mancini",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.05
+      },
+      {
+        "name": "Paola Rolli",
+        "role": "Head of Unit",
+        "country": "IT",
+        "page_url": "https://www.uniroma1.it/en/pagina/academic-and-technical-administrative-staff-disciplinary-unit",
+        "page_context": "Academic and technical-administrative staff disciplinary unit | Sapienza Università di Roma Skip to main content Toggle navigation Students Graduates Academics Staff Contacts EN IT Home Academic and technical-administrative staff disciplinary unit Academic and technical-administrative staff disciplinary unit In Italian Cura in particolare le attività relative a: gestione del Collegio di Disciplina (nomine, sostituzioni, decadenze, monitoraggio) e supporto tecnico amministrativo e consulenziale",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Paola Rolli",
+        "raw_role": "Head of Unit",
+        "clean_name": "Paola Rolli",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.85
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

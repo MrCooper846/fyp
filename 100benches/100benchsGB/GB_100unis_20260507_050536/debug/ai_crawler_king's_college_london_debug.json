@@ -1,0 +1,2348 @@
+{
+  "method": "ai_crawler",
+  "university": "King's College London",
+  "homepage_url": "http://www.kcl.ac.uk/index.aspx",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 3,
+    "candidates_probed": 3,
+    "contacts_extracted": 11,
+    "contacts_kept": 3,
+    "time_seconds": 33.937326431274414,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.kcl.ac.uk/international-foundation",
+    "source_breakdown": {}
+  },
+  "contacts": [
+    {
+      "name": "Funmi Olonisakin",
+      "email": "funmi.olonisakin@kcl.ac.uk",
+      "role": "international office",
+      "page_url": "https://www.kcl.ac.uk/people/funmi-olonisakin",
+      "score": 0,
+      "reason": "site_search_recovery"
+    },
+    {
+      "name": "Lord Simon Stevens",
+      "email": "lord.stevens@kcl.ac.uk",
+      "role": "Chair of College Council",
+      "page_url": "https://www.kcl.ac.uk/about/our-people",
+      "score": 0,
+      "reason": "pattern_inference_recovery"
+    },
+    {
+      "name": "The Revd Dr Ellen",
+      "email": "the.ellen@kcl.ac.uk",
+      "role": "Dean of King's",
+      "page_url": "https://www.kcl.ac.uk/about/our-people",
+      "score": 0,
+      "reason": "pattern_inference_recovery"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": true,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "high_confidence_coverage_reached",
+      "probe_attempts": 3,
+      "pages_fetched": 3,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.kcl.ac.uk/about/our-people",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Our People",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://internal.kcl.ac.uk",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.kcl.ac.uk/research/partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Partnerships",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/shitij-kapur",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Professor Shitij Kapur's profile",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/simon-stevens",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Lord Simon Stevens' profile",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://internal.kcl.ac.uk/index.aspx",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Staff",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/abigail-williams",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/ajay-shah",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/dan-hunter",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/funmi-olonisakin",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/graham-lord",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/jeremy-cook-obe",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/linda-mckie",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/lisa-adams",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/malcolm-ace",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/matthew-hotopf",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/michael-escudier",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/professor-bashir-al-hashimi",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/rachel-bearon",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/rachel-mills",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/richard-harding",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/people/stephen-bach",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International Foundation",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.kcl.ac.uk/study/international",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.kcl.ac.uk/about/partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Partnerships",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/study/ciel",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International Education & Languages",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/study/social-mobility",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Social Mobility",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/about/governance-policies-and-procedures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Governance, Policies & Procedures",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/about/governance-policies-and-procedures/diversity-inclusivity",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Diversity & Inclusion Navigation link in category About. Press escape key to return to main menu",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/about/governance-policies-and-procedures/financial-information",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Financial information",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/careers",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Careers",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/internationalisation/global-engagement",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Our international partnerships",
+        "parent_url": "https://www.kcl.ac.uk/about/partnerships",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 15.9,
+        "selected_for_planning": true,
+        "selection_reason": "This page is specifically about international partnerships and global engagement, making it highly relevant for outreach contacts."
+      },
+      {
+        "url": "https://www.kcl.ac.uk/about/international-education-partnerships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International education partnerships",
+        "parent_url": "https://www.kcl.ac.uk/about/partnerships",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.5,
+        "selected_for_planning": true,
+        "selection_reason": "This page discusses international education partnerships, likely containing contacts related to global engagement and partnerships."
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/about",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "About King's Foundations",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/about/extended-programme",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Discover the Extended King's International Foundation Programme",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/about/ten-reasons-to-join",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Take a look at the 10 reasons to join us",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/about/testimonials",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "See what students say",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/kghp/index",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Read about King's Global Health Partnerships",
+        "parent_url": "https://www.kcl.ac.uk/about/partnerships",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/fees-funding",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Scholarships, fees and key dates",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/pathways",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Our foundation pathways",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/programme",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find out more about the King's International Foundation Programme",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/programme/download-programme-brochure",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Download our brochure",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation/progression",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Your progression to university study",
+        "parent_url": "https://www.kcl.ac.uk/international-foundation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/london/kingslocal",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Local partnerships",
+        "parent_url": "https://www.kcl.ac.uk/about/partnerships",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/student-life/visa",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Visas & International Student Advice",
+        "parent_url": "https://www.kcl.ac.uk/study/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/it",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "King’s IT Navigation link in category Student Services. Press escape key to return to main menu",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://kcl.ac.uk/sport",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "King’s Sport Navigation link in category Student Services. Press escape key to return to main menu",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://self-service.kcl.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Student Services Online",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://self-service.kcl.ac.uk/article/KA-01913/en-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academic Calendar",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.kcl.ac.uk/campuslife",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student Services Navigation category. Contains links. Press enter key to expand.",
+        "parent_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.kcl.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.kcl.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.kcl.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.kcl.ac.uk/international-foundation"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.kcl.ac.uk/study/international"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.kcl.ac.uk/about/our-people"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Funmi Olonisakin"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Lord Simon Stevens"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover The Revd Dr Ellen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Lord Simon Stevens"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover The Revd Dr Ellen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Lord Simon Stevens"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover The Revd Dr Ellen"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Lord Simon Stevens"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for The Revd Dr Ellen"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "high_confidence_coverage_reached"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages directly related to international partnerships and global engagement that are likely to contain relevant staff contacts.",
+        "details": {
+          "count": 6,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.kcl.ac.uk/international-foundation",
+          "page_type": "nav",
+          "expected_yield": 7.1
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.kcl.ac.uk/study/international",
+          "page_type": "nav",
+          "expected_yield": 7.1
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.kcl.ac.uk/about/our-people",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Funmi Olonisakin"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Lord Simon Stevens"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "The Revd Dr Ellen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Lord Simon Stevens"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "The Revd Dr Ellen"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Lord Simon Stevens"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "The Revd Dr Ellen"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Lord Simon Stevens"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "The Revd Dr Ellen"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages directly related to international partnerships and global engagement that are likely to contain relevant staff contacts.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only two pages are selected to fit the specified criteria.",
+        "ranked_pages": [
+          {
+            "url": "https://www.kcl.ac.uk/about/our-people",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.kcl.ac.uk/international-foundation",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 7.1,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://internal.kcl.ac.uk",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.kcl.ac.uk/study/international",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 7.1,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.kcl.ac.uk/internationalisation/global-engagement",
+            "reason": "This page is specifically about international partnerships and global engagement, making it highly relevant for outreach contacts.",
+            "expected_yield": 8.0,
+            "page_type": "partnerships"
+          },
+          {
+            "url": "https://www.kcl.ac.uk/about/international-education-partnerships",
+            "reason": "This page discusses international education partnerships, likely containing contacts related to global engagement and partnerships.",
+            "expected_yield": 7.0,
+            "page_type": "partnerships"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.kcl.ac.uk/international-foundation",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "expected_yield": 7.1,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 11050,
+        "acquisition_modes": [
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 10978,
+        "embedded_text_length": 73,
+        "embedded_document_count": 3,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "King's International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "King's International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "King's International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "King's International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "King's International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "King's International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "King's International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "King's International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "International Foundation Programme",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/international-foundation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Foundation Programme",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "b06276b655ee1dc5e40858a9c410e97f882dc394",
+        "zero_evidence_shell": true,
+        "zero_evidence_shell_repeat_count": 1
+      },
+      {
+        "url": "https://www.kcl.ac.uk/study/international",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.kcl.ac.uk/index.aspx",
+        "page_family": "international",
+        "expected_yield": 7.1,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 10730,
+        "acquisition_modes": [
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 10661,
+        "embedded_text_length": 68,
+        "embedded_document_count": 3,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Mobility/Exchange",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Mobility/Exchange",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/study/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "2198c6152508a42a2fb28e6bc7599d433722e06d",
+        "zero_evidence_shell": true,
+        "zero_evidence_shell_repeat_count": 1
+      },
+      {
+        "url": "https://www.kcl.ac.uk/about/our-people",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "http://www.kcl.ac.uk/index.aspx",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.kcl.ac.uk/index.aspx",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 9898,
+        "acquisition_modes": [
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 9871,
+        "embedded_text_length": 25,
+        "embedded_document_count": 3,
+        "raw_evidence": [
+          {
+            "name": "Professor Shitij Kapur",
+            "role": "Vice-Chancellor & President",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Shitij Kapur",
+            "raw_role": "Vice-Chancellor & President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lord Simon Stevens",
+            "role": "Chair of College Council",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lord Simon Stevens",
+            "raw_role": "Chair of College Council",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "'Funmi Olonisakin",
+            "role": "Senior Vice President (International, Engagement & Service)",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "'Funmi Olonisakin",
+            "raw_role": "Senior Vice President (International, Engagement & Service)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "The Revd Dr Ellen Clark-King",
+            "role": "Dean of King's",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Revd Dr Ellen Clark-King",
+            "raw_role": "Dean of King's",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "international@kcl.ac.uk",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Professor Shitij Kapur",
+            "role": "Vice-Chancellor & President",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Shitij Kapur",
+            "raw_role": "Vice-Chancellor & President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lord Simon Stevens",
+            "role": "Chair of College Council",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lord Simon Stevens",
+            "raw_role": "Chair of College Council",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "'Funmi Olonisakin",
+            "role": "Senior Vice President (International, Engagement & Service)",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "'Funmi Olonisakin",
+            "raw_role": "Senior Vice President (International, Engagement & Service)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "The Revd Dr Ellen Clark-King",
+            "role": "Dean of King's",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Revd Dr Ellen Clark-King",
+            "raw_role": "Dean of King's",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "international@kcl.ac.uk",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Shitij Kapur",
+            "raw_role": "Vice-Chancellor & President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lord Simon Stevens",
+            "role": "Chair of College Council",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lord Simon Stevens",
+            "raw_role": "Chair of College Council",
+            "clean_name": "Lord Simon Stevens",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Funmi Olonisakin",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "'Funmi Olonisakin",
+            "raw_role": "Senior Vice President (International, Engagement & Service)",
+            "clean_name": "Funmi Olonisakin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "The Revd Dr Ellen",
+            "role": "Dean of King's",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Revd Dr Ellen Clark-King",
+            "raw_role": "Dean of King's",
+            "clean_name": "The Revd Dr Ellen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "international@kcl.ac.uk",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "international@kcl.ac.uk",
+            "cleanup_flags": [
+              "generic_inbox"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Shitij Kapur",
+            "raw_role": "Vice-Chancellor & President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Lord Simon Stevens",
+            "role": "Chair of College Council",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lord Simon Stevens",
+            "raw_role": "Chair of College Council",
+            "clean_name": "Lord Simon Stevens",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Funmi Olonisakin",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "'Funmi Olonisakin",
+            "raw_role": "Senior Vice President (International, Engagement & Service)",
+            "clean_name": "Funmi Olonisakin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "The Revd Dr Ellen",
+            "role": "Dean of King's",
+            "email": "",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Revd Dr Ellen Clark-King",
+            "raw_role": "Dean of King's",
+            "clean_name": "The Revd Dr Ellen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "international@kcl.ac.uk",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "international@kcl.ac.uk",
+            "cleanup_flags": [
+              "generic_inbox"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 3,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "international@kcl.ac.uk",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "score": 0,
+            "reason": "generic inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": true,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "generic_inbox"
+            ],
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "international@kcl.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Lord Simon Stevens",
+            "role": "Chair of College Council",
+            "country": "GB",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "page_context": "Our people | King's College London Skip to main content Opens navigation menu Study Navigation category. Contains links. Press enter key to expand. Study Navigation link in category Study. Press escape key to return to main menu Undergraduate Navigation link in category Study. Press escape key to return to main menu Postgraduate taught Navigation link in category Study. Press escape key to return to main menu Postgraduate Research Navigation link in category Study. Press escape key to return to",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Lord Simon Stevens",
+            "raw_role": "Chair of College Council",
+            "clean_name": "Lord Simon Stevens",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.45
+          },
+          {
+            "name": "Funmi Olonisakin",
+            "role": "international office",
+            "country": "GB",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "page_context": "Our people | King's College London Skip to main content Opens navigation menu Study Navigation category. Contains links. Press enter key to expand. Study Navigation link in category Study. Press escape key to return to main menu Undergraduate Navigation link in category Study. Press escape key to return to main menu Postgraduate taught Navigation link in category Study. Press escape key to return to main menu Postgraduate Research Navigation link in category Study. Press escape key to return to",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "'Funmi Olonisakin",
+            "raw_role": "Senior Vice President (International, Engagement & Service)",
+            "clean_name": "Funmi Olonisakin",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.85,
+            "email_confidence": 0.9,
+            "evidence_strength": 1.125,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": {
+              "email": "funmi.olonisakin@kcl.ac.uk",
+              "evidence_url": "https://www.kcl.ac.uk/people/funmi-olonisakin",
+              "evidence_type": "related_page",
+              "score": 9,
+              "confidence": "high",
+              "recovery_reason": "direct email evidence on related page"
+            },
+            "evidence_items": [
+              {
+                "email": "funmi.olonisakin@kcl.ac.uk",
+                "evidence_url": "https://www.kcl.ac.uk/people/funmi-olonisakin",
+                "evidence_type": "related_page",
+                "score": 9,
+                "confidence": "high",
+                "recovery_reason": "direct email evidence on related page"
+              }
+            ],
+            "expected_yield": 9.45
+          },
+          {
+            "name": "The Revd Dr Ellen",
+            "role": "Dean of King's",
+            "country": "GB",
+            "page_url": "https://www.kcl.ac.uk/about/our-people",
+            "page_context": "Our people | King's College London Skip to main content Opens navigation menu Study Navigation category. Contains links. Press enter key to expand. Study Navigation link in category Study. Press escape key to return to main menu Undergraduate Navigation link in category Study. Press escape key to return to main menu Postgraduate taught Navigation link in category Study. Press escape key to return to main menu Postgraduate Research Navigation link in category Study. Press escape key to return to",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "The Revd Dr Ellen Clark-King",
+            "raw_role": "Dean of King's",
+            "clean_name": "The Revd Dr Ellen",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "b000f6b2038c2b0d94ce6616c82f66ffcd66a6a1"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Lord Simon Stevens",
+        "role": "Chair of College Council",
+        "country": "GB",
+        "page_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_context": "Our people | King's College London Skip to main content Opens navigation menu Study Navigation category. Contains links. Press enter key to expand. Study Navigation link in category Study. Press escape key to return to main menu Undergraduate Navigation link in category Study. Press escape key to return to main menu Postgraduate taught Navigation link in category Study. Press escape key to return to main menu Postgraduate Research Navigation link in category Study. Press escape key to return to",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Lord Simon Stevens",
+        "raw_role": "Chair of College Council",
+        "clean_name": "Lord Simon Stevens",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.45
+      },
+      {
+        "name": "Funmi Olonisakin",
+        "role": "international office",
+        "country": "GB",
+        "page_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_context": "Our people | King's College London Skip to main content Opens navigation menu Study Navigation category. Contains links. Press enter key to expand. Study Navigation link in category Study. Press escape key to return to main menu Undergraduate Navigation link in category Study. Press escape key to return to main menu Postgraduate taught Navigation link in category Study. Press escape key to return to main menu Postgraduate Research Navigation link in category Study. Press escape key to return to",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "'Funmi Olonisakin",
+        "raw_role": "Senior Vice President (International, Engagement & Service)",
+        "clean_name": "Funmi Olonisakin",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "search_people_pages",
+        "directory_ready": true,
+        "name_confidence": 0.85,
+        "email_confidence": 0.9,
+        "evidence_strength": 1.125,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": {
+          "email": "funmi.olonisakin@kcl.ac.uk",
+          "evidence_url": "https://www.kcl.ac.uk/people/funmi-olonisakin",
+          "evidence_type": "related_page",
+          "score": 9,
+          "confidence": "high",
+          "recovery_reason": "direct email evidence on related page"
+        },
+        "evidence_items": [
+          {
+            "email": "funmi.olonisakin@kcl.ac.uk",
+            "evidence_url": "https://www.kcl.ac.uk/people/funmi-olonisakin",
+            "evidence_type": "related_page",
+            "score": 9,
+            "confidence": "high",
+            "recovery_reason": "direct email evidence on related page"
+          }
+        ],
+        "expected_yield": 9.45
+      },
+      {
+        "name": "The Revd Dr Ellen",
+        "role": "Dean of King's",
+        "country": "GB",
+        "page_url": "https://www.kcl.ac.uk/about/our-people",
+        "page_context": "Our people | King's College London Skip to main content Opens navigation menu Study Navigation category. Contains links. Press enter key to expand. Study Navigation link in category Study. Press escape key to return to main menu Undergraduate Navigation link in category Study. Press escape key to return to main menu Postgraduate taught Navigation link in category Study. Press escape key to return to main menu Postgraduate Research Navigation link in category Study. Press escape key to return to",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "The Revd Dr Ellen Clark-King",
+        "raw_role": "Dean of King's",
+        "clean_name": "The Revd Dr Ellen",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.45
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "international office",
+        "email": "international@kcl.ac.uk",
+        "page_url": "https://www.kcl.ac.uk/about/our-people",
+        "score": 0,
+        "reason": "generic inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": true,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "generic_inbox"
+        ],
+        "evidence_type": "office_contact",
+        "raw_name": "",
+        "raw_role": "International Office",
+        "clean_name": "",
+        "email_normalized": "international@kcl.ac.uk"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {
+      "b06276b655ee1dc5e40858a9c410e97f882dc394": {
+        "urls": [
+          "https://www.kcl.ac.uk/international-foundation"
+        ],
+        "shell_contexts": [
+          "real_link_multihop|homepage_nav|http://www.kcl.ac.uk/index.aspx"
+        ],
+        "page_families": [
+          "international"
+        ],
+        "count": 1
+      },
+      "2198c6152508a42a2fb28e6bc7599d433722e06d": {
+        "urls": [
+          "https://www.kcl.ac.uk/study/international"
+        ],
+        "shell_contexts": [
+          "real_link_multihop|homepage_nav|http://www.kcl.ac.uk/index.aspx"
+        ],
+        "page_families": [
+          "international"
+        ],
+        "count": 1
+      }
+    }
+  }
+}

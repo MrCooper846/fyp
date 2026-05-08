@@ -1,0 +1,1194 @@
+{
+  "method": "ai_slug",
+  "university": "Brown University",
+  "homepage_url": "https://www.brown.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 202,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 3,
+    "contacts_extracted": 26,
+    "contacts_kept": 0,
+    "time_seconds": 32.89032506942749,
+    "tokens_in": 20747,
+    "tokens_out": 11000,
+    "cost_dollars": 0.0388482,
+    "best_url": "",
+    "source_breakdown": {
+      "mailto_explicit": 0,
+      "visible_regex": 0,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 26
+    }
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 189,
+      "generated_slug_only": 202,
+      "real_link_only": 133,
+      "hybrid": 261
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 14,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://www.brown.edu/faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates",
+          "real_link_multihop",
+          "sitemap",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.brown.edu/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs",
+          "real_link_multihop",
+          "sitemap",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://www.brown.edu/social/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Social Media Directory",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://www.brown.edu/search/people",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "People",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://directory.brown.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Directory (search by name)",
+        "parent_url": "https://www.brown.edu/staff",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://division-research.brown.edu/contact/research-support-teams/sponsored-projects",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "contact",
+        "heuristic_score": 10.4,
+        "anchor_text": "Office of Sponsored Projects",
+        "parent_url": "https://www.brown.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://www.brown.edu/academics/global",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global Education",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://www.brown.edu/social",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Social Media Directory",
+        "parent_url": "https://www.brown.edu/social/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://www.brown.edu/brown-research/industry-engagement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "Industry Engagement",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://division-research.brown.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Conducting Research at Brown",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://vivo.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Find a Researcher",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://www.brown.edu/brown-research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://college.brown.edu/faculty/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Support For Faculty and Advisors",
+        "parent_url": "https://www.brown.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://college.brown.edu/faculty/advisors",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Academic Advising",
+        "parent_url": "https://www.brown.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://college.brown.edu/faculty/teaching-curriculum/course-development-funds",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Course Development Funds",
+        "parent_url": "https://www.brown.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://sac.brown.edu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff Advisory Council",
+        "parent_url": "https://www.brown.edu/staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://www.brown.edu/about/administration/global-engagement/office-global-engagement/grant-opportunities",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 23.25,
+        "anchor_text": "Internationalization Faculty Initiatives Seed Fund",
+        "parent_url": "https://www.brown.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://provost.brown.edu/policies-and-procedures",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Academic Policies",
+        "parent_url": "https://www.brown.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://www.brown.edu/about/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "contact",
+        "heuristic_score": 5.4,
+        "anchor_text": "Contact Us",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://college.brown.edu/learn-beyond-classroom/international-study/gelt",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Global Experiential Learning and Teaching",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://gbc.brown.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.7,
+        "anchor_text": "Global Brown Center for International Students",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://gbc.brown.edu/get-involved/programs",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "International Mentoring Program",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://oge.brown.edu/partnerships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "partnerships with universities across the globe",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://oge.brown.edu/programs/summer",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Global Summer Program.",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://studyabroad.brown.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "study abroad programs",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://studyabroad.brown.edu/explore/programs",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Brown’s global centers",
+        "parent_url": "https://www.brown.edu/academics/global",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://professional.brown.edu/admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 5.5,
+        "anchor_text": "Executive & Professional Admission",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://www.brown.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://www.brown.edu/about/visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Visit Brown",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "http://admission.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Undergraduate Admission",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://admission.med.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Medical School Admission",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://alumni-friends.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://alumni-friends.brown.edu/giving",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Give to Brown",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://digital-accessibility.brown.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Accessibility",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://families.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Parents & Families",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://maps.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Campus Map",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://publicsafety.brown.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Campus Safety",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://www.brown.edu/a-z",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "A to Z",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://www.brown.edu/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Academics",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://www.brown.edu/academics/centers-institutes",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Centers & Institutes",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://www.brown.edu/academics/departments",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Academic Departments",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://www.brown.edu/academics/graduate",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Graduate & Professional",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://www.brown.edu/academics/libraries",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Libraries & Collections",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://www.brown.edu/academics/non-degree",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Non-Degree Programs",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://www.brown.edu/academics/schools-colleges",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Schools & Colleges",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://www.brown.edu/academics/undergraduate",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Undergraduate",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://www.brown.edu/admission",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Admission & Aid",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://www.brown.edu/admission/graduate",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Graduate Admission",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://www.brown.edu/admission/tuition-aid",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Tuition & Aid",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://www.brown.edu/careers",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Careers at Brown",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.brown.edu/about/leadership",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "profile_slugs",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.brown.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.brown.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.brown.edu/en/faculty/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.brown.edu/en/staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.brown.edu/faculty/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.brown.edu/staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.brown.edu/en/faculty/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "https://www.brown.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.brown.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.brown.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 3,
+      "best_url": "",
+      "best_url_kept": 0,
+      "source_breakdown": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 26
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://www.brown.edu/faculty",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 10,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 461313,
+        "visible_text_length": 21460,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "abe76690fecc5e9bf866bcc3557d7cedffd03e63",
+        "content_signatures": [
+          "abe76690fecc5e9bf866bcc3557d7cedffd03e63",
+          "23a1e44ee890aadc624b26ea221d67d61e713523",
+          "df5cfcc8fe2013684994bba97526f4a1e505e48b",
+          "2a85997e772772bb3f962d0fe693b274fbd83380",
+          "8c4f78c43b5f4851e9cf35447ca91c7632278432"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.brown.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.brown.edu/staff",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 9,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 525946,
+        "visible_text_length": 20919,
+        "embedded_text_length": 2462,
+        "embedded_document_count": 4,
+        "acquisition_modes": [
+          "static_html",
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "09a0eb5586bc7f4a7f22204f8d7cec683a99c92e",
+        "content_signatures": [
+          "09a0eb5586bc7f4a7f22204f8d7cec683a99c92e",
+          "23a1e44ee890aadc624b26ea221d67d61e713523",
+          "df5cfcc8fe2013684994bba97526f4a1e505e48b",
+          "2a85997e772772bb3f962d0fe693b274fbd83380",
+          "8c4f78c43b5f4851e9cf35447ca91c7632278432",
+          "a174868192d54040f4d1bc902aefec1f376086c6"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.brown.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 9
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.brown.edu/social/",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 7,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 487314,
+        "visible_text_length": 19373,
+        "embedded_text_length": 2462,
+        "embedded_document_count": 4,
+        "acquisition_modes": [
+          "static_html",
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "37576a3eeeba766a84c52ea1b6c4519147c08747",
+        "content_signatures": [
+          "37576a3eeeba766a84c52ea1b6c4519147c08747",
+          "23a1e44ee890aadc624b26ea221d67d61e713523",
+          "df5cfcc8fe2013684994bba97526f4a1e505e48b",
+          "2a85997e772772bb3f962d0fe693b274fbd83380",
+          "8c4f78c43b5f4851e9cf35447ca91c7632278432",
+          "a174868192d54040f4d1bc902aefec1f376086c6"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.brown.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 7
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.brown.edu/search/people",
+        "fetch_succeeded": false,
+        "pages_fetched": 0,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 0,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "content_signature": "",
+        "content_signatures": [],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.brown.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://directory.brown.edu/",
+        "fetch_succeeded": false,
+        "pages_fetched": 0,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 0,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "content_signature": "",
+        "content_signatures": [],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.brown.edu/staff",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 12.05,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://division-research.brown.edu/contact/research-support-teams/sponsored-projects",
+        "fetch_succeeded": false,
+        "pages_fetched": 0,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 0,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "content_signature": "",
+        "content_signatures": [],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.brown.edu/faculty",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "contact",
+        "candidate_heuristic_score": 10.4,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

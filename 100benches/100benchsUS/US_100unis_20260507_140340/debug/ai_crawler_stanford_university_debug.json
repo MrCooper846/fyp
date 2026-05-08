@@ -1,0 +1,3314 @@
+{
+  "method": "ai_crawler",
+  "university": "Stanford University",
+  "homepage_url": "https://www.stanford.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 5,
+    "candidates_probed": 3,
+    "contacts_extracted": 17,
+    "contacts_kept": 0,
+    "time_seconds": 39.975435733795166,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://alumnidirectory.stanford.edu/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=alumni-directory/page/directory/search?utm_source=SAA&utm_medium=Homepage&utm_campaign=Footer&utm_content=directory",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 5,
+      "pages_fetched": 5,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.stanford.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://facultypositions.stanford.edu/en-us/filter/?category=dean%20of%20research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Dean of Research",
+        "parent_url": "https://openfacultypositions.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultypositions.stanford.edu/en-us/filter/?category=doerr%20school%20of%20sustainability",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Doerr School of Sustainability",
+        "parent_url": "https://openfacultypositions.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultypositions.stanford.edu/en-us/filter/?category=graduate%20school%20of%20education",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Graduate School of Education",
+        "parent_url": "https://openfacultypositions.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultypositions.stanford.edu/en-us/filter/?category=school%20of%20engineering",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "School of Engineering",
+        "parent_url": "https://openfacultypositions.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultypositions.stanford.edu/en-us/filter/?category=school%20of%20humanities%20%26%20sciences",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "School of Humanities & Sciences",
+        "parent_url": "https://openfacultypositions.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultypositions.stanford.edu/en-us/filter/?category=school%20of%20medicine",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "School of Medicine",
+        "parent_url": "https://openfacultypositions.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://alumnidirectory.stanford.edu/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=alumni-directory/page/directory/search?utm_source=SAA&utm_medium=Homepage&utm_campaign=Footer&utm_content=directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Connect on Alumni Directory (external link)",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Faculty/Staff Weekend",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://alumnidirectory.stanford.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Alumni Directory (external link)",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "http://alumni.stanford.edu/stanford-associates/directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Associates Designees",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://openfacultypositions.stanford.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Faculty Positions",
+        "parent_url": "https://www.stanford.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://stanfordwho.stanford.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Directory",
+        "parent_url": "https://www.stanford.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stanford.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "https://www.stanford.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://facultydevelopment.stanford.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Development & Engagement",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://facultyaffairs.stanford.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Affairs",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://facultyclub.stanford.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Club",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://facultysenate.stanford.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Senate",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://fingate.stanford.edu/faculty/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Financial Activities",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://fsh.stanford.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty Housing",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cardinalatwork.stanford.edu/welcome-center",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "New Staff Welcome Center",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversityandaccess.stanford.edu/diversity/staff-groups",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Staff Groups",
+        "parent_url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facts.stanford.edu/academics/faculty/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Pulitzer Prizes, National Medals, and MacArthur Fellows",
+        "parent_url": "https://www.stanford.edu/about/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://groups.stanford.edu/topics?super_category_id=344",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Regional Groups (International) (external link)",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/about/leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Executive Leadership",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": true,
+        "selection_reason": "This page provides information on executive leadership, potentially including individuals responsible for international partnerships and engagement, suitable for outreach."
+      },
+      {
+        "url": "http://alumni.stanford.edu/volunteer/volunteer-leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/stanford-associates/board-governors/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Board of Governors",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.stanford.edu/2020/07/13/stanford-university-board-trustees-elects-four-new-members-2/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current Trustees (external link)",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/about/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Get in Touch",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://myaccount.stanford.edu/profile/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=update-profile",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Update Your Contact Info (external link)",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Stanford University",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/academic-polices/all",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academic Policies A-Z",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/academic-polices/student-conduct-rights/nondiscrimination",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Nondiscrimination Policy",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/courses",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Courses",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/departments",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Departments",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Non-Discrimination",
+        "parent_url": "https://www.stanford.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/programs",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Programs",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studentservices.stanford.edu/calendar/academic-dates/stanford-academic-calendar-2025-2026",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academic Calendar 2025-26",
+        "parent_url": "https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stanford.edu/about/about/leadership-and-governance/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Leadership and Governance",
+        "parent_url": "https://www.stanford.edu/about/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/resources/learn/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Learning Opportunities",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/volunteer/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Opportunities",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Get to Know SAA",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/about/departments/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Departments",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/travel-study/about/who-we-are/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Travel/Study",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.stanford.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/accessibility/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Accessibility",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/alumni-center-events/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Hosting with SAA",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/alumni-center-events/coho-cafe/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "COHO Cafe Events",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/alumni-center-events/event-planning-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Planning Resources",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.stanford.edu/alumni-center-events/event-spaces/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Event Spaces",
+        "parent_url": "http://alumni.stanford.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.stanford.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.stanford.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.stanford.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://alumnidirectory.stanford.edu/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=alumni-directory/page/directory/search?utm_source=SAA&utm_medium=Homepage&utm_campaign=Footer&utm_content=directory"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Waiver Release"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Waiver Release"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Waiver Release"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Waiver Release"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://alumnidirectory.stanford.edu/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stanford.edu/faculty-staff-gateway/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://alumni.stanford.edu/about/leadership/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Amanda Renteria"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover David Hornik"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Howard E Wolf"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Janet Hall"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jasmin Cooke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Renée Hirschberg"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Amanda Renteria"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover David Hornik"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Howard E Wolf"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Janet Hall"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jasmin Cooke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Renée Hirschberg"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Amanda Renteria"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover David Hornik"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Howard E Wolf"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Janet Hall"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Jasmin Cooke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Renée Hirschberg"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Amanda Renteria"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for David Hornik"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Howard E Wolf"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Janet Hall"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Jasmin Cooke"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Renée Hirschberg"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize relevant pages based on their likelihood of containing staff details for international partnerships and global engagement.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://alumnidirectory.stanford.edu/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=alumni-directory/page/directory/search?utm_source=SAA&utm_medium=Homepage&utm_campaign=Footer&utm_content=directory",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Waiver Release"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Waiver Release"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Waiver Release"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Waiver Release"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://alumnidirectory.stanford.edu/",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.stanford.edu/faculty-staff-gateway/",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page provides information on executive leadership, potentially including individuals responsible for international partnerships and engagement, suitable for outreach.",
+        "details": {
+          "url": "http://alumni.stanford.edu/about/leadership/",
+          "page_type": "leadership",
+          "expected_yield": 7.0
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Amanda Renteria"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "David Hornik"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Howard E Wolf"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Janet Hall"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jasmin Cooke"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Renée Hirschberg"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Amanda Renteria"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "David Hornik"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Howard E Wolf"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Janet Hall"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jasmin Cooke"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Renée Hirschberg"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Amanda Renteria"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "David Hornik"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Howard E Wolf"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Janet Hall"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Jasmin Cooke"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Renée Hirschberg"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Amanda Renteria"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "David Hornik"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Howard E Wolf"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Janet Hall"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Jasmin Cooke"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Renée Hirschberg"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize relevant pages based on their likelihood of containing staff details for international partnerships and global engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Select pages with staff information directly related to international roles.",
+        "ranked_pages": [
+          {
+            "url": "https://alumnidirectory.stanford.edu/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=alumni-directory/page/directory/search?utm_source=SAA&utm_medium=Homepage&utm_campaign=Footer&utm_content=directory",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://alumnidirectory.stanford.edu/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://alumni.stanford.edu/about/leadership/",
+            "reason": "This page provides information on executive leadership, potentially including individuals responsible for international partnerships and engagement, suitable for outreach.",
+            "expected_yield": 7.0,
+            "page_type": "leadership"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://alumnidirectory.stanford.edu/?utm_source=saa-website&utm_medium=link&utm_campaign=saa&utm_content=alumni-directory/page/directory/search?utm_source=SAA&utm_medium=Homepage&utm_campaign=Footer&utm_content=directory",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://alumni.stanford.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://alumni.stanford.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 10885,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 10885,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Waiver Release",
+            "role": "",
+            "email": "sierracamp@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Camp office",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Camp office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Frances C. Arrillaga Alumni Center",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Frances C. Arrillaga Alumni Center",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Stanford Alumni Association",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Stanford Alumni Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Waiver Release",
+            "role": "",
+            "email": "sierracamp@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Camp office",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Camp office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Frances C. Arrillaga Alumni Center",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Frances C. Arrillaga Alumni Center",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Stanford Alumni Association",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Stanford Alumni Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Waiver Release",
+            "role": "",
+            "email": "sierracamp@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "Waiver Release",
+            "email_normalized": "sierracamp@alumni.stanford.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Camp office",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Camp office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Frances C. Arrillaga Alumni Center",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Frances C. Arrillaga Alumni Center",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Stanford Alumni Association",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Stanford Alumni Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "sierracamp@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "sierracamp@alumni.stanford.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Waiver Release",
+            "role": "",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "Waiver Release",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Camp office",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Camp office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Frances C. Arrillaga Alumni Center",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Frances C. Arrillaga Alumni Center",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Stanford Alumni Association",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Stanford Alumni Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "",
+            "email": "sierracamp@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "sierracamp@alumni.stanford.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Waiver Release",
+            "role": "",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+            "page_context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "raw_name": "Waiver Release",
+            "raw_role": "",
+            "clean_name": "Waiver Release",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 10.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "874cf99ef472b2575d9d69981a11ddf8dc25b7ea"
+      },
+      {
+        "url": "https://alumnidirectory.stanford.edu/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://alumni.stanford.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://alumni.stanford.edu/",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.stanford.edu/faculty-staff-gateway/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.stanford.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.stanford.edu",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 6276,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 6276,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of International Affairs",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of International Affairs",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stanford.edu/faculty-staff-gateway/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0f156c45086e760a8586282f56b5b1162f672c17"
+      },
+      {
+        "url": "http://alumni.stanford.edu/about/leadership/",
+        "reason": "This page provides information on executive leadership, potentially including individuals responsible for international partnerships and engagement, suitable for outreach.",
+        "page_type": "leadership",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://alumni.stanford.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://alumni.stanford.edu/",
+        "page_family": "governance",
+        "expected_yield": 7.0,
+        "family_signature": null,
+        "raw_contacts_found": 10,
+        "text_length": 11571,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 11571,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "(650) 723-2021\ncontact-saa@alumni.stanford.edu\nFrances C. Arrillaga Alumni Center\n326 Galvez Street\nStanford, CA 94305-6105",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Our leadership and departments Section menu Get to Know SAA Departments Executive Leadership Jobs (external link) Get to Know SAA Departments Executive Leadership Jobs (external link) SAA Leadership Guiding The Way Skip past sidebar to page content Section menu Get to Know SAA Departments Executive Leadership Jobs (external link) Get to Know SAA Departments Executive Leadership Jobs (external link) Stanford Alumni (650) 723-2021 contact-saa@alumni.stanford.edu Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Executive Leadership Our executive team leads, plans, advises and, most importantly, fosters esprit de corps among staff members and alumni alike. Howard E. Wolf, ’80 Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association Wolf Alumni Directory profile (external link) Jasmin Cooke, ’05 Chief People and Culture Officer Cooke Alumni Directory profile (external link) Janet Hall, MBA ’97 Chief Financial Officer Hall Alumni Directory profile (external link) Renée Hirschberg Chief Alumni Relations Officer Stanford Alumni (650) 723-2021 contact-saa@alumni.stanford.edu Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Board of Directors The Board of Directors, under authority delegated by the university’s Board of Trustees, sets priorities for Stanford’s alumni relations, oversees SAA’s administration and programs, monitors budgets and long-term program plans, and approves goals for the division. David Hornik, ’90 Chair Palo Alto, California Hornik Alumni Directory profile (external link) Amanda Renteria, ’96 Vice Chair Piedmont, California Renteria Alumni Directory profile (external link) Andy Berke , ’90 , Washington, DC Kitty Boone, ’79 , Snowmass, CO Ward Bullard , ’00 , Menlo Park, California Maya Burns, ’12, MA ’13 , Los Angeles, CA Andrés Cantero, Jr. , ’12 , Los Angeles, CA Hans Carstensen , ’70, MBA ’74 , Shelburne, VT Paulo Castañón , MS ’96 , Paris, France Jennifer Chou , ’00, MA ’01, JD ’05 , Los Angeles, California Pierre Dagsi, ’26 , Stanford, California Kate Duhamel, ’83, MBA ’88 , San Francisco, CA Ireena Erteza, MS ’87, PhD ’93 , Albuquerque, NM Kern Guppy , MS ’76, MS ’78 PhD ’80 , Sacramento, CA Xavier Gutierrez , JD ’00 , Pasadena, CA Liz Jenkins , ’99 , Encino, California Greg Justice , ’11 , Redondo Beach, CA Melinda Kliegman , PhD ’13 , Seattle, WA Andrew Kwan , MS ’ 02, MS ’ 06 , Hong Kong Danielle Limcaoco , ’ 19 , Brooklyn, NY Fred Lopez , ’86, CRT ’95, MF ’98 , New Orleans, Louisiana Simeen Ali Mohsen, ’96 , Newton, MA Jason Okonofua , PhD ’15 , Cranston, RI Diego Patino , MS ’ 24 , Stanford James Quattromani, ’00 , Madison, WI Khara Ramos , ’01 , New York, NY Mili Dutt Reddy , ’02 , Hillsborough, CA Gabrielle Sagalov , MBA ’17 , Menlo Park CA Troy Steinmetz , ’07 , Louisville, Kentucky Marilyn van Loben Sels , ’ 66 , Clarksburg, CA Shankar Vedantam , MA ’93 , Washington, DC Carly Villareal , ’ 11, MS ’14 , San Francisco, CA Maurice Werdegar , ’86, MBA ’92, Woodside, CA Clara Wu Tsai , ’88, AM ’88 , La Jolla, California Stanford Alumni Association Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Map on Google (external link) Facebook Page LinkedIn Page Instagram Page Youtube Channel Get to Know SAA STANFORD Magazine (external link) Contact SAA Help Access SAA Member Card Check your alumni email (external link) My Alumni Account (external link) Give to Stanford (external link) Accessibility Privacy Policy Terms of Use Code of Conduct Stanford University Stanford Home (link is external) Maps & Directions (link is external) Search Stanford (link is external) Emergency Info (link is external) Terms of Use (link is external) Privacy (link is external) Copyright (link is external) Trademarks (link is external) Non-Discrimination (link is external) Accessibility (link is external) © Stanford University. Stanford, California 94305.",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Our leadership and departments Section menu Get to Know SAA Departments Executive Leadership Jobs (external link) Get to Know SAA Departments Executive Leadership Jobs (external link) SAA Leadership Guiding The Way Skip past sidebar to page content Section menu Get to Know SAA Departments Executive Leadership Jobs (external link) Get to Know SAA Departments Executive Leadership Jobs (external link) Stanford Alumni (650) 723-2021 contact-saa@alumni.stanford.edu Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Executive Leadership Our executive team leads, plans, advises and, most importantly, fosters esprit de corps among staff members and alumni alike. Howard E. Wolf, ’80 Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association Wolf Alumni Directory profile (external link) Jasmin Cooke, ’05 Chief People and Culture Officer Cooke Alumni Directory profile (external link) Janet Hall, MBA ’97 Chief Financial Officer Hall Alumni Directory profile (external link) Renée Hirschberg Chief Alumni Relations Officer Stanford Alumni (650) 723-2021 contact-saa@alumni.stanford.edu Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Board of Directors The Board of Directors, under authority delegated by the university’s Board of Trustees, sets priorities for Stanford’s alumni relations, oversees SAA’s administration and programs, monitors budgets and long-term program plans, and approves goals for the division. David Hornik, ’90 Chair Palo Alto, California Hornik Alumni Directory profile (external link) Amanda Renteria, ’96 Vice Chair Piedmont, California Renteria Alumni Directory profile (external link) Andy Berke , ’90 , Washington, DC Kitty Boone, ’79 , Snowmass, CO Ward Bullard , ’00 , Menlo Park, California Maya Burns, ’12, MA ’13 , Los Angeles, CA Andrés Cantero, Jr. , ’12 , Los Angeles, CA Hans Carstensen , ’70, MBA ’74 , Shelburne, VT Paulo Castañón , MS ’96 , Paris, France Jennifer Chou , ’00, MA ’01, JD ’05 , Los Angeles, California Pierre Dagsi, ’26 , Stanford, California Kate Duhamel, ’83, MBA ’88 , San Francisco, CA Ireena Erteza, MS ’87, PhD ’93 , Albuquerque, NM Kern Guppy , MS ’76, MS ’78 PhD ’80 , Sacramento, CA Xavier Gutierrez , JD ’00 , Pasadena, CA Liz Jenkins , ’99 , Encino, California Greg Justice , ’11 , Redondo Beach, CA Melinda Kliegman , PhD ’13 , Seattle, WA Andrew Kwan , MS ’ 02, MS ’ 06 , Hong Kong Danielle Limcaoco , ’ 19 , Brooklyn, NY Fred Lopez , ’86, CRT ’95, MF ’98 , New Orleans, Louisiana Simeen Ali Mohsen, ’96 , Newton, MA Jason Okonofua , PhD ’15 , Cranston, RI Diego Patino , MS ’ 24 , Stanford James Quattromani, ’00 , Madison, WI Khara Ramos , ’01 , New York, NY Mili Dutt Reddy , ’02 , Hillsborough, CA Gabrielle Sagalov , MBA ’17 , Menlo Park CA Troy Steinmetz , ’07 , Louisville, Kentucky Marilyn van Loben Sels , ’ 66 , Clarksburg, CA Shankar Vedantam , MA ’93 , Washington, DC Carly Villareal , ’ 11, MS ’14 , San Francisco, CA Maurice Werdegar , ’86, MBA ’92, Woodside, CA Clara Wu Tsai , ’88, AM ’88 , La Jolla, California Stanford Alumni Association Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Map on Google (external link) Facebook Page LinkedIn Page Instagram Page Youtube Channel Get to Know SAA STANFORD Magazine (external link) Contact SAA Help Access SAA Member Card Check your alumni email (external link) My Alumni Account (external link) Give to Stanford (external link) Accessibility Privacy Policy Terms of Use Code of Conduct Stanford University Stanford Home (link is external) Maps & Directions (link is external) Search Stanford (link is external) Emergency Info (link is external) Terms of Use (link is external) Privacy (link is external) Copyright (link is external) Trademarks (link is external) Non-Discrimination (link is external) Accessibility (link is external) © Stanford University. Stanford, California 94305.",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Howard E. Wolf",
+            "role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Howard E. Wolf",
+            "raw_role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jasmin Cooke",
+            "role": "Chief People and Culture Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jasmin Cooke",
+            "raw_role": "Chief People and Culture Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Janet Hall",
+            "role": "Chief Financial Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Janet Hall",
+            "raw_role": "Chief Financial Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renée Hirschberg",
+            "role": "Chief Alumni Relations Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renée Hirschberg",
+            "raw_role": "Chief Alumni Relations Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Hornik",
+            "role": "Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Hornik",
+            "raw_role": "Chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amanda Renteria",
+            "role": "Vice Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Renteria",
+            "raw_role": "Vice Chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Stanford Alumni",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Stanford Alumni",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News & Stories Recent Stories STANFORD magazine (external link) Newsletters Read Class Notes (external link) Learn Learning Opportunities Recommended Podcasts Subscribe to Learn List Career Connections Getting Started Students Career Resources Give Career Support Post or Find Jobs (external link) Post or Find Internships (external link) Connect on Alumni Directory (external link) Alumni Linkedin Group (external link) Programs & Perks Perks & Membership Perks for All Alumni Become an SAA Member SAA Membership Card SAA Member Benefits Sierra Programs Summer Family Camp Faculty/Staff Weekend Healthy Living Retreat for Women Memorial Day Weekend Sierra Camp Conference Center (external link) Sierra Programs Updates Travel/Study Find a Trip Browse Collections Custom Journeys About Travel/Study Trip Alerts Shop Stanford Alumni Fan Shop (external link) Stanford Alumni Coffee (external link) Wine Collection (external link) Communities Clubs & Groups Discover Alumni Groups (external link) Interest & Affinity Groups (external link) Professional Groups (external link) Regional Groups (U.S.) (external link) Regional Groups (International) (external link) School Groups (external link) Shared Identity Groups (external link) Leader Resources Young Alumni Recent Grad Resources Stanford 10 Undergraduate Students All Undergraduates Frosh Sophomores Juniors Seniors Senior Awards Senior Commencement Events Graduate Students All Graduate Students Grad Student Awards Grad Commencement Volunteer Volunteer Opportunities Leadership Richard W. Lyman Award Multicultural Alumni Hall of Fame Beyond the Farm Join a Project Project Leaders Stanford Associates Associates Designees Grants Awards Board of Governors Trustee Nominations Becoming a Trustee Board Facts Frequently Asked Questions Current Trustees (external link) About About Us Get to Know SAA Departments Executive Leadership Jobs (external link) Alumni Center Amenities & Space Dedication & Donors Contact Us Get in Touch Frequently Asked Questions Update Your Contact Info (external link) Submit a Class Note (external link) Submit an Obituary (external link) Our leadership and departments Section menu Get to Know SAA Departments Executive Leadership Jobs (external link) Get to Know SAA Departments Executive Leadership Jobs (external link) SAA Leadership Guiding The Way Skip past sidebar to page content Section menu Get to Know SAA Departments Executive Leadership Jobs (external link) Get to Know SAA Departments Executive Leadership Jobs (external link) Stanford Alumni (650) 723-2021 contact-saa@alumni.stanford.edu Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Executive Leadership Our executive team leads, plans, advises and, most importantly, fosters esprit de corps among staff members and alumni alike. Howard E. Wolf, ’80 Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association Wolf Alumni Directory profile (external link) Jasmin Cooke, ’05 Chief People and Culture Officer Cooke Alumni Directory profile (external link) Janet Hall, MBA ’97 Chief Financial Officer Hall Alumni Directory profile (external link) Renée Hirschberg Chief Alumni Relations Officer Stanford Alumni (650) 723-2021 contact-saa@alumni.stanford.edu Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Board of Directors The Board of Directors, under authority delegated by the university’s Board of Trustees, sets priorities for Stanford’s alumni relations, oversees SAA’s administration and programs, monitors budgets and long-term program plans, and approves goals for the division. David Hornik, ’90 Chair Palo Alto, California Hornik Alumni Directory profile (external link) Amanda Renteria, ’96 Vice Chair Piedmont, California Renteria Alumni Directory profile (external link) Andy Berke , ’90 , Washington, DC Kitty Boone, ’79 , Snowmass, CO Ward Bullard , ’00 , Menlo Park, California Maya Burns, ’12, MA ’13 , Los Angeles, CA Andrés Cantero, Jr. , ’12 , Los Angeles, CA Hans Carstensen , ’70, MBA ’74 , Shelburne, VT Paulo Castañón , MS ’96 , Paris, France Jennifer Chou , ’00, MA ’01, JD ’05 , Los Angeles, California Pierre Dagsi, ’26 , Stanford, California Kate Duhamel, ’83, MBA ’88 , San Francisco, CA Ireena Erteza, MS ’87, PhD ’93 , Albuquerque, NM Kern Guppy , MS ’76, MS ’78 PhD ’80 , Sacramento, CA Xavier Gutierrez , JD ’00 , Pasadena, CA Liz Jenkins , ’99 , Encino, California Greg Justice , ’11 , Redondo Beach, CA Melinda Kliegman , PhD ’13 , Seattle, WA Andrew Kwan , MS ’ 02, MS ’ 06 , Hong Kong Danielle Limcaoco , ’ 19 , Brooklyn, NY Fred Lopez , ’86, CRT ’95, MF ’98 , New Orleans, Louisiana Simeen Ali Mohsen, ’96 , Newton, MA Jason Okonofua , PhD ’15 , Cranston, RI Diego Patino , MS ’ 24 , Stanford James Quattromani, ’00 , Madison, WI Khara Ramos , ’01 , New York, NY Mili Dutt Reddy , ’02 , Hillsborough, CA Gabrielle Sagalov , MBA ’17 , Menlo Park CA Troy Steinmetz , ’07 , Louisville, Kentucky Marilyn van Loben Sels , ’ 66 , Clarksburg, CA Shankar Vedantam , MA ’93 , Washington, DC Carly Villareal , ’ 11, MS ’14 , San Francisco, CA Maurice Werdegar , ’86, MBA ’92, Woodside, CA Clara Wu Tsai , ’88, AM ’88 , La Jolla, California Stanford Alumni Association Frances C. Arrillaga Alumni Center 326 Galvez Street Stanford, CA 94305-6105 Map on Google (external link) Facebook Page LinkedIn Page Instagram Page Youtube Channel Get to Know SAA STANFORD Magazine (external link) Contact SAA Help Access SAA Member Card Check your alumni email (external link) My Alumni Account (external link) Give to Stanford (external link) Accessibility Privacy Policy Terms of Use Code of Conduct Stanford University Stanford Home (link is external) Maps & Directions (link is external) Search Stanford (link is external) Emergency Info (link is external) Terms of Use (link is external) Privacy (link is external) Copyright (link is external) Trademarks (link is external) Non-Discrimination (link is external) Accessibility (link is external) © Stanford University. Stanford, California 94305.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Howard E. Wolf",
+            "role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Howard E. Wolf",
+            "raw_role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jasmin Cooke",
+            "role": "Chief People and Culture Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jasmin Cooke",
+            "raw_role": "Chief People and Culture Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Janet Hall",
+            "role": "Chief Financial Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Janet Hall",
+            "raw_role": "Chief Financial Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renée Hirschberg",
+            "role": "Chief Alumni Relations Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renée Hirschberg",
+            "raw_role": "Chief Alumni Relations Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Hornik",
+            "role": "Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Hornik",
+            "raw_role": "Chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amanda Renteria",
+            "role": "Vice Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Renteria",
+            "raw_role": "Vice Chair",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "contact-saa@alumni.stanford.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Howard E Wolf",
+            "role": "president",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Howard E. Wolf",
+            "raw_role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "clean_name": "Howard E Wolf",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jasmin Cooke",
+            "role": "Chief People and Culture Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jasmin Cooke",
+            "raw_role": "Chief People and Culture Officer",
+            "clean_name": "Jasmin Cooke",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Janet Hall",
+            "role": "Chief Financial Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Janet Hall",
+            "raw_role": "Chief Financial Officer",
+            "clean_name": "Janet Hall",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renée Hirschberg",
+            "role": "Chief Alumni Relations Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renée Hirschberg",
+            "raw_role": "Chief Alumni Relations Officer",
+            "clean_name": "Renée Hirschberg",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Hornik",
+            "role": "Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Hornik",
+            "raw_role": "Chair",
+            "clean_name": "David Hornik",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amanda Renteria",
+            "role": "Vice Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Renteria",
+            "raw_role": "Vice Chair",
+            "clean_name": "Amanda Renteria",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "contact-saa@alumni.stanford.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Howard E Wolf",
+            "role": "president",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Howard E. Wolf",
+            "raw_role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "clean_name": "Howard E Wolf",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Jasmin Cooke",
+            "role": "Chief People and Culture Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jasmin Cooke",
+            "raw_role": "Chief People and Culture Officer",
+            "clean_name": "Jasmin Cooke",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Janet Hall",
+            "role": "Chief Financial Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Janet Hall",
+            "raw_role": "Chief Financial Officer",
+            "clean_name": "Janet Hall",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Renée Hirschberg",
+            "role": "Chief Alumni Relations Officer",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renée Hirschberg",
+            "raw_role": "Chief Alumni Relations Officer",
+            "clean_name": "Renée Hirschberg",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "David Hornik",
+            "role": "Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Hornik",
+            "raw_role": "Chair",
+            "clean_name": "David Hornik",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Amanda Renteria",
+            "role": "Vice Chair",
+            "email": "",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Renteria",
+            "raw_role": "Vice Chair",
+            "clean_name": "Amanda Renteria",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 7
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 7,
+        "clean_candidate_count": 7,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 6,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "contact-saa@alumni.stanford.edu",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": true,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "contact-saa@alumni.stanford.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Howard E Wolf",
+            "role": "president",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Howard E. Wolf",
+            "raw_role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+            "clean_name": "Howard E Wolf",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.0
+          },
+          {
+            "name": "Jasmin Cooke",
+            "role": "Chief People and Culture Officer",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jasmin Cooke",
+            "raw_role": "Chief People and Culture Officer",
+            "clean_name": "Jasmin Cooke",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.0
+          },
+          {
+            "name": "Janet Hall",
+            "role": "Chief Financial Officer",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Janet Hall",
+            "raw_role": "Chief Financial Officer",
+            "clean_name": "Janet Hall",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.0
+          },
+          {
+            "name": "Renée Hirschberg",
+            "role": "Chief Alumni Relations Officer",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Renée Hirschberg",
+            "raw_role": "Chief Alumni Relations Officer",
+            "clean_name": "Renée Hirschberg",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.0
+          },
+          {
+            "name": "David Hornik",
+            "role": "Chair",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "David Hornik",
+            "raw_role": "Chair",
+            "clean_name": "David Hornik",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.0
+          },
+          {
+            "name": "Amanda Renteria",
+            "role": "Vice Chair",
+            "country": "US",
+            "page_url": "http://alumni.stanford.edu/about/leadership/",
+            "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Amanda Renteria",
+            "raw_role": "Vice Chair",
+            "clean_name": "Amanda Renteria",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.0
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "515f317bd98dea1d5087855a46a4276e83fa82e8"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Waiver Release",
+        "role": "",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+        "page_context": "Waiver Release\nAll adult participants are required to sign a liability release before arriving at Camp. Please contact the Camp office at\n(530) 542-5600\nor\nemail\nany questions.",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "raw_name": "Waiver Release",
+        "raw_role": "",
+        "clean_name": "Waiver Release",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 10.45
+      },
+      {
+        "name": "Howard E Wolf",
+        "role": "president",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Howard E. Wolf",
+        "raw_role": "Vice President for Alumni Affairs, Stanford University and President, Stanford Alumni Association",
+        "clean_name": "Howard E Wolf",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.0
+      },
+      {
+        "name": "Jasmin Cooke",
+        "role": "Chief People and Culture Officer",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jasmin Cooke",
+        "raw_role": "Chief People and Culture Officer",
+        "clean_name": "Jasmin Cooke",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.0
+      },
+      {
+        "name": "Janet Hall",
+        "role": "Chief Financial Officer",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Janet Hall",
+        "raw_role": "Chief Financial Officer",
+        "clean_name": "Janet Hall",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.0
+      },
+      {
+        "name": "Renée Hirschberg",
+        "role": "Chief Alumni Relations Officer",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Renée Hirschberg",
+        "raw_role": "Chief Alumni Relations Officer",
+        "clean_name": "Renée Hirschberg",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.0
+      },
+      {
+        "name": "David Hornik",
+        "role": "Chair",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "David Hornik",
+        "raw_role": "Chair",
+        "clean_name": "David Hornik",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.0
+      },
+      {
+        "name": "Amanda Renteria",
+        "role": "Vice Chair",
+        "country": "US",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "page_context": "Executive Leadership | Stanford Alumni Association Skip to main content Alumni Directory (external link) Email (external link) Search Events Featured Events All Alumni Events Alumni Community Events (external link) Career Events Student Events University Events (external link) Stanford Athletics Tickets (external link) Reunion Homecoming Reunion 2026 Ways to Volunteer Alumni Center Events Hosting with SAA Event Spaces Rental Rates Planning Resources COHO Cafe Events Reading & Resources News &",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Amanda Renteria",
+        "raw_role": "Vice Chair",
+        "clean_name": "Amanda Renteria",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.0
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "",
+        "email": "sierracamp@alumni.stanford.edu",
+        "page_url": "http://alumni.stanford.edu/sierra-programs/faculty-staff-weekend/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Waiver Release",
+        "raw_role": "",
+        "clean_name": "",
+        "email_normalized": "sierracamp@alumni.stanford.edu"
+      },
+      {
+        "name": "",
+        "role": "rector",
+        "email": "contact-saa@alumni.stanford.edu",
+        "page_url": "http://alumni.stanford.edu/about/leadership/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": true,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "generic_inbox"
+        ],
+        "evidence_type": "visible_text",
+        "raw_name": "",
+        "raw_role": "rector",
+        "clean_name": "",
+        "email_normalized": "contact-saa@alumni.stanford.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

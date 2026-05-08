@@ -1,0 +1,2235 @@
+{
+  "method": "ai_crawler",
+  "university": "The Ohio State University",
+  "homepage_url": "http://www.osu.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 55,
+    "candidates_ranked": 55,
+    "probe_attempts": 2,
+    "candidates_probed": 2,
+    "contacts_extracted": 13,
+    "contacts_kept": 3,
+    "time_seconds": 17.926835298538208,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://shs.osu.edu/about-us/provider-directory",
+    "source_breakdown": {}
+  },
+  "contacts": [
+    {
+      "name": "Sl Accessibility",
+      "email": "sl-accessibility@osu.edu",
+      "role": "rector",
+      "page_url": "https://shs.osu.edu/about-us/provider-directory",
+      "score": 0,
+      "reason": "ok"
+    },
+    {
+      "name": "Abby Hertzfeld",
+      "email": "abby-hertzfeld@osu.edu",
+      "role": "rector",
+      "page_url": "https://sl.osu.edu/dining/people",
+      "score": 0,
+      "reason": "pattern_inference_recovery"
+    },
+    {
+      "name": "Eric Stucke",
+      "email": "eric-stucke@osu.edu",
+      "role": "rector",
+      "page_url": "https://sl.osu.edu/dining/people",
+      "score": 0,
+      "reason": "pattern_inference_recovery"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": true,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "high_confidence_coverage_reached",
+      "probe_attempts": 2,
+      "pages_fetched": 2,
+      "successful_fetches": 2,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "http://www.osu.edu/faculty-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Faculty/Staff resources",
+        "parent_url": "http://www.osu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://erik.osu.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research Administration",
+        "parent_url": "http://www.osu.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://shs.osu.edu/about-us/provider-directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Provider Directory",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://sl.osu.edu/dining/people",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership Team",
+        "parent_url": "https://dining.osu.edu/",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://faculty.osu.edu/faculty-success",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty awards",
+        "parent_url": "http://www.osu.edu/faculty-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://faculty.osu.edu/faculty-support/faculty-development",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "http://www.osu.edu/faculty-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://dining.osu.edu/employment/full-and-part-time-employment/operation-management",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Operation Management",
+        "parent_url": "https://dining.osu.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://wellness.osu.edu/faculty-and-staff/buckeye-wellness",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Buckeye Wellness",
+        "parent_url": "http://www.osu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.osu.edu/impact/in-the-community/parawave-drone-tech",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Read more - Drone team providing critical support for first responders",
+        "parent_url": "http://www.osu.edu",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://dining.osu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Dining Services",
+        "parent_url": "http://www.osu.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://dining.osu.edu/employment/full-and-part-time-employment/customer-service-and-utility",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Customer Service and Utility",
+        "parent_url": "https://dining.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Student Health Services",
+        "parent_url": "http://www.osu.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Services",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/add-adhd",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "ADD/ADHD",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/allergy-therapy",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Allergy Therapy",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/covid-19",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "COVID-19",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/covid-19/information",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Information",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/covid-19/vaccinations",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Vaccinations",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/dental-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Dental Services",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Gynecologic Services",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/colposcopy-preparation",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Colposcopy Preparation",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/contraceptives",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contraceptives",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/contraceptives/intrauterine-devices-frequently-asked-questions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Intrauterine Devices - Frequently Asked Questions",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/gynecologic-preconception-health",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Gynecologic - Preconception Health",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/polycystic-ovarian-syndrome",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Polycystic Ovarian Syndrome",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/sexual-violence",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Sexual Violence",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/sexually-transmitted-infections",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Sexually Transmitted Infections",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/testing-for-non-consensual-drugging",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Testing for Non-Consensual Drugging",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/gynecologic-services/urinary-tract-infection-uti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Urinary Tract Infection (UTI)",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/health-records",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Health Records",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/laboratory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Laboratory",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/mens-health-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Men's Health Services",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/mental-health-and-psychiatric-medication-management",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Mental Health and Psychiatric Medication Management",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/nutrition-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Nutrition Services",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/optometry",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Optometry",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/pharmacy",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Pharmacy",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/pharmacy/drug-take-back",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Drug Take Back",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/pharmacy/flu-vaccination",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Flu Vaccination",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/pharmacy/opioid-addiction-and-recovery",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Opioid Addiction and Recovery",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/pharmacy/prescriptions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Prescriptions",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/pharmacy/vaccines-by-appointment",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Vaccines by Appointment",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/physical-therapy-and-sports-medicine",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Physical Therapy and Sports Medicine",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/preventive-medicine",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Preventive Medicine",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/preventive-medicine/drug-screen-requirements",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Drug Screen Requirements",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/preventive-medicine/health-professional-compliance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Health Professional Compliance",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/preventive-medicine/risk-assessment-for-student-research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Risk Assessment for Student Research",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/preventive-medicine/tuberculosis-testing-requirement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Tuberculosis Testing Requirement",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/primary-care",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Primary Care",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/radiology",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Radiology",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://shs.osu.edu/services/referrals",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Referrals",
+        "parent_url": "https://shs.osu.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.osu.edu/search",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "first_hop_search_link",
+        "anchor_text": "Search Ohio State",
+        "parent_url": "https://www.osu.edu/impact/in-the-community/parawave-drone-tech",
+        "page_family": "directory",
+        "candidate_bucket": "search_interface",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false,
+        "deferred_for_later": true,
+        "deferred_reason": "search_interface_requires_target"
+      },
+      {
+        "url": "https://www.osu.edu/research-saves-lives",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.osu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.osu.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.osu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://shs.osu.edu/about-us/provider-directory"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://sl.osu.edu/dining/people"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Abby Hertzfeld"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Eric Stucke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Lesa Holford"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Abby Hertzfeld"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Eric Stucke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Lesa Holford"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Abby Hertzfeld"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Eric Stucke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Lesa Holford"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Abby Hertzfeld"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Eric Stucke"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Lesa Holford"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "high_confidence_coverage_reached"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://www.osu.edu/",
+          "to": "http://www.osu.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that contain staff directories and team information related to international engagement and partnerships.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://shs.osu.edu/about-us/provider-directory",
+          "page_type": "nav",
+          "expected_yield": 11.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://sl.osu.edu/dining/people",
+          "page_type": "nav",
+          "expected_yield": 11.5
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Abby Hertzfeld"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Eric Stucke"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Lesa Holford"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Abby Hertzfeld"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Eric Stucke"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Lesa Holford"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Abby Hertzfeld"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Eric Stucke"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Lesa Holford"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Abby Hertzfeld"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Eric Stucke"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Lesa Holford"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that contain staff directories and team information related to international engagement and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "End of ranked pages.",
+        "ranked_pages": [
+          {
+            "url": "https://shs.osu.edu/about-us/provider-directory",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 11.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://sl.osu.edu/dining/people",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 11.5,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://erik.osu.edu",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 4.95,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://dining.osu.edu/employment/full-and-part-time-employment/operation-management",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 2.75,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://shs.osu.edu/about-us/provider-directory",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://shs.osu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://shs.osu.edu/",
+        "page_family": "directory",
+        "expected_yield": 11.65,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 3495,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3495,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Student Health Services - Office of Student Life",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Student Health Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Student Health Services - Office of Student Life\nWilce Student Health Center\n1875 Millikin Road\nColumbus, OH 43210\nshs@osu.edu\nPhone: 614-292-4321",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "If you have a disability and experience difficulty accessing this content, please contact\nsl-accessibility@osu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Provider Directory : Student Health Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Student Health Services Menu Search Home My BuckMD My BuckMD Troubleshooting Assistance My BuckMD Patient Guide Services ADD/ADHD Allergy Therapy COVID-19 Information Vaccinations Dental Services Preventive Medicine Health Professional Compliance Drug Screen Requirements Tuberculosis Testing Requirement Risk Assessment for Student Research Health Education Resources Health Records Gynecologic Services Contraceptives Intrauterine Devices - Frequently Asked Questions Polycystic Ovarian Syndrome Sexually Transmitted Infections Sexual Violence Testing for Non-Consensual Drugging Urinary Tract Infection (UTI) Gynecologic - Preconception Health Colposcopy Preparation Men's Health Services Mental Health and Psychiatric Medication Management Laboratory Nutrition Services Optometry Pharmacy Prescriptions Opioid Addiction and Recovery Vaccines by Appointment Flu Vaccination Drug Take Back Physical Therapy and Sports Medicine Primary Care Radiology Referrals Resources Travel Consultation Vaccine Clinics Insurance Insurance Payment Vaccinations Vaccine Clinics Vaccines by Appointment University Vaccination Requirement Completing University Vaccination Requirement Frequently Asked Questions about the Vaccination Requirement Flu Vaccination Appointments Schedule or Cancel an Appointment Telehealth Chaperone Absence Excuse After Hours Care Health Education Resources FAQs Forms Emergencies After Hours Care Health Education Resources Online and Telehealth Resources Dental & Vision Resources Sexual Violence Suicide About Us Vision, Mission and Values Hours Parking Patient Advocate Provider Directory Accreditation Notice of Privacy Practices Patient Rights & Responsibilities Resources Careers Pay Here Open Search Site Search About Us Vision, Mission and Values Hours Parking Patient Advocate Provider Directory Accreditation Notice of Privacy Practices Patient Rights & Responsibilities Resources Careers Provider Directory Primary Care Providers Camilla Curren, MD, FACp Physician Adel G. Hanna, MD Physician Deepika Rangwani, MD Physician Sheila Westendorf, MD, MBA Physician Cheyenne Manning, PA Physician Assistant Angie Kim, MSN, FNP-C Certified Nurse Practitioner Kara Knight, CNP Certified Nurse Practitioner David Lehnus, CNP, FNP, MSN, BSN Certified Nurse Practitioner John Morris, MSN, APRN, FNP-C Certified Nurse Practitioner Elliot Rodriguez, MSN, APRN, AG-ACNP Certified Nurse Practitioner Matthew Stone, RN, MS, MBA, APRN Certified Nurse Practitioner Gynecology Gladys Gibbs, MD, MS, FACOG Physician Ryo Choi-Pearson, MD Physician Li-Chun Liu, CNP Certified Nurse Practitioner Physical Therapy Paul Robinson, PT, DPT Physical Therapist Joshua Stone, PT, DPT Physical Therapist Bryan Stopar, PT, DPT Physical Therapist Dental John Patock, DDS Dentist Nilda Quinones-Maldonado, DMD Dentist Nutrition Services Olivia Levine RD, LD Registered Dietitian Student Health Services - Office of Student Life Wilce Student Health Center 1875 Millikin Road Columbus, OH 43210 shs@osu.edu Phone: 614-292-4321 If you have a disability and experience difficulty accessing this content, please contact sl-accessibility@osu.edu . Privacy Statement Non-discrimination Notice Turn on dark mode Cookie Settings © 2026 The Ohio State University - Student Health Services Page maintained by Student Life Technology Services",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Provider Directory : Student Health Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Student Health Services Menu Search Home My BuckMD My BuckMD Troubleshooting Assistance My BuckMD Patient Guide Services ADD/ADHD Allergy Therapy COVID-19 Information Vaccinations Dental Services Preventive Medicine Health Professional Compliance Drug Screen Requirements Tuberculosis Testing Requirement Risk Assessment for Student Research Health Education Resources Health Records Gynecologic Services Contraceptives Intrauterine Devices - Frequently Asked Questions Polycystic Ovarian Syndrome Sexually Transmitted Infections Sexual Violence Testing for Non-Consensual Drugging Urinary Tract Infection (UTI) Gynecologic - Preconception Health Colposcopy Preparation Men's Health Services Mental Health and Psychiatric Medication Management Laboratory Nutrition Services Optometry Pharmacy Prescriptions Opioid Addiction and Recovery Vaccines by Appointment Flu Vaccination Drug Take Back Physical Therapy and Sports Medicine Primary Care Radiology Referrals Resources Travel Consultation Vaccine Clinics Insurance Insurance Payment Vaccinations Vaccine Clinics Vaccines by Appointment University Vaccination Requirement Completing University Vaccination Requirement Frequently Asked Questions about the Vaccination Requirement Flu Vaccination Appointments Schedule or Cancel an Appointment Telehealth Chaperone Absence Excuse After Hours Care Health Education Resources FAQs Forms Emergencies After Hours Care Health Education Resources Online and Telehealth Resources Dental & Vision Resources Sexual Violence Suicide About Us Vision, Mission and Values Hours Parking Patient Advocate Provider Directory Accreditation Notice of Privacy Practices Patient Rights & Responsibilities Resources Careers Pay Here Open Search Site Search About Us Vision, Mission and Values Hours Parking Patient Advocate Provider Directory Accreditation Notice of Privacy Practices Patient Rights & Responsibilities Resources Careers Provider Directory Primary Care Providers Camilla Curren, MD, FACp Physician Adel G. Hanna, MD Physician Deepika Rangwani, MD Physician Sheila Westendorf, MD, MBA Physician Cheyenne Manning, PA Physician Assistant Angie Kim, MSN, FNP-C Certified Nurse Practitioner Kara Knight, CNP Certified Nurse Practitioner David Lehnus, CNP, FNP, MSN, BSN Certified Nurse Practitioner John Morris, MSN, APRN, FNP-C Certified Nurse Practitioner Elliot Rodriguez, MSN, APRN, AG-ACNP Certified Nurse Practitioner Matthew Stone, RN, MS, MBA, APRN Certified Nurse Practitioner Gynecology Gladys Gibbs, MD, MS, FACOG Physician Ryo Choi-Pearson, MD Physician Li-Chun Liu, CNP Certified Nurse Practitioner Physical Therapy Paul Robinson, PT, DPT Physical Therapist Joshua Stone, PT, DPT Physical Therapist Bryan Stopar, PT, DPT Physical Therapist Dental John Patock, DDS Dentist Nilda Quinones-Maldonado, DMD Dentist Nutrition Services Olivia Levine RD, LD Registered Dietitian Student Health Services - Office of Student Life Wilce Student Health Center 1875 Millikin Road Columbus, OH 43210 shs@osu.edu Phone: 614-292-4321 If you have a disability and experience difficulty accessing this content, please contact sl-accessibility@osu.edu . Privacy Statement Non-discrimination Notice Turn on dark mode Cookie Settings © 2026 The Ohio State University - Student Health Services Page maintained by Student Life Technology Services",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Health Services",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Health Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Student Health Services - Office of Student Life",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Student Health Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Student Health Services - Office of Student Life\nWilce Student Health Center\n1875 Millikin Road\nColumbus, OH 43210\nshs@osu.edu\nPhone: 614-292-4321",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Provider Directory : Student Health Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Student Health Services Menu Search Home My BuckMD My BuckMD Troubleshooting Assistance My BuckMD Patient Guide Services ADD/ADHD Allergy Therapy COVID-19 Information Vaccinations Dental Services Preventive Medicine Health Professional Compliance Drug Screen Requirements Tuberculosis Testing Requirement Risk Assessment for Student Research Health Education Resources Health Records Gynecologic Services Contraceptives Intrauterine Devices - Frequently Asked Questions Polycystic Ovarian Syndrome Sexually Transmitted Infections Sexual Violence Testing for Non-Consensual Drugging Urinary Tract Infection (UTI) Gynecologic - Preconception Health Colposcopy Preparation Men's Health Services Mental Health and Psychiatric Medication Management Laboratory Nutrition Services Optometry Pharmacy Prescriptions Opioid Addiction and Recovery Vaccines by Appointment Flu Vaccination Drug Take Back Physical Therapy and Sports Medicine Primary Care Radiology Referrals Resources Travel Consultation Vaccine Clinics Insurance Insurance Payment Vaccinations Vaccine Clinics Vaccines by Appointment University Vaccination Requirement Completing University Vaccination Requirement Frequently Asked Questions about the Vaccination Requirement Flu Vaccination Appointments Schedule or Cancel an Appointment Telehealth Chaperone Absence Excuse After Hours Care Health Education Resources FAQs Forms Emergencies After Hours Care Health Education Resources Online and Telehealth Resources Dental & Vision Resources Sexual Violence Suicide About Us Vision, Mission and Values Hours Parking Patient Advocate Provider Directory Accreditation Notice of Privacy Practices Patient Rights & Responsibilities Resources Careers Pay Here Open Search Site Search About Us Vision, Mission and Values Hours Parking Patient Advocate Provider Directory Accreditation Notice of Privacy Practices Patient Rights & Responsibilities Resources Careers Provider Directory Primary Care Providers Camilla Curren, MD, FACp Physician Adel G. Hanna, MD Physician Deepika Rangwani, MD Physician Sheila Westendorf, MD, MBA Physician Cheyenne Manning, PA Physician Assistant Angie Kim, MSN, FNP-C Certified Nurse Practitioner Kara Knight, CNP Certified Nurse Practitioner David Lehnus, CNP, FNP, MSN, BSN Certified Nurse Practitioner John Morris, MSN, APRN, FNP-C Certified Nurse Practitioner Elliot Rodriguez, MSN, APRN, AG-ACNP Certified Nurse Practitioner Matthew Stone, RN, MS, MBA, APRN Certified Nurse Practitioner Gynecology Gladys Gibbs, MD, MS, FACOG Physician Ryo Choi-Pearson, MD Physician Li-Chun Liu, CNP Certified Nurse Practitioner Physical Therapy Paul Robinson, PT, DPT Physical Therapist Joshua Stone, PT, DPT Physical Therapist Bryan Stopar, PT, DPT Physical Therapist Dental John Patock, DDS Dentist Nilda Quinones-Maldonado, DMD Dentist Nutrition Services Olivia Levine RD, LD Registered Dietitian Student Health Services - Office of Student Life Wilce Student Health Center 1875 Millikin Road Columbus, OH 43210 shs@osu.edu Phone: 614-292-4321 If you have a disability and experience difficulty accessing this content, please contact sl-accessibility@osu.edu . Privacy Statement Non-discrimination Notice Turn on dark mode Cookie Settings © 2026 The Ohio State University - Student Health Services Page maintained by Student Life Technology Services",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Student Health Services - Office of Student Life",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Student Health Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "shs@osu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Student Health Services - Office of Student Life\nWilce Student Health Center\n1875 Millikin Road\nColumbus, OH 43210\nshs@osu.edu\nPhone: 614-292-4321",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sl Accessibility",
+            "role": "rector",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Sl Accessibility",
+            "raw_role": "rector",
+            "clean_name": "Sl Accessibility",
+            "email_normalized": "sl-accessibility@osu.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized"
+            ],
+            "context": "Provider Directory : Student Health Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Student Health Services Menu Search Home My BuckMD My BuckMD Troubleshooting Assistance My BuckMD Patient Guide Services ADD/ADHD Allergy Therapy",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Student Health Services - Office of Student Life",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Student Health Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "shs@osu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Student Health Services - Office of Student Life\nWilce Student Health Center\n1875 Millikin Road\nColumbus, OH 43210\nshs@osu.edu\nPhone: 614-292-4321",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Sl Accessibility",
+            "role": "rector",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "visible_text",
+            "raw_name": "Sl Accessibility",
+            "raw_role": "rector",
+            "clean_name": "Sl Accessibility",
+            "email_normalized": "sl-accessibility@osu.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized"
+            ],
+            "context": "Provider Directory : Student Health Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Student Health Services Menu Search Home My BuckMD My BuckMD Troubleshooting Assistance My BuckMD Patient Guide Services ADD/ADHD Allergy Therapy",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 1,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [
+          {
+            "name": "Sl Accessibility",
+            "role": "rector",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "score": 13,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized"
+            ],
+            "evidence_type": "visible_text",
+            "raw_name": "Sl Accessibility",
+            "raw_role": "rector",
+            "clean_name": "Sl Accessibility",
+            "email_normalized": "sl-accessibility@osu.edu"
+          }
+        ],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Student Health Services - Office of Student Life",
+            "email": "shs@osu.edu",
+            "page_url": "https://shs.osu.edu/about-us/provider-directory",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Student Health Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "shs@osu.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "15404d0c0a5fd122d55e0cf5afedf28cfccc3e28"
+      },
+      {
+        "url": "https://sl.osu.edu/dining/people",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://dining.osu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://dining.osu.edu/",
+        "page_family": "staff",
+        "expected_yield": 11.5,
+        "family_signature": null,
+        "raw_contacts_found": 8,
+        "text_length": 4382,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4382,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Dining Services - Office of Student Life",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Dining Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Dining Services - Office of Student Life\nLincoln Tower, 1800 Cannon Drive\nColumbus, OH 43210\ndining@osu.edu\nPhone: 614-292-8380",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "If you have a disability and experience difficulty accessing this content, please contact\nsl-accessibility@osu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs Off-Campus Dining Plans Off-Campus Dining Plans FAQs Online Ordering - Grubhub Grubhub with Meal Plans Important Dates Hours Spring 2026 Semester Spring 2026 Semester - Finals Week 1 Spring 2026 Semester - Finals Week 2 Spring 2026 Semester - Transition Month of May Nutrition & Wellness Menus and Nutrition Be Allergy and Food Safe Halal and Kosher Options Employment Full and Part-Time Employment Culinary Operation Management Customer Service and Utility Administrative Seasonal/Temp Student Positions North Campus South Campus West Campus Regional Campus University Catering Sustainability Zero Waste Toolkit Reusable Container Program Return Reusable Containers Reusable Silverware About Us Buckeye Bundles Care Packages Leadership Team Food Truck Requests Open Search Site Search People Leadership Team Abby Hertzfeld Senior Director of Dining Services Lesa Holford Corporate Executive Chef Eric Stucke Associate Director (Financial Operations) Nathan Darder Associate Director of Administration and Planning Rahul Ponappa Associate Director (Operations) Kathie Serif Associate Director (Operations) Chris Coleman Assistant Director (Retail Operations) Roger Garland Assistant Director / Executive Chef, University Catering Kathy Grant Assistant Director (Traditions Locations, C-Store Morrill, 12th Ave Bread Company, Mirror Lake Eatery) Lori Green Assistant Director, University Catering Ashley Hinderer Assistant Director of Nutrition Patrick Ionno Assistant Director (Ohio Union, Curl Market, Regional Campuses) Annette Misenko Assistant Director (Cafes, Coffee Shops & Culinary Production Kitchen) Managers Nick Arabian Unit Chef, Traditions at Kennedy Lisa Bannister Operations Manager, Oxley’s by the Numbers Brian Bassitt Chef, University Catering Fernando Benitez Operations Manager, Culinary Production Kitchen (CPK) Danielle Bereznay Chef, University Catering Kelsey Cartnal Unit Chef, The Marketplace on Neil Chad Crumwell Chef, University Catering Ramy Farid Operations Manager, Connecting Grounds John Faul Operations Manager, Partner Operations Ben Flores Culinary Training Instructor, Instructional Kitchen Stephen Hicks Chef, University Catering Leon Hines Chef, Culinary Production Kitchen Zak King Chef, Curl Market John Krish Unit Chef, Traditions at Morrill Nicholas Leach Operations Manager, Wooster Cafe Carmen & Wooster CFAES Olivia Levine Dietitian Learry Miller Operations Manager, Ohio Union Dining Operations Amber Morse Senior Operations Manager, Traditions at Scott Lori Nelson Operations Manager, Newark Table of Contents Brian Olmstead Operation's Manager, Curl Market Chad Osborne Operations Manager, Traditions at Kennedy, 12th Ave. Bread Company and Mirror Lake Eatery. Ian Parker Executive Chef, Traditions at Scott Zachary Rall Chef, University Catering Oliver Reyes Operations Manager, Campus Cafes & Coffee Shops Cherrelle Rowser Unit Chef, Sloopy's Diner Lisa Selfinger Senior Financial Operations Specialist Gabe Simms Operations Manager, University Catering Phil Smith Operations Manager, Traditions at Morrill & Morrill C-Store Rachel Stefancic Learning and Development Senior Analyst, Dining Administration Michael Steinhilber Unit Chef, Oxley's by the Numbers Erin Stevens Unit Chef, Ohio Union Katie Urban Operations Manager, Marketplace on Neil, Postle Cafe, Hamilton Cafe, Caffeine Element Faith Vrancken Operations Manager, University Catering Pam Wareham Operations Manager, Mansfield Dining Services Dining Services - Office of Student Life Lincoln Tower, 1800 Cannon Drive Columbus, OH 43210 dining@osu.edu Phone: 614-292-8380 If you have a disability and experience difficulty accessing this content, please contact sl-accessibility@osu.edu . Privacy Statement Non-discrimination Notice Turn on dark mode Cookie Settings © 2026 The Ohio State University - Dining Services Page maintained by Student Life Technology Services",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs Off-Campus Dining Plans Off-Campus Dining Plans FAQs Online Ordering - Grubhub Grubhub with Meal Plans Important Dates Hours Spring 2026 Semester Spring 2026 Semester - Finals Week 1 Spring 2026 Semester - Finals Week 2 Spring 2026 Semester - Transition Month of May Nutrition & Wellness Menus and Nutrition Be Allergy and Food Safe Halal and Kosher Options Employment Full and Part-Time Employment Culinary Operation Management Customer Service and Utility Administrative Seasonal/Temp Student Positions North Campus South Campus West Campus Regional Campus University Catering Sustainability Zero Waste Toolkit Reusable Container Program Return Reusable Containers Reusable Silverware About Us Buckeye Bundles Care Packages Leadership Team Food Truck Requests Open Search Site Search People Leadership Team Abby Hertzfeld Senior Director of Dining Services Lesa Holford Corporate Executive Chef Eric Stucke Associate Director (Financial Operations) Nathan Darder Associate Director of Administration and Planning Rahul Ponappa Associate Director (Operations) Kathie Serif Associate Director (Operations) Chris Coleman Assistant Director (Retail Operations) Roger Garland Assistant Director / Executive Chef, University Catering Kathy Grant Assistant Director (Traditions Locations, C-Store Morrill, 12th Ave Bread Company, Mirror Lake Eatery) Lori Green Assistant Director, University Catering Ashley Hinderer Assistant Director of Nutrition Patrick Ionno Assistant Director (Ohio Union, Curl Market, Regional Campuses) Annette Misenko Assistant Director (Cafes, Coffee Shops & Culinary Production Kitchen) Managers Nick Arabian Unit Chef, Traditions at Kennedy Lisa Bannister Operations Manager, Oxley’s by the Numbers Brian Bassitt Chef, University Catering Fernando Benitez Operations Manager, Culinary Production Kitchen (CPK) Danielle Bereznay Chef, University Catering Kelsey Cartnal Unit Chef, The Marketplace on Neil Chad Crumwell Chef, University Catering Ramy Farid Operations Manager, Connecting Grounds John Faul Operations Manager, Partner Operations Ben Flores Culinary Training Instructor, Instructional Kitchen Stephen Hicks Chef, University Catering Leon Hines Chef, Culinary Production Kitchen Zak King Chef, Curl Market John Krish Unit Chef, Traditions at Morrill Nicholas Leach Operations Manager, Wooster Cafe Carmen & Wooster CFAES Olivia Levine Dietitian Learry Miller Operations Manager, Ohio Union Dining Operations Amber Morse Senior Operations Manager, Traditions at Scott Lori Nelson Operations Manager, Newark Table of Contents Brian Olmstead Operation's Manager, Curl Market Chad Osborne Operations Manager, Traditions at Kennedy, 12th Ave. Bread Company and Mirror Lake Eatery. Ian Parker Executive Chef, Traditions at Scott Zachary Rall Chef, University Catering Oliver Reyes Operations Manager, Campus Cafes & Coffee Shops Cherrelle Rowser Unit Chef, Sloopy's Diner Lisa Selfinger Senior Financial Operations Specialist Gabe Simms Operations Manager, University Catering Phil Smith Operations Manager, Traditions at Morrill & Morrill C-Store Rachel Stefancic Learning and Development Senior Analyst, Dining Administration Michael Steinhilber Unit Chef, Oxley's by the Numbers Erin Stevens Unit Chef, Ohio Union Katie Urban Operations Manager, Marketplace on Neil, Postle Cafe, Hamilton Cafe, Caffeine Element Faith Vrancken Operations Manager, University Catering Pam Wareham Operations Manager, Mansfield Dining Services Dining Services - Office of Student Life Lincoln Tower, 1800 Cannon Drive Columbus, OH 43210 dining@osu.edu Phone: 614-292-8380 If you have a disability and experience difficulty accessing this content, please contact sl-accessibility@osu.edu . Privacy Statement Non-discrimination Notice Turn on dark mode Cookie Settings © 2026 The Ohio State University - Dining Services Page maintained by Student Life Technology Services",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Abby Hertzfeld",
+            "role": "Senior Director of Dining Services",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Abby Hertzfeld",
+            "raw_role": "Senior Director of Dining Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lesa Holford",
+            "role": "Corporate Executive Chef",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesa Holford",
+            "raw_role": "Corporate Executive Chef",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eric Stucke",
+            "role": "Associate Director (Financial Operations)",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eric Stucke",
+            "raw_role": "Associate Director (Financial Operations)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Manager, 'Dining Services - Office of Student Life'",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Manager, 'Dining Services - Office of Student Life'",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Dining Services - Office of Student Life",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Dining Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Dining Services - Office of Student Life\nLincoln Tower, 1800 Cannon Drive\nColumbus, OH 43210\ndining@osu.edu\nPhone: 614-292-8380",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs Off-Campus Dining Plans Off-Campus Dining Plans FAQs Online Ordering - Grubhub Grubhub with Meal Plans Important Dates Hours Spring 2026 Semester Spring 2026 Semester - Finals Week 1 Spring 2026 Semester - Finals Week 2 Spring 2026 Semester - Transition Month of May Nutrition & Wellness Menus and Nutrition Be Allergy and Food Safe Halal and Kosher Options Employment Full and Part-Time Employment Culinary Operation Management Customer Service and Utility Administrative Seasonal/Temp Student Positions North Campus South Campus West Campus Regional Campus University Catering Sustainability Zero Waste Toolkit Reusable Container Program Return Reusable Containers Reusable Silverware About Us Buckeye Bundles Care Packages Leadership Team Food Truck Requests Open Search Site Search People Leadership Team Abby Hertzfeld Senior Director of Dining Services Lesa Holford Corporate Executive Chef Eric Stucke Associate Director (Financial Operations) Nathan Darder Associate Director of Administration and Planning Rahul Ponappa Associate Director (Operations) Kathie Serif Associate Director (Operations) Chris Coleman Assistant Director (Retail Operations) Roger Garland Assistant Director / Executive Chef, University Catering Kathy Grant Assistant Director (Traditions Locations, C-Store Morrill, 12th Ave Bread Company, Mirror Lake Eatery) Lori Green Assistant Director, University Catering Ashley Hinderer Assistant Director of Nutrition Patrick Ionno Assistant Director (Ohio Union, Curl Market, Regional Campuses) Annette Misenko Assistant Director (Cafes, Coffee Shops & Culinary Production Kitchen) Managers Nick Arabian Unit Chef, Traditions at Kennedy Lisa Bannister Operations Manager, Oxley’s by the Numbers Brian Bassitt Chef, University Catering Fernando Benitez Operations Manager, Culinary Production Kitchen (CPK) Danielle Bereznay Chef, University Catering Kelsey Cartnal Unit Chef, The Marketplace on Neil Chad Crumwell Chef, University Catering Ramy Farid Operations Manager, Connecting Grounds John Faul Operations Manager, Partner Operations Ben Flores Culinary Training Instructor, Instructional Kitchen Stephen Hicks Chef, University Catering Leon Hines Chef, Culinary Production Kitchen Zak King Chef, Curl Market John Krish Unit Chef, Traditions at Morrill Nicholas Leach Operations Manager, Wooster Cafe Carmen & Wooster CFAES Olivia Levine Dietitian Learry Miller Operations Manager, Ohio Union Dining Operations Amber Morse Senior Operations Manager, Traditions at Scott Lori Nelson Operations Manager, Newark Table of Contents Brian Olmstead Operation's Manager, Curl Market Chad Osborne Operations Manager, Traditions at Kennedy, 12th Ave. Bread Company and Mirror Lake Eatery. Ian Parker Executive Chef, Traditions at Scott Zachary Rall Chef, University Catering Oliver Reyes Operations Manager, Campus Cafes & Coffee Shops Cherrelle Rowser Unit Chef, Sloopy's Diner Lisa Selfinger Senior Financial Operations Specialist Gabe Simms Operations Manager, University Catering Phil Smith Operations Manager, Traditions at Morrill & Morrill C-Store Rachel Stefancic Learning and Development Senior Analyst, Dining Administration Michael Steinhilber Unit Chef, Oxley's by the Numbers Erin Stevens Unit Chef, Ohio Union Katie Urban Operations Manager, Marketplace on Neil, Postle Cafe, Hamilton Cafe, Caffeine Element Faith Vrancken Operations Manager, University Catering Pam Wareham Operations Manager, Mansfield Dining Services Dining Services - Office of Student Life Lincoln Tower, 1800 Cannon Drive Columbus, OH 43210 dining@osu.edu Phone: 614-292-8380 If you have a disability and experience difficulty accessing this content, please contact sl-accessibility@osu.edu . Privacy Statement Non-discrimination Notice Turn on dark mode Cookie Settings © 2026 The Ohio State University - Dining Services Page maintained by Student Life Technology Services",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Abby Hertzfeld",
+            "role": "Senior Director of Dining Services",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Abby Hertzfeld",
+            "raw_role": "Senior Director of Dining Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lesa Holford",
+            "role": "Corporate Executive Chef",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesa Holford",
+            "raw_role": "Corporate Executive Chef",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eric Stucke",
+            "role": "Associate Director (Financial Operations)",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eric Stucke",
+            "raw_role": "Associate Director (Financial Operations)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Dining Services - Office of Student Life",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Dining Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "dining@osu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Dining Services - Office of Student Life\nLincoln Tower, 1800 Cannon Drive\nColumbus, OH 43210\ndining@osu.edu\nPhone: 614-292-8380",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sl Accessibility",
+            "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Sl Accessibility",
+            "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "clean_name": "Sl Accessibility",
+            "email_normalized": "sl-accessibility@osu.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized"
+            ],
+            "context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Abby Hertzfeld",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Abby Hertzfeld",
+            "raw_role": "Senior Director of Dining Services",
+            "clean_name": "Abby Hertzfeld",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lesa Holford",
+            "role": "Corporate Executive Chef",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesa Holford",
+            "raw_role": "Corporate Executive Chef",
+            "clean_name": "Lesa Holford",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eric Stucke",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eric Stucke",
+            "raw_role": "Associate Director (Financial Operations)",
+            "clean_name": "Eric Stucke",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Dining Services - Office of Student Life",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Dining Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "dining@osu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Dining Services - Office of Student Life\nLincoln Tower, 1800 Cannon Drive\nColumbus, OH 43210\ndining@osu.edu\nPhone: 614-292-8380",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Sl Accessibility",
+            "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "visible_text",
+            "raw_name": "Sl Accessibility",
+            "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "clean_name": "Sl Accessibility",
+            "email_normalized": "sl-accessibility@osu.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized"
+            ],
+            "context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Abby Hertzfeld",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Abby Hertzfeld",
+            "raw_role": "Senior Director of Dining Services",
+            "clean_name": "Abby Hertzfeld",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Lesa Holford",
+            "role": "Corporate Executive Chef",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesa Holford",
+            "raw_role": "Corporate Executive Chef",
+            "clean_name": "Lesa Holford",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Eric Stucke",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eric Stucke",
+            "raw_role": "Associate Director (Financial Operations)",
+            "clean_name": "Eric Stucke",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 1,
+        "office_contact_count": 1,
+        "person_without_email_count": 3,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Dining Services - Office of Student Life",
+            "email": "dining@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "Dining Services - Office of Student Life",
+            "clean_name": "",
+            "email_normalized": "dining@osu.edu"
+          },
+          {
+            "name": "Sl Accessibility",
+            "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "email": "sl-accessibility@osu.edu",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "score": 3,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized"
+            ],
+            "evidence_type": "visible_text",
+            "raw_name": "Sl Accessibility",
+            "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+            "clean_name": "Sl Accessibility",
+            "email_normalized": "sl-accessibility@osu.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Abby Hertzfeld",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "page_context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Abby Hertzfeld",
+            "raw_role": "Senior Director of Dining Services",
+            "clean_name": "Abby Hertzfeld",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Lesa Holford",
+            "role": "Corporate Executive Chef",
+            "country": "US",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "page_context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Lesa Holford",
+            "raw_role": "Corporate Executive Chef",
+            "clean_name": "Lesa Holford",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          },
+          {
+            "name": "Eric Stucke",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://sl.osu.edu/dining/people",
+            "page_context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Eric Stucke",
+            "raw_role": "Associate Director (Financial Operations)",
+            "clean_name": "Eric Stucke",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "239e38fa574c48402827be826b8bdc06dccc8590"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Abby Hertzfeld",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://sl.osu.edu/dining/people",
+        "page_context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Abby Hertzfeld",
+        "raw_role": "Senior Director of Dining Services",
+        "clean_name": "Abby Hertzfeld",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Lesa Holford",
+        "role": "Corporate Executive Chef",
+        "country": "US",
+        "page_url": "https://sl.osu.edu/dining/people",
+        "page_context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Lesa Holford",
+        "raw_role": "Corporate Executive Chef",
+        "clean_name": "Lesa Holford",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Eric Stucke",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://sl.osu.edu/dining/people",
+        "page_context": "People : Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home Locations View Locations Regional Campuses Newark Campus Catering Menu Policies and Procedures Mansfield Campus Wooster Campus Marion Campus Online Ordering - Grubhub Food Trucks Dining Plans Columbus Campus Dining Plans Columbus Campus Dining Plans FAQs Regional Campus Dining Plans Regional Campus Dining Plans FAQs",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Eric Stucke",
+        "raw_role": "Associate Director (Financial Operations)",
+        "clean_name": "Eric Stucke",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "Student Health Services - Office of Student Life",
+        "email": "shs@osu.edu",
+        "page_url": "https://shs.osu.edu/about-us/provider-directory",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "Student Health Services - Office of Student Life",
+        "clean_name": "",
+        "email_normalized": "shs@osu.edu"
+      },
+      {
+        "name": "",
+        "role": "Dining Services - Office of Student Life",
+        "email": "dining@osu.edu",
+        "page_url": "https://sl.osu.edu/dining/people",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "Dining Services - Office of Student Life",
+        "clean_name": "",
+        "email_normalized": "dining@osu.edu"
+      },
+      {
+        "name": "Sl Accessibility",
+        "role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+        "email": "sl-accessibility@osu.edu",
+        "page_url": "https://sl.osu.edu/dining/people",
+        "score": 3,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex"
+        ],
+        "cleanup_flags": [
+          "name_inferred_from_email_localpart",
+          "context_sanitized"
+        ],
+        "evidence_type": "visible_text",
+        "raw_name": "Sl Accessibility",
+        "raw_role": "People Dining Services Skip to main content Ohio State navigation bar Show Links Map Buckeye Link Webmail Search Ohio State Office of Student Life Dining Services Menu Search Home",
+        "clean_name": "Sl Accessibility",
+        "email_normalized": "sl-accessibility@osu.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

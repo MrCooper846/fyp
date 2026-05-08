@@ -1,0 +1,4198 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Stirling",
+  "homepage_url": "https://www.stir.ac.uk",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 9,
+    "candidates_probed": 9,
+    "contacts_extracted": 26,
+    "contacts_kept": 0,
+    "time_seconds": 44.30716419219971,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 9,
+      "pages_fetched": 9,
+      "successful_fetches": 9,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our people",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our Chancellor",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our Principal and Vice-Chancellor",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/internal-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Staff",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/honorary-appointees/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Honorary appointees",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/our-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our students",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/university-court/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "University Court",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/alumni/alumni-benefits/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Alumni benefits",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/alumni/data-protection-policy/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Data protection policy",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/alumni/our-alumni/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our alumni",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/alumni/support-stirling/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Support Stirling",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Senior Officers",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/news/contact-us/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Contact the team",
+        "parent_url": "https://www.stir.ac.uk/about/contact-us/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Study abroad and exchange",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/global-ambition/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global ambition",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/global-position/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global position",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/our-partnerships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our partnerships",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/international-english-language-school/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International English Language School",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/international-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International students",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/international-summer-school/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Summer School",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/scotlands-international-environment-centre/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Scotland's International Environment Centre",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/contact-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "My Contact",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/contact-us/complaints/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Complaints",
+        "parent_url": "https://www.stir.ac.uk/about/contact-us/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Internationalisation and partnerships",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.9,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/communications-marketing-and-recruitment/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Communications, Marketing and Recruitment",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/finance-office/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Finance Office",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/research/services-for-business/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research, Innovation and Business Engagement",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/business/business-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Commercial Services",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Professional services",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/estates-and-campus-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Estates and Campus Services",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/human-resources-and-organisation-development/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Human Resources and Organisation Development",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/information-services-and-library/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Information Services and Library",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student, Academic and Corporate Services",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/accessibility/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Accessibility statement",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/business/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Business and enterprise",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/city-region-deal/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "City Region Deal",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/faculties/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculties",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/forth2o/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "FORTH2O",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/getting-here/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Getting here",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/modern-slavery-statement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Modern Slavery Statement",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-history/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our history",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-reputation/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our reputation",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/policy-legal-and-cookies/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Policy, Legal and Cookies",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/psychology-kindergarten/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Psychology Kindergarten",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/publications/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Publications",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/strategic-plan/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Strategic Plan",
+        "parent_url": "https://www.stir.ac.uk/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/sustainability/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Sustainability",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.stir.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.stir.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.stir.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/international/study-abroad-exchange/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/about/our-people/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover The Rt Hon Lord"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover The Rt Hon Lord"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover The Rt Hon Lord"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for The Rt Hon Lord"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/about/our-people/our-chancellor/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/international/global-ambition/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/international/global-position/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/international/our-partnerships/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Dr Richa Arora"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mrs Ho Soon Eng"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Dr Richa Arora"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mrs Ho Soon Eng"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Dr Richa Arora"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mrs Ho Soon Eng"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Dr Richa Arora"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Mrs Ho Soon Eng"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mrs Seona Donald"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mrs Seona Donald"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mrs Seona Donald"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Mrs Seona Donald"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.stir.ac.uk/about/our-people/senior-officers/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Eileen Schofield"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jennifer Harrison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Eileen Schofield"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jennifer Harrison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Eileen Schofield"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Jennifer Harrison"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Eileen Schofield"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "https://www.stir.ac.uk",
+          "to": "https://www.stir.ac.uk/",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that contain specific information about partnerships, exchange programs, and relevant staff details.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+          "page_type": "nav",
+          "expected_yield": 11.5
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+          "page_type": "nav",
+          "expected_yield": 10.9
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.stir.ac.uk/about/our-people/",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "The Rt Hon Lord"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "The Rt Hon Lord"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "The Rt Hon Lord"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "The Rt Hon Lord"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.stir.ac.uk/international/global-ambition/",
+          "page_type": "nav",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.stir.ac.uk/international/global-position/",
+          "page_type": "nav",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.stir.ac.uk/international/our-partnerships/",
+          "page_type": "nav",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Dr Richa Arora"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mrs Ho Soon Eng"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Dr Richa Arora"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mrs Ho Soon Eng"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Dr Richa Arora"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mrs Ho Soon Eng"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Dr Richa Arora"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Mrs Ho Soon Eng"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mrs Seona Donald"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mrs Seona Donald"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mrs Seona Donald"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Mrs Seona Donald"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+          "page_type": "nav",
+          "expected_yield": 8.9
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Eileen Schofield"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jennifer Harrison"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Eileen Schofield"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jennifer Harrison"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Eileen Schofield"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Jennifer Harrison"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Eileen Schofield"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that contain specific information about partnerships, exchange programs, and relevant staff details.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Ranked only the most relevant pages for contacting outreach roles.",
+        "ranked_pages": [
+          {
+            "url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 11.5,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.9,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.stir.ac.uk/about/our-people/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+          "https://www.stir.ac.uk/international/global-ambition/",
+          "https://www.stir.ac.uk/international/global-position/",
+          "https://www.stir.ac.uk/international/our-partnerships/",
+          "https://www.stir.ac.uk/about/our-people/senior-officers/",
+          "https://www.stir.ac.uk/internal-staff/"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "expected_yield": 11.5,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2143,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2143,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Coordinator",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Coordinator",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Coordinator",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Coordinator",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/study-abroad-exchange/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "3e9996adb7b2ca80b4d36cb20a5ec247243995ac"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/about/professional-services/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/about/professional-services/",
+        "page_family": "international",
+        "expected_yield": 10.9,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 3240,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3240,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "We aim to grow and develop our high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities, please contact our team on\ninternationalpartnerships@stir.ac.uk\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Internationalisation and partnerships | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact us Faculties FORTH2O Getting here Jobs at Stirling Professional services Psychology Kindergarten Publications Scotland's International Environment Centre Strategic Plan Sustainability University Collections Professional services Commercial Services Communications, Marketing and Recruitment Estates and Campus Services Finance Office Human Resources and Organisation Development Information Services and Library Internationalisation and partnerships Research, Innovation and Business Engagement Student, Academic and Corporate Services University of Stirling Sport Internationalisation and partnerships Internationalisation and partnerships As a global institution, the University of Stirling has established a diverse portfolio of innovative and productive partnerships with organisations across the world. We have established long-standing strategic international partnerships, promoting research and teaching excellence with a global impact. These partnerships are fundamental to sharing our core values with similar organisations worldwide. We support the development and management of a range of collaborative teaching, research and recruitment partnerships including: joint, dual and double degrees transnational (in-country) education programmes student and staff mobility articulation international access provision knowledge exchange We’re investing in developing new international partnerships, working collaboratively to help solve global issues and making a difference in higher education across the world. International mobility Our international mobility team provides life-changing opportunities that give our students new perspectives and broaden their horizons. We enhance the external profile of the University, and create global citizens with our reciprocal exchange and Study Abroad partnerships, our well-established International Summer School and bespoke English language programmes. An international University Interested in working with us? We aim to grow and develop our high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities, please contact our team on internationalpartnerships@stir.ac.uk . Follow us Facebook Instagram X YouTube LinkedIn TikTok Popular links Faculties Professional services Alumni Jobs at Stirling Getting here Students’ Union Online shop Blog Current students Staff Site information Policy, Legal and Cookies Accessibility statement Sitemap Modern Slavery Statement Scottish Charity No SC011159 Contact us Contact us University of Stirling Stirling FK9 4LA Scotland UK Ask us a question ⟩ Map of the United Kingdom of Great Britain and Northern Ireland © University of Stirling Scroll back to the top",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Internationalisation and Partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Internationalisation and Partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "We aim to grow and develop our high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities, please contact our team on\ninternationalpartnerships@stir.ac.uk\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "internationalpartnerships@stir.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "We aim to grow and develop our high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities, please contact our team on\ninternationalpartnerships@stir.ac.uk\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "internationalpartnerships@stir.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "We aim to grow and develop our high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities, please contact our team on\ninternationalpartnerships@stir.ac.uk\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+            "score": 0,
+            "reason": "generic inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": true,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "internationalpartnerships@stir.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "9cd9386e8f8f8c5d0ac83db2cb1bd1c3ec70095b"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2696,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2696,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "The Rt Hon Lord Jack McConnell",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Sir Gerry McCormac",
+            "role": "Principal and Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "The Rt Hon Lord Jack McConnell",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Sir Gerry McCormac",
+            "role": "Principal and Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/about/our-people/",
+            "page_context": "Our people | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "c5677346ea9e7145b8bf35f36feba06a97d7d04d"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 3502,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3502,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "The Rt Hon Lord Jack McConnell",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "The Rt Hon Lord Jack McConnell",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-chancellor/",
+            "page_context": "Our Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "2d1e926c0481438b4b38c86f6f141ca9e067ac4a"
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/global-ambition/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 5598,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5598,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global Engagement Strategy",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global Engagement Strategy",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement Strategy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-ambition/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d24777f5bdee1e4002bf2f7a2f89eeda15a0ed0d"
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/global-position/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 1843,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1843,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-position/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-position/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-position/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/global-position/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "773321eba3440f23a02a721b68db41c7edbe133d"
+      },
+      {
+        "url": "https://www.stir.ac.uk/international/our-partnerships/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/international/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/international/",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 6207,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 6211,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "We aim to continue to grow and develop high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities please contact our team for further information at:\ninternationalpartnerships@stir.ac.uk",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "International University - Our partnerships | International | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home International Global position Global ambition Our partnerships International students International Summer School Study abroad and exchange International English Language School Our partnerships International Partnership Courses Our partnerships As a global institution, the University of Stirling has established a diverse portfolio of innovative and productive partnerships with organisations across the world. These partnerships are fundamental in helping the University meet its strategic objectives through enhancing our international links with institutions that share our core principles and values. Partnerships with a global impact We’re committed to building strategic international partnerships, to promote research and teaching excellence with a global impact. We support the development and management of a range of collaborative teaching, education and recruitment partnerships covering: joint and double degrees, split-site degrees, transnational (in-country) education programmes, and articulated and international access provision. Teaching experience for TESOL students in Brazil Our partner, the Sao Paulo State University (UNESP) in Brazil, offers our MSc and PhD TESOL (Teaching English to Speakers of Other Languages) students the opportunity to gain valuable teaching experience overseas. Students can teach English language classes in one of UNESP’s 24 campuses in the state of Sao Paulo. The classes are offered to UNESP’s undergraduate students who are preparing to take the IELTS exam. This international placement gives students practical teaching experience in a diverse cultural setting, boosts their employability skills, and enhances their global outlook and intercultural competence. Sharing teaching excellence across the globe As an international University, we’re proud of our deep partnerships with a number of outstanding global education partners. Through our teaching partnerships we support ambitious students, equipping them with the skills to thrive in our fast-moving world and transform it for the better. We ensure that shared academic values are maintained and student experience is consistent across our global network. Our teaching partnerships cover: joint degrees double degrees split-site degrees transnational (in-country) education programmes articulated and international access provision QE-TNE Scheme We participate in the sector-wide QE-TNE Scheme for the quality enhancement of UK transnational education. The scheme is a demonstration of our commitment to a high-quality UK-TNE experience. What our partners say Singapore Institute Of Management (SIM), Singapore The collaboration between SIM Global Education and the University of Stirling started in September 2011, offering the BA (Hons) in Retail Marketing at SIM. This promotes a greater degree of professionalism and competitiveness in the retail industry through enhancing and developing talent in the areas of management and leadership. Our shared vision and commitment to education excellence will enable us to take this partnership to even greater heights in the years ahead Mrs Ho Soon Eng Director, Higher Education, SIM Global Education Kwansei Gakuin University, Japan We have developed a fruitful collaboration with the University of Stirling through the establishment and operation of the double degree course in Teaching English to Speakers of Other Languages (TESOL), which was our first attempt at integrating full-time overseas study for a Masters programme. The first cohort is enjoying the wonderful environment of the Stirling campus, as well as the excellent learning opportunities provided by the TESOL team. Professor Masanori Ito Professor, Graduate School of Language, Communication and Culture Ras Al Khaimah, UAE We are very pleased that the University of Stirling, UK now has a campus in Ras Al Khaimah, UAE. The academic programmes offered include Undergraduate Honours courses in Accounting & Finance, Business Computing, Computing Science, Management and Software Engineering. In the Postgraduate Portfolio we offer bespoke, one year Masters programmes covering MSc Big Data, MSc Finance and MSc Fin Tech. Ras Al Khaimah is perhaps the most beautiful emirate in the UAE with a 64 km coastline and is home to a number of educational institutions. RAK is a very friendly and inexpensive place to live and plays host to a variety of industries and hospitality establishments. Students at the University of Stirling, RAK, benefit not only from learning from committed academics but also enjoy an amazing quality of life, combined with the opportunity to gain experience through internships and placements Dr Richa Arora COO & Head of Institution, RAK – Campus Work with us We’re investing in developing new international collaborative partnerships, helping to solve global issues and making a difference in higher education across the world. We have long-standing international collaborations covering teaching, research, and student and staff mobility. We aim to continue to grow and develop high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities please contact our team for further information at: internationalpartnerships@stir.ac.uk Follow us Facebook Instagram X YouTube LinkedIn TikTok Popular links Faculties Professional services Alumni Jobs at Stirling Getting here Students’ Union Online shop Blog Current students Staff Site information Policy, Legal and Cookies Accessibility statement Sitemap Modern Slavery Statement Scottish Charity No SC011159 Contact us Contact us University of Stirling Stirling FK9 4LA Scotland UK Ask us a question ⟩ Map of the United Kingdom of Great Britain and Northern Ireland © University of Stirling Scroll back to the top",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Ho Soon Eng",
+            "role": "Director, Higher Education",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Ho Soon Eng",
+            "raw_role": "Director, Higher Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Masanori Ito",
+            "role": "Professor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Masanori Ito",
+            "raw_role": "Professor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Richa Arora",
+            "role": "COO & Head of Institution",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Richa Arora",
+            "raw_role": "COO & Head of Institution",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Partnerships Team",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Partnerships Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "We aim to continue to grow and develop high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities please contact our team for further information at:\ninternationalpartnerships@stir.ac.uk",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Ho Soon Eng",
+            "role": "Director, Higher Education",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Ho Soon Eng",
+            "raw_role": "Director, Higher Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Masanori Ito",
+            "role": "Professor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Masanori Ito",
+            "raw_role": "Professor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Richa Arora",
+            "role": "COO & Head of Institution",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Richa Arora",
+            "raw_role": "COO & Head of Institution",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "internationalpartnerships@stir.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "We aim to continue to grow and develop high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities please contact our team for further information at:\ninternationalpartnerships@stir.ac.uk",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Ho Soon Eng",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Ho Soon Eng",
+            "raw_role": "Director, Higher Education",
+            "clean_name": "Mrs Ho Soon Eng",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Professor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Masanori Ito",
+            "raw_role": "Professor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dr Richa Arora",
+            "role": "COO & Head of Institution",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Richa Arora",
+            "raw_role": "COO & Head of Institution",
+            "clean_name": "Dr Richa Arora",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "internationalpartnerships@stir.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "We aim to continue to grow and develop high quality, sustainable partnerships. If you’re interested in exploring partnership or teaching collaboration opportunities please contact our team for further information at:\ninternationalpartnerships@stir.ac.uk",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Mrs Ho Soon Eng",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mrs Ho Soon Eng",
+            "raw_role": "Director, Higher Education",
+            "clean_name": "Mrs Ho Soon Eng",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Professor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Masanori Ito",
+            "raw_role": "Professor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Dr Richa Arora",
+            "role": "COO & Head of Institution",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr Richa Arora",
+            "raw_role": "COO & Head of Institution",
+            "clean_name": "Dr Richa Arora",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "internationalpartnerships@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "score": 0,
+            "reason": "generic inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": true,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "internationalpartnerships@stir.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Mrs Ho Soon Eng",
+            "role": "rector",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "page_context": "International University - Our partnerships | International | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home International Global position Global ambition Our partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mrs Ho Soon Eng",
+            "raw_role": "Director, Higher Education",
+            "clean_name": "Mrs Ho Soon Eng",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.3
+          },
+          {
+            "name": "Dr Richa Arora",
+            "role": "COO & Head of Institution",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+            "page_context": "International University - Our partnerships | International | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home International Global position Global ambition Our partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dr Richa Arora",
+            "raw_role": "COO & Head of Institution",
+            "clean_name": "Dr Richa Arora",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.3
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "28f17a3a9952a85e615b65f1468965cd73d3c89a"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 7262,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 7263,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "principalpa@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "PrincipalPA@stir.ac.uk\n+44 (0) 1786 467012",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "principalpa@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "vice-chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact us Faculties FORTH2O Getting here Jobs at Stirling Professional services Psychology Kindergarten Publications Scotland's International Environment Centre Strategic Plan Sustainability University Collections Our people Our Chancellor Our Principal and Vice-Chancellor Alumni and supporters Senior Officers University Court Our students Honorary appointees Our Principal and Vice-Chancellor Professor Sir Gerry McCormac FRSE, FSA, FRSA, FHEA Principal and Vice-Chancellor Professor Sir Gerry McCormac has been Principal and Vice-Chancellor of the University of Stirling since May 2010. During this time, he has overseen a significant improvement in Stirling’s research and international presence and led the regeneration and development of the University estate. Building on the organisational values, which are typified by the phrase ‘a place where ability not background is valued’, he has led the transformation of the student experience, enhanced the global reputation of the University and greatly extended the University’s reach, relevance and connectivity. The University’s international connections have grown considerably under Sir Gerry’s leadership. He led the creation of a joint venture with INTO University Partnerships, which resulted in a teaching centre for international students on campus and a significant increase in international student recruitment. He also established a presence with the British Council in Shanghai and oversaw the development of transnational education with partners in the United Arab Emirates, Singapore and Hong Kong. These build on and complement pre-existing transnational education initiatives in Vietnam, Oman and other countries. The University’s internationally renowned research has been recognised with a Queen’s Anniversary Prize on two occasions; for its work on social marketing (2014) and aquaculture (2019). In social sciences, support for dementia research continues to inform policy change globally and has resulted in partnerships with commercial companies. Continued emphasis on increasing the University’s research capacity led to the University playing a critical role in delivering the Stirling and Clackmannanshire City Region Deal, signed in spring 2020, with £27m of funding from the UK and Scottish Governments being invested in University-led projects. The Deal will see the development of Scotland’s International Environment Centre and a new Institute of Aquaculture on the University campus, further strengthening relationships with business and industry and placing the University’s innovation and expertise at the centre of efforts to tackle some of the most pressing challenges facing the world. A £40m programme of investment in student residences, completed in 2015, has been followed by a £21m Central Campus development that will enhance research and learning facilities, and a £20m redevelopment of the University’s sports centre. The emphasis on sport and in particular, the development of high-quality coaching and infrastructure have helped student athletes win medals at Olympic and Commonwealth Games and World Championships. This strong track record was recognised with the University being Times and Sunday Times UK Sports University of the Year 2020. Between 2020 and 2022, Sir Gerry held the role of Convenor of Universities Scotland. The position saw him chair the group representing Scotland’s 19 higher education institutions at a crucial time, as the sector played a key role in supporting the nation’s recovery from the global coronavirus pandemic. Sir Gerry also served as Vice Convener of Universities Scotland between 2016 and 2020 and is an active member of Universities UK. Prior to his appointment at Stirling, Sir Gerry was Pro Vice-Chancellor of Queen’s University Belfast from 2001 to 2010. He has a background in science, and has undertaken research into both Space Physics and Carbon Dating. He previously worked on the NASA Dynamics Explorer satellite programme at the University of Michigan, before becoming Director of the Carbon Dating facility at Queen’s University Belfast, where he undertook research into global carbon cycling and the dating of historic monuments. Professor McCormac was knighted in the New Year’s Honours List 2021, for services to education and to the economy. Fellowships, Boards and Committees Fellow – Royal Society of Edinburgh (FRSE) Fellow – Society of Antiquaries (FSA) Fellow Higher Education Academy (FHEA) Fellow Royal Society of Arts, Commerce and Manufacturers (FRSA) All Party Parliamentary University Group – Council Member Universities Scotland – Board Member Formerly Invest Northern Ireland – Vice-Chair Business in the Community – Board Member Institute of Directors – NI Board Member Archaeology Committee – Royal Irish Academy Independent Review of Teacher Employment in Scotland for Scottish Government (Chair) Universities Scotland Commonwealth Games Committee (Chair) UUK Innovation & Grown Policy Network – Member Universities Scotland – Convener, 2020-2022; Vice-Convener, 2016-2020 Universities and Colleges Employers’ Association (UCEA) Scottish Committee – Chair Universities UK – Vice President, Scotland Universities and Colleges Employers’ Association (UCEA) – Board Member Responsibilities The Principal and Vice-Chancellor is the Chief Academic and Administrative Officer of the University. The Principal presides over the Academic Council and, as Vice-Chancellor, deputises for the Chancellor and confers degrees in his or her absence. As Chief Executive of the University, the Principal is responsible by Statute for the effective working and good order of the University. With overall responsibility for the executive management and day-to-day activities of the University, the Principal is accountable to the Court for the discharge of his responsibilities. The responsibilities of the Principal may broadly be defined as: Implementing the decisions of the Court Initiating discussion and consultation on proposals concerning the University’s future Exercising academic leadership and promoting the strategic development of the University Contact Mrs Seona Donald PA to the Principal and Vice-Chancellor PrincipalPA@stir.ac.uk +44 (0) 1786 467012 Follow us Facebook Instagram X YouTube LinkedIn TikTok Popular links Faculties Professional services Alumni Jobs at Stirling Getting here Students’ Union Online shop Blog Current students Staff Site information Policy, Legal and Cookies Accessibility statement Sitemap Modern Slavery Statement Scottish Charity No SC011159 Contact us Contact us University of Stirling Stirling FK9 4LA Scotland UK Ask us a question ⟩ Map of the United Kingdom of Great Britain and Northern Ireland © University of Stirling Scroll back to the top",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Sir Gerry McCormac",
+            "role": "Principal and Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mrs Seona Donald",
+            "role": "PA to the Principal and Vice-Chancellor",
+            "email": "PrincipalPA@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "PA to the Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Mrs Seona Donald",
+            "role": "vice-chancellor",
+            "email": "principalpa@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "vice-chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact us Faculties FORTH2O Getting here Jobs at Stirling Professional services Psychology Kindergarten Publications Scotland's International Environment Centre Strategic Plan Sustainability University Collections Our people Our Chancellor Our Principal and Vice-Chancellor Alumni and supporters Senior Officers University Court Our students Honorary appointees Our Principal and Vice-Chancellor Professor Sir Gerry McCormac FRSE, FSA, FRSA, FHEA Principal and Vice-Chancellor Professor Sir Gerry McCormac has been Principal and Vice-Chancellor of the University of Stirling since May 2010. During this time, he has overseen a significant improvement in Stirling’s research and international presence and led the regeneration and development of the University estate. Building on the organisational values, which are typified by the phrase ‘a place where ability not background is valued’, he has led the transformation of the student experience, enhanced the global reputation of the University and greatly extended the University’s reach, relevance and connectivity. The University’s international connections have grown considerably under Sir Gerry’s leadership. He led the creation of a joint venture with INTO University Partnerships, which resulted in a teaching centre for international students on campus and a significant increase in international student recruitment. He also established a presence with the British Council in Shanghai and oversaw the development of transnational education with partners in the United Arab Emirates, Singapore and Hong Kong. These build on and complement pre-existing transnational education initiatives in Vietnam, Oman and other countries. The University’s internationally renowned research has been recognised with a Queen’s Anniversary Prize on two occasions; for its work on social marketing (2014) and aquaculture (2019). In social sciences, support for dementia research continues to inform policy change globally and has resulted in partnerships with commercial companies. Continued emphasis on increasing the University’s research capacity led to the University playing a critical role in delivering the Stirling and Clackmannanshire City Region Deal, signed in spring 2020, with £27m of funding from the UK and Scottish Governments being invested in University-led projects. The Deal will see the development of Scotland’s International Environment Centre and a new Institute of Aquaculture on the University campus, further strengthening relationships with business and industry and placing the University’s innovation and expertise at the centre of efforts to tackle some of the most pressing challenges facing the world. A £40m programme of investment in student residences, completed in 2015, has been followed by a £21m Central Campus development that will enhance research and learning facilities, and a £20m redevelopment of the University’s sports centre. The emphasis on sport and in particular, the development of high-quality coaching and infrastructure have helped student athletes win medals at Olympic and Commonwealth Games and World Championships. This strong track record was recognised with the University being Times and Sunday Times UK Sports University of the Year 2020. Between 2020 and 2022, Sir Gerry held the role of Convenor of Universities Scotland. The position saw him chair the group representing Scotland’s 19 higher education institutions at a crucial time, as the sector played a key role in supporting the nation’s recovery from the global coronavirus pandemic. Sir Gerry also served as Vice Convener of Universities Scotland between 2016 and 2020 and is an active member of Universities UK. Prior to his appointment at Stirling, Sir Gerry was Pro Vice-Chancellor of Queen’s University Belfast from 2001 to 2010. He has a background in science, and has undertaken research into both Space Physics and Carbon Dating. He previously worked on the NASA Dynamics Explorer satellite programme at the University of Michigan, before becoming Director of the Carbon Dating facility at Queen’s University Belfast, where he undertook research into global carbon cycling and the dating of historic monuments. Professor McCormac was knighted in the New Year’s Honours List 2021, for services to education and to the economy. Fellowships, Boards and Committees Fellow – Royal Society of Edinburgh (FRSE) Fellow – Society of Antiquaries (FSA) Fellow Higher Education Academy (FHEA) Fellow Royal Society of Arts, Commerce and Manufacturers (FRSA) All Party Parliamentary University Group – Council Member Universities Scotland – Board Member Formerly Invest Northern Ireland – Vice-Chair Business in the Community – Board Member Institute of Directors – NI Board Member Archaeology Committee – Royal Irish Academy Independent Review of Teacher Employment in Scotland for Scottish Government (Chair) Universities Scotland Commonwealth Games Committee (Chair) UUK Innovation & Grown Policy Network – Member Universities Scotland – Convener, 2020-2022; Vice-Convener, 2016-2020 Universities and Colleges Employers’ Association (UCEA) Scottish Committee – Chair Universities UK – Vice President, Scotland Universities and Colleges Employers’ Association (UCEA) – Board Member Responsibilities The Principal and Vice-Chancellor is the Chief Academic and Administrative Officer of the University. The Principal presides over the Academic Council and, as Vice-Chancellor, deputises for the Chancellor and confers degrees in his or her absence. As Chief Executive of the University, the Principal is responsible by Statute for the effective working and good order of the University. With overall responsibility for the executive management and day-to-day activities of the University, the Principal is accountable to the Court for the discharge of his responsibilities. The responsibilities of the Principal may broadly be defined as: Implementing the decisions of the Court Initiating discussion and consultation on proposals concerning the University’s future Exercising academic leadership and promoting the strategic development of the University Contact Mrs Seona Donald PA to the Principal and Vice-Chancellor PrincipalPA@stir.ac.uk +44 (0) 1786 467012 Follow us Facebook Instagram X YouTube LinkedIn TikTok Popular links Faculties Professional services Alumni Jobs at Stirling Getting here Students’ Union Online shop Blog Current students Staff Site information Policy, Legal and Cookies Accessibility statement Sitemap Modern Slavery Statement Scottish Charity No SC011159 Contact us Contact us University of Stirling Stirling FK9 4LA Scotland UK Ask us a question ⟩ Map of the United Kingdom of Great Britain and Northern Ireland © University of Stirling Scroll back to the top",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Sir Gerry McCormac",
+            "role": "Principal and Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Mrs Seona Donald",
+            "role": "vice-chancellor",
+            "email": "principalpa@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "vice-chancellor",
+            "clean_name": "Mrs Seona Donald",
+            "email_normalized": "principalpa@stir.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "principalpa@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "visible_text",
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "vice-chancellor",
+            "clean_name": "",
+            "email_normalized": "principalpa@stir.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Mrs Seona Donald",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "visible_text",
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "vice-chancellor",
+            "clean_name": "Mrs Seona Donald",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "principalpa@stir.ac.uk",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "visible_text",
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "vice-chancellor",
+            "clean_name": "",
+            "email_normalized": "principalpa@stir.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Mrs Seona Donald",
+            "role": "vice-chancellor",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+            "page_context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Mrs Seona Donald",
+            "raw_role": "vice-chancellor",
+            "clean_name": "Mrs Seona Donald",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "464ddc4ed39bb8c6c8fc7c72378204dfce8080e3"
+      },
+      {
+        "url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.stir.ac.uk/about/our-people/alumni/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.stir.ac.uk/about/our-people/alumni/",
+        "page_family": "office",
+        "expected_yield": 8.9,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 3174,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3174,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "The Rt Hon Lord Jack McConnell",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Sir Gerry McCormac",
+            "role": "Principal and Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eileen Schofield",
+            "role": "Chief Operating Officer and University Secretary",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eileen Schofield",
+            "raw_role": "Chief Operating Officer and University Secretary",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Neville Wylie",
+            "role": "Deputy Principal (Internationalisation)",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Neville Wylie",
+            "raw_role": "Deputy Principal (Internationalisation)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jennifer Harrison",
+            "role": "Executive Director of Communications, Marketing and Recruitment",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jennifer Harrison",
+            "raw_role": "Executive Director of Communications, Marketing and Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "The Rt Hon Lord Jack McConnell",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Sir Gerry McCormac",
+            "role": "Principal and Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eileen Schofield",
+            "role": "Chief Operating Officer and University Secretary",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eileen Schofield",
+            "raw_role": "Chief Operating Officer and University Secretary",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Neville Wylie",
+            "role": "Deputy Principal (Internationalisation)",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Neville Wylie",
+            "raw_role": "Deputy Principal (Internationalisation)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jennifer Harrison",
+            "role": "Executive Director of Communications, Marketing and Recruitment",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jennifer Harrison",
+            "raw_role": "Executive Director of Communications, Marketing and Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eileen Schofield",
+            "role": "Chief Operating Officer and University Secretary",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eileen Schofield",
+            "raw_role": "Chief Operating Officer and University Secretary",
+            "clean_name": "Eileen Schofield",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Deputy Principal (Internationalisation)",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Neville Wylie",
+            "raw_role": "Deputy Principal (Internationalisation)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jennifer Harrison",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jennifer Harrison",
+            "raw_role": "Executive Director of Communications, Marketing and Recruitment",
+            "clean_name": "Jennifer Harrison",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sir Gerry McCormac",
+            "raw_role": "Principal and Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Eileen Schofield",
+            "role": "Chief Operating Officer and University Secretary",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eileen Schofield",
+            "raw_role": "Chief Operating Officer and University Secretary",
+            "clean_name": "Eileen Schofield",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Deputy Principal (Internationalisation)",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Neville Wylie",
+            "raw_role": "Deputy Principal (Internationalisation)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Jennifer Harrison",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jennifer Harrison",
+            "raw_role": "Executive Director of Communications, Marketing and Recruitment",
+            "clean_name": "Jennifer Harrison",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 3,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "The Rt Hon Lord",
+            "role": "chancellor",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "page_context": "Senior Officers | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "The Rt Hon Lord Jack McConnell",
+            "raw_role": "Chancellor",
+            "clean_name": "The Rt Hon Lord",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.9
+          },
+          {
+            "name": "Eileen Schofield",
+            "role": "Chief Operating Officer and University Secretary",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "page_context": "Senior Officers | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Eileen Schofield",
+            "raw_role": "Chief Operating Officer and University Secretary",
+            "clean_name": "Eileen Schofield",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.9
+          },
+          {
+            "name": "Jennifer Harrison",
+            "role": "recruitment",
+            "country": "GB",
+            "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+            "page_context": "Senior Officers | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jennifer Harrison",
+            "raw_role": "Executive Director of Communications, Marketing and Recruitment",
+            "clean_name": "Jennifer Harrison",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.9
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "8a3a2f14b41ed8d94410047f60e8552b51acef54"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "The Rt Hon Lord",
+        "role": "chancellor",
+        "country": "GB",
+        "page_url": "https://www.stir.ac.uk/about/our-people/",
+        "page_context": "Our people | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact us",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "The Rt Hon Lord Jack McConnell",
+        "raw_role": "Chancellor",
+        "clean_name": "The Rt Hon Lord",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.45
+      },
+      {
+        "name": "Mrs Ho Soon Eng",
+        "role": "rector",
+        "country": "GB",
+        "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+        "page_context": "International University - Our partnerships | International | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home International Global position Global ambition Our partnerships",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mrs Ho Soon Eng",
+        "raw_role": "Director, Higher Education",
+        "clean_name": "Mrs Ho Soon Eng",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.3
+      },
+      {
+        "name": "Dr Richa Arora",
+        "role": "COO & Head of Institution",
+        "country": "GB",
+        "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+        "page_context": "International University - Our partnerships | International | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home International Global position Global ambition Our partnerships",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dr Richa Arora",
+        "raw_role": "COO & Head of Institution",
+        "clean_name": "Dr Richa Arora",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.3
+      },
+      {
+        "name": "Mrs Seona Donald",
+        "role": "vice-chancellor",
+        "country": "GB",
+        "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+        "page_context": "Our Principal and Vice-Chancellor | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Mrs Seona Donald",
+        "raw_role": "vice-chancellor",
+        "clean_name": "Mrs Seona Donald",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.45
+      },
+      {
+        "name": "Eileen Schofield",
+        "role": "Chief Operating Officer and University Secretary",
+        "country": "GB",
+        "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+        "page_context": "Senior Officers | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Eileen Schofield",
+        "raw_role": "Chief Operating Officer and University Secretary",
+        "clean_name": "Eileen Schofield",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.9
+      },
+      {
+        "name": "Jennifer Harrison",
+        "role": "recruitment",
+        "country": "GB",
+        "page_url": "https://www.stir.ac.uk/about/our-people/senior-officers/",
+        "page_context": "Senior Officers | About | University of Stirling skip to main content × Home Find a course University courses by subject Study International Research About Student life Clearing News Events My favourites My Portal My Contact Search our site 中文网 My favourites 中文网 My Portal Site search Site search Show/hide mobile menu Study International Research About Student life Site search Loading... Home About Our history Our people Our reputation News Events Business and enterprise City Region Deal Contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jennifer Harrison",
+        "raw_role": "Executive Director of Communications, Marketing and Recruitment",
+        "clean_name": "Jennifer Harrison",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.9
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "international partnerships",
+        "email": "internationalpartnerships@stir.ac.uk",
+        "page_url": "https://www.stir.ac.uk/about/professional-services/internationalisation-and-partnerships/",
+        "score": 0,
+        "reason": "generic inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": true,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "generic_inbox"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "international partnerships",
+        "clean_name": "",
+        "email_normalized": "internationalpartnerships@stir.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "international partnerships",
+        "email": "internationalpartnerships@stir.ac.uk",
+        "page_url": "https://www.stir.ac.uk/international/our-partnerships/",
+        "score": 0,
+        "reason": "generic inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": true,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "generic_inbox"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "international partnerships",
+        "clean_name": "",
+        "email_normalized": "internationalpartnerships@stir.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "vice-chancellor",
+        "email": "principalpa@stir.ac.uk",
+        "page_url": "https://www.stir.ac.uk/about/our-people/our-principal-and-vice-chancellor/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "visible_text",
+        "raw_name": "Mrs Seona Donald",
+        "raw_role": "vice-chancellor",
+        "clean_name": "",
+        "email_normalized": "principalpa@stir.ac.uk"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,1464 @@
+{
+  "method": "ai_slug",
+  "university": "Iowa State University",
+  "homepage_url": "https://www.iastate.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 210,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 25,
+    "contacts_kept": 0,
+    "time_seconds": 33.213886737823486,
+    "tokens_in": 5527,
+    "tokens_out": 5000,
+    "cost_dollars": 0.0153162,
+    "best_url": "",
+    "source_breakdown": {
+      "mailto_explicit": 15,
+      "visible_regex": 15,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 19
+    }
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 192,
+      "generated_slug_only": 210,
+      "real_link_only": 138,
+      "hybrid": 269
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 12,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://facultystaff.info.iastate.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty and Staff",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.info.iastate.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Directory",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://facultystaff.info.iastate.edu/event/aws-research-day",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "AWS Research Day",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Study Abroad",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://facultystaff.info.iastate.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty and Staff Information",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://info.iastate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Directory",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://www.info.iastate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Directory",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://facultystaff.info.iastate.edu/calendar",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.75,
+        "anchor_text": "Employee Events",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Request Info",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://research.iastate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://facultystaff.info.iastate.edu/event/large-enrollment-community-practice-2",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Large Enrollment Community of Practice",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://facultystaff.info.iastate.edu/event/qpr-question-persuade-and-refer-gatekeeper-training-suicide-prevention-14",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "QPR (Question, Persuade, and Refer) Gatekeeper Training for Suicide Prevention",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://facultystaff.info.iastate.edu/event/top-hat-certification-level-2",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Top Hat Certification (Level 2)",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://facultystaff.info.iastate.edu/event/top-hat-certification-level-i",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Top Hat Certification (Level I)",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://www.facsen.iastate.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Senate",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://www.inside.iastate.edu/bulletin/announcements/staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "See all announcements",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://www.iastate.edu/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 8.6,
+        "anchor_text": "Contact the Admissions Office",
+        "parent_url": "https://www.iastate.edu/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://www.iastate.edu/frequent-contacts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.8,
+        "anchor_text": "Frequent Contacts",
+        "parent_url": "https://www.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://apps.admissions.iastate.edu/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Contact",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://www.iastate.edu/virtual",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "office",
+        "heuristic_score": 3.7,
+        "anchor_text": "Virtual Office",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://www.studyabroad.iastate.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 3.3,
+        "anchor_text": "Start your journey",
+        "parent_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://login.iastate.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Your Sign On dashboard",
+        "parent_url": "https://facultystaff.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://apps.admissions.iastate.edu/myaccount/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "My Admissions Account",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://www.iastate.edu/admission-and-aid/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://www.iastate.edu/admission-and-aid/meet-your-admissions-counselor",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Meet Your Admissions Counselor",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://apps.admissions.iastate.edu/admission-and-aid/apply",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Apply",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://apps.admissions.iastate.edu/admission-and-aid/new-student-programs/destination-iowa-state",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Destination Iowa\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tState",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://apps.admissions.iastate.edu/admission-and-aid/new-student-programs/meet-cyclone-aides",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Meet the Cyclone\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAides",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://apps.admissions.iastate.edu/admission-and-aid/new-student-programs/orientation",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Orientation",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://apps.admissions.iastate.edu/admission-and-aid/visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Visit",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://apps.admissions.iastate.edu/request_info.php",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Request Info",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://apps.admissions.iastate.edu/visit/eis.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Experience Iowa State",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://apps.admissions.iastate.edu/visit/special_visits_intro.php?type_id=1003",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Latino\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFamily Visit Day",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://apps.admissions.iastate.edu/visit/special_visits_intro.php?type_id=1004",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Multicultural\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tStudent Experience Day",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://apps.admissions.iastate.edu/visit/transfer.php",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Transfer\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tStudent Visit Days",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://www.admissions.iastate.edu/admission-and-aid/visit/group-visits",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Group Visits",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://www.admissions.iastate.edu/admission-and-aid/visit/parking-and-directions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Parking and\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDirections",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://www.admissions.iastate.edu/admission-and-aid/visit/schedule-your-visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Schedule Your\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVisit",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://www.admissions.iastate.edu/campus-visit-vocabulary",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Campus Visit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVocabulary",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://www.admissions.iastate.edu/daily-campus-visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Daily Campus\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVisit",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://www.admissions.iastate.edu/visit/eval.php",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Evaluate\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tYour Visit",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://www.iastate.edu/admission-and-aid/apply",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 1.1,
+        "anchor_text": "Apply",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://www.info.iastate.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About",
+        "parent_url": "https://www.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://digitalaccess.iastate.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Digital Access & Accessibility",
+        "parent_url": "https://apps.admissions.iastate.edu/forms.php/contact",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://event.iastate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Events",
+        "parent_url": "https://www.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://freespeech.iastate.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Free speech",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://iastate.edu/exhibits",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Exhibits",
+        "parent_url": "https://www.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://iastate.edu/index",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "A-Z Index",
+        "parent_url": "https://www.info.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://login.iastate.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Sign Ons",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://parents.dso.iastate.edu/resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Parents and Families",
+        "parent_url": "https://www.iastate.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.iastate.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.iastate.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.iastate.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.iastate.edu/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "staff",
+        "heuristic_score": 9.3,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.iastate.edu/en/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.iastate.edu/en/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.iastate.edu/en/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.iastate.edu/en/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.iastate.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.iastate.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "",
+      "best_url_kept": 0,
+      "source_breakdown": {
+        "mailto_explicit": 15,
+        "visible_regex": 15,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 19
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://facultystaff.info.iastate.edu",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 2,
+        "missing_email_candidates": 2,
+        "page_length": 34462,
+        "visible_text_length": 3031,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "8c4f37e8d4cc550b24039d7361d4b1898d3f57b4",
+        "content_signatures": [
+          "8c4f37e8d4cc550b24039d7361d4b1898d3f57b4"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.iastate.edu",
+        "mailto_count": 4,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 4,
+          "visible_regex": 4,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "provost@iastate.edu",
+            "role": "president",
+            "page_url": "https://facultystaff.info.iastate.edu",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "contact@iastate.edu",
+            "role": "rector",
+            "page_url": "https://facultystaff.info.iastate.edu",
+            "score": 0,
+            "reason": "generic office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Human Resources",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://facultystaff.info.iastate.edu",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Human Resources",
+            "raw_role": "rector",
+            "clean_name": "Human Resources",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "For employee questions\nUniversity Human Resources\nhrshelp@iastate.edu\n515-294-4800",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Iowa State",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://facultystaff.info.iastate.edu",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Iowa State",
+            "raw_role": "rector",
+            "clean_name": "Iowa State",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Faculty and Staff Information\nIowa State University\nAmes, IA 50011\n515-294-4111\ncontact@iastate.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.info.iastate.edu",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 5,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 31052,
+        "visible_text_length": 1374,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "29a50a58e423339b6a355d3a28ec3aab67f22491",
+        "content_signatures": [
+          "29a50a58e423339b6a355d3a28ec3aab67f22491"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.iastate.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://facultystaff.info.iastate.edu/event/aws-research-day",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 29404,
+        "visible_text_length": 2092,
+        "embedded_text_length": 129,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "cee68cb50dc555a7b77c0cb12f329fb1ca3d55b0",
+        "content_signatures": [
+          "cee68cb50dc555a7b77c0cb12f329fb1ca3d55b0"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://facultystaff.info.iastate.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Iowa State",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://facultystaff.info.iastate.edu/event/aws-research-day",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Iowa State",
+            "raw_role": "rector",
+            "clean_name": "Iowa State",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Faculty and Staff Information\nIowa State University\nAmes, IA 50011\n515-294-4111\ncontact@iastate.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 8,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 6,
+        "page_length": 40188,
+        "visible_text_length": 2720,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "13c2412dbf80f9b4051279df34a9af60321b8496",
+        "content_signatures": [
+          "13c2412dbf80f9b4051279df34a9af60321b8496"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.iastate.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 5.5,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 7
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "admissions@iastate.edu",
+            "role": "Study Abroad - Iowa State University Skip to main content MyAccount Request Info Apply Visit Give Research Extension Info For... Current Students Faculty and Staff Parents and Fami",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "score": 0,
+            "reason": "generic inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "General Information",
+            "role": "Study Abroad - Iowa State University Skip to main content MyAccount Request Info Apply Visit Give Research Extension Info For... Current Students Faculty and Staff Parents and Fami",
+            "email": "",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "General Information",
+            "raw_role": "Study Abroad - Iowa State University Skip to main content MyAccount Request Info Apply Visit Give Research Extension Info For... Current Students Faculty and Staff Parents and Fami",
+            "clean_name": "General Information",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "General Information\ncontact@iastate.edu\n515-294-4111",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zakiya Johnson",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zakiya Johnson",
+            "raw_role": "",
+            "clean_name": "Zakiya Johnson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sarah Pilut",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah Pilut",
+            "raw_role": "",
+            "clean_name": "Sarah Pilut",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ashley Hipnar",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ashley Hipnar",
+            "raw_role": "",
+            "clean_name": "Ashley Hipnar",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Natalie France",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Natalie France",
+            "raw_role": "",
+            "clean_name": "Natalie France",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean McDermott",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.iastate.edu/learn-by-doing/study-abroad",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean McDermott",
+            "raw_role": "",
+            "clean_name": "Sean McDermott",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://facultystaff.info.iastate.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 2,
+        "page_length": 34399,
+        "visible_text_length": 3004,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "2f50c67906b4a551ed345af891bb67767757f42d",
+        "content_signatures": [
+          "2f50c67906b4a551ed345af891bb67767757f42d"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_header|https://facultystaff.info.iastate.edu",
+        "mailto_count": 4,
+        "candidate_source_type": "header",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_header",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 4,
+          "visible_regex": 4,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Human Resources",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://facultystaff.info.iastate.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Human Resources",
+            "raw_role": "rector",
+            "clean_name": "Human Resources",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "For employee questions\nUniversity Human Resources\nhrshelp@iastate.edu\n515-294-4800",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Iowa State",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://facultystaff.info.iastate.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Iowa State",
+            "raw_role": "rector",
+            "clean_name": "Iowa State",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Faculty and Staff Information\nIowa State University\nAmes, IA 50011\n515-294-4111\ncontact@iastate.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://info.iastate.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 31052,
+        "visible_text_length": 1374,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "29a50a58e423339b6a355d3a28ec3aab67f22491",
+        "content_signatures": [
+          "29a50a58e423339b6a355d3a28ec3aab67f22491"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://facultystaff.info.iastate.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

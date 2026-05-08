@@ -1,0 +1,2447 @@
+{
+  "method": "ai_crawler",
+  "university": "Florida State University",
+  "homepage_url": "https://www.fsu.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 15,
+    "candidates_probed": 2,
+    "contacts_extracted": 12,
+    "contacts_kept": 0,
+    "time_seconds": 7.267275333404541,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://directory.fsu.edu/directory/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": true,
+      "failure_reason": "page_budget_exhausted",
+      "stop_reason": "page_budget_exhausted",
+      "probe_attempts": 15,
+      "pages_fetched": 15,
+      "successful_fetches": 2,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://directory.fsu.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "FSU Directory Assistance",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.fsu.edu/directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Directory",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://global.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Global FSU",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "Dedicated page for Global FSU likely providing information on international partnerships and engagement, potentially listing relevant contacts."
+      },
+      {
+        "url": "https://directory.fsu.edu/directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Directory",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://directory.fsu.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Florida State",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://directory.fsu.edu/academics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academics",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/athletics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Athletics",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/business",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Doing Business with Florida State",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/freespeech/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Free Speech",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/highlights/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "FSU Highlights & Rankings",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/land-acknowledgement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Land Acknowledgement",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/public-policy-events/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Public Policy Events",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/seminole-tribe/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Seminole Tribe",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/support-fsu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Support FSU",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Students",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://faculty.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://apps.its.fsu.edu/DepartmentDirectory/app/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Departments",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Programs",
+        "parent_url": "https://www.fsu.edu/administration/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/administration/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Administration",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://about.research.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.fsu.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About Florida State",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://research.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Research News",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.fsu.edu/academics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academics",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://apps.its.fsu.edu/Directory/Directory.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty and Staff",
+        "parent_url": "https://www.fsu.edu/directory/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://its.fsu.edu/service-catalog/communication-and-collaboration/directory/departmental-online-directory",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Departmental Online Directory",
+        "parent_url": "https://www.fsu.edu/directory/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://its.fsu.edu/service-catalog/communication-and-collaboration/directory/employee-online-directory",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Employee Online Directory",
+        "parent_url": "https://www.fsu.edu/directory/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://fda.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Office of Faculty Development and Advancement",
+        "parent_url": "https://www.fsu.edu/administration/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://servicecenter.fsu.edu/s/topic/0TO1U0000011QiAWAU/employee-online-directory",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Directory Assistance",
+        "parent_url": "https://www.fsu.edu/directory/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.fsu.edu/academics/campuses.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Branch Campuses",
+        "parent_url": "https://directory.fsu.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://servicecenter.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Service Center Directory",
+        "parent_url": "https://www.fsu.edu/directory/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.fsu.edu/administration/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Administration",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://its.fsu.edu/about-its/contact/university-it-support",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Service Centers and Help Desks",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://its.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Information Technology Services",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://visit.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visitor Services",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://vpfa.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Division of Finance and Administration",
+        "parent_url": "https://www.fsu.edu/administration/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://provost.fsu.edu/about/aqua",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Accreditation and Quality Assurance (AQuA)",
+        "parent_url": "https://www.fsu.edu/administration/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://esinfo.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Enrollment Management",
+        "parent_url": "https://www.fsu.edu/administration/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://trustees.fsu.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Board of Trustees",
+        "parent_url": "https://www.fsu.edu/administration/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://alumni.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Alumni Association",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://boosters.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Seminole Boosters",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://campus.map.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Map of Campus",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://foundation.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Giving to FSU",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://advising.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Advising",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://alerts.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Emergency Info",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://canvas.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Canvas",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://distance.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Distance Learning",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://economic-impact.fsu.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "FSU's Economic Impact",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://hr.fsu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Human Resources",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ir.fsu.edu/facts.aspx",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "FSU Facts",
+        "parent_url": "https://www.fsu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.fsu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.fsu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://contact.fsu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/directory/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.fsu.edu/directory/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/about/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://global.fsu.edu/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/academics/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/athletics/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/business"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/freespeech/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/highlights/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/administration/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/land-acknowledgement"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/public-policy-events/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/seminole-tribe/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.fsu.edu/support-fsu/"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "page_budget_exhausted"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "https://www.fsu.edu/",
+          "to": "https://www.fsu.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritized pages that provide access to staff directories or are focused on global engagement and international partnerships.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://directory.fsu.edu/directory/",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.fsu.edu/directory/",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://directory.fsu.edu/about/",
+          "page_type": "nav",
+          "expected_yield": 11.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://directory.fsu.edu/",
+          "page_type": "footer",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "Dedicated page for Global FSU likely providing information on international partnerships and engagement, potentially listing relevant contacts.",
+        "details": {
+          "url": "https://global.fsu.edu/",
+          "page_type": "global engagement",
+          "expected_yield": 75.0
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/academics/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/athletics/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/business",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/freespeech/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/highlights/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/administration/",
+          "page_type": "nav",
+          "expected_yield": 10.95
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/land-acknowledgement",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/public-policy-events/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/seminole-tribe/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://directory.fsu.edu/support-fsu/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritized pages that provide access to staff directories or are focused on global engagement and international partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only two pages needed to meet the criteria.",
+        "ranked_pages": [
+          {
+            "url": "https://directory.fsu.edu/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://directory.fsu.edu/directory/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.fsu.edu/directory/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://directory.fsu.edu/about/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 11.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://global.fsu.edu/",
+            "reason": "Dedicated page for Global FSU likely providing information on international partnerships and engagement, potentially listing relevant contacts.",
+            "expected_yield": 75.0,
+            "page_type": "global engagement"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://directory.fsu.edu/administration/",
+          "https://directory.fsu.edu/academics/",
+          "https://directory.fsu.edu/athletics/",
+          "https://directory.fsu.edu/business",
+          "https://directory.fsu.edu/freespeech/",
+          "https://directory.fsu.edu/highlights/"
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://directory.fsu.edu/land-acknowledgement",
+          "https://directory.fsu.edu/seminole-tribe/",
+          "https://directory.fsu.edu/support-fsu/",
+          "https://directory.fsu.edu/public-policy-events/",
+          "https://directory.fsu.edu/students/",
+          "https://news.fsu.edu/category/news/faculty-staff-briefs/"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://directory.fsu.edu/directory/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.fsu.edu/directory/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.fsu.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.fsu.edu",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 2345,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 2345,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Directory | Florida State University Skip to main content Florida State University Search FSU Select Search Type FSU Sites Faculty & Staff Directory Departments & Services Close Search Academics Admissions Research Faculty Students Veterans Support FSU Get to Know FSU About Florida State Administration Athletics FSU Facts FSU's Economic Impact Global FSU Land Acknowledgement Map of Campus Seminole Tribe Visitor Services News & Events Calendar of Events FSU Highlights & Rankings Press Research Initiatives kNOw MORE Public Policy Events FSU Tools & Resources Advising Canvas Distance Learning Information Technology Services Libraries myFSU Service Centers and Help Desks Tutoring Policy & Safety Emergency Info Free Speech FSU Regulations Police and Safety Policies Public Records Requests Strategic Plan Title IX Business & Employment Departments Directory Doing Business with Florida State Employment FSU Store Human Resources Join Our Seminole Family Admissions Alumni Association Giving to FSU Registrar Seminole Boosters Veterans Initiatives Close Menu Florida State University Academics Admissions Research Faculty Students Veterans Support FSU Directory General Faculty and Staff Departments Branch Campuses Visitors and Friends Campus Maps Visitor Center Admissions Human Resources Services Directory Assistance Service Center Directory Directory Changes: Employee Online Directory Departmental Online Directory Dialing Instructions Campus Safety Emergency — Dial 911 Alerts and Advisories Police (non-emergency) Request changes to: Department listing or Faculty/Staff listing Florida State University is committed to sustainability and resource conservation. We are pleased to offer this online directory as an efficient, environmentally friendly service for your campus search needs. This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at oas@fsu.edu or the Human Resources ADA Coordinator at amwagner@admin.fsu.edu . Florida State University 222 S. Copeland Street Tallahassee, FL 32306 FSU Directory Assistance Questions or Comments Privacy Policy Copyright Like Florida State on Facebook Follow Florida State on Instagram Follow Florida State on X Follow Florida State on Youtube Connect with Florida State on LinkedIn More FSU Social Media",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Directory | Florida State University Skip to main content Florida State University Search FSU Select Search Type FSU Sites Faculty & Staff Directory Departments & Services Close Search Academics Admissions Research Faculty Students Veterans Support FSU Get to Know FSU About Florida State Administration Athletics FSU Facts FSU's Economic Impact Global FSU Land Acknowledgement Map of Campus Seminole Tribe Visitor Services News & Events Calendar of Events FSU Highlights & Rankings Press Research Initiatives kNOw MORE Public Policy Events FSU Tools & Resources Advising Canvas Distance Learning Information Technology Services Libraries myFSU Service Centers and Help Desks Tutoring Policy & Safety Emergency Info Free Speech FSU Regulations Police and Safety Policies Public Records Requests Strategic Plan Title IX Business & Employment Departments Directory Doing Business with Florida State Employment FSU Store Human Resources Join Our Seminole Family Admissions Alumni Association Giving to FSU Registrar Seminole Boosters Veterans Initiatives Close Menu Florida State University Academics Admissions Research Faculty Students Veterans Support FSU Directory General Faculty and Staff Departments Branch Campuses Visitors and Friends Campus Maps Visitor Center Admissions Human Resources Services Directory Assistance Service Center Directory Directory Changes: Employee Online Directory Departmental Online Directory Dialing Instructions Campus Safety Emergency — Dial 911 Alerts and Advisories Police (non-emergency) Request changes to: Department listing or Faculty/Staff listing Florida State University is committed to sustainability and resource conservation. We are pleased to offer this online directory as an efficient, environmentally friendly service for your campus search needs. This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at oas@fsu.edu or the Human Resources ADA Coordinator at amwagner@admin.fsu.edu . Florida State University 222 S. Copeland Street Tallahassee, FL 32306 FSU Directory Assistance Questions or Comments Privacy Policy Copyright Like Florida State on Facebook Follow Florida State on Instagram Follow Florida State on X Follow Florida State on Youtube Connect with Florida State on LinkedIn More FSU Social Media",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Accessibility Services",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Accessibility Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources ADA Coordinator",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources ADA Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "oas@fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "amwagner@admin.fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "oas@fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "amwagner@admin.fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 2,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "oas@fsu.edu"
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://www.fsu.edu/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "amwagner@admin.fsu.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "00cd13b204a6a2a756ce1ed100f1f80a4c5aab09"
+      },
+      {
+        "url": "https://directory.fsu.edu/about/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 11.05,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.fsu.edu",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.fsu.edu",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 2345,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 2345,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Directory | Florida State University Skip to main content Florida State University Search FSU Select Search Type FSU Sites Faculty & Staff Directory Departments & Services Close Search Academics Admissions Research Faculty Students Veterans Support FSU Get to Know FSU About Florida State Administration Athletics FSU Facts FSU's Economic Impact Global FSU Land Acknowledgement Map of Campus Seminole Tribe Visitor Services News & Events Calendar of Events FSU Highlights & Rankings Press Research Initiatives kNOw MORE Public Policy Events FSU Tools & Resources Advising Canvas Distance Learning Information Technology Services Libraries myFSU Service Centers and Help Desks Tutoring Policy & Safety Emergency Info Free Speech FSU Regulations Police and Safety Policies Public Records Requests Strategic Plan Title IX Business & Employment Departments Directory Doing Business with Florida State Employment FSU Store Human Resources Join Our Seminole Family Admissions Alumni Association Giving to FSU Registrar Seminole Boosters Veterans Initiatives Close Menu Florida State University Academics Admissions Research Faculty Students Veterans Support FSU Directory General Faculty and Staff Departments Branch Campuses Visitors and Friends Campus Maps Visitor Center Admissions Human Resources Services Directory Assistance Service Center Directory Directory Changes: Employee Online Directory Departmental Online Directory Dialing Instructions Campus Safety Emergency — Dial 911 Alerts and Advisories Police (non-emergency) Request changes to: Department listing or Faculty/Staff listing Florida State University is committed to sustainability and resource conservation. We are pleased to offer this online directory as an efficient, environmentally friendly service for your campus search needs. This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at oas@fsu.edu or the Human Resources ADA Coordinator at amwagner@admin.fsu.edu . Florida State University 222 S. Copeland Street Tallahassee, FL 32306 FSU Directory Assistance Questions or Comments Privacy Policy Copyright Like Florida State on Facebook Follow Florida State on Instagram Follow Florida State on X Follow Florida State on Youtube Connect with Florida State on LinkedIn More FSU Social Media",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "rector",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Directory | Florida State University Skip to main content Florida State University Search FSU Select Search Type FSU Sites Faculty & Staff Directory Departments & Services Close Search Academics Admissions Research Faculty Students Veterans Support FSU Get to Know FSU About Florida State Administration Athletics FSU Facts FSU's Economic Impact Global FSU Land Acknowledgement Map of Campus Seminole Tribe Visitor Services News & Events Calendar of Events FSU Highlights & Rankings Press Research Initiatives kNOw MORE Public Policy Events FSU Tools & Resources Advising Canvas Distance Learning Information Technology Services Libraries myFSU Service Centers and Help Desks Tutoring Policy & Safety Emergency Info Free Speech FSU Regulations Police and Safety Policies Public Records Requests Strategic Plan Title IX Business & Employment Departments Directory Doing Business with Florida State Employment FSU Store Human Resources Join Our Seminole Family Admissions Alumni Association Giving to FSU Registrar Seminole Boosters Veterans Initiatives Close Menu Florida State University Academics Admissions Research Faculty Students Veterans Support FSU Directory General Faculty and Staff Departments Branch Campuses Visitors and Friends Campus Maps Visitor Center Admissions Human Resources Services Directory Assistance Service Center Directory Directory Changes: Employee Online Directory Departmental Online Directory Dialing Instructions Campus Safety Emergency — Dial 911 Alerts and Advisories Police (non-emergency) Request changes to: Department listing or Faculty/Staff listing Florida State University is committed to sustainability and resource conservation. We are pleased to offer this online directory as an efficient, environmentally friendly service for your campus search needs. This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at oas@fsu.edu or the Human Resources ADA Coordinator at amwagner@admin.fsu.edu . Florida State University 222 S. Copeland Street Tallahassee, FL 32306 FSU Directory Assistance Questions or Comments Privacy Policy Copyright Like Florida State on Facebook Follow Florida State on Instagram Follow Florida State on X Follow Florida State on Youtube Connect with Florida State on LinkedIn More FSU Social Media",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Accessibility Services",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Accessibility Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources ADA Coordinator",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources ADA Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "oas@fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "amwagner@admin.fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "oas@fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "amwagner@admin.fsu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at\noas@fsu.edu\nor the Human Resources ADA Coordinator at\namwagner@admin.fsu.edu\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 2,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "oas@fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "oas@fsu.edu"
+          },
+          {
+            "name": "",
+            "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "email": "amwagner@admin.fsu.edu",
+            "page_url": "https://directory.fsu.edu/",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+            "clean_name": "",
+            "email_normalized": "amwagner@admin.fsu.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "00cd13b204a6a2a756ce1ed100f1f80a4c5aab09",
+        "duplicate_of": "https://www.fsu.edu/directory/"
+      },
+      {
+        "url": "https://global.fsu.edu/",
+        "reason": "Dedicated page for Global FSU likely providing information on international partnerships and engagement, potentially listing relevant contacts.",
+        "page_type": "global engagement",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.fsu.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.fsu.edu",
+        "page_family": "international",
+        "expected_yield": 75.0,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/academics/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/athletics/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/business",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/freespeech/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/highlights/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/administration/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "governance",
+        "expected_yield": 10.95,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/land-acknowledgement",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/public-policy-events/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/seminole-tribe/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://directory.fsu.edu/support-fsu/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://directory.fsu.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.fsu.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "email": "oas@fsu.edu",
+        "page_url": "https://www.fsu.edu/directory/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "clean_name": "",
+        "email_normalized": "oas@fsu.edu"
+      },
+      {
+        "name": "",
+        "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "email": "amwagner@admin.fsu.edu",
+        "page_url": "https://www.fsu.edu/directory/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "clean_name": "",
+        "email_normalized": "amwagner@admin.fsu.edu"
+      },
+      {
+        "name": "",
+        "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "email": "oas@fsu.edu",
+        "page_url": "https://directory.fsu.edu/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "clean_name": "",
+        "email_normalized": "oas@fsu.edu"
+      },
+      {
+        "name": "",
+        "role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "email": "amwagner@admin.fsu.edu",
+        "page_url": "https://directory.fsu.edu/",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "This information is available in an alternative format upon request. To make a request, contact the Office of Accessibility Services (OAS) at",
+        "clean_name": "",
+        "email_normalized": "amwagner@admin.fsu.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

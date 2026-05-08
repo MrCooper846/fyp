@@ -1,0 +1,5224 @@
+{
+  "method": "ai_crawler",
+  "university": "Birkbeck, University of London",
+  "homepage_url": "https://www.bbk.ac.uk",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 15,
+    "candidates_probed": 15,
+    "contacts_extracted": 34,
+    "contacts_kept": 0,
+    "time_seconds": 38.13968300819397,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.bbk.ac.uk/international/entry-requirements",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": true,
+      "failure_reason": "page_budget_exhausted",
+      "stop_reason": "page_budget_exhausted",
+      "probe_attempts": 15,
+      "pages_fetched": 15,
+      "successful_fetches": 15,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.bbk.ac.uk/mbs",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Staff",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:footer"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Staff profiles",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/research",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Research",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Policies and procedures Birkbeck takes its responsibilities towards its staff and students very seriously and has formal guidelines, procedures and policies in ",
+        "parent_url": "https://www.bbk.ac.uk/about-us/governance",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Prevent Under the Counter Terrorism and Security Act 2015 higher education bodies must have due regard to the need to prevent people from being drawn into terro",
+        "parent_url": "https://www.bbk.ac.uk/about-us/governance",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/8008510/william-ackah",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr William Ackah Reader in Social Sciences and African Diaspora Studies, School of Social Sciences Senior Lecturer in Black and Community Geographies, School of",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/8538438/gordon-addo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mr Gordon Addo Associate Tutor, Birkbeck Business School",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9217498/abdulkadir-mohamed-abdulkadir",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mr Abdulkadir Mohamed Abdulkadir Demonstrator, School of Natural Sciences",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9288294/harry-acton",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr Harry Acton Associate Lecturer A, School of Creative Arts, Culture and Communication",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9310229/faris-abou-saleh",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mr Faris Abou-Saleh Lecturer, School of Computing and Mathematical Sciences",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9388084/natalie-a-russell",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Natalie A.Russell Associate Lecturer A, School of Psychological Sciences",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9421862/ahmad-abu-khazneh",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr Ahmad Abu-Khazneh Lecturer, School of Computing and Mathematical Sciences",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9459266/andy-adcroft",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Professor Andy Adcroft Head of School - Birkbeck Business School, Business and Law Central",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff/profile/9493974/abdessamad-ababou",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dr Abdessamad Ababou Associate Lecturer A, School of Psychological Sciences",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Help for people seeking asylum The Compass Project by Birkbeck helps people from forced migrant backgrounds seeking asylum in the UK who would like to continue ",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/governance",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Governance",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:footer"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "International Students",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "This page provides relevant information for international students and likely links to contacts involved in international relations and partnerships."
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/country-information",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find your country Find details of entry requirements and equivalencies for over 120 countries worldwide.",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/entry-requirements",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "How to apply",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/finance",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International student finance, fees and scholarships",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/finance/scholarships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Scholarships Birkbeck is committed to doing everything we can to help you finance your studies. Find out about what is available, how to apply and the advice an",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/visa",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Visa information Find out everything you need to know about the type of visa you need to come and study at Birkbeck, how to apply, and our free advice and suppo",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://bengaluru.bbk.ac.uk/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Bengaluru campus Students in India will be able to study for a globally-recognised University of London degree without relocating overseas with the opening of t",
+        "parent_url": "https://www.bbk.ac.uk/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/governance/about-our-governors",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Birkbeck Governors The Governing Body, referred to in the College as Governors, is collectively responsible for overseeing all of Birkbeck's activities.",
+        "parent_url": "https://www.bbk.ac.uk/about-us/governance",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/governance/birkbeck-committees",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Birkbeck committees The role of the college committees is to oversee and advise on specific areas of activity and, in certain cases, to exercise powers delegate",
+        "parent_url": "https://www.bbk.ac.uk/about-us/governance",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "About us",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Skip to main content",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Birkbeck Home",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/alumni",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/businesses",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Businesses",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/mbphome",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Students",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/contact-us",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Contact us",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Press office",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Professional services",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services/its",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "IT Services",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/bbk",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "BBK magazine",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/equality",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Equality and diversity",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/history",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "History",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/mission",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Mission",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/modern-slavery-statement",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Modern slavery statement",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/accessibility-statement",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Accessibility\n                            statement",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/cookies",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Our use of cookies",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/courses-disclaimer",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Courses disclaimer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/freedom-of-information",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Freedom of information",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/terms",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Terms and conditions",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/term-dates",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Term dates",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/a-z-index",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Site A-Z",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/cookies",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Our use of cookies",
+        "parent_url": "https://www.bbk.ac.uk/our-staff",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/courses",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Find a course",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.bbk.ac.uk/jobs",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Jobs",
+        "parent_url": "https://www.bbk.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.bbk.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.bbk.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.bbk.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/contact-us"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/mbs"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/our-staff"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/about-us/governance"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/international"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/about-us/policies/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/about-us/policies/prevent"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/professional-services/access/compass-project"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Leslie Topp"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Leslie Topp"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Leslie Topp"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Leslie Topp"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/professional-services/external-relations/communications"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/professional-services"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/professional-services/its"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/international/country-information"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/international/entry-requirements"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Veridiana Ribeiro"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Veridiana Ribeiro"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Veridiana Ribeiro"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Veridiana Ribeiro"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/international/finance"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.bbk.ac.uk/international/finance/scholarships"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "page_budget_exhausted"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Focus on pages that provide access to staff directories and international engagement information to maximize outreach opportunities.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.bbk.ac.uk/contact-us",
+          "page_type": "footer",
+          "expected_yield": 4.2
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:footer",
+        "details": {
+          "url": "https://www.bbk.ac.uk/mbs",
+          "page_type": "footer",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.bbk.ac.uk/our-staff",
+          "page_type": "footer",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:footer",
+        "details": {
+          "url": "https://www.bbk.ac.uk/about-us/governance",
+          "page_type": "footer",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page provides relevant information for international students and likely links to contacts involved in international relations and partnerships.",
+        "details": {
+          "url": "https://www.bbk.ac.uk/international",
+          "page_type": "international relations",
+          "expected_yield": 8.5
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/about-us/policies/",
+          "page_type": "body",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+          "page_type": "body",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+          "page_type": "body",
+          "expected_yield": 7.7
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Leslie Topp"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Leslie Topp"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Leslie Topp"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Leslie Topp"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+          "page_type": "footer",
+          "expected_yield": 3.7
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/professional-services",
+          "page_type": "footer",
+          "expected_yield": 1.5
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/professional-services/its",
+          "page_type": "footer",
+          "expected_yield": 1.5
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/international/country-information",
+          "page_type": "body",
+          "expected_yield": 7.1
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/international/entry-requirements",
+          "page_type": "body",
+          "expected_yield": 7.1
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Veridiana Ribeiro"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Veridiana Ribeiro"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Veridiana Ribeiro"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Veridiana Ribeiro"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/international/finance",
+          "page_type": "body",
+          "expected_yield": 7.1
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.bbk.ac.uk/international/finance/scholarships",
+          "page_type": "body",
+          "expected_yield": 7.1
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Focus on pages that provide access to staff directories and international engagement information to maximize outreach opportunities.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "End of output.",
+        "ranked_pages": [
+          {
+            "url": "https://www.bbk.ac.uk/our-staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 8.25,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://www.bbk.ac.uk/contact-us",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 4.2,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://www.bbk.ac.uk/mbs",
+            "reason": "deterministic_top_heuristic:footer",
+            "expected_yield": 8.25,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://www.bbk.ac.uk/about-us/governance",
+            "reason": "deterministic_top_heuristic:footer",
+            "expected_yield": 6.15,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://www.bbk.ac.uk/international",
+            "reason": "This page provides relevant information for international students and likely links to contacts involved in international relations and partnerships.",
+            "expected_yield": 8.5,
+            "page_type": "international relations"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+          "https://www.bbk.ac.uk/professional-services",
+          "https://www.bbk.ac.uk/professional-services/its",
+          "https://www.bbk.ac.uk/about-us/policies/",
+          "https://www.bbk.ac.uk/about-us/policies/prevent",
+          "https://www.bbk.ac.uk/professional-services/access/compass-project"
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.bbk.ac.uk/international/finance",
+          "https://www.bbk.ac.uk/international/country-information",
+          "https://www.bbk.ac.uk/international/entry-requirements",
+          "https://www.bbk.ac.uk/international/finance/scholarships",
+          "https://www.bbk.ac.uk/international/visa",
+          "https://www.bbk.ac.uk/about-us/governance/about-our-governors"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.bbk.ac.uk/contact-us",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "contact",
+        "expected_yield": 4.2,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 3556,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3584,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Journalists seeking information about the College should\nemail our media office\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Students' Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Students' Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Journalists seeking information about the College should\nemail our media office\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Students' Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Students' Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Journalists seeking information about the College should\nemail our media office\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Students' Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Journalists seeking information about the College should\nemail our media office\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Students' Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Media Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/contact-us",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "c9b638b3c6deee7f00795303950cfe85b28058ba"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/mbs",
+        "reason": "deterministic_top_heuristic:footer",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 23,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 23,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d09e164f4fb7ab312d55edd4b7f885b98dbdb1df"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/our-staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 4650,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4650,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "For general media enquiries please\nemail our media office\nor phone\n+44 (0)20 3926 3434.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Andy Adcroft",
+            "role": "Head of School - Birkbeck Business School",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Andy Adcroft",
+            "raw_role": "Head of School - Birkbeck Business School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor's Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "For general media enquiries please\nemail our media office\nor phone\n+44 (0)20 3926 3434.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Professor Andy Adcroft",
+            "role": "Head of School - Birkbeck Business School",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Andy Adcroft",
+            "raw_role": "Head of School - Birkbeck Business School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor's Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "For general media enquiries please\nemail our media office\nor phone\n+44 (0)20 3926 3434.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Head of School - Birkbeck Business School",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Andy Adcroft",
+            "raw_role": "Head of School - Birkbeck Business School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "For general media enquiries please\nemail our media office\nor phone\n+44 (0)20 3926 3434.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Head of School - Birkbeck Business School",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Andy Adcroft",
+            "raw_role": "Head of School - Birkbeck Business School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/our-staff",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "2f56568adc6e6f367647b30911cbe3e44ea75ba4"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/governance",
+        "reason": "deterministic_top_heuristic:footer",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 4705,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4733,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "committees@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "For general enquiries about governance or committee matters, please\nemail the Governance team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Governance team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "committees@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "For general enquiries about governance or committee matters, please\nemail the Governance team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Governance team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "committees@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "committees@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "For general enquiries about governance or committee matters, please\nemail the Governance team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Governance team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "committees@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "committees@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "For general enquiries about governance or committee matters, please\nemail the Governance team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Governance team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "",
+            "email": "committees@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/about-us/governance",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "committees@bbk.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "fa629c453b229c77a4da9dfe57c7a2c73ef3badd"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international",
+        "reason": "This page provides relevant information for international students and likely links to contacts involved in international relations and partnerships.",
+        "page_type": "international relations",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_body|https://www.bbk.ac.uk",
+        "page_family": "international",
+        "expected_yield": 8.5,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 7658,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 7722,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Professor Sally Wheeler",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sally Wheeler",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Professor Sally Wheeler",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sally Wheeler",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sally Wheeler",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Sally Wheeler",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "5db7e54bf30d77b3e3674727850af365ff1e897a"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/about-us/governance",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/about-us/governance",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3487,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3515,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement/Partnerships/Relations Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement/Partnerships/Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement/Partnerships/Relations Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement/Partnerships/Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement/Partnerships/Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement/Partnerships/Relations Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "eaa72a8d0fdb440b50d61ea10dee54aca444d54f"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/about-us/governance",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/about-us/governance",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2498,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2526,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Prevent Duty Compliance Governors",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Prevent Duty Compliance Governors",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Prevent Duty Compliance Governors",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Prevent Duty Compliance Governors",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Prevent Duty Compliance Governors",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Prevent Duty Compliance Governors",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Prevent Duty Compliance Governors",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/about-us/policies/prevent",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Prevent Duty Compliance Governors",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "7c83efcf81f94a9638c0b3ef339d5d519a341dd4"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/international",
+        "page_family": "office",
+        "expected_yield": 7.7,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 4190,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4218,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "thecompassproject@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "We welcome the opportunity to develop our relationship and collaborate with community organisations that work closely with forced migrants. Please\ncontact the Compass Project team\nto find out more about building a formal partnership and how we can work together to improve access to higher education for those who have",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "",
+            "email": "l.topp@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Leslie Topp",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Silence Heard Loud\ncontact Leslie Topp\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "Compass Project Team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Leslie Topp",
+            "raw_role": "Compass Project Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "thecompassproject@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "We welcome the opportunity to develop our relationship and collaborate with community organisations that work closely with forced migrants. Please\ncontact the Compass Project team\nto find out more about building a formal partnership and how we can work together to improve access to higher education for those who have",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "",
+            "email": "l.topp@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Leslie Topp",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Silence Heard Loud\ncontact Leslie Topp\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "Compass Project Team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Leslie Topp",
+            "raw_role": "Compass Project Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "thecompassproject@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "thecompassproject@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "We welcome the opportunity to develop our relationship and collaborate with community organisations that work closely with forced migrants. Please\ncontact the Compass Project team\nto find out more about building a formal partnership and how we can work together to improve access to higher education for those who have",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "",
+            "email": "l.topp@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Leslie Topp",
+            "raw_role": "",
+            "clean_name": "Leslie Topp",
+            "email_normalized": "l.topp@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Silence Heard Loud\ncontact Leslie Topp\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "Compass Project Team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Leslie Topp",
+            "raw_role": "Compass Project Team",
+            "clean_name": "Leslie Topp",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "thecompassproject@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "thecompassproject@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "We welcome the opportunity to develop our relationship and collaborate with community organisations that work closely with forced migrants. Please\ncontact the Compass Project team\nto find out more about building a formal partnership and how we can work together to improve access to higher education for those who have",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "",
+            "email": "l.topp@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Leslie Topp",
+            "raw_role": "",
+            "clean_name": "Leslie Topp",
+            "email_normalized": "l.topp@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Silence Heard Loud\ncontact Leslie Topp\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "Compass Project Team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Leslie Topp",
+            "raw_role": "Compass Project Team",
+            "clean_name": "Leslie Topp",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 1,
+        "office_contact_count": 1,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "thecompassproject@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "score": 0,
+            "reason": "no personal name",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international partnerships",
+            "clean_name": "",
+            "email_normalized": "thecompassproject@bbk.ac.uk"
+          },
+          {
+            "name": "Leslie Topp",
+            "role": "",
+            "email": "l.topp@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "score": 0,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Leslie Topp",
+            "raw_role": "",
+            "clean_name": "Leslie Topp",
+            "email_normalized": "l.topp@bbk.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Leslie Topp",
+            "role": "Compass Project Team",
+            "country": "GB",
+            "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+            "page_context": "The Compass Project - Birkbeck, University of London Skip to main content Birkbeck Home Students Research Businesses Alumni Birkbeck Home Search Menu Search keywords Search Home Find a course Study Study here Undergraduate study Postgraduate study MPhil/PhD research Short courses Entry requirements Financial support How to apply Come and meet us Evening study explained International Students Student Services Library Life at Birkbeck Student life at Birkbeck The Birkbeck Experience Boost your",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Leslie Topp",
+            "raw_role": "Compass Project Team",
+            "clean_name": "Leslie Topp",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.7
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "c011cfa470851cb65f7950a0c095dad2f45b9b9f"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "office",
+        "expected_yield": 3.7,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 2469,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 2497,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "email the Birkbeck Communications team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "If you have an enquiry about using Birkbeck's logo or sourcing images of the university, please\nemail the Communications team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Press Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Press Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Birkbeck Communications team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Birkbeck Communications team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "If you have an enquiry about using Birkbeck's logo or sourcing images of the university, please\nemail the Communications team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Press Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Press Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Birkbeck Communications team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Birkbeck Communications team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "If you have an enquiry about using Birkbeck's logo or sourcing images of the university, please\nemail the Communications team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Press Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Press Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Birkbeck Communications team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Birkbeck Communications team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "If you have an enquiry about using Birkbeck's logo or sourcing images of the university, please\nemail the Communications team\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Press Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Press Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Birkbeck Communications team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Birkbeck Communications team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "",
+            "email": "communications@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "communications@bbk.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "42acda0a27757daa981174b963c89a0f9f5153a0"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "office",
+        "expected_yield": 1.5,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 2746,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2774,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Registry Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Registry Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Research Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Research Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Secretary's Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Secretary's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Registry Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Registry Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Research Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Research Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Secretary's Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Secretary's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Registry Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Registry Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Research Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Research Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Secretary's Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Secretary's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Registry Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Registry Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Research Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Research Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Secretary's Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Secretary's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "c0089632584d06a4d0f1f32054a5adc21400c216"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/professional-services/its",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "https://www.bbk.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.bbk.ac.uk",
+        "page_family": "office",
+        "expected_yield": 1.5,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 3860,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3888,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Information Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/its",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Information Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Information Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/its",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Information Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Information Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/its",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Information Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Information Services",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/professional-services/its",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Information Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "b0eed47c900e73828980dd59454b97a01e69117b"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/country-information",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "expected_yield": 7.1,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2838,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2866,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/country-information",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/country-information",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/country-information",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/country-information",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "8cb08898f5d713f5a2557b46539f319ece949e9e"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/entry-requirements",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "expected_yield": 7.1,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 8073,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 8101,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "globalrecruitment@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "v.ribeiro@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "Global Recruitment team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Recruitment team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "globalrecruitment@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "v.ribeiro@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "Global Recruitment team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Recruitment team",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "globalrecruitment@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "globalrecruitment@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "v.ribeiro@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "v.ribeiro@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "globalrecruitment@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "globalrecruitment@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "v.ribeiro@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "v.ribeiro@bbk.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 2,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 1,
+        "office_contact_count": 1,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 1,
+        "kept_contacts": [
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "email": "v.ribeiro@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "score": 13,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "Veridiana Ribeiro",
+            "email_normalized": "v.ribeiro@bbk.ac.uk"
+          }
+        ],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "globalrecruitment@bbk.ac.uk",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "score": 0,
+            "reason": "no personal name",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "globalrecruitment@bbk.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "country": "GB",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "page_context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "international office",
+            "clean_name": "Veridiana Ribeiro",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.1
+          },
+          {
+            "name": "Veridiana Ribeiro",
+            "role": "international office",
+            "country": "GB",
+            "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+            "page_context": "Entry requirements and how to apply - Birkbeck, University of London Skip to main content Birkbeck Home Students Research Businesses Alumni Birkbeck Home Search Menu Search keywords Search Home Find a course Study Study here Undergraduate study Postgraduate study MPhil/PhD research Short courses Entry requirements Financial support How to apply Come and meet us Evening study explained International Students Student Services Library Life at Birkbeck Student life at Birkbeck The Birkbeck",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Veridiana Ribeiro",
+            "raw_role": "Global Recruitment team",
+            "clean_name": "Veridiana Ribeiro",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 7.1
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "0c493bcb5c2120deb5cefaaee82d25ebeb1e9665"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/finance",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "expected_yield": 7.1,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2430,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2458,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Student Finance",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Student Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Student Finance",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Student Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Student Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Student Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "9e043d9ced131aaa993a6e72b2e9818540459d2d"
+      },
+      {
+        "url": "https://www.bbk.ac.uk/international/finance/scholarships",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.bbk.ac.uk/international",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.bbk.ac.uk/international",
+        "page_family": "international",
+        "expected_yield": 7.1,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 5354,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5382,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Scholarships",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Scholarships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of International Finance",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Scholarships",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Scholarships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of International Finance",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "International Scholarships",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Scholarships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "International Scholarships",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Scholarships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.bbk.ac.uk/international/finance/scholarships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of International Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "6d6ab8ea75a7a5ed94a999683da0562218f74db6"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Leslie Topp",
+        "role": "Compass Project Team",
+        "country": "GB",
+        "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+        "page_context": "The Compass Project - Birkbeck, University of London Skip to main content Birkbeck Home Students Research Businesses Alumni Birkbeck Home Search Menu Search keywords Search Home Find a course Study Study here Undergraduate study Postgraduate study MPhil/PhD research Short courses Entry requirements Financial support How to apply Come and meet us Evening study explained International Students Student Services Library Life at Birkbeck Student life at Birkbeck The Birkbeck Experience Boost your",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Leslie Topp",
+        "raw_role": "Compass Project Team",
+        "clean_name": "Leslie Topp",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.7
+      },
+      {
+        "name": "Veridiana Ribeiro",
+        "role": "international office",
+        "country": "GB",
+        "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+        "page_context": "Agents can contact the\nGlobal Recruitment team\nand\nVeridiana Ribeiro\nif you have any issues or queries.",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "raw_name": "Veridiana Ribeiro",
+        "raw_role": "international office",
+        "clean_name": "Veridiana Ribeiro",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 7.1
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "",
+        "email": "communications@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/contact-us",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "",
+        "clean_name": "",
+        "email_normalized": "communications@bbk.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "",
+        "email": "communications@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/our-staff",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "",
+        "clean_name": "",
+        "email_normalized": "communications@bbk.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "",
+        "email": "committees@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/about-us/governance",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "",
+        "clean_name": "",
+        "email_normalized": "committees@bbk.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "international partnerships",
+        "email": "thecompassproject@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+        "score": 0,
+        "reason": "no personal name",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "international partnerships",
+        "clean_name": "",
+        "email_normalized": "thecompassproject@bbk.ac.uk"
+      },
+      {
+        "name": "Leslie Topp",
+        "role": "",
+        "email": "l.topp@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/professional-services/access/compass-project",
+        "score": 0,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Leslie Topp",
+        "raw_role": "",
+        "clean_name": "Leslie Topp",
+        "email_normalized": "l.topp@bbk.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "",
+        "email": "communications@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/professional-services/external-relations/communications",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "",
+        "raw_role": "",
+        "clean_name": "",
+        "email_normalized": "communications@bbk.ac.uk"
+      },
+      {
+        "name": "",
+        "role": "international office",
+        "email": "globalrecruitment@bbk.ac.uk",
+        "page_url": "https://www.bbk.ac.uk/international/entry-requirements",
+        "score": 0,
+        "reason": "no personal name",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Veridiana Ribeiro",
+        "raw_role": "international office",
+        "clean_name": "",
+        "email_normalized": "globalrecruitment@bbk.ac.uk"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,4684 @@
+{
+  "method": "ai_crawler",
+  "university": "Temple University",
+  "homepage_url": "https://www.temple.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 15,
+    "candidates_probed": 15,
+    "contacts_extracted": 32,
+    "contacts_kept": 0,
+    "time_seconds": 48.49508738517761,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://directory.temple.edu/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": true,
+      "failure_reason": "page_budget_exhausted",
+      "stop_reason": "page_budget_exhausted",
+      "probe_attempts": 15,
+      "pages_fetched": 15,
+      "successful_fetches": 15,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.temple.edu/temple-research/faculty-research-news",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty and Research News",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://directory.temple.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Cherry & White Directory",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty & Staff Resources",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Conferences and Meetings",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty Resources",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Finance and Travel",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Safety and Alerts",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Working at Temple",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Holiday Schedule",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Business Services",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campus Services",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Wellness and Health Services",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.temple.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Undergraduate",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://research.temple.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.temple.edu/registrar/facultystaff/gradesindex.asp",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Grade Changes and Submission",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://faculty.temple.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Visit the Faculty Affairs website",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultysenate.temple.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn about Faculty Senate",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultysenate.temple.edu/faculty-herald",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Read the Faculty Herald",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/admissions/international-admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International Admissions",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "This page focuses on international admissions, which can provide contacts related to international partnerships and global engagement."
+      },
+      {
+        "url": "https://www.temple.edu/academics/international-study",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International Study",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/leadership/board-trustees",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Board of Trustees",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://now.temple.edu/news/2025-11-14/temple-faculty-explore-ai-automation-future-work",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "The fourth edition of Temple's Grand Challenges panel series focused on how emerging technologies and other changing factors are impacting the workforce and fut",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://now.temple.edu/news/2025-11-11/peyton-manning-jason-kelce-team-temple-break-down-eagles-tush-push-espn",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Former Indianapolis Colts quarterback Peyton Manning traveled to Philadelphia, where he switched places with former Eagles center Jason Kelce to learn about the",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://temple.edu/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/university-offices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "University Offices",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/life-temple/diversity-inclusivity/religious-services-information",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Religious Services Information",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://careers.temple.edu/hr-resources/our-functional-areas/benefits-administration",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find information about employee benefits Temple offers",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://careers.temple.edu/hr-resources/our-functional-areas/payroll-management",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find information about payroll management",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://careers.temple.edu/hr-resources/our-functional-areas/benefits-administration/additional-benefit-options/tuition",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn about tuition remission",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.temple.edu/apply/transfer-students",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Transfer",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.temple.edu/visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Apply",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/admissions/graduate-professional",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Graduate and Professional",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/community-impact-civic-engagement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Community Impact and Civic Engagement",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/accessibility-statement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Accessibility",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/history-traditions/honorary-degrees",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Honorary Degrees",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/history/acres-diamonds",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Acres of Diamonds",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/history/russell-h-conwell",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Russell H. Conwell",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/history/temple-traditions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Temple Traditions",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/internal-audits",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Internal Audits",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/mission-history",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Mission and History",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/public-information",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Public Information",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/temple-health",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Temple Health",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.temple.edu/about/university-events",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "University Events",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://careers.temple.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Careers at Temple",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://safety.temple.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Safety",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://secretary.temple.edu/policies",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Policies",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://temple.edu/maps-and-directions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Maps & Directions",
+        "parent_url": "https://www.temple.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.temple.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.temple.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.temple.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.temple.edu/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/faculty-resources"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/admissions/international-admissions"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/finance-travel"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/safety-alerts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/working-temple"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/business-services"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/campus-services"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/faculty-staff-resources/wellness-health-services"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/university-offices"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/leadership"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John Fry"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John Fry"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover John Fry"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for John Fry"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.temple.edu/about/leadership/board-trustees"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "page_budget_exhausted"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "https://www.temple.edu",
+          "to": "https://www.temple.edu/",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize contacts from directories and pages related to international affairs and partnerships.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://directory.temple.edu/",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources",
+          "page_type": "nav",
+          "expected_yield": 11.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page focuses on international admissions, which can provide contacts related to international partnerships and global engagement.",
+        "details": {
+          "url": "https://www.temple.edu/admissions/international-admissions",
+          "page_type": "International Admissions",
+          "expected_yield": 8.5
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+          "page_type": "nav",
+          "expected_yield": 9.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+          "page_type": "nav",
+          "expected_yield": 8.9
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+          "page_type": "nav",
+          "expected_yield": 8.9
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+          "page_type": "nav",
+          "expected_yield": 8.9
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/university-offices",
+          "page_type": "nav",
+          "expected_yield": 4.9
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/leadership",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John Fry"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John Fry"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "John Fry"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "John Fry"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.temple.edu/about/leadership/board-trustees",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize contacts from directories and pages related to international affairs and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Limit to two total pages.",
+        "ranked_pages": [
+          {
+            "url": "https://directory.temple.edu/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.temple.edu/about/faculty-staff-resources",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 11.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.temple.edu/admissions/international-admissions",
+            "reason": "This page focuses on international admissions, which can provide contacts related to international partnerships and global engagement.",
+            "expected_yield": 8.5,
+            "page_type": "International Admissions"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+          "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+          "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+          "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+          "https://www.temple.edu/about/faculty-staff-resources/business-services",
+          "https://www.temple.edu/about/faculty-staff-resources/campus-services"
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+          "https://www.temple.edu/temple-research/faculty-research-news",
+          "https://www.temple.edu/academics/international-study",
+          "https://www.temple.edu/about/leadership/board-trustees",
+          "https://www.temple.edu/about/leadership",
+          "https://www.temple.edu/about/university-offices"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://directory.temple.edu/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 238,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 238,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "John Doe",
+            "role": "International Admissions",
+            "email": "johndoe@temple.edu",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Doe",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Global Engagement",
+            "email": "",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "John Doe",
+            "role": "International Admissions",
+            "email": "johndoe@temple.edu",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Doe",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Global Engagement",
+            "email": "",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "John Doe",
+            "role": "international admissions",
+            "email": "johndoe@temple.edu",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Doe",
+            "raw_role": "International Admissions",
+            "clean_name": "John Doe",
+            "email_normalized": "johndoe@temple.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "John Doe",
+            "role": "international admissions",
+            "email": "johndoe@temple.edu",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "John Doe",
+            "raw_role": "International Admissions",
+            "clean_name": "John Doe",
+            "email_normalized": "johndoe@temple.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://directory.temple.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Office of Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [
+          {
+            "name": "John Doe",
+            "role": "international admissions",
+            "email": "johndoe@temple.edu",
+            "page_url": "https://directory.temple.edu/",
+            "score": 12,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "John Doe",
+            "raw_role": "International Admissions",
+            "clean_name": "John Doe",
+            "email_normalized": "johndoe@temple.edu"
+          }
+        ],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "30f6ecc6dc8ac9a56fa4854dafbf8c68a74d002d"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "directory",
+        "expected_yield": 11.65,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 3869,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3821,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d87ce91ebb6c645eb762bf1f0673c5bbdf288fa0"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 6697,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 6649,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "event planning team",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "event planning team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "event planning team",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "event planning team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "event planning team",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "event planning team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "event planning team",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services/conferences-meetings",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "event planning team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "37bb23316f1b09e172c021c8809a7eb6c72f7be0"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 3391,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3343,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office for the Vice President of Research",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office for the Vice President of Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office for the Vice President of Research",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office for the Vice President of Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office for the Vice President of Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office for the Vice President of Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "cc6d81b4aa01197999d2553366fbb76d12f23110"
+      },
+      {
+        "url": "https://www.temple.edu/admissions/international-admissions",
+        "reason": "This page focuses on international admissions, which can provide contacts related to international partnerships and global engagement.",
+        "page_type": "International Admissions",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "international",
+        "expected_yield": 8.5,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 5203,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5155,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Graduate Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Graduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Graduate Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Graduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Graduate Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "duplicate_candidate"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/admissions/international-admissions",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e7ab07f2379ecb2f1de488750f4a80b3d4b2d4cf"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.temple.edu/about/faculty-staff-resources/faculty-resources",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 6492,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 6444,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of Human Resources",
+            "email": "hr@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources Specialist",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Human Resources Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of Human Resources",
+            "email": "hr@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources Specialist",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Human Resources Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Office of Human Resources",
+            "email": "hr@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Human Resources",
+            "clean_name": "",
+            "email_normalized": "hr@temple.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Human Resources Specialist",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Human Resources Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Office of Human Resources",
+            "email": "hr@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Human Resources",
+            "clean_name": "",
+            "email_normalized": "hr@temple.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Human Resources Specialist",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Human Resources Specialist",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Office of Human Resources",
+            "email": "hr@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Human Resources",
+            "clean_name": "",
+            "email_normalized": "hr@temple.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "def66df7854987989b53a96a03c7e48310950cda"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3921,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3873,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Controller's Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Controller's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Accounts Payable",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Accounts Payable",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Controller's Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Controller's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Accounts Payable",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Accounts Payable",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Controller's Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Controller's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Accounts Payable",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Accounts Payable",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Controller's Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Controller's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Accounts Payable",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/finance-travel",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Accounts Payable",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "76bd02494b4586760abe212586e97e8e723cd54b"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3367,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3319,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The\nPublic Safety website",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Public Safety",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Public Safety",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The\nPublic Safety website",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Public Safety",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Public Safety",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Elizabeth Clay",
+            "role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Elizabeth Clay",
+            "raw_role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "clean_name": "Elizabeth Clay",
+            "email_normalized": "elizabeth.clay@temple.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The\nPublic Safety website",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Public Safety",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Public Safety",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Elizabeth Clay",
+            "role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Elizabeth Clay",
+            "raw_role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "clean_name": "Elizabeth Clay",
+            "email_normalized": "elizabeth.clay@temple.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The\nPublic Safety website",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Public Safety",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Public Safety",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "Elizabeth Clay",
+            "role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+            "score": 3,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Elizabeth Clay",
+            "raw_role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+            "clean_name": "Elizabeth Clay",
+            "email_normalized": "elizabeth.clay@temple.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "350922f759b5c696b5b1d3d7a334fb2146493eb0"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "directory",
+        "expected_yield": 9.45,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 4174,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 4126,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Human Resources",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Human Resources",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "70dd1f8a70e020c94a3001e03271b435e84e7694"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "office",
+        "expected_yield": 8.9,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 3195,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3147,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Campus Operations\nand\nGateway to Finance\nserve as a conduit of information for the Temple community. Internal business and finance forms for faculty and staff are located on the\nBudget and Finance tab in TUportal\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Campus Operations\nand\nGateway to Finance\nserve as a conduit of information for the Temple community. Internal business and finance forms for faculty and staff are located on the\nBudget and Finance tab in TUportal\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Elizabeth Clay",
+            "role": "",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Elizabeth Clay",
+            "raw_role": "",
+            "clean_name": "Elizabeth Clay",
+            "email_normalized": "elizabeth.clay@temple.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Campus Operations\nand\nGateway to Finance\nserve as a conduit of information for the Temple community. Internal business and finance forms for faculty and staff are located on the\nBudget and Finance tab in TUportal\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Elizabeth Clay",
+            "role": "",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Elizabeth Clay",
+            "raw_role": "",
+            "clean_name": "Elizabeth Clay",
+            "email_normalized": "elizabeth.clay@temple.edu",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Campus Operations\nand\nGateway to Finance\nserve as a conduit of information for the Temple community. Internal business and finance forms for faculty and staff are located on the\nBudget and Finance tab in TUportal\n.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 6,
+        "clean_candidate_count": 6,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 5,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "Elizabeth Clay",
+            "role": "",
+            "email": "elizabeth.clay@temple.edu",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+            "score": 0,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Elizabeth Clay",
+            "raw_role": "",
+            "clean_name": "Elizabeth Clay",
+            "email_normalized": "elizabeth.clay@temple.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "daefbac6a110b29cc315decca36604c7182195cd"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "office",
+        "expected_yield": 8.9,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 4074,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 4026,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/campus-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "c6dfa56fd86f7101f0c73e5266505fe2b716b193"
+      },
+      {
+        "url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "office",
+        "expected_yield": 8.9,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2829,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2781,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Wellness and Health Services",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Wellness and Health Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Wellness and Health Services",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Wellness and Health Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Wellness and Health Services",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Wellness and Health Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Wellness and Health Services",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/faculty-staff-resources/wellness-health-services",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Wellness and Health Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "3ee68a548058bb22ea8e82801921dc8485e7aeef"
+      },
+      {
+        "url": "https://www.temple.edu/about/university-offices",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "office",
+        "expected_yield": 4.9,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 3766,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3718,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Student and Scholar Services",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student and Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "University Administration",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Student and Scholar Services",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student and Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "University Administration",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student and Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "University Administration",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international student office",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Student and Scholar Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "University Administration",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/university-offices",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "c0e9c2f04c1bf8af72a9b03951807fb78b3f5cd0"
+      },
+      {
+        "url": "https://www.temple.edu/about/leadership",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 3543,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3495,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "John Fry",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Fry",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "John Fry",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Fry",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "John Fry",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Fry",
+            "raw_role": "President",
+            "clean_name": "John Fry",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "John Fry",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Fry",
+            "raw_role": "President",
+            "clean_name": "John Fry",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "John Fry",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://www.temple.edu/about/leadership",
+            "page_context": "Leadership | Temple University Skip to main content Explore Temple's Schools and Colleges Visit Apply Alumni TUportal Support Temple Temple University Search Keywords Search Admissions Undergraduate Graduate and Professional Transfer International Admissions Academics Degrees and Programs Campuses Continuing Education & Summer Sessions Courses and Schedules Dual Degree Programs Honors Program Interdisciplinary Academics Neuroscience at Temple International Study Libraries Schools and Colleges",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "John Fry",
+            "raw_role": "President",
+            "clean_name": "John Fry",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "e6ee208172aebe202fa86437f189e34ebcba0bd3"
+      },
+      {
+        "url": "https://www.temple.edu/about/leadership/board-trustees",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.temple.edu/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.temple.edu/",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 3067,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3019,
+        "embedded_text_length": 46,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Board of Trustees",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership/board-trustees",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Board of Trustees",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Board of Trustees",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership/board-trustees",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Board of Trustees",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Board of Trustees",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership/board-trustees",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Board of Trustees",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Board of Trustees",
+            "email": "",
+            "page_url": "https://www.temple.edu/about/leadership/board-trustees",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Board of Trustees",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e12ef68a8324c1071cf4932284ed61ac14b12201"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "John Fry",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://www.temple.edu/about/leadership",
+        "page_context": "Leadership | Temple University Skip to main content Explore Temple's Schools and Colleges Visit Apply Alumni TUportal Support Temple Temple University Search Keywords Search Admissions Undergraduate Graduate and Professional Transfer International Admissions Academics Degrees and Programs Campuses Continuing Education & Summer Sessions Courses and Schedules Dual Degree Programs Honors Program Interdisciplinary Academics Neuroscience at Temple International Study Libraries Schools and Colleges",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "John Fry",
+        "raw_role": "President",
+        "clean_name": "John Fry",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "Office of Human Resources",
+        "email": "hr@temple.edu",
+        "page_url": "https://www.temple.edu/about/faculty-staff-resources/working-temple/holiday-schedule",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [],
+        "evidence_type": "office_contact",
+        "raw_name": "",
+        "raw_role": "Office of Human Resources",
+        "clean_name": "",
+        "email_normalized": "hr@temple.edu"
+      },
+      {
+        "name": "Elizabeth Clay",
+        "role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+        "email": "elizabeth.clay@temple.edu",
+        "page_url": "https://www.temple.edu/about/faculty-staff-resources/safety-alerts",
+        "score": 3,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "name_inferred_from_email_localpart",
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Elizabeth Clay",
+        "raw_role": "At Temple University, the safety and well-being of our community is our top priority. Our goal is to help you stay informed about resources and services. The",
+        "clean_name": "Elizabeth Clay",
+        "email_normalized": "elizabeth.clay@temple.edu"
+      },
+      {
+        "name": "Elizabeth Clay",
+        "role": "",
+        "email": "elizabeth.clay@temple.edu",
+        "page_url": "https://www.temple.edu/about/faculty-staff-resources/business-services",
+        "score": 0,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "name_inferred_from_email_localpart",
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Elizabeth Clay",
+        "raw_role": "",
+        "clean_name": "Elizabeth Clay",
+        "email_normalized": "elizabeth.clay@temple.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

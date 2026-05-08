@@ -1,0 +1,1367 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Georgia",
+  "homepage_url": "https://www.uga.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 22,
+    "candidates_ranked": 22,
+    "probe_attempts": 15,
+    "candidates_probed": 14,
+    "contacts_extracted": 0,
+    "contacts_kept": 0,
+    "time_seconds": 9.411543369293213,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.uga.edu/faculty-and-staff",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": true,
+      "failure_reason": "page_budget_exhausted",
+      "stop_reason": "page_budget_exhausted",
+      "probe_attempts": 15,
+      "pages_fetched": 15,
+      "successful_fetches": 14,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.uga.edu/faculty-and-staff",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.uga.edu/directory",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.uga.edu/about",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:sitemap"
+      },
+      {
+        "url": "https://www.uga.edu/about/academic-excellence",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:sitemap"
+      },
+      {
+        "url": "https://www.uga.edu/about/campuses",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/about/facts",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/about/history-and-traditions",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/about/mission",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/about/research",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/about/serving-georgia",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/about/value",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/community",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/download-app",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/holiday-schedule",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/schools",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/search",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/social-media",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uga.edu/weather-policy",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uga.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "This page is likely dedicated to global engagement and international partnerships, making it a strong candidate for finding relevant contacts."
+      },
+      {
+        "url": "https://global.uga.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.uga.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/directory"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://global.uga.edu"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/academic-excellence"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/campuses"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/facts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/history-and-traditions"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/mission"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/research"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/serving-georgia"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/about/value"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/community"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uga.edu/download-app"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "page_budget_exhausted"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that provide direct access to relevant team contacts and global engagement resources.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.uga.edu/faculty-and-staff",
+          "page_type": "sitemap",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.uga.edu/directory",
+          "page_type": "sitemap",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page is likely dedicated to global engagement and international partnerships, making it a strong candidate for finding relevant contacts.",
+        "details": {
+          "url": "https://global.uga.edu",
+          "page_type": "global engagement page",
+          "expected_yield": 8.5
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/academic-excellence",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/campuses",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/facts",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/history-and-traditions",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/mission",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/research",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/serving-georgia",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/about/value",
+          "page_type": "sitemap",
+          "expected_yield": 1.75
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/",
+          "page_type": "sitemap",
+          "expected_yield": 0.55
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/community",
+          "page_type": "sitemap",
+          "expected_yield": 0.55
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:sitemap",
+        "details": {
+          "url": "https://www.uga.edu/download-app",
+          "page_type": "sitemap",
+          "expected_yield": 0.55
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that provide direct access to relevant team contacts and global engagement resources.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Limit ranking to a focused selection of pages indicating high relevance to international outreach.",
+        "ranked_pages": [
+          {
+            "url": "https://www.uga.edu/faculty-and-staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "sitemap"
+          },
+          {
+            "url": "https://www.uga.edu/directory",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.85,
+            "page_type": "sitemap"
+          },
+          {
+            "url": "https://www.uga.edu/about",
+            "reason": "deterministic_top_heuristic:sitemap",
+            "expected_yield": 1.75,
+            "page_type": "sitemap"
+          },
+          {
+            "url": "https://www.uga.edu/about/academic-excellence",
+            "reason": "deterministic_top_heuristic:sitemap",
+            "expected_yield": 1.75,
+            "page_type": "sitemap"
+          },
+          {
+            "url": "https://global.uga.edu",
+            "reason": "This page is likely dedicated to global engagement and international partnerships, making it a strong candidate for finding relevant contacts.",
+            "expected_yield": 8.5,
+            "page_type": "global engagement page"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.uga.edu/about/campuses",
+          "https://www.uga.edu/about/facts",
+          "https://www.uga.edu/about/history-and-traditions",
+          "https://www.uga.edu/about/mission",
+          "https://www.uga.edu/about/research",
+          "https://www.uga.edu/about/serving-georgia"
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.uga.edu/about/value",
+          "https://www.uga.edu/",
+          "https://www.uga.edu/community",
+          "https://www.uga.edu/download-app",
+          "https://www.uga.edu/holiday-schedule",
+          "https://www.uga.edu/schools"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.uga.edu/faculty-and-staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e"
+      },
+      {
+        "url": "https://www.uga.edu/directory",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://global.uga.edu",
+        "reason": "This page is likely dedicated to global engagement and international partnerships, making it a strong candidate for finding relevant contacts.",
+        "page_type": "global engagement page",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "parent_url": "",
+        "shell_context_key": "subdomains|generated_subdomain|https://www.uga.edu",
+        "page_family": "international",
+        "expected_yield": 8.5,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.uga.edu/about",
+        "reason": "deterministic_top_heuristic:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/academic-excellence",
+        "reason": "deterministic_top_heuristic:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/campuses",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/facts",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/history-and-traditions",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/mission",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/research",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/serving-georgia",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/about/value",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 1.75,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 0.55,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/community",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 0.55,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      },
+      {
+        "url": "https://www.uga.edu/download-app",
+        "reason": "gap_fill:sitemap",
+        "page_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "parent_url": "",
+        "shell_context_key": "sitemap|sitemap_xml|https://www.uga.edu",
+        "page_family": "generic",
+        "expected_yield": 0.55,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 3,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "d3b23c401ae9d0919987f58e6b644f123618436e",
+        "duplicate_of": "https://www.uga.edu/faculty-and-staff"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

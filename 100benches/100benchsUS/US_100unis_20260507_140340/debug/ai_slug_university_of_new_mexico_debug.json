@@ -1,0 +1,1219 @@
+{
+  "method": "ai_slug",
+  "university": "University of New Mexico",
+  "homepage_url": "https://www.unm.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 243,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 19,
+    "contacts_kept": 0,
+    "time_seconds": 24.85738492012024,
+    "tokens_in": 12112,
+    "tokens_out": 6800,
+    "cost_dollars": 0.023587199999999996,
+    "best_url": "",
+    "source_breakdown": {
+      "mailto_explicit": 1,
+      "visible_regex": 1,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 19
+    }
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 190,
+      "generated_slug_only": 243,
+      "real_link_only": 171,
+      "hybrid": 302
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 45,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "http://frdo.unm.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Research Development Office",
+        "parent_url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=10492",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Academic Integrity & Research Ethics (AIRE)",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://directory.unm.edu/help/search-tips.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Search Tips",
+        "parent_url": "https://directory.unm.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "http://www.unm.edu/faculty-and-staff/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty\n                                & Staff",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://www.unm.edu/facultyandstaff/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.unm.edu/facultyandstaff/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://ucam.unm.edu/about/staff/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "UCAM Staff",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://news.unm.edu/newsmedia/experts",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.75,
+        "anchor_text": "Faculty Experts",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://directory.unm.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Directory",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://directory.unm.edu/departments/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "UNM A-Z",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "http://www.unm.edu/facultyandstaff/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://unmevents.unm.edu/site/hsc/event/steam--coph-present-writing-accountability-group-fall-2025-9/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "staff",
+        "heuristic_score": 5.05,
+        "anchor_text": "STEAM & COPH Present: Writing Accountabi…",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://admissions.unm.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Future Students",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "http://www.unm.edu/research/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "staff",
+        "heuristic_score": 4.0,
+        "anchor_text": "NSF awards UNM-led team $4M to design photonic quantum computer",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "http://directory.unm.edu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Directory",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://directory.unm.edu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Directory",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://directory.unm.edu/index.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "People",
+        "parent_url": "https://directory.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://facgov.unm.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Governance",
+        "parent_url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://www.unm.edu/%7Efco/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Contracts Office",
+        "parent_url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "http://directory.unm.edu/departments",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "UNM A-Z",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://directory.unm.edu/departments/departhsc.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Health Sciences Center",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=10162",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Academic Technologies",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=10500",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Academic Freedom and Tenure Committee",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=2",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "AAUP UNM Chapter",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=205",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Accessibility Resource Center",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=3",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Academic Affairs",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=845",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Accounting, General",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=858",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Accounting, Student",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://directory.unm.edu/departments/onthehub.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Edit Your Department",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://directory.unm.edu/help/update-your-info.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Update Your Info",
+        "parent_url": "https://directory.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://directory.unm.edu/internal/index.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Login",
+        "parent_url": "https://directory.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "http://www.ece.unm.edu/faculty-staff/electrical-and-computer/marek-osinski.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Marek Osinski",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://my.unm.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "LoboWeb for Faculty and Advisors",
+        "parent_url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://provost.unm.edu/faculty-affairs/index.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Assistant Vice Provost for Faculty Affairs",
+        "parent_url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://www.unm.edu/facultyandstaff/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=650",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "office",
+        "heuristic_score": 9.3,
+        "anchor_text": "Academic Testing Center and Proctoring Services",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://news.unm.edu/schools/school-of-public-administration",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 3.45,
+        "anchor_text": "School of Public Administration",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://news.unm.edu/schools/anderson",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 1.25,
+        "anchor_text": "Anderson School of Management",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://news.unm.edu/news/autonomy-for-the-people-unm-led-team-develops-human-centered-algorithms",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "staff",
+        "heuristic_score": 4.0,
+        "anchor_text": "",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://www.unm.edu/regents/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Board of Regents",
+        "parent_url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "http://ucam.unm.edu/media-relations/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "Media Relations",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "http://www.unm.edu/welcome/about/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "http://www.unm.edu/welcome/about/places.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "The Places",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "http://www.unm.edu/welcome/about/programs.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "The\n                                                Programs",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "http://hscnews.unm.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "HSC News",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "http://www.unm.edu/academics/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Academics",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "http://www.unm.edu/alumni-donors-and-parents/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Alumni, Donors, & Parents",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "http://www.unm.edu/arts/index.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Arts",
+        "parent_url": "https://directory.unm.edu/departments/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "http://www.unm.edu/campuses/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Campuses",
+        "parent_url": "https://news.unm.edu/news/nsf-awards-unm-led-team-4m-to-design-photonic-quantum-computer",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.unm.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.unm.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.unm.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.unm.edu/en/faculty-and-staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.unm.edu/en/facultyandstaff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.unm.edu/faculty-and-staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.unm.edu/facultyandstaff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.unm.edu/en/faculty-and-staff/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "https://www.unm.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.unm.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.unm.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "",
+      "best_url_kept": 0,
+      "source_breakdown": {
+        "mailto_explicit": 1,
+        "visible_regex": 1,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 19
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://www.unm.edu/faculty-and-staff/index.html",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 5,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 48612,
+        "visible_text_length": 7120,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "5165d6540a411239f70cbbbf8c94e0578fe062ee",
+        "content_signatures": [
+          "5165d6540a411239f70cbbbf8c94e0578fe062ee",
+          "cb646b374b4f77c1fa1ace8517a7fee6319772ef"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.unm.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://frdo.unm.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 2,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 44305,
+        "visible_text_length": 5860,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "8edc1a6c9038367786902f7a81ba72b808835fed",
+        "content_signatures": [
+          "8edc1a6c9038367786902f7a81ba72b808835fed",
+          "cb646b374b4f77c1fa1ace8517a7fee6319772ef"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.unm.edu/faculty-and-staff/index.html",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://directory.unm.edu/departments/department_phone_list.php?dept=10492",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 3,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 1,
+        "page_length": 66080,
+        "visible_text_length": 7475,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "59e6102def172249438c1e947a36654600a90e1e",
+        "content_signatures": [
+          "59e6102def172249438c1e947a36654600a90e1e",
+          "83df76fa1a2551e4f2e276dacd26c154db9214a7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://directory.unm.edu/departments/",
+        "mailto_count": 1,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "aireunm@unm.edu",
+            "role": "rector",
+            "page_url": "https://directory.unm.edu/departments/department_phone_list.php?dept=10492",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Graduate Studies",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://directory.unm.edu/departments/department_phone_list.php?dept=10492",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Graduate Studies",
+            "raw_role": "rector",
+            "clean_name": "Graduate Studies",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Academic Integrity & Research Ethics (AIRE)\n(http://grad.unm.edu/aire/index.html)\nGraduate Studies\nUniversity Advisement & Enrichment Center (UAEC)\nRm B69, Bldg. 85\n400 Cornell Dr. NE",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://directory.unm.edu/help/search-tips.html",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 10063,
+        "visible_text_length": 4078,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "9947d5b29f4cd2e9456bbdd70a79e37cd79daa3a",
+        "content_signatures": [
+          "9947d5b29f4cd2e9456bbdd70a79e37cd79daa3a"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://directory.unm.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.unm.edu/faculty-and-staff/index.html",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 5,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 48612,
+        "visible_text_length": 7120,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "5165d6540a411239f70cbbbf8c94e0578fe062ee",
+        "content_signatures": [
+          "5165d6540a411239f70cbbbf8c94e0578fe062ee",
+          "cb646b374b4f77c1fa1ace8517a7fee6319772ef"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://directory.unm.edu/departments/",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.unm.edu/facultyandstaff/index.html",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 48612,
+        "visible_text_length": 7120,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "5165d6540a411239f70cbbbf8c94e0578fe062ee",
+        "content_signatures": [
+          "5165d6540a411239f70cbbbf8c94e0578fe062ee",
+          "cb646b374b4f77c1fa1ace8517a7fee6319772ef"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.unm.edu/facultyandstaff/",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

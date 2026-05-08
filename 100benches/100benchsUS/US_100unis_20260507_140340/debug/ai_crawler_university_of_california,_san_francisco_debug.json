@@ -1,0 +1,3049 @@
+{
+  "method": "ai_crawler",
+  "university": "University of California, San Francisco",
+  "homepage_url": "https://www.ucsf.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 4,
+    "candidates_probed": 1,
+    "contacts_extracted": 11,
+    "contacts_kept": 0,
+    "time_seconds": 17.871350526809692,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://directory.ucsf.edu/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 4,
+      "pages_fetched": 4,
+      "successful_fetches": 1,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://directory.ucsf.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "People Directory",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 14.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/executive-team",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Chancellor’s Executive Team",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.3,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.ucsf.edu/research/partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Partnerships",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/priorities/transformative-partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Transformative Partnerships",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership Home",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campus Leaders",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-committees",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Chancellor's Committees",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/organization-chart",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Organization Chart",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.ucsf.edu/initiatives/odo-flagship-events/chancellor-awards/lgbtqi-leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "LGBTQI Leadership",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.ucsf.edu/initiatives/odo-flagship-events/chancellor-awards/mlk-jr-leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Dr. Martin Luther King, Jr. Leadership",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/news/leadership-announcements",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Announcements",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor-awards/exceptional-university-management",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Exceptional University Management",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ucsf.edu/topics/precision-medicine-and-personalized-medicine",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Precision Medicine and Personalized Medicine",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://globalhealthsciences.ucsf.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Global Health Sciences",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://email.ucsf.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Email (Exchange)",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor-awards/exceptional-university-service",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Exceptional University Service",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor-awards/public-service",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Public Service",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.ucsf.edu/initiatives/odo-flagship-events/chancellor-awards/disability-service",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Disability Service",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/brian-alldredge",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Brian Alldredge, PharmD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/brian-smith",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Brian Smith",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/carol-dawson-rose",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Carol Dawson-Rose, PhD, RN, FAAN",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/catherine-lucey",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Catherine R. Lucey, MD, MACP",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/chris-shaffer",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Chris Shaffer",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/dan-bernal",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Dan Bernal",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/darnele-wright",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Darnele Wright",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/david-jones",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "David D. Jones",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/erin-gore",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Erin S. Gore",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/erin-hickey",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Erin Hickey",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/errol-lobo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Errol Lobo, MD, PhD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/harold-collard",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Harold R. Collard, MD, MS",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/john-davis-rodriguez",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "John A. Davis Rodríguez, PhD, MD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/kathy-giacomini",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Kathy Giacomini, PhD, BSPharm",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/michael-clune",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Michael Clune, PhD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/michael-reddy",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Michael Reddy, DMD, DMSc",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/nicquet-blake",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Nicquet Blake, PhD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/payam-nahid",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Payam Nahid, MD, MPH",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/renee-navarro",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Renee Navarro, MD, PharmD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/suresh-gunasekaran",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Suresh Gunasekaran",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/talmadge-king",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Talmadge E. King Jr., MD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/theresa-obrien",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Theresa O’Brien, PhD",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet/won-ha",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Won Ha",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://evcprovost.ucsf.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Executive Vice Chancellor & Provost",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Chancellor",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Chancellor",
+        "parent_url": "https://www.ucsf.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor-awards",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Chancellor Awards Home",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor-awards/ucsf-medal",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "UCSF Medal",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor/biography",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Biography",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/chancellor/state-of-the-university-addresses",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "State of the University",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/policies-and-procedures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Policies and Procedures",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.ucsf.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.ucsf.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.ucsf.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://directory.ucsf.edu/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://chancellor.ucsf.edu/leadership/executive-team"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://chancellor.ucsf.edu/leadership"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://chancellor.ucsf.edu/leadership/chancellors-cabinet"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Carol Dawson-Rose"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Catherine R Lucey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Dan Bernal"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kathy Giacomini"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Michael Reddy"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Nicquet Blake"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Payam Nahid"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Renee Navarro"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sam Hawgood"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Talmadge E King Jr"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Carol Dawson-Rose"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Catherine R Lucey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Dan Bernal"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kathy Giacomini"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Michael Reddy"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Nicquet Blake"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Payam Nahid"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Renee Navarro"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Sam Hawgood"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Talmadge E King Jr"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Carol Dawson-Rose"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Catherine R Lucey"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Dan Bernal"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Kathy Giacomini"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Michael Reddy"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Nicquet Blake"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Payam Nahid"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Renee Navarro"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Sam Hawgood"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "https://www.ucsf.edu/",
+          "to": "https://www.ucsf.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages likely to yield contact information for relevant roles in international relations and partnerships.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://directory.ucsf.edu/",
+          "page_type": "nav",
+          "expected_yield": 14.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://chancellor.ucsf.edu/leadership/executive-team",
+          "page_type": "nav",
+          "expected_yield": 13.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://chancellor.ucsf.edu/leadership",
+          "page_type": "nav",
+          "expected_yield": 8.35
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+          "page_type": "nav",
+          "expected_yield": 8.35
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Carol Dawson-Rose"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Catherine R Lucey"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Dan Bernal"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kathy Giacomini"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Michael Reddy"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Nicquet Blake"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Payam Nahid"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Renee Navarro"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sam Hawgood"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Talmadge E King Jr"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Carol Dawson-Rose"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Catherine R Lucey"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Dan Bernal"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kathy Giacomini"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Michael Reddy"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Nicquet Blake"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Payam Nahid"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Renee Navarro"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Sam Hawgood"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Talmadge E King Jr"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Carol Dawson-Rose"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Catherine R Lucey"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Dan Bernal"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Kathy Giacomini"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Michael Reddy"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Nicquet Blake"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Payam Nahid"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Renee Navarro"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Sam Hawgood"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages likely to yield contact information for relevant roles in international relations and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "No additional pages available for ranking.",
+        "ranked_pages": [
+          {
+            "url": "https://directory.ucsf.edu/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 14.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://chancellor.ucsf.edu/leadership/executive-team",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.3,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://chancellor.ucsf.edu/leadership",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.35,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.35,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://directory.ucsf.edu/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.ucsf.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ucsf.edu",
+        "page_family": "directory",
+        "expected_yield": 14.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/executive-team",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "staff",
+        "expected_yield": 13.3,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_family": "governance",
+        "expected_yield": 8.35,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.ucsf.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ucsf.edu",
+        "page_family": "governance",
+        "expected_yield": 8.35,
+        "family_signature": null,
+        "raw_contacts_found": 11,
+        "text_length": 3326,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3338,
+        "embedded_text_length": 0,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Sam Hawgood",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sam Hawgood",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Catherine R. Lucey",
+            "role": "Executive Vice Chancellor and Provost",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Catherine R. Lucey",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nicquet Blake",
+            "role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nicquet Blake",
+            "raw_role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carol Dawson-Rose",
+            "role": "Dean, School of Nursing",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carol Dawson-Rose",
+            "raw_role": "Dean, School of Nursing",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kathy Giacomini",
+            "role": "Dean, School of Pharmacy",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Giacomini",
+            "raw_role": "Dean, School of Pharmacy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Talmadge E. King Jr.",
+            "role": "Dean, School of Medicine",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Talmadge E. King Jr.",
+            "raw_role": "Dean, School of Medicine",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Payam Nahid",
+            "role": "Executive Director, Institute for Global Health Sciences",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Payam Nahid",
+            "raw_role": "Executive Director, Institute for Global Health Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Reddy",
+            "role": "Dean, School of Dentistry",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Reddy",
+            "raw_role": "Dean, School of Dentistry",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice Chancellor, Medical Affairs",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor, Medical Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dan Bernal",
+            "role": "Vice Chancellor, Community and Government Relations",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dan Bernal",
+            "raw_role": "Vice Chancellor, Community and Government Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renee Navarro",
+            "role": "Vice Chancellor, Opportunity and Outreach",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renee Navarro",
+            "raw_role": "Vice Chancellor, Opportunity and Outreach",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Sam Hawgood",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sam Hawgood",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Catherine R. Lucey",
+            "role": "Executive Vice Chancellor and Provost",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Catherine R. Lucey",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nicquet Blake",
+            "role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nicquet Blake",
+            "raw_role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carol Dawson-Rose",
+            "role": "Dean, School of Nursing",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carol Dawson-Rose",
+            "raw_role": "Dean, School of Nursing",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kathy Giacomini",
+            "role": "Dean, School of Pharmacy",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Giacomini",
+            "raw_role": "Dean, School of Pharmacy",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Talmadge E. King Jr.",
+            "role": "Dean, School of Medicine",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Talmadge E. King Jr.",
+            "raw_role": "Dean, School of Medicine",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Payam Nahid",
+            "role": "Executive Director, Institute for Global Health Sciences",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Payam Nahid",
+            "raw_role": "Executive Director, Institute for Global Health Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Reddy",
+            "role": "Dean, School of Dentistry",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Reddy",
+            "raw_role": "Dean, School of Dentistry",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice Chancellor, Medical Affairs",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor, Medical Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dan Bernal",
+            "role": "Vice Chancellor, Community and Government Relations",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dan Bernal",
+            "raw_role": "Vice Chancellor, Community and Government Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renee Navarro",
+            "role": "Vice Chancellor, Opportunity and Outreach",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renee Navarro",
+            "raw_role": "Vice Chancellor, Opportunity and Outreach",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Sam Hawgood",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sam Hawgood",
+            "raw_role": "Chancellor",
+            "clean_name": "Sam Hawgood",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Catherine R Lucey",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Catherine R. Lucey",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "Catherine R Lucey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nicquet Blake",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nicquet Blake",
+            "raw_role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "clean_name": "Nicquet Blake",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Carol Dawson-Rose",
+            "role": "Dean, School of Nursing",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carol Dawson-Rose",
+            "raw_role": "Dean, School of Nursing",
+            "clean_name": "Carol Dawson-Rose",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kathy Giacomini",
+            "role": "Dean, School of Pharmacy",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Giacomini",
+            "raw_role": "Dean, School of Pharmacy",
+            "clean_name": "Kathy Giacomini",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Talmadge E King Jr",
+            "role": "Dean, School of Medicine",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Talmadge E. King Jr.",
+            "raw_role": "Dean, School of Medicine",
+            "clean_name": "Talmadge E King Jr",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Payam Nahid",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Payam Nahid",
+            "raw_role": "Executive Director, Institute for Global Health Sciences",
+            "clean_name": "Payam Nahid",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Reddy",
+            "role": "Dean, School of Dentistry",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Reddy",
+            "raw_role": "Dean, School of Dentistry",
+            "clean_name": "Michael Reddy",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor, Medical Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dan Bernal",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dan Bernal",
+            "raw_role": "Vice Chancellor, Community and Government Relations",
+            "clean_name": "Dan Bernal",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renee Navarro",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renee Navarro",
+            "raw_role": "Vice Chancellor, Opportunity and Outreach",
+            "clean_name": "Renee Navarro",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Sam Hawgood",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sam Hawgood",
+            "raw_role": "Chancellor",
+            "clean_name": "Sam Hawgood",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Catherine R Lucey",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Catherine R. Lucey",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "Catherine R Lucey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nicquet Blake",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nicquet Blake",
+            "raw_role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "clean_name": "Nicquet Blake",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Carol Dawson-Rose",
+            "role": "Dean, School of Nursing",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Carol Dawson-Rose",
+            "raw_role": "Dean, School of Nursing",
+            "clean_name": "Carol Dawson-Rose",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Kathy Giacomini",
+            "role": "Dean, School of Pharmacy",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Giacomini",
+            "raw_role": "Dean, School of Pharmacy",
+            "clean_name": "Kathy Giacomini",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Talmadge E King Jr",
+            "role": "Dean, School of Medicine",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Talmadge E. King Jr.",
+            "raw_role": "Dean, School of Medicine",
+            "clean_name": "Talmadge E King Jr",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Payam Nahid",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Payam Nahid",
+            "raw_role": "Executive Director, Institute for Global Health Sciences",
+            "clean_name": "Payam Nahid",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Michael Reddy",
+            "role": "Dean, School of Dentistry",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Reddy",
+            "raw_role": "Dean, School of Dentistry",
+            "clean_name": "Michael Reddy",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice Chancellor, Medical Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Dan Bernal",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dan Bernal",
+            "raw_role": "Vice Chancellor, Community and Government Relations",
+            "clean_name": "Dan Bernal",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Renee Navarro",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renee Navarro",
+            "raw_role": "Vice Chancellor, Opportunity and Outreach",
+            "clean_name": "Renee Navarro",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 11,
+        "clean_candidate_count": 11,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 10,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Sam Hawgood",
+            "role": "chancellor",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sam Hawgood",
+            "raw_role": "Chancellor",
+            "clean_name": "Sam Hawgood",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Catherine R Lucey",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Catherine R. Lucey",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "Catherine R Lucey",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Nicquet Blake",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Nicquet Blake",
+            "raw_role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+            "clean_name": "Nicquet Blake",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Carol Dawson-Rose",
+            "role": "Dean, School of Nursing",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Carol Dawson-Rose",
+            "raw_role": "Dean, School of Nursing",
+            "clean_name": "Carol Dawson-Rose",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Kathy Giacomini",
+            "role": "Dean, School of Pharmacy",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kathy Giacomini",
+            "raw_role": "Dean, School of Pharmacy",
+            "clean_name": "Kathy Giacomini",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Talmadge E King Jr",
+            "role": "Dean, School of Medicine",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Talmadge E. King Jr.",
+            "raw_role": "Dean, School of Medicine",
+            "clean_name": "Talmadge E King Jr",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Payam Nahid",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Payam Nahid",
+            "raw_role": "Executive Director, Institute for Global Health Sciences",
+            "clean_name": "Payam Nahid",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Michael Reddy",
+            "role": "Dean, School of Dentistry",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Michael Reddy",
+            "raw_role": "Dean, School of Dentistry",
+            "clean_name": "Michael Reddy",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Dan Bernal",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Dan Bernal",
+            "raw_role": "Vice Chancellor, Community and Government Relations",
+            "clean_name": "Dan Bernal",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Renee Navarro",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+            "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Renee Navarro",
+            "raw_role": "Vice Chancellor, Opportunity and Outreach",
+            "clean_name": "Renee Navarro",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "eee298a43709185c4cc57322d1c218ffd5bf9f1d"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Sam Hawgood",
+        "role": "chancellor",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sam Hawgood",
+        "raw_role": "Chancellor",
+        "clean_name": "Sam Hawgood",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Catherine R Lucey",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Catherine R. Lucey",
+        "raw_role": "Executive Vice Chancellor and Provost",
+        "clean_name": "Catherine R Lucey",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Nicquet Blake",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Nicquet Blake",
+        "raw_role": "Vice Provost and Dean, Graduate Education and Postdoctoral Affairs",
+        "clean_name": "Nicquet Blake",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Carol Dawson-Rose",
+        "role": "Dean, School of Nursing",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Carol Dawson-Rose",
+        "raw_role": "Dean, School of Nursing",
+        "clean_name": "Carol Dawson-Rose",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Kathy Giacomini",
+        "role": "Dean, School of Pharmacy",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kathy Giacomini",
+        "raw_role": "Dean, School of Pharmacy",
+        "clean_name": "Kathy Giacomini",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Talmadge E King Jr",
+        "role": "Dean, School of Medicine",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Talmadge E. King Jr.",
+        "raw_role": "Dean, School of Medicine",
+        "clean_name": "Talmadge E King Jr",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Payam Nahid",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Payam Nahid",
+        "raw_role": "Executive Director, Institute for Global Health Sciences",
+        "clean_name": "Payam Nahid",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Michael Reddy",
+        "role": "Dean, School of Dentistry",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Michael Reddy",
+        "raw_role": "Dean, School of Dentistry",
+        "clean_name": "Michael Reddy",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Dan Bernal",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Dan Bernal",
+        "raw_role": "Vice Chancellor, Community and Government Relations",
+        "clean_name": "Dan Bernal",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Renee Navarro",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://chancellor.ucsf.edu/leadership/chancellors-cabinet",
+        "page_context": "Chancellor’s Cabinet | Office of the Chancellor Skip to main content University of California San Francisco Give to UCSF Meet Sam Hawgood Sam Hawgood Home Biography Media Kit State of the University Leadership Leadership Home Chancellor's Cabinet Purpose of Cabinet Chancellor’s Executive Team Chancellor's Committees Organization Chart Priorities Priorities Home Continuous Learning Equity and Inclusion Precision Medicine Transformative Partnerships Chancellor Awards Chancellor Awards Home",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Renee Navarro",
+        "raw_role": "Vice Chancellor, Opportunity and Outreach",
+        "clean_name": "Renee Navarro",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,1311 @@
+{
+  "method": "ai_slug",
+  "university": "Washington State University",
+  "homepage_url": "https://wsu.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 177,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 32,
+    "contacts_kept": 5,
+    "time_seconds": 51.78603172302246,
+    "tokens_in": 13700,
+    "tokens_out": 3800,
+    "cost_dollars": 0.01734,
+    "best_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+    "source_breakdown": {
+      "mailto_explicit": 19,
+      "visible_regex": 44,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 25
+    }
+  },
+  "contacts": [
+    {
+      "name": "Ip Admin",
+      "email": "ip.admin@wsu.edu",
+      "role": "international office",
+      "page_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+      "score": 12,
+      "reason": "ok"
+    },
+    {
+      "name": "Ip Edabroad",
+      "email": "ip.edabroad@wsu.edu",
+      "role": "international office",
+      "page_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+      "score": 12,
+      "reason": "ok"
+    },
+    {
+      "name": "Dr Kate Hellmann",
+      "email": "khellmann@wsu.edu",
+      "role": "rector",
+      "page_url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/conducting-your-research/",
+      "score": 13,
+      "reason": "ok"
+    },
+    {
+      "name": "Ip Gprs",
+      "email": "ip.gprs@wsu.edu",
+      "role": "international partnerships",
+      "page_url": "https://ip.wsu.edu/about-us/staff-directory/",
+      "score": 9,
+      "reason": "ok"
+    },
+    {
+      "name": "Ip Intlcenter",
+      "email": "ip.intlcenter@wsu.edu",
+      "role": "international office",
+      "page_url": "https://ip.wsu.edu/about-us/staff-directory/contact-ip/",
+      "score": 13,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 155,
+      "generated_slug_only": 177,
+      "real_link_only": 105,
+      "hybrid": 236
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 23,
+      "cms": 15,
+      "structured_endpoints": 13,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 8.9,
+        "anchor_text": "Services for Faculty and Research Scholars",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/conducting-your-research/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Conducting Your Research",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://ip.wsu.edu/about-us/staff-directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 13.85,
+        "anchor_text": "Staff Directory",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://ip.wsu.edu/about-us/staff-directory/contact-ip/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 11.05,
+        "anchor_text": "Contact IP",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "For Faculty and Staff",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/friends-of-education-abroad/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Friends of Education Abroad",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/initiate-a-bilateral-exchange/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Initiate a Bilateral Exchange",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://ip.wsu.edu/future-students/staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Talk to Our Admissions Staff",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/academic-advisors/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "For Academic Advisors",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/curricular-integration/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Curricular Integration",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/develop-faculty-led-program/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Develop a Faculty-led Program",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/ea-course-scheduling/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "For Department Schedulers",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://ip.wsu.edu/education-abroad/program-types/faculty-led-programs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty-Led Programs",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://ip.wsu.edu/gprs/gprs-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "GPRS Staff",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://ip.wsu.edu/future-students/virtual-events/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "In-Person and Virtual Events",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://ip.wsu.edu/learn-english/ialc-faculty-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "About Us",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://threatassessment.wsu.edu/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 8.2,
+        "anchor_text": "Contact Team",
+        "parent_url": "https://threatassessment.wsu.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 9.9,
+        "anchor_text": "International Faculty and Scholar Services",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/host-hire-internationals/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 9.45,
+        "anchor_text": "Hosting and Hiring Internationals",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.7,
+        "anchor_text": "Academic Support for Faculty and Scholars",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.7,
+        "anchor_text": "H-1 B Scholars",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.7,
+        "anchor_text": "J-1 Scholars",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://online.wsu.edu/explore/admissions-team/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "staff",
+        "heuristic_score": 7.7,
+        "anchor_text": "Admissions Team",
+        "parent_url": "https://online.wsu.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/best-practices-teaching-online/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Best Practices for Teaching Online",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/protocol-federal-agencies/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Dealing with Federal Agencies",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/teaching-cld-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Best Practices for Teaching CLD Students",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/h-1b-bringing-dependents/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Bringing Dependents",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/h-visa-permanent-residency/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "U.S. Permanent Residency",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/h-visa-reentering-the-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Reentering the US",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/h1-b-processing-timelines-fees/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Visa Processing, Timelines, Fees",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/maintaining-status/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Maintaining Status",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/h-1b-visa-documents/orientation/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Employee Orientation",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/after-j1-ends/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "After Your J-1 Ends",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/j-1-scholar-faqs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "FAQs",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/j-1-scholars-bringing-dependents/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Bringing Dependents",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/j-1-scholars-documents/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Visa and Documents",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/j-1-scholars-maintaining-status/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Maintaining Status",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/j-1-scholars-permanent-residency/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Permanent Residency",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/medical-insurance-j1-scholars/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Medical Insurance",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/program-transfer/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 7.25,
+        "anchor_text": "Program Transfer",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/j-1-scholars-program/j-1-scholars-maintaining-status/2-year-requirement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 6.8,
+        "anchor_text": "2-Year Requirement",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://ip.wsu.edu/education-abroad/meet-the-team/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "staff",
+        "heuristic_score": 5.5,
+        "anchor_text": "Meet the Team",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://threatassessment.wsu.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "staff",
+        "heuristic_score": 5.5,
+        "anchor_text": "Threat Assessment Team",
+        "parent_url": "https://wsu.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://ip.wsu.edu/about-us/staff-directory/vice-president/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 8.35,
+        "anchor_text": "Vice President",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://ip.wsu.edu/education-abroad/on-campus/global-leadership-certificate/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Global Leadership Certificate",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://ip.wsu.edu/gprs/global-partnerships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Global Partnerships",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://ip.wsu.edu/gprs/global-partnerships/agreements/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "International Agreements",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://ip.wsu.edu/about-us/international-programs-posts/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 8.3,
+        "anchor_text": "IP Posts",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://ip.wsu.edu/future-students/about-wsu-programs/international-first-year/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 8.3,
+        "anchor_text": "Bachelor's Degree",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://ip.wsu.edu/future-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.7,
+        "anchor_text": "International Admissions",
+        "parent_url": "https://ip.wsu.edu/future-students/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://wsu.edu/research/",
+        "source_type": "sitemap",
+        "source_strategy": "sitemap",
+        "source_stage": "sitemap_xml",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "sitemap",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://wsu.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://wsu.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://wsu.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://wsu.edu/international/team",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "staff",
+        "heuristic_score": 9.3,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://wsu.edu/en/directory",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://wsu.edu/en/people",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 10.65,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://wsu.edu/en/faculty",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://wsu.edu/en/staff",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_direct",
+        "page_family": "directory",
+        "heuristic_score": 9.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.wsu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+      "best_url_kept": 2,
+      "source_breakdown": {
+        "mailto_explicit": 19,
+        "visible_regex": 44,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 25
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 2,
+        "rejected_contacts": 2,
+        "missing_email_candidates": 0,
+        "page_length": 109925,
+        "visible_text_length": 11607,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "32f6ac7261eaf9175412392a22f795a85dcf380a",
+        "content_signatures": [
+          "32f6ac7261eaf9175412392a22f795a85dcf380a"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ip.wsu.edu/future-students/",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "office",
+        "candidate_heuristic_score": 8.9,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 5,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Ip Admin",
+            "email": "ip.admin@wsu.edu",
+            "role": "international office",
+            "page_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+            "score": 12,
+            "reason": "ok"
+          },
+          {
+            "name": "Ip Edabroad",
+            "email": "ip.edabroad@wsu.edu",
+            "role": "international office",
+            "page_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+            "score": 12,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "international@wsu.edu",
+            "role": "international office",
+            "page_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+            "score": 0,
+            "reason": "generic inbox"
+          },
+          {
+            "name": "",
+            "email": "ip.intlservices@wsu.edu",
+            "role": "international office",
+            "page_url": "https://ip.wsu.edu/gprs/about-gprs/service/",
+            "score": 0,
+            "reason": "no personal name"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/conducting-your-research/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 6,
+        "kept_contacts": 1,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 110856,
+        "visible_text_length": 12440,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "f83f6f97ca84c5725a86805b86f9ffe4fc5a87c8",
+        "content_signatures": [
+          "f83f6f97ca84c5725a86805b86f9ffe4fc5a87c8"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ip.wsu.edu/future-students/",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "office",
+        "candidate_heuristic_score": 7.25,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 5,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Dr Kate Hellmann",
+            "email": "khellmann@wsu.edu",
+            "role": "rector",
+            "page_url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/conducting-your-research/",
+            "score": 13,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Dr Kate Hellmann",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://ip.wsu.edu/isss/faculty-scholar-services/faculty-resources/conducting-your-research/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dr. Kate Hellmann",
+            "raw_role": "Director",
+            "clean_name": "Dr Kate Hellmann",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://ip.wsu.edu/about-us/staff-directory/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 7,
+        "kept_contacts": 1,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 134238,
+        "visible_text_length": 11311,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "0c6c471c17836b4aea4ecc6c1d5d12fb0e92ce39",
+        "content_signatures": [
+          "0c6c471c17836b4aea4ecc6c1d5d12fb0e92ce39"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ip.wsu.edu/future-students/",
+        "mailto_count": 7,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 13.85,
+        "source_breakdown": {
+          "mailto_explicit": 6,
+          "visible_regex": 11,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Ip Gprs",
+            "email": "ip.gprs@wsu.edu",
+            "role": "international partnerships",
+            "page_url": "https://ip.wsu.edu/about-us/staff-directory/",
+            "score": 9,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "ialc@wsu.edu",
+            "role": "international student office",
+            "page_url": "https://ip.wsu.edu/about-us/staff-directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://ip.wsu.edu/about-us/staff-directory/contact-ip/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 7,
+        "kept_contacts": 1,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 110384,
+        "visible_text_length": 11409,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "9151fb6c015db9d1dc10893959679a68bb670bc7",
+        "content_signatures": [
+          "9151fb6c015db9d1dc10893959679a68bb670bc7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ip.wsu.edu/future-students/",
+        "mailto_count": 8,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 11.05,
+        "source_breakdown": {
+          "mailto_explicit": 7,
+          "visible_regex": 12,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Ip Intlcenter",
+            "email": "ip.intlcenter@wsu.edu",
+            "role": "international office",
+            "page_url": "https://ip.wsu.edu/about-us/staff-directory/contact-ip/",
+            "score": 13,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 109038,
+        "visible_text_length": 11403,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "35c6ffc06b987d28a6600edc45d349805f294271",
+        "content_signatures": [
+          "35c6ffc06b987d28a6600edc45d349805f294271"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ip.wsu.edu/future-students/",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 5,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://ip.wsu.edu/education-abroad/faculty-staff/friends-of-education-abroad/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 108522,
+        "visible_text_length": 11173,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "52ac7baf0f1faee98f86da1699549cfa8847b74a",
+        "content_signatures": [
+          "52ac7baf0f1faee98f86da1699549cfa8847b74a"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://ip.wsu.edu/future-students/",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 6,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

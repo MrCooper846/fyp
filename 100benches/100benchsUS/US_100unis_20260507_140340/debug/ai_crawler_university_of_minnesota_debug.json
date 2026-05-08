@@ -1,0 +1,4468 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Minnesota",
+  "homepage_url": "https://twin-cities.umn.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 3,
+    "candidates_probed": 2,
+    "contacts_extracted": 27,
+    "contacts_kept": 0,
+    "time_seconds": 38.16230607032776,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 3,
+      "pages_fetched": 3,
+      "successful_fetches": 2,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "http://www.umn.edu/lookup?SET_INSTITUTION=UMNTC",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "People Search",
+        "parent_url": "https://twin-cities.umn.edu/contact",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "International relations",
+        "parent_url": "https://twin-cities.umn.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/research-funding-collaboration",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research, Funding & Collaboration",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "U of M Faculty/Staff Associations",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.myu.umn.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "MyU : For Students, Faculty, and Staff",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://diversity.umn.edu/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Our Staff",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oedintranet.umn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Intranet (staff only)",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.myu.umn.edu",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "MyU : For Students, Faculty, and Staff",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "People & Programs",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://research.umn.edu/industry-partnership/overview",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Website",
+        "parent_url": "https://twin-cities.umn.edu/contact",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cbs.umn.edu/info/undergraduate/advising/staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Undergraduate admissions advisors",
+        "parent_url": "https://twin-cities.umn.edu/contact",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.umn.edu/faculty-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "For Faculty & Staff",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/outreach-engagement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Outreach & Engagement",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "This page outlines outreach and engagement activities of the Global Studies department, essential for establishing contacts for international relations."
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/learning-abroad",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Learning Abroad",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/about/why-global-studies",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/welcome-international-students",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Admission",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/life-minnesota/study-abroad",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Study Abroad",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/alumni-friends",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Alumni & Friends",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Undergraduate",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/advising",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Advising",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/career-exploration",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Career Exploration",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/courses",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Courses",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/major-minor",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Major & Minor",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/undergraduate-minor-global-studies",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Minor in Global Studies",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/meet-our-students",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Meet Our Students",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/real-world-experience",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Real-World Experience",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/undergraduate/scholarships-grants",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Scholarships & Grants",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/news-events",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "News & Events",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.umn.edu/student-financial-aid/american-indian-environmental-leadership-scholarship",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "American Indian Environmental Leadership Scholarship",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.dl8.umn.edu/vice-president-mercedes-ramirez-fernandez",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Vice President Ramírez Fernández",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Global Studies",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/alumni-friends/support",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Give",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://oit-drupal-prd-web.oit.umn.edu/indexAccess.php?ref_url=https://president.umn.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Report Web Disability-Related Issue",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/contact-our-counselors",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact our Counselors",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.umn.edu/about/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact Us",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://twin-cities.umn.edu/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact Us",
+        "parent_url": "https://twin-cities.umn.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/international-admission/checklist-admitted-international-freshman",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Checklist for Admitted International Freshman",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/international-admission/checklist-admitted-international-transfer-students",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Checklist for Admitted International Transfer",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/international-admission/english-proficiency-information",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "English Proficiency Information",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/international-admission/international-transfer-credit-evaluation",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Transfer Credit Evaluation",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/international-admission/resources-international-students",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Resources for international students",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-scholarships-and-visas-international-students",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Costs, Scholarships, and Visas for International Students",
+        "parent_url": "https://admissions.tc.umn.edu/costsaid/index.html",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://twin-cities.umn.edu/news-events/university-minnesota-transforms-research-and-teaching-through-international-residencies",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "University of Minnesota transforms research and teaching through international residencies",
+        "parent_url": "https://twin-cities.umn.edu/academics-admissions",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://ocr.umn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office for Conflict Resolution (OCR)",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://accessibility.umn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office for Digital Accessibility (ODA)",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.umn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Office of Equity & Diversity",
+        "parent_url": "https://twin-cities.umn.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.umn.edu/unit-offices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Unit Offices",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://osd.umn.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Office for Supplier Diversity (OSD)",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://diversity.dl8.umn.edu/unit-offices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Unit Overview",
+        "parent_url": "https://diversity.umn.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://environment.umn.edu/leadership/susted/leadership/undergraduate-leaders-program/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "University of Minnesota Global Undergraduate Leaders Program",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.umn.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.umn.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.umn.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://diversity.umn.edu/resources/faculty-staff-associations"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Elizabeth Martinez-Podolsky"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John Michael Bradshaw"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Elizabeth Martinez-Podolsky"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John Michael Bradshaw"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Elizabeth Martinez-Podolsky"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover John Michael Bradshaw"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Elizabeth Martinez-Podolsky"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for John Michael Bradshaw"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.myu.umn.edu"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://cla.umn.edu/global-studies/people-programs/staff"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Awa Saidy"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Deborah Jane"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Evelyn Davidheiser"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Klaas van der Sanden"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Madeline Christensen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Maria Drange"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Michael Goldman"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Awa Saidy"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Deborah Jane"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Evelyn Davidheiser"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Klaas van der Sanden"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Madeline Christensen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Maria Drange"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Michael Goldman"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Awa Saidy"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Deborah Jane"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Evelyn Davidheiser"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Klaas van der Sanden"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Madeline Christensen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Maria Drange"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Michael Goldman"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Awa Saidy"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize specific department pages that contain staff contacts and information about relevant international programs.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Elizabeth Martinez-Podolsky"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John Michael Bradshaw"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Elizabeth Martinez-Podolsky"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John Michael Bradshaw"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Elizabeth Martinez-Podolsky"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "John Michael Bradshaw"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Elizabeth Martinez-Podolsky"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "John Michael Bradshaw"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.myu.umn.edu",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://cla.umn.edu/global-studies/people-programs/staff",
+          "page_type": "nav",
+          "expected_yield": 13.7
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Awa Saidy"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Deborah Jane"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Evelyn Davidheiser"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Klaas van der Sanden"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Madeline Christensen"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Maria Drange"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Michael Goldman"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Awa Saidy"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Deborah Jane"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Evelyn Davidheiser"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Klaas van der Sanden"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Madeline Christensen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Maria Drange"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Michael Goldman"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Awa Saidy"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Deborah Jane"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Evelyn Davidheiser"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Klaas van der Sanden"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Madeline Christensen"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Maria Drange"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Michael Goldman"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Awa Saidy"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize specific department pages that contain staff contacts and information about relevant international programs.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Limited to the most relevant pages for outreach contacts.",
+        "ranked_pages": [
+          {
+            "url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 11.5,
+            "page_type": "body"
+          },
+          {
+            "url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.myu.umn.edu",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://cla.umn.edu/global-studies/outreach-engagement",
+            "reason": "This page outlines outreach and engagement activities of the Global Studies department, essential for establishing contacts for international relations.",
+            "expected_yield": 0.8,
+            "page_type": "outreach page"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://diversity.umn.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://diversity.umn.edu/",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 12,
+        "text_length": 10946,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 10894,
+        "embedded_text_length": 50,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Follow Aifsa",
+            "role": "[ protected]",
+            "email": "aifsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Follow Aifsa",
+            "raw_role": "[ protected]",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contact:\n[email protected]\n|\nFollow AIFSA on Facebook",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "email": "aapida@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "American Indian Faculty & Staff Association",
+            "email": "aifsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "American Indian Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Black Faculty & Staff Association",
+            "email": "bfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Black Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Disabled Employees at the U",
+            "email": "deu@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Disabled Employees at the U",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Jewish Faculty & Staff Association",
+            "email": "jfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Jewish Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Latino/a/x Faculty & Staff Association",
+            "email": "lfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Latino/a/x Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Muslim Staff and Faculty Association",
+            "email": "msfa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Muslim Staff and Faculty Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "U of M Indigenous Women & Women of Color",
+            "email": "uiwwoc@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Indigenous Women & Women of Color",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "U of M Veteran and Military Affinity Group",
+            "email": "veterans@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Veteran and Military Affinity Group",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Elizabeth Martinez-Podolsky",
+            "role": "Faculty/Staff Association",
+            "email": "epodols@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Elizabeth Martinez-Podolsky",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Michael Bradshaw",
+            "role": "Faculty/Staff Association",
+            "email": "jmb@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Michael Bradshaw",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Follow Aifsa",
+            "role": "[ protected]",
+            "email": "aifsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Follow Aifsa",
+            "raw_role": "[ protected]",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contact:\n[email protected]\n|\nFollow AIFSA on Facebook",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "email": "aapida@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Black Faculty & Staff Association",
+            "email": "bfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Black Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Disabled Employees at the U",
+            "email": "deu@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Disabled Employees at the U",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Jewish Faculty & Staff Association",
+            "email": "jfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Jewish Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Latino/a/x Faculty & Staff Association",
+            "email": "lfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Latino/a/x Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Muslim Staff and Faculty Association",
+            "email": "msfa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Muslim Staff and Faculty Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "U of M Indigenous Women & Women of Color",
+            "email": "uiwwoc@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Indigenous Women & Women of Color",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "U of M Veteran and Military Affinity Group",
+            "email": "veterans@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Veteran and Military Affinity Group",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Elizabeth Martinez-Podolsky",
+            "role": "Faculty/Staff Association",
+            "email": "epodols@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Elizabeth Martinez-Podolsky",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Michael Bradshaw",
+            "role": "Faculty/Staff Association",
+            "email": "jmb@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Michael Bradshaw",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Follow Aifsa",
+            "role": "[ protected]",
+            "email": "aifsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Follow Aifsa",
+            "raw_role": "[ protected]",
+            "clean_name": "Follow Aifsa",
+            "email_normalized": "aifsa@umn.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Contact:\n[email protected]\n|\nFollow AIFSA on Facebook",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "email": "aapida@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "clean_name": "",
+            "email_normalized": "aapida@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Black Faculty & Staff Association",
+            "email": "bfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Black Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "bfsa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Disabled Employees at the U",
+            "email": "deu@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Disabled Employees at the U",
+            "clean_name": "",
+            "email_normalized": "deu@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Jewish Faculty & Staff Association",
+            "email": "jfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Jewish Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "jfsa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Latino/a/x Faculty & Staff Association",
+            "email": "lfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Latino/a/x Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "lfsa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Muslim Staff and Faculty Association",
+            "email": "msfa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Muslim Staff and Faculty Association",
+            "clean_name": "",
+            "email_normalized": "msfa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "U of M Indigenous Women & Women of Color",
+            "email": "uiwwoc@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Indigenous Women & Women of Color",
+            "clean_name": "",
+            "email_normalized": "uiwwoc@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "U of M Veteran and Military Affinity Group",
+            "email": "veterans@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Veteran and Military Affinity Group",
+            "clean_name": "",
+            "email_normalized": "veterans@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Elizabeth Martinez-Podolsky",
+            "role": "Faculty/Staff Association",
+            "email": "epodols@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Elizabeth Martinez-Podolsky",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "Elizabeth Martinez-Podolsky",
+            "email_normalized": "epodols@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Michael Bradshaw",
+            "role": "Faculty/Staff Association",
+            "email": "jmb@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Michael Bradshaw",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "John Michael Bradshaw",
+            "email_normalized": "jmb@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Follow Aifsa",
+            "role": "[ protected]",
+            "email": "aifsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Follow Aifsa",
+            "raw_role": "[ protected]",
+            "clean_name": "Follow Aifsa",
+            "email_normalized": "aifsa@umn.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Contact:\n[email protected]\n|\nFollow AIFSA on Facebook",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "email": "aapida@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Asian American Pacific Islander Desi Staff & Faculty Association",
+            "clean_name": "",
+            "email_normalized": "aapida@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Black Faculty & Staff Association",
+            "email": "bfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Black Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "bfsa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Disabled Employees at the U",
+            "email": "deu@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Disabled Employees at the U",
+            "clean_name": "",
+            "email_normalized": "deu@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Jewish Faculty & Staff Association",
+            "email": "jfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Jewish Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "jfsa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Latino/a/x Faculty & Staff Association",
+            "email": "lfsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Latino/a/x Faculty & Staff Association",
+            "clean_name": "",
+            "email_normalized": "lfsa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Muslim Staff and Faculty Association",
+            "email": "msfa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Muslim Staff and Faculty Association",
+            "clean_name": "",
+            "email_normalized": "msfa@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "U of M Indigenous Women & Women of Color",
+            "email": "uiwwoc@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Indigenous Women & Women of Color",
+            "clean_name": "",
+            "email_normalized": "uiwwoc@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "U of M Veteran and Military Affinity Group",
+            "email": "veterans@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "U of M Veteran and Military Affinity Group",
+            "clean_name": "",
+            "email_normalized": "veterans@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Faculty/Staff Association",
+            "email": "epodols@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "named_contact",
+            "raw_name": "Elizabeth Martinez-Podolsky",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "",
+            "email_normalized": "epodols@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Elizabeth Martinez-Podolsky",
+            "role": "Faculty/Staff Association",
+            "email": "",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Elizabeth Martinez-Podolsky",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "Elizabeth Martinez-Podolsky",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Faculty/Staff Association",
+            "email": "jmb@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "named_contact",
+            "raw_name": "John Michael Bradshaw",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "",
+            "email_normalized": "jmb@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "John Michael Bradshaw",
+            "role": "Faculty/Staff Association",
+            "email": "",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "John Michael Bradshaw",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "John Michael Bradshaw",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 11,
+        "clean_candidate_count": 11,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 10,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "Follow Aifsa",
+            "role": "[ protected]",
+            "email": "aifsa@umn.edu",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "score": 3,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Follow Aifsa",
+            "raw_role": "[ protected]",
+            "clean_name": "Follow Aifsa",
+            "email_normalized": "aifsa@umn.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Elizabeth Martinez-Podolsky",
+            "role": "Faculty/Staff Association",
+            "country": "US",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "page_context": "U of M Faculty/Staff Associations | Office for Equity and Diversity Skip to main content Go to the University of Minnesota System home page Crookston Duluth Morris Rochester Twin Cities One Stop MyU : For Students, Faculty, and Staff Search Office for Equity and Diversity Menu About About Vice President Ramírez Fernández Our Staff Employment Intranet (staff only) Contact Us Designations Unit Offices Unit Overview Circle of Indigenous Nations (COIN) Office for Conflict Resolution (OCR) Office",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "Elizabeth Martinez-Podolsky",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "Elizabeth Martinez-Podolsky",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 10.45
+          },
+          {
+            "name": "John Michael Bradshaw",
+            "role": "Faculty/Staff Association",
+            "country": "US",
+            "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+            "page_context": "U of M Faculty/Staff Associations | Office for Equity and Diversity Skip to main content Go to the University of Minnesota System home page Crookston Duluth Morris Rochester Twin Cities One Stop MyU : For Students, Faculty, and Staff Search Office for Equity and Diversity Menu About About Vice President Ramírez Fernández Our Staff Employment Intranet (staff only) Contact Us Designations Unit Offices Unit Overview Circle of Indigenous Nations (COIN) Office for Conflict Resolution (OCR) Office",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "John Michael Bradshaw",
+            "raw_role": "Faculty/Staff Association",
+            "clean_name": "John Michael Bradshaw",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 10.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "97dd4b33739989c1bea30fbaa744aa33bc2a86ee"
+      },
+      {
+        "url": "https://www.myu.umn.edu",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://diversity.umn.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://diversity.umn.edu/",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+        "page_family": "staff",
+        "expected_yield": 13.7,
+        "family_signature": null,
+        "raw_contacts_found": 15,
+        "text_length": 3745,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3578,
+        "embedded_text_length": 165,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Michael Goldman",
+            "role": "Director",
+            "email": "golf@goldman.umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Michael Goldman",
+            "raw_role": "Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pat Baehler",
+            "role": "Scholarship Coordinator",
+            "email": "baehler@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Pat Baehler",
+            "raw_role": "Scholarship Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pat Baehler",
+            "role": "Events Coordinator",
+            "email": "baehler@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Pat Baehler",
+            "raw_role": "Events Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maria Drange",
+            "role": "Events Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maria Drange",
+            "raw_role": "Events Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Danielle Dadras",
+            "role": "Director of Undergraduate Studies, Advisor",
+            "email": "dadras@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Dadras",
+            "raw_role": "Director of Undergraduate Studies, Advisor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Blair",
+            "role": "Administrative Director",
+            "email": "blair@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Blair",
+            "raw_role": "Administrative Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Evelyn Davidheiser",
+            "role": "Assistant Dean for International Programs",
+            "email": "edavidh@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Klaas van der Sanden",
+            "role": "Program Director",
+            "email": "sand0073@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Klaas van der Sanden",
+            "raw_role": "Program Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Eggers",
+            "role": "Acting Director Center for Holocaust & Genocide Studies",
+            "email": "eggers@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Joseph Eggers",
+            "raw_role": "Acting Director Center for Holocaust & Genocide Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Madeline Christensen",
+            "role": "Assistant Director Human Rights Program",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Madeline Christensen",
+            "raw_role": "Assistant Director Human Rights Program",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lydia Garver",
+            "role": "Associate Director Center for Premodern Studies",
+            "email": "garver@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Lydia Garver",
+            "raw_role": "Associate Director Center for Premodern Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Deborah Jane",
+            "role": "Outreach Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Deborah Jane",
+            "raw_role": "Outreach Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Awa Saidy",
+            "role": "Associate Director African Studies Initiative",
+            "email": "said0015@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Awa Saidy",
+            "raw_role": "Associate Director African Studies Initiative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nathanael Homewood",
+            "role": "Associate Director Religious Studies Program",
+            "email": "homewood@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Nathanael Homewood",
+            "raw_role": "Associate Director Religious Studies Program",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Dolezal",
+            "role": "Program Coordinator Center for German and Europeans Studies",
+            "email": "dolezal@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Anna Dolezal",
+            "raw_role": "Program Coordinator Center for German and Europeans Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Michael Goldman",
+            "role": "Director",
+            "email": "golf@goldman.umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Michael Goldman",
+            "raw_role": "Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pat Baehler",
+            "role": "Scholarship Coordinator",
+            "email": "baehler@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Pat Baehler",
+            "raw_role": "Scholarship Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maria Drange",
+            "role": "Events Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maria Drange",
+            "raw_role": "Events Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Danielle Dadras",
+            "role": "Director of Undergraduate Studies, Advisor",
+            "email": "dadras@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Dadras",
+            "raw_role": "Director of Undergraduate Studies, Advisor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Blair",
+            "role": "Administrative Director",
+            "email": "blair@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Blair",
+            "raw_role": "Administrative Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Evelyn Davidheiser",
+            "role": "Assistant Dean for International Programs",
+            "email": "edavidh@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Klaas van der Sanden",
+            "role": "Program Director",
+            "email": "sand0073@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Klaas van der Sanden",
+            "raw_role": "Program Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Eggers",
+            "role": "Acting Director Center for Holocaust & Genocide Studies",
+            "email": "eggers@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Joseph Eggers",
+            "raw_role": "Acting Director Center for Holocaust & Genocide Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Madeline Christensen",
+            "role": "Assistant Director Human Rights Program",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Madeline Christensen",
+            "raw_role": "Assistant Director Human Rights Program",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lydia Garver",
+            "role": "Associate Director Center for Premodern Studies",
+            "email": "garver@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Lydia Garver",
+            "raw_role": "Associate Director Center for Premodern Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Deborah Jane",
+            "role": "Outreach Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Deborah Jane",
+            "raw_role": "Outreach Coordinator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Awa Saidy",
+            "role": "Associate Director African Studies Initiative",
+            "email": "said0015@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Awa Saidy",
+            "raw_role": "Associate Director African Studies Initiative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nathanael Homewood",
+            "role": "Associate Director Religious Studies Program",
+            "email": "homewood@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Nathanael Homewood",
+            "raw_role": "Associate Director Religious Studies Program",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Dolezal",
+            "role": "Program Coordinator Center for German and Europeans Studies",
+            "email": "dolezal@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Anna Dolezal",
+            "raw_role": "Program Coordinator Center for German and Europeans Studies",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Michael Goldman",
+            "role": "rector",
+            "email": "golf@goldman.umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Michael Goldman",
+            "raw_role": "Director",
+            "clean_name": "Michael Goldman",
+            "email_normalized": "golf@goldman.umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pat Baehler",
+            "role": "Scholarship Coordinator",
+            "email": "baehler@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Pat Baehler",
+            "raw_role": "Scholarship Coordinator",
+            "clean_name": "Pat Baehler",
+            "email_normalized": "baehler@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maria Drange",
+            "role": "Events Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maria Drange",
+            "raw_role": "Events Coordinator",
+            "clean_name": "Maria Drange",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Danielle Dadras",
+            "role": "rector",
+            "email": "dadras@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Dadras",
+            "raw_role": "Director of Undergraduate Studies, Advisor",
+            "clean_name": "Danielle Dadras",
+            "email_normalized": "dadras@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Blair",
+            "role": "rector",
+            "email": "blair@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "John Blair",
+            "raw_role": "Administrative Director",
+            "clean_name": "John Blair",
+            "email_normalized": "blair@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Evelyn Davidheiser",
+            "role": "Assistant Dean for International Programs",
+            "email": "edavidh@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "Evelyn Davidheiser",
+            "email_normalized": "edavidh@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Klaas van der Sanden",
+            "role": "rector",
+            "email": "sand0073@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Klaas van der Sanden",
+            "raw_role": "Program Director",
+            "clean_name": "Klaas van der Sanden",
+            "email_normalized": "sand0073@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Eggers",
+            "role": "rector",
+            "email": "eggers@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Joseph Eggers",
+            "raw_role": "Acting Director Center for Holocaust & Genocide Studies",
+            "clean_name": "Joseph Eggers",
+            "email_normalized": "eggers@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Madeline Christensen",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Madeline Christensen",
+            "raw_role": "Assistant Director Human Rights Program",
+            "clean_name": "Madeline Christensen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lydia Garver",
+            "role": "rector",
+            "email": "garver@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Lydia Garver",
+            "raw_role": "Associate Director Center for Premodern Studies",
+            "clean_name": "Lydia Garver",
+            "email_normalized": "garver@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Deborah Jane",
+            "role": "Outreach Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Deborah Jane",
+            "raw_role": "Outreach Coordinator",
+            "clean_name": "Deborah Jane",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Awa Saidy",
+            "role": "rector",
+            "email": "said0015@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Awa Saidy",
+            "raw_role": "Associate Director African Studies Initiative",
+            "clean_name": "Awa Saidy",
+            "email_normalized": "said0015@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nathanael Homewood",
+            "role": "rector",
+            "email": "homewood@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Nathanael Homewood",
+            "raw_role": "Associate Director Religious Studies Program",
+            "clean_name": "Nathanael Homewood",
+            "email_normalized": "homewood@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Dolezal",
+            "role": "Program Coordinator Center for German and Europeans Studies",
+            "email": "dolezal@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Anna Dolezal",
+            "raw_role": "Program Coordinator Center for German and Europeans Studies",
+            "clean_name": "Anna Dolezal",
+            "email_normalized": "dolezal@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "rector",
+            "email": "golf@goldman.umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "named_contact",
+            "raw_name": "Michael Goldman",
+            "raw_role": "Director",
+            "clean_name": "",
+            "email_normalized": "golf@goldman.umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Michael Goldman",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Michael Goldman",
+            "raw_role": "Director",
+            "clean_name": "Michael Goldman",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Pat Baehler",
+            "role": "Scholarship Coordinator",
+            "email": "baehler@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Pat Baehler",
+            "raw_role": "Scholarship Coordinator",
+            "clean_name": "Pat Baehler",
+            "email_normalized": "baehler@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Maria Drange",
+            "role": "Events Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maria Drange",
+            "raw_role": "Events Coordinator",
+            "clean_name": "Maria Drange",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Danielle Dadras",
+            "role": "rector",
+            "email": "dadras@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Dadras",
+            "raw_role": "Director of Undergraduate Studies, Advisor",
+            "clean_name": "Danielle Dadras",
+            "email_normalized": "dadras@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "John Blair",
+            "role": "rector",
+            "email": "blair@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "John Blair",
+            "raw_role": "Administrative Director",
+            "clean_name": "John Blair",
+            "email_normalized": "blair@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Assistant Dean for International Programs",
+            "email": "edavidh@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "",
+            "email_normalized": "edavidh@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Evelyn Davidheiser",
+            "role": "Assistant Dean for International Programs",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "Evelyn Davidheiser",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "sand0073@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "named_contact",
+            "raw_name": "Klaas van der Sanden",
+            "raw_role": "Program Director",
+            "clean_name": "",
+            "email_normalized": "sand0073@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Klaas van der Sanden",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Klaas van der Sanden",
+            "raw_role": "Program Director",
+            "clean_name": "Klaas van der Sanden",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Joseph Eggers",
+            "role": "rector",
+            "email": "eggers@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Joseph Eggers",
+            "raw_role": "Acting Director Center for Holocaust & Genocide Studies",
+            "clean_name": "Joseph Eggers",
+            "email_normalized": "eggers@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Madeline Christensen",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Madeline Christensen",
+            "raw_role": "Assistant Director Human Rights Program",
+            "clean_name": "Madeline Christensen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Lydia Garver",
+            "role": "rector",
+            "email": "garver@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Lydia Garver",
+            "raw_role": "Associate Director Center for Premodern Studies",
+            "clean_name": "Lydia Garver",
+            "email_normalized": "garver@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Deborah Jane",
+            "role": "Outreach Coordinator",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Deborah Jane",
+            "raw_role": "Outreach Coordinator",
+            "clean_name": "Deborah Jane",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "rector",
+            "email": "said0015@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "named_contact",
+            "raw_name": "Awa Saidy",
+            "raw_role": "Associate Director African Studies Initiative",
+            "clean_name": "",
+            "email_normalized": "said0015@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Awa Saidy",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Awa Saidy",
+            "raw_role": "Associate Director African Studies Initiative",
+            "clean_name": "Awa Saidy",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nathanael Homewood",
+            "role": "rector",
+            "email": "homewood@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Nathanael Homewood",
+            "raw_role": "Associate Director Religious Studies Program",
+            "clean_name": "Nathanael Homewood",
+            "email_normalized": "homewood@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Anna Dolezal",
+            "role": "Program Coordinator Center for German and Europeans Studies",
+            "email": "dolezal@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "named_contact",
+            "raw_name": "Anna Dolezal",
+            "raw_role": "Program Coordinator Center for German and Europeans Studies",
+            "clean_name": "Anna Dolezal",
+            "email_normalized": "dolezal@umn.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 15
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 14,
+        "clean_candidate_count": 14,
+        "named_contact_count": 7,
+        "office_contact_count": 1,
+        "person_without_email_count": 7,
+        "junk_candidate_count": 3,
+        "kept_contacts": [
+          {
+            "name": "Danielle Dadras",
+            "role": "rector",
+            "email": "dadras@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 14,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Danielle Dadras",
+            "raw_role": "Director of Undergraduate Studies, Advisor",
+            "clean_name": "Danielle Dadras",
+            "email_normalized": "dadras@umn.edu"
+          },
+          {
+            "name": "John Blair",
+            "role": "rector",
+            "email": "blair@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 14,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "John Blair",
+            "raw_role": "Administrative Director",
+            "clean_name": "John Blair",
+            "email_normalized": "blair@umn.edu"
+          },
+          {
+            "name": "Joseph Eggers",
+            "role": "rector",
+            "email": "eggers@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 14,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Joseph Eggers",
+            "raw_role": "Acting Director Center for Holocaust & Genocide Studies",
+            "clean_name": "Joseph Eggers",
+            "email_normalized": "eggers@umn.edu"
+          },
+          {
+            "name": "Lydia Garver",
+            "role": "rector",
+            "email": "garver@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 14,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Lydia Garver",
+            "raw_role": "Associate Director Center for Premodern Studies",
+            "clean_name": "Lydia Garver",
+            "email_normalized": "garver@umn.edu"
+          },
+          {
+            "name": "Nathanael Homewood",
+            "role": "rector",
+            "email": "homewood@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 14,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Nathanael Homewood",
+            "raw_role": "Associate Director Religious Studies Program",
+            "clean_name": "Nathanael Homewood",
+            "email_normalized": "homewood@umn.edu"
+          }
+        ],
+        "rejected_contacts": [
+          {
+            "name": "Pat Baehler",
+            "role": "Scholarship Coordinator",
+            "email": "baehler@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 4,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Pat Baehler",
+            "raw_role": "Scholarship Coordinator",
+            "clean_name": "Pat Baehler",
+            "email_normalized": "baehler@umn.edu"
+          },
+          {
+            "name": "",
+            "role": "Assistant Dean for International Programs",
+            "email": "edavidh@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "",
+            "email_normalized": "edavidh@umn.edu"
+          },
+          {
+            "name": "Anna Dolezal",
+            "role": "Program Coordinator Center for German and Europeans Studies",
+            "email": "dolezal@umn.edu",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "score": 4,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "named_contact",
+            "raw_name": "Anna Dolezal",
+            "raw_role": "Program Coordinator Center for German and Europeans Studies",
+            "clean_name": "Anna Dolezal",
+            "email_normalized": "dolezal@umn.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Michael Goldman",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "Michael Goldman",
+            "raw_role": "Director",
+            "clean_name": "Michael Goldman",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          },
+          {
+            "name": "Maria Drange",
+            "role": "Events Coordinator",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Maria Drange",
+            "raw_role": "Events Coordinator",
+            "clean_name": "Maria Drange",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          },
+          {
+            "name": "Evelyn Davidheiser",
+            "role": "Assistant Dean for International Programs",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "Evelyn Davidheiser",
+            "raw_role": "Assistant Dean for International Programs",
+            "clean_name": "Evelyn Davidheiser",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          },
+          {
+            "name": "Klaas van der Sanden",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "Klaas van der Sanden",
+            "raw_role": "Program Director",
+            "clean_name": "Klaas van der Sanden",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          },
+          {
+            "name": "Madeline Christensen",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Madeline Christensen",
+            "raw_role": "Assistant Director Human Rights Program",
+            "clean_name": "Madeline Christensen",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          },
+          {
+            "name": "Deborah Jane",
+            "role": "Outreach Coordinator",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Deborah Jane",
+            "raw_role": "Outreach Coordinator",
+            "clean_name": "Deborah Jane",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          },
+          {
+            "name": "Awa Saidy",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+            "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [],
+            "raw_name": "Awa Saidy",
+            "raw_role": "Associate Director African Studies Initiative",
+            "clean_name": "Awa Saidy",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 13.7
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "95a1915fe0cc3dddc38da15395e57de150a282ce"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Elizabeth Martinez-Podolsky",
+        "role": "Faculty/Staff Association",
+        "country": "US",
+        "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+        "page_context": "U of M Faculty/Staff Associations | Office for Equity and Diversity Skip to main content Go to the University of Minnesota System home page Crookston Duluth Morris Rochester Twin Cities One Stop MyU : For Students, Faculty, and Staff Search Office for Equity and Diversity Menu About About Vice President Ramírez Fernández Our Staff Employment Intranet (staff only) Contact Us Designations Unit Offices Unit Overview Circle of Indigenous Nations (COIN) Office for Conflict Resolution (OCR) Office",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "Elizabeth Martinez-Podolsky",
+        "raw_role": "Faculty/Staff Association",
+        "clean_name": "Elizabeth Martinez-Podolsky",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 10.45
+      },
+      {
+        "name": "John Michael Bradshaw",
+        "role": "Faculty/Staff Association",
+        "country": "US",
+        "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+        "page_context": "U of M Faculty/Staff Associations | Office for Equity and Diversity Skip to main content Go to the University of Minnesota System home page Crookston Duluth Morris Rochester Twin Cities One Stop MyU : For Students, Faculty, and Staff Search Office for Equity and Diversity Menu About About Vice President Ramírez Fernández Our Staff Employment Intranet (staff only) Contact Us Designations Unit Offices Unit Overview Circle of Indigenous Nations (COIN) Office for Conflict Resolution (OCR) Office",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "John Michael Bradshaw",
+        "raw_role": "Faculty/Staff Association",
+        "clean_name": "John Michael Bradshaw",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 10.45
+      },
+      {
+        "name": "Michael Goldman",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "Michael Goldman",
+        "raw_role": "Director",
+        "clean_name": "Michael Goldman",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      },
+      {
+        "name": "Maria Drange",
+        "role": "Events Coordinator",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Maria Drange",
+        "raw_role": "Events Coordinator",
+        "clean_name": "Maria Drange",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      },
+      {
+        "name": "Evelyn Davidheiser",
+        "role": "Assistant Dean for International Programs",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "Evelyn Davidheiser",
+        "raw_role": "Assistant Dean for International Programs",
+        "clean_name": "Evelyn Davidheiser",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      },
+      {
+        "name": "Klaas van der Sanden",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "Klaas van der Sanden",
+        "raw_role": "Program Director",
+        "clean_name": "Klaas van der Sanden",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      },
+      {
+        "name": "Madeline Christensen",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Madeline Christensen",
+        "raw_role": "Assistant Director Human Rights Program",
+        "clean_name": "Madeline Christensen",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      },
+      {
+        "name": "Deborah Jane",
+        "role": "Outreach Coordinator",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Deborah Jane",
+        "raw_role": "Outreach Coordinator",
+        "clean_name": "Deborah Jane",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      },
+      {
+        "name": "Awa Saidy",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "page_context": "Staff | Global Studies | College of Liberal Arts Skip to main content UMN Wordmark University Header Menu MyU One Stop Search Global Studies Unit Menu Menu Undergraduate People & Programs Outreach & Engagement Research, Funding & Collaboration Alumni & Friends News & Events About In This Section Staff Faculty Supported Programs Staff Institute Leadership Name Contact Michael Goldman Director 214 Social Sciences Building 612-624-9007 [email protected] Scholarships Name Contact Pat Baehler",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [],
+        "raw_name": "Awa Saidy",
+        "raw_role": "Associate Director African Studies Initiative",
+        "clean_name": "Awa Saidy",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 13.7
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "Follow Aifsa",
+        "role": "[ protected]",
+        "email": "aifsa@umn.edu",
+        "page_url": "https://diversity.umn.edu/resources/faculty-staff-associations",
+        "score": 3,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Follow Aifsa",
+        "raw_role": "[ protected]",
+        "clean_name": "Follow Aifsa",
+        "email_normalized": "aifsa@umn.edu"
+      },
+      {
+        "name": "Pat Baehler",
+        "role": "Scholarship Coordinator",
+        "email": "baehler@umn.edu",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "score": 4,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [],
+        "evidence_type": "named_contact",
+        "raw_name": "Pat Baehler",
+        "raw_role": "Scholarship Coordinator",
+        "clean_name": "Pat Baehler",
+        "email_normalized": "baehler@umn.edu"
+      },
+      {
+        "name": "",
+        "role": "Assistant Dean for International Programs",
+        "email": "edavidh@umn.edu",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [],
+        "evidence_type": "named_contact",
+        "raw_name": "Evelyn Davidheiser",
+        "raw_role": "Assistant Dean for International Programs",
+        "clean_name": "",
+        "email_normalized": "edavidh@umn.edu"
+      },
+      {
+        "name": "Anna Dolezal",
+        "role": "Program Coordinator Center for German and Europeans Studies",
+        "email": "dolezal@umn.edu",
+        "page_url": "https://cla.umn.edu/global-studies/people-programs/staff",
+        "score": 4,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [],
+        "evidence_type": "named_contact",
+        "raw_name": "Anna Dolezal",
+        "raw_role": "Program Coordinator Center for German and Europeans Studies",
+        "clean_name": "Anna Dolezal",
+        "email_normalized": "dolezal@umn.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

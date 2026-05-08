@@ -1,0 +1,3792 @@
+{
+  "method": "ai_crawler",
+  "university": "University of St Andrews",
+  "homepage_url": "http://www.st-andrews.ac.uk/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 15,
+    "candidates_probed": 15,
+    "contacts_extracted": 20,
+    "contacts_kept": 0,
+    "time_seconds": 168.86162638664246,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "http://www.st-andrews.ac.uk/contact/social-media/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": true,
+      "failure_reason": "page_budget_exhausted",
+      "stop_reason": "page_budget_exhausted",
+      "probe_attempts": 15,
+      "pages_fetched": 15,
+      "successful_fetches": 15,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.st-andrews.ac.uk/staff-directory/search/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff directory",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://news.st-andrews.ac.uk/archive/the-university-of-st-andrews-announces-two-new-global-research-centres/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "New Global Research Centres",
+        "parent_url": "http://www.st-andrews.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff-directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff directory",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/policy/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Policies and governance",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student administration",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff news",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Staff",
+        "parent_url": "http://www.st-andrews.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/finance-procurement/expenses/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Expenses",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/human-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Human resources",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/human-resources/learning-and-development/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff learning and development",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Data Warehouse",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/social-media/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Social media directory",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://news.st-andrews.ac.uk/tag/global-research-centre/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "global research centre",
+        "parent_url": "https://news.st-andrews.ac.uk/archive/the-university-of-st-andrews-announces-two-new-global-research-centres/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/development/contact/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Staff contact list",
+        "parent_url": "http://www.st-andrews.ac.uk/development/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffnews.wp.st-andrews.ac.uk/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "All staff news",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/education/staff/assessment/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Exams and assessment",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/education/staff/strategies-policies/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Strategies and policies",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/education/staff/timetabling/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Timetabling and room booking",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/finance-procurement/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Finance and procurement",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/human-resources/wellbeing/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Staff wellbeing",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/money/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Money matters",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/money/procurement/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Procurement",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/money/salaries/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Salaries",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/pay-dates/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "pay and pensions",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffnews.wp.st-andrews.ac.uk/2026/03/12/dr-ioana-colfescu-multidisciplinary-and-being-fearless-in-the-face-of-change/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Fearless in the face of change",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffnews.wp.st-andrews.ac.uk/2026/03/19/professor-tom-brown-marks-25-years-of-innovation-at-st-andrews/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "25 years of innovation",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffnews.wp.st-andrews.ac.uk/2026/03/26/one-conversation-at-a-time-lesley-caldwell-and-the-power-of-community/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "The power of community",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/education/staff/teaching/curriculum/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Teaching curriculum",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/human-resources/wellbeing/mental-wellbeing/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mental wellbeing",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/it-support/new-staff/work-from-home/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Working from home",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/education/staff/contacts/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Academic contacts",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/self-service/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "HR self-service page",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/study-abroad/travel/travelra/home.htm",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Travel registration",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/governance/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Governance",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/administration/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Administration A-Z",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://clyde.st-andrews.ac.uk/qlikview/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "QlikView dashboards",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://mms.st-andrews.ac.uk/mms/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Module Management System (MMS)",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/schools/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "School contacts",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": true,
+        "selection_reason": "Provides contact information for various schools, likely to contain relevant information for international relations and mobility/exchange programs."
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact",
+        "parent_url": "http://www.st-andrews.ac.uk",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/lost-property/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Lost property",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/student-conduct/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student conduct",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/it-support/contact/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT support",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/professional-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Professional services contacts",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/business-services/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Business services",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "http://www.st-andrews.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/annual-reviews/2024/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Annual Review 2024",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/edi/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Equality, diversity and inclusion",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/facts/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Facts and figures",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/financial-statements/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Financial statements",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/glossary/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Glossary",
+        "parent_url": "http://www.st-andrews.ac.uk/about/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.st-andrews.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.st-andrews.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.st-andrews.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www.st-andrews.ac.uk/contact/social-media/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www.st-andrews.ac.uk/contact/schools/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff-directory/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff-directory/search/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/policy/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/studentadmin/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/finance-procurement/expenses/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/human-resources/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/human-resources/learning-and-development/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tom Brown"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Tom Brown"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Tom Brown"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Tom Brown"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://staffnews.wp.st-andrews.ac.uk/all-posts/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Anna Brattström"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Lesley Caldwell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Anna Brattström"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Lesley Caldwell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Anna Brattström"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Lesley Caldwell"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Anna Brattström"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Lesley Caldwell"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/staff/tech/datawarehouse/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www.st-andrews.ac.uk/contact/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www.st-andrews.ac.uk/about/professional-services/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.st-andrews.ac.uk/administration/"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "page_budget_exhausted"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://www.st-andrews.ac.uk/",
+          "to": "http://www.st-andrews.ac.uk",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritized pages that most likely provide specific contact information relevant to international engagement roles in the university.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "http://www.st-andrews.ac.uk/contact/social-media/",
+          "page_type": "nav",
+          "expected_yield": 12.6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "Provides contact information for various schools, likely to contain relevant information for international relations and mobility/exchange programs.",
+        "details": {
+          "url": "http://www.st-andrews.ac.uk/contact/schools/",
+          "page_type": "office contacts",
+          "expected_yield": 7.0
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff-directory/",
+          "page_type": "nav",
+          "expected_yield": 12.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff-directory/search/",
+          "page_type": "nav",
+          "expected_yield": 12.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/policy/",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/finance-procurement/expenses/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/human-resources/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/human-resources/learning-and-development/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/",
+          "page_type": "header",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tom Brown"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Tom Brown"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Tom Brown"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Tom Brown"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Anna Brattström"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Lesley Caldwell"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Anna Brattström"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Lesley Caldwell"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Anna Brattström"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Lesley Caldwell"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Anna Brattström"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Lesley Caldwell"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "http://www.st-andrews.ac.uk/contact/",
+          "page_type": "nav",
+          "expected_yield": 4.2
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "http://www.st-andrews.ac.uk/about/professional-services/",
+          "page_type": "nav",
+          "expected_yield": 4.9
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://www.st-andrews.ac.uk/administration/",
+          "page_type": "nav",
+          "expected_yield": 4.95
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritized pages that most likely provide specific contact information relevant to international engagement roles in the university.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only including pages directly related to staff and office contacts.",
+        "ranked_pages": [
+          {
+            "url": "https://www.st-andrews.ac.uk/staff-directory/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.st-andrews.ac.uk/staff-directory/search/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://www.st-andrews.ac.uk/contact/social-media/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 12.6,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.st-andrews.ac.uk/staff/policy/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "reason": "Provides contact information for various schools, likely to contain relevant information for international relations and mobility/exchange programs.",
+            "expected_yield": 7.0,
+            "page_type": "office contacts"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.st-andrews.ac.uk/staff/studentadmin/",
+          "https://www.st-andrews.ac.uk/staff/",
+          "https://www.st-andrews.ac.uk/staff/human-resources/learning-and-development/",
+          "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+          "https://www.st-andrews.ac.uk/staff/finance-procurement/expenses/",
+          "https://www.st-andrews.ac.uk/staff/human-resources/"
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+          "http://www.st-andrews.ac.uk/research/global-fellowship-scheme/",
+          "http://www.st-andrews.ac.uk/about/governance/",
+          "https://www.st-andrews.ac.uk/administration/",
+          "http://www.st-andrews.ac.uk/about/professional-services/",
+          "http://www.st-andrews.ac.uk/contact/"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/social-media/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "expected_yield": 12.6,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 1245,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1028,
+        "embedded_text_length": 215,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "University",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/social-media/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "University",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/social-media/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "University",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/social-media/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "University",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/social-media/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "University",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "6ae1f4b397f5ccf518b50454d4c6b0a04b146725"
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/schools/",
+        "reason": "Provides contact information for various schools, likely to contain relevant information for international relations and mobility/exchange programs.",
+        "page_type": "office contacts",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://www.st-andrews.ac.uk/contact/",
+        "page_family": "contact",
+        "expected_yield": 7.0,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 2190,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1976,
+        "embedded_text_length": 212,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Relations",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Relations",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international relations",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international relations",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/schools/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0e6bcf6aea15f1415f596441fbb6ad358868eb03"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff-directory/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://www.st-andrews.ac.uk/contact/",
+        "page_family": "directory",
+        "expected_yield": 12.65,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 403,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 403,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0f8d3d23f3cc1946864ac672499c1f16f93786fe"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff-directory/search/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 12.65,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 403,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 403,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0f8d3d23f3cc1946864ac672499c1f16f93786fe",
+        "duplicate_of": "https://www.st-andrews.ac.uk/staff-directory/"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/policy/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 1320,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1320,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Planning Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/policy/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Planning Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Planning Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/policy/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Planning Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Planning Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/policy/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Planning Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Planning Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/policy/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Planning Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "50ac2e5df457865a1ef5ef8e5ded786e23e2c309"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 1754,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1754,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global partnerships and study abroad",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student administration",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global partnerships and study abroad",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student administration",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student administration",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Student administration",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/studentadmin/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "59bf51e52276db9d05609175347a99a82edc228f"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/finance-procurement/expenses/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 403,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 403,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0f8d3d23f3cc1946864ac672499c1f16f93786fe",
+        "duplicate_of": "https://www.st-andrews.ac.uk/staff-directory/"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/human-resources/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 403,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 403,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0f8d3d23f3cc1946864ac672499c1f16f93786fe",
+        "duplicate_of": "https://www.st-andrews.ac.uk/staff-directory/"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/human-resources/learning-and-development/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 403,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 403,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "0f8d3d23f3cc1946864ac672499c1f16f93786fe",
+        "duplicate_of": "https://www.st-andrews.ac.uk/staff-directory/"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "parent_url": "http://www.st-andrews.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_header|http://www.st-andrews.ac.uk",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3813,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3723,
+        "embedded_text_length": 89,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Tom Brown",
+            "role": "Vice-Principal",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Brown",
+            "raw_role": "Vice-Principal",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Tom Brown",
+            "role": "Vice-Principal",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Brown",
+            "raw_role": "Vice-Principal",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Tom Brown",
+            "role": "Vice-Principal",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Brown",
+            "raw_role": "Vice-Principal",
+            "clean_name": "Tom Brown",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Tom Brown",
+            "role": "Vice-Principal",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Brown",
+            "raw_role": "Vice-Principal",
+            "clean_name": "Tom Brown",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Tom Brown",
+            "role": "Vice-Principal",
+            "country": "GB",
+            "page_url": "https://www.st-andrews.ac.uk/staff/",
+            "page_context": "Staff - University of St Andrews Skip to main content University of St Andrews Toggle search Hide search Submit Staff Navigation Administration A-Z Schools Staff directory Staff news Library Memos Centres and institutes Maps Featured staff news All staff news The power of community Community is more than a concept for Lesley Caldwell - find out about her journey to St Andrews and the impact of her work across the town. 25 years of innovation Find out how Professor Tom Brown went from a",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Brown",
+            "raw_role": "Vice-Principal",
+            "clean_name": "Tom Brown",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "2617ae0221eb02e57a3f27af1729ccc6a0929c75"
+      },
+      {
+        "url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 4014,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3907,
+        "embedded_text_length": 108,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Professor Monique MacKenzie",
+            "role": "Vice Principal",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Monique MacKenzie",
+            "raw_role": "Vice Principal",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Brattström",
+            "role": "Professor of Entrepreneurship",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anna Brattström",
+            "raw_role": "Professor of Entrepreneurship",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lesley Caldwell",
+            "role": "Head of Community",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesley Caldwell",
+            "raw_role": "Head of Community",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Professor Monique MacKenzie",
+            "role": "Vice Principal",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Monique MacKenzie",
+            "raw_role": "Vice Principal",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Brattström",
+            "role": "Professor of Entrepreneurship",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anna Brattström",
+            "raw_role": "Professor of Entrepreneurship",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lesley Caldwell",
+            "role": "Head of Community",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesley Caldwell",
+            "raw_role": "Head of Community",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Vice Principal",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Monique MacKenzie",
+            "raw_role": "Vice Principal",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anna Brattström",
+            "role": "Professor of Entrepreneurship",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anna Brattström",
+            "raw_role": "Professor of Entrepreneurship",
+            "clean_name": "Anna Brattström",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lesley Caldwell",
+            "role": "Head of Community",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesley Caldwell",
+            "raw_role": "Head of Community",
+            "clean_name": "Lesley Caldwell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Vice Principal",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "Professor Monique MacKenzie",
+            "raw_role": "Vice Principal",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "office_label_name"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Anna Brattström",
+            "role": "Professor of Entrepreneurship",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Anna Brattström",
+            "raw_role": "Professor of Entrepreneurship",
+            "clean_name": "Anna Brattström",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Lesley Caldwell",
+            "role": "Head of Community",
+            "email": "",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lesley Caldwell",
+            "raw_role": "Head of Community",
+            "clean_name": "Lesley Caldwell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Anna Brattström",
+            "role": "Professor of Entrepreneurship",
+            "country": "GB",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "page_context": "All posts – Staff news Skip to content University of St Andrews Toggle search Hide search Submit Staff news Navigation Home All posts Posts Search Search all of our posts 76 articles found Professor Will Fowler: A cracking good hombre When Will Fowler joined the Spanish department as a lecturer in 1995, the department was very traditional in its approach to teaching and learning. Professor Gustavo San Román was the main Latin Americanist, but… Date 1 May 2026 Category People From Ocean Defender",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Anna Brattström",
+            "raw_role": "Professor of Entrepreneurship",
+            "clean_name": "Anna Brattström",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          },
+          {
+            "name": "Lesley Caldwell",
+            "role": "Head of Community",
+            "country": "GB",
+            "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+            "page_context": "All posts – Staff news Skip to content University of St Andrews Toggle search Hide search Submit Staff news Navigation Home All posts Posts Search Search all of our posts 76 articles found Professor Will Fowler: A cracking good hombre When Will Fowler joined the Spanish department as a lecturer in 1995, the department was very traditional in its approach to teaching and learning. Professor Gustavo San Román was the main Latin Americanist, but… Date 1 May 2026 Category People From Ocean Defender",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Lesley Caldwell",
+            "raw_role": "Head of Community",
+            "clean_name": "Lesley Caldwell",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.25
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "9a61ed26cefb1cb4615a734fa3a03df328b0de35"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2559,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2559,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "IT Services",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "IT Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "IT Services",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "IT Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "IT Services",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "IT Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "IT Services",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/staff/tech/datawarehouse/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "IT Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "eb1b53c72a4a49b6341113b5eda31222544df040"
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/contact/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "http://www.st-andrews.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.st-andrews.ac.uk",
+        "page_family": "contact",
+        "expected_yield": 4.2,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 2926,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2832,
+        "embedded_text_length": 93,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "General enquiries",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General enquiries",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Estates maintenance and repairs",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Estates maintenance and repairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "General enquiries",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General enquiries",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Estates maintenance and repairs",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Estates maintenance and repairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "General enquiries",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General enquiries",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Estates maintenance and repairs",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Estates maintenance and repairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "General enquiries",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General enquiries",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Student Services",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Estates maintenance and repairs",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/contact/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Estates maintenance and repairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "56ee734d24cb0bedfecdf48b73db3576dc915250"
+      },
+      {
+        "url": "http://www.st-andrews.ac.uk/about/professional-services/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://www.st-andrews.ac.uk/contact/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://www.st-andrews.ac.uk/contact/",
+        "page_family": "office",
+        "expected_yield": 4.9,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2157,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2080,
+        "embedded_text_length": 75,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global Office",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/about/professional-services/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global Office",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/about/professional-services/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/about/professional-services/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://www.st-andrews.ac.uk/about/professional-services/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "b3402cdd4eaca915ab2cae90633b32d67c9d878e"
+      },
+      {
+        "url": "https://www.st-andrews.ac.uk/administration/",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.st-andrews.ac.uk/staff/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.st-andrews.ac.uk/staff/",
+        "page_family": "governance",
+        "expected_yield": 4.95,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 5805,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 5805,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global partnerships and study abroad",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student recruitment",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Student recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Principal's Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Principal's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global partnerships and study abroad",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student recruitment",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Student recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Principal's Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Principal's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Student recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Principal's Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Principal's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "International Education and Lifelong Learning Institute (IELLI)",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Education and Lifelong Learning Institute (IELLI)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global partnerships and study abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Student recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Principal's Office",
+            "email": "",
+            "page_url": "https://www.st-andrews.ac.uk/administration/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Principal's Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "3e26a497a49f9c2bd3c258896e79153794b6a47c"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Tom Brown",
+        "role": "Vice-Principal",
+        "country": "GB",
+        "page_url": "https://www.st-andrews.ac.uk/staff/",
+        "page_context": "Staff - University of St Andrews Skip to main content University of St Andrews Toggle search Hide search Submit Staff Navigation Administration A-Z Schools Staff directory Staff news Library Memos Centres and institutes Maps Featured staff news All staff news The power of community Community is more than a concept for Lesley Caldwell - find out about her journey to St Andrews and the impact of her work across the town. 25 years of innovation Find out how Professor Tom Brown went from a",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tom Brown",
+        "raw_role": "Vice-Principal",
+        "clean_name": "Tom Brown",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Anna Brattström",
+        "role": "Professor of Entrepreneurship",
+        "country": "GB",
+        "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+        "page_context": "All posts – Staff news Skip to content University of St Andrews Toggle search Hide search Submit Staff news Navigation Home All posts Posts Search Search all of our posts 76 articles found Professor Will Fowler: A cracking good hombre When Will Fowler joined the Spanish department as a lecturer in 1995, the department was very traditional in its approach to teaching and learning. Professor Gustavo San Román was the main Latin Americanist, but… Date 1 May 2026 Category People From Ocean Defender",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Anna Brattström",
+        "raw_role": "Professor of Entrepreneurship",
+        "clean_name": "Anna Brattström",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      },
+      {
+        "name": "Lesley Caldwell",
+        "role": "Head of Community",
+        "country": "GB",
+        "page_url": "https://staffnews.wp.st-andrews.ac.uk/all-posts/",
+        "page_context": "All posts – Staff news Skip to content University of St Andrews Toggle search Hide search Submit Staff news Navigation Home All posts Posts Search Search all of our posts 76 articles found Professor Will Fowler: A cracking good hombre When Will Fowler joined the Spanish department as a lecturer in 1995, the department was very traditional in its approach to teaching and learning. Professor Gustavo San Román was the main Latin Americanist, but… Date 1 May 2026 Category People From Ocean Defender",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Lesley Caldwell",
+        "raw_role": "Head of Community",
+        "clean_name": "Lesley Caldwell",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.25
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

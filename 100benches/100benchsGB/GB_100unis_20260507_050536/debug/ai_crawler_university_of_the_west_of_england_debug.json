@@ -1,0 +1,4202 @@
+{
+  "method": "ai_crawler",
+  "university": "University of the West of England",
+  "homepage_url": "https://www.uwe.ac.uk",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 7,
+    "candidates_probed": 7,
+    "contacts_extracted": 25,
+    "contacts_kept": 0,
+    "time_seconds": 29.099668502807617,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://people.uwe.ac.uk",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 7,
+      "pages_fetched": 7,
+      "successful_fetches": 7,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://people.uwe.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Courses and applying",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "People",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "People",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:header"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Prev",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "1",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=2&pageSize=12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "2",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=3&pageSize=12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "3",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=391&pageSize=12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "391",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=4&pageSize=12",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "4",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/research/research-staff-support",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research staff support",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/study/international-study-exchange",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International study exchange",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "Focuses on international study exchange, likely containing relevant contacts for mobility and exchange coordination."
+      },
+      {
+        "url": "https://www.uwe.ac.uk/events/search-results?c=Global+cafe",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global cafe events",
+        "parent_url": "https://www.uwe.ac.uk/events/international-student-events",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/research/policies-and-standards",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research governance",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff profiles",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Staff profiles",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://intranet.uwe.ac.uk",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Staff",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://intranet.uwe.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Courses and applying",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Courses and applying",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://courses.uwe.ac.uk/Search",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Courses",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/AmandaAbdelAziz",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Amanda Abdel Aziz",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/AminaAbdi",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Amina Abdi",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/CharlesAbbott",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Charles Abbott",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/KaltoonAbdi",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Kaltoon Abdi",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/MohammedAbdelsalam",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mohammed Abdelsalam",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/MostafaAbdelnabi",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Mostafa Abdelnabi",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/OmarAbdelwahab",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Omar Abdelwahab",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/SamuelAbbey",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Samuel Abbey",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/ShamsoAbdulla",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Shamso Abdulla",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/SuleimaAbbara",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Suleima Abbara",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/TomAbba",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Tom Abba",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://people.uwe.ac.uk/Person/ZakAbdallah",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Zak Abdallah",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffprofileseditor.uwe.ac.uk",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Update your profile",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/courses/international-study",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "International study",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/life/global-experiences",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Global experiences",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/events/international-student-events",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International student events",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/events/international-student-orientation",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International and European student orientation",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.6,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/business/academic-partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academic partnerships",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/about/structure-and-governance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Structure and governance",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/business/venue-hire-and-event-management",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Venue hire and events management",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/business/venue-hire-and-events-management",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Venue hire and events management",
+        "parent_url": "https://www.uwe.ac.uk/business/academic-partnerships",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/about/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact us",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/courses/international-study/international-student-support",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International student support",
+        "parent_url": "https://www.uwe.ac.uk/events/international-student-events",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/courses/international-study/international-student-support/english-language-support",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "English language support",
+        "parent_url": "https://www.uwe.ac.uk/events/international-student-events",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/about/services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Services",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/events/search-results?local=International+student+orientation",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "View all events",
+        "parent_url": "https://www.uwe.ac.uk/events/international-student-orientation",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/study/it-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "IT Services",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/courses",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Courses and applying",
+        "parent_url": "https://www.uwe.ac.uk",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/courses/applying",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Applying",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uwe.ac.uk/business/community-engagement",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Civic engagement and community",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uwe.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uwe.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.uwe.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://people.uwe.ac.uk"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://people.uwe.ac.uk/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://people.uwe.ac.uk/SearchResults"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tom Abba"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Tom Abba"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Tom Abba"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Tom Abba"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://people.uwe.ac.uk/SearchResults/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Amanda Abdel Aziz"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mostafa Abdelnabi"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Omar Abdelwahab"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Zak Abdallah"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Amanda Abdel Aziz"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mostafa Abdelnabi"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Omar Abdelwahab"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Zak Abdallah"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Amanda Abdel Aziz"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mostafa Abdelnabi"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Omar Abdelwahab"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Zak Abdallah"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Amanda Abdel Aziz"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Mostafa Abdelnabi"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Omar Abdelwahab"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Zak Abdallah"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.uwe.ac.uk/study/international-study-exchange"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Snizhana Makushynska"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Snizhana Makushynska"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Snizhana Makushynska"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Snizhana Makushynska"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Samuel Abbey"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize staff directories and program pages related to international engagement.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://people.uwe.ac.uk",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://people.uwe.ac.uk/",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://people.uwe.ac.uk/SearchResults",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tom Abba"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Tom Abba"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Tom Abba"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Tom Abba"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:header",
+        "details": {
+          "url": "https://people.uwe.ac.uk/SearchResults/",
+          "page_type": "header",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Amanda Abdel Aziz"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mostafa Abdelnabi"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Omar Abdelwahab"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Zak Abdallah"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Amanda Abdel Aziz"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mostafa Abdelnabi"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Omar Abdelwahab"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Zak Abdallah"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Amanda Abdel Aziz"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mostafa Abdelnabi"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Omar Abdelwahab"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Zak Abdallah"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Amanda Abdel Aziz"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Mostafa Abdelnabi"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Omar Abdelwahab"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Zak Abdallah"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "Focuses on international study exchange, likely containing relevant contacts for mobility and exchange coordination.",
+        "details": {
+          "url": "https://www.uwe.ac.uk/study/international-study-exchange",
+          "page_type": "program information",
+          "expected_yield": 0.75
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Snizhana Makushynska"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Snizhana Makushynska"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Snizhana Makushynska"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Snizhana Makushynska"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+          "page_type": "nav",
+          "expected_yield": 9.85
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Samuel Abbey"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize staff directories and program pages related to international engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Ranked pages focusing on staff and international exchange information.",
+        "ranked_pages": [
+          {
+            "url": "https://people.uwe.ac.uk",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://people.uwe.ac.uk/SearchResults",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.85,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://people.uwe.ac.uk/SearchResults/",
+            "reason": "deterministic_top_heuristic:header",
+            "expected_yield": 9.85,
+            "page_type": "header"
+          },
+          {
+            "url": "https://people.uwe.ac.uk/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.85,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "reason": "Focuses on international study exchange, likely containing relevant contacts for mobility and exchange coordination.",
+            "expected_yield": 0.75,
+            "page_type": "program information"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+          "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+          "https://people.uwe.ac.uk/SearchResults/?page=2&pageSize=12",
+          "https://people.uwe.ac.uk/SearchResults/?page=3&pageSize=12",
+          "https://people.uwe.ac.uk/SearchResults/?page=391&pageSize=12",
+          "https://people.uwe.ac.uk/SearchResults/?page=4&pageSize=12"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://people.uwe.ac.uk",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 8,
+        "text_length": 3138,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3138,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Mobility/Exchange",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Mobility/Exchange",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "recruitment",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Mobility/Exchange",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 8
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 8,
+        "clean_candidate_count": 8,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 8,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "6006089aa45e76644918dbc66f14cba330d084d3"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3138,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3138,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Recruitment Office",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Recruitment Office",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "6006089aa45e76644918dbc66f14cba330d084d3",
+        "duplicate_of": "https://people.uwe.ac.uk"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3620,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3620,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7793bfe4e73fd74eb9c3b5caad6a362c2754bc68"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/",
+        "reason": "deterministic_top_heuristic:header",
+        "page_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "parent_url": "https://www.uwe.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_header|https://www.uwe.ac.uk",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 3620,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3620,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zak Abdallah",
+            "role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zak Abdallah",
+            "raw_role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mostafa Abdelnabi",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mostafa Abdelnabi",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Omar Abdelwahab",
+            "role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Omar Abdelwahab",
+            "raw_role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amanda Abdel Aziz",
+            "role": "Senior Lecturer",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Abdel Aziz",
+            "raw_role": "Senior Lecturer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zak Abdallah",
+            "role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zak Abdallah",
+            "raw_role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mostafa Abdelnabi",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mostafa Abdelnabi",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Omar Abdelwahab",
+            "role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Omar Abdelwahab",
+            "raw_role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amanda Abdel Aziz",
+            "role": "Senior Lecturer",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Abdel Aziz",
+            "raw_role": "Senior Lecturer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Zak Abdallah",
+            "role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zak Abdallah",
+            "raw_role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "clean_name": "Zak Abdallah",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mostafa Abdelnabi",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mostafa Abdelnabi",
+            "raw_role": "Student Union",
+            "clean_name": "Mostafa Abdelnabi",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Omar Abdelwahab",
+            "role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Omar Abdelwahab",
+            "raw_role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "clean_name": "Omar Abdelwahab",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Amanda Abdel Aziz",
+            "role": "Senior Lecturer",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Abdel Aziz",
+            "raw_role": "Senior Lecturer",
+            "clean_name": "Amanda Abdel Aziz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Zak Abdallah",
+            "role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Zak Abdallah",
+            "raw_role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "clean_name": "Zak Abdallah",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Mostafa Abdelnabi",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mostafa Abdelnabi",
+            "raw_role": "Student Union",
+            "clean_name": "Mostafa Abdelnabi",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Omar Abdelwahab",
+            "role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Omar Abdelwahab",
+            "raw_role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "clean_name": "Omar Abdelwahab",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Amanda Abdel Aziz",
+            "role": "Senior Lecturer",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Amanda Abdel Aziz",
+            "raw_role": "Senior Lecturer",
+            "clean_name": "Amanda Abdel Aziz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 5,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          },
+          {
+            "name": "Zak Abdallah",
+            "role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Zak Abdallah",
+            "raw_role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+            "clean_name": "Zak Abdallah",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          },
+          {
+            "name": "Mostafa Abdelnabi",
+            "role": "Student Union",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mostafa Abdelnabi",
+            "raw_role": "Student Union",
+            "clean_name": "Mostafa Abdelnabi",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          },
+          {
+            "name": "Omar Abdelwahab",
+            "role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Omar Abdelwahab",
+            "raw_role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+            "clean_name": "Omar Abdelwahab",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          },
+          {
+            "name": "Amanda Abdel Aziz",
+            "role": "Senior Lecturer",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Amanda Abdel Aziz",
+            "raw_role": "Senior Lecturer",
+            "clean_name": "Amanda Abdel Aziz",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7793bfe4e73fd74eb9c3b5caad6a362c2754bc68",
+        "duplicate_of": "https://people.uwe.ac.uk/SearchResults"
+      },
+      {
+        "url": "https://www.uwe.ac.uk/study/international-study-exchange",
+        "reason": "Focuses on international study exchange, likely containing relevant contacts for mobility and exchange coordination.",
+        "page_type": "program information",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.uwe.ac.uk/about/staff-profiles",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.uwe.ac.uk/about/staff-profiles",
+        "page_family": "international",
+        "expected_yield": 0.75,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 2861,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 2861,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "studyabroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "email\nStudyAbroad@uwe.ac.uk",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "studyabroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international mobility",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "International study exchange - Study | UWE Bristol Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Menu Students Staff Login Close Home Study International study exchange International study exchange UWE Bristol is an international university with an excellent reputation for teaching and learning. We welcome exchange students from our international partnerships worldwide. Coming to study at UWE Bristol for a semester or a full academic year is an exciting opportunity. Find out more Exchange opportunities As an exchange student from one of our exchange partners you can expect a warm and supportive welcome. Apply for an international study exchange Find out how to apply for an exchange at UWE Bristol for an academic year or a semester. Exchange partners See if your institution is listed as one of our exchange partner institutions and discover what subjects we offer at UWE Bristol through your institution. Support for exchange students Practical support for exchange students studying at UWE Bristol including information about travel, accommodation, living costs, visa and healthcare. Short-term study options We offer students from around the world short-term study opportunities to study for one semester or one year alongside our undergraduate degree students. Short-term study options \"From an academic perspective, UWE Bristol is one of the best universities I had a chance to study at. I had a great experience and the campus environment is really friendly. I enjoyed my courses and the teaching style.\" Snizhana Makushynska, Collegium Civitas, Poland; studied Politics and International Relations Close Snizhana Makushynska Collegium Civitas, Poland; studied Politics and International Relations You may also be interested in International College UWE Bristol's International College is a joint educational partnership between UWE Bristol and Kaplan International Colleges (KIC). UWE Bristol International Summer School programme Our International Summer School balances English language teaching with social activities. It's the perfect way to get a taster of UK university life. English language Find out about English language and grammar support for students at UWE Bristol. Applying for a visa Information regarding student visas and visas for short term study. Contact us: email StudyAbroad@uwe.ac.uk Contact us University of the West of England Frenchay Campus Coldharbour Lane Bristol BS16 1QY United Kingdom Switchboard: +44 (0)117 9656261 View full contact details Visit us City Campus Frenchay Campus Glenside Campus Car parking Visit us Quick links Library Jobs Login Term dates Colleges and schools Follow us Website feedback ©2026 UWE Bristol Site map Accessibility Privacy Cookies Terms and conditions OfS Condition E6 Modern Slavery statement (PDF) ©2026 UWE Bristol",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of Study Abroad",
+            "email": "StudyAbroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Snizhana Makushynska",
+            "role": "Exchange Student",
+            "email": "",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Snizhana Makushynska",
+            "raw_role": "Exchange Student",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "studyabroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international mobility",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "International study exchange - Study | UWE Bristol Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Menu Students Staff Login Close Home Study International study exchange International study exchange UWE Bristol is an international university with an excellent reputation for teaching and learning. We welcome exchange students from our international partnerships worldwide. Coming to study at UWE Bristol for a semester or a full academic year is an exciting opportunity. Find out more Exchange opportunities As an exchange student from one of our exchange partners you can expect a warm and supportive welcome. Apply for an international study exchange Find out how to apply for an exchange at UWE Bristol for an academic year or a semester. Exchange partners See if your institution is listed as one of our exchange partner institutions and discover what subjects we offer at UWE Bristol through your institution. Support for exchange students Practical support for exchange students studying at UWE Bristol including information about travel, accommodation, living costs, visa and healthcare. Short-term study options We offer students from around the world short-term study opportunities to study for one semester or one year alongside our undergraduate degree students. Short-term study options \"From an academic perspective, UWE Bristol is one of the best universities I had a chance to study at. I had a great experience and the campus environment is really friendly. I enjoyed my courses and the teaching style.\" Snizhana Makushynska, Collegium Civitas, Poland; studied Politics and International Relations Close Snizhana Makushynska Collegium Civitas, Poland; studied Politics and International Relations You may also be interested in International College UWE Bristol's International College is a joint educational partnership between UWE Bristol and Kaplan International Colleges (KIC). UWE Bristol International Summer School programme Our International Summer School balances English language teaching with social activities. It's the perfect way to get a taster of UK university life. English language Find out about English language and grammar support for students at UWE Bristol. Applying for a visa Information regarding student visas and visas for short term study. Contact us: email StudyAbroad@uwe.ac.uk Contact us University of the West of England Frenchay Campus Coldharbour Lane Bristol BS16 1QY United Kingdom Switchboard: +44 (0)117 9656261 View full contact details Visit us City Campus Frenchay Campus Glenside Campus Car parking Visit us Quick links Library Jobs Login Term dates Colleges and schools Follow us Website feedback ©2026 UWE Bristol Site map Accessibility Privacy Cookies Terms and conditions OfS Condition E6 Modern Slavery statement (PDF) ©2026 UWE Bristol",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Snizhana Makushynska",
+            "role": "Exchange Student",
+            "email": "",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Snizhana Makushynska",
+            "raw_role": "Exchange Student",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "studyabroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international mobility",
+            "clean_name": "",
+            "email_normalized": "studyabroad@uwe.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "International study exchange - Study | UWE Bristol Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Menu Students Staff Login Close Home Study International study exchange International study exchange UWE Bristol is an international university with an",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Snizhana Makushynska",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Snizhana Makushynska",
+            "raw_role": "Exchange Student",
+            "clean_name": "Snizhana Makushynska",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "studyabroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international mobility",
+            "clean_name": "",
+            "email_normalized": "studyabroad@uwe.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "International study exchange - Study | UWE Bristol Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Menu Students Staff Login Close Home Study International study exchange International study exchange UWE Bristol is an international university with an",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Snizhana Makushynska",
+            "role": "international mobility",
+            "email": "",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Snizhana Makushynska",
+            "raw_role": "Exchange Student",
+            "clean_name": "Snizhana Makushynska",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "international mobility",
+            "email": "studyabroad@uwe.ac.uk",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "score": 0,
+            "reason": "no personal name",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "international mobility",
+            "clean_name": "",
+            "email_normalized": "studyabroad@uwe.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Snizhana Makushynska",
+            "role": "international mobility",
+            "country": "GB",
+            "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+            "page_context": "International study exchange - Study | UWE Bristol Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Menu Students Staff Login Close Home Study International study exchange International study exchange UWE Bristol is an international university with an excellent reputation for teaching and learning. We welcome exchange students from our international partnerships worldwide. Coming to study at UWE Bristol for a semester or a full academic",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Snizhana Makushynska",
+            "raw_role": "Exchange Student",
+            "clean_name": "Snizhana Makushynska",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 0.75
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "f4bc61861f61ed2189e3defe3e8b39ba3a4cc0fc"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3620,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3620,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Student Union",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Student Union",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=0&pageSize=12",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7793bfe4e73fd74eb9c3b5caad6a362c2754bc68",
+        "duplicate_of": "https://people.uwe.ac.uk/SearchResults"
+      },
+      {
+        "url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://people.uwe.ac.uk/SearchResults/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://people.uwe.ac.uk/SearchResults/",
+        "page_family": "directory",
+        "expected_yield": 9.85,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3620,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 3620,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Samuel Abbey",
+            "role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samuel Abbey",
+            "raw_role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "Director - Digital Cultures Research Centre",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Samuel Abbey",
+            "role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samuel Abbey",
+            "raw_role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Samuel Abbey",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samuel Abbey",
+            "raw_role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "clean_name": "Samuel Abbey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Samuel Abbey",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samuel Abbey",
+            "raw_role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "clean_name": "Samuel Abbey",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Tom Abba",
+            "role": "rector",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Abba",
+            "raw_role": "Director - Digital Cultures Research Centre",
+            "clean_name": "Tom Abba",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          },
+          {
+            "name": "Samuel Abbey",
+            "role": "rector",
+            "country": "GB",
+            "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+            "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Samuel Abbey",
+            "raw_role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+            "clean_name": "Samuel Abbey",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.85
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7793bfe4e73fd74eb9c3b5caad6a362c2754bc68",
+        "duplicate_of": "https://people.uwe.ac.uk/SearchResults"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Tom Abba",
+        "role": "rector",
+        "country": "GB",
+        "page_url": "https://people.uwe.ac.uk/SearchResults",
+        "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tom Abba",
+        "raw_role": "Director - Digital Cultures Research Centre",
+        "clean_name": "Tom Abba",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.85
+      },
+      {
+        "name": "Zak Abdallah",
+        "role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+        "country": "GB",
+        "page_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Zak Abdallah",
+        "raw_role": "Senior Lecturer in Sustainability (Materials and Hydrogen Technology)",
+        "clean_name": "Zak Abdallah",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.85
+      },
+      {
+        "name": "Mostafa Abdelnabi",
+        "role": "Student Union",
+        "country": "GB",
+        "page_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mostafa Abdelnabi",
+        "raw_role": "Student Union",
+        "clean_name": "Mostafa Abdelnabi",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.85
+      },
+      {
+        "name": "Omar Abdelwahab",
+        "role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+        "country": "GB",
+        "page_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Omar Abdelwahab",
+        "raw_role": "PhD Research Student / Occasional Associate Lecturer Faculty of Environment and Technology (FET)",
+        "clean_name": "Omar Abdelwahab",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.85
+      },
+      {
+        "name": "Amanda Abdel Aziz",
+        "role": "Senior Lecturer",
+        "country": "GB",
+        "page_url": "https://people.uwe.ac.uk/SearchResults/",
+        "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Amanda Abdel Aziz",
+        "raw_role": "Senior Lecturer",
+        "clean_name": "Amanda Abdel Aziz",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.85
+      },
+      {
+        "name": "Snizhana Makushynska",
+        "role": "international mobility",
+        "country": "GB",
+        "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+        "page_context": "International study exchange - Study | UWE Bristol Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Menu Students Staff Login Close Home Study International study exchange International study exchange UWE Bristol is an international university with an excellent reputation for teaching and learning. We welcome exchange students from our international partnerships worldwide. Coming to study at UWE Bristol for a semester or a full academic",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Snizhana Makushynska",
+        "raw_role": "Exchange Student",
+        "clean_name": "Snizhana Makushynska",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 0.75
+      },
+      {
+        "name": "Samuel Abbey",
+        "role": "rector",
+        "country": "GB",
+        "page_url": "https://people.uwe.ac.uk/SearchResults/?page=1&pageSize=12",
+        "page_context": "UWE Bristol: Staff profile search results Skip to main content Search Search Search Category All Courses News Events Blogs People Research Close Menu Students Staff Login Close Courses and applying Back to Main Menu Courses and applying Find a course Open Days Fees Funding and scholarships Applying Order a prospectus Undergraduate study Postgraduate study International study Online study Professional development Higher and Degree apprenticeships Clearing Sign up for email updates Ask a student",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Samuel Abbey",
+        "raw_role": "Associate Professor of Geotechnical Engineering and Sustainable Infrastructure/Associate Director",
+        "clean_name": "Samuel Abbey",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.85
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "international mobility",
+        "email": "studyabroad@uwe.ac.uk",
+        "page_url": "https://www.uwe.ac.uk/study/international-study-exchange",
+        "score": 0,
+        "reason": "no personal name",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "visible_text",
+        "raw_name": "",
+        "raw_role": "international mobility",
+        "clean_name": "",
+        "email_normalized": "studyabroad@uwe.ac.uk"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

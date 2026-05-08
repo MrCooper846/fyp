@@ -1,0 +1,4104 @@
+{
+  "method": "ai_crawler",
+  "university": "Arizona State University",
+  "homepage_url": "https://www.asu.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 23,
+    "contacts_kept": 0,
+    "time_seconds": 30.0151789188385,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.asu.edu/about/contact",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 6,
+      "pages_fetched": 6,
+      "successful_fetches": 6,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://search.asu.edu/?search-tabs=web_dir_faculty_staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Directory",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.65,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.asu.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "In Person",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current page 1",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 2",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 3",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C3",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 4",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C0",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current page 1",
+        "parent_url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C1",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 2",
+        "parent_url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C2",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 3",
+        "parent_url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C3",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 4",
+        "parent_url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about/contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact ASU",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Read more",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Read more",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions?page=%2C%2C0",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current page 1",
+        "parent_url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions?page=%2C%2C1",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 2",
+        "parent_url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions?page=%2C%2C2",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 3",
+        "parent_url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions?page=%2C%2C3",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 4",
+        "parent_url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About ASU",
+        "parent_url": "https://www.asu.edu/about/contact",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about/copyright-trademark",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Copyright and Trademark",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about/locations-maps",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Maps and Locations",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about/privacy",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Privacy",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about/terms-of-use",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Terms of Use",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Home",
+        "parent_url": "https://www.asu.edu/about/contact",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://graduate.asu.edu/personalized-graduate-admissions",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "ASU Personalized Graduate Admissions",
+        "parent_url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/constituent-type/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/constituent-type/staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Staff",
+        "parent_url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260403-university-news-presidents-provosts-asu-faculty-and-leaders-land-prestigious-positions",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Read more",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/about/spanish",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Aprender más en Español",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://isearch.asu.edu/asu-people/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://www.asu.edu/about/contact",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/saf/local-national-and-global-affairs",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Local, National and Global Affairs",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admission.asu.edu/international",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "International student",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://asuonline.asu.edu/admission/international/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "International student",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/20260313-local-national-and-global-affairs-asu-top-producer-prestigious-gilman-awards-study-abroad",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Read more",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cfo.asu.edu/applicant",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Jobs",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://accessibility.asu.edu/report",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Accessibility",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://my.asu.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "My ASU",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.asu.edu/emergency",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Emergency",
+        "parent_url": "https://www.asu.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/contact",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Contact ASU News",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://president.asu.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "President's Office",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://students.asu.edu/apply",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Admissions",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.asu.edu/about",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "About ASU",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://newsroom.asu.edu",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Media Relations",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://asuevents.asu.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "ASU Events",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://cfo.asu.edu/alerts-and-advisories-faqs",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Emergency",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://students.asu.edu/financialaid",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Financial Aid",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/saf/arts-humanities-and-education",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Arts, Humanities and Education",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/saf/entrepreneurship",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Business and Entrepreneurship",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/saf/environment-and-sustainability",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Environment and Sustainability",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/saf/health-and-medicine",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Health and Medicine",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.asu.edu/saf/law-journalism-and-politics",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Law, Journalism and Politics",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.asu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.asu.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.asu.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.asu.edu/about/contact"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://search.asu.edu/?search-tabs=web_dir_faculty_staff"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.asu.edu"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Arizona State"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Arizona State"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Arizona State"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Arizona State"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Michael Crow"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Pavan Turaga"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Peter Murrieta"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sean Hobson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Michael Crow"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Pavan Turaga"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Peter Murrieta"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Sean Hobson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Michael Crow"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Pavan Turaga"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Peter Murrieta"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Sean Hobson"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Michael Crow"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Pavan Turaga"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Peter Murrieta"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Sean Hobson"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sean Hobson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Sean Hobson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Sean Hobson"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Sean Hobson"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Peter Murrieta"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sean Hobson"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritized pages that are likely to contain relevant staff contacts for international partnerships and global engagement.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.asu.edu/about/contact",
+          "page_type": "nav",
+          "expected_yield": 5.4
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://search.asu.edu/?search-tabs=web_dir_faculty_staff",
+          "page_type": "nav",
+          "expected_yield": 12.65
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.asu.edu",
+          "page_type": "nav",
+          "expected_yield": 6.05
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Arizona State"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Arizona State"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Arizona State"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Arizona State"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+          "page_type": "nav",
+          "expected_yield": 4.55
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Michael Crow"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Pavan Turaga"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Peter Murrieta"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Michael Crow"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Pavan Turaga"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Peter Murrieta"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Michael Crow"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Pavan Turaga"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Peter Murrieta"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Michael Crow"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Pavan Turaga"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Peter Murrieta"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+          "page_type": "nav",
+          "expected_yield": 4.55
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "gap_fill:real_link_multihop",
+        "details": {
+          "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+          "page_type": "nav",
+          "expected_yield": 4.55
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Peter Murrieta"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sean Hobson"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritized pages that are likely to contain relevant staff contacts for international partnerships and global engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only ranked pages that provide direct access to faculty and staff information.",
+        "ranked_pages": [
+          {
+            "url": "https://search.asu.edu/?search-tabs=web_dir_faculty_staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.65,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.asu.edu/about/contact",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 5.4,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.asu.edu",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 4.55,
+            "page_type": "nav"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+          "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+          "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C3",
+          "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C0",
+          "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C1",
+          "https://news.asu.edu/20260403-science-and-technology-firstever-az-tech-week-highlight-asu-student-faculty-innovations?page=%2C%2C2"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.asu.edu/about/contact",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.asu.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.asu.edu",
+        "page_family": "contact",
+        "expected_yield": 5.4,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 1704,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 1218,
+        "embedded_text_length": 484,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "General ASU",
+            "email": "contact@asu.edu",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General ASU",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "General ASU",
+            "email": "contact@asu.edu",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General ASU",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "General ASU",
+            "email": "contact@asu.edu",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General ASU",
+            "clean_name": "",
+            "email_normalized": "contact@asu.edu",
+            "cleanup_flags": [
+              "generic_inbox"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "General ASU",
+            "email": "contact@asu.edu",
+            "page_url": "https://www.asu.edu/about/contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General ASU",
+            "clean_name": "",
+            "email_normalized": "contact@asu.edu",
+            "cleanup_flags": [
+              "generic_inbox"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "General ASU",
+            "email": "contact@asu.edu",
+            "page_url": "https://www.asu.edu/about/contact",
+            "score": 0,
+            "reason": "generic office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": true,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "generic_inbox"
+            ],
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "General ASU",
+            "clean_name": "",
+            "email_normalized": "contact@asu.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "1eb54540e0be9b116c0be6b7fec989a39d735fa4"
+      },
+      {
+        "url": "https://search.asu.edu/?search-tabs=web_dir_faculty_staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.asu.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.asu.edu",
+        "page_family": "directory",
+        "expected_yield": 12.65,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 792,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 173,
+        "embedded_text_length": 617,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "60f70afb0c094017be91a273c810f60c67c5ed3a"
+      },
+      {
+        "url": "https://www.asu.edu",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.asu.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.asu.edu",
+        "page_family": "directory",
+        "expected_yield": 6.05,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 6053,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 5064,
+        "embedded_text_length": 987,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "ASU Homepage | Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to drive meaningful robotics research that reimagines how stronger, more efficient designs can make robots more agile, energy-efficient and better suited for human interaction. Find out more Find my degree program I would like to take most or all classes In person Online Search by keyword OR Search by interest area Select one... Architecture & Construction Arts Business Communication & Media Computing & Mathematics Education & training Engineering & Technology Entrepreneurship Exploratory Health & Wellness Humanities Interdisciplinary Studies Law, Justice & Public Service Science Social & Behavioral Sciences Sustainability STEM Undecided Search by interest area (Online) Select area of interest All interest areas Arts, culture and society Business Education Engineering Health and nursing Law, compliance and public service Science Social and behavioral sciences Technology Undecided Degree type Undergraduate Graduate Discover what's right for me Pause View all rankings I am a future In Person Online Previous Next First-year student Transfer student Honors student Graduate student International student Veteran student Non-degree student First-year student Transfer student Honors student Graduate student International student Veteran student Non-degree student Aprender más en Español Stories of excellence ASU Health facility is bringing new opportunities Construction has begun on the new ASU Health building that will bring together medical education and public health programs, giving students access to more learning opportunities. Read more Students advancing AI for personalized learning Students are working with musician and tech founder will.i.am to develop custom AI personas that support individual learning and safeguard the ideas of their creators. Read more Barrett, The Honors College is creating bright futures Barrett students go on to attend the best graduate schools, win prestigious international fellowships and accept positions with some of the world’s top companies. Read more ASU leaders earning prestigious roles ASU faculty and academic leaders have been selected for prominent positions across the country, highlighting the university’s influence and the strength of its academic community. Read more Students showcase tech projects at AZ Tech Week Student innovations were on display in front of potential funders at the inaugural AZ Tech Week, an event that connects the tech community while raising funds for ventures. Read more ASU named a top producer of prestigious Gilman awards The Gilman scholarship awards up to $5,000 to undergraduate students with high financial need to help them pursue coursework and internships abroad. Read more The ASU difference: We are measured not by whom we exclude, but by whom we include and how they succeed — Excerpt from ASU charter Experience world-class academics As a comprehensive public research university, ASU is committed to providing excellence in education through the Academic Enterprise, empowering every student and expanding access to higher education for all. Learn more Discovery and innovation that serves the public As ASU focuses on research and discovery of public value, the Knowledge Enterprise advances research, innovation, partnerships, entrepreneurship, technology transfer and international development. Learn more Serving all learners at every stage of life Assuming fundamental responsibility for the communities it serves, ASU's Learning Enterprise aims to serve learners at every stage of life by providing high-quality, accessible and affordable opportunities to everyone. Learn more Carve your path At Arizona State University, you'll join a community that will help you explore your interests and learn new skills. Through quality academics, enrichment opportunities and support from friends and faculty, you'll graduate prepared to accomplish your goals throughout your life. Find the experience that fits you. Visit ASU Request information Apply now One university, many places Polytechnic campus Virtual tour Tempe campus Virtual tour West Valley campus Virtual tour Downtown Phoenix campus Virtual tour Skysong Find out more Los Angeles Learn more Washington D.C. Find out more Media and Immersive eXperience (MIX) Center Find out more Reimagining education for everyone New programs for all ages Ambition, curiosity, creativity and passion don't fit in any one box. No matter who you are or how you learn, ASU is ready to serve learners at every stage of life. ASU for You is the first step in a larger movement — a movement that's breaking down education barriers and building up high quality, affordable and accessible learning opportunities for everyone, from K-12 to midcareer to postretirement and every individual in between. Learn more Maps and Locations Jobs Directory Contact ASU My ASU Copyright and Trademark Accessibility Privacy Terms of Use Emergency\n@graph > name: Arizona State University @graph > contactpoint > @type: ContactPoint @graph > contactpoint > telephone: +1-855-278-5080 @graph > contactpoint > email: customerservice@asu.edu @graph > contactpoint > url: https://asu.edu/ @graph > contactpoint > availablelanguage: English @graph > contactpoint > contacttype: customer service @graph > logo > url: https://www.asu.edu/modules/webspark/asu_brand/node_modules/@asu/component-header/dist/assets/img/arizona-state-university-logo-vertical.png asu_brand > props > title: Arizona State University props > navtree > href: /president props > navtree > text: President props > logo > title: ASU homepage props > logo > src: /profiles/contrib/webspark/modules/asu_brand/node_modules/@asu/component-header-footer/dist/assets/img/arizona-state-university-logo-vertical.png props > logo > mobilesrc: /profiles/contrib/webspark/modules/asu_brand/node_modules/@asu/component-header-footer/dist/assets/img/arizona-state-university-logo.png",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "embedded_json"
+            ],
+            "candidate_type": "",
+            "evidence_type": "embedded_json",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "@context: https://schema.org",
+            "source": "embedded_json",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Arizona State University",
+            "role": "",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "embedded_json"
+            ],
+            "candidate_type": "",
+            "evidence_type": "embedded_json",
+            "raw_name": "Arizona State University",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "@graph\nname: Arizona State University",
+            "source": "embedded_json",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://asu.edu",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Arizona State University",
+            "role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Arizona State University",
+            "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "ASU Homepage | Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to drive meaningful robotics research that reimagines how stronger, more efficient designs can make robots more agile, energy-efficient and better suited for human interaction. Find out more Find my degree program I would like to take most or all classes In person Online Search by keyword OR Search by interest area Select one... Architecture & Construction Arts Business Communication & Media Computing & Mathematics Education & training Engineering & Technology Entrepreneurship Exploratory Health & Wellness Humanities Interdisciplinary Studies Law, Justice & Public Service Science Social & Behavioral Sciences Sustainability STEM Undecided Search by interest area (Online) Select area of interest All interest areas Arts, culture and society Business Education Engineering Health and nursing Law, compliance and public service Science Social and behavioral sciences Technology Undecided Degree type Undergraduate Graduate Discover what's right for me Pause View all rankings I am a future In Person Online Previous Next First-year student Transfer student Honors student Graduate student International student Veteran student Non-degree student First-year student Transfer student Honors student Graduate student International student Veteran student Non-degree student Aprender más en Español Stories of excellence ASU Health facility is bringing new opportunities Construction has begun on the new ASU Health building that will bring together medical education and public health programs, giving students access to more learning opportunities. Read more Students advancing AI for personalized learning Students are working with musician and tech founder will.i.am to develop custom AI personas that support individual learning and safeguard the ideas of their creators. Read more Barrett, The Honors College is creating bright futures Barrett students go on to attend the best graduate schools, win prestigious international fellowships and accept positions with some of the world’s top companies. Read more ASU leaders earning prestigious roles ASU faculty and academic leaders have been selected for prominent positions across the country, highlighting the university’s influence and the strength of its academic community. Read more Students showcase tech projects at AZ Tech Week Student innovations were on display in front of potential funders at the inaugural AZ Tech Week, an event that connects the tech community while raising funds for ventures. Read more ASU named a top producer of prestigious Gilman awards The Gilman scholarship awards up to $5,000 to undergraduate students with high financial need to help them pursue coursework and internships abroad. Read more The ASU difference: We are measured not by whom we exclude, but by whom we include and how they succeed — Excerpt from ASU charter Experience world-class academics As a comprehensive public research university, ASU is committed to providing excellence in education through the Academic Enterprise, empowering every student and expanding access to higher education for all. Learn more Discovery and innovation that serves the public As ASU focuses on research and discovery of public value, the Knowledge Enterprise advances research, innovation, partnerships, entrepreneurship, technology transfer and international development. Learn more Serving all learners at every stage of life Assuming fundamental responsibility for the communities it serves, ASU's Learning Enterprise aims to serve learners at every stage of life by providing high-quality, accessible and affordable opportunities to everyone. Learn more Carve your path At Arizona State University, you'll join a community that will help you explore your interests and learn new skills. Through quality academics, enrichment opportunities and support from friends and faculty, you'll graduate prepared to accomplish your goals throughout your life. Find the experience that fits you. Visit ASU Request information Apply now One university, many places Polytechnic campus Virtual tour Tempe campus Virtual tour West Valley campus Virtual tour Downtown Phoenix campus Virtual tour Skysong Find out more Los Angeles Learn more Washington D.C. Find out more Media and Immersive eXperience (MIX) Center Find out more Reimagining education for everyone New programs for all ages Ambition, curiosity, creativity and passion don't fit in any one box. No matter who you are or how you learn, ASU is ready to serve learners at every stage of life. ASU for You is the first step in a larger movement — a movement that's breaking down education barriers and building up high quality, affordable and accessible learning opportunities for everyone, from K-12 to midcareer to postretirement and every individual in between. Learn more Maps and Locations Jobs Directory Contact ASU My ASU Copyright and Trademark Accessibility Privacy Terms of Use Emergency\n@graph > name: Arizona State University @graph > contactpoint > @type: ContactPoint @graph > contactpoint > telephone: +1-855-278-5080 @graph > contactpoint > email: customerservice@asu.edu @graph > contactpoint > url: https://asu.edu/ @graph > contactpoint > availablelanguage: English @graph > contactpoint > contacttype: customer service @graph > logo > url: https://www.asu.edu/modules/webspark/asu_brand/node_modules/@asu/component-header/dist/assets/img/arizona-state-university-logo-vertical.png asu_brand > props > title: Arizona State University props > navtree > href: /president props > navtree > text: President props > logo > title: ASU homepage props > logo > src: /profiles/contrib/webspark/modules/asu_brand/node_modules/@asu/component-header-footer/dist/assets/img/arizona-state-university-logo-vertical.png props > logo > mobilesrc: /profiles/contrib/webspark/modules/asu_brand/node_modules/@asu/component-header-footer/dist/assets/img/arizona-state-university-logo.png",
+            "source": "embedded_json",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "President",
+            "email": "",
+            "page_url": "https://asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Arizona State",
+            "role": "",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Arizona State University",
+            "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "clean_name": "Arizona State",
+            "email_normalized": "customerservice@asu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "ASU Homepage | Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to drive meaningful robotics research that reimagines how stronger, more efficient designs can make robots more agile, energy-efficient and",
+            "source": "embedded_json",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "customerservice@asu.edu",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "visible_text",
+            "raw_name": "Arizona State University",
+            "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "clean_name": "",
+            "email_normalized": "customerservice@asu.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "ASU Homepage | Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to drive meaningful robotics research that reimagines how stronger, more efficient designs can make robots more agile, energy-efficient and",
+            "source": "embedded_json",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Arizona State",
+            "role": "",
+            "email": "",
+            "page_url": "https://www.asu.edu",
+            "source_strategies": [
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "visible_text",
+            "raw_name": "Arizona State University",
+            "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "clean_name": "Arizona State",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "ASU Homepage | Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to drive meaningful robotics research that reimagines how stronger, more efficient designs can make robots more agile, energy-efficient and",
+            "source": "embedded_json",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://asu.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 2,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Arizona State",
+            "role": "",
+            "country": "US",
+            "page_url": "https://www.asu.edu",
+            "page_context": "",
+            "source_strategies": [
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Arizona State University",
+            "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+            "clean_name": "Arizona State",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.05
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "563fbbfb7b7febaa9909262bd5f99882f9cf8cdb"
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "expected_yield": 4.55,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 14439,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 13658,
+        "embedded_text_length": 779,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Michael Crow",
+            "role": "President",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "will.i.am",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "Founding Director",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "President",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "will.i.am",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "Founding Director",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "Peter Murrieta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer",
+            "clean_name": "Sean Hobson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "Pavan Turaga",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "Peter Murrieta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer",
+            "clean_name": "Sean Hobson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "Pavan Turaga",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 4,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "Peter Murrieta",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer",
+            "clean_name": "Sean Hobson",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "Pavan Turaga",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7d5df22036eee86ad73971e093767a0cfe95fd27"
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "expected_yield": 4.55,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 14356,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 13575,
+        "embedded_text_length": 779,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "will.i.am",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Crow",
+            "role": "President",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer for EdPlus",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer for EdPlus",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "Founding Director",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "will.i.am",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Crow",
+            "role": "President",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer for EdPlus",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer for EdPlus",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "Founding Director",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "Peter Murrieta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer for EdPlus",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer for EdPlus",
+            "clean_name": "Sean Hobson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "Pavan Turaga",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "Peter Murrieta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer for EdPlus",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer for EdPlus",
+            "clean_name": "Sean Hobson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "Pavan Turaga",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 4,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "Interim Associate Dean",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Peter Murrieta",
+            "raw_role": "Interim Associate Dean",
+            "clean_name": "Peter Murrieta",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Chief Design Officer for EdPlus",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sean Hobson",
+            "raw_role": "Chief Design Officer for EdPlus",
+            "clean_name": "Sean Hobson",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Pavan Turaga",
+            "raw_role": "Founding Director",
+            "clean_name": "Pavan Turaga",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7d5df22036eee86ad73971e093767a0cfe95fd27",
+        "duplicate_of": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0"
+      },
+      {
+        "url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+        "reason": "gap_fill:real_link_multihop",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am",
+        "page_family": "directory",
+        "expected_yield": 4.55,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 14387,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 13606,
+        "embedded_text_length": 779,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Michael Crow",
+            "role": "President",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "will.i.am",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "founding director and professor in The GAME School",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "founding director and professor in The GAME School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "President",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "will.i.am",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "founding director and professor in The GAME School",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "founding director and professor in The GAME School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "clean_name": "Peter Murrieta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "clean_name": "Sean Hobson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "founding director and professor in The GAME School",
+            "clean_name": "Pavan Turaga",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Professor of Practice",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "will.i.am",
+            "raw_role": "Professor of Practice",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Peter Murrieta",
+            "raw_role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "clean_name": "Peter Murrieta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sean Hobson",
+            "raw_role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "clean_name": "Sean Hobson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Pavan Turaga",
+            "raw_role": "founding director and professor in The GAME School",
+            "clean_name": "Pavan Turaga",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 4,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Michael Crow",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Michael Crow",
+            "raw_role": "President",
+            "clean_name": "Michael Crow",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Peter Murrieta",
+            "role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Peter Murrieta",
+            "raw_role": "interim associate dean of the Herberger Institute for Design and the Arts",
+            "clean_name": "Peter Murrieta",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Sean Hobson",
+            "role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sean Hobson",
+            "raw_role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+            "clean_name": "Sean Hobson",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          },
+          {
+            "name": "Pavan Turaga",
+            "role": "rector",
+            "country": "US",
+            "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+            "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Pavan Turaga",
+            "raw_role": "founding director and professor in The GAME School",
+            "clean_name": "Pavan Turaga",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 4.55
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "7d5df22036eee86ad73971e093767a0cfe95fd27",
+        "duplicate_of": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Arizona State",
+        "role": "",
+        "country": "US",
+        "page_url": "https://www.asu.edu",
+        "page_context": "",
+        "source_strategies": [
+          "visible_regex",
+          "embedded_json",
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Arizona State University",
+        "raw_role": "ASU Homepage Arizona State University Your browser does not support the video tag. Play hero video Pause ASU research powers a new generation of robots Students are helping to driv",
+        "clean_name": "Arizona State",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.05
+      },
+      {
+        "name": "Michael Crow",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Michael Crow",
+        "raw_role": "President",
+        "clean_name": "Michael Crow",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      },
+      {
+        "name": "Peter Murrieta",
+        "role": "Interim Associate Dean",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Peter Murrieta",
+        "raw_role": "Interim Associate Dean",
+        "clean_name": "Peter Murrieta",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      },
+      {
+        "name": "Sean Hobson",
+        "role": "Chief Design Officer",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sean Hobson",
+        "raw_role": "Chief Design Officer",
+        "clean_name": "Sean Hobson",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      },
+      {
+        "name": "Pavan Turaga",
+        "role": "rector",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C0",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Pavan Turaga",
+        "raw_role": "Founding Director",
+        "clean_name": "Pavan Turaga",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      },
+      {
+        "name": "Sean Hobson",
+        "role": "Chief Design Officer for EdPlus",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C1",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sean Hobson",
+        "raw_role": "Chief Design Officer for EdPlus",
+        "clean_name": "Sean Hobson",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      },
+      {
+        "name": "Peter Murrieta",
+        "role": "interim associate dean of the Herberger Institute for Design and the Arts",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Peter Murrieta",
+        "raw_role": "interim associate dean of the Herberger Institute for Design and the Arts",
+        "clean_name": "Peter Murrieta",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      },
+      {
+        "name": "Sean Hobson",
+        "role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+        "country": "US",
+        "page_url": "https://news.asu.edu/20260331-science-and-technology-asu-students-create-next-gen-ai-personas-new-course-will-i-am?page=%2C%2C2",
+        "page_context": "ASU students create next-generation AI personas in new course with will.i.am | ASU News Science and technology ASU students create next-generation AI personas in new course with will.i.am Black Eyed Peas frontman and tech innovator partners with ASU ASU Professor of Practice will.i.am chats with business students Noa Cohen (left) and Shayna Ilyinsky during a break in the “Agentic Self” course at Wilson Hall in Tempe on Feb. 18. The musician, tech founder and philanthropist alternates between",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sean Hobson",
+        "raw_role": "Professor in the Mary Lou Fulton College for Teaching and Learning Innovation",
+        "clean_name": "Sean Hobson",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 4.55
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "General ASU",
+        "email": "contact@asu.edu",
+        "page_url": "https://www.asu.edu/about/contact",
+        "score": 0,
+        "reason": "generic office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": true,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "generic_inbox"
+        ],
+        "evidence_type": "office_contact",
+        "raw_name": "",
+        "raw_role": "General ASU",
+        "clean_name": "",
+        "email_normalized": "contact@asu.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

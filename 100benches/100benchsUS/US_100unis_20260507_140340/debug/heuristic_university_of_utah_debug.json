@@ -1,0 +1,1230 @@
+{
+  "method": "heuristic",
+  "university": "University of Utah",
+  "homepage_url": "https://www.utah.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 131,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 3,
+    "contacts_kept": 1,
+    "time_seconds": 19.868257999420166,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://officeforfaculty.utah.edu/faculty-handbook/",
+    "source_breakdown": {
+      "mailto_explicit": 3,
+      "visible_regex": 4,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 0
+    }
+  },
+  "contacts": [
+    {
+      "name": "Mary Cannon",
+      "email": "mary.cannon@utah.edu",
+      "role": "provost",
+      "page_url": "https://officeforfaculty.utah.edu/",
+      "score": 16,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "heuristic_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 131,
+      "generated_slug_only": 151,
+      "real_link_only": 79,
+      "hybrid": 210
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 0,
+      "cms": 0,
+      "structured_endpoints": 12,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://people.utah.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 14.25,
+        "anchor_text": "Campus Directory",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.utah.edu/faculty/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://www.utah.edu/staff/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://attheu.utah.edu/category/facultystaff/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty/Staff",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://about.utah.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About the U",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://officeforfaculty.utah.edu/faculty-handbook/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Handbook",
+        "parent_url": "https://www.utah.edu/faculty/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=A",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "A",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=B",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "B",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=C",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "C",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=D",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "D",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=E",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "E",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=F",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "F",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=G",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "G",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=H",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "H",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=I",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "I",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=J",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "J",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=K",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "K",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=L",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "L",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=M",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "M",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=N",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "N",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=O",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "O",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=P",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "P",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=Q",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Q",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=R",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "R",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://people.utah.edu/basic.hml?type=3&term=S",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "S",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://people.utah.edu/login.hml",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "LOG IN",
+        "parent_url": "https://people.utah.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://attheu.utah.edu/facultystaff/connecting-u-to-the-world/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Connecting U to the world",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-17-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://attheu.utah.edu/facultystaff/don-your-pink-and-see-legally-blonde/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Don your pink and see ‘Legally Blonde’",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://attheu.utah.edu/facultystaff/prevent-bike-and-e-scooter-theft-by-locking-smart-and-staying-alert/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Prevent bike and e-scooter theft by locking smart and staying alert",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "@ THE U",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://attheu.utah.edu/facultystaff/theu-november-17-2025/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "@ THE U",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://attheu.utah.edu/facultystaff/u-of-u-health-achieves-record-research-funding/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "@ THE U",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://faculty.utah.edu/activityreport/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Activity Report",
+        "parent_url": "https://www.utah.edu/faculty/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://faculty.utah.edu/findaresearcher/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Find a Researcher",
+        "parent_url": "https://www.utah.edu/faculty/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://staffcouncil.utah.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff Council",
+        "parent_url": "https://www.utah.edu/staff/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://www.utah.edu/faculty/services.php",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "office",
+        "heuristic_score": 7.7,
+        "anchor_text": "Employee & Business Services",
+        "parent_url": "https://www.utah.edu/faculty/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://attheu.utah.edu/facultystaff/arthur-c-brooks-to-class-of-2026-take-risks-that-matter/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://attheu.utah.edu/facultystaff/biochemist-brenda-bass-wins-rosenblatt-prize/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://attheu.utah.edu/facultystaff/humans-of-the-u-brandt-winn/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://attheu.utah.edu/facultystaff/humans-of-the-u-morgan-tucker/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://attheu.utah.edu/facultystaff/nuclear-is-booming-the-workforce-isnt-ready/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "https://attheu.utah.edu/facultystaff/u-of-u-health-achieves-record-research-funding/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://attheu.utah.edu/facultystaff/u-researchers-confront-urgent-ai-ethics-questions/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "https://attheu.utah.edu/facultystaff/u-of-u-health-achieves-record-research-funding/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://www.global.utah.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Global U",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://leadership.utah.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Student Leadership & Involvement",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://brand.utah.edu/communications/social-media-directory/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Want to see more social media feeds?",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://administration.utah.edu/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "governance",
+        "heuristic_score": 7.15,
+        "anchor_text": "U Leadership",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://isss.utah.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "International",
+        "parent_url": "https://www.utah.edu/faculty/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://admissions.utah.edu/apply/international/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 7.1,
+        "anchor_text": "International Students",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://admissions.utah.edu/admitted-students/admitted-freshman-next-steps/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Freshman",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://admissions.utah.edu/admitted-students/confirm-intent-to-enroll/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Confirm/Deposit",
+        "parent_url": "https://www.utah.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://www.utah.edu/about/leadership/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://www.utah.edu/about/leadership/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://www.utah.edu/about/leadership/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://www.utah.edu/about/leadership/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://www.utah.edu/administration/people",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://www.utah.edu/administration/people.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://www.utah.edu/administration/people/",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://www.utah.edu/administration/people/index.html",
+        "source_type": "heuristic",
+        "source_strategy": "heuristic_slugs",
+        "source_stage": "generic_slug_template",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "heuristic_slugs"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.utah.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.utah.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://officeforfaculty.utah.edu/faculty-handbook/",
+      "best_url_kept": 1,
+      "source_breakdown": {
+        "mailto_explicit": 3,
+        "visible_regex": 4,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 0
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://people.utah.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 12827,
+        "visible_text_length": 679,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "25afe2a5a6b9c5587781cce0f507d1dc3ba2f24f",
+        "content_signatures": [
+          "25afe2a5a6b9c5587781cce0f507d1dc3ba2f24f"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.utah.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 14.25,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Of Utah",
+            "role": "",
+            "email": "",
+            "page_url": "https://people.utah.edu/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Of Utah",
+            "raw_role": "",
+            "clean_name": "Of Utah",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "UNIVERSITY INFORMATION TECHNOLOGY, 102 S 200 E STE. 110, SALT LAKE CITY, UT 84111\n801.581.7200\n©\nUNIVERSITY OF UTAH\nHelp Desk\nDisclaimer",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.utah.edu/faculty/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 82892,
+        "visible_text_length": 10196,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "fefe087775aaf87aa5a67e46f1551a77ca0dd7f4",
+        "content_signatures": [
+          "fefe087775aaf87aa5a67e46f1551a77ca0dd7f4",
+          "d0a4d3d423e5a717f946ef321addb109cd331631"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.utah.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://www.utah.edu/staff/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 81080,
+        "visible_text_length": 9378,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "d089dd651c7d64f6e9764a154658c025bbb54740",
+        "content_signatures": [
+          "d089dd651c7d64f6e9764a154658c025bbb54740",
+          "d0a4d3d423e5a717f946ef321addb109cd331631"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://www.utah.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://attheu.utah.edu/category/facultystaff/",
+        "fetch_succeeded": true,
+        "pages_fetched": 5,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 335377,
+        "visible_text_length": 21518,
+        "embedded_text_length": 0,
+        "embedded_document_count": 5,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "9f65b821d6e15280a37c21c3a56fc38e38f25c04",
+        "content_signatures": [
+          "9f65b821d6e15280a37c21c3a56fc38e38f25c04",
+          "60bdbec8c9e3f3393e900043476d3eea129cee33",
+          "e64e19dea4fb347afc6a50fe31dfa6d8486468af",
+          "eac00f077b50ff1443575333d1b3b9fbeaeab984",
+          "b4e9f77f5c44f93f4072d3d5c6f47f9892e1fd63"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_footer|https://attheu.utah.edu/facultystaff/theu-november-10-2025/",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://about.utah.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 296074,
+        "visible_text_length": 32976,
+        "embedded_text_length": 0,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "0786cce7aad7953803a489aa766d2af985481178",
+        "content_signatures": [
+          "0786cce7aad7953803a489aa766d2af985481178"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.utah.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "generic",
+        "candidate_heuristic_score": 1.75,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://officeforfaculty.utah.edu/faculty-handbook/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 2,
+        "kept_contacts": 1,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 111890,
+        "visible_text_length": 6062,
+        "embedded_text_length": 208,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "b2a8abd0dc6f351899c8d90e4edec7c027e339dc",
+        "content_signatures": [
+          "b2a8abd0dc6f351899c8d90e4edec7c027e339dc",
+          "ef0c4e4185ffd3463c2763d03cffd40e9fc354d6"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.utah.edu/faculty/",
+        "mailto_count": 4,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 4,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Mary Cannon",
+            "email": "mary.cannon@utah.edu",
+            "role": "provost",
+            "page_url": "https://officeforfaculty.utah.edu/",
+            "score": 16,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "officeforfaculty@utah.edu",
+            "role": "Faculty Handbook – Office for Faculty Skip to content Main Menu Home Meet the Team Contact Us – Office for Faculty Faculty Career Enhancement (FCE) Home – FCE Faculty Life For Futu",
+            "page_url": "https://officeforfaculty.utah.edu/faculty-handbook/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

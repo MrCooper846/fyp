@@ -1,0 +1,112 @@
+{
+  "target": {
+    "name": "University of Massachusetts Amherst",
+    "url": "https://www.umass.edu",
+    "source_url": "https://www.umass.edu",
+    "org_type": "university",
+    "country": "US",
+    "source": "openalex",
+    "profile": "nafsa"
+  },
+  "outcome": {
+    "hard_success": false,
+    "soft_success": false,
+    "failed": false,
+    "failure_reason": null,
+    "pages_fetched": 0,
+    "llm_calls": 0,
+    "ranked_contacts": 0,
+    "qualified_contacts": 0
+  },
+  "discovery_trace": [],
+  "discovery_strategy_trace": {},
+  "homepage_rescue_trace": [
+    {
+      "url": "https://www.umass.edu",
+      "reason": "original",
+      "fetched": "false"
+    },
+    {
+      "url": "https://umass.edu/",
+      "reason": "drop_www_root",
+      "fetched": "false"
+    },
+    {
+      "url": "https://html.duckduckgo.com/html/?q=%22University+of+Massachusetts+Amherst%22+official+site+US",
+      "reason": "web_search_query",
+      "fetched": "true",
+      "query": "\"University of Massachusetts Amherst\" official site US"
+    }
+  ],
+  "dead_urls": [],
+  "mode_history": [
+    {
+      "mode": "office_discovery",
+      "reason": "initial_state",
+      "goal": "find direct outreach contacts"
+    },
+    {
+      "mode": "stop",
+      "reason": "no_actions_remaining",
+      "goal": "no_high_value_actions_remaining"
+    }
+  ],
+  "action_history": [
+    {
+      "action": "rank_candidates",
+      "reason": "no_candidates_found",
+      "details": {
+        "count": 0,
+        "phase": "scout"
+      }
+    },
+    {
+      "action": "rank_candidates",
+      "reason": "gap_fill",
+      "details": {
+        "count": 0
+      }
+    },
+    {
+      "action": "stop_with_reason",
+      "reason": "no_high_value_actions_remaining",
+      "details": {}
+    }
+  ],
+  "planner_history": [
+    {
+      "phase": "scout",
+      "strategy": "no_candidates_found",
+      "expected_roles": [
+        "Head of International Partnerships",
+        "Director of Global Engagement",
+        "International Relations Lead",
+        "Mobility / Exchange Coordinator"
+      ],
+      "stop_hint": "No candidate pages discovered",
+      "ranked_pages": []
+    },
+    {
+      "phase": "gap_fill",
+      "strategy": "deterministic_unvisited_candidates",
+      "ranked_pages": []
+    }
+  ],
+  "evidence_log": [],
+  "extraction_trace": [],
+  "pruned_candidates": [],
+  "person_candidates": [],
+  "role_holder_candidates": [],
+  "enrichment_trace": [],
+  "search_attempts": [],
+  "pattern_inference_trace": [],
+  "missing_email_candidates": [],
+  "rejected_contacts": [],
+  "deduped_contacts": [],
+  "dead_candidate_signatures": [],
+  "dead_shell_contexts": [],
+  "repeated_zero_evidence_signatures": {},
+  "stop_reason": "no_high_value_actions_remaining",
+  "ranked_contacts": [],
+  "final_contacts_with_provenance": []
+}

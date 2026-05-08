@@ -1,0 +1,4528 @@
+{
+  "method": "ai_crawler",
+  "university": "Harvard University",
+  "homepage_url": "https://www.harvard.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 5,
+    "candidates_probed": 3,
+    "contacts_extracted": 21,
+    "contacts_kept": 0,
+    "time_seconds": 73.20591640472412,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.harvard.edu/contact-harvard",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 5,
+      "pages_fetched": 5,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Learn about our Leadership",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/leadership-and-governance/board-of-overseers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Board of Overseers",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/leadership-and-governance/harvard-corporation/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Harvard Corporation",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://seas.harvard.edu/news/2025/01/out-lab-and-patients-hands",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Wearable robotic device for stroke survivors improves mobility This wearable robotic device is helping stroke survivors and people with other movement impairmen",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.95,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.fas.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Harvard Faculty of Arts and Sciences",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://connections.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Find a person",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": true,
+        "selection_reason": "This page allows users to search for individuals at Harvard, making it a valuable resource for identifying specific roles related to international relations and partnerships."
+      },
+      {
+        "url": "https://www.harvard.edu/in-focus/public-service-public-good/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Explore Harvard's impact",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.hks.harvard.edu/research-insights/library-knowledge-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "HKS Library and Knowledge Services",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Officers and Deans",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.55,
+        "selected_for_planning": true,
+        "selection_reason": "This page lists high-level officers and deans at Harvard, which includes key contacts relevant to international partnerships and global engagement."
+      },
+      {
+        "url": "https://www.harvard.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About Harvard",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/endowment/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Endowment",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/harvard-in-the-community/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Harvard in the Community",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/harvard-in-the-world/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Harvard in the World",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Learn more about Harvard's history",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/honorary-degrees/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Honorary Degrees",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Nobel Laureates",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/shields/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Harvard shields",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/timeline/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "History timeline",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/university-professorships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "University Professorships",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/chemistry/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Harvard’s Nobel Laureates in Chemistry",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/economic-sciences/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Harvard’s Laureates in Economic Science",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/literature/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Harvard’s Nobel Laureates in Literature",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/medicine/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Harvard’s Nobel Laureates in Medicine",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/peace/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Harvard’s Nobel Laureates in Peace",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/history/nobel-laureates/physics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Harvard’s Nobel Laureates in Physics",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.fas.harvard.edu/fas_leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "FAS Leadership",
+        "parent_url": "https://www.fas.harvard.edu/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu//president/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "President",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/contact-harvard",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact Harvard",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.fas.harvard.edu/explore-our-departments-programs-and-offices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Departments, Programs, and Offices",
+        "parent_url": "https://www.fas.harvard.edu/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about-harvard/leadership-and-governance/harvard-corporation/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "the Corporation",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/board-of-overseers/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/about/leadership-and-governance/about-harvard/leadership-and-governance/harvard-corporation/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn more about the Harvard Corporation Opens new window",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/president/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Alan Garber, President",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/harvard-corporation/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/president/news/2024/president-alan-garber/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Read the statement",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/harvard-corporation/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/president/news/2025/new-member-of-harvard-corporation/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "View Article",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/harvard-corporation/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2020/08/new-overseers-alumni-association-directors-elected/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn more about the new members",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2023/04/overseers-hodges-and-acuna-sunshine-to-take-on-leadership-roles/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "View Article",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/board-of-overseers/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2023/05/five-alumni-elected-to-the-board-of-overseers/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "View Article",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/board-of-overseers/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2024/03/harvard-law-school-dean-john-manning-named-interim-provost/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn more about the interim provost",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2024/08/garber-to-serve-as-president-through-2026-27-academic-year/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn more about President Garber",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2024/08/john-manning-named-next-provost/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn more about Provost Manning",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2025/05/12-alumni-elected-to-harvard-leadership-boards/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Read the article",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/board-of-overseers/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://news.harvard.edu/gazette/story/2025/06/overseers-announce-new-president-vice-chair/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "View Article",
+        "parent_url": "https://www.harvard.edu/about/leadership-and-governance/board-of-overseers/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.harvard.edu/media-relations",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Media Relations",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.fas.harvard.edu/about-dean-hoekstra",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Dean Hoekstra",
+        "parent_url": "https://www.fas.harvard.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://ccva.fas.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Carpenter Center for the Visual Arts",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://chsi.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Collection of Historical Scientific Instruments",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://commencement.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Commencement",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://hmsc.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Harvard Museums of Science and Culture",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://itatti.harvard.edu/berenson-library",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Biblioteca Berenson",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://mgmh.fas.harvard.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Mineralogical and Geological Museum",
+        "parent_url": "https://www.harvard.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.harvard.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://global.harvard.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.harvard.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.harvard.edu/contact-harvard"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://seas.harvard.edu/news/2025/01/out-lab-and-patients-hands"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.fas.harvard.edu/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://connections.harvard.edu/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Alan M Garber"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Andrea Baccarelli"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover David C Parkes"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover David Deming"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Emma Dench"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover George Q Daley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Hopi Hoekstra"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jeremy M Weinstein"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John C.P Goldberg"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John F Manning"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Marla Frederick"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Nancy Coleman"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Nonie Lesaux"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sarah M Whiting"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Srikant Datar"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tomiko Brown-Nagin"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover William V Giannobile"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Alan M Garber"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Andrea Baccarelli"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover David C Parkes"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover David Deming"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Emma Dench"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover George Q Daley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Hopi Hoekstra"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jeremy M Weinstein"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John C.P Goldberg"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John F Manning"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Marla Frederick"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Focus on pages related to leadership and staff directories that are most likely to yield relevant contacts for outreach in international partnerships and global engagement.",
+        "details": {
+          "count": 6,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.harvard.edu/contact-harvard",
+          "page_type": "nav",
+          "expected_yield": 4.2
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://seas.harvard.edu/news/2025/01/out-lab-and-patients-hands",
+          "page_type": "nav",
+          "expected_yield": 8.95
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.fas.harvard.edu/",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page allows users to search for individuals at Harvard, making it a valuable resource for identifying specific roles related to international relations and partnerships.",
+        "details": {
+          "url": "https://connections.harvard.edu/",
+          "page_type": "staff directory",
+          "expected_yield": 5.0
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page lists high-level officers and deans at Harvard, which includes key contacts relevant to international partnerships and global engagement.",
+        "details": {
+          "url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+          "page_type": "leadership contacts",
+          "expected_yield": 5.0
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Alan M Garber"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Andrea Baccarelli"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "David C Parkes"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "David Deming"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Emma Dench"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "George Q Daley"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Hopi Hoekstra"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jeremy M Weinstein"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John C.P Goldberg"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John F Manning"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Marla Frederick"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Nancy Coleman"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Nonie Lesaux"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sarah M Whiting"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Srikant Datar"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tomiko Brown-Nagin"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "William V Giannobile"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Alan M Garber"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Andrea Baccarelli"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "David C Parkes"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "David Deming"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Emma Dench"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "George Q Daley"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Hopi Hoekstra"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jeremy M Weinstein"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John C.P Goldberg"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John F Manning"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Marla Frederick"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Focus on pages related to leadership and staff directories that are most likely to yield relevant contacts for outreach in international partnerships and global engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Return no more ranked pages.",
+        "ranked_pages": [
+          {
+            "url": "https://www.harvard.edu/contact-harvard",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 4.2,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://global.harvard.edu",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 7.1,
+            "page_type": "subdomain"
+          },
+          {
+            "url": "https://seas.harvard.edu/news/2025/01/out-lab-and-patients-hands",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.95,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.fas.harvard.edu/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "reason": "This page lists high-level officers and deans at Harvard, which includes key contacts relevant to international partnerships and global engagement.",
+            "expected_yield": 5.0,
+            "page_type": "leadership contacts"
+          },
+          {
+            "url": "https://connections.harvard.edu/",
+            "reason": "This page allows users to search for individuals at Harvard, making it a valuable resource for identifying specific roles related to international relations and partnerships.",
+            "expected_yield": 5.0,
+            "page_type": "staff directory"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.harvard.edu/contact-harvard",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.harvard.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.harvard.edu",
+        "page_family": "contact",
+        "expected_yield": 4.2,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 6287,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 6091,
+        "embedded_text_length": 196,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Office of the Provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Relations",
+            "email": "mediarelations@harvard.edu",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Harvard University Police Department",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Harvard University Police Department",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Office of the Provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Relations",
+            "email": "mediarelations@harvard.edu",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Harvard University Police Department",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Harvard University Police Department",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Media Relations",
+            "email": "mediarelations@harvard.edu",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Relations",
+            "clean_name": "",
+            "email_normalized": "mediarelations@harvard.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Harvard University Police Department",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Harvard University Police Department",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Media Relations",
+            "email": "mediarelations@harvard.edu",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Relations",
+            "clean_name": "",
+            "email_normalized": "mediarelations@harvard.edu",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Harvard University Police Department",
+            "email": "",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Harvard University Police Department",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "Media Relations",
+            "email": "mediarelations@harvard.edu",
+            "page_url": "https://www.harvard.edu/contact-harvard",
+            "score": 0,
+            "reason": "no personal name",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "cleanup_flags": [],
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Media Relations",
+            "clean_name": "",
+            "email_normalized": "mediarelations@harvard.edu"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "57d6cb68c8c25fa75853466c84acbe1ba738cb71"
+      },
+      {
+        "url": "https://seas.harvard.edu/news/2025/01/out-lab-and-patients-hands",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.harvard.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.harvard.edu",
+        "page_family": "directory",
+        "expected_yield": 8.95,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.fas.harvard.edu/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.harvard.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.harvard.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 3033,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2850,
+        "embedded_text_length": 181,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.fas.harvard.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.fas.harvard.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.fas.harvard.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.fas.harvard.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e3c85952a1cf4a0a808e2dec630f04574df76aa2"
+      },
+      {
+        "url": "https://connections.harvard.edu/",
+        "reason": "This page allows users to search for individuals at Harvard, making it a valuable resource for identifying specific roles related to international relations and partnerships.",
+        "page_type": "staff directory",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.harvard.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.harvard.edu",
+        "page_family": "directory",
+        "expected_yield": 5.0,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "reason": "This page lists high-level officers and deans at Harvard, which includes key contacts relevant to international partnerships and global engagement.",
+        "page_type": "leadership contacts",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.harvard.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.harvard.edu",
+        "page_family": "governance",
+        "expected_yield": 5.0,
+        "family_signature": null,
+        "raw_contacts_found": 17,
+        "text_length": 10134,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 9866,
+        "embedded_text_length": 267,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Alan M. Garber",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alan M. Garber",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John F. Manning",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John F. Manning",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Andrea Baccarelli",
+            "role": "Dean, Harvard T.H. Chan School of Public Health",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Andrea Baccarelli",
+            "raw_role": "Dean, Harvard T.H. Chan School of Public Health",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tomiko Brown-Nagin",
+            "role": "Dean, Radcliffe Institute for Advanced Study",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tomiko Brown-Nagin",
+            "raw_role": "Dean, Radcliffe Institute for Advanced Study",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nancy Coleman",
+            "role": "Dean, Division of Continuing Education and University Extension",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nancy Coleman",
+            "raw_role": "Dean, Division of Continuing Education and University Extension",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "George Q. Daley",
+            "role": "Dean, Harvard Medical School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "George Q. Daley",
+            "raw_role": "Dean, Harvard Medical School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Srikant Datar",
+            "role": "Dean, Harvard Business School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Srikant Datar",
+            "raw_role": "Dean, Harvard Business School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Deming",
+            "role": "Danoff Dean of Harvard College",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Deming",
+            "raw_role": "Danoff Dean of Harvard College",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emma Dench",
+            "role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Dench",
+            "raw_role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marla Frederick",
+            "role": "Dean, Harvard Divinity School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marla Frederick",
+            "raw_role": "Dean, Harvard Divinity School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John C.P. Goldberg",
+            "role": "Dean of Harvard Law School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John C.P. Goldberg",
+            "raw_role": "Dean of Harvard Law School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "William V. Giannobile",
+            "role": "Dean, Harvard School of Dental Medicine",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "William V. Giannobile",
+            "raw_role": "Dean, Harvard School of Dental Medicine",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hopi Hoekstra",
+            "role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hopi Hoekstra",
+            "raw_role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nonie Lesaux",
+            "role": "Dean, Harvard Graduate School of Education",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nonie Lesaux",
+            "raw_role": "Dean, Harvard Graduate School of Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David C. Parkes",
+            "role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David C. Parkes",
+            "raw_role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeremy M. Weinstein",
+            "role": "Dean, Harvard Kennedy School of Government",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeremy M. Weinstein",
+            "raw_role": "Dean, Harvard Kennedy School of Government",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sarah M. Whiting",
+            "role": "Dean, Graduate School of Design",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah M. Whiting",
+            "raw_role": "Dean, Graduate School of Design",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Alan M. Garber",
+            "role": "President",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alan M. Garber",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John F. Manning",
+            "role": "Provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John F. Manning",
+            "raw_role": "Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Andrea Baccarelli",
+            "role": "Dean, Harvard T.H. Chan School of Public Health",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Andrea Baccarelli",
+            "raw_role": "Dean, Harvard T.H. Chan School of Public Health",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tomiko Brown-Nagin",
+            "role": "Dean, Radcliffe Institute for Advanced Study",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tomiko Brown-Nagin",
+            "raw_role": "Dean, Radcliffe Institute for Advanced Study",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nancy Coleman",
+            "role": "Dean, Division of Continuing Education and University Extension",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nancy Coleman",
+            "raw_role": "Dean, Division of Continuing Education and University Extension",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "George Q. Daley",
+            "role": "Dean, Harvard Medical School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "George Q. Daley",
+            "raw_role": "Dean, Harvard Medical School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Srikant Datar",
+            "role": "Dean, Harvard Business School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Srikant Datar",
+            "raw_role": "Dean, Harvard Business School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Deming",
+            "role": "Danoff Dean of Harvard College",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Deming",
+            "raw_role": "Danoff Dean of Harvard College",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emma Dench",
+            "role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Dench",
+            "raw_role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marla Frederick",
+            "role": "Dean, Harvard Divinity School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marla Frederick",
+            "raw_role": "Dean, Harvard Divinity School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John C.P. Goldberg",
+            "role": "Dean of Harvard Law School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John C.P. Goldberg",
+            "raw_role": "Dean of Harvard Law School",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "William V. Giannobile",
+            "role": "Dean, Harvard School of Dental Medicine",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "William V. Giannobile",
+            "raw_role": "Dean, Harvard School of Dental Medicine",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hopi Hoekstra",
+            "role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hopi Hoekstra",
+            "raw_role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nonie Lesaux",
+            "role": "Dean, Harvard Graduate School of Education",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nonie Lesaux",
+            "raw_role": "Dean, Harvard Graduate School of Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David C. Parkes",
+            "role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David C. Parkes",
+            "raw_role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeremy M. Weinstein",
+            "role": "Dean, Harvard Kennedy School of Government",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeremy M. Weinstein",
+            "raw_role": "Dean, Harvard Kennedy School of Government",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sarah M. Whiting",
+            "role": "Dean, Graduate School of Design",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah M. Whiting",
+            "raw_role": "Dean, Graduate School of Design",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Alan M Garber",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alan M. Garber",
+            "raw_role": "President",
+            "clean_name": "Alan M Garber",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John F Manning",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John F. Manning",
+            "raw_role": "Provost",
+            "clean_name": "John F Manning",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Andrea Baccarelli",
+            "role": "Dean, Harvard T.H. Chan School of Public Health",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Andrea Baccarelli",
+            "raw_role": "Dean, Harvard T.H. Chan School of Public Health",
+            "clean_name": "Andrea Baccarelli",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tomiko Brown-Nagin",
+            "role": "Dean, Radcliffe Institute for Advanced Study",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tomiko Brown-Nagin",
+            "raw_role": "Dean, Radcliffe Institute for Advanced Study",
+            "clean_name": "Tomiko Brown-Nagin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nancy Coleman",
+            "role": "Dean, Division of Continuing Education and University Extension",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nancy Coleman",
+            "raw_role": "Dean, Division of Continuing Education and University Extension",
+            "clean_name": "Nancy Coleman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "George Q Daley",
+            "role": "Dean, Harvard Medical School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "George Q. Daley",
+            "raw_role": "Dean, Harvard Medical School",
+            "clean_name": "George Q Daley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Srikant Datar",
+            "role": "Dean, Harvard Business School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Srikant Datar",
+            "raw_role": "Dean, Harvard Business School",
+            "clean_name": "Srikant Datar",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Deming",
+            "role": "Danoff Dean of Harvard College",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Deming",
+            "raw_role": "Danoff Dean of Harvard College",
+            "clean_name": "David Deming",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emma Dench",
+            "role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Dench",
+            "raw_role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "clean_name": "Emma Dench",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marla Frederick",
+            "role": "Dean, Harvard Divinity School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marla Frederick",
+            "raw_role": "Dean, Harvard Divinity School",
+            "clean_name": "Marla Frederick",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John C.P Goldberg",
+            "role": "Dean of Harvard Law School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John C.P. Goldberg",
+            "raw_role": "Dean of Harvard Law School",
+            "clean_name": "John C.P Goldberg",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "William V Giannobile",
+            "role": "Dean, Harvard School of Dental Medicine",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "William V. Giannobile",
+            "raw_role": "Dean, Harvard School of Dental Medicine",
+            "clean_name": "William V Giannobile",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hopi Hoekstra",
+            "role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hopi Hoekstra",
+            "raw_role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "clean_name": "Hopi Hoekstra",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nonie Lesaux",
+            "role": "Dean, Harvard Graduate School of Education",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nonie Lesaux",
+            "raw_role": "Dean, Harvard Graduate School of Education",
+            "clean_name": "Nonie Lesaux",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David C Parkes",
+            "role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David C. Parkes",
+            "raw_role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "clean_name": "David C Parkes",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeremy M Weinstein",
+            "role": "Dean, Harvard Kennedy School of Government",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeremy M. Weinstein",
+            "raw_role": "Dean, Harvard Kennedy School of Government",
+            "clean_name": "Jeremy M Weinstein",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sarah M Whiting",
+            "role": "Dean, Graduate School of Design",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah M. Whiting",
+            "raw_role": "Dean, Graduate School of Design",
+            "clean_name": "Sarah M Whiting",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Alan M Garber",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alan M. Garber",
+            "raw_role": "President",
+            "clean_name": "Alan M Garber",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "John F Manning",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "John F. Manning",
+            "raw_role": "Provost",
+            "clean_name": "John F Manning",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Andrea Baccarelli",
+            "role": "Dean, Harvard T.H. Chan School of Public Health",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Andrea Baccarelli",
+            "raw_role": "Dean, Harvard T.H. Chan School of Public Health",
+            "clean_name": "Andrea Baccarelli",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Tomiko Brown-Nagin",
+            "role": "Dean, Radcliffe Institute for Advanced Study",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tomiko Brown-Nagin",
+            "raw_role": "Dean, Radcliffe Institute for Advanced Study",
+            "clean_name": "Tomiko Brown-Nagin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nancy Coleman",
+            "role": "Dean, Division of Continuing Education and University Extension",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nancy Coleman",
+            "raw_role": "Dean, Division of Continuing Education and University Extension",
+            "clean_name": "Nancy Coleman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "George Q Daley",
+            "role": "Dean, Harvard Medical School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "George Q. Daley",
+            "raw_role": "Dean, Harvard Medical School",
+            "clean_name": "George Q Daley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Srikant Datar",
+            "role": "Dean, Harvard Business School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Srikant Datar",
+            "raw_role": "Dean, Harvard Business School",
+            "clean_name": "Srikant Datar",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "David Deming",
+            "role": "Danoff Dean of Harvard College",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Deming",
+            "raw_role": "Danoff Dean of Harvard College",
+            "clean_name": "David Deming",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Emma Dench",
+            "role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Dench",
+            "raw_role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "clean_name": "Emma Dench",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Marla Frederick",
+            "role": "Dean, Harvard Divinity School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marla Frederick",
+            "raw_role": "Dean, Harvard Divinity School",
+            "clean_name": "Marla Frederick",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "John C.P Goldberg",
+            "role": "Dean of Harvard Law School",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "John C.P. Goldberg",
+            "raw_role": "Dean of Harvard Law School",
+            "clean_name": "John C.P Goldberg",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "William V Giannobile",
+            "role": "Dean, Harvard School of Dental Medicine",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "William V. Giannobile",
+            "raw_role": "Dean, Harvard School of Dental Medicine",
+            "clean_name": "William V Giannobile",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Hopi Hoekstra",
+            "role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hopi Hoekstra",
+            "raw_role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "clean_name": "Hopi Hoekstra",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nonie Lesaux",
+            "role": "Dean, Harvard Graduate School of Education",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nonie Lesaux",
+            "raw_role": "Dean, Harvard Graduate School of Education",
+            "clean_name": "Nonie Lesaux",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "David C Parkes",
+            "role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David C. Parkes",
+            "raw_role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "clean_name": "David C Parkes",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Jeremy M Weinstein",
+            "role": "Dean, Harvard Kennedy School of Government",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeremy M. Weinstein",
+            "raw_role": "Dean, Harvard Kennedy School of Government",
+            "clean_name": "Jeremy M Weinstein",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Sarah M Whiting",
+            "role": "Dean, Graduate School of Design",
+            "email": "",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sarah M. Whiting",
+            "raw_role": "Dean, Graduate School of Design",
+            "clean_name": "Sarah M Whiting",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 17
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 17,
+        "clean_candidate_count": 17,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 17,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Alan M Garber",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Alan M. Garber",
+            "raw_role": "President",
+            "clean_name": "Alan M Garber",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "John F Manning",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "John F. Manning",
+            "raw_role": "Provost",
+            "clean_name": "John F Manning",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Andrea Baccarelli",
+            "role": "Dean, Harvard T.H. Chan School of Public Health",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Andrea Baccarelli",
+            "raw_role": "Dean, Harvard T.H. Chan School of Public Health",
+            "clean_name": "Andrea Baccarelli",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Tomiko Brown-Nagin",
+            "role": "Dean, Radcliffe Institute for Advanced Study",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tomiko Brown-Nagin",
+            "raw_role": "Dean, Radcliffe Institute for Advanced Study",
+            "clean_name": "Tomiko Brown-Nagin",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Nancy Coleman",
+            "role": "Dean, Division of Continuing Education and University Extension",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Nancy Coleman",
+            "raw_role": "Dean, Division of Continuing Education and University Extension",
+            "clean_name": "Nancy Coleman",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "George Q Daley",
+            "role": "Dean, Harvard Medical School",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "George Q. Daley",
+            "raw_role": "Dean, Harvard Medical School",
+            "clean_name": "George Q Daley",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Srikant Datar",
+            "role": "Dean, Harvard Business School",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Srikant Datar",
+            "raw_role": "Dean, Harvard Business School",
+            "clean_name": "Srikant Datar",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "David Deming",
+            "role": "Danoff Dean of Harvard College",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "David Deming",
+            "raw_role": "Danoff Dean of Harvard College",
+            "clean_name": "David Deming",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Emma Dench",
+            "role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Emma Dench",
+            "raw_role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+            "clean_name": "Emma Dench",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Marla Frederick",
+            "role": "Dean, Harvard Divinity School",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Marla Frederick",
+            "raw_role": "Dean, Harvard Divinity School",
+            "clean_name": "Marla Frederick",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "John C.P Goldberg",
+            "role": "Dean of Harvard Law School",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "John C.P. Goldberg",
+            "raw_role": "Dean of Harvard Law School",
+            "clean_name": "John C.P Goldberg",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "William V Giannobile",
+            "role": "Dean, Harvard School of Dental Medicine",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "William V. Giannobile",
+            "raw_role": "Dean, Harvard School of Dental Medicine",
+            "clean_name": "William V Giannobile",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Hopi Hoekstra",
+            "role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Hopi Hoekstra",
+            "raw_role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+            "clean_name": "Hopi Hoekstra",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Nonie Lesaux",
+            "role": "Dean, Harvard Graduate School of Education",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Nonie Lesaux",
+            "raw_role": "Dean, Harvard Graduate School of Education",
+            "clean_name": "Nonie Lesaux",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "David C Parkes",
+            "role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "David C. Parkes",
+            "raw_role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+            "clean_name": "David C Parkes",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Jeremy M Weinstein",
+            "role": "Dean, Harvard Kennedy School of Government",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jeremy M. Weinstein",
+            "raw_role": "Dean, Harvard Kennedy School of Government",
+            "clean_name": "Jeremy M Weinstein",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          },
+          {
+            "name": "Sarah M Whiting",
+            "role": "Dean, Graduate School of Design",
+            "country": "US",
+            "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+            "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sarah M. Whiting",
+            "raw_role": "Dean, Graduate School of Design",
+            "clean_name": "Sarah M Whiting",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 5.0
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "f84be90bcd38a5f47c972857b90573155b936dc1"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Alan M Garber",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Alan M. Garber",
+        "raw_role": "President",
+        "clean_name": "Alan M Garber",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "John F Manning",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "John F. Manning",
+        "raw_role": "Provost",
+        "clean_name": "John F Manning",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Andrea Baccarelli",
+        "role": "Dean, Harvard T.H. Chan School of Public Health",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Andrea Baccarelli",
+        "raw_role": "Dean, Harvard T.H. Chan School of Public Health",
+        "clean_name": "Andrea Baccarelli",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Tomiko Brown-Nagin",
+        "role": "Dean, Radcliffe Institute for Advanced Study",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tomiko Brown-Nagin",
+        "raw_role": "Dean, Radcliffe Institute for Advanced Study",
+        "clean_name": "Tomiko Brown-Nagin",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Nancy Coleman",
+        "role": "Dean, Division of Continuing Education and University Extension",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Nancy Coleman",
+        "raw_role": "Dean, Division of Continuing Education and University Extension",
+        "clean_name": "Nancy Coleman",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "George Q Daley",
+        "role": "Dean, Harvard Medical School",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "George Q. Daley",
+        "raw_role": "Dean, Harvard Medical School",
+        "clean_name": "George Q Daley",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Srikant Datar",
+        "role": "Dean, Harvard Business School",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Srikant Datar",
+        "raw_role": "Dean, Harvard Business School",
+        "clean_name": "Srikant Datar",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "David Deming",
+        "role": "Danoff Dean of Harvard College",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "David Deming",
+        "raw_role": "Danoff Dean of Harvard College",
+        "clean_name": "David Deming",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Emma Dench",
+        "role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Emma Dench",
+        "raw_role": "Dean, Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+        "clean_name": "Emma Dench",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Marla Frederick",
+        "role": "Dean, Harvard Divinity School",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Marla Frederick",
+        "raw_role": "Dean, Harvard Divinity School",
+        "clean_name": "Marla Frederick",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "John C.P Goldberg",
+        "role": "Dean of Harvard Law School",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "John C.P. Goldberg",
+        "raw_role": "Dean of Harvard Law School",
+        "clean_name": "John C.P Goldberg",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "William V Giannobile",
+        "role": "Dean, Harvard School of Dental Medicine",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "William V. Giannobile",
+        "raw_role": "Dean, Harvard School of Dental Medicine",
+        "clean_name": "William V Giannobile",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Hopi Hoekstra",
+        "role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Hopi Hoekstra",
+        "raw_role": "Edgerley Family Dean of the Faculty of Arts and Sciences",
+        "clean_name": "Hopi Hoekstra",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Nonie Lesaux",
+        "role": "Dean, Harvard Graduate School of Education",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Nonie Lesaux",
+        "raw_role": "Dean, Harvard Graduate School of Education",
+        "clean_name": "Nonie Lesaux",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "David C Parkes",
+        "role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "David C. Parkes",
+        "raw_role": "Dean of the Harvard John A. Paulson School of Engineering and Applied Sciences",
+        "clean_name": "David C Parkes",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Jeremy M Weinstein",
+        "role": "Dean, Harvard Kennedy School of Government",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jeremy M. Weinstein",
+        "raw_role": "Dean, Harvard Kennedy School of Government",
+        "clean_name": "Jeremy M Weinstein",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      },
+      {
+        "name": "Sarah M Whiting",
+        "role": "Dean, Graduate School of Design",
+        "country": "US",
+        "page_url": "https://www.harvard.edu/about/leadership-and-governance/officers-and-deans/",
+        "page_context": "Officers and Deans - Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life. Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees. Undergraduate Degrees Graduate Degrees Other Professional and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sarah M. Whiting",
+        "raw_role": "Dean, Graduate School of Design",
+        "clean_name": "Sarah M Whiting",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 5.0
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "Media Relations",
+        "email": "mediarelations@harvard.edu",
+        "page_url": "https://www.harvard.edu/contact-harvard",
+        "score": 0,
+        "reason": "no personal name",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "cleanup_flags": [],
+        "evidence_type": "office_contact",
+        "raw_name": "",
+        "raw_role": "Media Relations",
+        "clean_name": "",
+        "email_normalized": "mediarelations@harvard.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

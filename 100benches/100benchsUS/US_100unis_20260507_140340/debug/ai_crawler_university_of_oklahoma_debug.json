@@ -1,0 +1,3297 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Oklahoma",
+  "homepage_url": "https://www.ou.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 3,
+    "candidates_probed": 3,
+    "contacts_extracted": 15,
+    "contacts_kept": 0,
+    "time_seconds": 31.768120527267456,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://ou.edu/resources/faculty-and-staff",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 3,
+      "pages_fetched": 3,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://selfservehc.ou.edu/psp/HCPRD/?cmd=login&languageCd=ENG&",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Peoplesoft",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/resources/faculty-and-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://www.ou.edu/provost/ir/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Institutional Research & Reporting",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "ABOUT",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/ouresearch",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "RESEARCH",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/president/messages-and-statements/2026/celebrating-our-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://ou.edu/president",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.8,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://ou.edu/about/university-leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "University Leadership",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://ou.edu/adminfinance.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Administration and Finance",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/president.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "OU Leadership",
+        "parent_url": "https://ou.edu/about",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/president",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Office of the President",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "http://www.ou.edu/regents/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Board of Regents",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/enrollment.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Enrollment Management",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/president/messages-and-statements.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Read All Messages & Statements",
+        "parent_url": "https://ou.edu/president",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/regents.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Board of Regents",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "ADMISSIONS",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/about/museums",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Museums",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/about/visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit OU",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://libraries.ou.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "University Libraries",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "ACADEMICS",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/accessandopportunity",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Access & Opportunity",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/campuslife",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "CAMPUS LIFE",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/resources/colleges-and-departments",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Colleges & Departments",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/resources/current-students",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Current Students",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/resources/families-and-visitors",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Families & Visitors",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/campussafety",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campus Safety",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://calendar.ou.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Calendar & Events",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/news",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "NEWS",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/news/galleries",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Photo Galleries",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": -0.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/president.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://ou.edu/president",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/president/messages-and-statements/2026/campus-master-plan",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://ou.edu/president",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/president/messages-and-statements/2026/merit-tier-enhancements-for-fy27",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "",
+        "parent_url": "https://ou.edu/president",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/admissions/contact/rep",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find Your Counselor",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.ou.edu/eoo.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Institutional Equity Office",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/eoo.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Office of Institutional Equity",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/legal.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Office of Legal Counsel",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/resources/colleges-and-departments.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Administrative Offices",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/web/resources_offices",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Resources and Offices",
+        "parent_url": "https://www.ou.edu",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://printing.ou.edu/printing-services/about",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Printing Services",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.ou.edu/provost/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Provost Office",
+        "parent_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/president",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Office of the President",
+        "parent_url": "https://ou.edu/president",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/provost.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Office of the Provost, Norman",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/admissions.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Admissions & Recruitment",
+        "parent_url": "https://ou.edu/about/university-leadership",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/admissions",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Admissions & Recruitment",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/admissions/apply.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "APPLY",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/admissions/virtual-resources",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Virtual Resources",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ou.edu/content/admissions/affordability/value-of-an-ou-degree.html",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Value of an OU Degree",
+        "parent_url": "https://ou.edu/about",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/admissions/apply",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Apply",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/admissions/sooner-stories",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Sooner Stories",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/admissions/visit",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Visit",
+        "parent_url": "https://ou.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.ou.edu/about/history",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "History",
+        "parent_url": "https://ou.edu/about",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.ou.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.ou.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.ou.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://ou.edu/resources/faculty-and-staff"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Legal Notices"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Legal Notices"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Legal Notices"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Legal Notices"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://ou.edu/about/university-leadership"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover André-Denis Wright Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Belinda Higgs Hyppolite Ed.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover David A Surratt Ed.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Gary Raskob Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Jeff Blahnik J.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Joseph Harroz Jr J.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover André-Denis Wright Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Belinda Higgs Hyppolite Ed.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover David A Surratt Ed.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Gary Raskob Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Jeff Blahnik J.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Joseph Harroz Jr J.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover André-Denis Wright Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Belinda Higgs Hyppolite Ed.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover David A Surratt Ed.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Gary Raskob Ph.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Jeff Blahnik J.D"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Joseph Harroz Jr J.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for André-Denis Wright Ph.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Belinda Higgs Hyppolite Ed.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for David A Surratt Ed.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Gary Raskob Ph.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Jeff Blahnik J.D"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Joseph Harroz Jr J.D"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://ou.edu/president"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Joseph Harroz Jr"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Legal Notices"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages with contact details for staff and leadership involved in international relations and global engagement roles.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://ou.edu/resources/faculty-and-staff",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Legal Notices"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Legal Notices"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Legal Notices"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Legal Notices"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://ou.edu/about/university-leadership",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "André-Denis Wright Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Belinda Higgs Hyppolite Ed.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "David A Surratt Ed.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Gary Raskob Ph.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Jeff Blahnik J.D"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Joseph Harroz Jr J.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "André-Denis Wright Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Belinda Higgs Hyppolite Ed.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "David A Surratt Ed.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Gary Raskob Ph.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Jeff Blahnik J.D"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Joseph Harroz Jr J.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "André-Denis Wright Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Belinda Higgs Hyppolite Ed.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "David A Surratt Ed.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Gary Raskob Ph.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Jeff Blahnik J.D"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Joseph Harroz Jr J.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "André-Denis Wright Ph.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Belinda Higgs Hyppolite Ed.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "David A Surratt Ed.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Gary Raskob Ph.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Jeff Blahnik J.D"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Joseph Harroz Jr J.D"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://ou.edu/president",
+          "page_type": "nav",
+          "expected_yield": 3.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Joseph Harroz Jr"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Legal Notices"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages with contact details for staff and leadership involved in international relations and global engagement roles.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only include pages that are directly relevant to outreach and partnerships.",
+        "ranked_pages": [
+          {
+            "url": "https://ou.edu/resources/faculty-and-staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://ou.edu/content/president/messages-and-statements/2026/celebrating-our-staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 7.8,
+            "page_type": "body"
+          },
+          {
+            "url": "https://ou.edu/about/university-leadership",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.15,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://ou.edu/president",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 3.15,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://ou.edu/resources/faculty-and-staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.ou.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ou.edu",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 1742,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 1742,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Legal Notices",
+            "role": "",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright\nResources and Offices\nOU Report It!",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Faculty and Staff OU Homepage Search OU The University of Oklahoma Skip Navigation Faculty and Staff Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events Museums Good to Know Office of the President University Leadership Colleges & Departments Access & Opportunity Campus Safety Faculty and Staff Offices Provost Office Academic Departments Administrative Offices Board of Regents Facilities Institutional Equity Office Institutional Research & Reporting Internal Audit The Office of Compliance OU Foundation Omsbud Tools & Resources Academic Calendar Canvas Bookstore ONE Fitness & Recreation Goddard Health Report It! University Libraries Maps Parking Printing Services Travel Reimbursement Personnel Resources Email Peoplesoft Alumni Association Human Resources Timesheets Payroll & Records University Development Benefits Enrollment Faculty & Staff Organizations Faculty Senate Staff Senate Technology Services Classroom Technology Information Technology IT Help ONE Software Training Research Services Carl Albert Center Geological Survey University Libraries Research at OU Robert M. Bird Health Sciences Library Sarkeys Energy Center The University of Oklahoma 660 Parrington Oval, Norman, OK 73019-0390 (405) 325-0311 Accessibility Sustainability HIPAA OU Job Search Policies Legal Notices Copyright Resources and Offices OU Report It! Updated 7/21/2025 by The University of Oklahoma : marcomm@ou.edu",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright\nResources and Offices\nOU Report It!",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "Legal Notices",
+            "email_normalized": "marcomm@ou.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "marcomm@ou.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "Legal Notices",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "marcomm@ou.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://ou.edu/resources/faculty-and-staff",
+            "page_context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "Legal Notices",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 10.45
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "dd2955565ce52754878548b9634fa301ffa9df70"
+      },
+      {
+        "url": "https://ou.edu/about/university-leadership",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.ou.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ou.edu",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 8,
+        "text_length": 4772,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4772,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Legal Notices",
+            "role": "",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright\nResources and Offices\nOU Report It!",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events Museums Good to Know Office of the President University Leadership Colleges & Departments Access & Opportunity Campus Safety University Leadership Oklahoma Regents for Higher Education University of Oklahoma Board of Regents Executive Officers Norman Campus Deans Health Campus Deans Tulsa Campus Deans Executive Officers Joseph Harroz Jr., J.D. President Office of the President André-Denis Wright, Ph.D. Senior Vice President and Provost, Norman Campus Office of the Provost, Norman Gary Raskob, Ph.D. Senior Vice President and Provost, Health Sciences Office of the Provost, Health Sciences Stewart Berkinshaw, M.Acc., C.P.A. Senior Vice President for Strategy and Finance Administration and Finance Armand Paliotta, J.D. Vice President and General Counsel Office of Legal Counsel Mackenzie Wilfong, J.D. Executive Director and Secretary of the Board of Regents Board of Regents Hollye Hunt, J.D. Vice President of Executive Affairs and Chief of Staff Guy L. Patton, M.A. President and CEO, OU Foundation OU Foundation Dorothy Anderson, M.Ed. Vice President for Human Resources and Chief Human Resources Officer Human Resources Jeff Blahnik, J.D. Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment Susan Bynum, J.D. Vice President, OU-Tulsa OU-Tulsa Joe Castiglione, M.Ed. Vice President for Intercollegiate Athletics Programs and Director of Athletics University Athletics Ian Dunn, M.D. Executive Dean, College of Medicine Chief Physician Executive, OU Health Marci Gracey, J.D. Associate Vice President and Institutional Equity Officer Office of Institutional Equity Brian Holderread, M.S.C.M. Vice President for Campus Operations Campus Operations Jennifer Hollingshead, M.B.A. Vice President for Marketing and Communications Marketing and Communications Matthew Hulver, Ph.D. Vice President for Research and Partnerships Research, Norman Research, Health Sciences Belinda Higgs Hyppolite, Ed.D. Vice President for Access and Opportunity Division of Access and Opportunity Jim W. Morrison, Ed.D. Chief Strategy Officer Office of the President Amy Noah, M.B.A. Vice President and Chief Advancement Officer OU Foundation Sanam Raza, MBA Chief Executive Officer, OU Education Services OU Education Services David A. Surratt, Ed.D. Vice President for Student Affairs and Dean of Students Student Affairs Brad Avery, C.P.A. Interim Chief Audit Executive Internal Audit ^ Back to Top Norman Campus Deans Denise Stephens, MLS University Libraries John Klier, Ph.D. Gallogly College of Engineering Anna Carpenter, J.D., LL.M. College of Law Randall S. Hewes, Ph.D. Graduate College Mary Margaret Holt, MFA Weitzenhoffer Family College of Fine Arts Stacy Reeder, Ph.D. Jeannine Rainbolt College of Education Laku Chidambaram, Ph.D. Michael F. Price College of Business Miloš Savić, Ph.D. College of Professional and Continuing Studies Bob Palmer, Ph.D. College of Atmospheric and Geographic Sciences Paul Gilmore, Ph.D. Honors College Andrea Miller, Ph.D. Gaylord College of Journalism and Mass Communication Michael R. Markham, Ph.D. Dodge Family College of Arts and Sciences John Antonio, Ph.D. Mewbourne College of Earth and Energy Hans E. Butzer, MArch Christopher C. Gibbs College of Architecture Jonathan Stalling, Ph.D. Interim Dean College of International Studies ^ Back to Top Health Campus Deans Melissa S. Medina, Ed.D. College of Pharmacy Ian Dunn, M.D. Executive Dean, College of Medicine Chief Physician Executive, OU Health Melissa Craft, Ph.D., APRN-CNS, AOCN, FCNS, FAAN Fran and Earl Ziegler College of Nursing Dale Bratzler, DO, MPH Hudson College of Public Health Jane Wilson, Ph.D. College of Allied Health Paul M. Mullasseril, D.D.S., M.S. College of Dentistry H. Anne Pereira, Ph.D. Graduate College Boyd D. Burns, D.O. Interim Dean School of Community Medicine ^ Back to Top Tulsa Deans Boyd D. Burns, D.O. Interim Dean School of Community Medicine ^ Back to Top *pending final approval of the OU Board of Regents The University of Oklahoma 660 Parrington Oval, Norman, OK 73019-0390 (405) 325-0311 Accessibility Sustainability HIPAA OU Job Search Policies Legal Notices Copyright Resources and Offices OU Report It! Updated 11/19/2025 by The University of Oklahoma : marcomm@ou.edu",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Harroz Jr., J.D.",
+            "role": "President",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz Jr., J.D.",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "André-Denis Wright, Ph.D.",
+            "role": "Senior Vice President and Provost, Norman Campus",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "André-Denis Wright, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Norman Campus",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Gary Raskob, Ph.D.",
+            "role": "Senior Vice President and Provost, Health Sciences",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gary Raskob, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Health Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Blahnik, J.D.",
+            "role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Blahnik, J.D.",
+            "raw_role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Belinda Higgs Hyppolite, Ed.D.",
+            "role": "Vice President for Access and Opportunity",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Belinda Higgs Hyppolite, Ed.D.",
+            "raw_role": "Vice President for Access and Opportunity",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David A. Surratt, Ed.D.",
+            "role": "Vice President for Student Affairs and Dean of Students",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David A. Surratt, Ed.D.",
+            "raw_role": "Vice President for Student Affairs and Dean of Students",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright\nResources and Offices\nOU Report It!",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Harroz Jr., J.D.",
+            "role": "President",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz Jr., J.D.",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "André-Denis Wright, Ph.D.",
+            "role": "Senior Vice President and Provost, Norman Campus",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "André-Denis Wright, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Norman Campus",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Gary Raskob, Ph.D.",
+            "role": "Senior Vice President and Provost, Health Sciences",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gary Raskob, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Health Sciences",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Blahnik, J.D.",
+            "role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Blahnik, J.D.",
+            "raw_role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Belinda Higgs Hyppolite, Ed.D.",
+            "role": "Vice President for Access and Opportunity",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Belinda Higgs Hyppolite, Ed.D.",
+            "raw_role": "Vice President for Access and Opportunity",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David A. Surratt, Ed.D.",
+            "role": "Vice President for Student Affairs and Dean of Students",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David A. Surratt, Ed.D.",
+            "raw_role": "Vice President for Student Affairs and Dean of Students",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "Legal Notices",
+            "email_normalized": "marcomm@ou.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Harroz Jr J.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz Jr., J.D.",
+            "raw_role": "President",
+            "clean_name": "Joseph Harroz Jr J.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "André-Denis Wright Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "André-Denis Wright, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Norman Campus",
+            "clean_name": "André-Denis Wright Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Gary Raskob Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gary Raskob, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Health Sciences",
+            "clean_name": "Gary Raskob Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jeff Blahnik J.D",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Blahnik, J.D.",
+            "raw_role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "clean_name": "Jeff Blahnik J.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Belinda Higgs Hyppolite Ed.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Belinda Higgs Hyppolite, Ed.D.",
+            "raw_role": "Vice President for Access and Opportunity",
+            "clean_name": "Belinda Higgs Hyppolite Ed.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David A Surratt Ed.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David A. Surratt, Ed.D.",
+            "raw_role": "Vice President for Student Affairs and Dean of Students",
+            "clean_name": "David A Surratt Ed.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "marcomm@ou.edu",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "Legal Notices",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Joseph Harroz Jr J.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz Jr., J.D.",
+            "raw_role": "President",
+            "clean_name": "Joseph Harroz Jr J.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "André-Denis Wright Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "André-Denis Wright, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Norman Campus",
+            "clean_name": "André-Denis Wright Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Gary Raskob Ph.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Gary Raskob, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Health Sciences",
+            "clean_name": "Gary Raskob Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Jeff Blahnik J.D",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jeff Blahnik, J.D.",
+            "raw_role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "clean_name": "Jeff Blahnik J.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Belinda Higgs Hyppolite Ed.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Belinda Higgs Hyppolite, Ed.D.",
+            "raw_role": "Vice President for Access and Opportunity",
+            "clean_name": "Belinda Higgs Hyppolite Ed.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "David A Surratt Ed.D",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David A. Surratt, Ed.D.",
+            "raw_role": "Vice President for Student Affairs and Dean of Students",
+            "clean_name": "David A Surratt Ed.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 6
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 7,
+        "clean_candidate_count": 7,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 7,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "marcomm@ou.edu",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "",
+            "email_normalized": "marcomm@ou.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "raw_name": "Legal Notices",
+            "raw_role": "admissions",
+            "clean_name": "Legal Notices",
+            "status": "pending",
+            "goal": "resolve_email",
+            "next_action": "search_people_pages",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 4,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 0,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Joseph Harroz Jr J.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Joseph Harroz Jr., J.D.",
+            "raw_role": "President",
+            "clean_name": "Joseph Harroz Jr J.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "André-Denis Wright Ph.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "André-Denis Wright, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Norman Campus",
+            "clean_name": "André-Denis Wright Ph.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Gary Raskob Ph.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Gary Raskob, Ph.D.",
+            "raw_role": "Senior Vice President and Provost, Health Sciences",
+            "clean_name": "Gary Raskob Ph.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Jeff Blahnik J.D",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Jeff Blahnik, J.D.",
+            "raw_role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+            "clean_name": "Jeff Blahnik J.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Belinda Higgs Hyppolite Ed.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Belinda Higgs Hyppolite, Ed.D.",
+            "raw_role": "Vice President for Access and Opportunity",
+            "clean_name": "Belinda Higgs Hyppolite Ed.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "David A Surratt Ed.D",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/about/university-leadership",
+            "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "David A. Surratt, Ed.D.",
+            "raw_role": "Vice President for Student Affairs and Dean of Students",
+            "clean_name": "David A Surratt Ed.D",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "d806a524671e8f6e6a80baa6cc89f2702e6d1794"
+      },
+      {
+        "url": "https://ou.edu/president",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.ou.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.ou.edu",
+        "page_family": "governance",
+        "expected_yield": 3.15,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 2867,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 2867,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "Legal Notices",
+            "role": "",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright\nResources and Offices\nOU Report It!",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "president",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "president",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Office of the President OU Homepage Search OU The University of Oklahoma Skip Navigation Office of the President Together, as a university community, we endeavor to become worthy of our past – the tremendous legacy we have inherited – and to deliver on our promise of changing lives for generations to come. – President Joseph Harroz, Jr. Messages and Statements A Message from President Harroz – Celebrating Our Staff April 20, 2026 At the University of Oklahoma, our momentum is driven by our people – and our staff are essential in our success. As we enter the final stretch of the spring semester, I want to recognize the commitment, care, and professionalism you bring to your work each day. You are central to every success we celebrate – from the student experience to the strength of our academic and research missions. Simply put, because of you, We Change Lives. Read more A Message from President Harroz – Celebrating Our Staff A Message from President Harroz – Campus Master Plan March 11, 2026 This spring, we will launch a comprehensive Campus Master Planning process for our Norman campus – a long-range framework that will guide how our physical environment develops over the next decade and beyond. This effort is not about a single building or isolated project. Rather, it is about establishing a cohesive vision that aligns future investments with our academic priorities, fosters student success, and promotes responsible, sustainable growth. This planning process will set direction – not final blueprints – providing clarity so that future decisions are deliberate and coordinated. Read more A Message from President Harroz – Campus Master Plan A Message from President Harroz – Merit Tier Enhancements for FY27 February 05, 2026 At the University of Oklahoma, we strive to recognize and reward excellence in ways that are fair, transparent, and motivating. I am writing to share an important update to the university’s merit tier structure that reflects our continued commitment to valuing high performance across our institution. Read more A Message from President Harroz – Merit Tier Enhancements for FY27 Read All Messages & Statements Lead On, University: The Next Phase Leading the Next Phase of Transformation Discover how “Lead On, University” is shaping the future of OU. Our refreshed Strategic Plan builds on our momentum while embracing transformative new aspirations that position us for even greater success and impact. Strategic Plan Refresh OU President Instagram View this profile on Instagram OU President (@ OU President Instagram ) • Instagram photos and videos Office of the President 660 Parrington Oval, Room 110 Norman, OK 73019 Accessibility Sustainability HIPAA OU Job Search Policies Legal Notices Copyright Resources and Offices OU Report It! Updated 4/20/2026 by Office of the President : officeofthepresident@ou.edu",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Harroz, Jr.",
+            "role": "President",
+            "email": "",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz, Jr.",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Office of the President",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Office of the President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "president",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "president",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright\nResources and Offices\nOU Report It!",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Harroz, Jr.",
+            "role": "President",
+            "email": "",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz, Jr.",
+            "raw_role": "President",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "president",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "president",
+            "clean_name": "Legal Notices",
+            "email_normalized": "officeofthepresident@ou.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joseph Harroz Jr",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz, Jr.",
+            "raw_role": "President",
+            "clean_name": "Joseph Harroz Jr",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "office_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "president",
+            "clean_name": "",
+            "email_normalized": "officeofthepresident@ou.edu",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "Legal Notices",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "president",
+            "clean_name": "Legal Notices",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Joseph Harroz Jr",
+            "role": "president",
+            "email": "",
+            "page_url": "https://ou.edu/president",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joseph Harroz, Jr.",
+            "raw_role": "President",
+            "clean_name": "Joseph Harroz Jr",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 1,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "",
+            "role": "president",
+            "email": "officeofthepresident@ou.edu",
+            "page_url": "https://ou.edu/president",
+            "score": 0,
+            "reason": "irrelevant office inbox",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": true,
+            "candidate_type": "office_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Legal Notices",
+            "raw_role": "president",
+            "clean_name": "",
+            "email_normalized": "officeofthepresident@ou.edu"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Legal Notices",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/president",
+            "page_context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "context_sanitized",
+              "generic_inbox"
+            ],
+            "raw_name": "Legal Notices",
+            "raw_role": "president",
+            "clean_name": "Legal Notices",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 3.15
+          },
+          {
+            "name": "Joseph Harroz Jr",
+            "role": "president",
+            "country": "US",
+            "page_url": "https://ou.edu/president",
+            "page_context": "Office of the President OU Homepage Search OU The University of Oklahoma Skip Navigation Office of the President Together, as a university community, we endeavor to become worthy of our past – the tremendous legacy we have inherited – and to deliver on our promise of changing lives for generations to come. – President Joseph Harroz, Jr. Messages and Statements A Message from President Harroz – Celebrating Our Staff April 20, 2026 At the University of Oklahoma, our momentum is driven by our",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Joseph Harroz, Jr.",
+            "raw_role": "President",
+            "clean_name": "Joseph Harroz Jr",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 3.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "175da980239d8e6a85e29f1ce3daa41423c5a6bf"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Legal Notices",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://ou.edu/resources/faculty-and-staff",
+        "page_context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "raw_name": "Legal Notices",
+        "raw_role": "admissions",
+        "clean_name": "Legal Notices",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 10.45
+      },
+      {
+        "name": "Joseph Harroz Jr J.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Joseph Harroz Jr., J.D.",
+        "raw_role": "President",
+        "clean_name": "Joseph Harroz Jr J.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "André-Denis Wright Ph.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "André-Denis Wright, Ph.D.",
+        "raw_role": "Senior Vice President and Provost, Norman Campus",
+        "clean_name": "André-Denis Wright Ph.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Gary Raskob Ph.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Gary Raskob, Ph.D.",
+        "raw_role": "Senior Vice President and Provost, Health Sciences",
+        "clean_name": "Gary Raskob Ph.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Jeff Blahnik J.D",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Jeff Blahnik, J.D.",
+        "raw_role": "Vice President for the Division of Enrollment Management and Executive Director of the Office of Admissions & Recruitment",
+        "clean_name": "Jeff Blahnik J.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Belinda Higgs Hyppolite Ed.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Belinda Higgs Hyppolite, Ed.D.",
+        "raw_role": "Vice President for Access and Opportunity",
+        "clean_name": "Belinda Higgs Hyppolite Ed.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "David A Surratt Ed.D",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "page_context": "University Leadership OU Homepage Search OU The University of Oklahoma Skip Navigation University Leadership Search: search Toggle navigation ABOUT ADMISSIONS ACADEMICS CAMPUS LIFE RESEARCH NEWS ATHLETICS There's Only One About OU Admissions & Aid Academics Campus Life Research News Athletics Resources For Current Students Prospective Students Families & Visitors Faculty & Staff Alumni & Friends The Big Picture Visit OU Campus Map (pdf) University Libraries Photo Galleries Calendar & Events",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "David A. Surratt, Ed.D.",
+        "raw_role": "Vice President for Student Affairs and Dean of Students",
+        "clean_name": "David A Surratt Ed.D",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Legal Notices",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/president",
+        "page_context": "Accessibility\nSustainability\nHIPAA\nPolicies\nLegal Notices\nCopyright",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "context_sanitized",
+          "generic_inbox"
+        ],
+        "raw_name": "Legal Notices",
+        "raw_role": "president",
+        "clean_name": "Legal Notices",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 3.15
+      },
+      {
+        "name": "Joseph Harroz Jr",
+        "role": "president",
+        "country": "US",
+        "page_url": "https://ou.edu/president",
+        "page_context": "Office of the President OU Homepage Search OU The University of Oklahoma Skip Navigation Office of the President Together, as a university community, we endeavor to become worthy of our past – the tremendous legacy we have inherited – and to deliver on our promise of changing lives for generations to come. – President Joseph Harroz, Jr. Messages and Statements A Message from President Harroz – Celebrating Our Staff April 20, 2026 At the University of Oklahoma, our momentum is driven by our",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Joseph Harroz, Jr.",
+        "raw_role": "President",
+        "clean_name": "Joseph Harroz Jr",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 3.15
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "",
+        "role": "admissions",
+        "email": "marcomm@ou.edu",
+        "page_url": "https://ou.edu/resources/faculty-and-staff",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Legal Notices",
+        "raw_role": "admissions",
+        "clean_name": "",
+        "email_normalized": "marcomm@ou.edu"
+      },
+      {
+        "name": "",
+        "role": "admissions",
+        "email": "marcomm@ou.edu",
+        "page_url": "https://ou.edu/about/university-leadership",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex"
+        ],
+        "cleanup_flags": [
+          "context_sanitized"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Legal Notices",
+        "raw_role": "admissions",
+        "clean_name": "",
+        "email_normalized": "marcomm@ou.edu"
+      },
+      {
+        "name": "",
+        "role": "president",
+        "email": "officeofthepresident@ou.edu",
+        "page_url": "https://ou.edu/president",
+        "score": 0,
+        "reason": "irrelevant office inbox",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": true,
+        "candidate_type": "office_contact",
+        "source_strategies": [
+          "mailto_explicit",
+          "visible_regex",
+          "llm_structured"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "generic_inbox"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Legal Notices",
+        "raw_role": "president",
+        "clean_name": "",
+        "email_normalized": "officeofthepresident@ou.edu"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

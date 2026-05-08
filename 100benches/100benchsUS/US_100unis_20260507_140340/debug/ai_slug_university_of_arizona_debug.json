@@ -1,0 +1,1324 @@
+{
+  "method": "ai_slug",
+  "university": "University of Arizona",
+  "homepage_url": "http://www.arizona.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 244,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 5,
+    "contacts_extracted": 22,
+    "contacts_kept": 0,
+    "time_seconds": 37.14169979095459,
+    "tokens_in": 28174,
+    "tokens_out": 8000,
+    "cost_dollars": 0.036104399999999995,
+    "best_url": "",
+    "source_breakdown": {
+      "mailto_explicit": 0,
+      "visible_regex": 0,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 22
+    }
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 189,
+      "generated_slug_only": 244,
+      "real_link_only": 173,
+      "hybrid": 303
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 50,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "http://www.arizona.edu/faculty-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://www.arizona.edu/faculty-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.arizona.edu/university-arizona-land-acknowledgment",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Awards & Honors",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://www.arizona.edu/faculty-awards-honors",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Awards & Honors",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://www.arizona.edu/university-arizona-land-acknowledgment",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "the University of Arizona is on the land and territories of Indigenous peoples",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://www.optics.arizona.edu/research/faculty/profile/richard-l-shoemaker",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Richard Shoemaker",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://www.optics.arizona.edu/research/faculty/profile/supapan-seraphin",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Supapan Seraphin",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://research.arizona.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Research & Partnerships",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://directory.arizona.edu/all",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "A-Z Directory",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://www.arizona.edu/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Contact Us",
+        "parent_url": "https://www.arizona.edu/university-arizona-land-acknowledgment",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "http://www.arizona.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://www.as.arizona.edu/people/faculty/rob-kennicutt",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Robert C. Kennicutt",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://facultygovernance.arizona.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty Governance",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://directory.arizona.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Contact colleges, individuals, departments and more.",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://w3.physics.arizona.edu/people/bira-van-kolck",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Ubirajara van Kolck,",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://w3.physics.arizona.edu/people/bruce-barrett",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Bruce Barrett",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://w3.physics.arizona.edu/people/eduardo-rozo",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Eduardo Rozo",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://facultyaffairs.arizona.edu/about-promotion",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "Promotion",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://facultyaffairs.arizona.edu/about-reviews",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.45,
+        "anchor_text": "Reviews",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://facultyaffairs.arizona.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Support and Resources",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://hr.arizona.edu/compensation/staff-compensation-program",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Compensation",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://policy.arizona.edu/policy-categories/academic-affairs-and-faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Academic Affairs and Faculty Policies",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://policy.arizona.edu/university-handbook-appointed-personnel",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Handbook for Appointed Personnel",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://appliedmath.arizona.edu/person/alain-goriely",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Alain Goriely",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://liverman.faculty.arizona.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Diana Liverman",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://profiles.arizona.edu/person/batesr",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Robert Bates",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://profiles.arizona.edu/person/crose",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Carol Marguerite Rose",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://profiles.arizona.edu/person/dfz",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Dennis Zaritsky",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://profiles.arizona.edu/person/dlichten",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Dennis Lichtenberger",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://profiles.arizona.edu/person/grieke",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "George Rieke",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://profiles.arizona.edu/person/jannas",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Julia E. Annas",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://profiles.arizona.edu/person/jeisner",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Joshua Eisner",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://profiles.arizona.edu/person/lehrer",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Keith E. Lehrer",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://profiles.arizona.edu/person/masel",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Joanna Masel",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://profiles.arizona.edu/person/mrieke",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Marcia J. Rieke",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://profiles.arizona.edu/person/pstrittm",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Peter Strittmatter",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://profiles.arizona.edu/person/xfan",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Xiaohui Fan",
+        "parent_url": "http://www.arizona.edu/faculty-awards-honors",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://international.arizona.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "International Engagement",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://international.arizona.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "International Engagement",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://international-admissions.arizona.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "International",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://president.arizona.edu/leadership-governance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "governance",
+        "heuristic_score": 8.35,
+        "anchor_text": "Leadership",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://president.arizona.edu/delivering-on-our-promise",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Strategic Imperatives",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "http://www.arizona.edu/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Contact Us",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://hr.arizona.edu/employees/new-employee-onboarding",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "New Employee Onboarding",
+        "parent_url": "http://www.arizona.edu/faculty-staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "http://www.arizona.edu/admissions/cape-certifications",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Professional Education & Certification",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "http://www.arizona.edu/admissions/cost",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Tuition & Aid",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "http://www.arizona.edu/admissions/counselors",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Counselors",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "http://www.arizona.edu/admissions/counselors/announcements",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Announcements",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "http://www.arizona.edu/admissions/espanol/familias",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Padres y Familias",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "http://www.arizona.edu/admissions/espanol/financiar-mis-estudios",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admisiones y Pago de mis Estudios",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "http://www.arizona.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "http://www.arizona.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "http://www.arizona.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "http://www.arizona.edu/en/faculty-awards-honors/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "http://www.arizona.edu/en/faculty-staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "http://www.arizona.edu/faculty-awards-honors/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "http://www.arizona.edu/faculty-staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "http://www.arizona.edu/en/faculty-awards-honors/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "http://www.arizona.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "http://global.arizona.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "http://global.arizona.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 1,
+      "best_url": "",
+      "best_url_kept": 0,
+      "source_breakdown": {
+        "mailto_explicit": 0,
+        "visible_regex": 0,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 22
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "http://www.arizona.edu/faculty-staff",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 3,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 193693,
+        "visible_text_length": 15568,
+        "embedded_text_length": 1165,
+        "embedded_document_count": 4,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "02fb921d0e69ab7bca3f57497ab7a3d03a528f6e",
+        "content_signatures": [
+          "02fb921d0e69ab7bca3f57497ab7a3d03a528f6e",
+          "47a3ced04434aaf334296cd12034b5269f5de7e2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.arizona.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Tommy Lloyd",
+            "role": "head men's basketball coach",
+            "email": "",
+            "page_url": "http://www.arizona.edu/athletics-recreation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tommy Lloyd",
+            "raw_role": "head men's basketball coach",
+            "clean_name": "Tommy Lloyd",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.arizona.edu/faculty-staff",
+        "fetch_succeeded": true,
+        "pages_fetched": 3,
+        "raw_contacts": 5,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 316049,
+        "visible_text_length": 21543,
+        "embedded_text_length": 1246,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "02fb921d0e69ab7bca3f57497ab7a3d03a528f6e",
+        "content_signatures": [
+          "02fb921d0e69ab7bca3f57497ab7a3d03a528f6e",
+          "cb1132390716ebfaf2a31f602f9c3d328d73f767",
+          "ac1323c3a490fce6a01d56de29f2bb0050aa7675"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.arizona.edu/university-arizona-land-acknowledgment",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 5
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.arizona.edu/faculty-awards-honors",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 3,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 293294,
+        "visible_text_length": 45250,
+        "embedded_text_length": 1063,
+        "embedded_document_count": 4,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "577ba152d6831765951d9cc5d27421cd6795af77",
+        "content_signatures": [
+          "577ba152d6831765951d9cc5d27421cd6795af77",
+          "47a3ced04434aaf334296cd12034b5269f5de7e2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.arizona.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Tommy Lloyd",
+            "role": "head men's basketball coach",
+            "email": "",
+            "page_url": "http://www.arizona.edu/athletics-recreation",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tommy Lloyd",
+            "raw_role": "head men's basketball coach",
+            "clean_name": "Tommy Lloyd",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.arizona.edu/faculty-awards-honors",
+        "fetch_succeeded": true,
+        "pages_fetched": 3,
+        "raw_contacts": 7,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 3,
+        "page_length": 415650,
+        "visible_text_length": 51225,
+        "embedded_text_length": 1144,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "577ba152d6831765951d9cc5d27421cd6795af77",
+        "content_signatures": [
+          "577ba152d6831765951d9cc5d27421cd6795af77",
+          "cb1132390716ebfaf2a31f602f9c3d328d73f767",
+          "ac1323c3a490fce6a01d56de29f2bb0050aa7675"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|http://www.arizona.edu/faculty-staff",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 7
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Liest Folks",
+            "role": "AAAS Fellow",
+            "email": "",
+            "page_url": "https://www.arizona.edu/faculty-awards-honors",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liest Folks",
+            "raw_role": "AAAS Fellow",
+            "clean_name": "Liest Folks",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Armin Sorooshian",
+            "role": "AAAS Fellow",
+            "email": "",
+            "page_url": "https://www.arizona.edu/faculty-awards-honors",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Armin Sorooshian",
+            "raw_role": "AAAS Fellow",
+            "clean_name": "Armin Sorooshian",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jil Tardiff",
+            "role": "AAAS Fellow",
+            "email": "",
+            "page_url": "https://www.arizona.edu/faculty-awards-honors",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jil Tardiff",
+            "raw_role": "AAAS Fellow",
+            "clean_name": "Jil Tardiff",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.arizona.edu/university-arizona-land-acknowledgment",
+        "fetch_succeeded": true,
+        "pages_fetched": 3,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 1,
+        "page_length": 303944,
+        "visible_text_length": 25676,
+        "embedded_text_length": 1007,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "db6ddf96c42c545dc80d51ac22ca39483531b482",
+        "content_signatures": [
+          "db6ddf96c42c545dc80d51ac22ca39483531b482",
+          "cb1132390716ebfaf2a31f602f9c3d328d73f767",
+          "ac1323c3a490fce6a01d56de29f2bb0050aa7675"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|http://www.arizona.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Levi Esquerra",
+            "role": "president",
+            "email": "",
+            "page_url": "https://www.arizona.edu/university-arizona-land-acknowledgment",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Levi Esquerra",
+            "raw_role": "Senior Vice President Native American Advancement & Tribal Engagement",
+            "clean_name": "Levi Esquerra",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://www.optics.arizona.edu/research/faculty/profile/richard-l-shoemaker",
+        "fetch_succeeded": false,
+        "pages_fetched": 0,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 0,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "content_signature": "",
+        "content_signatures": [],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|http://www.arizona.edu/faculty-awards-honors",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}

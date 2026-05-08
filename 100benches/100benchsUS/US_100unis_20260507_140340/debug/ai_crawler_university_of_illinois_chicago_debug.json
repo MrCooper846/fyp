@@ -1,0 +1,3780 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Illinois Chicago",
+  "homepage_url": "https://www.uic.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 4,
+    "candidates_probed": 3,
+    "contacts_extracted": 19,
+    "contacts_kept": 0,
+    "time_seconds": 49.27872633934021,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "http://uic.edu/apps/find-people/search",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 4,
+      "pages_fetched": 4,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "http://uic.edu/apps/find-people/search",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Directory",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://www.uic.edu/apps/departments-az/search",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Directory",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Directory",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://today.uic.edu/resources/faculty-and-staff-resources/?utm_source=footer",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Faculty and Staff",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/life-at-uic/faculty-and-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Faculty and Staff",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://news.uic.edu/social-media-directory",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "more",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/research/research-impact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research Impact",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/research/research-strengths",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Research Strengths",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/research/resources-facilities",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Resources & Facilities",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/apps/departments-az/search",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Directory",
+        "parent_url": "https://www.uic.edu/about/contact-us/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.uic.edu/about/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "leadership",
+        "parent_url": "https://www.uic.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://oge.uic.edu/?utm_source=footer",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "International",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Contact Us",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "contact-us",
+        "parent_url": "https://www.uic.edu/about/contact-us/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/contact-us/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact Us",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://innovation.uic.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+        "parent_url": "https://www.uic.edu/about/leadership/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.uic.edu/about/senior-leadership/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "More leadership",
+        "parent_url": "https://www.uic.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://provost.uic.edu",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Provost and Vice Chancellor for Academic Affairs",
+        "parent_url": "https://www.uic.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://pspm.uic.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Planning, Sustainability and Project Management A bold vision to create sustainable environments and change the physical infrastructure of the campus",
+        "parent_url": "https://www.uic.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/admissions-aid",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Admissions & Aid",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/admissions-aid/paying-for-college",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Paying for College",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/admissions-aid/visit-campus",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Visit Campus",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/admissions-aid/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions & Aid",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/admissions-aid/paying-for-college/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Paying for College",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/admissions-aid/visit-campus/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit Campus",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/job-opportunities",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Job Opportunities",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/job-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Job Opportunities",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/acerca",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Acerca de la UIC (en español)",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/history",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "History",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/public-media-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Public & Media Resources",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/about/visit-directions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Visit & Directions",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "about",
+        "parent_url": "https://www.uic.edu/about/leadership/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/acerca/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Acerca de la UIC (en español)",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/history/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "History",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/public-media-resources/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Public and Media Resources",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.uic.edu/about/visit-directions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit and Directions",
+        "parent_url": "https://www.uic.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://library.uic.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Library",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://maps.uic.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Map",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "University of Illinois Chicago",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/academics",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academics",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/academics/colleges-schools",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Colleges & Schools",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/academics/programs-of-study",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Programs of Study",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/alumni",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/alumni/connect",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Connect",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://uic.edu/alumni/engage",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Engage",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uic.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.uic.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.uic.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://uic.edu/apps/find-people/search"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www.uic.edu/apps/departments-az/search"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://uic.edu/life-at-uic/faculty-and-staff"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://uic.edu/about/leadership"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Chandra Harris-McCray"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Charu Thakral"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Joanna Groden"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John Coronado"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Karen Colley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Marie Lynn Miranda"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Matthew Fajack"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Michael Ginsburg"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Robert Barish"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Thomas Royston"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tom Wamsley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Chandra Harris-McCray"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Charu Thakral"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Joanna Groden"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John Coronado"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Karen Colley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Marie Lynn Miranda"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Matthew Fajack"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Michael Ginsburg"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Robert Barish"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Thomas Royston"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Tom Wamsley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Chandra Harris-McCray"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Charu Thakral"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Joanna Groden"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover John Coronado"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Karen Colley"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Marie Lynn Miranda"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Matthew Fajack"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize staff and directory pages to maximize outreach-relevant contacts.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "http://uic.edu/apps/find-people/search",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "http://www.uic.edu/apps/departments-az/search",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "http://uic.edu/life-at-uic/faculty-and-staff",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "http://uic.edu/about/leadership",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Chandra Harris-McCray"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Charu Thakral"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Joanna Groden"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John Coronado"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Karen Colley"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Marie Lynn Miranda"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Matthew Fajack"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Michael Ginsburg"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Robert Barish"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Thomas Royston"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tom Wamsley"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Chandra Harris-McCray"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Charu Thakral"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Joanna Groden"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John Coronado"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Karen Colley"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Marie Lynn Miranda"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Matthew Fajack"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Michael Ginsburg"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Robert Barish"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Thomas Royston"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Tom Wamsley"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Chandra Harris-McCray"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Charu Thakral"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Joanna Groden"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "John Coronado"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Karen Colley"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Marie Lynn Miranda"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Matthew Fajack"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize staff and directory pages to maximize outreach-relevant contacts.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Limited to the strongest candidate pages.",
+        "ranked_pages": [
+          {
+            "url": "http://uic.edu/life-at-uic/faculty-and-staff",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://uic.edu/apps/find-people/search",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://www.uic.edu/apps/departments-az/search",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "http://uic.edu/about/leadership",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.15,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "http://uic.edu/apps/find-people/search",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 1949,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1967,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Admissions Office",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Admissions Office",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "admissions",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/apps/find-people/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "18a7d4b209784f7bd17dc811099e101bca3f4e45"
+      },
+      {
+        "url": "http://www.uic.edu/apps/departments-az/search",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 1946,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1964,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions Office",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions Office",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "http://www.uic.edu/apps/departments-az/search",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 4,
+        "clean_candidate_count": 4,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "78dd6ccd1d23f839aef368aa3a01dc5db04b8696"
+      },
+      {
+        "url": "http://uic.edu/life-at-uic/faculty-and-staff",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "http://uic.edu/about/leadership",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "shell_context_key": "real_link_multihop|first_hop_nav|http://uic.edu/apps/departments-az/search/?utm_source=footer",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 11,
+        "text_length": 6207,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 6171,
+        "embedded_text_length": 36,
+        "embedded_document_count": 1,
+        "raw_evidence": [
+          {
+            "name": "Marie Lynn Miranda",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marie Lynn Miranda",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Karen Colley",
+            "role": "Provost and Vice Chancellor for Academic Affairs",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karen Colley",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Robert Barish",
+            "role": "Vice Chancellor for Health Affairs",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robert Barish",
+            "raw_role": "Vice Chancellor for Health Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Coronado",
+            "role": "Vice Chancellor for Administrative Services",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Coronado",
+            "raw_role": "Vice Chancellor for Administrative Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tom Wamsley",
+            "role": "Vice Chancellor for Advancement",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Wamsley",
+            "raw_role": "Vice Chancellor for Advancement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Matthew Fajack",
+            "role": "Vice Chancellor for Finance",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew Fajack",
+            "raw_role": "Vice Chancellor for Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Charu Thakral",
+            "role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Charu Thakral",
+            "raw_role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Thomas Royston",
+            "role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Thomas Royston",
+            "raw_role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joanna Groden",
+            "role": "Vice Chancellor for Research",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joanna Groden",
+            "raw_role": "Vice Chancellor for Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chandra Harris-McCray",
+            "role": "Vice Chancellor for Strategic Marketing and Communications",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chandra Harris-McCray",
+            "raw_role": "Vice Chancellor for Strategic Marketing and Communications",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Ginsburg",
+            "role": "Senior Advisor to the Chancellor for Student Affairs",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Ginsburg",
+            "raw_role": "Senior Advisor to the Chancellor for Student Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Marie Lynn Miranda",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marie Lynn Miranda",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Karen Colley",
+            "role": "Provost and Vice Chancellor for Academic Affairs",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karen Colley",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Robert Barish",
+            "role": "Vice Chancellor for Health Affairs",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robert Barish",
+            "raw_role": "Vice Chancellor for Health Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Coronado",
+            "role": "Vice Chancellor for Administrative Services",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Coronado",
+            "raw_role": "Vice Chancellor for Administrative Services",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tom Wamsley",
+            "role": "Vice Chancellor for Advancement",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Wamsley",
+            "raw_role": "Vice Chancellor for Advancement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Matthew Fajack",
+            "role": "Vice Chancellor for Finance",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew Fajack",
+            "raw_role": "Vice Chancellor for Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Charu Thakral",
+            "role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Charu Thakral",
+            "raw_role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Thomas Royston",
+            "role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Thomas Royston",
+            "raw_role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joanna Groden",
+            "role": "Vice Chancellor for Research",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joanna Groden",
+            "raw_role": "Vice Chancellor for Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chandra Harris-McCray",
+            "role": "Vice Chancellor for Strategic Marketing and Communications",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chandra Harris-McCray",
+            "raw_role": "Vice Chancellor for Strategic Marketing and Communications",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Ginsburg",
+            "role": "Senior Advisor to the Chancellor for Student Affairs",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Ginsburg",
+            "raw_role": "Senior Advisor to the Chancellor for Student Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Marie Lynn Miranda",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marie Lynn Miranda",
+            "raw_role": "Chancellor",
+            "clean_name": "Marie Lynn Miranda",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Karen Colley",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karen Colley",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "Karen Colley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Robert Barish",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robert Barish",
+            "raw_role": "Vice Chancellor for Health Affairs",
+            "clean_name": "Robert Barish",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Coronado",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Coronado",
+            "raw_role": "Vice Chancellor for Administrative Services",
+            "clean_name": "John Coronado",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tom Wamsley",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Wamsley",
+            "raw_role": "Vice Chancellor for Advancement",
+            "clean_name": "Tom Wamsley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Matthew Fajack",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew Fajack",
+            "raw_role": "Vice Chancellor for Finance",
+            "clean_name": "Matthew Fajack",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Charu Thakral",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Charu Thakral",
+            "raw_role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "clean_name": "Charu Thakral",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Thomas Royston",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Thomas Royston",
+            "raw_role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "clean_name": "Thomas Royston",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joanna Groden",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joanna Groden",
+            "raw_role": "Vice Chancellor for Research",
+            "clean_name": "Joanna Groden",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chandra Harris-McCray",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chandra Harris-McCray",
+            "raw_role": "Vice Chancellor for Strategic Marketing and Communications",
+            "clean_name": "Chandra Harris-McCray",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Michael Ginsburg",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Ginsburg",
+            "raw_role": "Senior Advisor to the Chancellor for Student Affairs",
+            "clean_name": "Michael Ginsburg",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Marie Lynn Miranda",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marie Lynn Miranda",
+            "raw_role": "Chancellor",
+            "clean_name": "Marie Lynn Miranda",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Karen Colley",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karen Colley",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "Karen Colley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Robert Barish",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robert Barish",
+            "raw_role": "Vice Chancellor for Health Affairs",
+            "clean_name": "Robert Barish",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "John Coronado",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Coronado",
+            "raw_role": "Vice Chancellor for Administrative Services",
+            "clean_name": "John Coronado",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Tom Wamsley",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Wamsley",
+            "raw_role": "Vice Chancellor for Advancement",
+            "clean_name": "Tom Wamsley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Matthew Fajack",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Matthew Fajack",
+            "raw_role": "Vice Chancellor for Finance",
+            "clean_name": "Matthew Fajack",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Charu Thakral",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Charu Thakral",
+            "raw_role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "clean_name": "Charu Thakral",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Thomas Royston",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Thomas Royston",
+            "raw_role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "clean_name": "Thomas Royston",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Joanna Groden",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joanna Groden",
+            "raw_role": "Vice Chancellor for Research",
+            "clean_name": "Joanna Groden",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Chandra Harris-McCray",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chandra Harris-McCray",
+            "raw_role": "Vice Chancellor for Strategic Marketing and Communications",
+            "clean_name": "Chandra Harris-McCray",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Michael Ginsburg",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "http://uic.edu/about/leadership",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Michael Ginsburg",
+            "raw_role": "Senior Advisor to the Chancellor for Student Affairs",
+            "clean_name": "Michael Ginsburg",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 11,
+        "clean_candidate_count": 11,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 11,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Marie Lynn Miranda",
+            "role": "chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Marie Lynn Miranda",
+            "raw_role": "Chancellor",
+            "clean_name": "Marie Lynn Miranda",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Karen Colley",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Karen Colley",
+            "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+            "clean_name": "Karen Colley",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Robert Barish",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Robert Barish",
+            "raw_role": "Vice Chancellor for Health Affairs",
+            "clean_name": "Robert Barish",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "John Coronado",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "John Coronado",
+            "raw_role": "Vice Chancellor for Administrative Services",
+            "clean_name": "John Coronado",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Tom Wamsley",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Wamsley",
+            "raw_role": "Vice Chancellor for Advancement",
+            "clean_name": "Tom Wamsley",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Matthew Fajack",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Matthew Fajack",
+            "raw_role": "Vice Chancellor for Finance",
+            "clean_name": "Matthew Fajack",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Charu Thakral",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Charu Thakral",
+            "raw_role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+            "clean_name": "Charu Thakral",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Thomas Royston",
+            "role": "international partnerships",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Thomas Royston",
+            "raw_role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+            "clean_name": "Thomas Royston",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Joanna Groden",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Joanna Groden",
+            "raw_role": "Vice Chancellor for Research",
+            "clean_name": "Joanna Groden",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Chandra Harris-McCray",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Chandra Harris-McCray",
+            "raw_role": "Vice Chancellor for Strategic Marketing and Communications",
+            "clean_name": "Chandra Harris-McCray",
+            "status": "web_exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 1,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Michael Ginsburg",
+            "role": "chancellor",
+            "country": "US",
+            "page_url": "http://uic.edu/about/leadership",
+            "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Michael Ginsburg",
+            "raw_role": "Senior Advisor to the Chancellor for Student Affairs",
+            "clean_name": "Michael Ginsburg",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "e945ef85f0f31c63639e3507b9019a6ac528840b"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Marie Lynn Miranda",
+        "role": "chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Marie Lynn Miranda",
+        "raw_role": "Chancellor",
+        "clean_name": "Marie Lynn Miranda",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Karen Colley",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Karen Colley",
+        "raw_role": "Provost and Vice Chancellor for Academic Affairs",
+        "clean_name": "Karen Colley",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Robert Barish",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Robert Barish",
+        "raw_role": "Vice Chancellor for Health Affairs",
+        "clean_name": "Robert Barish",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "John Coronado",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "John Coronado",
+        "raw_role": "Vice Chancellor for Administrative Services",
+        "clean_name": "John Coronado",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Tom Wamsley",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tom Wamsley",
+        "raw_role": "Vice Chancellor for Advancement",
+        "clean_name": "Tom Wamsley",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Matthew Fajack",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Matthew Fajack",
+        "raw_role": "Vice Chancellor for Finance",
+        "clean_name": "Matthew Fajack",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Charu Thakral",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Charu Thakral",
+        "raw_role": "Interim Vice Chancellor for Diversity, Equity and Engagement",
+        "clean_name": "Charu Thakral",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Thomas Royston",
+        "role": "international partnerships",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Thomas Royston",
+        "raw_role": "Interim Vice Chancellor for Innovation and Strategic Partnerships",
+        "clean_name": "Thomas Royston",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Joanna Groden",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Joanna Groden",
+        "raw_role": "Vice Chancellor for Research",
+        "clean_name": "Joanna Groden",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Chandra Harris-McCray",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Chandra Harris-McCray",
+        "raw_role": "Vice Chancellor for Strategic Marketing and Communications",
+        "clean_name": "Chandra Harris-McCray",
+        "status": "web_exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 1,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Michael Ginsburg",
+        "role": "chancellor",
+        "country": "US",
+        "page_url": "http://uic.edu/about/leadership",
+        "page_context": "University of Illinois Chicago Skip To Content (Alt+0) Landmark Regions Headings University of Illinois Chicago Expand menu Menu Admissions & Aid Visit Campus Paying for College Academics Programs of Study Colleges and Schools Online Programs Student Support Research Research Impact Research Strengths Resources & Facilities Student Research Life at UIC Living On and Around Campus Campus Resources Exploring Chicago City Transportation Essential Chicago Health Care Alumni About Visit and",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Michael Ginsburg",
+        "raw_role": "Senior Advisor to the Chancellor for Student Affairs",
+        "clean_name": "Michael Ginsburg",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

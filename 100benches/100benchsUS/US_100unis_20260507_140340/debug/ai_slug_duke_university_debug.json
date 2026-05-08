@@ -1,0 +1,1650 @@
+{
+  "method": "ai_slug",
+  "university": "Duke University",
+  "homepage_url": "https://duke.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 172,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 56,
+    "contacts_kept": 3,
+    "time_seconds": 61.86174559593201,
+    "tokens_in": 25959,
+    "tokens_out": 15800,
+    "cost_dollars": 0.0534954,
+    "best_url": "https://global.duke.edu",
+    "source_breakdown": {
+      "mailto_explicit": 80,
+      "visible_regex": 41,
+      "html_attribute": 0,
+      "embedded_json": 18,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 50
+    }
+  },
+  "contacts": [
+    {
+      "name": "Victor Taylor",
+      "email": "victor.taylor@duke.edu",
+      "role": "Duke Global Health Institute",
+      "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+      "score": 6,
+      "reason": "ok"
+    },
+    {
+      "name": "Sharlini Sankaran Ph.D",
+      "email": "sharlini.sankaran@duke.edu",
+      "role": "Duke Global Health Institute",
+      "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+      "score": 6,
+      "reason": "ok"
+    },
+    {
+      "name": "Ed Pagani Ph.D",
+      "email": "ed.pagani@duke.edu",
+      "role": "Duke Global Health Institute",
+      "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+      "score": 6,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 143,
+      "generated_slug_only": 172,
+      "real_link_only": 100,
+      "hybrid": 231
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 12,
+      "cms": 0,
+      "structured_endpoints": 22,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://directory.duke.edu/directory/search",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Duke Directory",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Duke Research Saves Lives Duke Research isn’t just science; it’s about helping people — your family, friends and community.",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://global.duke.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://researchsaveslives.duke.edu/people/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "People",
+        "parent_url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://global.duke.edu/resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 11.5,
+        "anchor_text": "Resources for Students & Faculty",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://research.duke.edu/about-ori/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "governance",
+        "heuristic_score": 3.95,
+        "anchor_text": "Vice President for Research & Innovation",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://policies.provost.duke.edu/docs/research-policy-manual",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "research policy manual",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://research.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Duke Research & Innovation",
+        "parent_url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://undergrad.duke.edu/intellectual-community/student-faculty-engagement-office/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Undergraduate Student-Faculty Engagement Office",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://facultyadvancement.duke.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Office for Faculty Advancement",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "http://provost.duke.edu/faculty-resources/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "http://provost.duke.edu/faculty-resources/policies-and-reports/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Policies and Reports",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://facultyaffairs.provost.duke.edu/appointment-promotion-and-tenure/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Guidelines for Tenure Dossiers",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://hr.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://my.duke.edu/faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://policies.provost.duke.edu/docs",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 7.15,
+        "anchor_text": "Faculty Handbook",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://global.duke.edu/types-of-international-partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 11.5,
+        "anchor_text": "Types of International Partnerships",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://global.duke.edu/new-partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "New Partnerships",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://global.duke.edu/partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Global Partnerships",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://global.duke.edu/resources/funding-opportunities",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Funding Opportunities",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://global.duke.edu/activity-map",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global Activities Map",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://global.duke.edu/best-practices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Best Practices",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://global.duke.edu/faqs",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Frequently Asked Questions",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://global.duke.edu/fulbright",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Fulbright",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://global.duke.edu/fulbright-hays-ddra-fellows",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Fulbright-Hays DDRA Fellows",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://global.duke.edu/global-support-policies-and-procedures",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global Support – Policies and Procedures",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://global.duke.edu/renewing-agreements",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Renewing Agreements",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://global.duke.edu/scholars",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Scholars Map",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://global.duke.edu/von-der-heyden-global-fellowship",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "von der Heyden Global Fellowship",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "2025 Global Justice and Equity Conference",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://global.duke.edu/von-der-heyden-global-fellowship/von-der-heyden-fellows-alumni",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "von der Heyden Fellows Alumni",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://global.duke.edu/von-der-heyden-global-fellowship/von-der-heyden-fellows-videos-published-works",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Videos & Published Works",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://global.duke.edu/von-der-heyden-global-fellowship/von-der-heyden-global-fellowship-application-2026-27",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Application 2026-27",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://global.duke.edu/points-of-contact",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 6.4,
+        "anchor_text": "Points Of Contact",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://globaled.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "International and Domestic Programs",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://globaled.duke.edu/vis",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Visiting International Student Program",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://global.duke.edu/about/find-other-global-offices",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "office",
+        "heuristic_score": 8.7,
+        "anchor_text": "Global Office on Campus",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://global.duke.edu/programs",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global Programs",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://global.duke.edu/resources/how-to-get-a-passport",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "How to Get a Passport",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://global.duke.edu/resources/travel-checklist",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Travel Checklist",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://globalhealth.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "Global Health Institute",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://oghs.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 5.9,
+        "anchor_text": "Office of Global Health and Safety",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://global.duke.edu/events",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 5.6,
+        "anchor_text": "Events",
+        "parent_url": "https://global.duke.edu/resources",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://studentaffairs.duke.edu/ihouse",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "International House",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://travel.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Global Administrative and Travel Support",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "http://provost.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 3.15,
+        "anchor_text": "Office of the Provost",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "http://provost.duke.edu/peer-course-evaluation/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "PEER COURSE EVALUATION",
+        "parent_url": "http://provost.duke.edu/faculty-resources/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://access.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Access & Accommodation",
+        "parent_url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Privacy Policy",
+        "parent_url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://researchsaveslives.duke.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Impact",
+        "parent_url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://duke.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://duke.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://duke.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://duke.edu/en/directory/erasmus",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://duke.edu/en/directory/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://duke.edu/en/directory/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://duke.edu/en/directory/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://duke.edu/en/directory/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://duke.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.duke.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://international.duke.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://global.duke.edu",
+      "best_url_kept": 3,
+      "source_breakdown": {
+        "mailto_explicit": 80,
+        "visible_regex": 41,
+        "html_attribute": 0,
+        "embedded_json": 18,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 50
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://directory.duke.edu/directory/search",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 17475,
+        "visible_text_length": 1134,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "9a99c939e6af0f0bbeea623a71e583d5f4608ec9",
+        "content_signatures": [
+          "9a99c939e6af0f0bbeea623a71e583d5f4608ec9"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://duke.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 12.05,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 10,
+        "kept_contacts": 0,
+        "rejected_contacts": 2,
+        "missing_email_candidates": 0,
+        "page_length": 1360760,
+        "visible_text_length": 42104,
+        "embedded_text_length": 1348,
+        "embedded_document_count": 11,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "7c60c1b6c1e27806534c4fe4ea0d06cc559084c3",
+        "content_signatures": [
+          "7c60c1b6c1e27806534c4fe4ea0d06cc559084c3",
+          "13f00ce939402ac958e5bcf16bfd6b934f37aa09",
+          "9f8310bbffe6255b900e3d294e1ff1a5e00e7b4c",
+          "e8d2a57b033ebf4dafbd3dfb54e1196be9fe5d0b",
+          "4a97ba5785b874ea199152c44434b9f51c0efb2a",
+          "2d931689087817d089a430cc402769b3f75637d5"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_body|https://duke.edu",
+        "mailto_count": 7,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 6,
+          "visible_regex": 7,
+          "html_attribute": 0,
+          "embedded_json": 2,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 9
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "daas@duke.edu",
+            "role": "name Duke University name Home publisher > name Duke Access and Accommodation Services",
+            "page_url": "https://access.duke.edu/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "oarc@duke.edu",
+            "role": "Duke University Privacy Statement Office of Audit, Risk and Compliance Skip to main Office of Audit, Risk and Compliance Menu Close Action menu Office of Audit, Risk and Compliance",
+            "page_url": "https://oarc.duke.edu/privacy/duke-university-privacy-statement/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://global.duke.edu",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 17,
+        "kept_contacts": 3,
+        "rejected_contacts": 3,
+        "missing_email_candidates": 4,
+        "page_length": 562988,
+        "visible_text_length": 16902,
+        "embedded_text_length": 1415,
+        "embedded_document_count": 10,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay",
+          "static_html"
+        ],
+        "shell_like": true,
+        "content_signature": "6ff52341c2cb70866fe96d2ef559c3bfd6481795",
+        "content_signatures": [
+          "6ff52341c2cb70866fe96d2ef559c3bfd6481795",
+          "a65d23128df93f446e458296ab58577ac88c0a64",
+          "8c10fef3361805b6bcc62276390c49d5e36b9505",
+          "69a36cc475961e92df826b6117794136f1cd6683",
+          "088e2e6604fd2778ba1aa5de64c4744b6006aa24",
+          "dd8d208f72262bc8fa7e9dda9ca05986d9417921"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://duke.edu",
+        "mailto_count": 44,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 7.1,
+        "source_breakdown": {
+          "mailto_explicit": 64,
+          "visible_regex": 11,
+          "html_attribute": 0,
+          "embedded_json": 5,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 14
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Victor Taylor",
+            "email": "victor.taylor@duke.edu",
+            "role": "Duke Global Health Institute",
+            "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+            "score": 6,
+            "reason": "ok"
+          },
+          {
+            "name": "Sharlini Sankaran Ph.D",
+            "email": "sharlini.sankaran@duke.edu",
+            "role": "Duke Global Health Institute",
+            "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+            "score": 6,
+            "reason": "ok"
+          },
+          {
+            "name": "Ed Pagani Ph.D",
+            "email": "ed.pagani@duke.edu",
+            "role": "Duke Global Health Institute",
+            "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+            "score": 6,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "global@duke.edu",
+            "role": "global engagement",
+            "page_url": "https://global.duke.edu",
+            "score": 0,
+            "reason": "no personal name"
+          },
+          {
+            "name": "Dan Dardani Clp",
+            "email": "daniel.dardani@duke.edu",
+            "role": "",
+            "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+            "score": 0,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "externalpartnerships@duke.edu",
+            "role": "Duke Global Health Institute",
+            "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+            "score": 0,
+            "reason": "no personal name"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "All Rights Reserved",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://global.duke.edu",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "All Rights Reserved",
+            "raw_role": "global engagement",
+            "clean_name": "All Rights Reserved",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Contact Us\nglobal@duke.edu\nSubscribe\n© 2026\nDuke University\n. All Rights Reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "All Rights Reserved",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://global.duke.edu/global-resources-and-programs",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "All Rights Reserved",
+            "raw_role": "global engagement",
+            "clean_name": "All Rights Reserved",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Contact Us\nglobal@duke.edu\nSubscribe\n© 2026\nDuke University\n. All Rights Reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ed Pagani Ph.D",
+            "role": "Duke Global Health Institute",
+            "email": "",
+            "page_url": "https://externalpartnerships.duke.edu/duke-faculty-staff/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Ed Pagani Ph.D",
+            "raw_role": "Duke Global Health Institute",
+            "clean_name": "Ed Pagani Ph.D",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Duke Cancer Institute\nEd Pagani, Ph.D.\nDuke Clinical and Translational Science Institute (CTSI)\nDuke Global Health Institute\nDuke Institute for Brain Sciences\nDuke – Margolis Institute for Health Policy",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Alec Gallimore",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://global.duke.edu/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Alec Gallimore",
+            "raw_role": "Provost",
+            "clean_name": "Alec Gallimore",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://researchsaveslives.duke.edu/people/",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 10,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 1371972,
+        "visible_text_length": 42690,
+        "embedded_text_length": 1353,
+        "embedded_document_count": 11,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "content_signature": "e815c31aeefbbcab7beab9796b3da207bb833d11",
+        "content_signatures": [
+          "e815c31aeefbbcab7beab9796b3da207bb833d11",
+          "13f00ce939402ac958e5bcf16bfd6b934f37aa09",
+          "9f8310bbffe6255b900e3d294e1ff1a5e00e7b4c",
+          "e8d2a57b033ebf4dafbd3dfb54e1196be9fe5d0b",
+          "4a97ba5785b874ea199152c44434b9f51c0efb2a",
+          "2d931689087817d089a430cc402769b3f75637d5"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://today.duke.edu/research?utm_source=duke-homepage&utm_medium=banner&utm_campaign=spotlight-tile",
+        "mailto_count": 7,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 6,
+          "visible_regex": 7,
+          "html_attribute": 0,
+          "embedded_json": 2,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 9
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://global.duke.edu/resources",
+        "fetch_succeeded": true,
+        "pages_fetched": 5,
+        "raw_contacts": 15,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 9,
+        "page_length": 357956,
+        "visible_text_length": 22891,
+        "embedded_text_length": 2004,
+        "embedded_document_count": 10,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "5d0152cada1bdf941a22e806868e30e8e3f54f93",
+        "content_signatures": [
+          "5d0152cada1bdf941a22e806868e30e8e3f54f93",
+          "a35068b233567cbbe1a8c087b498fe551010a9ad",
+          "69a36cc475961e92df826b6117794136f1cd6683",
+          "c2060a838fcb31eb44d3e1f8dde8649a45394a3d"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://duke.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 11.5,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 14,
+          "html_attribute": 0,
+          "embedded_json": 9,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 15
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "All Rights Reserved",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/von-der-heyden-fellows-alumni",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "embedded_json",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "All Rights Reserved",
+            "raw_role": "global engagement",
+            "clean_name": "All Rights Reserved",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Contact Us\nglobal@duke.edu\nSubscribe\n© 2026\nDuke University\n. All Rights Reserved.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Karly Alderfer",
+            "role": "Co-Chair",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Karly Alderfer",
+            "raw_role": "Co-Chair",
+            "clean_name": "Karly Alderfer",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Wan Ning Seah",
+            "role": "Co-Chair",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Wan Ning Seah",
+            "raw_role": "Co-Chair",
+            "clean_name": "Wan Ning Seah",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Dana Grieco",
+            "role": "Co-Chair",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Dana Grieco",
+            "raw_role": "Co-Chair",
+            "clean_name": "Dana Grieco",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ankita Gupta",
+            "role": "Co-Chair",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ankita Gupta",
+            "raw_role": "Co-Chair",
+            "clean_name": "Ankita Gupta",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Justin Rasmussen",
+            "role": "Co-Chair",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Justin Rasmussen",
+            "raw_role": "Co-Chair",
+            "clean_name": "Justin Rasmussen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Renzo Severino",
+            "role": "Co-Chair",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Renzo Severino",
+            "raw_role": "Co-Chair",
+            "clean_name": "Renzo Severino",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hannah Postel",
+            "role": "Panelist",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hannah Postel",
+            "raw_role": "Panelist",
+            "clean_name": "Hannah Postel",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Miguel Rojas-Sotelo",
+            "role": "Panelist",
+            "email": "",
+            "page_url": "https://global.duke.edu/von-der-heyden-global-fellowship/2025-global-justice-and-equity-conference",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Miguel Rojas-Sotelo",
+            "raw_role": "Panelist",
+            "clean_name": "Miguel Rojas-Sotelo",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://research.duke.edu/about-ori/",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 2,
+        "page_length": 801685,
+        "visible_text_length": 2127,
+        "embedded_text_length": 303,
+        "embedded_document_count": 3,
+        "acquisition_modes": [
+          "embedded_app_state_overlay",
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": true,
+        "content_signature": "82607f7b6c721973f0411898acb63a82d037cf1f",
+        "content_signatures": [
+          "82607f7b6c721973f0411898acb63a82d037cf1f",
+          "2ad1f5cfd9cbd6d5c3c058dc3b62d91b183aff88"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://duke.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "governance",
+        "candidate_heuristic_score": 3.95,
+        "source_breakdown": {
+          "mailto_explicit": 3,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "vpri@duke.edu",
+            "role": "Homepage Duke Research & Innovation Skip to main Menu Close Utility menu Primary navigation Loading... Homepage Welcome to the Office for Research & Innovation The Office for Resea",
+            "page_url": "https://research.duke.edu/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Duke Health",
+            "role": "",
+            "email": "",
+            "page_url": "https://research.duke.edu/",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Duke Health",
+            "raw_role": "",
+            "clean_name": "Duke Health",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "See latest information on myRESEARCHpath\nGuidance for Duke Health",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jennifer Lodge PhD",
+            "role": "president",
+            "email": "",
+            "page_url": "https://research.duke.edu/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jennifer Lodge, PhD",
+            "raw_role": "Vice President for Research & Innovation",
+            "clean_name": "Jennifer Lodge PhD",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      }
+    ]
+  }
+}

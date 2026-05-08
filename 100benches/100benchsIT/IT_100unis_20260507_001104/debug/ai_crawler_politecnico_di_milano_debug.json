@@ -1,0 +1,999 @@
+{
+  "method": "ai_crawler",
+  "university": "Politecnico di Milano",
+  "homepage_url": "https://polimi.it",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 2,
+    "candidates_probed": 2,
+    "contacts_extracted": 0,
+    "contacts_kept": 0,
+    "time_seconds": 38.4024384021759,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "no_high_value_actions_remaining",
+      "probe_attempts": 2,
+      "pages_fetched": 2,
+      "successful_fetches": 2,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://aunicalogin.polimi.it/aunicalogin/getservizio.xml?id_servizio=167&evn_RICERCAINCARICHI=EVENTO",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Cerca docenti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/scuole",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Scuole",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sedi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Scopri",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/bandi-e-concorsi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Bandi e concorsi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/rigore-scientifico-e-creativita",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Rigore scientifico e creatività",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/sostenibilita-e-inclusione",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sostenibilità e inclusione",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/strutture-e-servizi-per-linnovazione",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Strutture e servizi per l'innovazione",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/sviluppo-professionale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sviluppo professionale",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/welfare",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Welfare",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Scopri",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/lavora-con-noi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Lavora con noi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/percorsi-di-carriera",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Percorsi di carriera",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/persone",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Persone",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/retribuzione-e-incentivi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Retribuzione e incentivi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/sostenibilita-e-inclusione",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sostenibilità e inclusione",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/sport-e-benessere",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sport e benessere",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/sviluppo-organizzativo",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sviluppo organizzativo",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/sviluppo-professionale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Sviluppo professionale",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/welfare",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Welfare",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/staff/work-life-balance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Work-life balance",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi/cremona",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Cremona",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi/lecco",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Lecco",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi/mantova",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Mantova",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi/milano-bovisa",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Milano Bovisa",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi/milano-leonardo",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Milano Leonardo",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi/piacenza",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Piacenza",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.0,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://go.polimi.it/rubrica",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Rubrica telefoni e mail",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Interdisciplinarità e dimensione internazionale",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.9,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/eventi/dettaglio-evento/life-on-campus-people-and-places",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Leggi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/news/dettaglio-news/ai-fisica-insieme-sicurezza-infrastrutture-energetiche",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Leggi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/relazioni-internazionali",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Relazioni internazionali",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.9,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://polimi.it/studenti/mobilita-nazionale-erasmus-italiano",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Mobilità nazionale Erasmus italiano",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/ricerca/partnership-con-le-imprese-jrp",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Partnership con le imprese (JRP)",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Governance",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/alumni/contatti-e-domande-frequenti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti e domande frequenti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/futuri-studenti/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/ricerca/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/stampa/contatti-per-la-stampa",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti per la stampa",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/studenti/contatti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contatti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/campus-e-servizi/mobilita-internazionale",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Mobilità internazionale",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/campus-e-servizi/mobilita-internazionale/studiare-al-polimi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Esplora",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.protocollo.polimi.it/albo/viewer?view=html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Albo ufficiale",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/eventi/dettaglio-evento/levoluzione-della-mobilita-sostenibile-tra-guida-autonoma-e-numeri-incoraggianti",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Leggi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.careerservice.polimi.it/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Career service",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://aunicalogin.polimi.it/aunicalogin/getservizio.xml?id_servizio=156",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Manifesti degli studi",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://aunicalogin.polimi.it/aunicalogin/getservizio.xml?id_servizio=166",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Cerca insegnamenti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/campus-e-servizi",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Scopri",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://polimi.it/campus-e-servizi/assegnazione-armadietti",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Armadietti",
+        "parent_url": "https://polimi.it/en/",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://erasmus.polimi.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://erasmus.polimi.it/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.polimi.it",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://polimi.it/il-politecnico/relazioni-internazionali"
+      },
+      {
+        "mode": "stop",
+        "reason": "no_actions_remaining",
+        "goal": "no_high_value_actions_remaining"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "https://polimi.it",
+          "to": "https://polimi.it/en/",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritize pages that directly relate to international partnerships and global engagement to yield specific contacts.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+          "page_type": "nav",
+          "expected_yield": 9.9
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://polimi.it/il-politecnico/relazioni-internazionali",
+          "page_type": "nav",
+          "expected_yield": 9.9
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 6
+        }
+      },
+      {
+        "action": "stop_with_reason",
+        "reason": "no_high_value_actions_remaining",
+        "details": {}
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritize pages that directly relate to international partnerships and global engagement to yield specific contacts.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "No more relevant pages available.",
+        "ranked_pages": [
+          {
+            "url": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.9,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://polimi.it/il-politecnico/relazioni-internazionali",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.9,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://polimi.it/il-politecnico/governance/strutture/scuole",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://polimi.it/il-politecnico/governance/strutture/sedi",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 9.45,
+            "page_type": "nav"
+          }
+        ]
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": [
+          "https://polimi.it/il-politecnico/governance/strutture/scuole",
+          "https://polimi.it/il-politecnico/governance/strutture/sedi",
+          "https://polimi.it/docenti-e-ricercatori/strutture-e-servizi-per-linnovazione",
+          "https://polimi.it/staff/persone",
+          "https://polimi.it/docenti-e-ricercatori",
+          "https://polimi.it/docenti-e-ricercatori/bandi-e-concorsi"
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://polimi.it/en/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/",
+        "page_family": "international",
+        "expected_yield": 9.9,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 13824,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 13824,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e60aa8f11db3caeab945082398c1ca5d3a78a1c4",
+        "zero_evidence_shell": true,
+        "zero_evidence_shell_repeat_count": 1
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/relazioni-internazionali",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://polimi.it/en/",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/",
+        "page_family": "international",
+        "expected_yield": 9.9,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 13824,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 13824,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "e60aa8f11db3caeab945082398c1ca5d3a78a1c4",
+        "duplicate_of": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+        "zero_evidence_shell": true,
+        "zero_evidence_shell_repeat_count": 2,
+        "shell_context_pruned": true
+      }
+    ],
+    "pruned_candidates": [
+      {
+        "url": "https://polimi.it/il-politecnico/relazioni-internazionali",
+        "page_type": "nav",
+        "expected_yield": 9.9,
+        "reason": "repeated_zero_evidence_shell_content",
+        "details": {
+          "content_signature": "e60aa8f11db3caeab945082398c1ca5d3a78a1c4",
+          "duplicate_of": "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/",
+          "repeat_count": 2
+        }
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/scuole",
+        "page_type": "nav",
+        "expected_yield": 9.45,
+        "reason": "dead_shell_context",
+        "details": {
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        }
+      },
+      {
+        "url": "https://polimi.it/il-politecnico/governance/strutture/sedi",
+        "page_type": "nav",
+        "expected_yield": 9.45,
+        "reason": "dead_shell_context",
+        "details": {
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        }
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/strutture-e-servizi-per-linnovazione",
+        "page_type": "nav",
+        "expected_yield": 8.25,
+        "reason": "dead_shell_context",
+        "details": {
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        }
+      },
+      {
+        "url": "https://polimi.it/staff/persone",
+        "page_type": "nav",
+        "expected_yield": 8.25,
+        "reason": "dead_shell_context",
+        "details": {
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        }
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori",
+        "page_type": "nav",
+        "expected_yield": 8.25,
+        "reason": "dead_shell_context",
+        "details": {
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        }
+      },
+      {
+        "url": "https://polimi.it/docenti-e-ricercatori/bandi-e-concorsi",
+        "page_type": "nav",
+        "expected_yield": 8.25,
+        "reason": "dead_shell_context",
+        "details": {
+          "shell_context_key": "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        }
+      }
+    ],
+    "missing_email_candidates": [],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [
+      "real_link_multihop|homepage_nav|https://polimi.it/en/"
+    ],
+    "repeated_zero_evidence_signatures": {
+      "e60aa8f11db3caeab945082398c1ca5d3a78a1c4": {
+        "urls": [
+          "https://polimi.it/docenti-e-ricercatori/interdisciplinarita-e-dimensione-internazionale",
+          "https://polimi.it/il-politecnico/relazioni-internazionali"
+        ],
+        "shell_contexts": [
+          "real_link_multihop|homepage_nav|https://polimi.it/en/"
+        ],
+        "page_families": [
+          "international"
+        ],
+        "count": 2
+      }
+    }
+  }
+}

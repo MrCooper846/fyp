@@ -1,0 +1,4193 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Missouri",
+  "homepage_url": "http://missouri.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 1,
+    "candidates_probed": 1,
+    "contacts_extracted": 19,
+    "contacts_kept": 0,
+    "time_seconds": 48.59699630737305,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://admissions.missouri.edu/contact/reps/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 1,
+      "pages_fetched": 1,
+      "successful_fetches": 1,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://gradschool.missouri.edu/about/staff-directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Staff Directory",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 13.85,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://missouri.edu/directory",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Directory",
+        "parent_url": "http://missouri.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://missouri.edu/faculty-and-staff",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Faculty and Staff",
+        "parent_url": "http://missouri.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/faculty-staff/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Faculty & Staff Resources",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://missouri.edu/directory/change",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find out how to change/remove it",
+        "parent_url": "http://missouri.edu/directory",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://facultycouncil.missouri.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Information about Faculty Council",
+        "parent_url": "http://missouri.edu/faculty-and-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://staffcouncil.missouri.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Information about Staff Advisory Council",
+        "parent_url": "http://missouri.edu/faculty-and-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://financialaid.missouri.edu/cost-of-attendance/net-price-calculator/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Get a personalized cost estimate arrow_forward_20dp icon",
+        "parent_url": "http://missouri.edu/admissions",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/academics/study-abroad/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Study Abroad",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.7,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://admissions.missouri.edu/contact/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Contact",
+        "parent_url": "http://missouri.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:footer"
+      },
+      {
+        "url": "https://admissions.missouri.edu/contact/reps/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Find Your Rep",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://admissions.missouri.edu/contact/request-information/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Request Information",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://mupolice.missouri.edu/about/units/about-units-emergency-management/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Emergency Management",
+        "parent_url": "http://missouri.edu/faculty-and-staff",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.95,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/international/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "International Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://missouri.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions",
+        "parent_url": "http://missouri.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://missouri.edu/admissions/cost-and-aid",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Cost and Aid",
+        "parent_url": "http://missouri.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Undergraduate Admissions",
+        "parent_url": "http://missouri.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/academics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Academics Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/academics/hands-on-learning/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Hands-On Learning",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/academics/honors-college/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Honors College",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "anchor_text": "Apply to Mizzou arrow_forward_20dp icon",
+        "parent_url": "http://missouri.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/admitted-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Admitted Students",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/after-you-apply/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "After You Apply",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/apply-now/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Apply Now",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/dates-deadlines/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Dates & Deadlines",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/freshmen/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Freshman Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/freshmen/test-optional/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Test Optional Admission",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/military/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "U.S. Military & Veteran Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/other-applicants/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Other Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/apply/transfer/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Transfer Applicants",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/costs-aid/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Costs & Aid Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/costs-aid/costs/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Costs",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/costs-aid/financial-aid/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Financial Aid",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/costs-aid/scholarships/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Scholarships",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/families/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Parents & Families",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/visit/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Visit Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/visit/directions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Directions",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/visit/online-tour/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Online Tour",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Graduate Admissions",
+        "parent_url": "http://missouri.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/admissions/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Graduate students arrow_forward_20dp icon",
+        "parent_url": "http://missouri.edu/admissions",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/admissions/admitted-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Admitted Students",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/admissions/apply/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "How to Apply",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/admissions/prepare-for-graduate-school/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "How to Prepare for Graduate School",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/student-life/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student Life Overview",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/student-life/campus-activities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Campus Activities",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/student-life/campus-activities/transfer-student-involvement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Transfer Student Involvement",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/student-life/columbia/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About Columbia",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/student-life/housing-dining/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Housing & Dining",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://admissions.missouri.edu/student-life/student-stories/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Student Stories",
+        "parent_url": "https://admissions.missouri.edu/",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://gradschool.missouri.edu/academics/interdisciplinary-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Interdisciplinary Opportunities",
+        "parent_url": "https://gradschool.missouri.edu/",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.missouri.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.missouri.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.missouri.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://admissions.missouri.edu/contact/reps/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Akira Potts"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Chelsea Burgard"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Eleanor Lee"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Emma Briggs"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Hunter Oakes"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Isabelle Shaver"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover James Snell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover John Poettgen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kate Hengehold"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Liz Hurst"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Maggie McNay"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Nick Wimp"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Olivia Flagg-Bourke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Rachel Schwartz"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Samantha Palacios"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Siobhan Conners"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sofia Vega"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Tom Garangani"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Akira Potts"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Chelsea Burgard"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Eleanor Lee"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Emma Briggs"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Hunter Oakes"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Isabelle Shaver"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover James Snell"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover John Poettgen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kate Hengehold"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Liz Hurst"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Maggie McNay"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Nick Wimp"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Olivia Flagg-Bourke"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Rachel Schwartz"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://missouri.edu/",
+          "to": "http://missouri.edu",
+          "method": "original"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "Prioritized pages that are likely to contain staff details and relevant contacts for international engagement and partnerships.",
+        "details": {
+          "count": 4,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://admissions.missouri.edu/contact/reps/",
+          "page_type": "nav",
+          "expected_yield": 6.4
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Akira Potts"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Chelsea Burgard"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Eleanor Lee"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Emma Briggs"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Hunter Oakes"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Isabelle Shaver"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "James Snell"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "John Poettgen"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kate Hengehold"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Liz Hurst"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Maggie McNay"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Nick Wimp"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Olivia Flagg-Bourke"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Rachel Schwartz"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Samantha Palacios"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Siobhan Conners"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sofia Vega"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Tom Garangani"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Akira Potts"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Chelsea Burgard"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Eleanor Lee"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Emma Briggs"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Hunter Oakes"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Isabelle Shaver"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "James Snell"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "John Poettgen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kate Hengehold"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Liz Hurst"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Maggie McNay"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Nick Wimp"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Olivia Flagg-Bourke"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Rachel Schwartz"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Prioritized pages that are likely to contain staff details and relevant contacts for international engagement and partnerships.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "End of ranking.",
+        "ranked_pages": [
+          {
+            "url": "https://gradschool.missouri.edu/about/staff-directory",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 13.85,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://admissions.missouri.edu/academics/study-abroad/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 7.7,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://admissions.missouri.edu/contact/",
+            "reason": "deterministic_top_heuristic:footer",
+            "expected_yield": 6.4,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://admissions.missouri.edu/contact/reps/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.4,
+            "page_type": "nav"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://admissions.missouri.edu/contact/reps/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://admissions.missouri.edu/",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://admissions.missouri.edu/",
+        "page_family": "contact",
+        "expected_yield": 6.4,
+        "family_signature": null,
+        "raw_contacts_found": 19,
+        "text_length": 3358,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2598,
+        "embedded_text_length": 758,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "Akira Potts",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Akira Potts",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chelsea Burgard",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chelsea Burgard",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eleanor Lee",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eleanor Lee",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emma Briggs",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Briggs",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hunter Oakes",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hunter Oakes",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Isabelle Shaver",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Isabelle Shaver",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "James Snell",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "James Snell",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Poettgen",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Poettgen",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kate Hengehold",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kate Hengehold",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liz Hurst",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liz Hurst",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nick Wimp",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nick Wimp",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maggie McNay",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maggie McNay",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Olivia Flagg-Bourke",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Olivia Flagg-Bourke",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rachel Schwartz",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rachel Schwartz",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Samantha Palacios",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samantha Palacios",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Siobhan Conners",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Siobhan Conners",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sofia Vega",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sofia Vega",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tom Garangani",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Garangani",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Akira Potts",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Akira Potts",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chelsea Burgard",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chelsea Burgard",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eleanor Lee",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eleanor Lee",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emma Briggs",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Briggs",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hunter Oakes",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hunter Oakes",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Isabelle Shaver",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Isabelle Shaver",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "James Snell",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "James Snell",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Poettgen",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Poettgen",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kate Hengehold",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kate Hengehold",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liz Hurst",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liz Hurst",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nick Wimp",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nick Wimp",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maggie McNay",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maggie McNay",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Olivia Flagg-Bourke",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Olivia Flagg-Bourke",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rachel Schwartz",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rachel Schwartz",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Samantha Palacios",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samantha Palacios",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Siobhan Conners",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Siobhan Conners",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sofia Vega",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sofia Vega",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tom Garangani",
+            "role": "Admissions Representative",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Garangani",
+            "raw_role": "Admissions Representative",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Akira Potts",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Akira Potts",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Akira Potts",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chelsea Burgard",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chelsea Burgard",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Chelsea Burgard",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Eleanor Lee",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eleanor Lee",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Eleanor Lee",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Emma Briggs",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Briggs",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Emma Briggs",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hunter Oakes",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hunter Oakes",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Hunter Oakes",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Isabelle Shaver",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Isabelle Shaver",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Isabelle Shaver",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "James Snell",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "James Snell",
+            "raw_role": "Admissions Representative",
+            "clean_name": "James Snell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "John Poettgen",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Poettgen",
+            "raw_role": "Admissions Representative",
+            "clean_name": "John Poettgen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kate Hengehold",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kate Hengehold",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Kate Hengehold",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liz Hurst",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liz Hurst",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Liz Hurst",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nick Wimp",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nick Wimp",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Nick Wimp",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maggie McNay",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maggie McNay",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Maggie McNay",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Olivia Flagg-Bourke",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Olivia Flagg-Bourke",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Olivia Flagg-Bourke",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rachel Schwartz",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rachel Schwartz",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Rachel Schwartz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Samantha Palacios",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samantha Palacios",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Samantha Palacios",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Siobhan Conners",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Siobhan Conners",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Siobhan Conners",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sofia Vega",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sofia Vega",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Sofia Vega",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Tom Garangani",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Garangani",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Tom Garangani",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Akira Potts",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Akira Potts",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Akira Potts",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Chelsea Burgard",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chelsea Burgard",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Chelsea Burgard",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Eleanor Lee",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Eleanor Lee",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Eleanor Lee",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Emma Briggs",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Emma Briggs",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Emma Briggs",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Hunter Oakes",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hunter Oakes",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Hunter Oakes",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Isabelle Shaver",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Isabelle Shaver",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Isabelle Shaver",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "James Snell",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "James Snell",
+            "raw_role": "Admissions Representative",
+            "clean_name": "James Snell",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "John Poettgen",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "John Poettgen",
+            "raw_role": "Admissions Representative",
+            "clean_name": "John Poettgen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Kate Hengehold",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kate Hengehold",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Kate Hengehold",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Liz Hurst",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liz Hurst",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Liz Hurst",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Nick Wimp",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nick Wimp",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Nick Wimp",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Maggie McNay",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maggie McNay",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Maggie McNay",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Olivia Flagg-Bourke",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Olivia Flagg-Bourke",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Olivia Flagg-Bourke",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Rachel Schwartz",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rachel Schwartz",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Rachel Schwartz",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Samantha Palacios",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Samantha Palacios",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Samantha Palacios",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Siobhan Conners",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Siobhan Conners",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Siobhan Conners",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Sofia Vega",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sofia Vega",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Sofia Vega",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Tom Garangani",
+            "role": "admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Tom Garangani",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Tom Garangani",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 19
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 19,
+        "clean_candidate_count": 19,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 18,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Akira Potts",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Akira Potts",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Akira Potts",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Chelsea Burgard",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Chelsea Burgard",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Chelsea Burgard",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Eleanor Lee",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Eleanor Lee",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Eleanor Lee",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Emma Briggs",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Emma Briggs",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Emma Briggs",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Hunter Oakes",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Hunter Oakes",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Hunter Oakes",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Isabelle Shaver",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Isabelle Shaver",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Isabelle Shaver",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "James Snell",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "James Snell",
+            "raw_role": "Admissions Representative",
+            "clean_name": "James Snell",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "John Poettgen",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "John Poettgen",
+            "raw_role": "Admissions Representative",
+            "clean_name": "John Poettgen",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Kate Hengehold",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kate Hengehold",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Kate Hengehold",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Liz Hurst",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Liz Hurst",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Liz Hurst",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Nick Wimp",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Nick Wimp",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Nick Wimp",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Maggie McNay",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Maggie McNay",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Maggie McNay",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Olivia Flagg-Bourke",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Olivia Flagg-Bourke",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Olivia Flagg-Bourke",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Rachel Schwartz",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Rachel Schwartz",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Rachel Schwartz",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Samantha Palacios",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Samantha Palacios",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Samantha Palacios",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Siobhan Conners",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Siobhan Conners",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Siobhan Conners",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Sofia Vega",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sofia Vega",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Sofia Vega",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          },
+          {
+            "name": "Tom Garangani",
+            "role": "admissions",
+            "country": "US",
+            "page_url": "https://admissions.missouri.edu/contact/reps/",
+            "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Tom Garangani",
+            "raw_role": "Admissions Representative",
+            "clean_name": "Tom Garangani",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.4
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "137ef121e7b1018a25f36eadf98f09a607b95cca"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Akira Potts",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Akira Potts",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Akira Potts",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Chelsea Burgard",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Chelsea Burgard",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Chelsea Burgard",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Eleanor Lee",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Eleanor Lee",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Eleanor Lee",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Emma Briggs",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Emma Briggs",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Emma Briggs",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Hunter Oakes",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Hunter Oakes",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Hunter Oakes",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Isabelle Shaver",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Isabelle Shaver",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Isabelle Shaver",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "James Snell",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "James Snell",
+        "raw_role": "Admissions Representative",
+        "clean_name": "James Snell",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "John Poettgen",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "John Poettgen",
+        "raw_role": "Admissions Representative",
+        "clean_name": "John Poettgen",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Kate Hengehold",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kate Hengehold",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Kate Hengehold",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Liz Hurst",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Liz Hurst",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Liz Hurst",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Nick Wimp",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Nick Wimp",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Nick Wimp",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Maggie McNay",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Maggie McNay",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Maggie McNay",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Olivia Flagg-Bourke",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Olivia Flagg-Bourke",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Olivia Flagg-Bourke",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Rachel Schwartz",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Rachel Schwartz",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Rachel Schwartz",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Samantha Palacios",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Samantha Palacios",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Samantha Palacios",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Siobhan Conners",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Siobhan Conners",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Siobhan Conners",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Sofia Vega",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sofia Vega",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Sofia Vega",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      },
+      {
+        "name": "Tom Garangani",
+        "role": "admissions",
+        "country": "US",
+        "page_url": "https://admissions.missouri.edu/contact/reps/",
+        "page_context": "Admissions Representatives - Mizzou Admissions Skip to navigation Skip to content University of Missouri Homepage University of Missouri Homepage MU Wordmark App Status Request Info Contact Apply Now Search search Mizzou Admissions menu Apply expand_more Apply Overview Apply Now Freshman Applicants Transfer Applicants International Applicants U.S. Military & Veteran Applicants Other Applicants Test Optional Admission Dates & Deadlines Parents & Families After You Apply Admitted Students",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Tom Garangani",
+        "raw_role": "Admissions Representative",
+        "clean_name": "Tom Garangani",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.4
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

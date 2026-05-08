@@ -1,0 +1,3352 @@
+{
+  "method": "ai_slug",
+  "university": "Massachusetts Institute of Technology",
+  "homepage_url": "https://web.mit.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 145,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 256,
+    "contacts_kept": 8,
+    "time_seconds": 77.06744408607483,
+    "tokens_in": 13540,
+    "tokens_out": 6800,
+    "cost_dollars": 0.024443999999999997,
+    "best_url": "https://cee.mit.edu/people/researches/",
+    "source_breakdown": {
+      "mailto_explicit": 1,
+      "visible_regex": 239,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 54
+    }
+  },
+  "contacts": [
+    {
+      "name": "Paul Berube",
+      "email": "pmberube@mit.edu",
+      "role": "Research Associate",
+      "page_url": "https://cee.mit.edu/people/researches/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Allison Coe",
+      "email": "a_coe@mit.edu",
+      "role": "Technical Associate/Lab Manager",
+      "page_url": "https://cee.mit.edu/people/researches/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Trent Lemaster",
+      "email": "lemaster@mit.edu",
+      "role": "Research Support Associate 2",
+      "page_url": "https://cee.mit.edu/people/researches/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Sierra Parker",
+      "email": "sierramp@mit.edu",
+      "role": "Research Support Associate 2",
+      "page_url": "https://cee.mit.edu/people/researches/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Sofia Salcedo",
+      "email": "esalcedo@mit.edu",
+      "role": "Research Support Associate 2",
+      "page_url": "https://cee.mit.edu/people/researches/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Patrizia Stadler",
+      "email": "pstadler@mit.edu",
+      "role": "Technical Associate/Lab Manager",
+      "page_url": "https://cee.mit.edu/people/researches/",
+      "score": 5,
+      "reason": "ok"
+    },
+    {
+      "name": "Saurabh Amin",
+      "email": "amins@mit.edu",
+      "role": "rector",
+      "page_url": "https://cee.mit.edu/people/directory/",
+      "score": 13,
+      "reason": "ok"
+    },
+    {
+      "name": "Jarina Shrestha",
+      "email": "jarina@mit.edu",
+      "role": "rector",
+      "page_url": "https://cee.mit.edu/people/directory/",
+      "score": 13,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 132,
+      "generated_slug_only": 145,
+      "real_link_only": 73,
+      "hybrid": 204
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 0,
+      "cms": 0,
+      "structured_endpoints": 13,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Admir Masic",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://web.mit.edu/search/?redirect-origin=legacy&tab=directory",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "People",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://cee.mit.edu/people/researches/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Researchers",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://cee.mit.edu/research/resilient-systems/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "international",
+        "heuristic_score": 5.5,
+        "anchor_text": "Resilient Systems and Mobility",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://cee.mit.edu/people/directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "People",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://cee.mit.edu/people/graduate-students/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Graduate Students",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://cee.mit.edu/faculty/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://cee.mit.edu/people/emeritus-faculty/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Post-Tenure Faculty",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://cee.mit.edu/people/staff/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "Staff",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://cee.mit.edu/people/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "People",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://cee.mit.edu/people/postdocs/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Postdocs",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://cee.mit.edu/education/undergraduate/undergraduate-opportunities/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "Undergraduate Research Opportunities",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://cee.mit.edu/research/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://cee.mit.edu/research/climate-environment/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Climate and Environment",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://cee.mit.edu/research/ecology-and-evolution/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Ecology and Evolution",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://cee.mit.edu/research/food-and-water-security/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Food and Water Security",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://cee.mit.edu/research/sustainable-materials-and-infrastructure/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Sustainable Materials and Infrastructure",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://web.mit.edu/research",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Research",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://web.mit.edu/search",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Search",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://facts.mit.edu/employees/faculty/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "-faculty and instructional staff",
+        "parent_url": "https://web.mit.edu/about",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://aeroastro.mit.edu/people/richard-linares/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Richard Linares",
+        "parent_url": "https://web.mit.edu/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://cee.mit.edu/people-tag/admir-masic",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Explore All Related News →",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "http://global.mit.edu/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "global",
+        "parent_url": "https://web.mit.edu/about",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://cee.mit.edu/contact-cee/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "contact",
+        "heuristic_score": 4.2,
+        "anchor_text": "Contact",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "http://learn.mit.edu?resource=16083",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 4.95,
+        "anchor_text": "Women's Leadership Program",
+        "parent_url": "http://learn.mit.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "http://orgchart.mit.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 4.95,
+        "anchor_text": "Senior Leadership",
+        "parent_url": "https://web.mit.edu/about",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://executive.mit.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 4.95,
+        "anchor_text": "MIT Sloan School of Management Executive Education",
+        "parent_url": "https://web.mit.edu/admissions-aid",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "http://learn.mit.edu?resource=6015",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Supply Chain Management",
+        "parent_url": "http://learn.mit.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://cee.mit.edu/education/graduate/graduate-admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Graduate Admissions",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://web.mit.edu/admissions-aid",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions + Aid",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://cee.mit.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://cee.mit.edu/about/give-to-cee/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Give to CEE",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://cee.mit.edu/about/mission/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "Mission",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://web.mit.edu/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 1.75,
+        "anchor_text": "About MIT",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "http://learn.mit.edu",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Lifelong Learning",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://cee.mit.edu/careers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Careers",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://cee.mit.edu/community/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Community",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://cee.mit.edu/community/belonging-and-achievement/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Belonging, Achievement, and Composition",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://cee.mit.edu/community/outreach/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Outreach",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://cee.mit.edu/community/rising-stars-workshop/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Rising Stars Workshop",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://cee.mit.edu/education/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Education",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://cee.mit.edu/education/graduate/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Graduate",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://cee.mit.edu/education/graduate/graduate-degrees/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Graduate Degrees",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://cee.mit.edu/education/graduate/graduate-student-life/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Graduate Student Life",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://cee.mit.edu/education/graduate/graduate-timeline-faq/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Graduate Application Timeline & FAQ",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://cee.mit.edu/education/undergraduate/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Undergraduate",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://cee.mit.edu/education/undergraduate/undergraduate-minors/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Minors",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://cee.mit.edu/education/undergraduate/undergraduate-student-life/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Undergraduate Student Life",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://cee.mit.edu/history/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "History",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://cee.mit.edu/hubs-centers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "generic",
+        "heuristic_score": 0.55,
+        "anchor_text": "Hubs & Centers",
+        "parent_url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://web.mit.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://web.mit.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://web.mit.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://web.mit.edu/en/people-individual/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://web.mit.edu/en/people-individual/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://web.mit.edu/en/people-individual/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://web.mit.edu/en/people-individual/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://web.mit.edu/people-individual/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://web.mit.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://global.mit.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.mit.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "https://cee.mit.edu/people/researches/",
+      "best_url_kept": 6,
+      "source_breakdown": {
+        "mailto_explicit": 1,
+        "visible_regex": 239,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 54
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://cee.mit.edu/people_individual/admir-masic/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 4,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 1,
+        "page_length": 122111,
+        "visible_text_length": 3153,
+        "embedded_text_length": 242,
+        "embedded_document_count": 3,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "730cf8803642434549c192c5070ba2e966b82ea2",
+        "content_signatures": [
+          "730cf8803642434549c192c5070ba2e966b82ea2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_body|https://web.mit.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "Michelle McManus",
+            "email": "mcmanus1@mit.edu",
+            "role": "Assistant",
+            "page_url": "https://cee.mit.edu/people_individual/admir-masic/",
+            "score": 3,
+            "reason": "low score"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Sustainable Materials Infrastructure",
+            "role": "Associate Professor",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people_individual/admir-masic/",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Sustainable Materials Infrastructure",
+            "raw_role": "Associate Professor",
+            "clean_name": "Sustainable Materials Infrastructure",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Title\nAssociate Professor\nEmail\nmasic@mit.edu\nFaculties\nSustainable Materials & Infrastructure",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://web.mit.edu/search/?redirect-origin=legacy&tab=directory",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 10,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 1565731,
+        "visible_text_length": 16794,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": true,
+        "content_signature": "6f79a63f381f8633d352e31a19ca0e2b8a46ce55",
+        "content_signatures": [
+          "6f79a63f381f8633d352e31a19ca0e2b8a46ce55",
+          "7a37112efe0908b882b92923874d0edd2be135f8",
+          "1c12d5f1ce86ba30ed749d83d79a7e9a3d3b3c64",
+          "f103371109407701e482203be8ad25b08be2f8af",
+          "2018da3232ad29ce4e905571b859d95dcc1e9714",
+          "04121a248b7eba8719bf739a91bddb1a8146ee71"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://web.mit.edu",
+        "mailto_count": 16,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://cee.mit.edu/people/researches/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 14,
+        "kept_contacts": 6,
+        "rejected_contacts": 8,
+        "missing_email_candidates": 2,
+        "page_length": 119126,
+        "visible_text_length": 2463,
+        "embedded_text_length": 252,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "b84302a97ec1420ccad3bd5c931787edbadfd981",
+        "content_signatures": [
+          "b84302a97ec1420ccad3bd5c931787edbadfd981"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_footer|https://cee.mit.edu/people_individual/admir-masic/",
+        "mailto_count": 0,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 14,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 14
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Paul Berube",
+            "email": "pmberube@mit.edu",
+            "role": "Research Associate",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 5,
+            "reason": "ok"
+          },
+          {
+            "name": "Allison Coe",
+            "email": "a_coe@mit.edu",
+            "role": "Technical Associate/Lab Manager",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 5,
+            "reason": "ok"
+          },
+          {
+            "name": "Trent Lemaster",
+            "email": "lemaster@mit.edu",
+            "role": "Research Support Associate 2",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 5,
+            "reason": "ok"
+          },
+          {
+            "name": "Sierra Parker",
+            "email": "sierramp@mit.edu",
+            "role": "Research Support Associate 2",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 5,
+            "reason": "ok"
+          },
+          {
+            "name": "Sofia Salcedo",
+            "email": "esalcedo@mit.edu",
+            "role": "Research Support Associate 2",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 5,
+            "reason": "ok"
+          },
+          {
+            "name": "Patrizia Stadler",
+            "email": "pstadler@mit.edu",
+            "role": "Technical Associate/Lab Manager",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 5,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "Hessam Azarijafari",
+            "email": "hessam@mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Judah Cohen",
+            "email": "jlcohen@mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Evan Fricke",
+            "email": "efricke@mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Eugene Lim",
+            "email": "ejlim@mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Kurt Sternlof",
+            "email": "kurtstur@mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Earle Williams",
+            "email": "earlew@ll.mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 0,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "doval@mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "limulus@media.mit.edu",
+            "role": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Abel Sanchez",
+            "role": "",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Abel Sanchez",
+            "raw_role": "Research Scientist",
+            "clean_name": "Abel Sanchez",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Researchers - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate Graduate Admissions",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "James Weaver",
+            "role": "",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/researches/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "James Weaver",
+            "raw_role": "Principal Research Scientist",
+            "clean_name": "James Weaver",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Researchers - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate Graduate Admissions",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://cee.mit.edu/research/resilient-systems/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 6,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 6,
+        "page_length": 127711,
+        "visible_text_length": 5017,
+        "embedded_text_length": 297,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "500e7867e6430c098bd1f5708b07d62b188f852b",
+        "content_signatures": [
+          "500e7867e6430c098bd1f5708b07d62b188f852b"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://cee.mit.edu/people_individual/admir-masic/",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 5.5,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 6
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Saurabh Amin",
+            "role": "Undergraduate Officer",
+            "email": "",
+            "page_url": "https://cee.mit.edu/research/resilient-systems/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Saurabh Amin",
+            "raw_role": "Undergraduate Officer",
+            "clean_name": "Saurabh Amin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Ali Jadbabaie",
+            "role": "Department Head",
+            "email": "",
+            "page_url": "https://cee.mit.edu/research/resilient-systems/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Ali Jadbabaie",
+            "raw_role": "Department Head",
+            "clean_name": "Ali Jadbabaie",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Moshe E Ben-Akiva",
+            "role": "Department Head; JR East Professor",
+            "email": "",
+            "page_url": "https://cee.mit.edu/research/resilient-systems/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Moshe E. Ben-Akiva",
+            "raw_role": "Department Head; JR East Professor",
+            "clean_name": "Moshe E Ben-Akiva",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Cathy Wu",
+            "role": "Class of 1954 Career Development Professor",
+            "email": "",
+            "page_url": "https://cee.mit.edu/research/resilient-systems/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Cathy Wu",
+            "raw_role": "Class of 1954 Career Development Professor",
+            "clean_name": "Cathy Wu",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Yossi Sheffi",
+            "role": "Professor",
+            "email": "",
+            "page_url": "https://cee.mit.edu/research/resilient-systems/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Yossi Sheffi",
+            "raw_role": "Professor",
+            "clean_name": "Yossi Sheffi",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Simchi-Levi",
+            "role": "Professor in Energy",
+            "email": "",
+            "page_url": "https://cee.mit.edu/research/resilient-systems/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Simchi-Levi",
+            "raw_role": "Professor in Energy",
+            "clean_name": "David Simchi-Levi",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://cee.mit.edu/people/directory/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 85,
+        "kept_contacts": 2,
+        "rejected_contacts": 77,
+        "missing_email_candidates": 2,
+        "page_length": 132227,
+        "visible_text_length": 6932,
+        "embedded_text_length": 817,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "f78b0e4c78a1b9b9078a3160f25485b7c54730b2",
+        "content_signatures": [
+          "f78b0e4c78a1b9b9078a3160f25485b7c54730b2"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://cee.mit.edu/people_individual/admir-masic/",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 12.05,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 85,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Saurabh Amin",
+            "email": "amins@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 13,
+            "reason": "ok"
+          },
+          {
+            "name": "Jarina Shrestha",
+            "email": "jarina@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 13,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "Eric J Alm",
+            "email": "ejalm@mit.edu",
+            "role": "Professor",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Tami Lieberman",
+            "email": "tami@mit.edu",
+            "role": "Career Development Professor",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Tal Cohen",
+            "email": "talco@mit.edu",
+            "role": "Associate Professor, Postdoctoral Chair",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Penny Chisholm",
+            "email": "chisholm@mit.edu",
+            "role": "Institute Professor",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Marygrace A Aboudou",
+            "email": "maboudou@mit.edu",
+            "role": "Senior Administrative Assistant",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "Yasemin Schatz",
+            "email": "yschatz@mit.edu",
+            "role": "Senior Financial Assistant",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 4,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "jvcar@mit.edu",
+            "role": "Career Development Professor in Civil Engineering",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sersaa@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "juanes@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "pmgschwe@mit.edu",
+            "role": "Professor",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jaillet@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ottox@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "obuyuk@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mba@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mick@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mhowland@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mbuehler@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "lbouro@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jhkroll@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "einstein@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hmnepf@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "eltahir@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dplata@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dennism@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dldesmar@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "darae@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "charvey@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "bmarelli@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jadbabai@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "alhassan@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "masic@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "arodoni@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "alaurent@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ajwhittl@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "saragih@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sarom@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "caitlinm@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jiinkang@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cathywu@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cterrer@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ccmei@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "roos@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dstewart@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dslevi@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "kausel@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "facastro@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ulm@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hajink@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hfhemond@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ihonda@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "arzuaga@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jmmarch@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "amayaj@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jao@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "gdevera@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jrw@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "krosa@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cayoub@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "lilizhu@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "lumidi@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "gelhar@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "suryaj@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "gzardini@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "nhmw@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "osm@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "provost@gatech.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "robertap@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "rfjia@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "samataha@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ssmith1@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "smartino@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "stefany@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "srudolph@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "stevenp@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "vmurphy@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "zhaox@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sheffi@mit.edu",
+            "role": "rector",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Josephine V Carstensen",
+            "role": "Career Development Professor in Civil Engineering",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Josephine V. Carstensen",
+            "raw_role": "Career Development Professor in Civil Engineering",
+            "clean_name": "Josephine V Carstensen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Directory - Faculty | Staff | Researchers | Postdocs Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Philip Gschwend",
+            "role": "Professor",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/directory/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Philip Gschwend",
+            "raw_role": "Professor",
+            "clean_name": "Philip Gschwend",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Directory - Faculty | Staff | Researchers | Postdocs Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://cee.mit.edu/people/graduate-students/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 137,
+        "kept_contacts": 0,
+        "rejected_contacts": 127,
+        "missing_email_candidates": 3,
+        "page_length": 137027,
+        "visible_text_length": 7135,
+        "embedded_text_length": 264,
+        "embedded_document_count": 2,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "content_signature": "71c471e7f07c3d907b7b7992965c00bac0992f93",
+        "content_signatures": [
+          "71c471e7f07c3d907b7b7992965c00bac0992f93"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://cee.mit.edu/people_individual/admir-masic/",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 138,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "Vincent Abbott",
+            "email": "vtabbott@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Hassan Al Hashim",
+            "email": "hwhashim@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Isabel Albores",
+            "email": "ialbores@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Yara Alsinan",
+            "email": "yarams@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Ariel Attias",
+            "email": "aattias@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "Amelia Baum",
+            "email": "amelia_b@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 2,
+            "reason": "low score"
+          },
+          {
+            "name": "",
+            "email": "aaga@MIT.EDU",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sdajani@MIT.EDU",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "alhayaza@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "amini95d@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "asturoa@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "wbeis@mit.edu",
+            "role": "Graduate Student",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "abrenner@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cb40@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "yubocai@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "alex629@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "nach40@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "clairecc@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jkschin@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jhooncho@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jhcui@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "junch118@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "tanayd@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "gduguey@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "qearly@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "noahed03@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hayel@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "oaelyas2@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "falagan@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "fiorista@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "melan666@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sfrey37@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "rgiri30@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cdgraham@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "datha@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hawajas@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mingyihe@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "bhealy03@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "kheck@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cheitm8@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hellrich@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mkychsu@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ywhu0109@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "huhc@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "yujun233@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "x1huang@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "aj366@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "youjinj@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "chonghej@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "rjohn316@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "lk360@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "kakokomd@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mkal@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "xndr@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "e_king@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "kelbyh2o@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "adamkrat@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sidhantk@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "d_anne_k@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mlahogue@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "katelane@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "elvishle@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "inhim838@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "alemay@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "kunyin71@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jiarui01@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "weixuan@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "meiqi777@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "zhekaili@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "hanklin@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cylong@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "wl7@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "luojason@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jiali98@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mariaem@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "vm8@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "elijahma@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "storm22@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cmezey@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mille850@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "amoon@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "sarah91@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "imnervik@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "cniss01@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jgorr@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "oywenbin@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jpalmo@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "annika00@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "acparker@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "nparker5@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "fparkins@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "smpeter@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ppetrou1@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "pibou149@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "kels005@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "edgarrs@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "erich55@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "elro13@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "clara02@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ruanj5@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "zschem@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jschug@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ssenhaji@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "yoramds@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "seyyedan@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jsha@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ytshao@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "s_chenan@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "youngin@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jaysiri@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "nsohani@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "istewart@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "tingm@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "etriesch@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "iupfal@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "eldaru@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "willemvo@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "bowenw@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mrwebb@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ziqiwei@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "miw98@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "tyoshino@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "jevan@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "mshzhang@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "tianyuez@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "dingyi@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "pzinnenl@mit.edu",
+            "role": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Educati",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Ashwin Agarwal",
+            "role": "Graduate Student",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Ashwin Agarwal",
+            "raw_role": "Graduate Student",
+            "clean_name": "Ashwin Agarwal",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate Graduate Admissions",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Saleem Al-Dajani",
+            "role": "Graduate Student",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "Saleem Al-Dajani",
+            "raw_role": "Graduate Student",
+            "clean_name": "Saleem Al-Dajani",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate Graduate Admissions",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "William Beiswenger",
+            "role": "Graduate Student",
+            "email": "",
+            "page_url": "https://cee.mit.edu/people/graduate-students/",
+            "source_strategies": [
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "named_contact",
+            "raw_name": "William Beiswenger",
+            "raw_role": "Graduate Student",
+            "clean_name": "William Beiswenger",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Graduate Students - cee.mit.edu Skip to navigation Skip to content Skip to footer About Mission History Give to CEE Contact Careers Community Outreach Rising Stars Workshop Education Undergraduate Undergraduate Degree Minors Undergraduate Research Opportunities Undergraduate Student Life Graduate Graduate Admissions",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      }
+    ]
+  }
+}

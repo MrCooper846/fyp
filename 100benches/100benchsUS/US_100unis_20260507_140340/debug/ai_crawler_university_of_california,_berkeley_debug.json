@@ -1,0 +1,4188 @@
+{
+  "method": "ai_crawler",
+  "university": "University of California, Berkeley",
+  "homepage_url": "https://www.berkeley.edu",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 4,
+    "candidates_probed": 3,
+    "contacts_extracted": 20,
+    "contacts_kept": 0,
+    "time_seconds": 54.11929416656494,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.berkeley.edu/directory/",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 4,
+      "pages_fetched": 4,
+      "successful_fetches": 3,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.berkeley.edu/directory/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Directory",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 12.05,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.berkeley.edu/faculty-staff/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty & Staff",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://vcresearch.berkeley.edu/faculty-expertise",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Faculty profiles",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fwww.berkeley.edu%2Fdirectory%2F%3Fcas%3D1",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Login with CalNet",
+        "parent_url": "https://www.berkeley.edu/directory/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/about/leadership/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://admissions.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Undergraduate",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Admissions Overview",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/about/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "About Overview",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/about/by-the-numbers/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "By the numbers",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/about/experience-berkeley/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Experience Berkeley",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/about/history-discoveries/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "History & discoveries",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/about/traditions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Traditions",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://research.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Undergraduate research",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://vcresearch.berkeley.edu/research-units",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research programs",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/academics/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academics Overview",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/academics/advising-tutoring/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Advising & tutoring",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/academics/schools-colleges/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Schools & colleges",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/atoz/dept/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academic departments & programs",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/campus-life/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Campus Life Overview",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/campus-life/health-safety/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Health & safety",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/campus-life/housing-dining/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Housing & dining",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/map/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Map",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/research/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Research Overview",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/research/museums-and-collections/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Museums and collections",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.berkeley.edu/contact-us/",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Contact Us",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://chancellor.berkeley.edu/people/rosemary-mj-kim",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Office of the Chancellor: Associate Chancellor and Chief of Staff Rosemary Kim",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 16.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://apo.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Academic Personnel Office",
+        "parent_url": "https://www.berkeley.edu/faculty-staff/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 10.45,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://bpr.calnet.berkeley.edu/account-manager/directoryUpdate",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Update your listing",
+        "parent_url": "https://www.berkeley.edu/directory/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.85,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://vpf.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Faculty: Vice Provost Victoria Plaut",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.law.berkeley.edu/our-faculty/faculty-profiles/erwin-chemerinsky/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Law, School of: Erwin Chemerinsky",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://engineering.berkeley.edu/about/leadership-team/meet-dean",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Interim Engineering, College of: Mark Asta",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://studyabroad.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Study Abroad",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": true,
+        "selection_reason": "Focused on study abroad initiatives, likely containing contacts for international relations and mobility coordination."
+      },
+      {
+        "url": "http://evcp.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Executive Vice Chancellor and Provost: Benjamin Hermalin",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://vca.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Administration: Vice Chancellor Marc Fisher",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://grad.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Graduate Studies and Dean of Graduate Division: Vice Provost and Dean Lisa García Bedolla",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://ue.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Undergraduate Education: Vice Provost Oliver O'Reilly",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://vpap.berkeley.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Academic Planning: Vice Provost Lisa Alvarez-Cohen",
+        "parent_url": "https://www.berkeley.edu/about/leadership/",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://grad.berkeley.edu/admissions/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Graduate",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.3,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://guide.berkeley.edu/academic-calendar/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Academic calendar",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://bconnected.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "bConnected",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://calparents.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Parents",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://classes.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Class schedule & courses",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://extension.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "UC Berkeley Extension",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://financialaid.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Financial aid",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://give.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Give",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://my.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://recwell.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Recreation & Wellbeing",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://registrar.berkeley.edu/Registration/feesched.html",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Tuition",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://summer.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Summer Sessions",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://visit.berkeley.edu/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Visit",
+        "parent_url": "https://www.berkeley.edu",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.berkeley.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.berkeley.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.berkeley.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.berkeley.edu/directory/"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.berkeley.edu/faculty-staff/"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://vcresearch.berkeley.edu/faculty-expertise"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.berkeley.edu/about/leadership/"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Benjamin Hermalin"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover David Robinson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Fabrizio Mejia"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Julie Hooper"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kathy Yelick"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Kelly Sparks"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Khira Griscavage"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Lisa Alvarez-Cohen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Lisa García Bedolla"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Marc Fisher"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Oliver O'Reilly"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Rich Lyons"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Rosemary Kim"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Stephen Sutton"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Victoria Plaut"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Benjamin Hermalin"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover David Robinson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Fabrizio Mejia"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Julie Hooper"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kathy Yelick"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Kelly Sparks"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Khira Griscavage"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Lisa Alvarez-Cohen"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Lisa García Bedolla"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Marc Fisher"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Oliver O'Reilly"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Rich Lyons"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Rosemary Kim"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Stephen Sutton"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Rank pages based on their direct relevance to outreach roles, preferring directories and specific program pages over more general content.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.berkeley.edu/directory/",
+          "page_type": "nav",
+          "expected_yield": 12.05
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.berkeley.edu/faculty-staff/",
+          "page_type": "nav",
+          "expected_yield": 10.45
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://vcresearch.berkeley.edu/faculty-expertise",
+          "page_type": "nav",
+          "expected_yield": 8.25
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.berkeley.edu/about/leadership/",
+          "page_type": "nav",
+          "expected_yield": 6.15
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Benjamin Hermalin"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "David Robinson"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Fabrizio Mejia"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Julie Hooper"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kathy Yelick"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Kelly Sparks"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Khira Griscavage"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Lisa Alvarez-Cohen"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Lisa García Bedolla"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Marc Fisher"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Oliver O'Reilly"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Rich Lyons"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Rosemary Kim"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Stephen Sutton"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Victoria Plaut"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Benjamin Hermalin"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "David Robinson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Fabrizio Mejia"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Julie Hooper"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kathy Yelick"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Kelly Sparks"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Khira Griscavage"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Lisa Alvarez-Cohen"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Lisa García Bedolla"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Marc Fisher"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Oliver O'Reilly"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Rich Lyons"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Rosemary Kim"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Stephen Sutton"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Rank pages based on their direct relevance to outreach roles, preferring directories and specific program pages over more general content.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Only the top relevant pages were selected.",
+        "ranked_pages": [
+          {
+            "url": "https://www.berkeley.edu/directory/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 12.05,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.berkeley.edu/faculty-staff/",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 10.45,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://vcresearch.berkeley.edu/faculty-expertise",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.berkeley.edu/about/leadership/",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 6.15,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://studyabroad.berkeley.edu/",
+            "reason": "Focused on study abroad initiatives, likely containing contacts for international relations and mobility coordination.",
+            "expected_yield": 7.0,
+            "page_type": "program"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.berkeley.edu/directory/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.berkeley.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.berkeley.edu",
+        "page_family": "directory",
+        "expected_yield": 12.05,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 3120,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2544,
+        "embedded_text_length": 574,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions Office",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions Office",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad Office",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/directory/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "a2fde492acf062524a3a208bcdf7a2edc156dc25"
+      },
+      {
+        "url": "https://www.berkeley.edu/faculty-staff/",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.berkeley.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.berkeley.edu",
+        "page_family": "directory",
+        "expected_yield": 10.45,
+        "family_signature": null,
+        "raw_contacts_found": 3,
+        "text_length": 2451,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1852,
+        "embedded_text_length": 597,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "International Admissions",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "Study Abroad",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Study Abroad",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/faculty-staff/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 3,
+        "clean_candidate_count": 3,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 3,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "c2e75fca2bdcc80d9e8789dd45adaa4e8a9b4ac4"
+      },
+      {
+        "url": "https://vcresearch.berkeley.edu/faculty-expertise",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.berkeley.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.berkeley.edu",
+        "page_family": "directory",
+        "expected_yield": 8.25,
+        "family_signature": null,
+        "raw_contacts_found": 0,
+        "text_length": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "raw_evidence": [],
+        "assembled_candidates": [],
+        "cleaned_candidates": [],
+        "typed_candidates": [],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 0,
+        "clean_candidate_count": 0,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": null
+      },
+      {
+        "url": "https://www.berkeley.edu/about/leadership/",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.berkeley.edu",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.berkeley.edu",
+        "page_family": "governance",
+        "expected_yield": 6.15,
+        "family_signature": null,
+        "raw_contacts_found": 15,
+        "text_length": 4606,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 4309,
+        "embedded_text_length": 295,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "Rich Lyons",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rich Lyons",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Benjamin Hermalin",
+            "role": "Executive Vice Chancellor and Provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Benjamin Hermalin",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marc Fisher",
+            "role": "Vice Chancellor Administration",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marc Fisher",
+            "raw_role": "Vice Chancellor Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Fabrizio Mejia",
+            "role": "Vice Chancellor Equity & Inclusion",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Fabrizio Mejia",
+            "raw_role": "Vice Chancellor Equity & Inclusion",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kelly Sparks",
+            "role": "Vice Chancellor Finance",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kelly Sparks",
+            "raw_role": "Vice Chancellor Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Robinson",
+            "role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Robinson",
+            "raw_role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kathy Yelick",
+            "role": "Vice Chancellor Research",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Yelick",
+            "raw_role": "Vice Chancellor Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stephen Sutton",
+            "role": "Vice Chancellor Student Affairs",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephen Sutton",
+            "raw_role": "Vice Chancellor Student Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Julie Hooper",
+            "role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Julie Hooper",
+            "raw_role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rosemary Kim",
+            "role": "Associate Chancellor and Chief of Staff",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rosemary Kim",
+            "raw_role": "Associate Chancellor and Chief of Staff",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Khira Griscavage",
+            "role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Khira Griscavage",
+            "raw_role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lisa Alvarez-Cohen",
+            "role": "Vice Provost Academic Planning",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa Alvarez-Cohen",
+            "raw_role": "Vice Provost Academic Planning",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Victoria Plaut",
+            "role": "Vice Provost Faculty",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Victoria Plaut",
+            "raw_role": "Vice Provost Faculty",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lisa García Bedolla",
+            "role": "Vice Provost and Dean of Graduate Division",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa García Bedolla",
+            "raw_role": "Vice Provost and Dean of Graduate Division",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Oliver O'Reilly",
+            "role": "Vice Provost Undergraduate Education",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Oliver O'Reilly",
+            "raw_role": "Vice Provost Undergraduate Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Rich Lyons",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rich Lyons",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Benjamin Hermalin",
+            "role": "Executive Vice Chancellor and Provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Benjamin Hermalin",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marc Fisher",
+            "role": "Vice Chancellor Administration",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marc Fisher",
+            "raw_role": "Vice Chancellor Administration",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Fabrizio Mejia",
+            "role": "Vice Chancellor Equity & Inclusion",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Fabrizio Mejia",
+            "raw_role": "Vice Chancellor Equity & Inclusion",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kelly Sparks",
+            "role": "Vice Chancellor Finance",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kelly Sparks",
+            "raw_role": "Vice Chancellor Finance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Robinson",
+            "role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Robinson",
+            "raw_role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kathy Yelick",
+            "role": "Vice Chancellor Research",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Yelick",
+            "raw_role": "Vice Chancellor Research",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stephen Sutton",
+            "role": "Vice Chancellor Student Affairs",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephen Sutton",
+            "raw_role": "Vice Chancellor Student Affairs",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Julie Hooper",
+            "role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Julie Hooper",
+            "raw_role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rosemary Kim",
+            "role": "Associate Chancellor and Chief of Staff",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rosemary Kim",
+            "raw_role": "Associate Chancellor and Chief of Staff",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Khira Griscavage",
+            "role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Khira Griscavage",
+            "raw_role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lisa Alvarez-Cohen",
+            "role": "Vice Provost Academic Planning",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa Alvarez-Cohen",
+            "raw_role": "Vice Provost Academic Planning",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Victoria Plaut",
+            "role": "Vice Provost Faculty",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Victoria Plaut",
+            "raw_role": "Vice Provost Faculty",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lisa García Bedolla",
+            "role": "Vice Provost and Dean of Graduate Division",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa García Bedolla",
+            "raw_role": "Vice Provost and Dean of Graduate Division",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Oliver O'Reilly",
+            "role": "Vice Provost Undergraduate Education",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Oliver O'Reilly",
+            "raw_role": "Vice Provost Undergraduate Education",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Rich Lyons",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rich Lyons",
+            "raw_role": "Chancellor",
+            "clean_name": "Rich Lyons",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Benjamin Hermalin",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Benjamin Hermalin",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "Benjamin Hermalin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Marc Fisher",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marc Fisher",
+            "raw_role": "Vice Chancellor Administration",
+            "clean_name": "Marc Fisher",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Fabrizio Mejia",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Fabrizio Mejia",
+            "raw_role": "Vice Chancellor Equity & Inclusion",
+            "clean_name": "Fabrizio Mejia",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kelly Sparks",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kelly Sparks",
+            "raw_role": "Vice Chancellor Finance",
+            "clean_name": "Kelly Sparks",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "David Robinson",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Robinson",
+            "raw_role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "clean_name": "David Robinson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Kathy Yelick",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Yelick",
+            "raw_role": "Vice Chancellor Research",
+            "clean_name": "Kathy Yelick",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Stephen Sutton",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephen Sutton",
+            "raw_role": "Vice Chancellor Student Affairs",
+            "clean_name": "Stephen Sutton",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Julie Hooper",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Julie Hooper",
+            "raw_role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "clean_name": "Julie Hooper",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Rosemary Kim",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rosemary Kim",
+            "raw_role": "Associate Chancellor and Chief of Staff",
+            "clean_name": "Rosemary Kim",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Khira Griscavage",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Khira Griscavage",
+            "raw_role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "clean_name": "Khira Griscavage",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lisa Alvarez-Cohen",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa Alvarez-Cohen",
+            "raw_role": "Vice Provost Academic Planning",
+            "clean_name": "Lisa Alvarez-Cohen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Victoria Plaut",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Victoria Plaut",
+            "raw_role": "Vice Provost Faculty",
+            "clean_name": "Victoria Plaut",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Lisa García Bedolla",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa García Bedolla",
+            "raw_role": "Vice Provost and Dean of Graduate Division",
+            "clean_name": "Lisa García Bedolla",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Oliver O'Reilly",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Oliver O'Reilly",
+            "raw_role": "Vice Provost Undergraduate Education",
+            "clean_name": "Oliver O'Reilly",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Rich Lyons",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rich Lyons",
+            "raw_role": "Chancellor",
+            "clean_name": "Rich Lyons",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Benjamin Hermalin",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Benjamin Hermalin",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "Benjamin Hermalin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Marc Fisher",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Marc Fisher",
+            "raw_role": "Vice Chancellor Administration",
+            "clean_name": "Marc Fisher",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Fabrizio Mejia",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Fabrizio Mejia",
+            "raw_role": "Vice Chancellor Equity & Inclusion",
+            "clean_name": "Fabrizio Mejia",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Kelly Sparks",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kelly Sparks",
+            "raw_role": "Vice Chancellor Finance",
+            "clean_name": "Kelly Sparks",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "David Robinson",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "David Robinson",
+            "raw_role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "clean_name": "David Robinson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Kathy Yelick",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Kathy Yelick",
+            "raw_role": "Vice Chancellor Research",
+            "clean_name": "Kathy Yelick",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Stephen Sutton",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Stephen Sutton",
+            "raw_role": "Vice Chancellor Student Affairs",
+            "clean_name": "Stephen Sutton",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Julie Hooper",
+            "role": "vice chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Julie Hooper",
+            "raw_role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "clean_name": "Julie Hooper",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Rosemary Kim",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Rosemary Kim",
+            "raw_role": "Associate Chancellor and Chief of Staff",
+            "clean_name": "Rosemary Kim",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Khira Griscavage",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Khira Griscavage",
+            "raw_role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "clean_name": "Khira Griscavage",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Lisa Alvarez-Cohen",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa Alvarez-Cohen",
+            "raw_role": "Vice Provost Academic Planning",
+            "clean_name": "Lisa Alvarez-Cohen",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Victoria Plaut",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Victoria Plaut",
+            "raw_role": "Vice Provost Faculty",
+            "clean_name": "Victoria Plaut",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Lisa García Bedolla",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Lisa García Bedolla",
+            "raw_role": "Vice Provost and Dean of Graduate Division",
+            "clean_name": "Lisa García Bedolla",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          },
+          {
+            "name": "Oliver O'Reilly",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Oliver O'Reilly",
+            "raw_role": "Vice Provost Undergraduate Education",
+            "clean_name": "Oliver O'Reilly",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "US"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 15
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 15,
+        "clean_candidate_count": 15,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 15,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Rich Lyons",
+            "role": "chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Rich Lyons",
+            "raw_role": "Chancellor",
+            "clean_name": "Rich Lyons",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Benjamin Hermalin",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Benjamin Hermalin",
+            "raw_role": "Executive Vice Chancellor and Provost",
+            "clean_name": "Benjamin Hermalin",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Marc Fisher",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Marc Fisher",
+            "raw_role": "Vice Chancellor Administration",
+            "clean_name": "Marc Fisher",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Fabrizio Mejia",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Fabrizio Mejia",
+            "raw_role": "Vice Chancellor Equity & Inclusion",
+            "clean_name": "Fabrizio Mejia",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Kelly Sparks",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kelly Sparks",
+            "raw_role": "Vice Chancellor Finance",
+            "clean_name": "Kelly Sparks",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "David Robinson",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "David Robinson",
+            "raw_role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+            "clean_name": "David Robinson",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Kathy Yelick",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Kathy Yelick",
+            "raw_role": "Vice Chancellor Research",
+            "clean_name": "Kathy Yelick",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Stephen Sutton",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Stephen Sutton",
+            "raw_role": "Vice Chancellor Student Affairs",
+            "clean_name": "Stephen Sutton",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": null,
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Julie Hooper",
+            "role": "vice chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Julie Hooper",
+            "raw_role": "Interim Vice Chancellor University Development and Alumni Relations",
+            "clean_name": "Julie Hooper",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Rosemary Kim",
+            "role": "chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Rosemary Kim",
+            "raw_role": "Associate Chancellor and Chief of Staff",
+            "clean_name": "Rosemary Kim",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Khira Griscavage",
+            "role": "chancellor",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Khira Griscavage",
+            "raw_role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+            "clean_name": "Khira Griscavage",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Lisa Alvarez-Cohen",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Lisa Alvarez-Cohen",
+            "raw_role": "Vice Provost Academic Planning",
+            "clean_name": "Lisa Alvarez-Cohen",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Victoria Plaut",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Victoria Plaut",
+            "raw_role": "Vice Provost Faculty",
+            "clean_name": "Victoria Plaut",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "query_directory_by_name",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 3,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 0,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Lisa García Bedolla",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Lisa García Bedolla",
+            "raw_role": "Vice Provost and Dean of Graduate Division",
+            "clean_name": "Lisa García Bedolla",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          },
+          {
+            "name": "Oliver O'Reilly",
+            "role": "provost",
+            "country": "US",
+            "page_url": "https://www.berkeley.edu/about/leadership/",
+            "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Oliver O'Reilly",
+            "raw_role": "Vice Provost Undergraduate Education",
+            "clean_name": "Oliver O'Reilly",
+            "status": "site_exhausted",
+            "goal": "resolve_email",
+            "next_action": "search_web_for_person",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 2,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 0,
+              "pattern": 0
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 6.15
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "4b375e779855d684f27e981c69e744447dc81691"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Rich Lyons",
+        "role": "chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Rich Lyons",
+        "raw_role": "Chancellor",
+        "clean_name": "Rich Lyons",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Benjamin Hermalin",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Benjamin Hermalin",
+        "raw_role": "Executive Vice Chancellor and Provost",
+        "clean_name": "Benjamin Hermalin",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Marc Fisher",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Marc Fisher",
+        "raw_role": "Vice Chancellor Administration",
+        "clean_name": "Marc Fisher",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Fabrizio Mejia",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Fabrizio Mejia",
+        "raw_role": "Vice Chancellor Equity & Inclusion",
+        "clean_name": "Fabrizio Mejia",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Kelly Sparks",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kelly Sparks",
+        "raw_role": "Vice Chancellor Finance",
+        "clean_name": "Kelly Sparks",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "David Robinson",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "David Robinson",
+        "raw_role": "Vice Chancellor Legal Affairs and Chief Campus Counsel",
+        "clean_name": "David Robinson",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Kathy Yelick",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Kathy Yelick",
+        "raw_role": "Vice Chancellor Research",
+        "clean_name": "Kathy Yelick",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Stephen Sutton",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Stephen Sutton",
+        "raw_role": "Vice Chancellor Student Affairs",
+        "clean_name": "Stephen Sutton",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": null,
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Julie Hooper",
+        "role": "vice chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Julie Hooper",
+        "raw_role": "Interim Vice Chancellor University Development and Alumni Relations",
+        "clean_name": "Julie Hooper",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Rosemary Kim",
+        "role": "chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Rosemary Kim",
+        "raw_role": "Associate Chancellor and Chief of Staff",
+        "clean_name": "Rosemary Kim",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Khira Griscavage",
+        "role": "chancellor",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Khira Griscavage",
+        "raw_role": "Associate Chancellor and Chief Ethics, Risk and Compliance Officer",
+        "clean_name": "Khira Griscavage",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Lisa Alvarez-Cohen",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Lisa Alvarez-Cohen",
+        "raw_role": "Vice Provost Academic Planning",
+        "clean_name": "Lisa Alvarez-Cohen",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Victoria Plaut",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Victoria Plaut",
+        "raw_role": "Vice Provost Faculty",
+        "clean_name": "Victoria Plaut",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "query_directory_by_name",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 3,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 0,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Lisa García Bedolla",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Lisa García Bedolla",
+        "raw_role": "Vice Provost and Dean of Graduate Division",
+        "clean_name": "Lisa García Bedolla",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      },
+      {
+        "name": "Oliver O'Reilly",
+        "role": "provost",
+        "country": "US",
+        "page_url": "https://www.berkeley.edu/about/leadership/",
+        "page_context": "Leadership - University of California, Berkeley Skip to content Skip to main menu Skip to main menu Students Faculty & Staff Parents Alumni Give Map Directory bConnected News Search this site Toggle navigation Search this site Map Directory bConnected News About About Overview By the numbers History & discoveries Traditions Experience Berkeley Visit Leadership Admissions Admissions Overview Undergraduate Graduate Financial aid Tuition UC Berkeley Extension Summer Sessions Study Abroad Academics",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Oliver O'Reilly",
+        "raw_role": "Vice Provost Undergraduate Education",
+        "clean_name": "Oliver O'Reilly",
+        "status": "site_exhausted",
+        "goal": "resolve_email",
+        "next_action": "search_web_for_person",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 2,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 0,
+          "pattern": 0
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 6.15
+      }
+    ],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

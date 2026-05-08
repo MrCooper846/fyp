@@ -1,0 +1,107 @@
+{
+  "method": "ai_crawler",
+  "university": "Washington University in St. Louis",
+  "homepage_url": "http://wustl.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 0,
+    "candidates_ranked": 0,
+    "probe_attempts": 0,
+    "candidates_probed": 0,
+    "contacts_extracted": 0,
+    "contacts_kept": 0,
+    "time_seconds": 0.3781147003173828,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "",
+    "source_breakdown": {}
+  },
+  "contacts": [],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "no_high_value_actions_remaining",
+      "probe_attempts": 0,
+      "pages_fetched": 0,
+      "successful_fetches": 0,
+      "llm_calls": 0
+    },
+    "discovery_trace": [],
+    "discovery_strategy_trace": [],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "stop",
+        "reason": "no_actions_remaining",
+        "goal": "no_high_value_actions_remaining"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rescue_homepage",
+        "reason": "discovery_entrypoint_recovered",
+        "details": {
+          "from": "http://wustl.edu/",
+          "to": "http://wustl.edu",
+          "method": "web_search_query"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "no_candidates_found",
+        "details": {
+          "count": 0,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "rank_candidates",
+        "reason": "gap_fill",
+        "details": {
+          "count": 0
+        }
+      },
+      {
+        "action": "stop_with_reason",
+        "reason": "no_high_value_actions_remaining",
+        "details": {}
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "no_candidates_found",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "No candidate pages discovered",
+        "ranked_pages": []
+      },
+      {
+        "phase": "gap_fill",
+        "strategy": "deterministic_unvisited_candidates",
+        "ranked_pages": []
+      }
+    ],
+    "extraction_trace": [],
+    "pruned_candidates": [],
+    "missing_email_candidates": [],
+    "rejected_contacts": [],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

@@ -1,0 +1,3704 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Birmingham",
+  "homepage_url": "http://www.birmingham.ac.uk/index.aspx",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 5,
+    "candidates_probed": 5,
+    "contacts_extracted": 20,
+    "contacts_kept": 1,
+    "time_seconds": 36.202716588974,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+    "source_breakdown": {}
+  },
+  "contacts": [
+    {
+      "name": "Mary Elliston",
+      "email": "m.e.elliston@bham.ac.uk",
+      "role": "global engagement",
+      "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+      "score": 0,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": false,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "loop_completed",
+      "probe_attempts": 5,
+      "pages_fetched": 5,
+      "successful_fetches": 5,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/policies-and-procedures.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Policies and procedures for conducting our business",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/what-we-spend-and-how-we-spend-it.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Funding and income",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/colleges/professional/external/birmingham-global",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Contact the Birmingham Global team",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Governance",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Policies and regulations",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/policies-regs/information",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/leadership/governance/publication-scheme",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Publication Scheme",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/policies-regs/information",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/leadership",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Leadership",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.15,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Discover our global engagement",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Discover our global engagement",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Publication scheme",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations/freedom-of-information",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Freedom of information",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/policies-regs/information",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Freedom of information",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/charitable",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Charitable information",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "North America",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "This page provides details on partnerships in North America, aligning well with outreach efforts related to international partnerships and collaboration."
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/brazil-institute",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "University of Birmingham Brazil Institute",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/china-institute",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "University of Birmingham China Institute",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/europe-hub",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Europe Hub",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/india-institute",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "University of Birmingham India Institute.",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/universitas-21",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Universitas 21 (U21): Global Network for Higher Education",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/the-exchange/events/helios",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Find out more about this stunning exhibition",
+        "parent_url": "http://www.birmingham.ac.uk/",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.8,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/council",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Council homepage",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/charitable",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/legislation",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Legislation",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/charitable",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/transparency-condition",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Transparency condition information",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.35,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/council/accounts",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Financial Statements",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/charitable",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/how-we-make-decisions.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Council",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/lists-and-registers.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Assets",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/what-our-priorities-are.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Our priorities",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/what-we-spend-and-how-we-spend-it",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Our Annual Accounts",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/who-we-are-and-what-we-do",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "A brief history",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/who-we-are-and-what-we-do.aspx",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Legal framework",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.9,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "About us",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "UK",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Home",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Collaborate",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/dubai",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_header",
+        "anchor_text": "Dubai",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/dubai",
+        "source_type": "header",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_header",
+        "anchor_text": "Dubai",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/dubai/about/contact",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Contact us",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.4,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/contact",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Contact information",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/contact/feedback",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Website feedback",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/contact/we-chat",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "University of Birmingham We Chat",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/about/our-campus/services-facilities",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Services and facilities",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/our-campus/services-facilities",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Services and facilities",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 2.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/study/applicants",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Information for applicants",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/study/applicants",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Information for applicants",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/dubai/about/campus",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Campus",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/dubai/about/campus/history-heritage",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "History and heritage",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.75,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/accessibility",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Accessibility",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/legal",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Legal",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/legal/modern-slavery",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Modern slavery",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/privacy",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "anchor_text": "Privacy",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.birmingham.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://global.birmingham.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "http://international.birmingham.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.birmingham.ac.uk/international/global-engagement"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Robin Mason"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Robin Mason"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Robin Mason"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Robin Mason"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect http://www.birmingham.ac.uk/dubai/collaborate/global-engagement"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.birmingham.ac.uk/about/leadership/governance"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Chris Ellison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Colette McDonough"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Hayley Brooks"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mervyn Walker"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Paul Bowman"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Sandie Okoro Obe"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Chris Ellison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Colette McDonough"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Hayley Brooks"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mervyn Walker"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Paul Bowman"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Sandie Okoro Obe"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Chris Ellison"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Colette McDonough"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Hayley Brooks"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mervyn Walker"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Paul Bowman"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Sandie Okoro Obe"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Chris Ellison"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Colette McDonough"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Hayley Brooks"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Mervyn Walker"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Paul Bowman"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Sandie Okoro Obe"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "loop_completed"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Focus on pages that specifically address global engagement and international partnerships to maximize outreach contact potential.",
+        "details": {
+          "count": 5,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.birmingham.ac.uk/international/global-engagement",
+          "page_type": "footer",
+          "expected_yield": 11.5
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Robin Mason"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Robin Mason"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Robin Mason"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Robin Mason"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page provides details on partnerships in North America, aligning well with outreach efforts related to international partnerships and collaboration.",
+        "details": {
+          "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+          "page_type": "partnerships page",
+          "expected_yield": 8.0
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+          "page_type": "footer",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.birmingham.ac.uk/about/leadership/governance",
+          "page_type": "nav",
+          "expected_yield": 8.35
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Chris Ellison"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Colette McDonough"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Hayley Brooks"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mervyn Walker"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Paul Bowman"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Sandie Okoro Obe"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Chris Ellison"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Colette McDonough"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Hayley Brooks"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mervyn Walker"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Paul Bowman"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Sandie Okoro Obe"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Chris Ellison"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Colette McDonough"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Hayley Brooks"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mervyn Walker"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Paul Bowman"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Sandie Okoro Obe"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Chris Ellison"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Colette McDonough"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Hayley Brooks"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Mervyn Walker"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Paul Bowman"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Sandie Okoro Obe"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_top_heuristic:nav",
+        "details": {
+          "url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+          "page_type": "nav",
+          "expected_yield": 8.35
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Focus on pages that specifically address global engagement and international partnerships to maximize outreach contact potential.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Limit to high-yield pages directly involved with international outreach.",
+        "ranked_pages": [
+          {
+            "url": "https://www.birmingham.ac.uk/international/global-engagement",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 11.5,
+            "page_type": "footer"
+          },
+          {
+            "url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.3,
+            "page_type": "footer"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.35,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.35,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "reason": "This page provides details on partnerships in North America, aligning well with outreach efforts related to international partnerships and collaboration.",
+            "expected_yield": 8.0,
+            "page_type": "partnerships page"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "parent_url": "http://www.birmingham.ac.uk/index.aspx",
+        "shell_context_key": "real_link_multihop|homepage_footer|http://www.birmingham.ac.uk/index.aspx",
+        "page_family": "international",
+        "expected_yield": 11.5,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 4008,
+        "acquisition_modes": [
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 2705,
+        "embedded_text_length": 1302,
+        "embedded_document_count": 3,
+        "raw_evidence": [
+          {
+            "name": "Robin Mason",
+            "role": "Pro-Vice-Chancellor (International)",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/international/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robin Mason",
+            "raw_role": "Pro-Vice-Chancellor (International)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Robin Mason",
+            "role": "Pro-Vice-Chancellor (International)",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/international/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robin Mason",
+            "raw_role": "Pro-Vice-Chancellor (International)",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Robin Mason",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/international/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robin Mason",
+            "raw_role": "Pro-Vice-Chancellor (International)",
+            "clean_name": "Robin Mason",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Robin Mason",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/international/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Robin Mason",
+            "raw_role": "Pro-Vice-Chancellor (International)",
+            "clean_name": "Robin Mason",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 1,
+        "junk_candidate_count": 0,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Robin Mason",
+            "role": "vice-chancellor",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/international/global-engagement",
+            "page_context": "Strategic Global Engagement - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home Collaborate Strategic Global Engagement The University collaborates with partners across the world to produce ground-breaking research, deliver innovative teaching, and to create opportunities for students and staff to gain international experience. We are responsible for supporting the overarching international strategy with a focus on",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Robin Mason",
+            "raw_role": "Pro-Vice-Chancellor (International)",
+            "clean_name": "Robin Mason",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 11.5
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "82abf0a7d919c9c2782286e9dc3749e628d4042c",
+        "zero_evidence_shell": true,
+        "zero_evidence_shell_repeat_count": 1
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+        "reason": "This page provides details on partnerships in North America, aligning well with outreach efforts related to international partnerships and collaboration.",
+        "page_type": "partnerships page",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.birmingham.ac.uk/international/global-engagement",
+        "page_family": "international",
+        "expected_yield": 8.0,
+        "family_signature": null,
+        "raw_contacts_found": 4,
+        "text_length": 11985,
+        "acquisition_modes": [
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 11668,
+        "embedded_text_length": 322,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "m.e.elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Should you wish to discuss the fund further please contact Mary Elliston at\nM.E.Elliston@bham.ac.uk",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "m.e.elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "visible_regex"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "",
+            "raw_role": "global engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "North America - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home Collaborate Global engagement North America Strategic engagement in North America As a key strategic region, we significantly invest in North America to support and encourage academic engagement. We have built a strong network of faculty relationships with leading academic institutions, resulting in significant research outcomes and funding successes. Our educational initiatives include new exchange partnerships, prestigious internships, and collaborative teaching arrangements. At Birmingham, we have pursued a focused North American engagement strategy, particularly in Illinois with the University of Illinois Urbana-Champaign , Chicago (our sister city), and McMaster University in Canada. Our innovative approach integrates civic, academic, and cultural engagement to raise our profile and foster signature partnerships with world-class institutions. The Sister City relationship with Chicago is rooted in shared characteristics, including our work with The Shakespeare Institute and the Chicago Shakespeare Theatre. Both Birmingham and Chicago, as \"second cities\", have distinct identities, known for their industrial heritage and cultural contributions. We continue to collaborate with North American institutions, partners, and politicians to ensure world-class opportunities for our students and researchers. We also focus on sports diplomacy, which includes our Ivy League athletics exchange . Funding Explore what funding opportunities are available for research collaborations between the University of Birmingham and our US partnerships. Birmingham International Engagement Fund (BIEF) Further information on the Birmingham International Engagement Fund can be found at: Internal Funding Opportunities . BIRMAC Seed Fund The University of Birmingham and McMaster University are delighted to launch the annual BIRMAC Project and Ideas Fund. In October 2021 the University of Birmingham and McMaster University signed a formal agreement to create a framework for collaboration and partnership between the two institutions. McMaster University and the University of Birmingham have historic similarities, shared interests and recognise that to achieve exceptional research outcomes and the best possible student experience, constant nurture and support is necessary and cannot be done in isolation. To help support academic collaboration between our two globally-leading universities, we have established the Projects and Ideas Fund: a seed fund created with matching funding from each university designed to identify, establish and develop first-rate research projects and student outcomes. Overview The fund’s objective is to support new initiatives by providing bridge funding between ideas and the first grant, or academic initiative. The funding is designed to enable individuals to identify complementary strengths, leverage synergy, and design new outstanding research and education projects and opportunities for academic excellence across all disciplines. The funding will seed and enable the development of deep partnerships through joint initiatives, which for example, could include (but is not limited to): Intensive academic research and/or education workshops leading to future long-term collaborations. Short-term visits for both young and established academics, or senior staff, enabling new and innovative long-term collaborations. Research-oriented teaching opportunities, such as for instance the development of new experiential seminars, bringing together PhD Candidates and Post-Doctoral Fellows. Application Applications are now open! Academics and professional services staff wishing to access funding must submit an application using the online application form. Find an academic to support your project: University of Birmingham McMaster University Please submit one application per project The deadline to submit your application is 31 March 2026 at 11:59 EST/ 04:59 GMT. The outcome of all applications will be announced on or after 15 May 2026. Additional Information Full details can be found in the BIRMAC Project and Ideas Fund Application Guidance Document . Should you wish to discuss the fund further please contact Mary Elliston at M.E.Elliston@bham.ac.uk BRIDGE Seed Fund Applications are now open for the BRIDGE 2026 SEED Fund. You can find details and how to apply here . BRIDGE Global South Visiting Fellows Programme Please visit Global South Fellowship Programme Previous recipients Year Name University college Home University 2025-2026 Carolina Muros Cortés College of Medicine and Health University of Buenos Aires 2025-2026 Kaktcham Pierre Marie College of Medicine and Health University of Dschang, Cameroon 2025-2026 Sadaf Mehmood College of Arts and Law Quaid-i-Azam University 2025-2026 Tulio Hallak Panzera College of Life and Environmental Sciences Federal University of São João del Rei 2025-2026 Naima Qureshi College of Social Sciences University of Education, Lahore Fulbright Distinguished Chair The Fulbright Commission was established in 1948 to foster mutual educational understanding between the US and the UK through academic exchange. Today, the Fulbright Program operates globally with the assistance of binational commissions and foundations in 49 countries, and US embassies in more than 100 other countries. The University of Birmingham is proud to participate in many of the available schemes that Fulbright has to offer. Each academic year the University of Birmingham hosts a Fulbright Distinguished Chair, the most prestigious Fulbright award. This generous six-month secondment enables a prominent US professor to be based at the University of Birmingham, with access to all the University’s research collections, and will provide an opportunity to undertake research and build links in the UK. For further information regarding the Fulbright Distinguished Chair Award, please visit the Fulbright website . Previous Recipients Year Name Subject University 2024 - 2025 George Mangun Psychology University of California-Davis 2024 - 2025 Shaun Gabbidon Criminology Penn State Harrisburg 2023 - 2024 Changqing Wu Agriculture University of Delaware 2023 - 2024 Matthew Winters Political Science University of Illinois at Urbana-Champaign 2022 - 2023 Kenneth MacLeod Geology University of Missouri, Columbia 2019 - 2020 Wendy Kline History Purdue University (Indiana) 2018 - 2019 Stephan Weiler Economics Colorado State University 2017 - 2018 Kalu Ogbureke Dental Science University of Texas Health Science Center, Houston 2016 - 2017 Erik Luna Law Arizona State University 2015 - 2016 Brian Linn History Texas A&M University 2014 - 2015 David Stoesz Public Policy University of Illinois, Springfield “Everyone should have a Fulbright experience. The world would undoubtedly be a better and more tolerant place if they did. My time in the UK transformed my professional and personal life. I am deeply grateful for having had the opportunity.” - Professor Donald Behringer, Fulbright US Scholar, 2015-16 Fulbright Scholar Award The University also offers a Fulbright-University of Birmingham Scholar award annually, whereby a researcher based at a US institution may visit the University of Birmingham for a period of 3–9 months to conduct research in any subject. For further information regarding the Fulbright Scholarships at the University of Birmingham, please see the Fulbright website. We are also happy to host holders of Fulbright Scholar Awards (all disciplines) who wish to conduct research in the conducive environment of the University and its campus. Previous recipients Year Name Subject University 2025-2026 Ryan Martin Mathematics Iowa State University 2024 - 2025 Gokhan Ersan Design Binghamton University 2023 - 2024 Kelly Davis Psychology Arizona State University - Downton Phoenix 2022 - 2023 Ilyse Moregnstein Furest Religious Studies University of Vermont 2021 - 2022 Adam Ward Environmental Sciences Indiana University, Bloomington 2020 - 2021 Paul Nicholas History Fordham University(New York) 2019 - 2020 Bradley Sageman Geology Northwestern University (Illinois) 2018 - 2019 (70th Anniversary Award) Lauren Heidbrink Anthropology California State University, Long Beach 2017 - 2018 Rebecca Klaper Environmental Sciences University of Wisconsin, Milwaukee 2016 - 2017 (Distinguished Award in Teaching) Denise Bruxelles Education Washington Heights Expeditionary Learning School (New York) 2016 - 2017 Charles Gallagher Sociology La Salle University (Pennsylvania) 2016 - 2017 (Global Scholar Award) Kirilka Stravreva Literature Cornell College (New York) 2015 - 2016 Melody Barnett Deusner Art History Indiana University, Bloomington 2014 - 2015 Angela Eikenberry Public Administration University of Nebraska, Omaha 2013 - 2014 Paul Kapp Architecture University of Illinois Alumni Spotlight “I can't imagine a more supportive and professional environment than the one I had at the University of Birmingham's Department of Social Policy, Sociology and Criminology. I have to believe this is exactly what Senator Fulbright envisioned when he imagined a way to create cultural and intellectual experiences between nations through universities.\" - Dr Charles Gallagher, LaSalle University. Fulbright US Scholar to the University of Birmingham, 2016-17 Marshall Scholars Marshall Scholarships finance young Americans of high ability to study for a degree in the United Kingdom. Up to fifty Scholars are selected each year to study at graduate level at an UK institution in any field of study. Previous Recipients Year Name Subject 2024 Eva Rothenberg MA Applied Linguistics 2023 Abdelhamid Arbab MA Islamic Studies 2017 Nancy Fairbank Msc International Development Postgraduate Scholarship Opportunities for US Students At the University of Birmingham we are committed to supporting and growing academic engagement with the US as one of our key strategic international territories. We offer a range of fellowship opportunities for US students and faculty to come to the University of Birmingham and gain valuable transatlantic experience. Please see our Postgraduate Funding database . Partnerships Canada Find out more about our partnership with McMaster USA Find out more about our partnership with Iliinois Go to previous item Go to next item Birmingham-Illinois Partnership for Discovery, Engagement & Education See our partnership with the University of Illinois Urbana-Champaign through BRIDGE UPenn Relays 2025 UoB student-athletes marked 63 years of Ivy League exchange by smashing records at UPenn. 2025 IIE Heiskell Award with Illinois Birmingham and Illinois are proudly recognised for connecting across borders Explore our research Find out what scholars from our existing partnerships are researching. Edgbaston Birmingham, B15 2TT United Kingdom Tel: +44 (0)121 414 3344 University of Birmingham Instagram page University of Birmingham LinkedIn page University of Birmingham Twitter page University of Birmingham Facebook page University of Birmingham TikTok page University of Birmingham Weibo page University of Birmingham We Chat University of Birmingham YouTube page Global Footprint Discover our global engagement Culture and collections Schools, institutes and departments Services and facilities Privacy Legal Modern slavery Accessibility Staff Intranet (auth required) Student Intranet Canvas Learning Environment Publication scheme Information for applicants Freedom of information Charitable information Cookies and cookie policy Website feedback Contact information © University of Birmingham 2026\nitemlistelement > name: Home itemlistelement > name: Dubai itemlistelement > name: Collaborate itemlistelement > name: Strategic global engagement itemlistelement > name: Global engagement itemlistelement > item: https://www.birmingham.ac.uk/collaborate/global-engagement itemlistelement > name: North America Partnerships",
+            "source": "visible_regex",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "North America Partnerships Office",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "North America Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mary Elliston",
+            "role": "Contact for Birmingham International Engagement Fund",
+            "email": "M.E.Elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "named_contact",
+            "raw_name": "Mary Elliston",
+            "raw_role": "Contact for Birmingham International Engagement Fund",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Mary Elliston",
+            "role": "global engagement",
+            "email": "m.e.elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Mary Elliston",
+            "raw_role": "global engagement",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "North America - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home Collaborate Global engagement North America Strategic engagement in North America As a key strategic region, we significantly invest in North America to support and encourage academic engagement. We have built a strong network of faculty relationships with leading academic institutions, resulting in significant research outcomes and funding successes. Our educational initiatives include new exchange partnerships, prestigious internships, and collaborative teaching arrangements. At Birmingham, we have pursued a focused North American engagement strategy, particularly in Illinois with the University of Illinois Urbana-Champaign , Chicago (our sister city), and McMaster University in Canada. Our innovative approach integrates civic, academic, and cultural engagement to raise our profile and foster signature partnerships with world-class institutions. The Sister City relationship with Chicago is rooted in shared characteristics, including our work with The Shakespeare Institute and the Chicago Shakespeare Theatre. Both Birmingham and Chicago, as \"second cities\", have distinct identities, known for their industrial heritage and cultural contributions. We continue to collaborate with North American institutions, partners, and politicians to ensure world-class opportunities for our students and researchers. We also focus on sports diplomacy, which includes our Ivy League athletics exchange . Funding Explore what funding opportunities are available for research collaborations between the University of Birmingham and our US partnerships. Birmingham International Engagement Fund (BIEF) Further information on the Birmingham International Engagement Fund can be found at: Internal Funding Opportunities . BIRMAC Seed Fund The University of Birmingham and McMaster University are delighted to launch the annual BIRMAC Project and Ideas Fund. In October 2021 the University of Birmingham and McMaster University signed a formal agreement to create a framework for collaboration and partnership between the two institutions. McMaster University and the University of Birmingham have historic similarities, shared interests and recognise that to achieve exceptional research outcomes and the best possible student experience, constant nurture and support is necessary and cannot be done in isolation. To help support academic collaboration between our two globally-leading universities, we have established the Projects and Ideas Fund: a seed fund created with matching funding from each university designed to identify, establish and develop first-rate research projects and student outcomes. Overview The fund’s objective is to support new initiatives by providing bridge funding between ideas and the first grant, or academic initiative. The funding is designed to enable individuals to identify complementary strengths, leverage synergy, and design new outstanding research and education projects and opportunities for academic excellence across all disciplines. The funding will seed and enable the development of deep partnerships through joint initiatives, which for example, could include (but is not limited to): Intensive academic research and/or education workshops leading to future long-term collaborations. Short-term visits for both young and established academics, or senior staff, enabling new and innovative long-term collaborations. Research-oriented teaching opportunities, such as for instance the development of new experiential seminars, bringing together PhD Candidates and Post-Doctoral Fellows. Application Applications are now open! Academics and professional services staff wishing to access funding must submit an application using the online application form. Find an academic to support your project: University of Birmingham McMaster University Please submit one application per project The deadline to submit your application is 31 March 2026 at 11:59 EST/ 04:59 GMT. The outcome of all applications will be announced on or after 15 May 2026. Additional Information Full details can be found in the BIRMAC Project and Ideas Fund Application Guidance Document . Should you wish to discuss the fund further please contact Mary Elliston at M.E.Elliston@bham.ac.uk BRIDGE Seed Fund Applications are now open for the BRIDGE 2026 SEED Fund. You can find details and how to apply here . BRIDGE Global South Visiting Fellows Programme Please visit Global South Fellowship Programme Previous recipients Year Name University college Home University 2025-2026 Carolina Muros Cortés College of Medicine and Health University of Buenos Aires 2025-2026 Kaktcham Pierre Marie College of Medicine and Health University of Dschang, Cameroon 2025-2026 Sadaf Mehmood College of Arts and Law Quaid-i-Azam University 2025-2026 Tulio Hallak Panzera College of Life and Environmental Sciences Federal University of São João del Rei 2025-2026 Naima Qureshi College of Social Sciences University of Education, Lahore Fulbright Distinguished Chair The Fulbright Commission was established in 1948 to foster mutual educational understanding between the US and the UK through academic exchange. Today, the Fulbright Program operates globally with the assistance of binational commissions and foundations in 49 countries, and US embassies in more than 100 other countries. The University of Birmingham is proud to participate in many of the available schemes that Fulbright has to offer. Each academic year the University of Birmingham hosts a Fulbright Distinguished Chair, the most prestigious Fulbright award. This generous six-month secondment enables a prominent US professor to be based at the University of Birmingham, with access to all the University’s research collections, and will provide an opportunity to undertake research and build links in the UK. For further information regarding the Fulbright Distinguished Chair Award, please visit the Fulbright website . Previous Recipients Year Name Subject University 2024 - 2025 George Mangun Psychology University of California-Davis 2024 - 2025 Shaun Gabbidon Criminology Penn State Harrisburg 2023 - 2024 Changqing Wu Agriculture University of Delaware 2023 - 2024 Matthew Winters Political Science University of Illinois at Urbana-Champaign 2022 - 2023 Kenneth MacLeod Geology University of Missouri, Columbia 2019 - 2020 Wendy Kline History Purdue University (Indiana) 2018 - 2019 Stephan Weiler Economics Colorado State University 2017 - 2018 Kalu Ogbureke Dental Science University of Texas Health Science Center, Houston 2016 - 2017 Erik Luna Law Arizona State University 2015 - 2016 Brian Linn History Texas A&M University 2014 - 2015 David Stoesz Public Policy University of Illinois, Springfield “Everyone should have a Fulbright experience. The world would undoubtedly be a better and more tolerant place if they did. My time in the UK transformed my professional and personal life. I am deeply grateful for having had the opportunity.” - Professor Donald Behringer, Fulbright US Scholar, 2015-16 Fulbright Scholar Award The University also offers a Fulbright-University of Birmingham Scholar award annually, whereby a researcher based at a US institution may visit the University of Birmingham for a period of 3–9 months to conduct research in any subject. For further information regarding the Fulbright Scholarships at the University of Birmingham, please see the Fulbright website. We are also happy to host holders of Fulbright Scholar Awards (all disciplines) who wish to conduct research in the conducive environment of the University and its campus. Previous recipients Year Name Subject University 2025-2026 Ryan Martin Mathematics Iowa State University 2024 - 2025 Gokhan Ersan Design Binghamton University 2023 - 2024 Kelly Davis Psychology Arizona State University - Downton Phoenix 2022 - 2023 Ilyse Moregnstein Furest Religious Studies University of Vermont 2021 - 2022 Adam Ward Environmental Sciences Indiana University, Bloomington 2020 - 2021 Paul Nicholas History Fordham University(New York) 2019 - 2020 Bradley Sageman Geology Northwestern University (Illinois) 2018 - 2019 (70th Anniversary Award) Lauren Heidbrink Anthropology California State University, Long Beach 2017 - 2018 Rebecca Klaper Environmental Sciences University of Wisconsin, Milwaukee 2016 - 2017 (Distinguished Award in Teaching) Denise Bruxelles Education Washington Heights Expeditionary Learning School (New York) 2016 - 2017 Charles Gallagher Sociology La Salle University (Pennsylvania) 2016 - 2017 (Global Scholar Award) Kirilka Stravreva Literature Cornell College (New York) 2015 - 2016 Melody Barnett Deusner Art History Indiana University, Bloomington 2014 - 2015 Angela Eikenberry Public Administration University of Nebraska, Omaha 2013 - 2014 Paul Kapp Architecture University of Illinois Alumni Spotlight “I can't imagine a more supportive and professional environment than the one I had at the University of Birmingham's Department of Social Policy, Sociology and Criminology. I have to believe this is exactly what Senator Fulbright envisioned when he imagined a way to create cultural and intellectual experiences between nations through universities.\" - Dr Charles Gallagher, LaSalle University. Fulbright US Scholar to the University of Birmingham, 2016-17 Marshall Scholars Marshall Scholarships finance young Americans of high ability to study for a degree in the United Kingdom. Up to fifty Scholars are selected each year to study at graduate level at an UK institution in any field of study. Previous Recipients Year Name Subject 2024 Eva Rothenberg MA Applied Linguistics 2023 Abdelhamid Arbab MA Islamic Studies 2017 Nancy Fairbank Msc International Development Postgraduate Scholarship Opportunities for US Students At the University of Birmingham we are committed to supporting and growing academic engagement with the US as one of our key strategic international territories. We offer a range of fellowship opportunities for US students and faculty to come to the University of Birmingham and gain valuable transatlantic experience. Please see our Postgraduate Funding database . Partnerships Canada Find out more about our partnership with McMaster USA Find out more about our partnership with Iliinois Go to previous item Go to next item Birmingham-Illinois Partnership for Discovery, Engagement & Education See our partnership with the University of Illinois Urbana-Champaign through BRIDGE UPenn Relays 2025 UoB student-athletes marked 63 years of Ivy League exchange by smashing records at UPenn. 2025 IIE Heiskell Award with Illinois Birmingham and Illinois are proudly recognised for connecting across borders Explore our research Find out what scholars from our existing partnerships are researching. Edgbaston Birmingham, B15 2TT United Kingdom Tel: +44 (0)121 414 3344 University of Birmingham Instagram page University of Birmingham LinkedIn page University of Birmingham Twitter page University of Birmingham Facebook page University of Birmingham TikTok page University of Birmingham Weibo page University of Birmingham We Chat University of Birmingham YouTube page Global Footprint Discover our global engagement Culture and collections Schools, institutes and departments Services and facilities Privacy Legal Modern slavery Accessibility Staff Intranet (auth required) Student Intranet Canvas Learning Environment Publication scheme Information for applicants Freedom of information Charitable information Cookies and cookie policy Website feedback Contact information © University of Birmingham 2026\nitemlistelement > name: Home itemlistelement > name: Dubai itemlistelement > name: Collaborate itemlistelement > name: Strategic global engagement itemlistelement > name: Global engagement itemlistelement > item: https://www.birmingham.ac.uk/collaborate/global-engagement itemlistelement > name: North America Partnerships",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "North America Partnerships Office",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "North America Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Mary Elliston",
+            "role": "global engagement",
+            "email": "m.e.elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "visible_text",
+            "raw_name": "Mary Elliston",
+            "raw_role": "global engagement",
+            "clean_name": "Mary Elliston",
+            "email_normalized": "m.e.elliston@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "North America - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home Collaborate Global engagement North America Strategic engagement in North America As a key strategic region, we significantly invest in North America to support and encourage",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "North America Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Mary Elliston",
+            "role": "global engagement",
+            "email": "m.e.elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "visible_text",
+            "raw_name": "Mary Elliston",
+            "raw_role": "global engagement",
+            "clean_name": "Mary Elliston",
+            "email_normalized": "m.e.elliston@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "North America - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home Collaborate Global engagement North America Strategic engagement in North America As a key strategic region, we significantly invest in North America to support and encourage",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international partnerships",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "North America Partnerships Office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 2,
+        "clean_candidate_count": 2,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [
+          {
+            "name": "Mary Elliston",
+            "role": "global engagement",
+            "email": "m.e.elliston@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/collaborate/global-engagement/north-america-partnerships",
+            "score": 12,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "evidence_type": "visible_text",
+            "raw_name": "Mary Elliston",
+            "raw_role": "global engagement",
+            "clean_name": "Mary Elliston",
+            "email_normalized": "m.e.elliston@bham.ac.uk"
+          }
+        ],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "1a19984ccc7f7a8a22bf825447fb22f5b0a12e52"
+      },
+      {
+        "url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "parent_url": "http://www.birmingham.ac.uk/dubai",
+        "shell_context_key": "real_link_multihop|first_hop_footer|http://www.birmingham.ac.uk/dubai",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 2,
+        "text_length": 1678,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1530,
+        "embedded_text_length": 146,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Global Engagement Team",
+            "email": "",
+            "page_url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Global Engagement Team",
+            "email": "",
+            "page_url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Global Engagement Team",
+            "email": "",
+            "page_url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "global engagement",
+            "email": "",
+            "page_url": "http://www.birmingham.ac.uk/dubai/collaborate/global-engagement",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Global Engagement Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 2
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "7736f6ce3ff0f321db70e6f7529f22ff5e82287b"
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme",
+        "page_family": "governance",
+        "expected_yield": 8.35,
+        "family_signature": null,
+        "raw_contacts_found": 12,
+        "text_length": 5575,
+        "acquisition_modes": [
+          "embedded_app_state_overlay"
+        ],
+        "shell_like": true,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4935,
+        "embedded_text_length": 638,
+        "embedded_document_count": 3,
+        "raw_evidence": [
+          {
+            "name": "Colette McDonough",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.mcdonough@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Colette McDonough",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "p.j.bowman@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Paul Bowman",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.ellison@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Chris Ellison",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "",
+            "email": "h.brooks@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Hayley Brooks\nGovernance Support Administrator",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sandie Okoro OBE",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandie Okoro OBE",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mervyn Walker",
+            "role": "Pro-Chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mervyn Walker",
+            "raw_role": "Pro-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Governance Support Team",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance Support Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Colette McDonough",
+            "role": "Head of Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Colette McDonough",
+            "raw_role": "Head of Governance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "Governance and Risk Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paul Bowman",
+            "raw_role": "Governance and Risk Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "Governance Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chris Ellison",
+            "raw_role": "Governance Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "Governance Support Administrator",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "Governance Support Administrator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "Colette McDonough",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.mcdonough@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Colette McDonough",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "p.j.bowman@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Paul Bowman",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.ellison@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Chris Ellison",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "",
+            "email": "h.brooks@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Hayley Brooks\nGovernance Support Administrator",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sandie Okoro OBE",
+            "role": "Chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandie Okoro OBE",
+            "raw_role": "Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mervyn Walker",
+            "role": "Pro-Chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mervyn Walker",
+            "raw_role": "Pro-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Vice-Chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Governance Support Team",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance Support Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Colette McDonough",
+            "role": "Head of Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Colette McDonough",
+            "raw_role": "Head of Governance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "Governance and Risk Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paul Bowman",
+            "raw_role": "Governance and Risk Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "Governance Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chris Ellison",
+            "raw_role": "Governance Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "Governance Support Administrator",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "Governance Support Administrator",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Colette McDonough",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.mcdonough@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Colette McDonough",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Colette McDonough",
+            "email_normalized": "c.mcdonough@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "p.j.bowman@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Paul Bowman",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Paul Bowman",
+            "email_normalized": "p.j.bowman@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.ellison@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Chris Ellison",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Chris Ellison",
+            "email_normalized": "c.ellison@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "",
+            "email": "h.brooks@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "",
+            "clean_name": "Hayley Brooks",
+            "email_normalized": "h.brooks@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Hayley Brooks\nGovernance Support Administrator",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Sandie Okoro Obe",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandie Okoro OBE",
+            "raw_role": "Chancellor",
+            "clean_name": "Sandie Okoro Obe",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mervyn Walker",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mervyn Walker",
+            "raw_role": "Pro-Chancellor",
+            "clean_name": "Mervyn Walker",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Governance Support Team",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance Support Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Colette McDonough",
+            "role": "Head of Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Colette McDonough",
+            "raw_role": "Head of Governance",
+            "clean_name": "Colette McDonough",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "Governance and Risk Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paul Bowman",
+            "raw_role": "Governance and Risk Officer",
+            "clean_name": "Paul Bowman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "Governance Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chris Ellison",
+            "raw_role": "Governance Officer",
+            "clean_name": "Chris Ellison",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "Governance Support Administrator",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "Governance Support Administrator",
+            "clean_name": "Hayley Brooks",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Colette McDonough",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.mcdonough@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Colette McDonough",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Colette McDonough",
+            "email_normalized": "c.mcdonough@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "p.j.bowman@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Paul Bowman",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Paul Bowman",
+            "email_normalized": "p.j.bowman@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.ellison@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Chris Ellison",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Chris Ellison",
+            "email_normalized": "c.ellison@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Contacting the Governance Support Team\nFurther information about the governance of the University is available in our Publication Scheme.\nThe Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact:\nColette",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "",
+            "email": "h.brooks@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "",
+            "clean_name": "Hayley Brooks",
+            "email_normalized": "h.brooks@bham.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Hayley Brooks\nGovernance Support Administrator",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Sandie Okoro Obe",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sandie Okoro OBE",
+            "raw_role": "Chancellor",
+            "clean_name": "Sandie Okoro Obe",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Mervyn Walker",
+            "role": "chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mervyn Walker",
+            "raw_role": "Pro-Chancellor",
+            "clean_name": "Mervyn Walker",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "vice-chancellor",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "person_without_email",
+            "raw_name": "",
+            "raw_role": "Vice-Chancellor",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Governance Support Team",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance Support Team",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Colette McDonough",
+            "role": "Head of Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Colette McDonough",
+            "raw_role": "Head of Governance",
+            "clean_name": "Colette McDonough",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "Governance and Risk Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Paul Bowman",
+            "raw_role": "Governance and Risk Officer",
+            "clean_name": "Paul Bowman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "Governance Officer",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Chris Ellison",
+            "raw_role": "Governance Officer",
+            "clean_name": "Chris Ellison",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "Governance Support Administrator",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "Governance Support Administrator",
+            "clean_name": "Hayley Brooks",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 4,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 8
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 12,
+        "clean_candidate_count": 12,
+        "named_contact_count": 4,
+        "office_contact_count": 0,
+        "person_without_email_count": 6,
+        "junk_candidate_count": 2,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "Colette McDonough",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.mcdonough@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "score": 1,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Colette McDonough",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Colette McDonough",
+            "email_normalized": "c.mcdonough@bham.ac.uk"
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "p.j.bowman@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "score": 1,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Paul Bowman",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Paul Bowman",
+            "email_normalized": "p.j.bowman@bham.ac.uk"
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "email": "c.ellison@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "score": 1,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Chris Ellison",
+            "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+            "clean_name": "Chris Ellison",
+            "email_normalized": "c.ellison@bham.ac.uk"
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "",
+            "email": "h.brooks@bham.ac.uk",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "score": -2,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": false,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Hayley Brooks",
+            "raw_role": "",
+            "clean_name": "Hayley Brooks",
+            "email_normalized": "h.brooks@bham.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [
+          {
+            "name": "Sandie Okoro Obe",
+            "role": "chancellor",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Sandie Okoro OBE",
+            "raw_role": "Chancellor",
+            "clean_name": "Sandie Okoro Obe",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Mervyn Walker",
+            "role": "chancellor",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mervyn Walker",
+            "raw_role": "Pro-Chancellor",
+            "clean_name": "Mervyn Walker",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Colette McDonough",
+            "role": "Head of Governance",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Colette McDonough",
+            "raw_role": "Head of Governance",
+            "clean_name": "Colette McDonough",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Paul Bowman",
+            "role": "Governance and Risk Officer",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Paul Bowman",
+            "raw_role": "Governance and Risk Officer",
+            "clean_name": "Paul Bowman",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Chris Ellison",
+            "role": "Governance Officer",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Chris Ellison",
+            "raw_role": "Governance Officer",
+            "clean_name": "Chris Ellison",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          },
+          {
+            "name": "Hayley Brooks",
+            "role": "Governance Support Administrator",
+            "country": "GB",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+            "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Hayley Brooks",
+            "raw_role": "Governance Support Administrator",
+            "clean_name": "Hayley Brooks",
+            "status": "exhausted",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "no stable email pattern observed",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 8.35
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "d3b972b8a38988f6f82c172288a9a0645ac00199"
+      },
+      {
+        "url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+        "reason": "deterministic_top_heuristic:nav",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "parent_url": "https://www.birmingham.ac.uk/university/leadership/governance/policies-regs/information",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://www.birmingham.ac.uk/university/leadership/governance/policies-regs/information",
+        "page_family": "governance",
+        "expected_yield": 8.35,
+        "family_signature": null,
+        "raw_contacts_found": 1,
+        "text_length": 2948,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": true,
+        "visible_text_length": 1475,
+        "embedded_text_length": 1471,
+        "embedded_document_count": 3,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "",
+            "role": "Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "",
+            "role": "Governance",
+            "email": "",
+            "page_url": "https://www.birmingham.ac.uk/about/leadership/governance/policies-and-regulations",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Governance",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 1,
+        "clean_candidate_count": 1,
+        "named_contact_count": 0,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 1,
+        "kept_contacts": [],
+        "rejected_contacts": [],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "1fc81e6cdefee802815a6ee808b9252dfe2cd1c3"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Robin Mason",
+        "role": "vice-chancellor",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/international/global-engagement",
+        "page_context": "Strategic Global Engagement - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home Collaborate Strategic Global Engagement The University collaborates with partners across the world to produce ground-breaking research, deliver innovative teaching, and to create opportunities for students and staff to gain international experience. We are responsible for supporting the overarching international strategy with a focus on",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Robin Mason",
+        "raw_role": "Pro-Vice-Chancellor (International)",
+        "clean_name": "Robin Mason",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 11.5
+      },
+      {
+        "name": "Sandie Okoro Obe",
+        "role": "chancellor",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Sandie Okoro OBE",
+        "raw_role": "Chancellor",
+        "clean_name": "Sandie Okoro Obe",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Mervyn Walker",
+        "role": "chancellor",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mervyn Walker",
+        "raw_role": "Pro-Chancellor",
+        "clean_name": "Mervyn Walker",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Colette McDonough",
+        "role": "Head of Governance",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Colette McDonough",
+        "raw_role": "Head of Governance",
+        "clean_name": "Colette McDonough",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Paul Bowman",
+        "role": "Governance and Risk Officer",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Paul Bowman",
+        "raw_role": "Governance and Risk Officer",
+        "clean_name": "Paul Bowman",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Chris Ellison",
+        "role": "Governance Officer",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Chris Ellison",
+        "raw_role": "Governance Officer",
+        "clean_name": "Chris Ellison",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      },
+      {
+        "name": "Hayley Brooks",
+        "role": "Governance Support Administrator",
+        "country": "GB",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "page_context": "Our Governance - University of Birmingham Skip to main content Select campus: UK Dubai University of Birmingham Search Menu Open menu Home About us Leadership Our Governance The University of Birmingham is an independent, chartered institution whose legal status derives from our Royal Charter granted in 1900. The University is an exempt charity and is regulated by the Office for Students . Chancellor The Chancellor of the University is Sandie Okoro OBE. The Chancellor is the ceremonial head of",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Hayley Brooks",
+        "raw_role": "Governance Support Administrator",
+        "clean_name": "Hayley Brooks",
+        "status": "exhausted",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "no stable email pattern observed",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 8.35
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "Colette McDonough",
+        "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+        "email": "c.mcdonough@bham.ac.uk",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "score": 1,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Colette McDonough",
+        "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+        "clean_name": "Colette McDonough",
+        "email_normalized": "c.mcdonough@bham.ac.uk"
+      },
+      {
+        "name": "Paul Bowman",
+        "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+        "email": "p.j.bowman@bham.ac.uk",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "score": 1,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Paul Bowman",
+        "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+        "clean_name": "Paul Bowman",
+        "email_normalized": "p.j.bowman@bham.ac.uk"
+      },
+      {
+        "name": "Chris Ellison",
+        "role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+        "email": "c.ellison@bham.ac.uk",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "score": 1,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Chris Ellison",
+        "raw_role": "The Governance Support Team provides support for the governance of the University, including Council, Senate and UEB. If you need any further information, please contact",
+        "clean_name": "Chris Ellison",
+        "email_normalized": "c.ellison@bham.ac.uk"
+      },
+      {
+        "name": "Hayley Brooks",
+        "role": "",
+        "email": "h.brooks@bham.ac.uk",
+        "page_url": "https://www.birmingham.ac.uk/about/leadership/governance",
+        "score": -2,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": false,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Hayley Brooks",
+        "raw_role": "",
+        "clean_name": "Hayley Brooks",
+        "email_normalized": "h.brooks@bham.ac.uk"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {
+      "82abf0a7d919c9c2782286e9dc3749e628d4042c": {
+        "urls": [
+          "https://www.birmingham.ac.uk/international/global-engagement"
+        ],
+        "shell_contexts": [
+          "real_link_multihop|homepage_footer|http://www.birmingham.ac.uk/index.aspx"
+        ],
+        "page_families": [
+          "international"
+        ],
+        "count": 1
+      }
+    }
+  }
+}

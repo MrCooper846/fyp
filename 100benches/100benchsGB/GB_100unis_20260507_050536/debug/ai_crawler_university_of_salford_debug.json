@@ -1,0 +1,2227 @@
+{
+  "method": "ai_crawler",
+  "university": "University of Salford",
+  "homepage_url": "https://www.salford.ac.uk",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 53,
+    "candidates_ranked": 53,
+    "probe_attempts": 2,
+    "candidates_probed": 2,
+    "contacts_extracted": 11,
+    "contacts_kept": 3,
+    "time_seconds": 17.44153380393982,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_dollars": 0.0,
+    "best_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+    "source_breakdown": {}
+  },
+  "contacts": [
+    {
+      "name": "Salford Iot",
+      "email": "salford-iot@salford.ac.uk",
+      "role": "international office",
+      "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+      "score": 0,
+      "reason": "ok"
+    },
+    {
+      "name": "Liam Richardson",
+      "email": "l.j.richardson3@salford.ac.uk",
+      "role": "international office",
+      "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+      "score": 0,
+      "reason": "ok"
+    },
+    {
+      "name": "Mariya Jangir",
+      "email": "m.jangir2@salford.ac.uk",
+      "role": "international office",
+      "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+      "score": 0,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "agent",
+    "state_summary": {
+      "hard_success": true,
+      "soft_success": false,
+      "failed": false,
+      "failure_reason": null,
+      "stop_reason": "high_confidence_coverage_reached",
+      "probe_attempts": 2,
+      "pages_fetched": 2,
+      "successful_fetches": 2,
+      "llm_calls": 1
+    },
+    "discovery_trace": [
+      {
+        "url": "https://www.salford.ac.uk/our-staff",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Our staff",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.salford.ac.uk/research/our-people",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Our people",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_top_heuristic:nav"
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/isabel-adeyemi",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Dr Isabel Adeyemi Dr Isabel Adeyemi Research Officer I.Adeyemi@salford.ac.uk School of Health & Society",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/saeed-adelipour",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Dr Saeed Adelipour Dr Saeed Adelipour Research Fellow S.Adelipour@salford.ac.uk Salford Business School",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/volkan-acun",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Dr Volkan Acun Dr Volkan Acun Postdoctoral Research Fellow V.Acun@salford.ac.uk School of Science, Engineering & Environment",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/business/develop-your-people",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Develop your people",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.25,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff?page=0",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Current page 1",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff?page=1",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 2",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff?page=2",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 3",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff?page=3",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 4",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff?page=4",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Page 5",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/contact-us/student-support-teams",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_footer",
+        "anchor_text": "Student support teams",
+        "parent_url": "https://www.salford.ac.uk/partnerships",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 8.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/business/develop-your-people/continuous-professional-development",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "More about our specialist, bespoke and open training programmes",
+        "parent_url": "https://www.salford.ac.uk/business/develop-your-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/business/develop-your-people/qcpd",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Learn about our quality mark",
+        "parent_url": "https://www.salford.ac.uk/business/develop-your-people",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/ahmed-aboumoemen",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Dr. Ahmed Aboumoemen Dr. Ahmed Aboumoemen Technical Engineer (KTP Associate) A.A.A.H.Aboumoemen@salford.ac.uk School of Science, Engineering & Environm",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/aminat-adeniji",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Dr Aminat Adeniji Dr Aminat Adeniji Lecturer A.A.Adeniji@salford.ac.uk Salford Business School",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/enoch-adu-gyamfi",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Mr Enoch Adu-Gyamfi Mr Enoch Adu-Gyamfi Lecturer E.Adu-Gyamfi@salford.ac.uk School of Health & Society",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/kate-adams",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Miss Kate Adams Miss Kate Adams Lecturer K.R.Adams@salford.ac.uk School of Arts, Media and Creative Technologies",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/louise-ackers",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Prof Louise Ackers Prof Louise Ackers Professor H.L.Ackers@salford.ac.uk School of Health & Society",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/olayinka-adeboye",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Dr Olayinka Adeboye Dr Olayinka Adeboye Lecturer in Cyber Security A.A.Adeboye@salford.ac.uk School of Science, Engineering & Environment",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/our-staff/rukaya-abowen-dake",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Photo of Mrs Rukaya Abowen-Dake Mrs Rukaya Abowen-Dake Lecturer in Quantity Surveying R.Abowen-Dake1@salford.ac.uk School of Science, Engineering & Environment",
+        "parent_url": "https://www.salford.ac.uk/our-staff",
+        "page_family": "directory",
+        "candidate_bucket": "content",
+        "heuristic_score": 6.05,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Meet the team",
+        "parent_url": "https://www.salford.ac.uk/international-opportunities",
+        "page_family": "staff",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "This page likely provides information and contacts for the team handling international opportunities, making it highly relevant for outreach contacts."
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International opportunities",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 9.3,
+        "selected_for_planning": true,
+        "selection_reason": "deterministic_high_yield_seed"
+      },
+      {
+        "url": "https://www.salford.ac.uk/international",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "International",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/partnerships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Partnerships",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 5.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/contact-us",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Contact us",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/contact-us/course-enquiries",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Course enquiries",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "contact",
+        "candidate_bucket": "content",
+        "heuristic_score": 4.2,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/our-partnerships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "international exchange",
+        "parent_url": "https://www.salford.ac.uk/partnerships",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 11.5,
+        "selected_for_planning": true,
+        "selection_reason": "This page focuses on international partnerships, which aligns closely with outreach goals and may feature key contacts."
+      },
+      {
+        "url": "https://www.salford.ac.uk/courses/foundation-year/international-foundation-year",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Foundation Year",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/incoming-students",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Incoming students",
+        "parent_url": "https://www.salford.ac.uk/international-opportunities",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/information-for-partner-universities",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Info for partner universities",
+        "parent_url": "https://www.salford.ac.uk/international-opportunities",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/outgoing-students",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Outgoing students",
+        "parent_url": "https://www.salford.ac.uk/international-opportunities",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/turing-scheme-information",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Turing Scheme Information",
+        "parent_url": "https://www.salford.ac.uk/international-opportunities",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/fees-and-funding",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Fees and funding As a student at the University of Salford, you will need to pay for your tuition fees and cover your living expenses. Find out...",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/international-partnerships-visitor-request-form",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "visitor request form",
+        "parent_url": "https://www.salford.ac.uk/partnerships",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/our-location",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Our location Our students love our location for many reasons. We’re based just minutes from Manchester, which was voted the second-friendliest...",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/scholarships",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "International Scholarships We are proud to support our high-achieving international students with...",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/visa",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Applying for a Student Visa (from outside UK) If you have an offer to study one of our courses and are applying from overseas, this page will tell you how to ge",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/your-country",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Your country For country-specific information, including entry requirements, details of education consultants (agents) and information about...",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/international/your-country/salford-and-china",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "anchor_text": "Join us on WeChat",
+        "parent_url": "https://www.salford.ac.uk/international",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/press-office",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Press",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 3.7,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/business/grow-your-business/our-facilities-and-services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Our facilities and services",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "office",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.5,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/postgraduate-taught/how-to-apply",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "How do I apply for a postgraduate course?",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/undergraduate/apply",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "How do I apply for an undergraduate course?",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "admissions",
+        "candidate_bucket": "content",
+        "heuristic_score": 1.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "anchor_text": "Home",
+        "parent_url": "https://www.salford.ac.uk/business/develop-your-people",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/accessibility-on-campus",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Accessibility",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/alumni",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Alumni",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/apprenticeships",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Apprenticeships",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/askus/topics/admin-essentials/changing-your-course",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "How do I change my course?",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://www.salford.ac.uk/business",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "anchor_text": "Partnering with business",
+        "parent_url": "https://www.salford.ac.uk",
+        "page_family": "generic",
+        "candidate_bucket": "content",
+        "heuristic_score": 0.55,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.salford.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://global.salford.ac.uk/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      },
+      {
+        "url": "https://international.salford.ac.uk",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "anchor_text": "",
+        "parent_url": "",
+        "page_family": "international",
+        "candidate_bucket": "content",
+        "heuristic_score": 7.1,
+        "selected_for_planning": false
+      }
+    ],
+    "discovery_strategy_trace": [
+      "heuristic_only",
+      "generated_slug_only",
+      "real_link_only",
+      "hybrid"
+    ],
+    "mode_history": [
+      {
+        "mode": "office_discovery",
+        "reason": "initial_state",
+        "goal": "find direct outreach contacts"
+      },
+      {
+        "mode": "office_discovery",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.salford.ac.uk/international-opportunities"
+      },
+      {
+        "mode": "staff_page_hunt",
+        "reason": "visiting_candidate_page",
+        "goal": "inspect https://www.salford.ac.uk/international-opportunities/meet-the-team"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Liam Richardson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "search_people_pages",
+        "goal": "recover Mariya Jangir"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Liam Richardson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "query_directory_by_name",
+        "goal": "recover Mariya Jangir"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Liam Richardson"
+      },
+      {
+        "mode": "person_enrichment",
+        "reason": "site_search_exhausted",
+        "goal": "web-search recover Mariya Jangir"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Liam Richardson"
+      },
+      {
+        "mode": "email_pattern_recovery",
+        "reason": "search_exhausted",
+        "goal": "infer email for Mariya Jangir"
+      },
+      {
+        "mode": "stop",
+        "reason": "run_complete",
+        "goal": "high_confidence_coverage_reached"
+      }
+    ],
+    "action_history": [
+      {
+        "action": "rank_candidates",
+        "reason": "Focus on pages that provide direct contact information related to international partnerships and engagement.",
+        "details": {
+          "count": 6,
+          "phase": "scout"
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "deterministic_high_yield_seed",
+        "details": {
+          "url": "https://www.salford.ac.uk/international-opportunities",
+          "page_type": "nav",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "visit_page",
+        "reason": "This page likely provides information and contacts for the team handling international opportunities, making it highly relevant for outreach contacts.",
+        "details": {
+          "url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+          "page_type": "Team Page",
+          "expected_yield": 9.3
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Liam Richardson"
+        }
+      },
+      {
+        "action": "search_people_pages",
+        "reason": "people-page enrichment",
+        "details": {
+          "candidate": "Mariya Jangir"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Liam Richardson"
+        }
+      },
+      {
+        "action": "query_directory_by_name",
+        "reason": "directory lookup after name resolution",
+        "details": {
+          "candidate": "Mariya Jangir"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Liam Richardson"
+        }
+      },
+      {
+        "action": "search_web_for_person",
+        "reason": "broader web enrichment",
+        "details": {
+          "candidate": "Mariya Jangir"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Liam Richardson"
+        }
+      },
+      {
+        "action": "infer_email_pattern",
+        "reason": "recover from known organisation patterns",
+        "details": {
+          "candidate": "Mariya Jangir"
+        }
+      }
+    ],
+    "planner_history": [
+      {
+        "phase": "scout",
+        "strategy": "Focus on pages that provide direct contact information related to international partnerships and engagement.",
+        "expected_roles": [
+          "Head of International Partnerships",
+          "Director of Global Engagement",
+          "International Relations Lead",
+          "Mobility / Exchange Coordinator"
+        ],
+        "stop_hint": "Ranking is complete.",
+        "ranked_pages": [
+          {
+            "url": "https://www.salford.ac.uk/international-opportunities",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 9.3,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.salford.ac.uk/business/develop-your-people",
+            "reason": "deterministic_high_yield_seed",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.salford.ac.uk/our-staff",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.salford.ac.uk/research/our-people",
+            "reason": "deterministic_top_heuristic:nav",
+            "expected_yield": 8.25,
+            "page_type": "nav"
+          },
+          {
+            "url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "reason": "This page likely provides information and contacts for the team handling international opportunities, making it highly relevant for outreach contacts.",
+            "expected_yield": 9.3,
+            "page_type": "Team Page"
+          },
+          {
+            "url": "https://www.salford.ac.uk/international-opportunities/our-partnerships",
+            "reason": "This page focuses on international partnerships, which aligns closely with outreach goals and may feature key contacts.",
+            "expected_yield": 11.5,
+            "page_type": "Partnerships Page"
+          }
+        ]
+      }
+    ],
+    "extraction_trace": [
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities",
+        "reason": "deterministic_high_yield_seed",
+        "page_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "parent_url": "https://www.salford.ac.uk",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://www.salford.ac.uk",
+        "page_family": "international",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 5,
+        "text_length": 4386,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 4353,
+        "embedded_text_length": 67,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Socials\nStay up-to-date\nContact the team\nFollow us on Instagram",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Opportunities",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Turing Scheme Information",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Turing Scheme Information",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Partner Institutions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Partner Institutions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Socials\nStay up-to-date\nContact the team\nFollow us on Instagram",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Opportunities",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Recruitment/Admissions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Turing Scheme Information",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Turing Scheme Information",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Partner Institutions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Partner Institutions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Salford Iot",
+            "role": "",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Salford Iot",
+            "raw_role": "",
+            "clean_name": "Salford Iot",
+            "email_normalized": "salford-iot@salford.ac.uk",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Socials\nStay up-to-date\nContact the team\nFollow us on Instagram",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Turing Scheme Information",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Turing Scheme Information",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "Partner Institutions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Partner Institutions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Salford Iot",
+            "role": "",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Salford Iot",
+            "raw_role": "",
+            "clean_name": "Salford Iot",
+            "email_normalized": "salford-iot@salford.ac.uk",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Socials\nStay up-to-date\nContact the team\nFollow us on Instagram",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international admissions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Recruitment/Admissions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Turing Scheme Information",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Turing Scheme Information",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "Partner Institutions",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "Partner Institutions",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 1,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 4
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 5,
+        "clean_candidate_count": 5,
+        "named_contact_count": 1,
+        "office_contact_count": 0,
+        "person_without_email_count": 0,
+        "junk_candidate_count": 4,
+        "kept_contacts": [],
+        "rejected_contacts": [
+          {
+            "name": "Salford Iot",
+            "role": "",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities",
+            "score": 1,
+            "reason": "low score",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Salford Iot",
+            "raw_role": "",
+            "clean_name": "Salford Iot",
+            "email_normalized": "salford-iot@salford.ac.uk"
+          }
+        ],
+        "missing_email_candidates": [],
+        "role_holder_candidates": [],
+        "content_signature": "8bdc0b0ec6b932dd4f7ad820e1090ccc73390844"
+      },
+      {
+        "url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+        "reason": "This page likely provides information and contacts for the team handling international opportunities, making it highly relevant for outreach contacts.",
+        "page_type": "Team Page",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "parent_url": "https://www.salford.ac.uk/international-opportunities",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://www.salford.ac.uk/international-opportunities",
+        "page_family": "staff",
+        "expected_yield": 9.3,
+        "family_signature": null,
+        "raw_contacts_found": 6,
+        "text_length": 3174,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints"
+        ],
+        "shell_like": false,
+        "weak_llm_shell_inference": false,
+        "visible_text_length": 3127,
+        "embedded_text_length": 81,
+        "embedded_document_count": 2,
+        "raw_evidence": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Meet the Salford International Opportunities team, please contact our\nshared mailbox\nenquiries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "l.j.richardson3@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Liam Richardson",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Liam Richardson\nInternational Opportunities Officer\nContact Liam",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "m.jangir2@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Mariya Jangir\nInternational Opportunities Assistant\nContact Mariya",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "International Opportunities Officer",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liam Richardson",
+            "raw_role": "International Opportunities Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "International Opportunities Assistant",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "International Opportunities Assistant",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Opportunities",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "assembled_candidates": [
+          {
+            "name": "",
+            "role": "international office",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Meet the Salford International Opportunities team, please contact our\nshared mailbox\nenquiries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "l.j.richardson3@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Liam Richardson",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Liam Richardson\nInternational Opportunities Officer\nContact Liam",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "m.jangir2@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "international office",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "Mariya Jangir\nInternational Opportunities Assistant\nContact Mariya",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "International Opportunities Officer",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liam Richardson",
+            "raw_role": "International Opportunities Officer",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "International Opportunities Assistant",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "International Opportunities Assistant",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "International Opportunities",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "cleaned_candidates": [
+          {
+            "name": "Salford Iot",
+            "role": "international office",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Salford Iot",
+            "raw_role": "international office",
+            "clean_name": "Salford Iot",
+            "email_normalized": "salford-iot@salford.ac.uk",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Meet the Salford International Opportunities team, please contact our\nshared mailbox\nenquiries.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "l.j.richardson3@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Liam Richardson",
+            "raw_role": "international office",
+            "clean_name": "Liam Richardson",
+            "email_normalized": "l.j.richardson3@salford.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Liam Richardson\nInternational Opportunities Officer\nContact Liam",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "m.jangir2@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "",
+            "evidence_type": "mailto",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "international office",
+            "clean_name": "Mariya Jangir",
+            "email_normalized": "m.jangir2@salford.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Mariya Jangir\nInternational Opportunities Assistant\nContact Mariya",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liam Richardson",
+            "raw_role": "International Opportunities Officer",
+            "clean_name": "Liam Richardson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "International Opportunities Assistant",
+            "clean_name": "Mariya Jangir",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ],
+        "typed_candidates": [
+          {
+            "name": "Salford Iot",
+            "role": "international office",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Salford Iot",
+            "raw_role": "international office",
+            "clean_name": "Salford Iot",
+            "email_normalized": "salford-iot@salford.ac.uk",
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Meet the Salford International Opportunities team, please contact our\nshared mailbox\nenquiries.",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "l.j.richardson3@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Liam Richardson",
+            "raw_role": "international office",
+            "clean_name": "Liam Richardson",
+            "email_normalized": "l.j.richardson3@salford.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Liam Richardson\nInternational Opportunities Officer\nContact Liam",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "m.jangir2@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "candidate_type": "named_contact",
+            "evidence_type": "mailto",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "international office",
+            "clean_name": "Mariya Jangir",
+            "email_normalized": "m.jangir2@salford.ac.uk",
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "context": "Mariya Jangir\nInternational Opportunities Assistant\nContact Mariya",
+            "source": "mailto_explicit",
+            "reached_filtering": true,
+            "missing_email_candidate": false,
+            "country": "GB"
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Liam Richardson",
+            "raw_role": "International Opportunities Officer",
+            "clean_name": "Liam Richardson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "International Opportunities Assistant",
+            "clean_name": "Mariya Jangir",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": true,
+            "country": "GB"
+          },
+          {
+            "name": "",
+            "role": "international office",
+            "email": "",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "junk_candidate",
+            "evidence_type": "office_contact",
+            "raw_name": "",
+            "raw_role": "International Opportunities",
+            "clean_name": "",
+            "email_normalized": "",
+            "cleanup_flags": [],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false,
+            "country": "GB"
+          }
+        ],
+        "raw_evidence_count_by_strategy": {
+          "mailto_explicit": 3,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "potential_anchor_patterns": [],
+        "potential_anchor_pattern_count": 0,
+        "assembled_candidate_count": 6,
+        "clean_candidate_count": 6,
+        "named_contact_count": 3,
+        "office_contact_count": 0,
+        "person_without_email_count": 2,
+        "junk_candidate_count": 1,
+        "kept_contacts": [
+          {
+            "name": "Salford Iot",
+            "role": "international office",
+            "email": "salford-iot@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "score": 12,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "name_inferred_from_email_localpart",
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Salford Iot",
+            "raw_role": "international office",
+            "clean_name": "Salford Iot",
+            "email_normalized": "salford-iot@salford.ac.uk"
+          },
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "email": "l.j.richardson3@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "score": 12,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Liam Richardson",
+            "raw_role": "international office",
+            "clean_name": "Liam Richardson",
+            "email_normalized": "l.j.richardson3@salford.ac.uk"
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "email": "m.jangir2@salford.ac.uk",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "score": 12,
+            "reason": "ok",
+            "threshold": 5,
+            "domain_match": true,
+            "is_generic": false,
+            "candidate_type": "named_contact",
+            "source_strategies": [
+              "mailto_explicit"
+            ],
+            "cleanup_flags": [
+              "context_sanitized",
+              "mailto_only"
+            ],
+            "evidence_type": "mailto",
+            "raw_name": "Mariya Jangir",
+            "raw_role": "international office",
+            "clean_name": "Mariya Jangir",
+            "email_normalized": "m.jangir2@salford.ac.uk"
+          }
+        ],
+        "rejected_contacts": [],
+        "missing_email_candidates": [
+          {
+            "name": "Liam Richardson",
+            "role": "international office",
+            "country": "GB",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "page_context": "Meet the team | University of Salford Skip to main content Current students International Library About us Campus Corporate information Heritage News Our staff Our schools Press Staff hub Student hub Sustainability Contact us Search Close search Search Menu Become a student Undergraduate Find out about Undergraduate study Postgraduate Postgraduate study and research at the University of Salford Doctoral school Explore our Doctoral School Apprenticeships Discover how to apply for an",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Liam Richardson",
+            "raw_role": "International Opportunities Officer",
+            "clean_name": "Liam Richardson",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.3
+          },
+          {
+            "name": "Mariya Jangir",
+            "role": "international office",
+            "country": "GB",
+            "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+            "page_context": "Meet the team | University of Salford Skip to main content Current students International Library About us Campus Corporate information Heritage News Our staff Our schools Press Staff hub Student hub Sustainability Contact us Search Close search Search Menu Become a student Undergraduate Find out about Undergraduate study Postgraduate Postgraduate study and research at the University of Salford Doctoral school Explore our Doctoral School Apprenticeships Discover how to apply for an",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "candidate_kind": "person_name",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "raw_name": "Mariya Jangir",
+            "raw_role": "International Opportunities Assistant",
+            "clean_name": "Mariya Jangir",
+            "status": "recovered",
+            "goal": "resolve_email",
+            "next_action": "infer_email_pattern",
+            "directory_ready": true,
+            "name_confidence": 0.8,
+            "email_confidence": 0.0,
+            "evidence_strength": 0.0,
+            "blocked_reason": "",
+            "action_budget_remaining": 0,
+            "attempts": {
+              "governance": 0,
+              "international": 0,
+              "people": 1,
+              "directory": 1,
+              "web_search": 1,
+              "pattern": 1
+            },
+            "best_evidence": null,
+            "evidence_items": [],
+            "expected_yield": 9.3
+          }
+        ],
+        "role_holder_candidates": [],
+        "content_signature": "d1251ac340f7d633a17f09cbb6517e043e86db91"
+      }
+    ],
+    "pruned_candidates": [],
+    "missing_email_candidates": [
+      {
+        "name": "Liam Richardson",
+        "role": "international office",
+        "country": "GB",
+        "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+        "page_context": "Meet the team | University of Salford Skip to main content Current students International Library About us Campus Corporate information Heritage News Our staff Our schools Press Staff hub Student hub Sustainability Contact us Search Close search Search Menu Become a student Undergraduate Find out about Undergraduate study Postgraduate Postgraduate study and research at the University of Salford Doctoral school Explore our Doctoral School Apprenticeships Discover how to apply for an",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Liam Richardson",
+        "raw_role": "International Opportunities Officer",
+        "clean_name": "Liam Richardson",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.3
+      },
+      {
+        "name": "Mariya Jangir",
+        "role": "international office",
+        "country": "GB",
+        "page_url": "https://www.salford.ac.uk/international-opportunities/meet-the-team",
+        "page_context": "Meet the team | University of Salford Skip to main content Current students International Library About us Campus Corporate information Heritage News Our staff Our schools Press Staff hub Student hub Sustainability Contact us Search Close search Search Menu Become a student Undergraduate Find out about Undergraduate study Postgraduate Postgraduate study and research at the University of Salford Doctoral school Explore our Doctoral School Apprenticeships Discover how to apply for an",
+        "source_strategies": [
+          "llm_structured"
+        ],
+        "candidate_type": "person_without_email",
+        "candidate_kind": "person_name",
+        "cleanup_flags": [
+          "llm_named_without_email"
+        ],
+        "raw_name": "Mariya Jangir",
+        "raw_role": "International Opportunities Assistant",
+        "clean_name": "Mariya Jangir",
+        "status": "recovered",
+        "goal": "resolve_email",
+        "next_action": "infer_email_pattern",
+        "directory_ready": true,
+        "name_confidence": 0.8,
+        "email_confidence": 0.0,
+        "evidence_strength": 0.0,
+        "blocked_reason": "",
+        "action_budget_remaining": 0,
+        "attempts": {
+          "governance": 0,
+          "international": 0,
+          "people": 1,
+          "directory": 1,
+          "web_search": 1,
+          "pattern": 1
+        },
+        "best_evidence": null,
+        "evidence_items": [],
+        "expected_yield": 9.3
+      }
+    ],
+    "rejected_contacts": [
+      {
+        "name": "Salford Iot",
+        "role": "",
+        "email": "salford-iot@salford.ac.uk",
+        "page_url": "https://www.salford.ac.uk/international-opportunities",
+        "score": 1,
+        "reason": "low score",
+        "threshold": 5,
+        "domain_match": true,
+        "is_generic": false,
+        "candidate_type": "named_contact",
+        "source_strategies": [
+          "mailto_explicit"
+        ],
+        "cleanup_flags": [
+          "name_inferred_from_email_localpart",
+          "context_sanitized",
+          "mailto_only"
+        ],
+        "evidence_type": "mailto",
+        "raw_name": "Salford Iot",
+        "raw_role": "",
+        "clean_name": "Salford Iot",
+        "email_normalized": "salford-iot@salford.ac.uk"
+      }
+    ],
+    "deduped_contacts": [],
+    "dead_shell_contexts": [],
+    "repeated_zero_evidence_signatures": {}
+  }
+}

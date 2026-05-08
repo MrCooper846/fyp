@@ -1,0 +1,1758 @@
+{
+  "method": "ai_slug",
+  "university": "Wayne State University",
+  "homepage_url": "https://wayne.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 150,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 5,
+    "contacts_extracted": 41,
+    "contacts_kept": 1,
+    "time_seconds": 23.19766640663147,
+    "tokens_in": 6386,
+    "tokens_out": 3800,
+    "cost_dollars": 0.0129516,
+    "best_url": "https://wayne.edu/directory",
+    "source_breakdown": {
+      "mailto_explicit": 29,
+      "visible_regex": 29,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 18
+    }
+  },
+  "contacts": [
+    {
+      "name": "Alumni Affairs Medicine",
+      "email": "alumni@med.wayne.edu",
+      "role": "rector",
+      "page_url": "https://wayne.edu/directory",
+      "score": 13,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 131,
+      "generated_slug_only": 150,
+      "real_link_only": 81,
+      "hybrid": 209
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 0,
+      "cms": 0,
+      "structured_endpoints": 11,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "https://wayne.edu/directory",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Skip to site menu",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs",
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "https://wayne.edu/faculty",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "https://wayne.edu/search-advanced",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "People search",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "https://oeo.wayne.edu/faculty-staff-accommodations",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Accommodations for faculty and staff",
+        "parent_url": "https://hr.wayne.edu/current",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "https://provost.wayne.edu/academic-personnel",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Faculty resources",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "https://provost.wayne.edu/academic-personnel/about",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 7.25,
+        "anchor_text": "About us",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "https://provost.wayne.edu/academic-personnel/administrative-resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Administrative resources",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "https://provost.wayne.edu/academic-personnel/professional-development",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Professional development",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "https://provost.wayne.edu/academic-personnel/recognition",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Awards and recognition",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://provost.wayne.edu/academic-personnel/resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Tools and resources",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "https://provost.wayne.edu/academic-personnel/resources/collective-bargaining",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Collective bargaining agreements",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "https://provost.wayne.edu/academic-personnel/workplace-initiatives",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "directory",
+        "heuristic_score": 6.05,
+        "anchor_text": "Workplace initiatives",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://hr.wayne.edu/current",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "https://theatreanddance.wayne.edu/about/people/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 13.25,
+        "anchor_text": "Maggie Allesee Department of Theatre and Dance",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "https://cfpca.wayne.edu/art/faculty-staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "James Pearson Duffy Department of Art, Art History, and Design",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://wayne.edu/directory?l=B",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "B",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://wayne.edu/directory?l=C",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "C",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://wayne.edu/directory?l=D",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "D",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://wayne.edu/directory?l=E",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "E",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://wayne.edu/directory?l=F",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "F",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://wayne.edu/directory?l=G",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "G",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://wayne.edu/directory?l=H",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "H",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://wayne.edu/directory?l=I",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "I",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://wayne.edu/directory?l=J",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "J",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://wayne.edu/directory?l=K",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "K",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://wayne.edu/directory?l=L",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "L",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://wayne.edu/directory?l=M",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "M",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://wayne.edu/directory?l=N",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "N",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://wayne.edu/directory?l=O",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "O",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://wayne.edu/directory?l=P",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "P",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://wayne.edu/directory?l=Q",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Q",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://wayne.edu/directory?l=R",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "R",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://wayne.edu/directory?l=S",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "S",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "https://wayne.edu/directory?l=T",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "T",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "https://wayne.edu/directory?l=U",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "U",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "https://wayne.edu/directory?l=V",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "V",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "https://wayne.edu/directory?l=W",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "W",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "https://wayne.edu/directory?l=X",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "X",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "https://wayne.edu/directory?l=Y",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "Y",
+        "parent_url": "https://wayne.edu/directory",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "https://clas.wayne.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "College of Liberal Arts and Sciences",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "https://comm.wayne.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Department of Communication",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "https://education.wayne.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "College of Education",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "https://engineering.wayne.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "College of Engineering",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "https://music.wayne.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Department of Music",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "https://nursing.wayne.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "College of Nursing",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "https://provost.wayne.edu/academic-personnel/resources/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Resources for faculty Faculty resources at-a-glance is an overview on one page.",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "https://provost.wayne.edu/academic-personnel/resources/faculty-rosters",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty rosters",
+        "parent_url": "https://provost.wayne.edu/academic-personnel",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "https://wayne.edu/gradschool/faculty/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Graduate faculty resources",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://wayne.edu/registrar/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Approving Course Withdrawals",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://wayne.edu/registrar/faculty/changing-grades",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Posting Grade Changes",
+        "parent_url": "https://wayne.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "https://wayne.edu/admissions",
+        "source_type": "search",
+        "source_strategy": "structured_endpoints",
+        "source_stage": "homepage_search_link",
+        "page_family": "directory",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions and aid Our tuition is the lowest among Michigan's major research universities.",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "profile_slugs",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "https://wayne.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "https://wayne.edu/staff",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "https://wayne.edu/en/directory/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "https://wayne.edu/en/directory/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "https://wayne.edu/en/directory/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "https://wayne.edu/en/directory/studyabroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "https://wayne.edu/en/faculty/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "https://wayne.edu/directory/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "https://wayne.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "https://global.wayne.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 1,
+      "best_url": "https://wayne.edu/directory",
+      "best_url_kept": 1,
+      "source_breakdown": {
+        "mailto_explicit": 29,
+        "visible_regex": 29,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 18
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "https://wayne.edu/directory",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 26,
+        "kept_contacts": 1,
+        "rejected_contacts": 14,
+        "missing_email_candidates": 9,
+        "page_length": 111002,
+        "visible_text_length": 10633,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "69cb4780533288eef0a704e107b4faab0b0da312",
+        "content_signatures": [
+          "69cb4780533288eef0a704e107b4faab0b0da312"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://wayne.edu/directory",
+        "mailto_count": 26,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 9.85,
+        "source_breakdown": {
+          "mailto_explicit": 26,
+          "visible_regex": 26,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Alumni Affairs Medicine",
+            "email": "alumni@med.wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 13,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "provost@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ilitchadmin@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "aj0532@wayne.edu",
+            "role": "Accounting Services - Fiscal Operations",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "atec@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "afamstudies@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ag7935@wayne.edu",
+            "role": "Alumni Relations",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ez0681@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "aa7651@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "fx3409@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "art@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ad3345@wayne.edu",
+            "role": "Assistant Dean, Mike Ilitch School of Business, Hessler Student Success Center",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "ai5611@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "avtc@wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          },
+          {
+            "name": "",
+            "email": "henein@eng.wayne.edu",
+            "role": "rector",
+            "page_url": "https://wayne.edu/directory",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Academic Senate",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Academic Senate",
+            "raw_role": "rector",
+            "clean_name": "Academic Senate",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Academic Senate\nFaculty/Administration (Room: 1279)\n656 W. Kirby,\nDetroit, MI 48202\n(map)\nbb4184@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Alumni House",
+            "role": "Alumni Relations",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Alumni House",
+            "raw_role": "Alumni Relations",
+            "clean_name": "Alumni House",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Alumni Relations\nAlumni House\n441 Gilmour Mall,\nDetroit, MI 48202\n(map)\nag7935@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Chemical Engineers Wsu Chapter",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Chemical Engineers Wsu Chapter",
+            "raw_role": "rector",
+            "clean_name": "Chemical Engineers Wsu Chapter",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "American Institute of Chemical Engineers -- WSU Chapter\nEngineering, James and Patricia Anderson College of (Room: 1212)\n5050 Anthony Wayne,\nDetroit, MI 48202\n(map)\nek5108@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Civil Engineers Wsu Chapter",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Civil Engineers Wsu Chapter",
+            "raw_role": "rector",
+            "clean_name": "Civil Engineers Wsu Chapter",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "American Society of Civil Engineers -- WSU Chapter\nEngineering, James and Patricia Anderson College of (Room: 1214)\n5050 Anthony Wayne,\nDetroit, MI 48202\n(map)\nex2444@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anatomy Cell Biology Medicine",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Anatomy Cell Biology Medicine",
+            "raw_role": "rector",
+            "clean_name": "Anatomy Cell Biology Medicine",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Anatomy & Cell Biology - Medicine\nScott Hall (Room: 8374)\n540 E. Canfield,\nDetroit, MI 48201\n(map)\nlhazlett@med.wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anthony Wayne Drive Apartments",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Anthony Wayne Drive Apartments",
+            "raw_role": "rector",
+            "clean_name": "Anthony Wayne Drive Apartments",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Anthony Wayne Drive Apartments\n5235 Anthony Wayne Dr,\nDetroit, MI 48202\n(map)\nhousing@wayne.edu\n313-577-1815",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Anthropology Museum Liberal Arts",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Anthropology Museum Liberal Arts",
+            "raw_role": "rector",
+            "clean_name": "Anthropology Museum Liberal Arts",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Anthropology Museum - Liberal Arts and Sciences\nOld Main (Room: Suite 1227)\n4841 Cass,\nDetroit, MI 48201\n(map)\nGrosscupMuseum@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Labor Urban Affairs",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Labor Urban Affairs",
+            "raw_role": "rector",
+            "clean_name": "Labor Urban Affairs",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Archives of Labor & Urban Affairs\nWalter P. Reuther Library, Archives of Labor and Urban Affairs (Room: 5401)\n5401 Cass,\nDetroit, MI 48202\n(map)\nreutherreference@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Athletics Intramurals Recreation",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://wayne.edu/directory",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Athletics Intramurals Recreation",
+            "raw_role": "rector",
+            "clean_name": "Athletics Intramurals Recreation",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Athletics, Intramurals & Recreation\nMatthaei Physical Education Center (Room: 101)\n5101 John C. Lodge,\nDetroit, MI 48202\n(map)\nai5611@wayne.edu",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://wayne.edu/faculty",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 36210,
+        "visible_text_length": 2232,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "711a3630ff1cd1f32bb42f7732b669b6bcc8dba7",
+        "content_signatures": [
+          "711a3630ff1cd1f32bb42f7732b669b6bcc8dba7"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|https://wayne.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://wayne.edu/search-advanced",
+        "fetch_succeeded": false,
+        "pages_fetched": 0,
+        "raw_contacts": 0,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 0,
+        "visible_text_length": 0,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [],
+        "shell_like": false,
+        "content_signature": "",
+        "content_signatures": [],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|https://wayne.edu/faculty",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 0
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://oeo.wayne.edu/faculty-staff-accommodations",
+        "fetch_succeeded": true,
+        "pages_fetched": 2,
+        "raw_contacts": 3,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 1,
+        "page_length": 41522,
+        "visible_text_length": 6395,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "b7ce7b3face2a6af40cf2fdf80776253738777fc",
+        "content_signatures": [
+          "b7ce7b3face2a6af40cf2fdf80776253738777fc",
+          "53a428f6560a4d47ea3d94fb234c0a6c3a07c885"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://hr.wayne.edu/current",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 3
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "oeo@wayne.edu",
+            "role": "Office of Equal Opportunity",
+            "page_url": "https://oeo.wayne.edu/faculty-staff-accommodations",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": [
+          {
+            "name": "Account Management",
+            "role": "Office of Equal Opportunity",
+            "email": "",
+            "page_url": "https://oeo.wayne.edu/faculty-staff-accommodations",
+            "source_strategies": [
+              "mailto_explicit",
+              "visible_regex",
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "mailto",
+            "raw_name": "Account Management",
+            "raw_role": "Office of Equal Opportunity",
+            "clean_name": "Account Management",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "context_sanitized"
+            ],
+            "context": "Employees may update their disability and veteran status through the\nAccount Management menu in Academica\n. If you have any questions, please contact the Office of Equal Opportunity at\noeo@wayne.edu\nor call (313) 577-2280.",
+            "source": "mailto_explicit",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      },
+      {
+        "url": "https://provost.wayne.edu/academic-personnel",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 1,
+        "missing_email_candidates": 0,
+        "page_length": 36467,
+        "visible_text_length": 1993,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "801115c52f7031c2506221bfc1c3d0a790073a33",
+        "content_signatures": [
+          "801115c52f7031c2506221bfc1c3d0a790073a33"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_footer|https://wayne.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "footer",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_footer",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [
+          {
+            "name": "",
+            "email": "facultyaffairs@wayne.edu",
+            "role": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel",
+            "score": 0,
+            "reason": "irrelevant office inbox"
+          }
+        ],
+        "missing_email_rows": []
+      },
+      {
+        "url": "https://provost.wayne.edu/academic-personnel/about",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 10,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 9,
+        "page_length": 30821,
+        "visible_text_length": 1980,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "dd37196f0d0851f852042b227963406612183f07",
+        "content_signatures": [
+          "dd37196f0d0851f852042b227963406612183f07"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_nav|https://provost.wayne.edu/academic-personnel",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_nav",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 7.25,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 10
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": [
+          {
+            "name": "Sara Kacin",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Sara Kacin",
+            "raw_role": "Assistant Vice Provost for Faculty Development and Faculty Success, and Director of the Office for Teaching & Learning",
+            "clean_name": "Sara Kacin",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jennifer Wareham",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jennifer Wareham",
+            "raw_role": "Interim Vice Provost for Faculty Affairs and Academic Personnel",
+            "clean_name": "Jennifer Wareham",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Charlene Brain",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Charlene Brain",
+            "raw_role": "Associate Director for Faculty Affairs",
+            "clean_name": "Charlene Brain",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Krista Brumley",
+            "role": "rector",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Krista Brumley",
+            "raw_role": "Director of Workplace Initiatives",
+            "clean_name": "Krista Brumley",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Maria Coleman",
+            "role": "Faculty Affairs Senior Specialist",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Maria Coleman",
+            "raw_role": "Faculty Affairs Senior Specialist",
+            "clean_name": "Maria Coleman",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Nicole Gerring",
+            "role": "",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Nicole Gerring",
+            "raw_role": "Research Supervisor",
+            "clean_name": "Nicole Gerring",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Joanna Poe",
+            "role": "Program Coordinator, Faculty Development and Faculty Success",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Joanna Poe",
+            "raw_role": "Program Coordinator, Faculty Development and Faculty Success",
+            "clean_name": "Joanna Poe",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Jake Wilson",
+            "role": "Faculty Affairs Coordinator",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Jake Wilson",
+            "raw_role": "Faculty Affairs Coordinator",
+            "clean_name": "Jake Wilson",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          },
+          {
+            "name": "Boris Baltes",
+            "role": "provost",
+            "email": "",
+            "page_url": "https://provost.wayne.edu/academic-personnel/about",
+            "source_strategies": [
+              "llm_structured"
+            ],
+            "candidate_type": "person_without_email",
+            "evidence_type": "person_without_email",
+            "raw_name": "Boris Baltes",
+            "raw_role": "Senior Vice Provost for Faculty Affairs and Academic Personnel",
+            "clean_name": "Boris Baltes",
+            "email_normalized": "",
+            "cleanup_flags": [
+              "llm_named_without_email"
+            ],
+            "context": "",
+            "source": "llm_structured",
+            "reached_filtering": false,
+            "missing_email_candidate": false
+          }
+        ]
+      }
+    ]
+  }
+}

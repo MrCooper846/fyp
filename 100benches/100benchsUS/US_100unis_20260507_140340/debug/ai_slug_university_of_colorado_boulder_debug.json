@@ -1,0 +1,1233 @@
+{
+  "method": "ai_slug",
+  "university": "University of Colorado Boulder",
+  "homepage_url": "http://www.colorado.edu/",
+  "summary": {
+    "status": "ok",
+    "error": "",
+    "candidates_found": 205,
+    "candidates_ranked": 60,
+    "probe_attempts": 6,
+    "candidates_probed": 6,
+    "contacts_extracted": 58,
+    "contacts_kept": 1,
+    "time_seconds": 51.360233306884766,
+    "tokens_in": 64261,
+    "tokens_out": 18800,
+    "cost_dollars": 0.08367659999999999,
+    "best_url": "http://www.colorado.edu/admissions/process/international/confirm",
+    "source_breakdown": {
+      "mailto_explicit": 5,
+      "visible_regex": 5,
+      "html_attribute": 0,
+      "embedded_json": 0,
+      "js_decode": 0,
+      "explicit_obfuscation": 0,
+      "llm_structured": 58
+    }
+  },
+  "contacts": [
+    {
+      "name": "Send Final Official Transcripts",
+      "email": "transcripts@colorado.edu",
+      "role": "admissions",
+      "page_url": "http://www.colorado.edu/admissions/process/international/confirm",
+      "score": 11,
+      "reason": "ok"
+    }
+  ],
+  "diagnostics": {
+    "method_type": "direct",
+    "selected_mode": "generated_slug_only",
+    "llm_slug_hints": [],
+    "discovery_candidate_counts": {
+      "heuristic_only": 184,
+      "generated_slug_only": 205,
+      "real_link_only": 136,
+      "hybrid": 264
+    },
+    "collector_counts": {
+      "real_link_multihop": 60,
+      "heuristic_slugs": 60,
+      "profile_slugs": 15,
+      "family_templates": 60,
+      "sitemap": 60,
+      "cms": 0,
+      "structured_endpoints": 15,
+      "subdomains": 12
+    },
+    "selected_candidates": [
+      {
+        "rank": 1,
+        "url": "http://experts.colorado.edu/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Research Directory",
+        "parent_url": "http://www.colorado.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 2,
+        "url": "http://www.colorado.edu/faculty",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates",
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 3,
+        "url": "http://www.colorado.edu/staff",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs",
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 4,
+        "url": "http://www.colorado.edu/admissions/process/international",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "International Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 5,
+        "url": "http://www.colorado.edu/admissions/process/international/admitted",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Admitted International",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 6,
+        "url": "http://www.colorado.edu/admissions/process/international/confirm",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Confirm",
+        "parent_url": "http://www.colorado.edu/admissions/process/international",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 7,
+        "url": "http://www.colorado.edu/admissions/process/international/faqs",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "FAQs",
+        "parent_url": "http://www.colorado.edu/admissions/process/international",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 8,
+        "url": "http://www.colorado.edu/admissions/process/international/plan",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 9.3,
+        "anchor_text": "Plan",
+        "parent_url": "http://www.colorado.edu/admissions/process/international",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 9,
+        "url": "http://www.colorado.edu/admissions/process/international/plan/english-proficiency",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "international",
+        "heuristic_score": 8.85,
+        "anchor_text": "Send Your English Proficiency Scores",
+        "parent_url": "http://www.colorado.edu/admissions/process/international/admitted",
+        "source_strategies": [
+          "real_link_multihop",
+          "sitemap"
+        ]
+      },
+      {
+        "rank": 10,
+        "url": "https://www.colorado.edu/researchinnovation",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "office",
+        "heuristic_score": 3.7,
+        "anchor_text": "Research & Innovation Office",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 11,
+        "url": "http://www.colorado.edu/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "profile_slugs",
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 12,
+        "url": "http://www.colorado.edu/researchinnovation/research-strategy-development",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "generic",
+        "heuristic_score": 2.75,
+        "anchor_text": "Research Opportunities",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop",
+          "structured_endpoints"
+        ]
+      },
+      {
+        "rank": 13,
+        "url": "https://www.colorado.edu/hr/resources",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 10.45,
+        "anchor_text": "Staff/Faculty",
+        "parent_url": "https://www.colorado.edu/police/data-dashboards",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 14,
+        "url": "http://www.colorado.edu/bfa",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Boulder Faculty Assembly",
+        "parent_url": "http://www.colorado.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 15,
+        "url": "http://www.colorado.edu/staffcouncil",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Staff Council",
+        "parent_url": "http://www.colorado.edu/staff",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 16,
+        "url": "https://www.colorado.edu/facultyaffairs/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Affairs",
+        "parent_url": "http://www.colorado.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 17,
+        "url": "https://www.colorado.edu/facultydevelopmentandsupport/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Development & Support",
+        "parent_url": "http://www.colorado.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 18,
+        "url": "https://www.colorado.edu/ombuds/",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "directory",
+        "heuristic_score": 8.25,
+        "anchor_text": "Faculty Ombuds",
+        "parent_url": "http://www.colorado.edu/faculty",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 19,
+        "url": "https://www.colorado.edu/leadershipsupport/",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Leadership Support & Programming",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 20,
+        "url": "https://www.colorado.edu/leadershipsupport/action-plan",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Action Plan",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 21,
+        "url": "https://www.colorado.edu/leadershipsupport/campus-programs",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Programs",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 22,
+        "url": "https://www.colorado.edu/leadershipsupport/five-goals",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Goals",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 23,
+        "url": "https://www.colorado.edu/leadershipsupport/resources",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Resources",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 24,
+        "url": "https://www.colorado.edu/police/data-dashboards",
+        "source_type": "footer",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_footer",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "request a paper copy",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 25,
+        "url": "https://colorado.edu/service/workforce",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "office",
+        "heuristic_score": 1.5,
+        "anchor_text": "Workforce Development Hub",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 26,
+        "url": "https://www.colorado.edu/police/services",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "office",
+        "heuristic_score": 1.5,
+        "anchor_text": "Services",
+        "parent_url": "https://www.colorado.edu/police/data-dashboards",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 27,
+        "url": "https://www.colorado.edu/leadershipsupport/node/153",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Action Planning Status",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 28,
+        "url": "https://www.colorado.edu/leadershipsupport/node/35",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "Diversity, Equity and Inclusion Goals",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 29,
+        "url": "https://www.colorado.edu/leadershipsupport/resources/shared-equity-leadership",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 6.15,
+        "anchor_text": "shared equity leadership",
+        "parent_url": "https://www.colorado.edu/leadershipsupport/",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 30,
+        "url": "https://www.colorado.edu/police/data-dashboards/annual-reports",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Annual Reports",
+        "parent_url": "https://www.colorado.edu/police/data-dashboards",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 31,
+        "url": "https://www.colorado.edu/police/data-dashboards/campus-safety-policies",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Campus Safety Policies",
+        "parent_url": "https://www.colorado.edu/police/data-dashboards",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 32,
+        "url": "https://www.colorado.edu/police/data-dashboards/daily-crime-log",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Daily Crime Log",
+        "parent_url": "https://www.colorado.edu/police/data-dashboards",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 33,
+        "url": "https://www.colorado.edu/police/data-dashboards/dashboards",
+        "source_type": "body",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_body",
+        "page_family": "governance",
+        "heuristic_score": 2.75,
+        "anchor_text": "Dashboards",
+        "parent_url": "https://www.colorado.edu/police/data-dashboards",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 34,
+        "url": "http://www.colorado.edu/admissions/connect",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Connect With Us",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 35,
+        "url": "http://www.colorado.edu/admissions/process",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "first_hop_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admission Process",
+        "parent_url": "http://www.colorado.edu/admissions/process/international",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 36,
+        "url": "http://www.colorado.edu/admissions/process/first-year",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "First-Year Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 37,
+        "url": "http://www.colorado.edu/admissions/process/first-year/admitted",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admitted First-Year",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 38,
+        "url": "http://www.colorado.edu/admissions/process/readmit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Readmitted Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 39,
+        "url": "http://www.colorado.edu/admissions/process/transfer",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Transfer Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 40,
+        "url": "http://www.colorado.edu/admissions/process/transfer/admitted",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admitted Transfer",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 41,
+        "url": "http://www.colorado.edu/admissions/process/undocumented",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Undocumented Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 42,
+        "url": "http://www.colorado.edu/admissions/process/veteran",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Veteran Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 43,
+        "url": "http://www.colorado.edu/admissions/process/veteran/admitted",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admitted Veteran",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 44,
+        "url": "http://www.colorado.edu/admissions/visit",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Admissions Visit Programs",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 45,
+        "url": "http://www.colorado.edu/admissions/visit/first-year",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "First-Year Students",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 46,
+        "url": "http://www.colorado.edu/admissions/visit/graduate",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Graduate Students",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 47,
+        "url": "http://www.colorado.edu/admissions/visit/transfer",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Transfer Students",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 48,
+        "url": "http://www.colorado.edu/admissions/why-cu-boulder",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Why CU Boulder",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 49,
+        "url": "https://www.colorado.edu/admissions/cost",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Cost",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 50,
+        "url": "https://www.colorado.edu/graduateschool/admissions",
+        "source_type": "nav",
+        "source_strategy": "real_link_multihop",
+        "source_stage": "homepage_nav",
+        "page_family": "admissions",
+        "heuristic_score": 3.3,
+        "anchor_text": "Graduate Applicants",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "real_link_multihop"
+        ]
+      },
+      {
+        "rank": 51,
+        "url": "http://www.colorado.edu/directory",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 52,
+        "url": "http://www.colorado.edu/people",
+        "source_type": "profile_slug",
+        "source_strategy": "profile_slugs",
+        "source_stage": "profile_or_localised_slug",
+        "page_family": "directory",
+        "heuristic_score": 9.85,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "family_templates",
+          "profile_slugs"
+        ]
+      },
+      {
+        "rank": 53,
+        "url": "http://www.colorado.edu/en/faculty/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 54,
+        "url": "http://www.colorado.edu/en/staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.85,
+        "anchor_text": "",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 55,
+        "url": "http://www.colorado.edu/faculty/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 56,
+        "url": "http://www.colorado.edu/staff/mobility",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_branch",
+        "page_family": "directory",
+        "heuristic_score": 12.05,
+        "anchor_text": "",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 57,
+        "url": "http://www.colorado.edu/en/faculty/exchange",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 58,
+        "url": "http://www.colorado.edu/en/faculty/study-abroad",
+        "source_type": "family_template",
+        "source_strategy": "family_templates",
+        "source_stage": "family_template_language_branch",
+        "page_family": "directory",
+        "heuristic_score": 11.25,
+        "anchor_text": "",
+        "parent_url": "http://www.colorado.edu",
+        "source_strategies": [
+          "family_templates"
+        ]
+      },
+      {
+        "rank": 59,
+        "url": "http://global.colorado.edu",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      },
+      {
+        "rank": 60,
+        "url": "http://global.colorado.edu/",
+        "source_type": "subdomain",
+        "source_strategy": "subdomains",
+        "source_stage": "generated_subdomain",
+        "page_family": "international",
+        "heuristic_score": 7.1,
+        "anchor_text": "",
+        "parent_url": "",
+        "source_strategies": [
+          "subdomains"
+        ]
+      }
+    ],
+    "probe_summary": {
+      "probe_attempts": 6,
+      "failed_fetches": 0,
+      "best_url": "http://www.colorado.edu/admissions/process/international/confirm",
+      "best_url_kept": 1,
+      "source_breakdown": {
+        "mailto_explicit": 5,
+        "visible_regex": 5,
+        "html_attribute": 0,
+        "embedded_json": 0,
+        "js_decode": 0,
+        "explicit_obfuscation": 0,
+        "llm_structured": 58
+      },
+      "dead_shell_contexts": [],
+      "repeated_zero_evidence_signatures": {},
+      "pruned_candidates": []
+    },
+    "page_results": [
+      {
+        "url": "http://experts.colorado.edu/",
+        "fetch_succeeded": true,
+        "pages_fetched": 1,
+        "raw_contacts": 1,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 17212,
+        "visible_text_length": 1790,
+        "embedded_text_length": 0,
+        "embedded_document_count": 0,
+        "acquisition_modes": [
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "ad9c0b51ec12cf59dd4c0565e4e3b08f3433c383",
+        "content_signatures": [
+          "ad9c0b51ec12cf59dd4c0565e4e3b08f3433c383"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|http://www.colorado.edu/faculty",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 10.45,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 1
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.colorado.edu/faculty",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 12,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 562581,
+        "visible_text_length": 47123,
+        "embedded_text_length": 134,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "490e05edf4ff0794cf35d9ef6cad4b65bacf6bf3",
+        "content_signatures": [
+          "490e05edf4ff0794cf35d9ef6cad4b65bacf6bf3",
+          "8be573b07e1639fc0aa83e3d67aeb54dae52c91c",
+          "b7e3f83d308290abf366c14b22317e4ed9afb0d2",
+          "60a435eeb858b96dd93174d2ee0e623ff3e3ec0a",
+          "457001e9d20de664c1128eb3d978daba44119e26"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_body|http://www.colorado.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 12
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.colorado.edu/staff",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 12,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 560823,
+        "visible_text_length": 47066,
+        "embedded_text_length": 182,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "acaad83759dc75a9bd9ebd94486bf6291b6bda70",
+        "content_signatures": [
+          "acaad83759dc75a9bd9ebd94486bf6291b6bda70",
+          "8be573b07e1639fc0aa83e3d67aeb54dae52c91c",
+          "490e05edf4ff0794cf35d9ef6cad4b65bacf6bf3",
+          "b7e3f83d308290abf366c14b22317e4ed9afb0d2",
+          "60a435eeb858b96dd93174d2ee0e623ff3e3ec0a",
+          "457001e9d20de664c1128eb3d978daba44119e26"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_body|http://www.colorado.edu",
+        "mailto_count": 0,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_body",
+        "candidate_page_family": "directory",
+        "candidate_heuristic_score": 8.25,
+        "source_breakdown": {
+          "mailto_explicit": 0,
+          "visible_regex": 0,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 12
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.colorado.edu/admissions/process/international",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 11,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 584860,
+        "visible_text_length": 52977,
+        "embedded_text_length": 327,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "db02cad087850b2c5fbf87171850e31ffdef0527",
+        "content_signatures": [
+          "db02cad087850b2c5fbf87171850e31ffdef0527",
+          "2106a896fc8ad03096daa4224e0cad1099e365b9",
+          "8be573b07e1639fc0aa83e3d67aeb54dae52c91c",
+          "490e05edf4ff0794cf35d9ef6cad4b65bacf6bf3",
+          "98396ca61bcd9850f2b697a792f6a6b9edf5716d"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": true,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.colorado.edu",
+        "mailto_count": 1,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 9.3,
+        "source_breakdown": {
+          "mailto_explicit": 1,
+          "visible_regex": 1,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.colorado.edu/admissions/process/international/admitted",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 11,
+        "kept_contacts": 0,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 607052,
+        "visible_text_length": 60442,
+        "embedded_text_length": 327,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "98396ca61bcd9850f2b697a792f6a6b9edf5716d",
+        "content_signatures": [
+          "98396ca61bcd9850f2b697a792f6a6b9edf5716d",
+          "2106a896fc8ad03096daa4224e0cad1099e365b9",
+          "8be573b07e1639fc0aa83e3d67aeb54dae52c91c",
+          "db02cad087850b2c5fbf87171850e31ffdef0527",
+          "490e05edf4ff0794cf35d9ef6cad4b65bacf6bf3"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|homepage_nav|http://www.colorado.edu",
+        "mailto_count": 2,
+        "candidate_source_type": "nav",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "homepage_nav",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 9.3,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "kept_contact_rows": [],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      },
+      {
+        "url": "http://www.colorado.edu/admissions/process/international/confirm",
+        "fetch_succeeded": true,
+        "pages_fetched": 6,
+        "raw_contacts": 11,
+        "kept_contacts": 1,
+        "rejected_contacts": 0,
+        "missing_email_candidates": 0,
+        "page_length": 595360,
+        "visible_text_length": 56073,
+        "embedded_text_length": 326,
+        "embedded_document_count": 6,
+        "acquisition_modes": [
+          "static_html_plus_embedded_hints",
+          "static_html"
+        ],
+        "shell_like": false,
+        "content_signature": "7d266ed94f152344b74ade54abe9bf12ca4497a5",
+        "content_signatures": [
+          "7d266ed94f152344b74ade54abe9bf12ca4497a5",
+          "2106a896fc8ad03096daa4224e0cad1099e365b9",
+          "8be573b07e1639fc0aa83e3d67aeb54dae52c91c",
+          "db02cad087850b2c5fbf87171850e31ffdef0527",
+          "490e05edf4ff0794cf35d9ef6cad4b65bacf6bf3",
+          "98396ca61bcd9850f2b697a792f6a6b9edf5716d"
+        ],
+        "zero_evidence_shell": false,
+        "weak_llm_shell_inference": false,
+        "duplicate_of": "",
+        "shell_context_key": "real_link_multihop|first_hop_body|http://www.colorado.edu/admissions/process/international",
+        "mailto_count": 2,
+        "candidate_source_type": "body",
+        "candidate_source_strategy": "real_link_multihop",
+        "candidate_source_stage": "first_hop_body",
+        "candidate_page_family": "international",
+        "candidate_heuristic_score": 9.3,
+        "source_breakdown": {
+          "mailto_explicit": 2,
+          "visible_regex": 2,
+          "html_attribute": 0,
+          "embedded_json": 0,
+          "js_decode": 0,
+          "explicit_obfuscation": 0,
+          "llm_structured": 11
+        },
+        "kept_contact_rows": [
+          {
+            "name": "Send Final Official Transcripts",
+            "email": "transcripts@colorado.edu",
+            "role": "admissions",
+            "page_url": "http://www.colorado.edu/admissions/process/international/confirm",
+            "score": 11,
+            "reason": "ok"
+          }
+        ],
+        "rejected_contact_rows": [],
+        "missing_email_rows": []
+      }
+    ]
+  }
+}
